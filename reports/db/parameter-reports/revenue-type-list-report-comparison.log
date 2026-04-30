@@ -1,0 +1,57 @@
+Timestamp: 2026-04-30T12:50:11.623Z
+Report: Parameter Reports - Revenue Type List DB Validation
+
+Executed Query:
+select * from prm_revenue_type where property_id='webwe'
+
+Total DB Rows: 11
+Total Matched Rows: 11
+
+Comparison Details (DB vs PDF):
+1. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=FOOD & BEVERAGE
+   matched: description=FOOD & BEVERAGE
+   missing: none
+2. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=CROCKERY
+   matched: description=CROCKERY
+   missing: none
+3. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=MINOR OPERATING
+   matched: description=MINOR OPERATING
+   missing: none
+4. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=TELEPHONES
+   matched: description=TELEPHONES
+   missing: none
+5. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=NWE
+   matched: description=NWE
+   missing: none
+6. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=OTHER RENTALS
+   matched: description=OTHER RENTALS
+   missing: none
+7. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=OTHERS
+   matched: description=OTHERS
+   missing: none
+8. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=TAXES
+   matched: description=TAXES
+   missing: none
+9. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=WWWWWWWWWWWW
+   matched: description=WWWWWWWWWWWW
+   missing: none
+10. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=PAYMENTS
+   matched: description=PAYMENTS
+   missing: none
+11. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=ROOM REVENUE
+   matched: description=ROOM REVENUE
+   missing: none
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\revenue-type-list-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\revenue-type-list-report-vs-db.json

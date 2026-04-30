@@ -1,0 +1,195 @@
+{
+  "reportTitle": "Parameter Reports - Payment Method List DB Validation",
+  "queryText": "select * from prm_payment_method where property_id='webwe'",
+  "totalDbRows": 11,
+  "totalMatchedRows": 11,
+  "comparison": [
+    {
+      "rowNumber": 1,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "AMERICAN EXPRESS"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "AMERICAN EXPRESS"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 2,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "CASH"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "CASH"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 3,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "DINERS CARD"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "DINERS CARD"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 4,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "DIGITAL PAYMENT"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "DIGITAL PAYMENT"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 5,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "SV CARD CLUB"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "SV CARD CLUB"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 6,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "MASTER CARD"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "MASTER CARD"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 7,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "OTHER CARD"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "OTHER CARD"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 8,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "RUPAY CARD"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "RUPAY CARD"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 9,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "SV CARD"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "SV CARD"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 10,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "VOUCHER"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "VOUCHER"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 11,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "VISA CARD"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "VISA CARD"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    }
+  ]
+}

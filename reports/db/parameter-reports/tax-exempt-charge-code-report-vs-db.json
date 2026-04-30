@@ -1,0 +1,333 @@
+{
+  "reportTitle": "Parameter Reports - Tax Exempt Charge Code DB Validation",
+  "queryText": "select * from prm_tax_xmpt_charge_cd where property_id='webwe'",
+  "totalDbRows": 13,
+  "totalMatchedRows": 13,
+  "comparison": [
+    {
+      "rowNumber": 1,
+      "relevantValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "NE"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXA1"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "NE"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXA1"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 2,
+      "relevantValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "NE"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXF1"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "NE"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXF1"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 3,
+      "relevantValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "SVCH"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "SVCH"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 4,
+      "relevantValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXA1"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXA1"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 5,
+      "relevantValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXA2"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXA2"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 6,
+      "relevantValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXF1"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXF1"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 7,
+      "relevantValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXR1"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXR1"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 8,
+      "relevantValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "NE"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXF2"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "NE"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXF2"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 9,
+      "relevantValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXA1"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXA1"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 10,
+      "relevantValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXF2"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXF2"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 11,
+      "relevantValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXR2"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXR2"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 12,
+      "relevantValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXF2"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXF2"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 13,
+      "relevantValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXF1"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "TA"
+        },
+        {
+          "column": "charge_code",
+          "value": "TXF1"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    }
+  ]
+}

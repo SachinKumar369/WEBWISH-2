@@ -1,0 +1,49 @@
+Timestamp: 2026-04-29T05:13:57.693Z
+Report: Parameter Reports - Visa Type List DB Validation
+
+Executed Query:
+select * from prm_common_masters where property_id='webwe' and param_type='VISA'
+
+Total DB Rows: 9
+Total Matched Rows: 9
+
+Comparison Details (DB vs PDF):
+1. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=BUSS, description=BUSINESS VISA
+   matched: param_code=BUSS, description=BUSINESS VISA
+   missing: none
+2. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=EDUI, description=EDUCATION VISA
+   matched: param_code=EDUI, description=EDUCATION VISA
+   missing: none
+3. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=EMPY, description=EMPLOYEE VISA
+   matched: param_code=EMPY, description=EMPLOYEE VISA
+   missing: none
+4. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=MEDI, description=MEDICAL VISA
+   matched: param_code=MEDI, description=MEDICAL VISA
+   missing: none
+5. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=OTHR, description=OTHER PURPOSE VISA
+   matched: param_code=OTHR, description=OTHER PURPOSE VISA
+   missing: none
+6. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=RESI, description=RESIDENT VISA
+   matched: param_code=RESI, description=RESIDENT VISA
+   missing: none
+7. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=STUD, description=STUDENT VISA
+   matched: param_code=STUD, description=STUDENT VISA
+   missing: none
+8. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=TOUR, description=TOURIST VISA
+   matched: param_code=TOUR, description=TOURIST VISA
+   missing: none
+9. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=TRAN, description=TRANSIT VISA
+   matched: param_code=TRAN, description=TRANSIT VISA
+   missing: none
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\visa-type-list-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\visa-type-list-report-vs-db.json

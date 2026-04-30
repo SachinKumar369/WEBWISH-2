@@ -1,0 +1,204 @@
+{
+  "reportTitle": "Parameter Reports - Checkout Message DB Validation",
+  "queryText": "select * from prm_common_masters where property_id='webwe' and param_type='COMG'",
+  "totalDbRows": 4,
+  "totalMatchedRows": 4,
+  "comparison": [
+    {
+      "rowNumber": 1,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "CH"
+        },
+        {
+          "column": "description",
+          "value": "CHECKOUT SAFELY TEST"
+        },
+        {
+          "column": "active",
+          "value": "Ü"
+        },
+        {
+          "column": "created_by",
+          "value": "ARCHANA"
+        },
+        {
+          "column": "created_on",
+          "value": "07/10/2025"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "CH"
+        },
+        {
+          "column": "description",
+          "value": "CHECKOUT SAFELY TEST"
+        },
+        {
+          "column": "active",
+          "value": "Ü"
+        },
+        {
+          "column": "created_by",
+          "value": "ARCHANA"
+        },
+        {
+          "column": "created_on",
+          "value": "07/10/2025"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 2,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "CK"
+        },
+        {
+          "column": "description",
+          "value": "COLLECT KEYS FROM THE GUEST"
+        },
+        {
+          "column": "active",
+          "value": "Ü"
+        },
+        {
+          "column": "created_by",
+          "value": "SYSTEM_USER"
+        },
+        {
+          "column": "created_on",
+          "value": "06/05/2025"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "CK"
+        },
+        {
+          "column": "description",
+          "value": "COLLECT KEYS FROM THE GUEST"
+        },
+        {
+          "column": "active",
+          "value": "Ü"
+        },
+        {
+          "column": "created_by",
+          "value": "SYSTEM_USER"
+        },
+        {
+          "column": "created_on",
+          "value": "06/05/2025"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 3,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "CT"
+        },
+        {
+          "column": "description",
+          "value": "CHECKOUT TIME AFTER 12 PM"
+        },
+        {
+          "column": "active",
+          "value": "Ü"
+        },
+        {
+          "column": "created_by",
+          "value": "SUP"
+        },
+        {
+          "column": "created_on",
+          "value": "14/05/2025"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "CT"
+        },
+        {
+          "column": "description",
+          "value": "CHECKOUT TIME AFTER 12 PM"
+        },
+        {
+          "column": "active",
+          "value": "Ü"
+        },
+        {
+          "column": "created_by",
+          "value": "SUP"
+        },
+        {
+          "column": "created_on",
+          "value": "14/05/2025"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 4,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "FC"
+        },
+        {
+          "column": "description",
+          "value": "FEEDBACK FORM FILL"
+        },
+        {
+          "column": "active",
+          "value": "Ü"
+        },
+        {
+          "column": "created_by",
+          "value": "ARCHANA"
+        },
+        {
+          "column": "created_on",
+          "value": "16/05/2025"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "FC"
+        },
+        {
+          "column": "description",
+          "value": "FEEDBACK FORM FILL"
+        },
+        {
+          "column": "active",
+          "value": "Ü"
+        },
+        {
+          "column": "created_by",
+          "value": "ARCHANA"
+        },
+        {
+          "column": "created_on",
+          "value": "16/05/2025"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    }
+  ]
+}

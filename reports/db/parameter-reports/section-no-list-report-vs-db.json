@@ -1,0 +1,158 @@
+{
+  "reportTitle": "Parameter Reports - Section No List DB Validation",
+  "queryText": "select * from prm_common_masters where property_id='webwe' and param_type='RSEC'",
+  "totalDbRows": 6,
+  "totalMatchedRows": 6,
+  "comparison": [
+    {
+      "rowNumber": 1,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "A1"
+        },
+        {
+          "column": "description",
+          "value": "TOWER A"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "A1"
+        },
+        {
+          "column": "description",
+          "value": "TOWER A"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 2,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "N1"
+        },
+        {
+          "column": "description",
+          "value": "SECTION N"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "N1"
+        },
+        {
+          "column": "description",
+          "value": "SECTION N"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 3,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "S1"
+        },
+        {
+          "column": "description",
+          "value": "SECTION A"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "S1"
+        },
+        {
+          "column": "description",
+          "value": "SECTION A"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 4,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "S2"
+        },
+        {
+          "column": "description",
+          "value": "SECTION B"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "S2"
+        },
+        {
+          "column": "description",
+          "value": "SECTION B"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 5,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "S3"
+        },
+        {
+          "column": "description",
+          "value": "SECTION C"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "S3"
+        },
+        {
+          "column": "description",
+          "value": "SECTION C"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 6,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "S4"
+        },
+        {
+          "column": "description",
+          "value": "SECTION D"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "S4"
+        },
+        {
+          "column": "description",
+          "value": "SECTION D"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+username,password,email,role,environment
+SACH,Sachin@578,sach@example.com,admin,all
+TEST_USER,Test@123,testuser@example.com,user,dev
+STAGE_USER,Stage@123,stageuser@example.com,user,stage
+PROD_USER,Prod@123,produser@example.com,user,prod
+DUMMY,Sachin@578,sach@example.com,test,wrongpass

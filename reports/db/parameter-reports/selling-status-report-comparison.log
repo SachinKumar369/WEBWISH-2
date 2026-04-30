@@ -1,0 +1,33 @@
+Timestamp: 2026-04-29T11:13:15.045Z
+Report: Parameter Reports - Selling Status DB Validation
+
+Executed Query:
+select * from prm_common_masters where property_id='webwe' and param_type='RSEL'
+
+Total DB Rows: 5
+Total Matched Rows: 5
+
+Comparison Details (DB vs PDF):
+1. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=HU, description=HOUSE USE
+   matched: param_code=HU, description=HOUSE USE
+   missing: none
+2. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=OC, description=OCCUPIED
+   matched: param_code=OC, description=OCCUPIED
+   missing: none
+3. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=PA, description=PRE-ASSIGN
+   matched: param_code=PA, description=PRE-ASSIGN
+   missing: none
+4. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=PO, description=PERMANENT OUT OF ORDER
+   matched: param_code=PO, description=PERMANENT OUT OF ORDER
+   missing: none
+5. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=VA, description=VACANT
+   matched: param_code=VA, description=VACANT
+   missing: none
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\selling-status-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\selling-status-report-vs-db.json

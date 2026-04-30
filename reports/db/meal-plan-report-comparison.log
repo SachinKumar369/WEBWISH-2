@@ -1,0 +1,32 @@
+Timestamp: 2026-04-28T04:29:14.798Z
+Report: Meal Plan Report DB Validation
+
+Executed Query:
+SELECT * FROM prm_room_type WHERE property_id = @propertyId
+
+Query Parameters:
+{
+  "propertyId": "WEBWE"
+}
+
+Total DB Rows: 14
+Total Matched Rows: 14
+
+Comparison Details (DB vs PDF):
+1. meal_plan_id= | description=AUTOMATION1 | codeFoundInPdf=true | descriptionFoundInPdf=true | matched=true
+2. meal_plan_id= | description=DELUX ROOM | codeFoundInPdf=true | descriptionFoundInPdf=true | matched=true
+3. meal_plan_id= | description=DELUX ROOM SEPRATE | codeFoundInPdf=true | descriptionFoundInPdf=true | matched=true
+4. meal_plan_id= | description=DELUX ROOM | codeFoundInPdf=true | descriptionFoundInPdf=true | matched=true
+5. meal_plan_id= | description=DELUX ROOM SEPARATE | codeFoundInPdf=true | descriptionFoundInPdf=true | matched=true
+6. meal_plan_id= | description=DELUX XAVIOR | codeFoundInPdf=true | descriptionFoundInPdf=true | matched=true
+7. meal_plan_id= | description=AUTOMATION | codeFoundInPdf=true | descriptionFoundInPdf=true | matched=true
+8. meal_plan_id= | description=DUMMY ROOM | codeFoundInPdf=true | descriptionFoundInPdf=true | matched=true
+9. meal_plan_id= | description=DELUX ROOM | codeFoundInPdf=true | descriptionFoundInPdf=true | matched=true
+10. meal_plan_id= | description=EXTRA BED IN ROOM BIG FAMILY | codeFoundInPdf=true | descriptionFoundInPdf=true | matched=true
+11. meal_plan_id= | description=FAMILY SUITE | codeFoundInPdf=true | descriptionFoundInPdf=true | matched=true
+12. meal_plan_id= | description=STANDART DOUBLE | codeFoundInPdf=true | descriptionFoundInPdf=true | matched=true
+13. meal_plan_id= | description=STANDARD DEPARTMENT | codeFoundInPdf=true | descriptionFoundInPdf=true | matched=true
+14. meal_plan_id= | description=SUITE CITY VIEW | codeFoundInPdf=true | descriptionFoundInPdf=true | matched=true
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\meal-plan-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\meal-plan-report-vs-db.json

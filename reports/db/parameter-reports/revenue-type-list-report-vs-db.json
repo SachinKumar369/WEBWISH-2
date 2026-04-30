@@ -1,0 +1,195 @@
+{
+  "reportTitle": "Parameter Reports - Revenue Type List DB Validation",
+  "queryText": "select * from prm_revenue_type where property_id='webwe'",
+  "totalDbRows": 11,
+  "totalMatchedRows": 11,
+  "comparison": [
+    {
+      "rowNumber": 1,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "FOOD & BEVERAGE"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "FOOD & BEVERAGE"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 2,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "CROCKERY"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "CROCKERY"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 3,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "MINOR OPERATING"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "MINOR OPERATING"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 4,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "TELEPHONES"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "TELEPHONES"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 5,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "NWE"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "NWE"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 6,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "OTHER RENTALS"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "OTHER RENTALS"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 7,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "OTHERS"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "OTHERS"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 8,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "TAXES"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "TAXES"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 9,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "WWWWWWWWWWWW"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "WWWWWWWWWWWW"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 10,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "PAYMENTS"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "PAYMENTS"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 11,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "ROOM REVENUE"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "ROOM REVENUE"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    }
+  ]
+}

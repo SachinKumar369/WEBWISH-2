@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "SACH",
+      "password": "Sachin@578",
+      "email": "sach@example.com",
+      "role": "admin",
+      "environment": "all"
+    },
+    {
+      "id": 2,
+      "username": "TEST_USER",
+      "password": "Test@123",
+      "email": "testuser@example.com",
+      "role": "user",
+      "environment": "dev"
+    },
+    {
+      "id": 3,
+      "username": "STAGE_USER",
+      "password": "Stage@123",
+      "email": "stageuser@example.com",
+      "role": "user",
+      "environment": "stage"
+    },
+    {
+      "id": 4,
+      "username": "dummy",
+      "password": "Sachin@578",
+      "email": "produser@example.com",
+      "role": "user",
+      "environment": "prod"
+    }
+  ],
+  "testCases": [
+    {
+      "id": "TC_LOGIN_001",
+      "name": "Valid Login with Admin Credentials",
+      "description": "Verify successful login with valid admin credentials",
+      "username": "SACH",
+      "password": "Sachin@578",
+      "expectedResult": "Dashboard page should be displayed"
+    },
+    {
+      "id": "TC_LOGIN_002",
+      "name": "Invalid Username",
+      "description": "Verify login fails with invalid username",
+      "username": "INVALID_USER",
+      "password": "123",
+      "expectedResult": "Error message should be displayed"
+    },
+    {
+      "id": "TC_LOGIN_003",
+      "name": "Invalid Password",
+      "description": "Verify login fails with invalid password",
+      "username": "SACH",
+      "password": "WRONGPASSWORD",
+      "expectedResult": "Error message should be displayed"
+    }
+  ]
+}
+

@@ -1,0 +1,69 @@
+Timestamp: 2026-04-29T11:47:29.842Z
+Report: Parameter Reports - Room Type List DB Validation
+
+Executed Query:
+select * from prm_room_type where property_id='webwe'
+
+Total DB Rows: 14
+Total Matched Rows: 14
+
+Comparison Details (DB vs PDF):
+1. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=AUTOMATION1
+   matched: description=AUTOMATION1
+   missing: none
+2. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=DGK
+   matched: description=DGK
+   missing: none
+3. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=EXK
+   matched: description=EXK
+   missing: none
+4. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=DGT
+   matched: description=DGT
+   missing: none
+5. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=LPK
+   matched: description=LPK
+   missing: none
+6. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=LPT
+   matched: description=LPT
+   missing: none
+7. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=AUTOMATION
+   matched: description=AUTOMATION
+   missing: none
+8. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=DUMMY ROOM
+   matched: description=DUMMY ROOM
+   missing: none
+9. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=DELUX ROOM
+   matched: description=DELUX ROOM
+   missing: none
+10. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=EXTRA BED IN ROOM BIG FAMILY
+   matched: description=EXTRA BED IN ROOM BIG FAMILY
+   missing: none
+11. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=PRK
+   matched: description=PRK
+   missing: none
+12. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=STANDART DOUBLE
+   matched: description=STANDART DOUBLE
+   missing: none
+13. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=STANDARD DEPARTMENT
+   matched: description=STANDARD DEPARTMENT
+   missing: none
+14. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=SUITE CITY VIEW
+   matched: description=SUITE CITY VIEW
+   missing: none
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\room-type-list-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\room-type-list-report-vs-db.json

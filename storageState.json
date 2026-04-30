@@ -1,0 +1,15 @@
+{
+  "cookies": [
+    {
+      "name": ".AspNetCore.Session",
+      "value": "CfDJ8Fj4SYUJTmpFrJu%2FvnRR6oPVSN47QOlGxzaz%2BuLAQ5xB5jUYDXTcmJRfbhuK0fxLLo41lXjALlxCZaXcXpKhq3%2F9b4Qq36stek7qr0obhwxIRtzAYS06F%2Bn8VGFeGkXMzksD9za%2FYWKWTqVzN8K2lneGV8aow6Um3Fn4nVlYxDZL",
+      "domain": "qc2.prologicfirst.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

@@ -1,0 +1,49 @@
+Timestamp: 2026-04-29T11:50:47.896Z
+Report: Parameter Reports - Room Attribute DB Validation
+
+Executed Query:
+select * from prm_room_attribute where property_id='webwe'
+
+Total DB Rows: 9
+Total Matched Rows: 9
+
+Comparison Details (DB vs PDF):
+1. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=AUTOMATION
+   matched: description=AUTOMATION
+   missing: none
+2. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=AUTOMATION
+   matched: description=AUTOMATION
+   missing: none
+3. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=BALCONY
+   matched: description=BALCONY
+   missing: none
+4. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=AUTOMATION
+   matched: description=AUTOMATION
+   missing: none
+5. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=CONNECTING ROOMS
+   matched: description=CONNECTING ROOMS
+   missing: none
+6. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=ELEVATOR
+   matched: description=ELEVATOR
+   missing: none
+7. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=AUTOMATION
+   matched: description=AUTOMATION
+   missing: none
+8. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=NEAR LIFT
+   matched: description=NEAR LIFT
+   missing: none
+9. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=NO SMOKING
+   matched: description=NO SMOKING
+   missing: none
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\room-attribute-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\room-attribute-report-vs-db.json

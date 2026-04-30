@@ -1,0 +1,12 @@
+Type Description Active Created By Created On Modified By Modified On
+HU HOUSE Use ü SYSTEM_USER 06/05/2025 ARCHANA 09/10/2025
+OC Occupied ü SYSTEM_USER 06/05/2025
+PA PRE-ASSIGN ü SYSTEM_USER 06/05/2025 ARCHANA 11/06/2025
+PO Permanent Out Of Order ü SYSTEM_USER 06/05/2025
+VA Vacant ü SYSTEM_USER 06/05/2025
+WISH PMS : CM00 Printed on : 29/04/2026at16:42(S) 16:42(L) Business date : 26/06/2025 Page : 1 of 1
+Webwish Hotel
+Selling Status
+
+-- 1 of 1 --
+

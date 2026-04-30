@@ -1,0 +1,25 @@
+Timestamp: 2026-04-29T03:14:59.479Z
+Report: Parameter Reports - Special Services Head DB Validation
+
+Executed Query:
+select * from prm_main_head_master where property_id='webwe' and main_head_type='SS'
+
+Total DB Rows: 3
+Total Matched Rows: 3
+
+Comparison Details (DB vs PDF):
+1. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: main_head_code=MS, description=MAIN SERVICES
+   matched: main_head_code=MS, description=MAIN SERVICES
+   missing: none
+2. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: main_head_code=OT, description=SPECIAL SERVICES
+   matched: main_head_code=OT, description=SPECIAL SERVICES
+   missing: none
+3. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: main_head_code=SS, description=SPECIAL SERVICE
+   matched: main_head_code=SS, description=SPECIAL SERVICE
+   missing: none
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\special-services-head-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\special-services-head-report-vs-db.json

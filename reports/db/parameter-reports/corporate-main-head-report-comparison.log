@@ -1,0 +1,25 @@
+Timestamp: 2026-04-29T03:11:56.754Z
+Report: Parameter Reports - Corporate Main Head DB Validation
+
+Executed Query:
+select * from prm_main_head_master where property_id='webwe' and main_head_type='CP'
+
+Total DB Rows: 3
+Total Matched Rows: 3
+
+Comparison Details (DB vs PDF):
+1. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: main_head_code=CO, description=CORPORATE
+   matched: main_head_code=CO, description=CORPORATE
+   missing: none
+2. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: main_head_code=OT, description=OTHERS
+   matched: main_head_code=OT, description=OTHERS
+   missing: none
+3. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: main_head_code=SO, description=SOCIAL
+   matched: main_head_code=SO, description=SOCIAL
+   missing: none
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\corporate-main-head-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\corporate-main-head-report-vs-db.json

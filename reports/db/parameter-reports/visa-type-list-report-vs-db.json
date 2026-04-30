@@ -1,0 +1,233 @@
+{
+  "reportTitle": "Parameter Reports - Visa Type List DB Validation",
+  "queryText": "select * from prm_common_masters where property_id='webwe' and param_type='VISA'",
+  "totalDbRows": 9,
+  "totalMatchedRows": 9,
+  "comparison": [
+    {
+      "rowNumber": 1,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "BUSS"
+        },
+        {
+          "column": "description",
+          "value": "BUSINESS VISA"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "BUSS"
+        },
+        {
+          "column": "description",
+          "value": "BUSINESS VISA"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 2,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "EDUI"
+        },
+        {
+          "column": "description",
+          "value": "EDUCATION VISA"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "EDUI"
+        },
+        {
+          "column": "description",
+          "value": "EDUCATION VISA"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 3,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "EMPY"
+        },
+        {
+          "column": "description",
+          "value": "EMPLOYEE VISA"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "EMPY"
+        },
+        {
+          "column": "description",
+          "value": "EMPLOYEE VISA"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 4,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "MEDI"
+        },
+        {
+          "column": "description",
+          "value": "MEDICAL VISA"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "MEDI"
+        },
+        {
+          "column": "description",
+          "value": "MEDICAL VISA"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 5,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "OTHR"
+        },
+        {
+          "column": "description",
+          "value": "OTHER PURPOSE VISA"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "OTHR"
+        },
+        {
+          "column": "description",
+          "value": "OTHER PURPOSE VISA"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 6,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "RESI"
+        },
+        {
+          "column": "description",
+          "value": "RESIDENT VISA"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "RESI"
+        },
+        {
+          "column": "description",
+          "value": "RESIDENT VISA"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 7,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "STUD"
+        },
+        {
+          "column": "description",
+          "value": "STUDENT VISA"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "STUD"
+        },
+        {
+          "column": "description",
+          "value": "STUDENT VISA"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 8,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "TOUR"
+        },
+        {
+          "column": "description",
+          "value": "TOURIST VISA"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "TOUR"
+        },
+        {
+          "column": "description",
+          "value": "TOURIST VISA"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 9,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "TRAN"
+        },
+        {
+          "column": "description",
+          "value": "TRANSIT VISA"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "TRAN"
+        },
+        {
+          "column": "description",
+          "value": "TRANSIT VISA"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    }
+  ]
+}

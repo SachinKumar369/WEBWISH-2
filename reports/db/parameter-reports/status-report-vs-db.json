@@ -1,0 +1,233 @@
+{
+  "reportTitle": "Parameter Reports - Status Report DB Validation",
+  "queryText": "select * from prm_common_masters where property_id='webwe' and param_type='RESV'",
+  "totalDbRows": 9,
+  "totalMatchedRows": 9,
+  "comparison": [
+    {
+      "rowNumber": 1,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "CF"
+        },
+        {
+          "column": "description",
+          "value": "CONFIRMED"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "CF"
+        },
+        {
+          "column": "description",
+          "value": "CONFIRMED"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 2,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "CO"
+        },
+        {
+          "column": "description",
+          "value": "CHECKED OUT"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "CO"
+        },
+        {
+          "column": "description",
+          "value": "CHECKED OUT"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 3,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "CX"
+        },
+        {
+          "column": "description",
+          "value": "CANCELLED"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "CX"
+        },
+        {
+          "column": "description",
+          "value": "CANCELLED"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 4,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "IH"
+        },
+        {
+          "column": "description",
+          "value": "IH-HOUSE"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "IH"
+        },
+        {
+          "column": "description",
+          "value": "IH-HOUSE"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 5,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "NB"
+        },
+        {
+          "column": "description",
+          "value": "NO BLOCK"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "NB"
+        },
+        {
+          "column": "description",
+          "value": "NO BLOCK"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 6,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "NS"
+        },
+        {
+          "column": "description",
+          "value": "NO SHOW"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "NS"
+        },
+        {
+          "column": "description",
+          "value": "NO SHOW"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 7,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "TA"
+        },
+        {
+          "column": "description",
+          "value": "TURN-AWAY"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "TA"
+        },
+        {
+          "column": "description",
+          "value": "TURN-AWAY"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 8,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "TE"
+        },
+        {
+          "column": "description",
+          "value": "TENTATIVE"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "TE"
+        },
+        {
+          "column": "description",
+          "value": "TENTATIVE"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 9,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "WL"
+        },
+        {
+          "column": "description",
+          "value": "WAIT-LISTED"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "WL"
+        },
+        {
+          "column": "description",
+          "value": "WAIT-LISTED"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+Timestamp: 2026-04-29T11:16:58.069Z
+Report: Parameter Reports - Section No List DB Validation
+
+Executed Query:
+select * from prm_common_masters where property_id='webwe' and param_type='RSEC'
+
+Total DB Rows: 6
+Total Matched Rows: 6
+
+Comparison Details (DB vs PDF):
+1. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=A1, description=TOWER A
+   matched: param_code=A1, description=TOWER A
+   missing: none
+2. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=N1, description=SECTION N
+   matched: param_code=N1, description=SECTION N
+   missing: none
+3. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=S1, description=SECTION A
+   matched: param_code=S1, description=SECTION A
+   missing: none
+4. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=S2, description=SECTION B
+   matched: param_code=S2, description=SECTION B
+   missing: none
+5. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=S3, description=SECTION C
+   matched: param_code=S3, description=SECTION C
+   missing: none
+6. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=S4, description=SECTION D
+   matched: param_code=S4, description=SECTION D
+   missing: none
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\section-no-list-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\section-no-list-report-vs-db.json

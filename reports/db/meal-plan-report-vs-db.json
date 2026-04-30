@@ -1,0 +1,105 @@
+{
+  "propertyId": "WEBWE",
+  "totalDbRows": 14,
+  "totalMatches": 14,
+  "comparison": [
+    {
+      "meal_plan_id": "",
+      "description": "AUTOMATION1",
+      "codeFoundInPdf": true,
+      "descriptionFoundInPdf": true,
+      "matched": true
+    },
+    {
+      "meal_plan_id": "",
+      "description": "DELUX ROOM",
+      "codeFoundInPdf": true,
+      "descriptionFoundInPdf": true,
+      "matched": true
+    },
+    {
+      "meal_plan_id": "",
+      "description": "DELUX ROOM SEPRATE",
+      "codeFoundInPdf": true,
+      "descriptionFoundInPdf": true,
+      "matched": true
+    },
+    {
+      "meal_plan_id": "",
+      "description": "DELUX ROOM",
+      "codeFoundInPdf": true,
+      "descriptionFoundInPdf": true,
+      "matched": true
+    },
+    {
+      "meal_plan_id": "",
+      "description": "DELUX ROOM SEPARATE",
+      "codeFoundInPdf": true,
+      "descriptionFoundInPdf": true,
+      "matched": true
+    },
+    {
+      "meal_plan_id": "",
+      "description": "DELUX XAVIOR",
+      "codeFoundInPdf": true,
+      "descriptionFoundInPdf": true,
+      "matched": true
+    },
+    {
+      "meal_plan_id": "",
+      "description": "AUTOMATION",
+      "codeFoundInPdf": true,
+      "descriptionFoundInPdf": true,
+      "matched": true
+    },
+    {
+      "meal_plan_id": "",
+      "description": "DUMMY ROOM",
+      "codeFoundInPdf": true,
+      "descriptionFoundInPdf": true,
+      "matched": true
+    },
+    {
+      "meal_plan_id": "",
+      "description": "DELUX ROOM",
+      "codeFoundInPdf": true,
+      "descriptionFoundInPdf": true,
+      "matched": true
+    },
+    {
+      "meal_plan_id": "",
+      "description": "EXTRA BED IN ROOM BIG FAMILY",
+      "codeFoundInPdf": true,
+      "descriptionFoundInPdf": true,
+      "matched": true
+    },
+    {
+      "meal_plan_id": "",
+      "description": "FAMILY SUITE",
+      "codeFoundInPdf": true,
+      "descriptionFoundInPdf": true,
+      "matched": true
+    },
+    {
+      "meal_plan_id": "",
+      "description": "STANDART DOUBLE",
+      "codeFoundInPdf": true,
+      "descriptionFoundInPdf": true,
+      "matched": true
+    },
+    {
+      "meal_plan_id": "",
+      "description": "STANDARD DEPARTMENT",
+      "codeFoundInPdf": true,
+      "descriptionFoundInPdf": true,
+      "matched": true
+    },
+    {
+      "meal_plan_id": "",
+      "description": "SUITE CITY VIEW",
+      "codeFoundInPdf": true,
+      "descriptionFoundInPdf": true,
+      "matched": true
+    }
+  ]
+}

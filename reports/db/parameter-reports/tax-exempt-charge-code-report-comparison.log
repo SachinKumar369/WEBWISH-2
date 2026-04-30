@@ -1,0 +1,65 @@
+Timestamp: 2026-04-29T06:57:51.112Z
+Report: Parameter Reports - Tax Exempt Charge Code DB Validation
+
+Executed Query:
+select * from prm_tax_xmpt_charge_cd where property_id='webwe'
+
+Total DB Rows: 13
+Total Matched Rows: 13
+
+Comparison Details (DB vs PDF):
+1. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: tax_exempt_code=NE, charge_code=TXA1
+   matched: tax_exempt_code=NE, charge_code=TXA1
+   missing: none
+2. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: tax_exempt_code=NE, charge_code=TXF1
+   matched: tax_exempt_code=NE, charge_code=TXF1
+   missing: none
+3. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: tax_exempt_code=TA, charge_code=SVCH
+   matched: tax_exempt_code=TA, charge_code=SVCH
+   missing: none
+4. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: tax_exempt_code=TA, charge_code=TXA1
+   matched: tax_exempt_code=TA, charge_code=TXA1
+   missing: none
+5. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: tax_exempt_code=TA, charge_code=TXA2
+   matched: tax_exempt_code=TA, charge_code=TXA2
+   missing: none
+6. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: tax_exempt_code=TA, charge_code=TXF1
+   matched: tax_exempt_code=TA, charge_code=TXF1
+   missing: none
+7. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: tax_exempt_code=TA, charge_code=TXR1
+   matched: tax_exempt_code=TA, charge_code=TXR1
+   missing: none
+8. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: tax_exempt_code=NE, charge_code=TXF2
+   matched: tax_exempt_code=NE, charge_code=TXF2
+   missing: none
+9. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: tax_exempt_code=TA, charge_code=TXA1
+   matched: tax_exempt_code=TA, charge_code=TXA1
+   missing: none
+10. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: tax_exempt_code=TA, charge_code=TXF2
+   matched: tax_exempt_code=TA, charge_code=TXF2
+   missing: none
+11. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: tax_exempt_code=TA, charge_code=TXR2
+   matched: tax_exempt_code=TA, charge_code=TXR2
+   missing: none
+12. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: tax_exempt_code=TA, charge_code=TXF2
+   matched: tax_exempt_code=TA, charge_code=TXF2
+   missing: none
+13. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: tax_exempt_code=TA, charge_code=TXF1
+   matched: tax_exempt_code=TA, charge_code=TXF1
+   missing: none
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\tax-exempt-charge-code-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\tax-exempt-charge-code-report-vs-db.json

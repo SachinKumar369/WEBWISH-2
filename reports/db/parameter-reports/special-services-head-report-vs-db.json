@@ -1,0 +1,83 @@
+{
+  "reportTitle": "Parameter Reports - Special Services Head DB Validation",
+  "queryText": "select * from prm_main_head_master where property_id='webwe' and main_head_type='SS'",
+  "totalDbRows": 3,
+  "totalMatchedRows": 3,
+  "comparison": [
+    {
+      "rowNumber": 1,
+      "relevantValues": [
+        {
+          "column": "main_head_code",
+          "value": "MS"
+        },
+        {
+          "column": "description",
+          "value": "MAIN SERVICES"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "main_head_code",
+          "value": "MS"
+        },
+        {
+          "column": "description",
+          "value": "MAIN SERVICES"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 2,
+      "relevantValues": [
+        {
+          "column": "main_head_code",
+          "value": "OT"
+        },
+        {
+          "column": "description",
+          "value": "SPECIAL SERVICES"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "main_head_code",
+          "value": "OT"
+        },
+        {
+          "column": "description",
+          "value": "SPECIAL SERVICES"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 3,
+      "relevantValues": [
+        {
+          "column": "main_head_code",
+          "value": "SS"
+        },
+        {
+          "column": "description",
+          "value": "SPECIAL SERVICE"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "main_head_code",
+          "value": "SS"
+        },
+        {
+          "column": "description",
+          "value": "SPECIAL SERVICE"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-04-30T12:50:12.513Z",
+  "runStatus": "passed",
+  "totalDurationMs": 21635,
+  "totalTests": 1,
+  "passed": 1,
+  "failed": 0,
+  "skipped": 0,
+  "timedOut": 0,
+  "interrupted": 0,
+  "retriedPassed": 0,
+  "passRate": 100,
+  "environment": "dev",
+  "browser": "mixed",
+  "reports": {
+    "html": "reports/html-report/index.html",
+    "allureResults": "allure-results",
+    "junit": "test-results/junit.xml",
+    "json": "test-results/test-results.json"
+  },
+  "failedTests": [],
+  "tests": [
+    {
+      "title": "PRR_REVENUE_TYPE_001: should validate revenue type list PDF data with DB data",
+      "fullTitle": " > chromium > Reports\\ParameterReports\\revenue-type-list-report-db-validation.spec.ts > Parameter Reports - Revenue Type List DB Validation > PRR_REVENUE_TYPE_001: should validate revenue type list PDF data with DB data",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\Reports\\ParameterReports\\revenue-type-list-report-db-validation.spec.ts",
+      "project": "chromium",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 13480,
+      "retry": 0,
+      "attachments": []
+    }
+  ]
+}

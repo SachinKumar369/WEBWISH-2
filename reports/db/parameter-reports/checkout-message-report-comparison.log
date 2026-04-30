@@ -1,0 +1,17 @@
+Timestamp: 2026-04-28T06:37:37.448Z
+Report: Parameter Reports - Checkout Message DB Validation
+
+Executed Query:
+select * from prm_common_masters where property_id='webwe' and param_type='COMG'
+
+Total DB Rows: 4
+Total Matched Rows: 4
+
+Comparison Details (DB vs PDF):
+1. matched=true | matchedValueCount=5 | missingValueCount=0
+2. matched=true | matchedValueCount=5 | missingValueCount=0
+3. matched=true | matchedValueCount=5 | missingValueCount=0
+4. matched=true | matchedValueCount=5 | missingValueCount=0
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\checkout-message-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\checkout-message-report-vs-db.json

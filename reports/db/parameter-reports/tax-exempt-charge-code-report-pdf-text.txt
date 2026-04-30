@@ -1,0 +1,20 @@
+Tax Exempt Code Charge Code
+NE TXA1
+NE TXF1
+NE TXF2
+TA TXA1
+TA TXF2
+TA TXR2
+TA TXF2
+TA TXF1
+TA SVCH
+TA TXA1
+TA TXA2
+TA TXF1
+TA TXR1
+WISH PMS : SSUP40 Printed on :29/04/2026at12:27(S) 12:27(L) Business date : 26/06/2025 Page : 1 of 1
+Webwish Hotel
+Tax Exempt Charge Code
+
+-- 1 of 1 --
+

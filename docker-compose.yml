@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  playwright-tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: webwish-automation-framework
+    environment:
+      - HEADLESS=true
+      - ENV=dev
+      - BASE_URL=https://qc2webwish.prologicfirst.in
+      - LOG_LEVEL=info
+      - PARALLEL_WORKERS=4
+    volumes:
+      - ./test-results:/app/test-results
+      - ./logs:/app/logs
+      - ./screenshots:/app/screenshots
+      - ./videos:/app/videos
+      - ./traces:/app/traces
+      - ./allure-results:/app/allure-results
+    ports:
+      - "3000:3000"
+    command: npm test -- --workers=4
+    networks:
+      - automation
+
+networks:
+  automation:
+    driver: bridge
+

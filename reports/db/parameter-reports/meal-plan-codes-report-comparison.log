@@ -1,0 +1,28 @@
+Timestamp: 2026-04-28T05:38:09.659Z
+Report: Parameter Reports - Meal Plan Codes DB Validation
+
+Executed Query:
+SELECT * FROM prm_meal_plan WHERE property_id = @propertyId
+
+Total DB Rows: 15
+Total Matched Rows: 9
+
+Comparison Details (DB vs PDF):
+1. matched=false | matchedValueCount=1 | missingValueCount=1
+2. matched=false | matchedValueCount=1 | missingValueCount=1
+3. matched=false | matchedValueCount=1 | missingValueCount=1
+4. matched=true | matchedValueCount=2 | missingValueCount=0
+5. matched=false | matchedValueCount=0 | missingValueCount=2
+6. matched=true | matchedValueCount=2 | missingValueCount=0
+7. matched=true | matchedValueCount=2 | missingValueCount=0
+8. matched=true | matchedValueCount=2 | missingValueCount=0
+9. matched=true | matchedValueCount=2 | missingValueCount=0
+10. matched=true | matchedValueCount=2 | missingValueCount=0
+11. matched=true | matchedValueCount=2 | missingValueCount=0
+12. matched=true | matchedValueCount=2 | missingValueCount=0
+13. matched=false | matchedValueCount=0 | missingValueCount=2
+14. matched=true | matchedValueCount=2 | missingValueCount=0
+15. matched=false | matchedValueCount=0 | missingValueCount=2
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\meal-plan-codes-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\meal-plan-codes-report-vs-db.json

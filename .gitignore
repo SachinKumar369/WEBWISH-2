@@ -1,0 +1,76 @@
+# Gitignore for WebWish Automation Framework
+
+# Dependencies
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-error.log*
+
+# Build artifacts
+dist/
+*.js
+*.js.map
+*.d.ts
+
+# Test results and reports
+test-results/
+allure-results/
+allure-report/
+extent-report/
+html-report/
+
+# Screenshots, videos, traces
+screenshots/
+videos/
+traces/
+logs/
+
+# Environment files
+.env.local
+.env.production
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Playwright
+.cache/
+browsers/
+.playwright/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive data
+credentials.json
+secrets.json
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# Cache
+.eslintcache
+.stylelintcache
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# VSCode settings (workspace-specific)
+.vscode/settings.json
+.vscode/extensions.json
+

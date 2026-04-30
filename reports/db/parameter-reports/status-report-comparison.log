@@ -1,0 +1,49 @@
+Timestamp: 2026-04-29T11:13:31.421Z
+Report: Parameter Reports - Status Report DB Validation
+
+Executed Query:
+select * from prm_common_masters where property_id='webwe' and param_type='RESV'
+
+Total DB Rows: 9
+Total Matched Rows: 9
+
+Comparison Details (DB vs PDF):
+1. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=CF, description=CONFIRMED
+   matched: param_code=CF, description=CONFIRMED
+   missing: none
+2. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=CO, description=CHECKED OUT
+   matched: param_code=CO, description=CHECKED OUT
+   missing: none
+3. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=CX, description=CANCELLED
+   matched: param_code=CX, description=CANCELLED
+   missing: none
+4. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=IH, description=IH-HOUSE
+   matched: param_code=IH, description=IH-HOUSE
+   missing: none
+5. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=NB, description=NO BLOCK
+   matched: param_code=NB, description=NO BLOCK
+   missing: none
+6. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=NS, description=NO SHOW
+   matched: param_code=NS, description=NO SHOW
+   missing: none
+7. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=TA, description=TURN-AWAY
+   matched: param_code=TA, description=TURN-AWAY
+   missing: none
+8. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=TE, description=TENTATIVE
+   matched: param_code=TE, description=TENTATIVE
+   missing: none
+9. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=WL, description=WAIT-LISTED
+   matched: param_code=WL, description=WAIT-LISTED
+   missing: none
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\status-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\status-report-vs-db.json

@@ -1,0 +1,18 @@
+Payment Method Description Credit Limit Code Class Frozen
+AMEX American Express 100000.00 Credit Card û
+CASH Cash 0.00 Cash û
+DINR Diners Card 100000.00 Credit Card û
+DIPM Digital Payment 0.00 PG û
+LCCD SV CARD CLUB 2000.00 LC û
+MSTR Master Card 0.00 Credit Card û
+OTHC Other Card 0.00 Credit Card û
+RUPI Rupay Card 0.00 Credit Card û
+SVCD SV Card 10000.00 LC û
+VCHR Voucher 0.00 City Ledger û
+VISA Visa Card 0.00 Credit Card û
+WISH PMS : SSUP16 Printed on :30/04/2026at16:40(S) 16:40(L) Business date : 26/06/2025 Page : 1 of 1
+Payment Method List
+Webwish Hotel
+
+-- 1 of 1 --
+

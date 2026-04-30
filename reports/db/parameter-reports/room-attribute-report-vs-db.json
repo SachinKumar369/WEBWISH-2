@@ -1,0 +1,161 @@
+{
+  "reportTitle": "Parameter Reports - Room Attribute DB Validation",
+  "queryText": "select * from prm_room_attribute where property_id='webwe'",
+  "totalDbRows": 9,
+  "totalMatchedRows": 9,
+  "comparison": [
+    {
+      "rowNumber": 1,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "AUTOMATION"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "AUTOMATION"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 2,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "AUTOMATION"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "AUTOMATION"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 3,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "BALCONY"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "BALCONY"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 4,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "AUTOMATION"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "AUTOMATION"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 5,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "CONNECTING ROOMS"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "CONNECTING ROOMS"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 6,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "ELEVATOR"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "ELEVATOR"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 7,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "AUTOMATION"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "AUTOMATION"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 8,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "NEAR LIFT"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "NEAR LIFT"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 9,
+      "relevantValues": [
+        {
+          "column": "description",
+          "value": "NO SMOKING"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "NO SMOKING"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    }
+  ]
+}

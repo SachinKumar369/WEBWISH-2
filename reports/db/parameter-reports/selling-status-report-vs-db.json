@@ -1,0 +1,133 @@
+{
+  "reportTitle": "Parameter Reports - Selling Status DB Validation",
+  "queryText": "select * from prm_common_masters where property_id='webwe' and param_type='RSEL'",
+  "totalDbRows": 5,
+  "totalMatchedRows": 5,
+  "comparison": [
+    {
+      "rowNumber": 1,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "HU"
+        },
+        {
+          "column": "description",
+          "value": "HOUSE USE"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "HU"
+        },
+        {
+          "column": "description",
+          "value": "HOUSE USE"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 2,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "OC"
+        },
+        {
+          "column": "description",
+          "value": "OCCUPIED"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "OC"
+        },
+        {
+          "column": "description",
+          "value": "OCCUPIED"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 3,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "PA"
+        },
+        {
+          "column": "description",
+          "value": "PRE-ASSIGN"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "PA"
+        },
+        {
+          "column": "description",
+          "value": "PRE-ASSIGN"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 4,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "PO"
+        },
+        {
+          "column": "description",
+          "value": "PERMANENT OUT OF ORDER"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "PO"
+        },
+        {
+          "column": "description",
+          "value": "PERMANENT OUT OF ORDER"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 5,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "VA"
+        },
+        {
+          "column": "description",
+          "value": "VACANT"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "VA"
+        },
+        {
+          "column": "description",
+          "value": "VACANT"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+Timestamp: 2026-04-28T10:44:29.020Z
+Report: Parameter Reports - Block Number DB Validation
+
+Executed Query:
+select * from prm_common_masters where property_id='webwe' and param_type='rblk'
+
+Total DB Rows: 4
+Total Matched Rows: 4
+
+Comparison Details (DB vs PDF):
+1. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=LB, description=L BLOCK
+   matched: param_code=LB, description=L BLOCK
+   missing: none
+2. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=M1, description=MAIN BUILDING PARK
+   matched: param_code=M1, description=MAIN BUILDING PARK
+   missing: none
+3. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=RB, description=ROOM BLOCK
+   matched: param_code=RB, description=ROOM BLOCK
+   missing: none
+4. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=S1, description=SIDE BUILDING 1
+   matched: param_code=S1, description=SIDE BUILDING 1
+   missing: none
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\block-number-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\block-number-report-vs-db.json

@@ -1,0 +1,57 @@
+Timestamp: 2026-04-30T11:10:38.173Z
+Report: Parameter Reports - Payment Method List DB Validation
+
+Executed Query:
+select * from prm_payment_method where property_id='webwe'
+
+Total DB Rows: 11
+Total Matched Rows: 11
+
+Comparison Details (DB vs PDF):
+1. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=AMERICAN EXPRESS
+   matched: description=AMERICAN EXPRESS
+   missing: none
+2. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=CASH
+   matched: description=CASH
+   missing: none
+3. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=DINERS CARD
+   matched: description=DINERS CARD
+   missing: none
+4. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=DIGITAL PAYMENT
+   matched: description=DIGITAL PAYMENT
+   missing: none
+5. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=SV CARD CLUB
+   matched: description=SV CARD CLUB
+   missing: none
+6. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=MASTER CARD
+   matched: description=MASTER CARD
+   missing: none
+7. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=OTHER CARD
+   matched: description=OTHER CARD
+   missing: none
+8. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=RUPAY CARD
+   matched: description=RUPAY CARD
+   missing: none
+9. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=SV CARD
+   matched: description=SV CARD
+   missing: none
+10. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=VOUCHER
+   matched: description=VOUCHER
+   missing: none
+11. matched=true | matchedValueCount=1 | missingValueCount=0
+   relevant: description=VISA CARD
+   matched: description=VISA CARD
+   missing: none
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\payment-method-list-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\payment-method-list-report-vs-db.json

@@ -1,0 +1,108 @@
+{
+  "reportTitle": "Parameter Reports - Tax Exempt Category DB Validation",
+  "queryText": "select * from prm_common_masters where property_id='webwe' and param_type='TAEX'",
+  "totalDbRows": 4,
+  "totalMatchedRows": 4,
+  "comparison": [
+    {
+      "rowNumber": 1,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "ASAS"
+        },
+        {
+          "column": "description",
+          "value": "TEST"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "ASAS"
+        },
+        {
+          "column": "description",
+          "value": "TEST"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 2,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "NEXZ"
+        },
+        {
+          "column": "description",
+          "value": "TAX EXEMPT"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "NEXZ"
+        },
+        {
+          "column": "description",
+          "value": "TAX EXEMPT"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 3,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "TAXE"
+        },
+        {
+          "column": "description",
+          "value": "TAX EXEMPT FOR FOOD"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "TAXE"
+        },
+        {
+          "column": "description",
+          "value": "TAX EXEMPT FOR FOOD"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 4,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "TX"
+        },
+        {
+          "column": "description",
+          "value": "TAX EXMPT ROOM"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "TX"
+        },
+        {
+          "column": "description",
+          "value": "TAX EXMPT ROOM"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    }
+  ]
+}

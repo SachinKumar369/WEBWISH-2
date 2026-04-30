@@ -1,0 +1,108 @@
+{
+  "reportTitle": "Parameter Reports - Travel Agent Main Head DB Validation",
+  "queryText": "select * from prm_main_head_master where property_id='webwe' and main_head_type='TA'",
+  "totalDbRows": 4,
+  "totalMatchedRows": 4,
+  "comparison": [
+    {
+      "rowNumber": 1,
+      "relevantValues": [
+        {
+          "column": "main_head_code",
+          "value": "AG"
+        },
+        {
+          "column": "description",
+          "value": "AGODA"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "main_head_code",
+          "value": "AG"
+        },
+        {
+          "column": "description",
+          "value": "AGODA"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 2,
+      "relevantValues": [
+        {
+          "column": "main_head_code",
+          "value": "BL"
+        },
+        {
+          "column": "description",
+          "value": "BLGC"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "main_head_code",
+          "value": "BL"
+        },
+        {
+          "column": "description",
+          "value": "BLGC"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 3,
+      "relevantValues": [
+        {
+          "column": "main_head_code",
+          "value": "GT"
+        },
+        {
+          "column": "description",
+          "value": "GATEWAYS"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "main_head_code",
+          "value": "GT"
+        },
+        {
+          "column": "description",
+          "value": "GATEWAYS"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 4,
+      "relevantValues": [
+        {
+          "column": "main_head_code",
+          "value": "OT"
+        },
+        {
+          "column": "description",
+          "value": "OTHERS"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "main_head_code",
+          "value": "OT"
+        },
+        {
+          "column": "description",
+          "value": "OTHERS"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    }
+  ]
+}

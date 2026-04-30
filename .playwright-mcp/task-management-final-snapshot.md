@@ -1,0 +1,290 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e126]:
+    - generic [ref=e127]:
+      - banner [ref=e128]:
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - link [ref=e133] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e137]:
+              - textbox "Search..." [ref=e138]: 󰅀
+              - generic [ref=e139]: 󰍉
+          - heading "Webwish Hotel" [level=5] [ref=e141]
+          - generic [ref=e142]:
+            - button "󰅒" [ref=e144] [cursor=pointer]:
+              - generic [ref=e145]: 󰅒
+            - button "" [ref=e147] [cursor=pointer]:
+              - generic [ref=e148]: 
+            - button "" [ref=e150] [cursor=pointer]:
+              - generic [ref=e151]: 
+            - button " 3" [ref=e153] [cursor=pointer]:
+              - generic "Change Shift" [ref=e154]: 
+              - generic [ref=e155]: "3"
+            - generic [ref=e156]:
+              - button "" [ref=e157] [cursor=pointer]:
+                - generic "Notifications" [ref=e158]: 
+              - text:  
+            - generic [ref=e159]:
+              - button "Header Avatar" [ref=e160] [cursor=pointer]:
+                - img "Header Avatar" [ref=e162]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button "Header Avatar" [ref=e164] [cursor=pointer]:
+              - img "Header Avatar" [ref=e166]
+      - generic [ref=e172]:
+        - text: 
+        - generic [ref=e174]:
+          - region "scrollable content" [ref=e179]:
+            - list [ref=e181]:
+              - listitem
+              - listitem [ref=e365]:
+                - link "" [ref=e399] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e368]: 
+                - text:     
+          - button "" [ref=e397] [cursor=pointer]:
+            - generic [ref=e398]: 
+      - generic [ref=e226]:
+        - generic [ref=e400]:
+          - generic [ref=e404]:
+            - heading "Task Management" [level=3] [ref=e405]
+            - generic [ref=e406]:
+              - generic:
+                - list
+              - generic [ref=e409]:
+                - button "󰈲" [ref=e410] [cursor=pointer]:
+                  - generic [ref=e412]: 󰈲
+                - button "󰑐" [ref=e413] [cursor=pointer]:
+                  - generic [ref=e415]: 󰑐
+          - generic [ref=e427]:
+            - generic [ref=e428]:
+              - generic [ref=e431]:
+                - button "󰐗" [ref=e433] [cursor=pointer]:
+                  - generic [ref=e435]: 󰐗
+                - button "󰚃" [ref=e437] [cursor=pointer]:
+                  - generic [ref=e439]: 󰚃
+                - button "󰑐" [ref=e441] [cursor=pointer]:
+                  - generic [ref=e443]: 󰑐
+              - generic [ref=e446]:
+                - textbox "Search" [ref=e447]
+                - generic [ref=e448]: 
+            - table [ref=e450]:
+              - rowgroup [ref=e451]:
+                - row "󰍝 Date From 󰍠 Date To Description Status Area Code" [ref=e452]:
+                  - columnheader [ref=e453]:
+                    - checkbox [ref=e454]
+                  - columnheader "󰍝 Date From 󰍠" [ref=e455]
+                  - columnheader "Date To" [ref=e456]
+                  - columnheader "Description" [ref=e457]
+                  - columnheader "Status" [ref=e458]
+                  - columnheader "Area Code" [ref=e459]
+                  - columnheader [ref=e460]
+              - rowgroup [ref=e461]:
+                - row "02/06/2025 04/06/2025 Description_1773327287095 Pending Asaaaaaaaaaaaa  " [ref=e462]:
+                  - cell [ref=e463]:
+                    - checkbox [ref=e464]
+                  - cell "02/06/2025" [ref=e465]:
+                    - generic [ref=e466]: 02/06/2025
+                  - cell "04/06/2025" [ref=e467]:
+                    - generic [ref=e468]: 04/06/2025
+                  - cell "Description_1773327287095" [ref=e469]:
+                    - generic [ref=e470]: Description_1773327287095
+                  - cell "Pending" [ref=e471]:
+                    - generic [ref=e472]: Pending
+                  - cell "Asaaaaaaaaaaaa" [ref=e473]:
+                    - generic [ref=e474]: Asaaaaaaaaaaaa
+                  - cell " " [ref=e475]:
+                    - generic [ref=e476]:
+                      - generic [ref=e478]: 
+                      - generic [ref=e480]: 
+                - row "02/06/2025 04/06/2025 Description_1773377023854 Completed Balcony  " [ref=e481]:
+                  - cell [ref=e482]:
+                    - checkbox [ref=e483]
+                  - cell "02/06/2025" [ref=e484]:
+                    - generic [ref=e485]: 02/06/2025
+                  - cell "04/06/2025" [ref=e486]:
+                    - generic [ref=e487]: 04/06/2025
+                  - cell "Description_1773377023854" [ref=e488]:
+                    - generic [ref=e489]: Description_1773377023854
+                  - cell "Completed" [ref=e490]:
+                    - generic [ref=e491]: Completed
+                  - cell "Balcony" [ref=e492]:
+                    - generic [ref=e493]: Balcony
+                  - cell " " [ref=e494]:
+                    - generic [ref=e495]:
+                      - generic [ref=e497]: 
+                      - generic [ref=e499]: 
+                - row "02/06/2025 04/06/2025 Description_1773377038421 Pending Asaaaaaaaaaaaa  " [ref=e500]:
+                  - cell [ref=e501]:
+                    - checkbox [ref=e502]
+                  - cell "02/06/2025" [ref=e503]:
+                    - generic [ref=e504]: 02/06/2025
+                  - cell "04/06/2025" [ref=e505]:
+                    - generic [ref=e506]: 04/06/2025
+                  - cell "Description_1773377038421" [ref=e507]:
+                    - generic [ref=e508]: Description_1773377038421
+                  - cell "Pending" [ref=e509]:
+                    - generic [ref=e510]: Pending
+                  - cell "Asaaaaaaaaaaaa" [ref=e511]:
+                    - generic [ref=e512]: Asaaaaaaaaaaaa
+                  - cell " " [ref=e513]:
+                    - generic [ref=e514]:
+                      - generic [ref=e516]: 
+                      - generic [ref=e518]: 
+                - row "02/06/2025 04/06/2025 Description_1773381368407 Pending Asaaaaaaaaaaaa  " [ref=e519]:
+                  - cell [ref=e520]:
+                    - checkbox [ref=e521]
+                  - cell "02/06/2025" [ref=e522]:
+                    - generic [ref=e523]: 02/06/2025
+                  - cell "04/06/2025" [ref=e524]:
+                    - generic [ref=e525]: 04/06/2025
+                  - cell "Description_1773381368407" [ref=e526]:
+                    - generic [ref=e527]: Description_1773381368407
+                  - cell "Pending" [ref=e528]:
+                    - generic [ref=e529]: Pending
+                  - cell "Asaaaaaaaaaaaa" [ref=e530]:
+                    - generic [ref=e531]: Asaaaaaaaaaaaa
+                  - cell " " [ref=e532]:
+                    - generic [ref=e533]:
+                      - generic [ref=e535]: 
+                      - generic [ref=e537]: 
+                - row "02/06/2025 04/06/2025 Description_1773381383197 Pending Lift  " [ref=e538]:
+                  - cell [ref=e539]:
+                    - checkbox [ref=e540]
+                  - cell "02/06/2025" [ref=e541]:
+                    - generic [ref=e542]: 02/06/2025
+                  - cell "04/06/2025" [ref=e543]:
+                    - generic [ref=e544]: 04/06/2025
+                  - cell "Description_1773381383197" [ref=e545]:
+                    - generic [ref=e546]: Description_1773381383197
+                  - cell "Pending" [ref=e547]:
+                    - generic [ref=e548]: Pending
+                  - cell "Lift" [ref=e549]:
+                    - generic [ref=e550]: Lift
+                  - cell " " [ref=e551]:
+                    - generic [ref=e552]:
+                      - generic [ref=e554]: 
+                      - generic [ref=e556]: 
+                - row "02/06/2025 04/06/2025 Description_1773638426761 Pending Asaaaaaaaaaaaa  " [ref=e557]:
+                  - cell [ref=e558]:
+                    - checkbox [ref=e559]
+                  - cell "02/06/2025" [ref=e560]:
+                    - generic [ref=e561]: 02/06/2025
+                  - cell "04/06/2025" [ref=e562]:
+                    - generic [ref=e563]: 04/06/2025
+                  - cell "Description_1773638426761" [ref=e564]:
+                    - generic [ref=e565]: Description_1773638426761
+                  - cell "Pending" [ref=e566]:
+                    - generic [ref=e567]: Pending
+                  - cell "Asaaaaaaaaaaaa" [ref=e568]:
+                    - generic [ref=e569]: Asaaaaaaaaaaaa
+                  - cell " " [ref=e570]:
+                    - generic [ref=e571]:
+                      - generic [ref=e573]: 
+                      - generic [ref=e575]: 
+                - row "02/06/2025 04/06/2025 Description_1773638442680 Pending Asaaaaaaaaaaaa  " [ref=e576]:
+                  - cell [ref=e577]:
+                    - checkbox [ref=e578]
+                  - cell "02/06/2025" [ref=e579]:
+                    - generic [ref=e580]: 02/06/2025
+                  - cell "04/06/2025" [ref=e581]:
+                    - generic [ref=e582]: 04/06/2025
+                  - cell "Description_1773638442680" [ref=e583]:
+                    - generic [ref=e584]: Description_1773638442680
+                  - cell "Pending" [ref=e585]:
+                    - generic [ref=e586]: Pending
+                  - cell "Asaaaaaaaaaaaa" [ref=e587]:
+                    - generic [ref=e588]: Asaaaaaaaaaaaa
+                  - cell " " [ref=e589]:
+                    - generic [ref=e590]:
+                      - generic [ref=e592]: 
+                      - generic [ref=e594]: 
+                - row "02/06/2025 04/06/2025 Description_1773639479635 Pending Asaaaaaaaaaaaa  " [ref=e595]:
+                  - cell [ref=e596]:
+                    - checkbox [ref=e597]
+                  - cell "02/06/2025" [ref=e598]:
+                    - generic [ref=e599]: 02/06/2025
+                  - cell "04/06/2025" [ref=e600]:
+                    - generic [ref=e601]: 04/06/2025
+                  - cell "Description_1773639479635" [ref=e602]:
+                    - generic [ref=e603]: Description_1773639479635
+                  - cell "Pending" [ref=e604]:
+                    - generic [ref=e605]: Pending
+                  - cell "Asaaaaaaaaaaaa" [ref=e606]:
+                    - generic [ref=e607]: Asaaaaaaaaaaaa
+                  - cell " " [ref=e608]:
+                    - generic [ref=e609]:
+                      - generic [ref=e611]: 
+                      - generic [ref=e613]: 
+                - row "02/06/2025 04/06/2025 Description_1773639496123 Pending Asaaaaaaaaaaaa  " [ref=e614]:
+                  - cell [ref=e615]:
+                    - checkbox [ref=e616]
+                  - cell "02/06/2025" [ref=e617]:
+                    - generic [ref=e618]: 02/06/2025
+                  - cell "04/06/2025" [ref=e619]:
+                    - generic [ref=e620]: 04/06/2025
+                  - cell "Description_1773639496123" [ref=e621]:
+                    - generic [ref=e622]: Description_1773639496123
+                  - cell "Pending" [ref=e623]:
+                    - generic [ref=e624]: Pending
+                  - cell "Asaaaaaaaaaaaa" [ref=e625]:
+                    - generic [ref=e626]: Asaaaaaaaaaaaa
+                  - cell " " [ref=e627]:
+                    - generic [ref=e628]:
+                      - generic [ref=e630]: 
+                      - generic [ref=e632]: 
+                - row "05/06/2025 07/06/2025 Description_1774017795722 Pending Asaaaaaaaaaaaa  " [ref=e633]:
+                  - cell [ref=e634]:
+                    - checkbox [ref=e635]
+                  - cell "05/06/2025" [ref=e636]:
+                    - generic [ref=e637]: 05/06/2025
+                  - cell "07/06/2025" [ref=e638]:
+                    - generic [ref=e639]: 07/06/2025
+                  - cell "Description_1774017795722" [ref=e640]:
+                    - generic [ref=e641]: Description_1774017795722
+                  - cell "Pending" [ref=e642]:
+                    - generic [ref=e643]: Pending
+                  - cell "Asaaaaaaaaaaaa" [ref=e644]:
+                    - generic [ref=e645]: Asaaaaaaaaaaaa
+                  - cell " " [ref=e646]:
+                    - generic [ref=e647]:
+                      - generic [ref=e649]: 
+                      - generic [ref=e651]: 
+            - generic [ref=e652]:
+              - generic [ref=e653]:
+                - status [ref=e654]: Showing 1 To 10 of 20 entries
+                - generic [ref=e658]:
+                  - generic "10" [ref=e662]
+                  - combobox [ref=e663]:
+                    - textbox [ref=e664]
+              - navigation [ref=e668]:
+                - list [ref=e669]:
+                  - listitem [ref=e670]:
+                    - link "First" [disabled]:
+                      - /url: ""
+                      - generic: 
+                  - listitem [ref=e671]:
+                    - link "Previous" [disabled]:
+                      - /url: ""
+                      - generic: 
+                  - listitem [ref=e672]:
+                    - link "1 (current)" [ref=e673] [cursor=pointer]:
+                      - /url: ""
+                      - text: "1"
+                      - generic [ref=e674]: (current)
+                  - listitem [ref=e675]:
+                    - link "2" [ref=e676] [cursor=pointer]:
+                      - /url: ""
+                  - listitem [ref=e677]:
+                    - link "Next" [ref=e678] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e679]: 
+                  - listitem [ref=e680]:
+                    - link "Last" [ref=e681] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e682]: 
+        - contentinfo [ref=e311]:
+          - generic [ref=e313]:
+            - 'heading "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 17/06/2025" [level=6] [ref=e315]'
+            - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e318]
+    - generic [ref=e320]: 󰅒
+  - img

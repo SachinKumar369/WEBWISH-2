@@ -1,0 +1,29 @@
+Timestamp: 2026-04-29T07:52:44.971Z
+Report: Parameter Reports - Tax Exempt Category DB Validation
+
+Executed Query:
+select * from prm_common_masters where property_id='webwe' and param_type='TAEX'
+
+Total DB Rows: 4
+Total Matched Rows: 4
+
+Comparison Details (DB vs PDF):
+1. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=ASAS, description=TEST
+   matched: param_code=ASAS, description=TEST
+   missing: none
+2. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=NEXZ, description=TAX EXEMPT
+   matched: param_code=NEXZ, description=TAX EXEMPT
+   missing: none
+3. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=TAXE, description=TAX EXEMPT FOR FOOD
+   matched: param_code=TAXE, description=TAX EXEMPT FOR FOOD
+   missing: none
+4. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: param_code=TX, description=TAX EXMPT ROOM
+   matched: param_code=TX, description=TAX EXMPT ROOM
+   missing: none
+
+PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\tax-exempt-category-report-pdf-text.txt
+JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\tax-exempt-category-report-vs-db.json

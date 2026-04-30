@@ -1,0 +1,386 @@
+{
+  "reportTitle": "Parameter Reports - Meal Plan Codes DB Validation",
+  "queryText": "SELECT * FROM prm_meal_plan WHERE property_id = @propertyId",
+  "totalDbRows": 15,
+  "totalMatchedRows": 9,
+  "comparison": [
+    {
+      "rowNumber": 1,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "A123"
+        },
+        {
+          "column": "description",
+          "value": "AUTOMATION !@#$%^&*()_+-={}|\\][:\"';<>?/.,"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "A123"
+        }
+      ],
+      "missingValues": [
+        {
+          "column": "description",
+          "value": "AUTOMATION !@#$%^&*()_+-={}|\\][:\"';<>?/.,"
+        }
+      ],
+      "matched": false
+    },
+    {
+      "rowNumber": 2,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "AAA1"
+        },
+        {
+          "column": "description",
+          "value": "AUTOMATION !@#$%^&*()_+-={}|\\][:\"';<>?/.,"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "AAA1"
+        }
+      ],
+      "missingValues": [
+        {
+          "column": "description",
+          "value": "AUTOMATION !@#$%^&*()_+-={}|\\][:\"';<>?/.,"
+        }
+      ],
+      "matched": false
+    },
+    {
+      "rowNumber": 3,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "AAAA"
+        },
+        {
+          "column": "description",
+          "value": "\\"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "\\"
+        }
+      ],
+      "missingValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "AAAA"
+        }
+      ],
+      "matched": false
+    },
+    {
+      "rowNumber": 4,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "AP"
+        },
+        {
+          "column": "description",
+          "value": "AMERICAN PLAN"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "AP"
+        },
+        {
+          "column": "description",
+          "value": "AMERICAN PLAN"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 5,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "BB"
+        },
+        {
+          "column": "description",
+          "value": "BED & BREAKFAST"
+        }
+      ],
+      "matchedValues": [],
+      "missingValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "BB"
+        },
+        {
+          "column": "description",
+          "value": "BED & BREAKFAST"
+        }
+      ],
+      "matched": false
+    },
+    {
+      "rowNumber": 6,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "BP"
+        },
+        {
+          "column": "description",
+          "value": "BERMUDA PLAN"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "BP"
+        },
+        {
+          "column": "description",
+          "value": "BERMUDA PLAN"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 7,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "BU"
+        },
+        {
+          "column": "description",
+          "value": "BRUCH PLAN"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "BU"
+        },
+        {
+          "column": "description",
+          "value": "BRUCH PLAN"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 8,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "CP"
+        },
+        {
+          "column": "description",
+          "value": "CONTINAL PLAN"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "CP"
+        },
+        {
+          "column": "description",
+          "value": "CONTINAL PLAN"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 9,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "EP"
+        },
+        {
+          "column": "description",
+          "value": "EUROPEAN PLAN"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "EP"
+        },
+        {
+          "column": "description",
+          "value": "EUROPEAN PLAN"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 10,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "FB"
+        },
+        {
+          "column": "description",
+          "value": "FULL BOARD"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "FB"
+        },
+        {
+          "column": "description",
+          "value": "FULL BOARD"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 11,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "HB"
+        },
+        {
+          "column": "description",
+          "value": "HALF BOARD2"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "HB"
+        },
+        {
+          "column": "description",
+          "value": "HALF BOARD2"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 12,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "SNK"
+        },
+        {
+          "column": "description",
+          "value": "EVENING SNACK BEFORE DINNER"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "SNK"
+        },
+        {
+          "column": "description",
+          "value": "EVENING SNACK BEFORE DINNER"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 13,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "TEST"
+        },
+        {
+          "column": "description",
+          "value": "TEST123456789"
+        }
+      ],
+      "matchedValues": [],
+      "missingValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "TEST"
+        },
+        {
+          "column": "description",
+          "value": "TEST123456789"
+        }
+      ],
+      "matched": false
+    },
+    {
+      "rowNumber": 14,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "UAI"
+        },
+        {
+          "column": "description",
+          "value": "ULTRA PLAN"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "UAI"
+        },
+        {
+          "column": "description",
+          "value": "ULTRA PLAN"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 15,
+      "relevantValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "XYZ"
+        },
+        {
+          "column": "description",
+          "value": "XYZ MEAL PLAN"
+        }
+      ],
+      "matchedValues": [],
+      "missingValues": [
+        {
+          "column": "meal_plan_id",
+          "value": "XYZ"
+        },
+        {
+          "column": "description",
+          "value": "XYZ MEAL PLAN"
+        }
+      ],
+      "matched": false
+    }
+  ]
+}
