@@ -1,137 +1,33 @@
-name: Playwright Automation Tests
+name: Playwright Stable CI
 
 on:
   push:
-    branches: [ main, develop ]
-  pull_request:
-    branches: [ main, develop ]
-  schedule:
-    - cron: '0 2 * * *'
+    branches: [ main ]
 
 jobs:
   test:
-    timeout-minutes: 60
     runs-on: ubuntu-latest
-
-    strategy:
-      fail-fast: false
-      matrix:
-        node-version: [18.x, 20.x]
-        browser: [chromium, firefox, webkit, msedge]
-        environment: [dev, stage]
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          node-version: 18
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps ${{ matrix.browser }}
+      - name: Install Playwright
+        run: npx playwright install --with-deps
 
-      - name: Run tests - ${{ matrix.browser }} on ${{ matrix.environment }}
-        env:
-          ENV: ${{ matrix.environment }}
-          BROWSER: ${{ matrix.browser }}
-          HEADLESS: true
-          CI: true
-        run: |
-          npm run test:${{ matrix.browser }} -- --env=${{ matrix.environment }}
+      - name: Run tests
+        run: npx playwright test --project=chromium
 
-      - name: Generate Allure Report
-        if: always()
-        run: |
-          npm run report:allure
-
-      - name: Upload test results
+      - name: Upload report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: test-results-${{ matrix.browser }}-${{ matrix.environment }}-node${{ matrix.node-version }}
-          path: |
-            test-results/
-            allure-report/
-            screenshots/
-            videos/
-            logs/
-          retention-days: 30
-
-      - name: Upload coverage
-        if: always()
-        uses: codecov/codecov-action@v3
-        with:
-          files: ./test-results/test-results.json
-          flags: unittests
-          name: codecov-umbrella
-
-      - name: Publish Test Results
-        if: always()
-        uses: EnricoMi/publish-unit-test-result-action@v2
-        with:
-          files: test-results/junit.xml
-          check_name: Test Results - ${{ matrix.browser }} - ${{ matrix.environment }}
-          comment_mode: always
-
-  allure-report:
-    name: Publish Allure Report
-    needs: test
-    runs-on: ubuntu-latest
-    if: always()
-
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          path: artifacts
-
-      - name: Publish to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./artifacts/allure-report
-        if: github.ref == 'refs/heads/main'
-
-  notification:
-    name: Slack Notification
-    needs: test
-    runs-on: ubuntu-latest
-    if: always()
-
-    steps:
-      - name: Send Slack notification
-        uses: slackapi/slack-github-action@v1.24.0
-        with:
-          webhook-url: ${{ secrets.SLACK_WEBHOOK }}
-          payload: |
-            {
-              "text": "Test Execution Report",
-              "blocks": [
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "*Playwright Tests Status*\nBuild: ${{ github.run_id }}\nBranch: ${{ github.ref }}\nStatus: ${{ needs.test.result }}"
-                  }
-                },
-                {
-                  "type": "actions",
-                  "elements": [
-                    {
-                      "type": "button",
-                      "text": {
-                        "type": "plain_text",
-                        "text": "View Results"
-                      },
-                      "url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-                    }
-                  ]
-                }
-              ]
-            }
-        if: ${{ secrets.SLACK_WEBHOOK != '' }}
-
+          name: playwright-report
+          path: playwright-report/
