@@ -1,6 +1,42 @@
 [
   {
     "property_id": "WEBWE",
+    "meal_plan_id": "A123",
+    "active": true,
+    "description": "Automation !@#$%^&*()_+-={}|\\][:\"';<>?/.,",
+    "club_with_room": "N",
+    "amount_percent_flg": "A",
+    "created_by": "SACH",
+    "created_on": "2025-06-26T11:53:20.477Z",
+    "last_modified_by": null,
+    "last_modified_on": null
+  },
+  {
+    "property_id": "WEBWE",
+    "meal_plan_id": "AAA1",
+    "active": true,
+    "description": "Automation !@#$%^&*()_+-={}|\\][:\"';<>?/.,",
+    "club_with_room": "N",
+    "amount_percent_flg": "A",
+    "created_by": "SACH",
+    "created_on": "2025-06-26T11:50:03.530Z",
+    "last_modified_by": "SACH",
+    "last_modified_on": "2025-06-26T11:53:03.047Z"
+  },
+  {
+    "property_id": "WEBWE",
+    "meal_plan_id": "AAAA",
+    "active": true,
+    "description": "\\",
+    "club_with_room": "N",
+    "amount_percent_flg": "A",
+    "created_by": "SACH",
+    "created_on": "2025-06-26T11:49:44.493Z",
+    "last_modified_by": null,
+    "last_modified_on": null
+  },
+  {
+    "property_id": "WEBWE",
     "meal_plan_id": "AP  ",
     "active": true,
     "description": "AMERICAN PLAN",
@@ -94,6 +130,18 @@
     "created_on": "2025-05-06T00:00:00.000Z",
     "last_modified_by": "HIMANSHU",
     "last_modified_on": "2025-05-24T22:47:59.110Z"
+  },
+  {
+    "property_id": "WEBWE",
+    "meal_plan_id": "SNK ",
+    "active": true,
+    "description": "Evening Snack Before Dinner",
+    "club_with_room": "N",
+    "amount_percent_flg": "P",
+    "created_by": "ARCHANA",
+    "created_on": "2025-06-26T13:29:51.963Z",
+    "last_modified_by": "ARCHANA",
+    "last_modified_on": "2025-06-26T13:30:21.300Z"
   },
   {
     "property_id": "WEBWE",

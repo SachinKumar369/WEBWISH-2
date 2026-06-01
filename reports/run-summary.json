@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-04-30T12:50:12.513Z",
-  "runStatus": "passed",
-  "totalDurationMs": 21635,
+  "timestamp": "2026-06-01T07:21:09.724Z",
+  "runStatus": "failed",
+  "totalDurationMs": 61847,
   "totalTests": 1,
-  "passed": 1,
-  "failed": 0,
+  "passed": 0,
+  "failed": 1,
   "skipped": 0,
   "timedOut": 0,
   "interrupted": 0,
   "retriedPassed": 0,
-  "passRate": 100,
+  "passRate": 0,
   "environment": "dev",
   "browser": "mixed",
   "reports": {
@@ -18,18 +18,40 @@
     "junit": "test-results/junit.xml",
     "json": "test-results/test-results.json"
   },
-  "failedTests": [],
+  "failedTests": [
+    {
+      "title": "MGR_RATE_001: Create and delete a rate from Manager Functions",
+      "fullTitle": " > chromium > ManagerFunction\\rate-manager.spec.ts > Manager Function - Rate Manager Creation > MGR_RATE_001: Create and delete a rate from Manager Functions",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\ManagerFunction\\rate-manager.spec.ts",
+      "project": "chromium",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 56534,
+      "retry": 0,
+      "error": "ConnectionError: Failed to connect to 192.168.0.9:2026 in 15000ms",
+      "attachments": [
+        "E:\\Automation Project\\WebWish 2\\test-results\\ManagerFunction-rate-manag-51828-rate-from-Manager-Functions-chromium\\test-failed-1.png",
+        "E:\\Automation Project\\WebWish 2\\test-results\\ManagerFunction-rate-manag-51828-rate-from-Manager-Functions-chromium\\video.webm",
+        "E:\\Automation Project\\WebWish 2\\test-results\\ManagerFunction-rate-manag-51828-rate-from-Manager-Functions-chromium\\error-context.md"
+      ]
+    }
+  ],
   "tests": [
     {
-      "title": "PRR_REVENUE_TYPE_001: should validate revenue type list PDF data with DB data",
-      "fullTitle": " > chromium > Reports\\ParameterReports\\revenue-type-list-report-db-validation.spec.ts > Parameter Reports - Revenue Type List DB Validation > PRR_REVENUE_TYPE_001: should validate revenue type list PDF data with DB data",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\Reports\\ParameterReports\\revenue-type-list-report-db-validation.spec.ts",
+      "title": "MGR_RATE_001: Create and delete a rate from Manager Functions",
+      "fullTitle": " > chromium > ManagerFunction\\rate-manager.spec.ts > Manager Function - Rate Manager Creation > MGR_RATE_001: Create and delete a rate from Manager Functions",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\ManagerFunction\\rate-manager.spec.ts",
       "project": "chromium",
-      "status": "passed",
+      "status": "failed",
       "expectedStatus": "passed",
-      "durationMs": 13480,
+      "durationMs": 56534,
       "retry": 0,
-      "attachments": []
+      "error": "ConnectionError: Failed to connect to 192.168.0.9:2026 in 15000ms",
+      "attachments": [
+        "E:\\Automation Project\\WebWish 2\\test-results\\ManagerFunction-rate-manag-51828-rate-from-Manager-Functions-chromium\\test-failed-1.png",
+        "E:\\Automation Project\\WebWish 2\\test-results\\ManagerFunction-rate-manag-51828-rate-from-Manager-Functions-chromium\\video.webm",
+        "E:\\Automation Project\\WebWish 2\\test-results\\ManagerFunction-rate-manag-51828-rate-from-Manager-Functions-chromium\\error-context.md"
+      ]
     }
   ]
 }

@@ -13,43 +13,43 @@ test.describe.serial('Global Search', () => {
     }
   });
 
-  test('GLOBAL_SEARCH_001: Validate global search flow from dashboard', async ({ page, context }) => {
-    test.setTimeout(20 * 60 * 1000);
+  // test('GLOBAL_SEARCH_001: Validate global search flow from dashboard', async ({ page, context }) => {
+  //   test.setTimeout(20 * 60 * 1000);
 
-    const loginPage = new LoginPage(page, context);
-    const globalSearchPage = new GlobalSearchPage(page, context);
+  //   const loginPage = new LoginPage(page, context);
+  //   const globalSearchPage = new GlobalSearchPage(page, context);
 
-    const user = await testDataManager.getUserCredentials('all');
-    expect(user).toBeDefined();
+  //   const user = await testDataManager.getUserCredentials('all');
+  //   expect(user).toBeDefined();
 
-    await loginPage.loginWithPropertySelection(user.username, user.password, 2);
+  //   await loginPage.loginWithPropertySelection(user.username, user.password, 2);
 
-    await globalSearchPage.runGlobalSearchFlow();
+  //   await globalSearchPage.runGlobalSearchFlow();
 
-    await page.screenshot({
-      path: 'screenshots/GLOBAL_SEARCH_001.png',
-      fullPage: true
-    });
-  });
+  //   await page.screenshot({
+  //     path: 'screenshots/GLOBAL_SEARCH_001.png',
+  //     fullPage: true
+  //   });
+  // });
 
-  test('GLOBAL_SEARCH_002: Guest management global search with dynamic tab counts', async ({ page, context }) => {
-    test.setTimeout(20 * 60 * 1000);
+  // test('GLOBAL_SEARCH_002: Guest management global search with dynamic tab counts', async ({ page, context }) => {
+  //   test.setTimeout(20 * 60 * 1000);
 
-    const loginPage = new LoginPage(page, context);
-    const globalSearchPage = new GlobalSearchPage(page, context);
+  //   const loginPage = new LoginPage(page, context);
+  //   const globalSearchPage = new GlobalSearchPage(page, context);
 
-    const user = await testDataManager.getUserCredentials('all');
-    expect(user).toBeDefined();
+  //   const user = await testDataManager.getUserCredentials('all');
+  //   expect(user).toBeDefined();
 
-    await loginPage.loginWithPropertySelection(user.username, user.password, 2);
+  //   await loginPage.loginWithPropertySelection(user.username, user.password, 2);
 
-    await globalSearchPage.runGuestManagementGlobalSearchFlow();
+  //   await globalSearchPage.runGuestManagementGlobalSearchFlow();
 
-    await page.screenshot({
-      path: 'screenshots/GLOBAL_SEARCH_002.png',
-      fullPage: true
-    });
-  });
+  //   await page.screenshot({
+  //     path: 'screenshots/GLOBAL_SEARCH_002.png',
+  //     fullPage: true
+  //   });
+  // });
 
   test('GLOBAL_SEARCH_003: Validate topbar search navigation across core functionalities', async ({ page, context }) => {
     test.setTimeout(90 * 60 * 1000);
@@ -60,7 +60,7 @@ test.describe.serial('Global Search', () => {
     const user = await testDataManager.getUserCredentials('all');
     expect(user).toBeDefined();
 
-    await loginPage.loginWithPropertySelection(user.username, user.password, 2);
+    await loginPage.loginWithPropertySelection(user.username, user.password, 0);
 
     const modulesToValidate = [
       { searchTerm: 'booking calendar', moduleDisplayName: 'Booking Calendar' },

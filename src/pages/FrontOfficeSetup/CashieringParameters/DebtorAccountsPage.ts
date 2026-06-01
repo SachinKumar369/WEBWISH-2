@@ -120,7 +120,7 @@ const code3 = this.generateUniqueCode();
     await this.fillDebtorForm(code3, `${descriptionToken} 123`, 'NEW DELHI');
     await this.saveWithSuccessPopup(this.saveButton, 'Save Debtor Account');
 
-    await this.elementActions.click(this.closeButton, 'Close Debtor Account popup');
+    //await this.elementActions.click(this.closeButton, 'Close Debtor Account popup');
 
     await this.elementActions.click(this.searchInput, 'Debtor Account search input');
     await this.searchInput.fill('');

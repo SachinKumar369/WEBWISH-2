@@ -37,6 +37,7 @@ export class TaskManagementFlowPage extends BasePage {
   }
 
   async openFromFrontDesk(): Promise<void> {
+    await this.page.mouse.move(0,400); // Move mouse to trigger any hover-based menus if necessary
     await this.elementActions.click(this.page.getByRole('link', { name: ' Front Desk' }), 'Front Desk menu');
     await this.elementActions.click(this.page.getByRole('link', { name: ' Task Management' }), 'Task Management menu');
   }
@@ -87,10 +88,42 @@ export class TaskManagementFlowPage extends BasePage {
     }
   }
 
-  async searchTask(searchText: string): Promise<void> {
+  async searchTask1(searchText: string): Promise<void> {
     await this.elementActions.sendKeys(this.searchInput, searchText, 'Task search input');
     await expect(this.tableBody).toContainText(searchText);
   }
+
+
+  async searchTask(searchText: string): Promise<void> {
+
+  await this.searchInput.waitFor({ state: 'visible' });
+
+  await this.searchInput.click();
+
+  await this.searchInput.press('Control+A');
+
+  await this.searchInput.press('Backspace');
+
+  await this.searchInput.fill('');
+
+  await this.searchInput.type(searchText);
+
+  await this.page.waitForTimeout(2000);
+
+  const rows = this.page.locator('tbody tr');
+
+  const rowCount = await rows.count();
+
+  expect(rowCount).toBeGreaterThan(0);
+
+  for (let i = 0; i < rowCount; i++) {
+
+    const rowText = (await rows.nth(i).textContent())?.toLowerCase() || '';
+
+    expect(rowText).toContain(searchText.toLowerCase());
+  }
+}
+
 
   async updateFirstSearchedTask(updatedDescription: string): Promise<void> {
     await this.elementActions.click(this.firstEditIcon, 'First edit icon');
@@ -109,7 +142,79 @@ export class TaskManagementFlowPage extends BasePage {
     await this.elementActions.click(this.okButton, 'OK button');
   }
 
+  async deleteSelectedTasks1(): Promise<void> {
+    await this.selectAllCheckbox.check();
+    await this.elementActions.click(this.deleteSelectedButton, 'Delete selected button');
+    await expect(this.toastText).toContainText('Do you want to delete the selected record?');
+    await this.elementActions.click(this.yesButton, 'Yes button');
+    await expect(this.toastText).toContainText('deleted successfully');
+    await this.elementActions.click(this.okButton, 'OK button');
+  }
+
+
+  private businessDateText = this.page.locator('text=/Business Date:/');
+
   private async fillTaskForm(description: string): Promise<void> {
+
+  const businessDateValue = await this.businessDateText.textContent();
+
+  const businessDateMatch = businessDateValue?.match(/\d{2}\/\d{2}\/\d{4}/);
+
+  if (!businessDateMatch) {
+    throw new Error('Business date not found');
+  }
+
+  const [day, month, year] = businessDateMatch[0]
+    .split('/')
+    .map(Number);
+
+  const fromDateObj = new Date(year, month - 1, day);
+
+  const toDateObj = new Date(fromDateObj);
+  toDateObj.setDate(toDateObj.getDate() + 4);
+
+  const formatDate = (date: Date): string => {
+    const dd = String(date.getDate()).padStart(2, '0');
+    const mm = String(date.getMonth() + 1).padStart(2, '0');
+    const yyyy = date.getFullYear();
+
+    return `${dd}/${mm}/${yyyy}`;
+  };
+
+  await this.elementActions.sendKeys(
+    this.dateFrom,
+    formatDate(fromDateObj),
+    'Date from'
+  );
+
+  await this.elementActions.sendKeys(
+    this.dateTo,
+    formatDate(toDateObj),
+    'Date to'
+  );
+
+  await this.elementActions.click(this.statusDropdown, 'Status dropdown');
+
+  await this.page.keyboard.press('ArrowDown');
+  await this.page.keyboard.press('Enter');
+
+  await this.elementActions.click(this.assignToDropdown, 'Assign to dropdown');
+
+  await this.page.keyboard.press('ArrowDown');
+  await this.page.keyboard.press('ArrowDown');
+  await this.page.keyboard.press('Enter');
+
+  await this.elementActions.sendKeys(
+    this.descriptionInput,
+    description,
+    'Description input'
+  );
+}
+
+
+
+
+  private async fillTaskForm2(description: string): Promise<void> {
     await this.elementActions.sendKeys(this.dateFrom, '26/06/2025', 'Date from');
     await this.elementActions.sendKeys(this.dateTo, '30/06/2025', 'Date to');
 

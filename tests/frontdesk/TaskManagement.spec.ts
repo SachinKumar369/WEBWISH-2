@@ -96,6 +96,89 @@ test.describe.serial('Frontdesk - Task Management', () => {
 
   });
 
+  test('FD_TASK_004: Create Cancelled Task with Validation', async () => {
+    
+    logger.info('Starting FD_TASK_004: Create Cancelled Task with Validation');
+
+    // Navigate to Task Management
+    await taskManagement.searchAndOpenTaskManagement('Task Management');
+    
+    // Create a cancelled task with complete validation flow
+    // - Validates blank form save error
+    // - Fills with unique timestamp description
+    // - Saves and validates success
+    await taskManagement.createCancelledTaskWithValidation();
+
+    await page.screenshot({
+      path: 'screenshots/FD_TASK_004_after_creation.png',
+      fullPage: true
+    });
+
+    // Verify the cancelled task appears in search results with unique description
+    await taskManagement.verifyCancelledTaskInSearch();
+
+    await page.screenshot({
+      path: 'screenshots/FD_TASK_004_verification.png',
+      fullPage: true
+    });
+
+    logger.info('FD_TASK_004 completed');
+
+  });
+
+  test('FD_TASK_005: Create Completed Task with Validation', async () => {
+    
+    logger.info('Starting FD_TASK_005: Create Completed Task with Validation');
+
+    await taskManagement.searchAndOpenTaskManagement('Task Management');
+
+    // Create a completed task with complete validation flow
+    await taskManagement.createCompletedTaskWithValidation();
+
+    await page.screenshot({
+      path: 'screenshots/FD_TASK_005_after_creation.png',
+      fullPage: true
+    });
+
+    await taskManagement.verifyCompletedTaskInSearch();
+
+    await page.screenshot({
+      path: 'screenshots/FD_TASK_005_verification.png',
+      fullPage: true
+    });
+
+    logger.info('FD_TASK_005 completed');
+
+  });
+
+  test('FD_TASK_006: Create Pending Task with Validation', async () => {
+    
+    logger.info('Starting FD_TASK_006: Create Pending Task with Validation');
+
+    await taskManagement.searchAndOpenTaskManagement('Task Management');
+
+    // Create a pending task with complete validation flow
+    await taskManagement.createPendingTaskWithValidation();
+
+    await page.screenshot({
+      path: 'screenshots/FD_TASK_006_after_creation.png',
+      fullPage: true
+    });
+
+    await taskManagement.verifyPendingTaskInSearch();
+
+    await page.screenshot({
+      path: 'screenshots/FD_TASK_006_verification.png',
+      fullPage: true
+    });
+
+      // Perform the pending-specific follow-up flow (assign users, handle duplicates, delete/history)
+      await taskManagement.pendingTaskPostCreationFlow();
+
+    logger.info('FD_TASK_006 completed');
+
+  });
+
   // test.afterAll(async () => {
   //  // await context.close();
   //   //logger.info('Browser context closed');

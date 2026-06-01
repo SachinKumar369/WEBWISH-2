@@ -207,24 +207,23 @@ export class LoginPage extends BasePage {
     username: string,
     password: string,
     propertyIdentifier?: number | string
-  ): Promise<void> {
+  ): Promise<string | undefined> {
     try {
       logger.info('Starting login process with property selection');
 
       // Perform regular login
       await this.login(username, password);
 
-// await this.page.setViewportSize({
-//     width: 1920,
-//     height: 1200
-//   });
-
-      
+      // await this.page.setViewportSize({
+      //     width: 1920,
+      //     height: 1200
+      //   });
 
       // Handle property selection
-      await this.handlePropertySelection(propertyIdentifier);
+      const selectedPropertyCode = await this.handlePropertySelection(propertyIdentifier);
 
       logger.info('✅ Login and property selection completed successfully');
+      return selectedPropertyCode;
     } catch (error) {
       logger.error(`Login with property selection failed: ${error}`);
       await this.takeScreenshot('login_property_selection_failure');
@@ -237,7 +236,7 @@ export class LoginPage extends BasePage {
    * @param propertyIdentifier - Can be index (0, 1, 2) or code ('WDUBI', 'WEBIN', 'WEBBE')
    * If not provided, will select first property (index 0)
    */
-  async handlePropertySelection(propertyIdentifier?: number | string): Promise<void> {
+  async handlePropertySelection(propertyIdentifier?: number | string): Promise<string | undefined> {
     try {
       logger.info('🏢 Handling property selection...');
 
@@ -253,25 +252,49 @@ export class LoginPage extends BasePage {
 
       // List all available properties
       await selectProperty.listAllProperties();
+      const properties = await selectProperty.getAllPropertiesFromPage();
+
+      let selectedPropertyCode: string | undefined;
 
       // Select property
       if (propertyIdentifier === undefined) {
         // Default: select first property (index 0)
         logger.info('📍 No property specified, selecting first property (index 0)');
         await selectProperty.selectPropertyAtIndex(0);
+        selectedPropertyCode = properties[0]?.code;
       } else if (typeof propertyIdentifier === 'number') {
         // Select by index
         await selectProperty.selectPropertyAtIndex(propertyIdentifier);
+        selectedPropertyCode = properties[propertyIdentifier]?.code;
       } else {
         // Select by code
         await selectProperty.selectPropertyByCode(propertyIdentifier);
+        selectedPropertyCode =
+          properties.find(property => property.code.toUpperCase() === propertyIdentifier.toUpperCase())?.code ??
+          propertyIdentifier.toUpperCase();
       }
 
-      logger.info('✅ Property selected successfully');
+      if (!selectedPropertyCode) {
+        selectedPropertyCode = await this.getSelectedPropertyIdFromFooter();
+      }
+
+      logger.info(`✅ Property selected successfully${selectedPropertyCode ? `: ${selectedPropertyCode}` : ''}`);
+      return selectedPropertyCode;
     } catch (error) {
       logger.error(`Failed to handle property selection: ${error}`);
       throw error;
     }
+  }
+
+  private async getSelectedPropertyIdFromFooter(): Promise<string | undefined> {
+    const footerText = await this.page.getByRole('contentinfo').textContent().catch(() => null);
+
+    if (!footerText) {
+      return undefined;
+    }
+
+    const match = footerText.match(/Property Id:\s*([A-Za-z0-9_-]+)/i);
+    return match?.[1];
   }
 
   /**

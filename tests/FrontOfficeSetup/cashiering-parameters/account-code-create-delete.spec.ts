@@ -23,7 +23,7 @@ test.describe.serial('FrontOffice Setup - Cashiering Parameters - Account Code',
     expect(user).toBeDefined();
 
     logger.info('Logging in and selecting property for Account Code create/delete flow');
-    await loginPage.loginWithPropertySelection(user.username, user.password, 2);
+    await loginPage.loginWithPropertySelection(user.username, user.password, 0);
 
     await accountCodePage.runAccountCodeCreateDeleteFlow();
 

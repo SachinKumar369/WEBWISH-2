@@ -33,8 +33,10 @@ export class TaskManagement extends BasePage {
   private readonly okButton = this.page.getByRole('button', { name: 'OK' });
   private readonly updateButton = this.page.getByRole('button', { name: 'Update' });
 
+  private readonly datefrom = this.page.getByText('Date From required');
   private readonly toastParagraph = this.page.getByRole('paragraph');
   private readonly businessDateText = this.page.locator('h6:has-text("Business Date")');
+  private readonly formContainer = this.page.locator('app-task-management-input');
 
   private readonly monthSelect = this.page.getByLabel('Month');
   private readonly juneFirstDate = this.page.getByLabel('June 1,').first();
@@ -62,10 +64,17 @@ export class TaskManagement extends BasePage {
     .filter({ hasText: /^User\*--select--$/ })
     .getByRole('textbox');
 
-  private readonly userSelectDropdown = this.page
-    .locator('ng-select')
-    .filter({ hasText: '--select-- ALL All Users' })
-    .getByRole('textbox');
+  // private readonly userSelectDropdown = this.page
+  //   .locator('ng-select')
+  //   .filter({ hasText: '--select-- ALL All Users' })
+  //   .getByRole('textbox'); 
+
+private readonly userSelectDropdown = this.page
+  .locator('ng-select')
+  .filter({ hasText: '--select-- ALL All Users' })
+  .getByRole('textbox')
+  .or(this.page.getByRole('textbox').first());
+ 
 
   constructor(page: Page, context: BrowserContext) {
     super(page, context);
@@ -491,6 +500,275 @@ await this.elementActions.sendKeys(this.dateField('Date To'), dateTo, 'Date To f
       logger.info('Edit pending task workflow completed successfully');
     } catch (error) {
       logger.error(`Edit pending task workflow failed: ${error}`);
+      throw error;
+    }
+  }
+
+  /**
+   * Perform the post-creation follow-up flow for a Pending task.
+   * - search for the pending task by stored description
+   * - open the row and perform user assignment edits similar to manual flow
+   * - handle 'Already Exists.' toast and fallback to keyboard selection
+   * - save changes and close dialogs, verify expected messages
+   */
+  async pendingTaskPostCreationFlow(): Promise<void> {
+    try {
+      const description = GlobalDataStore.get('pendingTaskDescription');
+      if (!description) throw new Error('Pending task description not found in GlobalDataStore');
+
+      logger.info(`Starting pending follow-up flow for: ${description}`);
+
+      // Search for the pending task
+      await this.elementActions.click(this.searchTask, 'Search field');
+      await this.elementActions.sendKeys(this.searchTask, description, 'Search task input');
+      await this.page.waitForTimeout(500);
+
+      // Find the row containing the description
+      const rows = await this.tableRows.count();
+      let targetRow: Locator | undefined;
+      for (let i = 0; i < rows; i++) {
+        const row = this.tableRows.nth(i);
+        const text = await this.elementActions.getText(row, `Row ${i + 1} text`);
+        if (text && text.includes(description)) {
+          targetRow = row;
+          break;
+        }
+      }
+
+      if (!targetRow) throw new Error('Pending task row not found after search');
+
+      // Click edit icon in the row
+      const editIcon = targetRow.locator('.bx.bx-edit-alt');
+      await this.elementActions.click(editIcon, 'Edit icon in task row');
+
+      // Click first button in dialog (matches manual flow)
+      await this.elementActions.click(this.page.getByRole('button').first(), 'First dialog button');
+
+      // Open assign-to dropdown and attempt to add 'Sachin Kumar'
+      await this.elementActions.click(this.userSelectDropdown, 'Assign-to dropdown');
+      await this.elementActions.sendKeys(this.userSelectDropdown, 'sachin', 'Assign-to search');
+
+      // Try to click the option by title if present
+      const sachinOption = this.page.locator('[title="Sachin Kumar"]');
+      if (await sachinOption.count() > 0) {
+        await this.elementActions.click(sachinOption.first(), 'Select Sachin Kumar');
+      }
+
+      // Save & Add New
+      await this.elementActions.click(this.saveAndAddNewButton, 'Save & Add New');
+
+      // Attempt to add again to reproduce 'Already Exists.' behavior
+      await this.elementActions.click(this.userSelectDropdown, 'Assign-to dropdown');
+      await this.elementActions.sendKeys(this.userSelectDropdown, 'sac', 'Assign-to search short');
+      if (await sachinOption.count() > 0) {
+        await this.elementActions.click(sachinOption.first(), 'Select Sachin Kumar again');
+      }
+      await this.elementActions.click(this.saveAndAddNewButton, 'Save & Add New - duplicate');
+
+      // If Already Exists toast appears, acknowledge it
+      if (await this.elementActions.isElementVisible(this.toastParagraph, 'Toast paragraph')) {
+        const toastText = await this.elementActions.getText(this.toastParagraph, 'Toast text');
+        if (toastText.includes('Already Exists')) {
+          logger.info('Already Exists toast detected, clicking OK');
+          await this.elementActions.click(this.okButton, 'OK button on Already Exists');
+        }
+      }
+
+      // Fallback: select via keyboard (arrow downs then Enter)
+      await this.elementActions.click(this.userSelectDropdown, 'Assign-to dropdown for keyboard selection');
+      for (let i = 0; i < 6; i++) {
+        await this.elementActions.pressKey('ArrowDown');
+      }
+      await this.elementActions.pressKey('Enter');
+
+      // Save twice then close as per manual flow
+      await this.elementActions.click(this.saveAndAddNewButton, 'Save & Add New (final)');
+      await this.elementActions.click(this.saveAndAddNewButton, 'Save & Add New (final 2)');
+      await this.elementActions.click(this.closeButton, 'Close dialog');
+      await this.elementActions.click(this.updateButton, 'Update button after close');
+      await this.elementActions.click(this.okButton, 'OK button after update');
+
+      // Optionally open the row again and verify statuses present
+      // Search for the pending task
+      await this.elementActions.click(this.searchTask, 'Search field');
+      await this.elementActions.sendKeys(this.searchTask, description, 'Search task input');
+
+      
+      await this.elementActions.click(editIcon, 'Open edit icon again');
+      await expect(this.taskTable).toContainText('Cancelled');
+      await expect(this.taskTable).toContainText('Pending');
+
+      // Select all and delete (match manual flow)
+      await this.elementActions.click(this.selectAllCheckbox, 'Select all checkbox');
+      await this.elementActions.click(this.deleteButton, 'Delete button');
+      await expect(this.toastParagraph).toContainText('Do you want to delete the selected record?');
+      await this.elementActions.click(this.yesButton, 'Yes to delete');
+      await this.elementActions.click(this.closeButton, 'Close after delete');
+      
+
+      // Open history and close
+      await this.elementActions.click(this.page.locator('.bx.bx-history'), 'History icon');
+      await this.elementActions.click(this.closeButton, 'Close history dialog');
+
+      logger.info('Pending follow-up flow completed');
+    } catch (error) {
+      logger.error(`pendingTaskPostCreationFlow failed: ${error}`);
+      throw error;
+    }
+  }
+
+  async createCancelledTaskWithValidation(): Promise<void> {
+    await this.createTaskWithValidation('Cancelled', 'cancelledTaskDescription');
+  }
+
+  async createCompletedTaskWithValidation(): Promise<void> {
+    await this.createTaskWithValidation('Completed', 'completedTaskDescription');
+  }
+
+  async createPendingTaskWithValidation(): Promise<void> {
+    await this.createTaskWithValidation('Pending', 'pendingTaskDescription');
+  }
+
+  async verifyCancelledTaskInSearch(): Promise<void> {
+    await this.verifyTaskInSearch('cancelledTaskDescription', 'Cancelled');
+  }
+
+  async verifyCompletedTaskInSearch(): Promise<void> {
+    await this.verifyTaskInSearch('completedTaskDescription', 'Completed');
+  }
+
+  async verifyPendingTaskInSearch(): Promise<void> {
+    await this.verifyTaskInSearch('pendingTaskDescription', 'Pending');
+  }
+
+  private async createTaskWithValidation(status: 'Cancelled' | 'Completed' | 'Pending', descriptionKey: string): Promise<void> {
+    try {
+      logger.info(`Starting ${status.toLowerCase()} task creation with blank validation`);
+
+      logger.info('Attempting to save blank form for validation');
+      await this.elementActions.click(this.saveButton, 'Save button');
+      await expect(this.formContainer).toContainText('Date From required');
+      logger.info('Blank form validation verified - Date From required error shown');
+
+      const businessDate = await this.getBusinessDate();
+      const dateTo = this.addDaysToDate(businessDate, 4);
+      logger.info(`Date From: ${businessDate}, Date To: ${dateTo}`);
+
+      const dateFromField = this.page.getByRole('textbox', { name: 'Select' }).first();
+      await this.elementActions.click(dateFromField, 'Date from field');
+      await this.elementActions.sendKeys(dateFromField, businessDate, 'Date from input');
+      logger.info(`Date from filled with business date: ${businessDate}`);
+
+      const dateToField = this.page.getByRole('textbox', { name: 'Select' }).nth(1);
+      await this.elementActions.click(dateToField, 'Date to field');
+      await this.elementActions.sendKeys(dateToField, dateTo, 'Date to input');
+      logger.info(`Date to filled: ${dateTo}`);
+
+      await this.selectStatus(status);
+      logger.info(`Status set to ${status}`);
+
+      await this.selectAssignToByArrowDowns(9);
+      logger.info('Assign-to selected');
+
+      const uniqueDescription = this.createUniqueDescription(status);
+      await this.elementActions.sendKeys(this.descriptionInput, uniqueDescription, 'Description input');
+      logger.info(`Description filled with unique timestamp: ${uniqueDescription}`);
+
+      await this.elementActions.click(this.saveButton, 'Save button');
+      await expect(this.toastParagraph).toContainText('Details created/updated successfully.');
+      await this.elementActions.click(this.okButton, 'OK button');
+
+      GlobalDataStore.set(descriptionKey, uniqueDescription);
+      logger.info(`${status} task created successfully with validation flow`);
+    } catch (error) {
+      logger.error(`Failed to create ${status.toLowerCase()} task with validation: ${error}`);
+      throw error;
+    }
+  }
+
+  private async verifyTaskInSearch(descriptionKey: string, expectedStatus: 'Cancelled' | 'Completed' | 'Pending'): Promise<void> {
+    try {
+      const description = GlobalDataStore.get(descriptionKey);
+      if (!description) {
+        throw new Error(`${expectedStatus} task description not found in GlobalDataStore`);
+      }
+
+      logger.info(`Verifying ${expectedStatus.toLowerCase()} task in search: ${description}`);
+
+      const searchField = this.page.getByRole('textbox', { name: 'Search', exact: true });
+      await this.elementActions.click(searchField, 'Search field');
+      await this.elementActions.sendKeys(searchField, description, 'Task search input');
+
+      await expect(this.taskTable).toContainText(description);
+      await expect(this.taskTable).toContainText(expectedStatus);
+
+      logger.info(`${expectedStatus} task verified in search results with unique description`);
+    } catch (error) {
+      logger.error(`Failed to verify ${expectedStatus.toLowerCase()} task: ${error}`);
+      throw error;
+    }
+  }
+
+  private async getBusinessDate(): Promise<string> {
+    const footerText = await this.elementActions.getText(this.businessDateText, 'Business Date text');
+    const match = footerText.match(/\d{2}\/\d{2}\/\d{4}/);
+    const businessDate = match ? match[0] : undefined;
+
+    if (!businessDate) {
+      throw new Error('Business Date not found on Task Management page');
+    }
+
+    logger.info(`Extracted Business Date: ${businessDate}`);
+    return businessDate;
+  }
+
+  private addDaysToDate(dateString: string, days: number): string {
+    const [day, month, year] = dateString.split('/').map(Number);
+    const dateObj = new Date(year, month - 1, day);
+    dateObj.setDate(dateObj.getDate() + days);
+
+    return `${String(dateObj.getDate()).padStart(2, '0')}/${String(dateObj.getMonth() + 1).padStart(2, '0')}/${dateObj.getFullYear()}`;
+  }
+
+  private createUniqueDescription(status: string): string {
+    const timestamp = new Date().toLocaleString('en-US', {
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+      hour12: true
+    });
+
+    return `${status.toLowerCase()} current date ${timestamp}`;
+  }
+
+  private async selectStatus(status: 'Cancelled' | 'Completed' | 'Pending'): Promise<void> {
+    try {
+      const statusInputField = this.page.getByRole('textbox').nth(2);
+      await this.elementActions.click(statusInputField, 'Status input field');
+      await statusInputField.fill(status.toLowerCase());
+      await this.page.keyboard.press('Enter');
+      logger.info(`Status set to ${status}`);
+    } catch (error) {
+      logger.error(`Failed to select status ${status.toLowerCase()}: ${error}`);
+      throw error;
+    }
+  }
+
+  private async selectAssignToByArrowDowns(count: number): Promise<void> {
+    try {
+      const assignToInputField = this.page.getByRole('textbox').nth(3);
+      await this.elementActions.click(assignToInputField, 'Assign-to input field');
+      
+      for (let i = 0; i < count; i++) {
+        await this.page.keyboard.press('ArrowDown');
+      }
+      await this.page.keyboard.press('Enter');
+      logger.info(`Assign-to selected after ${count} arrow downs`);
+    } catch (error) {
+      logger.error(`Failed to select assign-to by arrow downs: ${error}`);
       throw error;
     }
   }

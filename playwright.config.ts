@@ -15,8 +15,8 @@ process.env.MAXIMIZE_BROWSER = process.env.MAXIMIZE_BROWSER ?? 'true';
 const runHeaded = process.env.HEADED === 'true';
 const maximizeBrowser = process.env.MAXIMIZE_BROWSER === 'true';
 const launchArgs = maximizeBrowser ? ['--start-maximized'] : [];
-const configuredRetries = Number(process.env.PLAYWRIGHT_RETRIES ?? (process.env.CI ? 2 : 1));
-const retries = Number.isFinite(configuredRetries) && configuredRetries >= 0 ? configuredRetries : 1;
+//const configuredRetries = Number(process.env.PLAYWRIGHT_RETRIES ?? (process.env.CI ? 2 : 1));
+//const retries = Number.isFinite(configuredRetries) && configuredRetries >= 0 ? configuredRetries : 1;
 
 const chromiumUse = maximizeBrowser
   ? {
@@ -76,9 +76,8 @@ export default defineConfig({
 
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
-  retries,
-  maxFailures: 0,
-  workers: process.env.CI ? 1 : 4,
+  //retries,
+  workers: 1,
   reporter: [
     ['list'],
     ['html', { outputFolder: 'reports/html-report', open: 'never' }],
