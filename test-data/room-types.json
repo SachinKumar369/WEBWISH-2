@@ -1,0 +1,40 @@
+{
+  "capturedAt": "2026-06-03T06:18:37.570Z",
+  "selectedPropertyId": "WEBWE",
+  "rateManagerRoomTypeCodes": [
+    "Manual",
+    "DGK",
+    "EXK",
+    "DGT",
+    "LPK",
+    "LPT",
+    "Automation",
+    "DUMMY Room",
+    "Delux Room",
+    "Extra Bed In Room Big Family",
+    "PRK",
+    "Standart Double",
+    "Standard Department",
+    "SUITE CITY VIEW"
+  ],
+  "newReservationRoomTypeCodes": [
+    "DGT",
+    "LPT",
+    "DUMMY Room",
+    "Extra Bed In Room Big Family",
+    "PRK",
+    "Standart Double",
+    "Standard Department",
+    "SUITE CITY VIEW"
+  ],
+  "commonRoomTypeCodes": [
+    "DGT",
+    "LPT",
+    "DUMMY Room",
+    "Extra Bed In Room Big Family",
+    "PRK",
+    "Standart Double",
+    "Standard Department",
+    "SUITE CITY VIEW"
+  ]
+}

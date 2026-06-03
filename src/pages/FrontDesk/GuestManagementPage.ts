@@ -117,7 +117,6 @@ export class GuestManagementPage {
 
 
     
-      
 
       //await expect(this.roomTable).toContainText('141 Rooms');
       logger.info('✅ New Reservation flow started, room selection page loaded');

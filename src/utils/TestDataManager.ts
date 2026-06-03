@@ -208,6 +208,24 @@ export class TestDataManager {
   }
 
   /**
+   * Save JSON test data to a file (overwrites the file)
+   */
+  async saveJSONData(filename: string, data: any): Promise<void> {
+    try {
+      const filepath = path.join(this.testDataPath, filename);
+      logger.info(`Saving JSON test data to ${filename}`);
+
+      fs.writeFileSync(filepath, JSON.stringify(data, null, 2), 'utf-8');
+
+      this.cachedData.set(filepath, data);
+      logger.debug(`Saved JSON data to ${filename}`);
+    } catch (error) {
+      logger.error(`Failed to save JSON test data to ${filename}: ${error}`);
+      throw error;
+    }
+  }
+
+  /**
    * Clear cache
    */
   clearCache(): void {

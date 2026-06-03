@@ -111,7 +111,11 @@ export default defineConfig({
   projects: [
 
 
-
+ {
+    name: 'Login',
+    testMatch: '**/Login/*.spec.ts',
+    use: chromiumUse,
+  },
     
 
 

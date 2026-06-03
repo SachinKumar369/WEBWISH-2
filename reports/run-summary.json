@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-06-01T07:21:09.724Z",
-  "runStatus": "failed",
-  "totalDurationMs": 61847,
+  "timestamp": "2026-06-03T06:15:57.789Z",
+  "runStatus": "passed",
+  "totalDurationMs": 37844,
   "totalTests": 1,
-  "passed": 0,
-  "failed": 1,
+  "passed": 1,
+  "failed": 0,
   "skipped": 0,
   "timedOut": 0,
   "interrupted": 0,
   "retriedPassed": 0,
-  "passRate": 0,
+  "passRate": 100,
   "environment": "dev",
   "browser": "mixed",
   "reports": {
@@ -18,40 +18,18 @@
     "junit": "test-results/junit.xml",
     "json": "test-results/test-results.json"
   },
-  "failedTests": [
-    {
-      "title": "MGR_RATE_001: Create and delete a rate from Manager Functions",
-      "fullTitle": " > chromium > ManagerFunction\\rate-manager.spec.ts > Manager Function - Rate Manager Creation > MGR_RATE_001: Create and delete a rate from Manager Functions",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\ManagerFunction\\rate-manager.spec.ts",
-      "project": "chromium",
-      "status": "failed",
-      "expectedStatus": "passed",
-      "durationMs": 56534,
-      "retry": 0,
-      "error": "ConnectionError: Failed to connect to 192.168.0.9:2026 in 15000ms",
-      "attachments": [
-        "E:\\Automation Project\\WebWish 2\\test-results\\ManagerFunction-rate-manag-51828-rate-from-Manager-Functions-chromium\\test-failed-1.png",
-        "E:\\Automation Project\\WebWish 2\\test-results\\ManagerFunction-rate-manag-51828-rate-from-Manager-Functions-chromium\\video.webm",
-        "E:\\Automation Project\\WebWish 2\\test-results\\ManagerFunction-rate-manag-51828-rate-from-Manager-Functions-chromium\\error-context.md"
-      ]
-    }
-  ],
+  "failedTests": [],
   "tests": [
     {
-      "title": "MGR_RATE_001: Create and delete a rate from Manager Functions",
-      "fullTitle": " > chromium > ManagerFunction\\rate-manager.spec.ts > Manager Function - Rate Manager Creation > MGR_RATE_001: Create and delete a rate from Manager Functions",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\ManagerFunction\\rate-manager.spec.ts",
+      "title": "MGR_RATE_SETUP_001: Capture room type codes from Rate Manager and New Reservation, persist common set",
+      "fullTitle": " > chromium > ManagerFunction\\rate-setup.spec.ts > Manager Function - Rate Setup (capture room type codes) > MGR_RATE_SETUP_001: Capture room type codes from Rate Manager and New Reservation, persist common set",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\ManagerFunction\\rate-setup.spec.ts",
       "project": "chromium",
-      "status": "failed",
+      "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 56534,
+      "durationMs": 33214,
       "retry": 0,
-      "error": "ConnectionError: Failed to connect to 192.168.0.9:2026 in 15000ms",
-      "attachments": [
-        "E:\\Automation Project\\WebWish 2\\test-results\\ManagerFunction-rate-manag-51828-rate-from-Manager-Functions-chromium\\test-failed-1.png",
-        "E:\\Automation Project\\WebWish 2\\test-results\\ManagerFunction-rate-manag-51828-rate-from-Manager-Functions-chromium\\video.webm",
-        "E:\\Automation Project\\WebWish 2\\test-results\\ManagerFunction-rate-manag-51828-rate-from-Manager-Functions-chromium\\error-context.md"
-      ]
+      "attachments": []
     }
   ]
 }
