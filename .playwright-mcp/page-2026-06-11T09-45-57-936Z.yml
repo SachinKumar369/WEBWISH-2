@@ -1,0 +1,515 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQpYkNCAo
+          - img "Go to Google Home" [ref=e14]
+        - generic [ref=e19]:
+          - combobox "Search" [ref=e22]: Facebook Facebook
+          - generic [ref=e23]:
+            - button "Clear" [ref=e25] [cursor=pointer]:
+              - img [ref=e27]
+            - generic [ref=e30]:
+              - button "Search by voice" [ref=e31] [cursor=pointer]:
+                - img [ref=e32]
+              - button "Search by image" [ref=e34] [cursor=pointer]:
+                - img [ref=e35]
+        - button "Search" [ref=e37] [cursor=pointer]:
+          - img [ref=e40]
+    - generic [ref=e42]:
+      - button "Settings" [ref=e44] [cursor=pointer]:
+        - img [ref=e47]
+      - generic [ref=e50]:
+        - button "Google apps" [ref=e52] [cursor=pointer]:
+          - img [ref=e53]
+        - link "Sign in" [ref=e57] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DFacebook%26sca_esv%3D61c81e9d6a134ee7%26source%3Dhp%26ei%3DkYMqarGjNe-RseMP5J23gQQ%26iflsig%3DAFdpzrgAAAAAaiqRoe567V_31-fo_rAJxotFQNHqQT4Z%26ved%3D0ahUKEwjxr-Kw8_6UAxXvSGwGHeTOLUAQ4dUDCBs%26uact%3D5%26oq%3DFacebook%26gs_lp%3DEgdnd3Mtd2l6IghGYWNlYm9va0gXUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE%26sclient%3Dgws-wiz%26sei%3D1IMqap2TMPyrseMPqpG4-AE&ec=futura_srp_og_si_72236_p
+  - generic [ref=e59]:
+    - navigation [ref=e65]:
+      - generic [ref=e71]:
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - link "AI Mode" [ref=e76] [cursor=pointer]:
+              - /url: /search?q=Facebook&sca_esv=61c81e9d6a134ee7&udm=50&source=hp&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX4Z9mmaoQ_-aAzE5NWeTROId1QIDAFklOhP9Rf9jdymZaAbLYCZ8MiAuE3AkUuPYXcK-TYFgLkHaTM_MsAFsGOwNnI3KNfZfw7kNonLl3ynrT5VM4VW9fyuXHwXt1RsynukBl9_Mboqer7xJyn5eqd2YIQhOr8itTa1vtV9RGzUpOqg5Ig&aep=1&ntc=1&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ2J8OegQIGhAD
+              - generic [ref=e79]: AI Mode
+          - listitem [ref=e80]:
+            - link "All" [disabled] [ref=e81]:
+              - generic [ref=e83]: All
+          - listitem [ref=e84]:
+            - link "Videos" [ref=e85] [cursor=pointer]:
+              - /url: /search?sca_esv=61c81e9d6a134ee7&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX4Z9mmaoQ_-aAzE5NWeTROId1QIDAFklOhP9Rf9jdymZaAbLYCZ8MiAuE3AkUuPYXcK-TYFgLkHaTM_MsAFsGOwNnI3KNfZfw7kNonLl3ynrT5VM4VW9fyuXHwXt1RsynukBl9_Mboqer7xJyn5eqd2YIQhOr8itTa1vtV9RGzUpOqg5Ig&q=Facebook&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQtKgLegQIIBAB
+              - generic [ref=e87]: Videos
+          - listitem [ref=e88]:
+            - link "Forums" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=61c81e9d6a134ee7&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX4Z9mmaoQ_-aAzE5NWeTROId1QIDAFklOhP9Rf9jdymZaAbLYCZ8MiAuE3AkUuPYXcK-TYFgLkHaTM_MsAFsGOwNnI3KNfZfw7kNonLl3ynrT5VM4VW9fyuXHwXt1RsynukBl9_Mboqer7xJyn5eqd2YIQhOr8itTa1vtV9RGzUpOqg5Ig&q=Facebook&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQs6gLegQIHBAB
+              - generic [ref=e91]: Forums
+          - listitem [ref=e92]:
+            - link "Shopping" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=61c81e9d6a134ee7&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX4Z9mmaoQ_-aAzE5NWeTROId1QIDAFklOhP9Rf9jdymZaAbLYCZ8MiAuE3AkUuPYXcK-TYFgLkHaTM_MsAFsGOwNnI3KNfZfw7kNonLl3ynrT5VM4VW9fyuXHwXt1RsynukBl9_Mboqer7xJyn5eqd2YIQhOr8itTa1vtV9RGzUpOqg5Ig&q=Facebook&ved=1t:220175&ictx=111
+              - generic [ref=e95]: Shopping
+          - listitem [ref=e96]:
+            - link "Images" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=61c81e9d6a134ee7&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX4Z9mmaoQ_-aAzE5NWeTROId1QIDAFklOhP9Rf9jdymZaAbLYCZ8MiAuE3AkUuPYXcK-TYFgLkHaTM_MsAFsGOwNnI3KNfZfw7kNonLl3ynrT5VM4VW9fyuXHwXt1RsynukBl9_Mboqer7xJyn5eqd2YIQhOr8itTa1vtV9RGzUpOqg5Ig&q=Facebook&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQtKgLegQIHhAB
+              - generic [ref=e99]: Images
+          - listitem [ref=e100]:
+            - link "Short videos" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=61c81e9d6a134ee7&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX4Z9mmaoQ_-aAzE5NWeTROId1QIDAFklOhP9Rf9jdymZaAbLYCZ8MiAuE3AkUuPYXcK-TYFgLkHaTM_MsAFsGOwNnI3KNfZfw7kNonLl3ynrT5VM4VW9fyuXHwXt1RsynukBl9_Mboqer7xJyn5eqd2YIQhOr8itTa1vtV9RGzUpOqg5Ig&q=Facebook&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQs6gLegQIHxAB
+              - generic [ref=e103]: Short videos
+          - listitem [ref=e104]:
+            - button "More filters" [ref=e105] [cursor=pointer]:
+              - generic "More filters" [ref=e106]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: More
+                  - img [ref=e110]
+        - button "Tools" [ref=e113] [cursor=pointer]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: Tools
+            - img [ref=e118]
+    - heading "Search Results" [level=1] [ref=e121]
+    - generic [ref=e126]:
+      - main [ref=e127]:
+        - generic [ref=e131]:
+          - generic [ref=e134]:
+            - heading "Web result with site links" [level=2] [ref=e135]
+            - generic [ref=e136]:
+              - generic [ref=e140]:
+                - generic [ref=e142]:
+                  - link "Facebook - log in or sign up Facebook https://www.facebook.com" [ref=e144] [cursor=pointer]:
+                    - /url: https://www.facebook.com/
+                    - heading "Facebook - log in or sign up" [level=3] [ref=e145]
+                    - generic [ref=e151]:
+                      - generic [ref=e153]: Facebook
+                      - generic [ref=e155]: https://www.facebook.com
+                  - button "About this result" [ref=e156] [cursor=pointer]:
+                    - img [ref=e159]
+                - generic [ref=e163]:
+                  - text: Create an account or log into
+                  - emphasis [ref=e164]: Facebook
+                  - text: . Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.
+              - group "Personalised recommendations based on your history" [ref=e165]:
+                - rowgroup [ref=e166]:
+                  - row "Posts We're revamping the Facebook and Messenger Teen Account ..." [ref=e167]:
+                    - cell "Posts We're revamping the Facebook and Messenger Teen Account ..." [ref=e168]:
+                      - generic [ref=e174]:
+                        - heading "Posts" [level=3] [ref=e175]:
+                          - link "Posts" [ref=e176] [cursor=pointer]:
+                            - /url: https://www.facebook.com/facebook/
+                            - text: Posts
+                        - generic [ref=e179]: We're revamping the Facebook and Messenger Teen Account ...
+                  - row "Video Video is the place to enjoy videos and shows together. Watch the ..." [ref=e180]:
+                    - cell "Video Video is the place to enjoy videos and shows together. Watch the ..." [ref=e181]:
+                      - generic [ref=e187]:
+                        - heading "Video" [level=3] [ref=e188]:
+                          - link "Video" [ref=e189] [cursor=pointer]:
+                            - /url: https://www.facebook.com/watch/
+                            - text: Video
+                        - generic [ref=e192]: Video is the place to enjoy videos and shows together. Watch the ...
+                  - row "Forgot password? Log into Facebook to start sharing and connecting with your ..." [ref=e193]:
+                    - cell "Forgot password? Log into Facebook to start sharing and connecting with your ..." [ref=e194]:
+                      - generic [ref=e200]:
+                        - heading "Forgot password?" [level=3] [ref=e201]:
+                          - link "Forgot password?" [ref=e202] [cursor=pointer]:
+                            - /url: https://www.facebook.com/login/
+                            - text: Forgot password?
+                        - generic [ref=e205]: Log into Facebook to start sharing and connecting with your ...
+                  - row "Meta Meta. 106685692 likes · 57929 talking about this. Connect with ..." [ref=e206]:
+                    - cell "Meta Meta. 106685692 likes · 57929 talking about this. Connect with ..." [ref=e207]:
+                      - generic [ref=e213]:
+                        - heading "Meta" [level=3] [ref=e214]:
+                          - link "Meta" [ref=e215] [cursor=pointer]:
+                            - /url: https://www.facebook.com/Meta/
+                            - text: Meta
+                        - generic [ref=e218]: Meta. 106685692 likes · 57929 talking about this. Connect with ...
+                  - row "Create new account Sign up for Facebook and find your friends. Create an account to ..." [ref=e219]:
+                    - cell "Create new account Sign up for Facebook and find your friends. Create an account to ..." [ref=e220]:
+                      - generic [ref=e226]:
+                        - heading "Create new account" [level=3] [ref=e227]:
+                          - link "Create new account" [ref=e228] [cursor=pointer]:
+                            - /url: https://www.facebook.com/reg/
+                            - text: Create new account
+                        - generic [ref=e231]: Sign up for Facebook and find your friends. Create an account to ...
+                  - row "More results from facebook.com »" [ref=e233]:
+                    - cell "More results from facebook.com »" [ref=e234]:
+                      - link "More results from facebook.com »" [ref=e236] [cursor=pointer]:
+                        - /url: /search?q=Facebook+site:facebook.com&sca_esv=61c81e9d6a134ee7&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQrAN6BAgOEAE
+          - generic [ref=e237]:
+            - generic [ref=e241]:
+              - generic [ref=e244]:
+                - link "Facebook – Apps on Google Play Google Play https://play.google.com › store › apps › details › id=com..." [ref=e246] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en_IN
+                  - heading "Facebook – Apps on Google Play" [level=3] [ref=e247]
+                  - generic [ref=e253]:
+                    - generic [ref=e255]: Google Play
+                    - generic [ref=e257]: https://play.google.com › store › apps › details › id=com...
+                - button "About this result" [ref=e258] [cursor=pointer]:
+                  - img [ref=e261]
+              - generic [ref=e264]:
+                - generic [ref=e265]:
+                  - emphasis [ref=e266]: Where real people propel your curiosity
+                  - text: . Whether you're thrifting gear, showing reels to that group who gets it, or sharing laughs over fun images reimagined by ...
+                - link "Read more" [ref=e267] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en_IN#:~:text=Where%20real%20people%20propel%20your,like%20no%20other%20social%20network.
+            - generic [ref=e268]:
+              - generic [ref=e275]:
+                - button "Thumbnail image for Meta" [ref=e279] [cursor=pointer]
+                - generic [ref=e282]:
+                  - heading "Meta" [level=2] [ref=e285]
+                  - generic [ref=e286]:
+                    - link "Top Quality Store" [ref=e292] [cursor=pointer]:
+                      - /url: https://www.google.com/storepages?q=meta.com&c=IN
+                    - button "More options for Meta" [ref=e299] [cursor=pointer]:
+                      - img "More options for Meta" [ref=e300]:
+                        - img [ref=e302]
+              - complementary "Featured results" [ref=e307]:
+                - generic [ref=e309]:
+                  - generic [ref=e315]:
+                    - generic [ref=e318]:
+                      - img [ref=e321]
+                      - generic [ref=e323]: Free delivery
+                    - generic [ref=e324]: .
+                    - generic [ref=e326]: Most purchases
+                  - button "Ask about Meta" [ref=e333] [cursor=pointer]:
+                    - generic [ref=e334]:
+                      - img [ref=e337]
+                      - generic [ref=e339]: Ask
+                  - generic [ref=e340] [cursor=pointer]:
+                    - heading "Description" [level=3] [ref=e341]
+                    - generic [ref=e342]:
+                      - generic [ref=e345]: Meta Platforms, Inc. is an American multinational technology company headquartered in Menlo Park, California. Meta owns and operates several prominent social media platforms and communication services, including Facebook, Instagram, WhatsApp, Messenger, and Threads.
+                      - link "Wikipedia" [ref=e346]:
+                        - /url: https://en.wikipedia.org/wiki/Meta_Platforms
+              - generic [ref=e349]:
+                - generic [ref=e352]:
+                  - link "Facebook Wikipedia https://en.wikipedia.org › wiki › Facebook" [ref=e354] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Facebook
+                    - heading "Facebook" [level=3] [ref=e355]
+                    - generic [ref=e361]:
+                      - generic [ref=e363]: Wikipedia
+                      - generic [ref=e365]: https://en.wikipedia.org › wiki › Facebook
+                  - button "About this result" [ref=e366] [cursor=pointer]:
+                    - img [ref=e369]
+                - generic [ref=e372]:
+                  - generic [ref=e373]:
+                    - text: Facebook is
+                    - emphasis [ref=e374]: an American social networking service
+                    - text: owned by the American technology conglomerate Meta Platforms. It was founded in 2004 by Mark Zuckerberg, along ...
+                  - link "Read more" [ref=e375] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Facebook#:~:text=Facebook%20is%20an%20American%20social,Dustin%20Moskovitz%2C%20and%20Chris%20Hughes.
+            - generic [ref=e379]:
+              - generic [ref=e382]:
+                - link "Facebook - App Store Apple https://apps.apple.com › app › facebook" [ref=e384] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/facebook/id284882215
+                  - heading "Facebook - App Store" [level=3] [ref=e385]
+                  - generic [ref=e391]:
+                    - generic [ref=e393]: Apple
+                    - generic [ref=e395]: https://apps.apple.com › app › facebook
+                - button "About this result" [ref=e396] [cursor=pointer]:
+                  - img [ref=e399]
+              - generic [ref=e403]:
+                - text: Download
+                - emphasis [ref=e404]: Facebook
+                - text: by Meta Platforms, Inc. on the App Store. See screenshots, ratings and reviews, user tips, and more apps like
+                - emphasis [ref=e405]: Facebook
+                - text: .
+            - generic [ref=e406]:
+              - generic [ref=e418]:
+                - generic [ref=e422]:
+                  - generic [ref=e423]: Founders
+                  - generic [ref=e425]:
+                    - link "Mark Zuckerberg" [ref=e426] [cursor=pointer]:
+                      - /url: /search?sca_esv=61c81e9d6a134ee7&q=Mark+Zuckerberg&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmhD_p_T2KWIVjgZ3f8Kb8fDUfSwi6-xblpPIFi5wq0mzzWkZIqP4lp2e7xGMaZHfEiUVGlB1YBkqVUnTCcqHrkQfQgECQzIBJj03_r3poFj_XgwNXwneqOSSDHYVH0a5Yjan8ZRKAuxsTn2Jlpf6-lRJZyHY5mtaEOAbXUh9vc9skORTW-r8C0WWEbCJ3oUJSqdSmNMfw7b_rVkEBi9nBFR4rGs8xynqS9_e7lpGjc7k1Wpmuw%3D%3D&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQmxN6BAgvEAI
+                    - text: ","
+                    - link "Eduardo Saverin" [ref=e427] [cursor=pointer]:
+                      - /url: /search?sca_esv=61c81e9d6a134ee7&q=Eduardo+Saverin&si=AL3DRZGDMkmBg1SB5TH8o8Xeh03tgmwpgZCgiYi5BFB_ELNOTCXpIVh0-hAWEXCSM4jc870uVO0E0XY7ust2gjvlwTssK3sZLvxnX3UECltEK2m5LIzczV1H5kcntnGRIVIbiiGMhrBeG8D1FO_f3T8Ot8-mn_lBks6mPDP9G0FHrdMxWpDUxTPRCCPhRT5aHLfx_qq0femVlGByVPC0NUjerLBAXwec4WhMSoI23NCPxqxKUdk6B1vN2qxDkhgt92MiHwTZnmDv07MkhRihZhOJZUL8UlxQAw%3D%3D&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQmxN6BAgvEAM
+                    - text: ","
+                    - link "Dustin Moskovitz" [ref=e428] [cursor=pointer]:
+                      - /url: /search?sca_esv=61c81e9d6a134ee7&q=Dustin+Moskovitz&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmo7Tvi_lzuH4bViP_R1QnP_1RVHElFzp4oqC0zFzr9nKWJ9o23hFtA_FXW421DSDxiozJQmym7MmnwIaXd-eFvw-zOjywye3455jEgGtc5pLRVcn3jnHE0-u7VwcuDz61X4DbSHwbUZv10Qc0OrExQ3yEf0k7wTOanxnXpezWB3JDF2TWyBHWOw5s3YoL6xj-tB7g2H8-p1sf5gWK-hUukSw5Jip0G3pu1NqedtsJpKRWBdXbA%3D%3D&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQmxN6BAgvEAQ
+                    - text: ","
+                    - link "Chris Hughes" [ref=e429] [cursor=pointer]:
+                      - /url: /search?sca_esv=61c81e9d6a134ee7&q=chris+hughes+facebook&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmkFVMlpqmyB7bFZ_P2rsN7C7QaeP5jivG7POX2LfDWAXMVgzHv3Fkv0jOyjDzUSp5Okn9yjtPSkMHCIZwmJXdQY_kiTCVIvk1FkvyHv6cfeIYruKy8iPkolH99vQY7fXMAy1HFBUdP4K7fameYQsohHB4dUvPmOmqyA5HoIj9NjzPvjAouZN-Er55o3wNdW25ubPdCINhBOI9xd2k3G0cWLorOjc9o2aFV_IMmsA90AA74hyKw%3D%3D&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQmxN6BAgvEAU
+                - generic [ref=e433]:
+                  - generic [ref=e434]: CEO
+                  - generic [ref=e436]:
+                    - link "Mark Zuckerberg" [ref=e437] [cursor=pointer]:
+                      - /url: /search?sca_esv=61c81e9d6a134ee7&q=Mark+Zuckerberg&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmhD_p_T2KWIVjgZ3f8Kb8fBgeWoBZdDKIczNfAexrHJoWDHSiy88YE-guXVs_b_vDB1C3jmav0fDB9HkVp02hkhu2DS1Eyh567Z61oc_hhKWSeRJrgmue-RSxbgIHMTO4E2CS_quTq8msvO_84ukimtEddoJmgFzdNtlRu3ZsnqoCa7RyA%3D%3D&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQmxN6BAgtEAI
+                    - text: (Jul 2004–)
+                - generic [ref=e441]:
+                  - generic [ref=e442]: CFO
+                  - link "Susan Li" [ref=e445] [cursor=pointer]:
+                    - /url: /search?sca_esv=61c81e9d6a134ee7&q=Susan+Li&si=AL3DRZGNtcdgKOqVhotcr-UG2kkYpwR2WO4qu3O00NmpwBmLnR0diTGFCw3coApHlZ2XjxhklGVxHnZ8kthxhowbfNu6A8MkQOssmIeGUG5HAUBjCpg2eaVKZmTHq93OVlg8jmu64dX-6z7Tv4jz4uQ5EXKgUDkVz7J5UMaZQ5VTmffGufPIdFtewxuZK3JOKNC-OAyDO8FON8_pDZHrI6FYATpPo_t_rw%3D%3D&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQmxN6BAgyEAI
+                - generic [ref=e449]:
+                  - generic [ref=e450]: CMO
+                  - link "Alex Schultz" [ref=e453] [cursor=pointer]:
+                    - /url: /search?sca_esv=61c81e9d6a134ee7&q=Alex+Schultz&si=AL3DRZGNtcdgKOqVhotcr-UG2kkYpwR2WO4qu3O00NmpwBmLnXv_cK2T7mKrgc3rBOSDtpwCSF5LX84SJQwhBeHkNAWgVEqvSUlo5Nbxw3-ru1_zci1twfuvmomC3XM8wh4_PBXvZQRFkXI-5ncvnGbQJDMpqEdTHlYq6BtwkI2mNZ6CMmYtYAnowX0PpwxbvJkCc6-GjPun9ERlLrZnFMXG_FY6a7JFLw%3D%3D&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQmxN6BAgxEAI
+                - generic [ref=e457]:
+                  - generic [ref=e458]: COO
+                  - link "Javier Olivan" [ref=e461] [cursor=pointer]:
+                    - /url: /search?sca_esv=61c81e9d6a134ee7&q=Javier+Olivan&si=AL3DRZGNtcdgKOqVhotcr-UG2kkYpwR2WO4qu3O00NmpwBmLnYyGsRdizUOx1r0DBhCm5fVlNXM3UDcJbhsxYhbgICuEDCjliicAaqZbqSLb_oeiuK4x9nxx3F2B6FWvuNmEdBBKatZexyL4BIkHkHkgSPOnz6FBXQIiaxIijByGA8hmyWcmCMQYxJjXkHq0Xwf6PHmZ6Nk7CFGmyAuvGcMnc5yYmSumWQ%3D%3D&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQmxN6BAgwEAI
+                - generic [ref=e465]:
+                  - generic [ref=e466]: CTO
+                  - link "Andrew Bosworth" [ref=e469] [cursor=pointer]:
+                    - /url: /search?sca_esv=61c81e9d6a134ee7&q=Andrew+Bosworth&si=AL3DRZGNtcdgKOqVhotcr-UG2kkYpwR2WO4qu3O00NmpwBmLnZv23rzLrL4MmSp794qMvQ9-9mbeFG1vZUVGaVY6H_LSNhU5xyuK-f6gy-lzbyZX58nIc5eX-B1wDYozx4t7Hz00loFnx0gACdZWCZ_DPc-J5e_Sl3JrMw_yLOk8F247rGt5rm38mr_MUt5aEDr-XCqIEe0acnlPhwEoUEPAb8WQdcJ0_A%3D%3D&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQmxN6BAguEAI
+                - generic [ref=e473]:
+                  - generic [ref=e474]: President
+                  - link "Dina Powell McCormick" [ref=e477] [cursor=pointer]:
+                    - /url: /search?sca_esv=61c81e9d6a134ee7&q=Dina+Powell+McCormick&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmo_Z3JAvuQXLIkOhQy4s603aacoUKfau-voA1eCZo92MiVFEomLuJ9MpDOaIq-LQQmhz2t9Yg6YaJQspiZYSlFScRM0v2JX5LduflGSx4FsVuYXFW1_CebTtrw4QfjiNdCBImJgJ_2o-WIEOFoHchPe2kGaC0R86E2LF-bBoGiO8pZG8pw%3D%3D&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQmxN6BAgzEAI
+              - generic [ref=e483]:
+                - heading "Profiles" [level=3] [ref=e486]
+                - generic [ref=e488]:
+                  - link "Meta Instagram" [ref=e492] [cursor=pointer]:
+                    - /url: https://www.instagram.com/meta
+                    - generic [ref=e493]:
+                      - generic "Meta" [ref=e495]
+                      - generic [ref=e498]: Instagram
+                  - link "Meta YouTube" [ref=e502] [cursor=pointer]:
+                    - /url: https://www.youtube.com/meta
+                    - generic [ref=e503]:
+                      - generic "Meta" [ref=e505]
+                      - generic [ref=e508]: YouTube
+                  - link "Meta LinkedIn" [ref=e512] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/meta
+                    - generic [ref=e513]:
+                      - generic "Meta" [ref=e515]
+                      - generic [ref=e518]: LinkedIn
+                  - link "Meta Facebook" [ref=e522] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Meta
+                    - generic [ref=e523]:
+                      - generic "Meta" [ref=e525]
+                      - generic [ref=e528]: Facebook
+              - generic [ref=e531]:
+                - generic [ref=e534]:
+                  - link "About Meta | Social Technology, VR, AR, and Innovation meta.com https://www.meta.com › about" [ref=e536] [cursor=pointer]:
+                    - /url: https://www.meta.com/about/?srsltid=AfmBOooQfdo8uL9z3L4Lcg-oDlwEJFVz3HDluEeBwzIuPzBujytRH0RE
+                    - heading "About Meta | Social Technology, VR, AR, and Innovation" [level=3] [ref=e537]
+                    - generic [ref=e543]:
+                      - generic [ref=e545]: meta.com
+                      - generic [ref=e547]: https://www.meta.com › about
+                  - button "About this result" [ref=e548] [cursor=pointer]:
+                    - img [ref=e551]
+                - generic [ref=e555]:
+                  - emphasis [ref=e556]: Learn more about Meta
+                  - text: and stay updated on our role in social technology, virtual reality, augmented reality, and the future of human connection.
+            - generic [ref=e560]:
+              - generic [ref=e563]:
+                - link "r/facebook Reddit · r/facebook 4.9L+ followers" [ref=e565] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/facebook/
+                  - heading "r/facebook" [level=3] [ref=e566]
+                  - generic [ref=e572]:
+                    - generic [ref=e574]: Reddit · r/facebook
+                    - generic [ref=e576]: 4.9L+ followers
+                - button "About this result" [ref=e577] [cursor=pointer]:
+                  - img [ref=e580]
+              - generic [ref=e584]:
+                - text: "r/facebook: This is an"
+                - emphasis [ref=e585]: unofficial community dedicated to news, discussion and help relating to Facebook
+                - text: "& Meta. The moderators are not associated…"
+            - generic [ref=e586]:
+              - generic [ref=e595]:
+                - heading "Trending products from Meta" [level=3] [ref=e597]
+                - generic [ref=e598]:
+                  - list [ref=e600]:
+                    - listitem [ref=e601]:
+                      - link "Ray-Ban Meta Wayfarer (Gen 2) Large Matte Black Clear Lenses | Upgraded Battery and Camera | 3K Ultra HD Camera, Up to 8 Hours Battery Price is ₹39,900.00." [ref=e604] [cursor=pointer]:
+                        - /url: https://www.meta.com/in/ai-glasses/ray-ban-meta-wayfarer-matte-black-clear-gen-2/
+                        - generic [ref=e608]:
+                          - generic [ref=e609]: Ray-Ban Meta Wayfarer (Gen 2) Large Matte Black Clear Lenses | Upgraded Battery and Camera | 3K Ultra HD Camera, Up to 8 Hours Battery
+                          - group "Price is ₹39,900.00." [ref=e610]: ₹39,900.00
+                    - listitem [ref=e611]:
+                      - link "Ray-Ban Meta Wayfarer Glasses Large, Matte Black, Polar Gradient Graphite | Ultra-Wide Camera | Live in the Moment with Hands-Free Features Price is ₹24,100.00." [ref=e614] [cursor=pointer]:
+                        - /url: https://www.meta.com/in/ai-glasses/wayfarer-matte-black-graphite-polar-gradient/
+                        - generic [ref=e618]:
+                          - generic [ref=e619]: Ray-Ban Meta Wayfarer Glasses Large, Matte Black, Polar Gradient Graphite | Ultra-Wide Camera | Live in the Moment with Hands-Free Features
+                          - group "Price is ₹24,100.00." [ref=e620]: ₹24,100.00
+                    - listitem [ref=e621]:
+                      - link "Oakley Meta Vanguard | Black / Prizm 24K | High-performance Glasses for Athletic Training | A New Way to Train with Meta AI Price is ₹52,300.00." [ref=e624] [cursor=pointer]:
+                        - /url: https://www.meta.com/in/ai-glasses/oakley-meta-vanguard-black-prizm-24k/
+                        - generic [ref=e628]:
+                          - generic [ref=e629]: Oakley Meta Vanguard | Black / Prizm 24K | High-performance Glasses for Athletic Training | A New Way to Train with Meta AI
+                          - group "Price is ₹52,300.00." [ref=e630]: ₹52,300.00
+                    - listitem [ref=e631]:
+                      - link "Ray-Ban Meta Skyler (Gen 2) Shiny Mystic Violet Transitions Amethyst Lenses | Upgraded Battery and Camera | 3K Ultra HD Camera, Up to 8 Hours Battery Price is ₹45,700.00." [ref=e634] [cursor=pointer]:
+                        - /url: https://www.meta.com/in/ai-glasses/ray-ban-meta-skyler-shiny-mystic-violet-amethyst-transitions-gen-2/
+                        - generic [ref=e638]:
+                          - generic [ref=e639]: Ray-Ban Meta Skyler (Gen 2) Shiny Mystic Violet Transitions Amethyst Lenses | Upgraded Battery and Camera | 3K Ultra HD Camera, Up to 8 Hours Battery
+                          - group "Price is ₹45,700.00." [ref=e640]: ₹45,700.00
+                    - listitem [ref=e641]:
+                      - link "Ray-Ban Meta Headliner (Gen 2) Matte Black Clear Lenses | Upgraded Battery and Camera | 3K Ultra HD Camera, Up to 8 Hours Battery Price is ₹39,900.00." [ref=e644] [cursor=pointer]:
+                        - /url: https://www.meta.com/in/ai-glasses/ray-ban-meta-headliner-matte-black-clear-gen-2/
+                        - generic [ref=e648]:
+                          - generic [ref=e649]: Ray-Ban Meta Headliner (Gen 2) Matte Black Clear Lenses | Upgraded Battery and Camera | 3K Ultra HD Camera, Up to 8 Hours Battery
+                          - group "Price is ₹39,900.00." [ref=e650]: ₹39,900.00
+                    - listitem [ref=e651]:
+                      - link "Ray-Ban Meta Wayfarer Glasses, Matte Black, Polar Gradient Graphite | Ultra-Wide Camera | Live in the Moment with Hands-Free Features Price is ₹24,100.00." [ref=e654] [cursor=pointer]:
+                        - /url: https://www.meta.com/in/ai-glasses/wayfarer-matte-black-graphite-polar-gradient/
+                        - generic [ref=e658]:
+                          - generic [ref=e659]: Ray-Ban Meta Wayfarer Glasses, Matte Black, Polar Gradient Graphite | Ultra-Wide Camera | Live in the Moment with Hands-Free Features
+                          - group "Price is ₹24,100.00." [ref=e660]: ₹24,100.00
+                  - button [ref=e661] [cursor=pointer]:
+                    - img [ref=e664]
+                - list [ref=e668]:
+                  - listitem [ref=e669]:
+                    - generic [ref=e673] [cursor=pointer]:
+                      - img [ref=e675]
+                      - generic [ref=e677]: Show me bestsellers
+                  - listitem [ref=e678]:
+                    - generic [ref=e682] [cursor=pointer]:
+                      - img [ref=e684]
+                      - generic [ref=e686]: Help me find a gift
+              - generic [ref=e689]:
+                - heading "People also search for" [level=3] [ref=e691]
+                - generic [ref=e696]:
+                  - list [ref=e697]:
+                    - listitem [ref=e699]:
+                      - generic [ref=e700]:
+                        - link "Instagram":
+                          - /url: /search?sca_esv=61c81e9d6a134ee7&si=AL3DRZGDMkmBg1SB5TH8o8Xeh03tgmwpgZCgiYi5BFB_ELNOTK5iVvvQGD0Efu-8G_3ikKiG8SPqGLHUSSYrjiU8ERYz8H-Klxie-aQfb2BZCPgFPkmQl2x9UkJf9fhzfJ6z8_IQGyGTpfuq565i1Go3Cf0eq5WDt3bBBjA33AxYm_oW6VKZTLEdsINlYclB_J21jzJq8SEo&q=Instagram&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQs9oBKAB6BAgjEAY
+                        - heading [level=3] [ref=e705]:
+                          - generic [ref=e706]: Instagram
+                    - listitem [ref=e708]:
+                      - generic [ref=e709]:
+                        - link "TikTok":
+                          - /url: /search?sca_esv=61c81e9d6a134ee7&si=AL3DRZGNtcdgKOqVhotcr-UG2kkYpwR2WO4qu3O00NmpwBmLnRsSL5Zi_CA0-wzSvJo8SQ9rgdpzOD7765JFtax1uXc-pDqUJs9liOyqL-SNnmtVYPEUcr8eqc5PbtURKqAE7PEu_7AkbZ2-gTXXrn9QYTry2PaHE2pEjFBrlMgz5Ww3r8PNzaYNgPpV_-HkyXgw7m-vwk4c&q=TikTok&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQs9oBKAB6BAgjEAo
+                        - heading [level=3] [ref=e714]:
+                          - generic [ref=e715]: TikTok
+                    - listitem [ref=e717]:
+                      - generic [ref=e718]:
+                        - link "LinkedIn":
+                          - /url: /search?sca_esv=61c81e9d6a134ee7&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmuiYHQAKbpmoJZOK4JuihndWfSEEW1_1TXV-OKYdPHOgqT3qf8XMdnY1seF-Q9M8OaMidMtVtEkFWu0esT7uEStGIXzsZB8ONOXI48mhYIu1hYl1yGC3VvNzJLDcTyiFW2NjYOnhrJ8t-dPJ8Mj_yGMzs6No&q=LinkedIn&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQs9oBKAB6BAgjEA4
+                        - heading [level=3] [ref=e723]:
+                          - generic [ref=e724]: LinkedIn
+                    - listitem [ref=e726]:
+                      - generic [ref=e727]:
+                        - link "Facebook":
+                          - /url: /search?sca_esv=61c81e9d6a134ee7&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmp-qLv5HDdQ4Ph0XCdzFgCuyhQ0zKB5LjEwckj0FJz_99Uxh6aemhxcjN-3e_1gRI3d9Fx2dZrbH_gjA6F9rY4nsTaocEhx_VU5w7aMQcySwRqneMXJs-BSVDn3yv_sz-vsmrl6risGwqfpp8gKU3ZpamfHF&q=Facebook&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQs9oBKAB6BAgjEBI
+                        - heading [level=3] [ref=e732]:
+                          - generic [ref=e733]: Facebook
+                  - link "See more" [ref=e735] [cursor=pointer]:
+                    - /url: /search?sca_esv=61c81e9d6a134ee7&q=Meta&stick=H4sIAAAAAAAAAONgFuLSz9U3yMitTCsuU0JiawkGZ6aklidWFvulVpQEl6QWFP9iFAtIzS_ISVVIzCnOVyhOTSxKzlBIyy9axMrim1qSeItNkmGp8m3-Z6EZC2Mrjj1RnvXu-bSmPqsVqaZ5ADzOtWRpAAAA&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQzO0BKAR6BAgjEBQ
+                    - generic [ref=e736]:
+                      - generic [ref=e737]: See more
+                      - img [ref=e739]
+              - generic [ref=e743]:
+                - generic [ref=e746]:
+                  - link "Facebook Lite – Apps on Google Play Google Play https://play.google.com › store › apps › details › id=com..." [ref=e748] [cursor=pointer]:
+                    - /url: https://play.google.com/store/apps/details?id=com.facebook.lite&hl=en_IN
+                    - heading "Facebook Lite – Apps on Google Play" [level=3] [ref=e749]
+                    - generic [ref=e755]:
+                      - generic [ref=e757]: Google Play
+                      - generic [ref=e759]: https://play.google.com › store › apps › details › id=com...
+                  - button "About this result" [ref=e760] [cursor=pointer]:
+                    - img [ref=e763]
+                - generic [ref=e766]:
+                  - generic [ref=e767]:
+                    - text: The Facebook Lite app is small. It lets you
+                    - emphasis [ref=e768]: save space on your phone
+                    - text: and use Facebook in 2G conditions without sacrificing the core features and functionality ...
+                  - link "Read more" [ref=e769] [cursor=pointer]:
+                    - /url: https://play.google.com/store/apps/details?id=com.facebook.lite&hl=en_IN#:~:text=Updated%20on
+        - generic [ref=e771]:
+          - generic [ref=e776]:
+            - heading "People also search for" [level=2] [ref=e778]
+            - generic [ref=e780]:
+              - generic [ref=e781]:
+                - link "Login Facebook" [ref=e785] [cursor=pointer]:
+                  - /url: /search?sca_esv=61c81e9d6a134ee7&q=Login+Facebook&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ1QJ6BAg8EAE
+                  - generic [ref=e786]:
+                    - generic [ref=e791]: Login Facebook
+                    - img [ref=e795]
+                - link "Facebook Lite" [ref=e800] [cursor=pointer]:
+                  - /url: /search?sca_esv=61c81e9d6a134ee7&q=Facebook+Lite&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ1QJ6BAg9EAE
+                  - generic [ref=e801]:
+                    - generic [ref=e806]: Facebook Lite
+                    - img [ref=e810]
+                - link "Facebook app download" [ref=e815] [cursor=pointer]:
+                  - /url: /search?sca_esv=61c81e9d6a134ee7&q=Facebook+app+download&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ1QJ6BAhFEAE
+                  - generic [ref=e816]:
+                    - generic [ref=e821]: Facebook app download
+                    - img [ref=e825]
+                - link "Facebook install" [ref=e830] [cursor=pointer]:
+                  - /url: /search?sca_esv=61c81e9d6a134ee7&q=Facebook+install&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ1QJ6BAhAEAE
+                  - generic [ref=e831]:
+                    - generic [ref=e836]: Facebook install
+                    - img [ref=e840]
+              - generic [ref=e842]:
+                - link "Facebook download PC" [ref=e846] [cursor=pointer]:
+                  - /url: /search?sca_esv=61c81e9d6a134ee7&q=Facebook+download+PC&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ1QJ6BAg_EAE
+                  - generic [ref=e847]:
+                    - generic [ref=e852]: Facebook download PC
+                    - img [ref=e856]
+                - link "Www Facebook com login mobile" [ref=e861] [cursor=pointer]:
+                  - /url: /search?sca_esv=61c81e9d6a134ee7&q=Www+Facebook+com+login+mobile&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ1QJ6BAhCEAE
+                  - generic [ref=e862]:
+                    - generic [ref=e867]: Www Facebook com login mobile
+                    - img [ref=e871]
+                - link "Free Facebook com log in" [ref=e876] [cursor=pointer]:
+                  - /url: /search?sca_esv=61c81e9d6a134ee7&q=Free+Facebook+com+log+in&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ1QJ6BAhBEAE
+                  - generic [ref=e877]:
+                    - generic [ref=e882]: Free Facebook com log in
+                    - img [ref=e886]
+                - link "Facebook Lite login" [ref=e891] [cursor=pointer]:
+                  - /url: /search?sca_esv=61c81e9d6a134ee7&q=Facebook+Lite+login&sa=X&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ1QJ6BAg-EAE
+                  - generic [ref=e892]:
+                    - generic [ref=e897]: Facebook Lite login
+                    - img [ref=e901]
+          - navigation [ref=e903]:
+            - heading "Page navigation" [level=1] [ref=e904]
+            - text: "1"
+            - link "Page 2" [ref=e907] [cursor=pointer]:
+              - /url: /search?q=Facebook&sca_esv=61c81e9d6a134ee7&ei=1YMqar4d1aGd6w_Zt9iRAw&start=10&sa=N&sstk=AU9db-AjioleAL8dqD3oQwkPOZNQ6HFyF71R3PBJexz-6BLHIbGXKx8PNhrc3FNjY9QHtubV7mrGw-YHlJsb19kXr3GkAlW1bXxemg&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ8tMDegQIOhAE
+              - text: "2"
+            - link "Page 3" [ref=e909] [cursor=pointer]:
+              - /url: /search?q=Facebook&sca_esv=61c81e9d6a134ee7&ei=1YMqar4d1aGd6w_Zt9iRAw&start=20&sa=N&sstk=AU9db-AjioleAL8dqD3oQwkPOZNQ6HFyF71R3PBJexz-6BLHIbGXKx8PNhrc3FNjY9QHtubV7mrGw-YHlJsb19kXr3GkAlW1bXxemg&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ8tMDegQIOhAG
+              - text: "3"
+            - link "Page 4" [ref=e911] [cursor=pointer]:
+              - /url: /search?q=Facebook&sca_esv=61c81e9d6a134ee7&ei=1YMqar4d1aGd6w_Zt9iRAw&start=30&sa=N&sstk=AU9db-AjioleAL8dqD3oQwkPOZNQ6HFyF71R3PBJexz-6BLHIbGXKx8PNhrc3FNjY9QHtubV7mrGw-YHlJsb19kXr3GkAlW1bXxemg&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ8tMDegQIOhAI
+              - text: "4"
+            - link "Page 5" [ref=e913] [cursor=pointer]:
+              - /url: /search?q=Facebook&sca_esv=61c81e9d6a134ee7&ei=1YMqar4d1aGd6w_Zt9iRAw&start=40&sa=N&sstk=AU9db-AjioleAL8dqD3oQwkPOZNQ6HFyF71R3PBJexz-6BLHIbGXKx8PNhrc3FNjY9QHtubV7mrGw-YHlJsb19kXr3GkAlW1bXxemg&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ8tMDegQIOhAK
+              - text: "5"
+            - link "Page 6" [ref=e915] [cursor=pointer]:
+              - /url: /search?q=Facebook&sca_esv=61c81e9d6a134ee7&ei=1YMqar4d1aGd6w_Zt9iRAw&start=50&sa=N&sstk=AU9db-AjioleAL8dqD3oQwkPOZNQ6HFyF71R3PBJexz-6BLHIbGXKx8PNhrc3FNjY9QHtubV7mrGw-YHlJsb19kXr3GkAlW1bXxemg&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ8tMDegQIOhAM
+              - text: "6"
+            - link "Page 7" [ref=e917] [cursor=pointer]:
+              - /url: /search?q=Facebook&sca_esv=61c81e9d6a134ee7&ei=1YMqar4d1aGd6w_Zt9iRAw&start=60&sa=N&sstk=AU9db-AjioleAL8dqD3oQwkPOZNQ6HFyF71R3PBJexz-6BLHIbGXKx8PNhrc3FNjY9QHtubV7mrGw-YHlJsb19kXr3GkAlW1bXxemg&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ8tMDegQIOhAO
+              - text: "7"
+            - link "Page 8" [ref=e919] [cursor=pointer]:
+              - /url: /search?q=Facebook&sca_esv=61c81e9d6a134ee7&ei=1YMqar4d1aGd6w_Zt9iRAw&start=70&sa=N&sstk=AU9db-AjioleAL8dqD3oQwkPOZNQ6HFyF71R3PBJexz-6BLHIbGXKx8PNhrc3FNjY9QHtubV7mrGw-YHlJsb19kXr3GkAlW1bXxemg&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ8tMDegQIOhAQ
+              - text: "8"
+            - link "Page 9" [ref=e921] [cursor=pointer]:
+              - /url: /search?q=Facebook&sca_esv=61c81e9d6a134ee7&ei=1YMqar4d1aGd6w_Zt9iRAw&start=80&sa=N&sstk=AU9db-AjioleAL8dqD3oQwkPOZNQ6HFyF71R3PBJexz-6BLHIbGXKx8PNhrc3FNjY9QHtubV7mrGw-YHlJsb19kXr3GkAlW1bXxemg&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ8tMDegQIOhAS
+              - text: "9"
+            - heading "Next" [level=2] [ref=e923]:
+              - link "Next" [ref=e924] [cursor=pointer]:
+                - /url: /search?q=Facebook&sca_esv=61c81e9d6a134ee7&ei=1YMqar4d1aGd6w_Zt9iRAw&start=10&sa=N&sstk=AU9db-AjioleAL8dqD3oQwkPOZNQ6HFyF71R3PBJexz-6BLHIbGXKx8PNhrc3FNjY9QHtubV7mrGw-YHlJsb19kXr3GkAlW1bXxemg&ved=2ahUKEwj-2-PQ8_6UAxXVUGcHHdkbNjIQ8NMDegQIOhAU
+                - generic [ref=e926]: Next
+        - navigation
+      - complementary "Complementary results" [ref=e927]:
+        - heading "Complementary results" [level=2] [ref=e928]
+    - contentinfo [ref=e930]:
+      - heading "Footer links" [level=1] [ref=e931]
+      - generic [ref=e935]:
+        - generic [ref=e937]:
+          - text: India
+          - generic [ref=e939]:
+            - button "122016, Gurugram, Haryana - From your IP address" [ref=e941] [cursor=pointer]:
+              - generic [ref=e942]: 122016, Gurugram, Haryana
+              - generic [ref=e944]:
+                - text: "-"
+                - generic [ref=e945]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e947] [cursor=pointer]: Update location
+        - generic [ref=e950]:
+          - link "Help" [ref=e951] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=e952] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e953] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=e954] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

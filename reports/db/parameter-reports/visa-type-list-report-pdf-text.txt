@@ -8,7 +8,8 @@ RESI Resident visa ü SYSTEM_USER 06/05/2025
 STUD Student Visa ü ARCHANA 05/06/2025
 TOUR Tourist visa ü SYSTEM_USER 06/05/2025
 TRAN Transit Visa û SYSTEM_USER 06/05/2025 ARCHANA 23/05/2025
-WISH PMS : CM00 Printed on : 29/04/2026at10:43(S) 10:43(L) Business date : 26/06/2025 Page : 1 of 1
+V586 AUTOMATION VISA V586 ü SACH 29/06/2025
+WISH PMS : CM00 Printed on : 16/06/2026at12:28(S) 12:28(L) Business date : 29/06/2025 Page : 1 of 1
 Webwish Hotel
 Visa Type List
 

@@ -171,7 +171,10 @@ export class ChargeCodeSetupPage extends BasePage {
   async runChargeCodeSetupCreateDeleteFlow(): Promise<void> {
     const description = `Automation Description ${Date.now()}`;
 
+    // wait for 2 second
+    await this.page.waitForTimeout(2000);
     await this.openChargeCodeSetupPage();
+
     await this.createChargeCode(description);
     await this.deactivateAndDeleteFirstMatch('automation');
   }

@@ -1,8 +1,8 @@
 {
   "reportTitle": "Parameter Reports - Visa Type List DB Validation",
   "queryText": "select * from prm_common_masters where property_id='webwe' and param_type='VISA'",
-  "totalDbRows": 9,
-  "totalMatchedRows": 9,
+  "totalDbRows": 10,
+  "totalMatchedRows": 10,
   "comparison": [
     {
       "rowNumber": 1,
@@ -224,6 +224,31 @@
         {
           "column": "description",
           "value": "TRANSIT VISA"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 10,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "V586"
+        },
+        {
+          "column": "description",
+          "value": "AUTOMATION VISA V586"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "V586"
+        },
+        {
+          "column": "description",
+          "value": "AUTOMATION VISA V586"
         }
       ],
       "missingValues": [],

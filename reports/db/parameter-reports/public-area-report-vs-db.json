@@ -1,8 +1,8 @@
 {
   "reportTitle": "Parameter Reports - Public Area DB Validation",
   "queryText": "select * from prm_common_masters where property_id='webwe' and param_type='PBAR'",
-  "totalDbRows": 31,
-  "totalMatchedRows": 31,
+  "totalDbRows": 33,
+  "totalMatchedRows": 33,
   "comparison": [
     {
       "rowNumber": 1,
@@ -13,7 +13,7 @@
         },
         {
           "column": "description",
-          "value": ":\\\"';"
+          "value": ":\\\"';/SASA"
         }
       ],
       "matchedValues": [
@@ -23,7 +23,7 @@
         },
         {
           "column": "description",
-          "value": ":\\\"';"
+          "value": ":\\\"';/SASA"
         }
       ],
       "missingValues": [],
@@ -34,21 +34,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "2343"
+          "value": "A347"
         },
         {
           "column": "description",
-          "value": "AUTOM <>??><,./;'"
+          "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "2343"
+          "value": "A347"
         },
         {
           "column": "description",
-          "value": "AUTOM <>??><,./;'"
+          "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
         }
       ],
       "missingValues": [],
@@ -59,21 +59,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "A388"
+          "value": "A468"
         },
         {
           "column": "description",
-          "value": "AUTOMATION"
+          "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "A388"
+          "value": "A468"
         },
         {
           "column": "description",
-          "value": "AUTOMATION"
+          "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
         }
       ],
       "missingValues": [],
@@ -84,21 +84,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "A474"
+          "value": "A520"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC /"
+          "value": "AUTOMATION PUBLIC AREA A520"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "A474"
+          "value": "A520"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC /"
+          "value": "AUTOMATION PUBLIC AREA A520"
         }
       ],
       "missingValues": [],
@@ -109,21 +109,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "A520"
+          "value": "A556"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA A520"
+          "value": "AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "A520"
+          "value": "A556"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA A520"
+          "value": "AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405"
         }
       ],
       "missingValues": [],
@@ -134,21 +134,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "A689"
+          "value": "A568"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA A689"
+          "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "A689"
+          "value": "A568"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA A689"
+          "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
         }
       ],
       "missingValues": [],
@@ -159,7 +159,7 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "A758"
+          "value": "A590"
         },
         {
           "column": "description",
@@ -169,7 +169,7 @@
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "A758"
+          "value": "A590"
         },
         {
           "column": "description",
@@ -184,21 +184,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "A845"
+          "value": "A607"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA A845"
+          "value": "AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "A845"
+          "value": "A607"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA A845"
+          "value": "AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*"
         }
       ],
       "missingValues": [],
@@ -209,21 +209,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "A901"
+          "value": "A689"
         },
         {
           "column": "description",
-          "value": "AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405"
+          "value": "AUTOMATION PUBLIC AREA A689"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "A901"
+          "value": "A689"
         },
         {
           "column": "description",
-          "value": "AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405"
+          "value": "AUTOMATION PUBLIC AREA A689"
         }
       ],
       "missingValues": [],
@@ -234,21 +234,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "A917"
+          "value": "A869"
         },
         {
           "column": "description",
-          "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
+          "value": "AUTOMATION PUBLIC AREA A869"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "A917"
+          "value": "A869"
         },
         {
           "column": "description",
-          "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
+          "value": "AUTOMATION PUBLIC AREA A869"
         }
       ],
       "missingValues": [],
@@ -259,21 +259,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LC2"
+          "value": "A885"
         },
         {
           "column": "description",
-          "value": "BALCONY"
+          "value": "AUTOMATION PUBLIC AREA A885"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LC2"
+          "value": "A885"
         },
         {
           "column": "description",
-          "value": "BALCONY"
+          "value": "AUTOMATION PUBLIC AREA A885"
         }
       ],
       "missingValues": [],
@@ -284,21 +284,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LC9"
+          "value": "A886"
         },
         {
           "column": "description",
-          "value": "LAWN"
+          "value": "AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LC9"
+          "value": "A886"
         },
         {
           "column": "description",
-          "value": "LAWN"
+          "value": "AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405"
         }
       ],
       "missingValues": [],
@@ -309,21 +309,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LGGF"
+          "value": "A930"
         },
         {
           "column": "description",
-          "value": "ASAAAAAAAAAAAA"
+          "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LGGF"
+          "value": "A930"
         },
         {
           "column": "description",
-          "value": "ASAAAAAAAAAAAA"
+          "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
         }
       ],
       "missingValues": [],
@@ -334,21 +334,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LOC01"
+          "value": "A999"
         },
         {
           "column": "description",
-          "value": "BANQUET"
+          "value": "AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LOC01"
+          "value": "A999"
         },
         {
           "column": "description",
-          "value": "BANQUET"
+          "value": "AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*"
         }
       ],
       "missingValues": [],
@@ -359,21 +359,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LOC02"
+          "value": "LC2"
         },
         {
           "column": "description",
-          "value": "CORRIDOR"
+          "value": "BALCONY"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LOC02"
+          "value": "LC2"
         },
         {
           "column": "description",
-          "value": "CORRIDOR"
+          "value": "BALCONY"
         }
       ],
       "missingValues": [],
@@ -384,21 +384,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LOC03"
+          "value": "LC9"
         },
         {
           "column": "description",
-          "value": "HEALTH CENTER"
+          "value": "LAWN"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LOC03"
+          "value": "LC9"
         },
         {
           "column": "description",
-          "value": "HEALTH CENTER"
+          "value": "LAWN"
         }
       ],
       "missingValues": [],
@@ -409,21 +409,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LOC04"
+          "value": "LGGF"
         },
         {
           "column": "description",
-          "value": "LIFT"
+          "value": "ASAAAAAAAAAAAA"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LOC04"
+          "value": "LGGF"
         },
         {
           "column": "description",
-          "value": "LIFT"
+          "value": "ASAAAAAAAAAAAA"
         }
       ],
       "missingValues": [],
@@ -434,21 +434,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LOC05"
+          "value": "LOC01"
         },
         {
           "column": "description",
-          "value": "LOBBY"
+          "value": "BANQUET"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LOC05"
+          "value": "LOC01"
         },
         {
           "column": "description",
-          "value": "LOBBY"
+          "value": "BANQUET"
         }
       ],
       "missingValues": [],
@@ -459,21 +459,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LOC06"
+          "value": "LOC02"
         },
         {
           "column": "description",
-          "value": "OUTSIDE LAWN"
+          "value": "CORRIDOR"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LOC06"
+          "value": "LOC02"
         },
         {
           "column": "description",
-          "value": "OUTSIDE LAWN"
+          "value": "CORRIDOR"
         }
       ],
       "missingValues": [],
@@ -484,21 +484,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LOC07"
+          "value": "LOC03"
         },
         {
           "column": "description",
-          "value": "PARKING"
+          "value": "HEALTH CENTER"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LOC07"
+          "value": "LOC03"
         },
         {
           "column": "description",
-          "value": "PARKING"
+          "value": "HEALTH CENTER"
         }
       ],
       "missingValues": [],
@@ -509,21 +509,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LOC08"
+          "value": "LOC04"
         },
         {
           "column": "description",
-          "value": "POOL AREA"
+          "value": "LIFT"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LOC08"
+          "value": "LOC04"
         },
         {
           "column": "description",
-          "value": "POOL AREA"
+          "value": "LIFT"
         }
       ],
       "missingValues": [],
@@ -534,21 +534,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LOC09"
+          "value": "LOC05"
         },
         {
           "column": "description",
-          "value": "RECEPTION"
+          "value": "LOBBY"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LOC09"
+          "value": "LOC05"
         },
         {
           "column": "description",
-          "value": "RECEPTION"
+          "value": "LOBBY"
         }
       ],
       "missingValues": [],
@@ -559,21 +559,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LOC10"
+          "value": "LOC06"
         },
         {
           "column": "description",
-          "value": "RESTAURANT"
+          "value": "OUTSIDE LAWN"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LOC10"
+          "value": "LOC06"
         },
         {
           "column": "description",
-          "value": "RESTAURANT"
+          "value": "OUTSIDE LAWN"
         }
       ],
       "missingValues": [],
@@ -584,21 +584,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LOC11"
+          "value": "LOC07"
         },
         {
           "column": "description",
-          "value": "ROOF TOP"
+          "value": "PARKING"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LOC11"
+          "value": "LOC07"
         },
         {
           "column": "description",
-          "value": "ROOF TOP"
+          "value": "PARKING"
         }
       ],
       "missingValues": [],
@@ -609,21 +609,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "LOC12"
+          "value": "LOC08"
         },
         {
           "column": "description",
-          "value": "SPA"
+          "value": "POOL AREA"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "LOC12"
+          "value": "LOC08"
         },
         {
           "column": "description",
-          "value": "SPA"
+          "value": "POOL AREA"
         }
       ],
       "missingValues": [],
@@ -634,21 +634,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "P334"
+          "value": "LOC09"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA P334"
+          "value": "RECEPTION"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "P334"
+          "value": "LOC09"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA P334"
+          "value": "RECEPTION"
         }
       ],
       "missingValues": [],
@@ -659,21 +659,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "P417"
+          "value": "LOC10"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA P417"
+          "value": "RESTAURANT"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "P417"
+          "value": "LOC10"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA P417"
+          "value": "RESTAURANT"
         }
       ],
       "missingValues": [],
@@ -684,21 +684,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "P599"
+          "value": "LOC11"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA P599"
+          "value": "ROOF TOP"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "P599"
+          "value": "LOC11"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA P599"
+          "value": "ROOF TOP"
         }
       ],
       "missingValues": [],
@@ -709,21 +709,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "P721"
+          "value": "LOC12"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA P721"
+          "value": "SPA"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "P721"
+          "value": "LOC12"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA P721"
+          "value": "SPA"
         }
       ],
       "missingValues": [],
@@ -734,21 +734,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "P931"
+          "value": "P193"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA P931"
+          "value": "AUTOMATION PUBLIC AREA P193"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "P931"
+          "value": "P193"
         },
         {
           "column": "description",
-          "value": "AUTOMATION PUBLIC AREA P931"
+          "value": "AUTOMATION PUBLIC AREA P193"
         }
       ],
       "missingValues": [],
@@ -759,21 +759,71 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "SSFS"
+          "value": "P710"
         },
         {
           "column": "description",
-          "value": "'\\\"'"
+          "value": "AUTOMATION PUBLIC AREA P710"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "SSFS"
+          "value": "P710"
         },
         {
           "column": "description",
-          "value": "'\\\"'"
+          "value": "AUTOMATION PUBLIC AREA P710"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 32,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "P853"
+        },
+        {
+          "column": "description",
+          "value": "AUTOMATION PUBLIC AREA P853"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "P853"
+        },
+        {
+          "column": "description",
+          "value": "AUTOMATION PUBLIC AREA P853"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 33,
+      "relevantValues": [
+        {
+          "column": "param_code",
+          "value": "P924"
+        },
+        {
+          "column": "description",
+          "value": "AUTOMATION PUBLIC AREA P924"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "param_code",
+          "value": "P924"
+        },
+        {
+          "column": "description",
+          "value": "AUTOMATION PUBLIC AREA P924"
         }
       ],
       "missingValues": [],

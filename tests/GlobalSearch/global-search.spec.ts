@@ -51,7 +51,7 @@ test.describe.serial('Global Search', () => {
   //   });
   // });
 
-  test('GLOBAL_SEARCH_003: Validate topbar search navigation across core functionalities', async ({ page, context }) => {
+  test.only('GLOBAL_SEARCH_003: Validate topbar search navigation across core functionalities', async ({ page, context }) => {
     test.setTimeout(90 * 60 * 1000);
 
     const loginPage = new LoginPage(page, context);

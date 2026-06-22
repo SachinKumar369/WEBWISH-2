@@ -1,29 +1,53 @@
 Type Description Active Created By Created On Modified By Modified On
-1111 :\"'; ü SACH 26/06/2025
-2343 Autom <>??><,./;' ü SACH 26/06/2025 SACH 26/06/2025
-A388 Automation ü SACH 26/06/2025 SACH 26/06/2025
-A474 AUTOMATION PUBLIC / ü SACH 26/06/2025 SACH 26/06/2025
+1111 :\"';/Sasa ü SACH 26/06/2025 HIMANSHU 26/06/2025
+A347 Automation Saved Description !
+@#$%%^&*(*&$&$&$&$&
+$&#*@(#(#*$
+ü SACH 29/06/2025
+A468 Automation Saved Description !
+@#$%%^&*(*&$&$&$&$&
+$&#*@(#(#*$
+ü SACH 28/06/2025
 A520 AUTOMATION PUBLIC AREA
 A520
 ü SACH 26/06/2025
+A556 Automation
+Adjflakdjflajdlj3o4375984508340
+984509809485098405
+û SACH 27/06/2025 SACH 27/06/2025
+A568 Automation Saved Description !
+@#$%%^&*(*&$&$&$&$&
+$&#*@(#(#*$
+ü SACH 29/06/2025
+A590 Automation Saved Description !
+@#$%%^&*(*&$&$&$&$&
+$&#*@(#(#*$
+ü SACH 28/06/2025
+A607 Automation !@#$%^&*&^$#@#$
+%^&*()(*&^%$#@#$%^&*(*&^%
+$#$%^&*(*
+ü SACH 28/06/2025
 A689 AUTOMATION PUBLIC AREA
 A689
 ü SACH 26/06/2025
-A758 Automation Saved Description !
-@#$%%^&*(*&$&$&$&$&
-$&#*@(#(#*$
-ü SACH 26/06/2025
-A845 AUTOMATION PUBLIC AREA
-A845
-ü SACH 26/06/2025
-A901 Automation
+A869 AUTOMATION PUBLIC AREA
+A869
+ü SACH 28/06/2025
+A885 AUTOMATION PUBLIC AREA
+A885
+ü SACH 28/06/2025
+A886 Automation
 Adjflakdjflajdlj3o4375984508340
 984509809485098405
-ü SACH 26/06/2025
-A917 Automation Saved Description !
+ü SACH 28/06/2025
+A930 Automation Saved Description !
 @#$%%^&*(*&$&$&$&$&
 $&#*@(#(#*$
-ü SACH 26/06/2025
+ü SACH 27/06/2025
+A999 Automation !@#$%^&*&^$#@#$
+%^&*()(*&^%$#@#$%^&*(*&^%
+$#$%^&*(*
+ü SACH 27/06/2025
 LC2 Balcony ü ARCHANA 16/05/2025
 LC9 Lawn ü ARCHANA 16/05/2025
 LGGF Asaaaaaaaaaaaa ü ARCHANA 22/05/2025
@@ -39,25 +63,27 @@ LOC09 Reception ü SYSTEM_USER 06/05/2025
 LOC10 Restaurant ü SYSTEM_USER 06/05/2025
 LOC11 Roof top ü SYSTEM_USER 06/05/2025
 LOC12 Spa ü SYSTEM_USER 06/05/2025
-P334 AUTOMATION PUBLIC AREA
-P334
-ü SACH 17/06/2025
-P417 AUTOMATION PUBLIC AREA
-P417
-ü SACH 17/06/2025
-P599 AUTOMATION PUBLIC AREA
-P599
-ü SACH 17/06/2025
-P721 AUTOMATION PUBLIC AREA
-P721
-ü SACH 17/06/2025
-P931 AUTOMATION PUBLIC AREA
-P931
-ü SACH 17/06/2025
-SSFS '\"' ü SACH 26/06/2025
-WISH PMS : CM00 Printed on : 30/04/2026at18:18(S) 18:18(L) Business date : 26/06/2025 Page : 1 of 1
+WISH PMS : CM00 Printed on : 16/06/2026at12:26(S) 12:26(L) Business date : 29/06/2025 Page : 1 of 2
 Webwish Hotel
 Public Area
 
--- 1 of 1 --
+-- 1 of 2 --
+
+P193 AUTOMATION PUBLIC AREA
+P193
+ü SACH 29/06/2025
+P710 AUTOMATION PUBLIC AREA
+P710
+ü SACH 29/06/2025
+P853 AUTOMATION PUBLIC AREA
+P853
+ü SACH 28/06/2025
+P924 AUTOMATION PUBLIC AREA
+P924
+û SACH 27/06/2025 SACH 28/06/2025
+WISH PMS : CM00 Printed on : 16/06/2026at12:26(S) 12:26(L) Business date : 29/06/2025 Page : 2 of 2
+Webwish Hotel
+Public Area
+
+-- 2 of 2 --
 

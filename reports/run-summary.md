@@ -1,10 +1,10 @@
 # Test Run Summary
 
 - Status: passed
-- Total: 1
-- Passed: 1
+- Total: 13
+- Passed: 12
 - Failed: 0
-- Skipped: 0
+- Skipped: 1
 - Timed Out: 0
 - Interrupted: 0
 - Retried Passed: 0

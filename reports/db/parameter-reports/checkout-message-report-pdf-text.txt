@@ -3,7 +3,7 @@ CH Checkout Safely Test ü ARCHANA 07/10/2025 SANDEEP 14/10/2025
 CK Collect Keys from the guest ü SYSTEM_USER 06/05/2025
 CT Checkout Time After 12 Pm ü SUP 14/05/2025 ARCHANA 10/06/2025
 FC Feedback Form Fill ü ARCHANA 16/05/2025
-WISH PMS : CM00 Printed on : 28/04/2026at12:07(S) 12:07(L) Business date : 26/06/2025 Page : 1 of 1
+WISH PMS : CM00 Printed on : 16/06/2026at12:25(S) 12:25(L) Business date : 29/06/2025 Page : 1 of 1
 Webwish Hotel
 CHECKOUT MESSAGE
 

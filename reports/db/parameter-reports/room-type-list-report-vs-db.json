@@ -1,21 +1,21 @@
 {
   "reportTitle": "Parameter Reports - Room Type List DB Validation",
   "queryText": "select * from prm_room_type where property_id='webwe'",
-  "totalDbRows": 14,
-  "totalMatchedRows": 14,
+  "totalDbRows": 15,
+  "totalMatchedRows": 15,
   "comparison": [
     {
       "rowNumber": 1,
       "relevantValues": [
         {
           "column": "description",
-          "value": "AUTOMATION1"
+          "value": "A"
         }
       ],
       "matchedValues": [
         {
           "column": "description",
-          "value": "AUTOMATION1"
+          "value": "A"
         }
       ],
       "missingValues": [],
@@ -26,13 +26,13 @@
       "relevantValues": [
         {
           "column": "description",
-          "value": "DGK"
+          "value": "MANUAL"
         }
       ],
       "matchedValues": [
         {
           "column": "description",
-          "value": "DGK"
+          "value": "MANUAL"
         }
       ],
       "missingValues": [],
@@ -43,13 +43,13 @@
       "relevantValues": [
         {
           "column": "description",
-          "value": "EXK"
+          "value": "DGK"
         }
       ],
       "matchedValues": [
         {
           "column": "description",
-          "value": "EXK"
+          "value": "DGK"
         }
       ],
       "missingValues": [],
@@ -60,13 +60,13 @@
       "relevantValues": [
         {
           "column": "description",
-          "value": "DGT"
+          "value": "EXK"
         }
       ],
       "matchedValues": [
         {
           "column": "description",
-          "value": "DGT"
+          "value": "EXK"
         }
       ],
       "missingValues": [],
@@ -77,13 +77,13 @@
       "relevantValues": [
         {
           "column": "description",
-          "value": "LPK"
+          "value": "DGT"
         }
       ],
       "matchedValues": [
         {
           "column": "description",
-          "value": "LPK"
+          "value": "DGT"
         }
       ],
       "missingValues": [],
@@ -94,13 +94,13 @@
       "relevantValues": [
         {
           "column": "description",
-          "value": "LPT"
+          "value": "LPK"
         }
       ],
       "matchedValues": [
         {
           "column": "description",
-          "value": "LPT"
+          "value": "LPK"
         }
       ],
       "missingValues": [],
@@ -111,13 +111,13 @@
       "relevantValues": [
         {
           "column": "description",
-          "value": "AUTOMATION"
+          "value": "LPT"
         }
       ],
       "matchedValues": [
         {
           "column": "description",
-          "value": "AUTOMATION"
+          "value": "LPT"
         }
       ],
       "missingValues": [],
@@ -128,13 +128,13 @@
       "relevantValues": [
         {
           "column": "description",
-          "value": "DUMMY ROOM"
+          "value": "AUTOMATION"
         }
       ],
       "matchedValues": [
         {
           "column": "description",
-          "value": "DUMMY ROOM"
+          "value": "AUTOMATION"
         }
       ],
       "missingValues": [],
@@ -145,13 +145,13 @@
       "relevantValues": [
         {
           "column": "description",
-          "value": "DELUX ROOM"
+          "value": "DUMMY ROOM"
         }
       ],
       "matchedValues": [
         {
           "column": "description",
-          "value": "DELUX ROOM"
+          "value": "DUMMY ROOM"
         }
       ],
       "missingValues": [],
@@ -162,13 +162,13 @@
       "relevantValues": [
         {
           "column": "description",
-          "value": "EXTRA BED IN ROOM BIG FAMILY"
+          "value": "DELUX ROOM"
         }
       ],
       "matchedValues": [
         {
           "column": "description",
-          "value": "EXTRA BED IN ROOM BIG FAMILY"
+          "value": "DELUX ROOM"
         }
       ],
       "missingValues": [],
@@ -179,13 +179,13 @@
       "relevantValues": [
         {
           "column": "description",
-          "value": "PRK"
+          "value": "EXTRA BED IN ROOM BIG FAMILY"
         }
       ],
       "matchedValues": [
         {
           "column": "description",
-          "value": "PRK"
+          "value": "EXTRA BED IN ROOM BIG FAMILY"
         }
       ],
       "missingValues": [],
@@ -196,6 +196,23 @@
       "relevantValues": [
         {
           "column": "description",
+          "value": "PRK"
+        }
+      ],
+      "matchedValues": [
+        {
+          "column": "description",
+          "value": "PRK"
+        }
+      ],
+      "missingValues": [],
+      "matched": true
+    },
+    {
+      "rowNumber": 13,
+      "relevantValues": [
+        {
+          "column": "description",
           "value": "STANDART DOUBLE"
         }
       ],
@@ -209,7 +226,7 @@
       "matched": true
     },
     {
-      "rowNumber": 13,
+      "rowNumber": 14,
       "relevantValues": [
         {
           "column": "description",
@@ -226,7 +243,7 @@
       "matched": true
     },
     {
-      "rowNumber": 14,
+      "rowNumber": 15,
       "relevantValues": [
         {
           "column": "description",

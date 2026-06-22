@@ -16,7 +16,8 @@ export class ParameterReportsPage extends BasePage {
   }
 
   protected get parameterReportsMenu() {
-    return this.page.getByRole('link', { name: /Parameter Reports/i });
+    return this.page.getByRole('link', { name: /Parameter Reports/i })
+    .or(this.page.getByText('Parameter Reports'));
   }
 
   protected get openReportButton() {
@@ -36,7 +37,9 @@ export class ParameterReportsPage extends BasePage {
     logger.info(`Opening Parameter Report: ${reportName}`);
 
     await this.openParameterReportsMenu();
-    await this.elementActions.click(this.page.getByRole('link', { name: new RegExp(reportName, 'i') }), `${reportName} report link`);
+    await this.elementActions.click(this.page.getByRole('link', { name: new RegExp(reportName, 'i') })
+        .or(this.page.getByText(new RegExp(reportName, 'i'))),
+         `${reportName} report link`);
     await this.page.waitForLoadState('networkidle');
   }
 

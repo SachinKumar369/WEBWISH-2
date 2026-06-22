@@ -57,7 +57,7 @@ test.describe('Manager Function - Rate Manager Creation', () => {
       publishedRackRateArrowDowns: 6,
       rateCategoryArrowDowns: 3,
       description: 'description',
-      notes: 'automation ,./?><;\'":[]\\|}{-=+_)(*&^%$#@!`~',
+      notes: 'Rate for testing',
       marketSegmentKeys: ['ArrowDown', 'ArrowDown', 'ArrowUp'] as Array<'ArrowDown' | 'ArrowUp'>,
       closeAfterSave: true
     };

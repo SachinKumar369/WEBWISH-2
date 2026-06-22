@@ -13,14 +13,27 @@ test.describe.serial('Login Scenarios', () => {
       //await page.pause();
     }
   });
+  
+  let validUsername = '12';
+  let validPassword = 'Sachin@578';
+  
+  test.beforeAll(async () => {
+    try {
+      const user = await testDataManager.getUserCredentials('all');
+      validUsername = user.username;
+      validPassword = user.password;
+    } catch (error) {
+      logger.warn(`Falling back to default credentials for Login suite: ${error}`);
+    }
+  });
 
   test('LOGIN_001: Correct ID and correct password', async ({ page, context }) => {
     const loginPage = new LoginScenariosPage(page, context);
 
     await loginPage.openLoginPage();
     await loginPage.loginWithFlowProvided({
-      username: 'SACH',
-      password: 'Sachin@578'
+      username: validUsername,
+      password: validPassword
     });
     await loginPage.expectPropertySelectionPrompt();
 
@@ -38,7 +51,7 @@ test.describe.serial('Login Scenarios', () => {
     // Attempt 1: Invalid user with correct password
     await loginPage.loginSimple({
       username: 'Sach1',
-      password: 'Sachin@578'
+      password: validPassword
     });
     await loginPage.expectInvalidUserIdError();
     await loginPage.clickFeedbackOk();
@@ -47,8 +60,8 @@ test.describe.serial('Login Scenarios', () => {
 
     // Attempt 2: Valid user with invalid password (with eye toggle)
     await loginPage.loginWithEyeToggle({
-      username: 'Sach',
-      password: 'Sachin@5781'
+      username: validUsername,
+      password: `${validPassword}1`
     });
     await loginPage.expectInvalidPasswordError();
     await loginPage.clickFeedbackOk();
@@ -65,7 +78,7 @@ test.describe.serial('Login Scenarios', () => {
     await loginPage.openLoginPage();
     await loginPage.loginSimple({
       username: 'Sach1',
-      password: 'Sachin@578'
+      password: validPassword
     });
     await loginPage.expectInvalidUserIdError();
 
@@ -97,7 +110,7 @@ test.describe.serial('Login Scenarios', () => {
     await loginPage.clickFeedbackOk();
     await loginPage.expectLogoVisible();
 
-    await loginPage.enterUsernameWithCaps('SACH');
+    await loginPage.enterUsernameWithCaps(validUsername);
     await loginPage.clickForgotPassword();
     await loginPage.expectForgotPasswordScreen();
 
@@ -111,9 +124,7 @@ test.describe.serial('Login Scenarios', () => {
     const loginPage = new LoginPage(page, context);
     const dashboardPage = new LoginDashboardPage(page, context);
 
-    const user = await testDataManager.getUserCredentials('all');
-
-    await loginPage.loginWithPropertySelection(user.username, user.password, 0);
+    await loginPage.loginWithPropertySelection(validUsername, validPassword, 0);
     await dashboardPage.expectDashboardLoaded();
     await dashboardPage.validateShiftSwitchFlow();
 

@@ -82,11 +82,79 @@ test.describe('Manager Function - Rate Setup (capture room type codes)', () => {
         path: 'screenshots/MGR_RATE_SETUP_001_rate_manager_click.png',
         fullPage: true,
       });
+
+      // Step 5: Click eye icon for the first editable rate code to open the rate grid
+      logger.info('Step 5: Clicking eye icon for the first editable rate code');
+      const selectedRateCode = await rateManagerPage.selectFirstEditableRateCodeAndOpenSettings();
+      logger.info(`Opened settings for rate code: ${selectedRateCode}`);
+
+      await page.screenshot({
+        path: 'screenshots/MGR_RATE_SETUP_001_eye_icon_clicked.png',
+        fullPage: true,
+      });
+
+      // Step 6: Fill rates for all room types (Single, Double, Triple)
+     // await rateManagerPage.deleteSelectedDate();
+      logger.info('Step 6: Filling rates for all room types in the rate grid');
+      const singleRate = '1000';
+      const doubleRate = '1200';
+      const tripleRate = '1300';
+      const extraRate = '0';
+      const youthRate = '0';
+      const child = '100';
+
+      await rateManagerPage.fillRatesForAllRoomTypes(singleRate, doubleRate, tripleRate, extraRate, youthRate, child);
+
+      await page.screenshot({
+        path: 'screenshots/MGR_RATE_SETUP_001_rates_filled.png',
+        fullPage: true,
+      });
+      logger.info('Step 6 complete: Rates filled for all room types');
+
+      // Step 7: Apply rates to a date range starting from the business date
+      const endDate = '31/12/2025';
+      const dateRange = `${businessDate} to ${endDate}`;
+      logger.info(`Step 7: Applying rates for date range: ${dateRange}`);
+
+      await rateManagerPage.applyAdvanceDateSelection(dateRange);
+
+      logger.info('Step 7 complete: Rates applied and saved successfully');
+
+      await page.screenshot({
+        path: 'screenshots/MGR_RATE_SETUP_001_rates_applied.png',
+        fullPage: true,
+      });
+
+      // Step 8: Verify Single adult Complimentary Rate in Guest Management
+      logger.info('Step 8: Verifying Single adult Complimentary Rate in Guest Management');
+      await rateManagerPage.verifySingleAdultComplimentaryRate(singleRate);
+      await page.screenshot({
+        path: 'screenshots/MGR_RATE_SETUP_001_single_rate_verified.png',
+        fullPage: true,
+      });
+
+      // Step 9: Verify Triple adult Complimentary Rate in Guest Management
+      logger.info('Step 9: Verifying Triple adult Complimentary Rate in Guest Management');
+      await rateManagerPage.verifyTripleAdultComplimentaryRate(tripleRate);
+      await page.screenshot({
+        path: 'screenshots/MGR_RATE_SETUP_001_triple_rate_verified.png',
+        fullPage: true,
+      });
+
+      // Step 10: Verify One Adult and Two Children in Guest Management
+      logger.info('Step 10: Verifying One Adult and Two Children rates in Guest Management');
+    //  await rateManagerPage.verifyOneAdultTwoChildrenRate(singleRate, child);
+      await page.screenshot({
+        path: 'screenshots/MGR_RATE_SETUP_001_one_adult_two_children_rate_verified.png',
+        fullPage: true,
+      });
+
+
     } else {
-      logger.warn('Skipping Step 4 because no common room type codes were found');
+      logger.warn('Skipping Steps 4-9 because no common room type codes were found');
     }
 
-    // Step 5: Persist snapshot with both raw lists and the common set
+    // Step 10: Persist snapshot with both raw lists and the common set
     const snapshot: RoomTypeSnapshot = {
       capturedAt: new Date().toISOString(),
       selectedPropertyId,
@@ -97,7 +165,6 @@ test.describe('Manager Function - Rate Setup (capture room type codes)', () => {
 
     await testDataManager.saveJSONData(ROOM_TYPES_FILE, snapshot);
     logger.info(`Persisted room type snapshot to ${ROOM_TYPES_FILE}`);
-    await rateManagerPage.selectFirstEditableRateCodeAndOpenSettings(); // Added step to open settings for screenshot   
 
     await page.screenshot({
       path: 'screenshots/MGR_RATE_SETUP_001.png',

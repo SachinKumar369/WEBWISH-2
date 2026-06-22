@@ -2,7 +2,8 @@ Room Type Description HK Credits Alternate Suite Frozen Dummy Max Pax Print
 Line
 Booking Limit
 Room Type 1 Room Type 2 Room Type 3 PMS User Other User
-DELA Automation1 0 û ü û 0 0 0
+A123 A 0 û ü û 0 0 0
+ABC Manual 0 û û û 0 0 0
 DELB DGK 0 û û û 0 0 0
 DELC EXK 0 û û û 0 0 0
 DELX DGT 0 û û û 0 0 0
@@ -16,7 +17,7 @@ FMLS PRK 0 ü û û 0 0 0
 STDD Standart Double 0 û û û 0 0 0
 STDT Standard Department 0 û û û 0 0 0
 SUIT SUITE CITY VIEW 0 û û û 0 0 0
-WISH PMS : SSUP19 Printed on :29/04/2026at17:16(S) 17:16(L) Business date : 26/06/2025 Page : 1 of 1
+WISH PMS : SSUP19 Printed on :16/06/2026at12:26(S) 12:26(L) Business date : 29/06/2025 Page : 1 of 1
 Room Type List
 Webwish Hotel, GGM
 
