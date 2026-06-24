@@ -19,17 +19,9 @@
 
 ## Failed Tests
 
--  > chromium > Login\LoginDemo.spec.ts > TC_LOGIN_POS_001 — Successful Login with Valid Credentials > TC_LOGIN_POS_001: Should login successfully with valid credentials and land on property selection
-  - Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
-
-Locator: getByText('Password')
-Expected: visible
-Error: strict mode violation: getByText('Password') resolved to 2 elements:
-    1) <label _ngcontent-ng-c505831083="" class="form-label lbl-sm-b">Password</label> aka getByText('Password', { exact: true })
-    2) <a href="javascript:void(0)" class="text-muted link-n" _ngcontent-ng-c505831083="">Forgot password?</a> aka getByRole('link', { name: 'Forgot password?' })
-
+-  > chromium > frontdesk\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_013: Execute section tab workflow
+  - Error: TimeoutError: locator.fill: Timeout 10000ms exceeded.
 Call log:
-[2m  - Expect "toBeVisible" with timeout 5000ms[22m
-[2m  - waiting for getByText('Password')[22m
+[2m  - waiting for locator('ng-select').filter({ hasText: '--select-- P Pending C' }).getByRole('textbox')[22m
 
-  - Attachments: E:\Automation Project\WebWish 2\test-results\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\test-failed-1.png, E:\Automation Project\WebWish 2\test-results\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\video.webm, E:\Automation Project\WebWish 2\test-results\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\error-context.md
+  - Attachments: E:\Automation Project\WebWish 2\test-results\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\test-failed-1.png, E:\Automation Project\WebWish 2\test-results\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\video.webm, E:\Automation Project\WebWish 2\test-results\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\error-context.md

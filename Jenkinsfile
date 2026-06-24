@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    tools {
-        nodejs 'NodeJS_18'
-    }
+    // tools {
+    //     nodejs 'NodeJS_18'
+    // }
 
     // ✅ User selects module and browser before every run
     parameters {

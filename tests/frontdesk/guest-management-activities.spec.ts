@@ -24,7 +24,7 @@ test.describe('Frontdesk - Guest Management Activities', () => {
       logger.error(`Failure screenshot: ${path}`);
     }
 
-    const keepBrowserOpen = process.env.KEEP_BROWSER_OPEN === 'true';
+    const keepBrowserOpen = process.env.KEEP_BROWSER_OPEN === 'false';
     if (keepBrowserOpen) {
       logger.info('KEEP_BROWSER_OPEN is enabled. Pausing browser after test...');
       await page.pause();

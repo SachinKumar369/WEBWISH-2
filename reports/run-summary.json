@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-22T10:02:12.644Z",
+  "timestamp": "2026-06-24T09:32:11.863Z",
   "runStatus": "failed",
-  "totalDurationMs": 16210,
+  "totalDurationMs": 85211,
   "totalTests": 1,
   "passed": 0,
   "failed": 1,
@@ -20,37 +20,37 @@
   },
   "failedTests": [
     {
-      "title": "TC_LOGIN_POS_001: Should login successfully with valid credentials and land on property selection",
-      "fullTitle": " > chromium > Login\\LoginDemo.spec.ts > TC_LOGIN_POS_001 — Successful Login with Valid Credentials > TC_LOGIN_POS_001: Should login successfully with valid credentials and land on property selection",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\Login\\LoginDemo.spec.ts",
+      "title": "FD_GDETAILS_013: Execute section tab workflow",
+      "fullTitle": " > chromium > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_013: Execute section tab workflow",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
       "project": "chromium",
       "status": "failed",
       "expectedStatus": "passed",
-      "durationMs": 5691,
+      "durationMs": 74985,
       "retry": 0,
-      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Password')\nExpected: visible\nError: strict mode violation: getByText('Password') resolved to 2 elements:\n    1) <label _ngcontent-ng-c505831083=\"\" class=\"form-label lbl-sm-b\">Password</label> aka getByText('Password', { exact: true })\n    2) <a href=\"javascript:void(0)\" class=\"text-muted link-n\" _ngcontent-ng-c505831083=\"\">Forgot password?</a> aka getByRole('link', { name: 'Forgot password?' })\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Password')\u001b[22m\n",
+      "error": "TimeoutError: locator.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('ng-select').filter({ hasText: '--select-- P Pending C' }).getByRole('textbox')\u001b[22m\n",
       "attachments": [
-        "E:\\Automation Project\\WebWish 2\\test-results\\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\\test-failed-1.png",
-        "E:\\Automation Project\\WebWish 2\\test-results\\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\\video.webm",
-        "E:\\Automation Project\\WebWish 2\\test-results\\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\\error-context.md"
+        "E:\\Automation Project\\WebWish 2\\test-results\\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\\test-failed-1.png",
+        "E:\\Automation Project\\WebWish 2\\test-results\\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\\video.webm",
+        "E:\\Automation Project\\WebWish 2\\test-results\\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\\error-context.md"
       ]
     }
   ],
   "tests": [
     {
-      "title": "TC_LOGIN_POS_001: Should login successfully with valid credentials and land on property selection",
-      "fullTitle": " > chromium > Login\\LoginDemo.spec.ts > TC_LOGIN_POS_001 — Successful Login with Valid Credentials > TC_LOGIN_POS_001: Should login successfully with valid credentials and land on property selection",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\Login\\LoginDemo.spec.ts",
+      "title": "FD_GDETAILS_013: Execute section tab workflow",
+      "fullTitle": " > chromium > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_013: Execute section tab workflow",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
       "project": "chromium",
       "status": "failed",
       "expectedStatus": "passed",
-      "durationMs": 5691,
+      "durationMs": 74985,
       "retry": 0,
-      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Password')\nExpected: visible\nError: strict mode violation: getByText('Password') resolved to 2 elements:\n    1) <label _ngcontent-ng-c505831083=\"\" class=\"form-label lbl-sm-b\">Password</label> aka getByText('Password', { exact: true })\n    2) <a href=\"javascript:void(0)\" class=\"text-muted link-n\" _ngcontent-ng-c505831083=\"\">Forgot password?</a> aka getByRole('link', { name: 'Forgot password?' })\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Password')\u001b[22m\n",
+      "error": "TimeoutError: locator.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('ng-select').filter({ hasText: '--select-- P Pending C' }).getByRole('textbox')\u001b[22m\n",
       "attachments": [
-        "E:\\Automation Project\\WebWish 2\\test-results\\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\\test-failed-1.png",
-        "E:\\Automation Project\\WebWish 2\\test-results\\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\\video.webm",
-        "E:\\Automation Project\\WebWish 2\\test-results\\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\\error-context.md"
+        "E:\\Automation Project\\WebWish 2\\test-results\\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\\test-failed-1.png",
+        "E:\\Automation Project\\WebWish 2\\test-results\\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\\video.webm",
+        "E:\\Automation Project\\WebWish 2\\test-results\\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\\error-context.md"
       ]
     }
   ]
