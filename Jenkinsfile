@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    // tools {
-    //     nodejs 'NodeJS_18'
-    // }
-
-    // ✅ User selects module and browser before every run
     parameters {
         choice(
             name: 'MODULE',
@@ -26,20 +21,17 @@ pipeline {
         )
     }
 
+    environment {
+        PLAYWRIGHT_BROWSERS_PATH = 'C:\\playwright-browsers'
+    }
+
     stages {
 
-        // stage('Checkout Code') {
-        //     steps {
-        //              git branch: 'main',
-        //                'https://github.com/SachinKumar369/WEBWISH-2'
-        //     }
-        // }
-
         stage('Checkout Code') {
-    steps {
-        echo 'Source code already checked out by Jenkins'
-    }
-}
+            steps {
+                echo 'Source code already checked out by Jenkins'
+            }
+        }
 
         stage('Install Dependencies') {
             steps {
@@ -49,7 +41,28 @@ pipeline {
 
         stage('Install Playwright Browsers') {
             steps {
-                bat 'npx playwright install'
+                script {
+                    def browser = params.BROWSER
+                    // Map browser param to folder name Playwright uses on disk
+                    def folderMap = [
+                        chromium : 'chromium-',
+                        firefox  : 'firefox-',
+                        webkit   : 'webkit-'
+                    ]
+                    def prefix = folderMap[browser]
+
+                    bat """
+                        IF NOT EXIST "${env.PLAYWRIGHT_BROWSERS_PATH}" (
+                            mkdir "${env.PLAYWRIGHT_BROWSERS_PATH}"
+                        )
+                        FOR /D %%d IN ("${env.PLAYWRIGHT_BROWSERS_PATH}\\${prefix}*") DO (
+                            echo Browser already cached at %%d, skipping install.
+                            EXIT /B 0
+                        )
+                        echo No cached browser found. Installing ${browser}...
+                        npx playwright install ${browser}
+                    """
+                }
             }
         }
 
