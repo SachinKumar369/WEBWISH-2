@@ -11,7 +11,6 @@ pipeline {
                 'housekeeping',
                 'noshow',
                 'reservations'
-                'GlobalSearch',
             ],
             description: 'Select the module to run'
         )
