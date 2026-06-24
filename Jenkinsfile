@@ -43,7 +43,6 @@ pipeline {
             steps {
                 script {
                     def browser = params.BROWSER
-                    // Map browser param to folder name Playwright uses on disk
                     def folderMap = [
                         chromium : 'chromium-',
                         firefox  : 'firefox-',
@@ -52,14 +51,14 @@ pipeline {
                     def prefix = folderMap[browser]
 
                     bat """
-                        IF NOT EXIST "${env.PLAYWRIGHT_BROWSERS_PATH}" (
-                            mkdir "${env.PLAYWRIGHT_BROWSERS_PATH}"
+                        IF NOT EXIST "C:\\playwright-browsers" (
+                            mkdir "C:\\playwright-browsers"
                         )
-                        FOR /D %%d IN ("${env.PLAYWRIGHT_BROWSERS_PATH}\\${prefix}*") DO (
-                            echo Browser already cached at %%d, skipping install.
+                        FOR /D %%d IN ("C:\\playwright-browsers\\${prefix}*") DO (
+                            echo ✅ Browser already cached at %%d, skipping install.
                             EXIT /B 0
                         )
-                        echo No cached browser found. Installing ${browser}...
+                        echo ⬇️ No cached browser found. Installing ${browser}...
                         npx playwright install ${browser}
                     """
                 }
