@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-06-22T04:21:26.297Z",
-  "runStatus": "passed",
-  "totalDurationMs": 423666,
-  "totalTests": 13,
-  "passed": 12,
-  "failed": 0,
-  "skipped": 1,
+  "timestamp": "2026-06-22T10:02:12.644Z",
+  "runStatus": "failed",
+  "totalDurationMs": 16210,
+  "totalTests": 1,
+  "passed": 0,
+  "failed": 1,
+  "skipped": 0,
   "timedOut": 0,
   "interrupted": 0,
   "retriedPassed": 0,
-  "passRate": 92.31,
+  "passRate": 0,
   "environment": "dev",
   "browser": "mixed",
   "reports": {
@@ -18,150 +18,40 @@
     "junit": "test-results/junit.xml",
     "json": "test-results/test-results.json"
   },
-  "failedTests": [],
+  "failedTests": [
+    {
+      "title": "TC_LOGIN_POS_001: Should login successfully with valid credentials and land on property selection",
+      "fullTitle": " > chromium > Login\\LoginDemo.spec.ts > TC_LOGIN_POS_001 — Successful Login with Valid Credentials > TC_LOGIN_POS_001: Should login successfully with valid credentials and land on property selection",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\Login\\LoginDemo.spec.ts",
+      "project": "chromium",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 5691,
+      "retry": 0,
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Password')\nExpected: visible\nError: strict mode violation: getByText('Password') resolved to 2 elements:\n    1) <label _ngcontent-ng-c505831083=\"\" class=\"form-label lbl-sm-b\">Password</label> aka getByText('Password', { exact: true })\n    2) <a href=\"javascript:void(0)\" class=\"text-muted link-n\" _ngcontent-ng-c505831083=\"\">Forgot password?</a> aka getByRole('link', { name: 'Forgot password?' })\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Password')\u001b[22m\n",
+      "attachments": [
+        "E:\\Automation Project\\WebWish 2\\test-results\\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\\test-failed-1.png",
+        "E:\\Automation Project\\WebWish 2\\test-results\\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\\video.webm",
+        "E:\\Automation Project\\WebWish 2\\test-results\\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\\error-context.md"
+      ]
+    }
+  ],
   "tests": [
     {
-      "title": "FD_GDETAILS_001: Open group and verify all displayed fields",
-      "fullTitle": " > msedge > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_001: Open group and verify all displayed fields",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "msedge",
-      "status": "passed",
+      "title": "TC_LOGIN_POS_001: Should login successfully with valid credentials and land on property selection",
+      "fullTitle": " > chromium > Login\\LoginDemo.spec.ts > TC_LOGIN_POS_001 — Successful Login with Valid Credentials > TC_LOGIN_POS_001: Should login successfully with valid credentials and land on property selection",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\Login\\LoginDemo.spec.ts",
+      "project": "chromium",
+      "status": "failed",
       "expectedStatus": "passed",
-      "durationMs": 32915,
+      "durationMs": 5691,
       "retry": 0,
-      "attachments": []
-    },
-    {
-      "title": "FD_GDETAILS_002: Edit group name and verify update",
-      "fullTitle": " > msedge > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_002: Edit group name and verify update",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "msedge",
-      "status": "passed",
-      "expectedStatus": "passed",
-      "durationMs": 32604,
-      "retry": 0,
-      "attachments": []
-    },
-    {
-      "title": "FD_GDETAILS_003: Edit contact number and email",
-      "fullTitle": " > msedge > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_003: Edit contact number and email",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "msedge",
-      "status": "passed",
-      "expectedStatus": "passed",
-      "durationMs": 38992,
-      "retry": 0,
-      "attachments": []
-    },
-    {
-      "title": "FD_GDETAILS_004: Navigate to Notes section and verify dialog",
-      "fullTitle": " > msedge > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_004: Navigate to Notes section and verify dialog",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "msedge",
-      "status": "passed",
-      "expectedStatus": "passed",
-      "durationMs": 24727,
-      "retry": 0,
-      "attachments": []
-    },
-    {
-      "title": "FD_GDETAILS_005: Navigate to Bill Routing, apply template, and close",
-      "fullTitle": " > msedge > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_005: Navigate to Bill Routing, apply template, and close",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "msedge",
-      "status": "skipped",
-      "expectedStatus": "skipped",
-      "durationMs": 0,
-      "retry": 0,
-      "attachments": []
-    },
-    {
-      "title": "FD_GDETAILS_006: Verify Bill Summary and Block Summary",
-      "fullTitle": " > msedge > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_006: Verify Bill Summary and Block Summary",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "msedge",
-      "status": "passed",
-      "expectedStatus": "passed",
-      "durationMs": 31727,
-      "retry": 0,
-      "attachments": []
-    },
-    {
-      "title": "FD_GDETAILS_007: Verify Additional Services tab",
-      "fullTitle": " > msedge > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_007: Verify Additional Services tab",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "msedge",
-      "status": "passed",
-      "expectedStatus": "passed",
-      "durationMs": 22928,
-      "retry": 0,
-      "attachments": []
-    },
-    {
-      "title": "FD_GDETAILS_008: Verify Group Block section",
-      "fullTitle": " > msedge > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_008: Verify Group Block section",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "msedge",
-      "status": "passed",
-      "expectedStatus": "passed",
-      "durationMs": 17021,
-      "retry": 0,
-      "attachments": []
-    },
-    {
-      "title": "FD_GDETAILS_009: Navigate to Movement, Task Details, and Billing Details",
-      "fullTitle": " > msedge > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_009: Navigate to Movement, Task Details, and Billing Details",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "msedge",
-      "status": "passed",
-      "expectedStatus": "passed",
-      "durationMs": 35778,
-      "retry": 0,
-      "attachments": []
-    },
-    {
-      "title": "FD_GDETAILS_010: Verify Change Captain button presence",
-      "fullTitle": " > msedge > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_010: Verify Change Captain button presence",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "msedge",
-      "status": "passed",
-      "expectedStatus": "passed",
-      "durationMs": 18539,
-      "retry": 0,
-      "attachments": []
-    },
-    {
-      "title": "FD_GDETAILS_011: Edit external reference, coordinator, and comments",
-      "fullTitle": " > msedge > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_011: Edit external reference, coordinator, and comments",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "msedge",
-      "status": "passed",
-      "expectedStatus": "passed",
-      "durationMs": 31133,
-      "retry": 0,
-      "attachments": []
-    },
-    {
-      "title": "FD_GDETAILS_012: Navigate to Preferences, Download Details, and View/Print",
-      "fullTitle": " > msedge > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_012: Navigate to Preferences, Download Details, and View/Print",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "msedge",
-      "status": "passed",
-      "expectedStatus": "passed",
-      "durationMs": 29821,
-      "retry": 0,
-      "attachments": []
-    },
-    {
-      "title": "FD_GDETAILS_013: Execute section tab workflow",
-      "fullTitle": " > msedge > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_013: Execute section tab workflow",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "msedge",
-      "status": "passed",
-      "expectedStatus": "passed",
-      "durationMs": 100917,
-      "retry": 0,
-      "attachments": []
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Password')\nExpected: visible\nError: strict mode violation: getByText('Password') resolved to 2 elements:\n    1) <label _ngcontent-ng-c505831083=\"\" class=\"form-label lbl-sm-b\">Password</label> aka getByText('Password', { exact: true })\n    2) <a href=\"javascript:void(0)\" class=\"text-muted link-n\" _ngcontent-ng-c505831083=\"\">Forgot password?</a> aka getByRole('link', { name: 'Forgot password?' })\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Password')\u001b[22m\n",
+      "attachments": [
+        "E:\\Automation Project\\WebWish 2\\test-results\\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\\test-failed-1.png",
+        "E:\\Automation Project\\WebWish 2\\test-results\\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\\video.webm",
+        "E:\\Automation Project\\WebWish 2\\test-results\\Login-LoginDemo-TC-LOGIN-P-38424--land-on-property-selection-chromium\\error-context.md"
+      ]
     }
   ]
 }

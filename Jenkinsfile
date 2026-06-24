@@ -5,6 +5,27 @@ pipeline {
         nodejs 'NodeJS_18'
     }
 
+    // ✅ User selects module and browser before every run
+    parameters {
+        choice(
+            name: 'MODULE',
+            choices: [
+                'all',
+                'frontdesk',
+                'accounting',
+                'housekeeping',
+                'noshow',
+                'reservations'
+            ],
+            description: 'Select the module to run'
+        )
+        choice(
+            name: 'BROWSER',
+            choices: ['chromium', 'firefox', 'webkit'],
+            description: 'Select the browser'
+        )
+    }
+
     stages {
 
         stage('Checkout Code') {
@@ -27,18 +48,39 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'npx playwright test'
+                script {
+                    def module  = params.MODULE
+                    def browser = params.BROWSER
+
+                    echo "Running Module  : ${module}"
+                    echo "Running Browser : ${browser}"
+
+                    if (module == 'all') {
+                        bat "npx playwright test --project=${browser}"
+                    } else {
+                        bat "npx playwright test tests/${module}/ --project=${browser}"
+                    }
+                }
             }
         }
+    }
 
-        stage('Publish Report') {
-            steps {
-                publishHTML([
-                    reportDir: 'playwright-report',
-                    reportFiles: 'index.html',
-                    reportName: 'Playwright Report'
-                ])
-            }
+    post {
+        always {
+            publishHTML([
+                allowMissing         : true,
+                alwaysLinkToLastBuild: true,
+                keepAll              : true,
+                reportDir            : 'playwright-report',
+                reportFiles          : 'index.html',
+                reportName           : "Playwright Report - ${params.MODULE}"
+            ])
+        }
+        success {
+            echo "✅ Tests PASSED for module: ${params.MODULE}"
+        }
+        failure {
+            echo "❌ Tests FAILED for module: ${params.MODULE}"
         }
     }
 }

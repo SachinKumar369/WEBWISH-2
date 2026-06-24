@@ -1,0 +1,53 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e56]:
+    - generic [ref=e63]:
+      - generic [ref=e67]:
+        - link "logo" [ref=e69] [cursor=pointer]:
+          - /url: index.html
+          - img "logo" [ref=e70]
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - button "Slide 1" [ref=e74] [cursor=pointer]
+            - button "Slide 2" [ref=e75] [cursor=pointer]
+            - button "Slide 3" [ref=e76] [cursor=pointer]
+          - paragraph [ref=e79]:
+            - img "..." [ref=e80]
+      - generic [ref=e83]:
+        - heading "Select a property to signin!" [level=4] [ref=e85]
+        - generic [ref=e89]:
+          - textbox "Text input with dropdown button" [ref=e90]:
+            - /placeholder: Search
+            - text: 󰅀
+          - generic [ref=e91]: 󰍉
+        - table [ref=e93]:
+          - rowgroup [ref=e94]:
+            - row "WDUBI WEBWISH DUBAI 5.0 󰍂" [ref=e95]:
+              - cell "WDUBI" [ref=e96]:
+                - generic [ref=e97]: WDUBI
+              - cell "WEBWISH DUBAI 5.0" [ref=e98]:
+                - generic [ref=e99]: WEBWISH DUBAI 5.0
+              - cell "󰍂" [ref=e100]:
+                - link "󰍂" [ref=e101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=e102]: 󰍂
+            - row "WEBIN WEBWISHINDIA 󰍂" [ref=e103]:
+              - cell "WEBIN" [ref=e104]:
+                - generic [ref=e105]: WEBIN
+              - cell "WEBWISHINDIA" [ref=e106]:
+                - generic [ref=e107]: WEBWISHINDIA
+              - cell "󰍂" [ref=e108]:
+                - link "󰍂" [ref=e109] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=e110]: 󰍂
+            - row "WEBWE Webwish Hotel 󰍂" [ref=e111]:
+              - cell "WEBWE" [ref=e112]:
+                - generic [ref=e113]: WEBWE
+              - cell "Webwish Hotel" [ref=e114]:
+                - generic [ref=e115]: Webwish Hotel
+              - cell "󰍂" [ref=e116]:
+                - link "󰍂" [ref=e117] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - generic [ref=e118]: 󰍂
+    - contentinfo [ref=e119]:
+      - paragraph [ref=e124]: © 2025 Prologic First India Pvt Ltd
+  - img

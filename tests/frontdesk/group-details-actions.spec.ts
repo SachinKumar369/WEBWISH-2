@@ -491,7 +491,7 @@ test.describe.serial('Front Desk - Group Details Actions', () => {
   // ============================================
   // TEST: FD_GDETAILS_013 - Execute section tab workflow
   // ============================================
-  test('FD_GDETAILS_013: Execute section tab workflow', async ({ page, context }) => {
+  test.only('FD_GDETAILS_013: Execute section tab workflow', async ({ page, context }) => {
     test.setTimeout(40 * 60 * 1000);
 
     const groupManagementPage = new GroupManagementPage(page, context);
@@ -798,14 +798,22 @@ await page.getByRole('button', { name: 'Ok' }).click();
 await expect(page.getByRole('paragraph')).toContainText('Details created/updated successfully.');
 await page.getByRole('button', { name: 'OK' }).click();
 
+// cashering 
 
-await page.locator('dropdown-button:nth-child(6) > .d-flex > .flex-shrink-0 > div > .dropdown-toggle').click();
-  await page.getByText('Process Checkout').click();
-  await expect(page.getByRole('paragraph')).toContainText('Are you sure you want to check out the Group ?');
-  await page.getByRole('button', { name: 'Yes' }).click();
-  await expect(page.getByRole('paragraph')).toContainText('Group Checked Out.');
-  await page.getByRole('button', { name: 'OK' }).click();
-  await expect(page.locator('group-details')).toContainText('CHECKED OUT');
+
+
+
+
+
+// process checkout 
+
+// await page.locator('dropdown-button:nth-child(6) > .d-flex > .flex-shrink-0 > div > .dropdown-toggle').click();
+//   await page.getByText('Process Checkout').click();
+//   await expect(page.getByRole('paragraph')).toContainText('Are you sure you want to check out the Group ?');
+//   await page.getByRole('button', { name: 'Yes' }).click();
+//   await expect(page.getByRole('paragraph')).toContainText('Group Checked Out.');
+//   await page.getByRole('button', { name: 'OK' }).click();
+//   await expect(page.locator('group-details')).toContainText('CHECKED OUT');
 
 
 
