@@ -28,12 +28,18 @@ pipeline {
 
     stages {
 
+        // stage('Checkout Code') {
+        //     steps {
+        //              git branch: 'main',
+        //                'https://github.com/SachinKumar369/WEBWISH-2'
+        //     }
+        // }
+
         stage('Checkout Code') {
-            steps {
-                     git branch: 'main',
-                       'https://github.com/SachinKumar369/WEBWISH-2'
-            }
-        }
+    steps {
+        echo 'Source code already checked out by Jenkins'
+    }
+}
 
         stage('Install Dependencies') {
             steps {
