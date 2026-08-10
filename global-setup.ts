@@ -1,4 +1,4 @@
-import { chromium, FullConfig } from '@playwright/test';
+import { chromium, FullConfig } from 'playwright';
 import { LoginPage } from './src/pages/LoginPage';
 import { testDataManager } from './src/utils/TestDataManager';
 
