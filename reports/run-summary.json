@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-24T09:32:11.863Z",
-  "runStatus": "failed",
-  "totalDurationMs": 85211,
-  "totalTests": 1,
+  "timestamp": "2026-08-03T17:40:10.047Z",
+  "runStatus": "passed",
+  "totalDurationMs": 100,
+  "totalTests": 0,
   "passed": 0,
-  "failed": 1,
+  "failed": 0,
   "skipped": 0,
   "timedOut": 0,
   "interrupted": 0,
@@ -18,40 +18,6 @@
     "junit": "test-results/junit.xml",
     "json": "test-results/test-results.json"
   },
-  "failedTests": [
-    {
-      "title": "FD_GDETAILS_013: Execute section tab workflow",
-      "fullTitle": " > chromium > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_013: Execute section tab workflow",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "chromium",
-      "status": "failed",
-      "expectedStatus": "passed",
-      "durationMs": 74985,
-      "retry": 0,
-      "error": "TimeoutError: locator.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('ng-select').filter({ hasText: '--select-- P Pending C' }).getByRole('textbox')\u001b[22m\n",
-      "attachments": [
-        "E:\\Automation Project\\WebWish 2\\test-results\\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\\test-failed-1.png",
-        "E:\\Automation Project\\WebWish 2\\test-results\\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\\video.webm",
-        "E:\\Automation Project\\WebWish 2\\test-results\\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\\error-context.md"
-      ]
-    }
-  ],
-  "tests": [
-    {
-      "title": "FD_GDETAILS_013: Execute section tab workflow",
-      "fullTitle": " > chromium > frontdesk\\group-details-actions.spec.ts > Front Desk - Group Details Actions > FD_GDETAILS_013: Execute section tab workflow",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\frontdesk\\group-details-actions.spec.ts",
-      "project": "chromium",
-      "status": "failed",
-      "expectedStatus": "passed",
-      "durationMs": 74985,
-      "retry": 0,
-      "error": "TimeoutError: locator.fill: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('ng-select').filter({ hasText: '--select-- P Pending C' }).getByRole('textbox')\u001b[22m\n",
-      "attachments": [
-        "E:\\Automation Project\\WebWish 2\\test-results\\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\\test-failed-1.png",
-        "E:\\Automation Project\\WebWish 2\\test-results\\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\\video.webm",
-        "E:\\Automation Project\\WebWish 2\\test-results\\frontdesk-group-details-ac-b53f6-xecute-section-tab-workflow-chromium\\error-context.md"
-      ]
-    }
-  ]
+  "failedTests": [],
+  "tests": []
 }

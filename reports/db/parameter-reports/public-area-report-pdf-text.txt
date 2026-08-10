@@ -1,9 +1,17 @@
 Type Description Active Created By Created On Modified By Modified On
 1111 :\"';/Sasa ü SACH 26/06/2025 HIMANSHU 26/06/2025
-A347 Automation Saved Description !
+A191 Automation Saved Description !
 @#$%%^&*(*&$&$&$&$&
 $&#*@(#(#*$
-ü SACH 29/06/2025
+ü SACH 30/06/2025
+A367 Automation !@#$%^&*&^$#@#$
+%^&*()(*&^%$#@#$%^&*(*&^%
+$#$%^&*(*
+ü SACH 30/06/2025
+A399 Automation !@#$%^&*&^$#@#$
+%^&*()(*&^%$#@#$%^&*(*&^%
+$#$%^&*(*
+ü SACH 30/06/2025
 A468 Automation Saved Description !
 @#$%%^&*(*&$&$&$&$&
 $&#*@(#(#*$
@@ -30,6 +38,21 @@ $#$%^&*(*
 A689 AUTOMATION PUBLIC AREA
 A689
 ü SACH 26/06/2025
+A731 AUTOMATION PUBLIC AREA
+A731
+ü SACH 30/06/2025
+A772 Automation
+Adjflakdjflajdlj3o4375984508340
+984509809485098405
+ü SACH 30/06/2025
+A775 Automation
+Adjflakdjflajdlj3o4375984508340
+984509809485098405
+ü SACH 30/06/2025
+A830 Automation Saved Description !
+@#$%%^&*(*&$&$&$&$&
+$&#*@(#(#*$
+ü SACH 30/06/2025
 A869 AUTOMATION PUBLIC AREA
 A869
 ü SACH 28/06/2025
@@ -55,6 +78,11 @@ LOC01 Banquet ü SYSTEM_USER 06/05/2025
 LOC02 Corridor ü SYSTEM_USER 06/05/2025
 LOC03 Health center ü SYSTEM_USER 06/05/2025
 LOC04 Lift ü SYSTEM_USER 06/05/2025
+WISH PMS : Printed on : 03/08/2026at10:05(S) 10:05(L) Business date : 01/07/2025 Page : 1 of 2
+Webwish Hotel
+
+-- 1 of 2 --
+
 LOC05 Lobby ü SYSTEM_USER 06/05/2025
 LOC06 Outside lawn ü SYSTEM_USER 06/05/2025
 LOC07 Parking ü SYSTEM_USER 06/05/2025
@@ -63,12 +91,9 @@ LOC09 Reception ü SYSTEM_USER 06/05/2025
 LOC10 Restaurant ü SYSTEM_USER 06/05/2025
 LOC11 Roof top ü SYSTEM_USER 06/05/2025
 LOC12 Spa ü SYSTEM_USER 06/05/2025
-WISH PMS : CM00 Printed on : 16/06/2026at12:26(S) 12:26(L) Business date : 29/06/2025 Page : 1 of 2
-Webwish Hotel
-Public Area
-
--- 1 of 2 --
-
+P181 AUTOMATION PUBLIC AREA
+P181
+ü SACH 30/06/2025
 P193 AUTOMATION PUBLIC AREA
 P193
 ü SACH 29/06/2025
@@ -81,9 +106,8 @@ P853
 P924 AUTOMATION PUBLIC AREA
 P924
 û SACH 27/06/2025 SACH 28/06/2025
-WISH PMS : CM00 Printed on : 16/06/2026at12:26(S) 12:26(L) Business date : 29/06/2025 Page : 2 of 2
+WISH PMS : Printed on : 03/08/2026at10:05(S) 10:05(L) Business date : 01/07/2025 Page : 2 of 2
 Webwish Hotel
-Public Area
 
 -- 2 of 2 --
 

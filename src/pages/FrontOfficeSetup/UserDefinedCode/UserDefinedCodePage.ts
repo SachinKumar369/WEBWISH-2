@@ -7,7 +7,8 @@ export class UserDefinedCodesPage extends BaseCrudPage {
   private readonly parameterSetupLink = this.page.getByRole('link', { name: 'Parameter Setup' });
   private readonly userDefinedCodesLink = this.page.getByRole('link', { name: 'User Defined Codes' });
 
-  private readonly codeInput = this.page.getByRole('textbox', { name: 'Enter Code' });
+  //private readonly codeInput = this.page.getByRole('textbox', { name: 'Enter Code' }); 
+  private readonly codeInput = this.page.getByPlaceholder('Enter User Code');
   private readonly descriptionInput = this.page.getByRole('textbox', { name: 'Enter Description' });
 
   private readonly screenName: string;

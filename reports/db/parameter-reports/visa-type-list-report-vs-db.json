@@ -234,21 +234,21 @@
       "relevantValues": [
         {
           "column": "param_code",
-          "value": "V586"
+          "value": "V583"
         },
         {
           "column": "description",
-          "value": "AUTOMATION VISA V586"
+          "value": "AUTOMATION VISA V583"
         }
       ],
       "matchedValues": [
         {
           "column": "param_code",
-          "value": "V586"
+          "value": "V583"
         },
         {
           "column": "description",
-          "value": "AUTOMATION VISA V586"
+          "value": "AUTOMATION VISA V583"
         }
       ],
       "missingValues": [],

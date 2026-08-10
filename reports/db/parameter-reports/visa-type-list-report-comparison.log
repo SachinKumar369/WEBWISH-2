@@ -1,4 +1,4 @@
-Timestamp: 2026-06-16T06:58:19.105Z
+Timestamp: 2026-08-03T04:39:46.990Z
 Report: Parameter Reports - Visa Type List DB Validation
 
 Executed Query:
@@ -45,8 +45,8 @@ Comparison Details (DB vs PDF):
    matched: param_code=TRAN, description=TRANSIT VISA
    missing: none
 10. matched=true | matchedValueCount=2 | missingValueCount=0
-   relevant: param_code=V586, description=AUTOMATION VISA V586
-   matched: param_code=V586, description=AUTOMATION VISA V586
+   relevant: param_code=V583, description=AUTOMATION VISA V583
+   matched: param_code=V583, description=AUTOMATION VISA V583
    missing: none
 
 PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\visa-type-list-report-pdf-text.txt

@@ -8,9 +8,8 @@ EL Elevator ü ARCHANA 24/05/2025
 FD AUTOMATION ü SACH 26/06/2025
 LI NEAR LIFT ü ARCHANA 24/05/2025
 NS NO Smoking ü ARCHANA 24/05/2025
-WISH PMS : CM00 Printed on : 16/06/2026at12:26(S) 12:26(L) Business date : 29/06/2025 Page : 1 of 1
+WISH PMS : Printed on : 03/08/2026at10:06(S) 10:06(L) Business date : 01/07/2025 Page : 1 of 1
 Webwish Hotel
-Room Attribute
 
 -- 1 of 1 --
 

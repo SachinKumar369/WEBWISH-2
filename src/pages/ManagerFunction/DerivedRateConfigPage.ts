@@ -52,7 +52,7 @@ export class DerivedRateConfigPage extends BasePage {
 
     // Sections & Derived Rate Configuration
     this.sectionsButton = this.page.getByText('Sections');
-    this.derivedRateConfigLink = this.page.getByText('Drived Rate Configuration');
+    this.derivedRateConfigLink = this.page.getByText('Derived Rate Configuration');
 
     // Form buttons
     this.saveButton = this.page
@@ -312,7 +312,7 @@ export class DerivedRateConfigPage extends BasePage {
   // ──────────────────────────────────────────────────────────────
 
   /**
-   * Opens Sections → Drived Rate Configuration and applies the settings
+   * Opens Sections → Derived Rate Configuration and applies the settings
    * for the first round (Percent + Discount), then closes the All Occupancies modal.
    *
    * @param amount - The amount to fill in the textbox (e.g. "100")
@@ -320,9 +320,9 @@ export class DerivedRateConfigPage extends BasePage {
   async openDerivedRateConfigAndApplyDiscount(amount: string): Promise<void> {
     logger.info(`Opening Derived Rate Configuration and applying Discount with amount ${amount}`);
 
-    // Open Sections → Drived Rate Configuration
+    // Open Sections → Derived Rate Configuration
     await this.elementActions.click(this.sectionsButton, 'Sections button');
-    await this.elementActions.click(this.derivedRateConfigLink, 'Drived Rate Configuration link');
+    await this.elementActions.click(this.derivedRateConfigLink, 'Derived Rate Configuration link');
 
     // Fill the amount textbox
     const amountInput = this.page.getByRole('textbox').first();
@@ -368,7 +368,7 @@ export class DerivedRateConfigPage extends BasePage {
   }
 
   /**
-   * Opens Sections → Drived Rate Configuration and applies the settings
+   * Opens Sections → Derived Rate Configuration and applies the settings
    * for the second round (Percent + Add on), then saves.
    *
    * @param amount - The amount to fill in the textbox (e.g. "100")
@@ -376,9 +376,9 @@ export class DerivedRateConfigPage extends BasePage {
   async openDerivedRateConfigAndApplyAddOn(amount: string): Promise<void> {
     logger.info(`Opening Derived Rate Configuration and applying Add on with amount ${amount}`);
 
-    // Open Sections → Drived Rate Configuration
+    // Open Sections → Derived Rate Configuration
     await this.elementActions.click(this.sectionsButton, 'Sections button');
-    await this.elementActions.click(this.derivedRateConfigLink, 'Drived Rate Configuration link');
+    await this.elementActions.click(this.derivedRateConfigLink, 'Derived Rate Configuration link');
 
     // Fill the amount textbox
     const amountInput = this.page.getByRole('textbox').first();
@@ -437,25 +437,29 @@ export class DerivedRateConfigPage extends BasePage {
   async openRackRateFromDropdown(): Promise<void> {
     logger.info('Opening Rack Rate from rate-code dropdown');
 
-    // Click the first button in button-container (save/close current section)
+    // Step 1: Click Filter button to open the Rate Management side modal
     await this.page.locator('.button-container > button').first().click();
 
-    // Clear the rate-code dropdown using the clear button
-    await this.page.getByTitle('Clear all').nth(3).click();
+    // Step 2: Wait for the side modal to be visible
+    const sideModal = this.page.locator('ngb-modal-window.my-left-rounded-modal-popup');
+    await sideModal.waitFor({ state: 'visible', timeout: 10000 });
 
-    // Search for "rac" and select "Rack Rate"
-    await this.page.getByRole('combobox').first().click();
-    await this.page
-      .locator('ng-select')
-      .filter({ hasText: /--select--/ })
-      .first()
-      .getByRole('textbox')
-      .fill('rac');
-    await this.page.getByText('Rack Rate').click();
+    // Step 3: Inside the modal, find the Rate Type dropdown and clear it
+    const rateTypeSelect = sideModal.locator('ng-select').first();
+    const rateTypeClear = rateTypeSelect.locator('.ng-clear-wrapper');
+    await rateTypeClear.click({ timeout: 5000 });
 
-    // Apply to load Rack Rate grid
+    // Step 4: Click the Rate Type combobox to open it and type "rac" to search for Rack Rate
+    const rateTypeInput = rateTypeSelect.locator('input');
+    await rateTypeInput.click();
+    await rateTypeInput.fill('rac');
+
+    // Step 5: Select "Rack Rate" from the dropdown options
+    await this.page.getByText('Rack Rate', { exact: true }).click();
+
+    // Step 6: Click Apply to load Rack Rate grid
     await this.elementActions.click(
-      this.page.getByRole('button', { name: 'Apply' }),
+      sideModal.getByRole('button', { name: 'Apply' }),
       'Apply button to open Rack Rate',
     );
 

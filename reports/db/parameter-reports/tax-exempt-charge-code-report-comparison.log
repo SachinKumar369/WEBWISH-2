@@ -1,11 +1,11 @@
-Timestamp: 2026-06-16T06:57:57.931Z
+Timestamp: 2026-08-03T04:39:09.868Z
 Report: Parameter Reports - Tax Exempt Charge Code DB Validation
 
 Executed Query:
 select * from prm_tax_xmpt_charge_cd where property_id='webwe'
 
-Total DB Rows: 13
-Total Matched Rows: 13
+Total DB Rows: 14
+Total Matched Rows: 14
 
 Comparison Details (DB vs PDF):
 1. matched=true | matchedValueCount=2 | missingValueCount=0
@@ -57,6 +57,10 @@ Comparison Details (DB vs PDF):
    matched: tax_exempt_code=TA, charge_code=TXF2
    missing: none
 13. matched=true | matchedValueCount=2 | missingValueCount=0
+   relevant: tax_exempt_code=ASAS, charge_code=SVCH
+   matched: tax_exempt_code=ASAS, charge_code=SVCH
+   missing: none
+14. matched=true | matchedValueCount=2 | missingValueCount=0
    relevant: tax_exempt_code=TA, charge_code=TXF1
    matched: tax_exempt_code=TA, charge_code=TXF1
    missing: none

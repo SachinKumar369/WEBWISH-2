@@ -22,62 +22,58 @@ pipeline {
     }
 
     environment {
+        // 👇 UPDATE THIS PATH to your local project folder
+        PROJECT_DIR = 'E:\\Automation Project\\WebWish 2'
         PLAYWRIGHT_BROWSERS_PATH = 'C:\\playwright-browsers'
+        CI = 'true'
+        HEADED = 'false'
+        KEEP_BROWSER_OPEN = 'false'
+        MAXIMIZE_BROWSER = 'false'
     }
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                echo 'Source code already checked out by Jenkins'
-            }
-        }
-
-        stage('Install Dependencies') {
-            steps {
-                bat 'npm ci'
-            }
-        }
-
-        stage('Install Playwright Browsers') {
-            steps {
-                script {
-                    def browser = params.BROWSER
-                    def folderMap = [
-                        chromium : 'chromium-',
-                        firefox  : 'firefox-',
-                        webkit   : 'webkit-'
-                    ]
-                    def prefix = folderMap[browser]
-
-                    bat """
-                        IF NOT EXIST "C:\\playwright-browsers" (
-                            mkdir "C:\\playwright-browsers"
-                        )
-                        FOR /D %%d IN ("C:\\playwright-browsers\\${prefix}*") DO (
-                            echo ✅ Browser already cached at %%d, skipping install.
-                            EXIT /B 0
-                        )
-                        echo ⬇️ No cached browser found. Installing ${browser}...
-                        npx playwright install ${browser}
-                    """
-                }
-            }
-        }
-
         stage('Run Tests') {
             steps {
                 script {
-                    def module  = params.MODULE
-                    def browser = params.BROWSER
+                    // Work directly from local project folder
+                    dir("${env.PROJECT_DIR}") {
 
-                    echo "Running Module  : ${module}"
-                    echo "Running Browser : ${browser}"
+                        // Step 1: Install Dependencies
+                        echo '📦 Installing dependencies...'
+                        bat 'npm ci'
 
-                    if (module == 'all') {
-                        bat "npx playwright test --project=${browser}"
-                    } else {
-                        bat "npx playwright test tests/${module}/ --project=${browser}"
+                        // Step 2: Install Playwright Browser (with caching)
+                        def browser = params.BROWSER
+                        def folderMap = [
+                            chromium : 'chromium-',
+                            firefox  : 'firefox-',
+                            webkit   : 'webkit-'
+                        ]
+                        def prefix = folderMap[browser]
+
+                        bat """
+                            IF NOT EXIST "C:\\playwright-browsers" (
+                                mkdir "C:\\playwright-browsers"
+                            )
+                            FOR /D %%d IN ("C:\\playwright-browsers\\${prefix}*") DO (
+                                echo ✅ Browser already cached at %%d, skipping install.
+                                EXIT /B 0
+                            )
+                            echo ⬇️ No cached browser found. Installing ${browser}...
+                            npx playwright install ${browser}
+                        """
+
+                        // Step 3: Run Tests
+                        def module = params.MODULE
+                        echo "🧪 Running Module  : ${module}"
+                        echo "🌐 Running Browser : ${browser}"
+
+                        if (module == 'all') {
+                            bat "npx playwright test --project=${browser}"
+                        } else {
+                            bat "npx playwright test tests/${module}/ --project=${browser}"
+                        }
                     }
                 }
             }
@@ -86,14 +82,19 @@ pipeline {
 
     post {
         always {
-            publishHTML([
-                allowMissing         : true,
-                alwaysLinkToLastBuild: true,
-                keepAll              : true,
-                reportDir            : 'playwright-report',
-                reportFiles          : 'index.html',
-                reportName           : "Playwright Report - ${params.MODULE}"
-            ])
+            dir("${env.PROJECT_DIR}") {
+                // Publish Playwright HTML Report
+                publishHTML([
+                    allowMissing         : true,
+                    alwaysLinkToLastBuild: true,
+                    keepAll              : true,
+                    reportDir            : 'reports/html-report',
+                    reportFiles          : 'index.html',
+                    reportName           : "Playwright Report - ${params.MODULE}"
+                ])
+                // Publish JUnit results for Jenkins test trend
+                junit testResults: 'test-results/junit.xml', allowEmptyResults: true
+            }
         }
         success {
             echo "✅ Tests PASSED for module: ${params.MODULE}"

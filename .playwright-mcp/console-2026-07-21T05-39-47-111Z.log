@@ -1,0 +1,23 @@
+[ -442864ms] [WARNING] The specified value "2025-07-01 to 2025-07-02" does not conform to the required format, "yyyy-MM-dd". @ https://qc2webwish.prologicfirst.in/main.471124575974d2ae.js:8
+[ -433514ms] [LOG] {isAdd: true, data: Object, screen: , userRights: Object, QuadRate: 4} @ https://qc2webwish.prologicfirst.in/main.471124575974d2ae.js:0
+[ -432814ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'forEach')
+    at G.SaveRate [as eventHandler] (https://qc2webwish.prologicfirst.in/main.471124575974d2ae.js:1:2552033)
+    at G.NavigateToRM (https://qc2webwish.prologicfirst.in/main.471124575974d2ae.js:1:2526553)
+    at https://qc2webwish.prologicfirst.in/main.471124575974d2ae.js:1:2516684
+    at dD (https://qc2webwish.prologicfirst.in/main.471124575974d2ae.js:9:1141262)
+    at ke (https://qc2webwish.prologicfirst.in/main.471124575974d2ae.js:9:1141439)
+    at HTMLElement.<anonymous> (https://qc2webwish.prologicfirst.in/main.471124575974d2ae.js:9:1263249)
+    at I.invokeTask (https://qc2webwish.prologicfirst.in/polyfills.ad4bdea60f64b0c1.js:1:16756)
+    at Object.onInvokeTask (https://qc2webwish.prologicfirst.in/main.471124575974d2ae.js:9:1111789)
+    at I.invokeTask (https://qc2webwish.prologicfirst.in/polyfills.ad4bdea60f64b0c1.js:1:16677)
+    at z.runTask (https://qc2webwish.prologicfirst.in/polyfills.ad4bdea60f64b0c1.js:1:12122) @ https://qc2webwish.prologicfirst.in/main.471124575974d2ae.js:8
+[ -432602ms] [ERROR] ERROR TypeError: Cannot read properties of null (reading 'scrollIntoView')
+    at https://qc2webwish.prologicfirst.in/main.471124575974d2ae.js:1:402863
+    at U.<computed> (https://qc2webwish.prologicfirst.in/polyfills.ad4bdea60f64b0c1.js:1:37793)
+    at I.invokeTask (https://qc2webwish.prologicfirst.in/polyfills.ad4bdea60f64b0c1.js:1:16756)
+    at Object.onInvokeTask (https://qc2webwish.prologicfirst.in/main.471124575974d2ae.js:9:1111789)
+    at I.invokeTask (https://qc2webwish.prologicfirst.in/polyfills.ad4bdea60f64b0c1.js:1:16677)
+    at z.runTask (https://qc2webwish.prologicfirst.in/polyfills.ad4bdea60f64b0c1.js:1:12122)
+    at invokeTask (https://qc2webwish.prologicfirst.in/polyfills.ad4bdea60f64b0c1.js:1:17810)
+    at invoke (https://qc2webwish.prologicfirst.in/polyfills.ad4bdea60f64b0c1.js:1:17711)
+    at y.args.<computed> (https://qc2webwish.prologicfirst.in/polyfills.ad4bdea60f64b0c1.js:1:37505) @ https://qc2webwish.prologicfirst.in/main.471124575974d2ae.js:8
