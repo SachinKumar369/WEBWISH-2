@@ -6,74 +6,93 @@ pipeline {
             name: 'MODULE',
             choices: [
                 'all',
+                'Login',
+                'GlobalSearch',
+                'FrontOfficeSetup',
+                'ManagerFunction',
+                'Marketing',
+                'Reports',
+                'SystemConfig',
                 'frontdesk',
-                'accounting',
-                'housekeeping',
-                'noshow',
-                'reservations'
+                'database'
             ],
-            description: 'Select the module to run'
+            description: 'Select the test module to run'
         )
         choice(
             name: 'BROWSER',
-            choices: ['chromium', 'firefox', 'webkit'],
+            choices: ['chromium', 'firefox', 'webkit', 'msedge'],
             description: 'Select the browser'
+        )
+        choice(
+            name: 'HEADLESS',
+            choices: ['true', 'false'],
+            description: 'Run in headless mode? (false = headed)'
         )
     }
 
     environment {
-        // 👇 UPDATE THIS PATH to your local project folder
-        PROJECT_DIR = 'E:\\Automation Project\\WebWish 2'
         PLAYWRIGHT_BROWSERS_PATH = 'C:\\playwright-browsers'
         CI = 'true'
-        HEADED = 'false'
+        HEADED = "${params.HEADLESS == 'false' ? 'true' : 'false'}"
         KEEP_BROWSER_OPEN = 'false'
         MAXIMIZE_BROWSER = 'false'
     }
 
     stages {
 
+        stage('Install Dependencies') {
+            steps {
+                script {
+                    def module = params.MODULE
+                    def browser = params.BROWSER
+                    def isHeaded = params.HEADLESS == 'false'
+
+                    echo "Module : ${module}"
+                    echo "Browser: ${browser}"
+                    echo "Headed : ${isHeaded}"
+
+                    // Step 1: Install npm dependencies
+                    echo 'Installing npm dependencies...'
+                    bat 'npm install'
+
+                    // Step 2: Install Playwright browser (with caching)
+                    def folderMap = [
+                        chromium : 'chromium-',
+                        firefox  : 'firefox-',
+                        webkit   : 'webkit-',
+                        msedge   : 'msedge-'
+                    ]
+                    def prefix = folderMap[browser]
+
+                    bat """
+                        IF NOT EXIST "C:\\playwright-browsers" (
+                            mkdir "C:\\playwright-browsers"
+                        )
+                        FOR /D %%d IN ("C:\\playwright-browsers\\${prefix}*") DO (
+                            echo Browser already cached at %%d, skipping install.
+                            EXIT /B 0
+                        )
+                        echo Installing ${browser}...
+                        npx playwright install ${browser}
+                    """
+                }
+            }
+        }
+
         stage('Run Tests') {
             steps {
                 script {
-                    // Work directly from local project folder
-                    dir("${env.PROJECT_DIR}") {
+                    def module = params.MODULE
+                    def browser = params.BROWSER
+                    def isHeaded = params.HEADLESS == 'false'
 
-                        // Step 1: Install Dependencies
-                        echo '📦 Installing dependencies...'
-                        bat 'npm ci'
+                    def testPath = (module == 'all') ? '' : "tests/${module}/"
+                    def headedFlag = isHeaded ? '--headed' : ''
 
-                        // Step 2: Install Playwright Browser (with caching)
-                        def browser = params.BROWSER
-                        def folderMap = [
-                            chromium : 'chromium-',
-                            firefox  : 'firefox-',
-                            webkit   : 'webkit-'
-                        ]
-                        def prefix = folderMap[browser]
-
-                        bat """
-                            IF NOT EXIST "C:\\playwright-browsers" (
-                                mkdir "C:\\playwright-browsers"
-                            )
-                            FOR /D %%d IN ("C:\\playwright-browsers\\${prefix}*") DO (
-                                echo ✅ Browser already cached at %%d, skipping install.
-                                EXIT /B 0
-                            )
-                            echo ⬇️ No cached browser found. Installing ${browser}...
-                            npx playwright install ${browser}
-                        """
-
-                        // Step 3: Run Tests
-                        def module = params.MODULE
-                        echo "🧪 Running Module  : ${module}"
-                        echo "🌐 Running Browser : ${browser}"
-
-                        if (module == 'all') {
-                            bat "npx playwright test --project=${browser}"
-                        } else {
-                            bat "npx playwright test tests/${module}/ --project=${browser}"
-                        }
+                    if (headedFlag) {
+                        bat "npx playwright test ${testPath} --project=${browser} ${headedFlag}"
+                    } else {
+                        bat "npx playwright test ${testPath} --project=${browser}"
                     }
                 }
             }
@@ -82,25 +101,23 @@ pipeline {
 
     post {
         always {
-            dir("${env.PROJECT_DIR}") {
-                // Publish Playwright HTML Report
-                publishHTML([
-                    allowMissing         : true,
-                    alwaysLinkToLastBuild: true,
-                    keepAll              : true,
-                    reportDir            : 'reports/html-report',
-                    reportFiles          : 'index.html',
-                    reportName           : "Playwright Report - ${params.MODULE}"
-                ])
-                // Publish JUnit results for Jenkins test trend
-                junit testResults: 'test-results/junit.xml', allowEmptyResults: true
-            }
+            // Publish Playwright HTML Report
+            publishHTML([
+                allowMissing         : true,
+                alwaysLinkToLastBuild: true,
+                keepAll              : true,
+                reportDir            : 'reports/html-report',
+                reportFiles          : 'index.html',
+                reportName           : "Playwright Report - ${params.MODULE}"
+            ])
+            // Publish JUnit results for Jenkins test trend
+            junit testResults: 'test-results/junit.xml', allowEmptyResults: true
         }
         success {
-            echo "✅ Tests PASSED for module: ${params.MODULE}"
+            echo "Tests PASSED - Module: ${params.MODULE}, Browser: ${params.BROWSER}"
         }
         failure {
-            echo "❌ Tests FAILED for module: ${params.MODULE}"
+            echo "Tests FAILED - Module: ${params.MODULE}, Browser: ${params.BROWSER}"
         }
     }
 }
