@@ -1,0 +1,34 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e11]:
+      - generic [ref=e15]:
+        - link "logo" [ref=e17] [cursor=pointer]:
+          - /url: index.html
+          - img "logo" [ref=e18]
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - button "Slide 1" [ref=e22] [cursor=pointer]
+            - button "Slide 2" [ref=e23] [cursor=pointer]
+            - button "Slide 3" [ref=e24] [cursor=pointer]
+          - paragraph [ref=e27]:
+            - img "..." [ref=e28]
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - heading "Welcome!" [level=4] [ref=e33]
+          - paragraph [ref=e34]: Please login to your account
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]: User Id
+            - textbox "Enter username." [ref=e38]
+          - generic [ref=e39]:
+            - generic [ref=e40]: Password
+            - generic [ref=e42]:
+              - textbox "Enter password" [ref=e43]
+              - generic [ref=e45] [cursor=pointer]: 
+          - generic [ref=e46]:
+            - button "Log in" [ref=e47] [cursor=pointer]
+            - link "Forgot password?" [ref=e48] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - contentinfo [ref=e49]:
+      - paragraph [ref=e54]: © 2025 Prologic First India Pvt Ltd
+  - img

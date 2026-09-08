@@ -1,0 +1,196 @@
+- generic [ref=f3e7]:
+  - generic [ref=f3e8]:
+    - banner [ref=f3e9]:
+      - generic [ref=f3e11]:
+        - generic [ref=f3e12]:
+          - link [ref=f3e14] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=f3e18]:
+            - textbox "Search..." [ref=f3e672]: 󰅀
+            - generic [ref=f3e20]: 󰍉
+        - heading "WEBWISHQCMI" [level=5] [ref=f3e673]
+        - generic [ref=f3e23]:
+          - button "󰅒" [ref=f3e674] [cursor=pointer]
+          - button "" [ref=f3e675] [cursor=pointer]
+          - button "" [ref=f3e676] [cursor=pointer]
+          - button " 1" [ref=f3e677] [cursor=pointer]:
+            - generic "Change Shift" [ref=f3e678]: 
+            - generic [ref=f3e36]: "1"
+          - generic [ref=f3e37]:
+            - button "" [ref=f3e679] [cursor=pointer]:
+              - generic "Notifications" [ref=f3e680]: 
+            - text:  
+          - generic [ref=f3e40]:
+            - button [ref=f3e681] [cursor=pointer]:
+              - img "Header Avatar" [ref=f3e682]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button "" [ref=f3e683] [cursor=pointer]
+    - generic [ref=f3e48]:
+      - text: 
+      - region "scrollable content" [ref=f3e684]:
+        - list [ref=f3e153]:
+          - listitem
+          - listitem [ref=f3e154]:
+            - link "" [ref=f3e685] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e158]:
+            - link "" [ref=f3e686] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e162]:
+            - link "" [ref=f3e687] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e166]:
+            - link "󰃢" [ref=f3e688] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e170]:
+            - link "" [ref=f3e689] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e173]:
+            - link "" [ref=f3e690] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e177]:
+            - link "" [ref=f3e691] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e181]:
+            - link "" [ref=f3e692] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e185]:
+            - link "" [ref=f3e693] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e189]:
+            - link "" [ref=f3e694] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem
+          - listitem: 
+          - listitem: 
+          - listitem [ref=f3e193]:
+            - link "" [ref=f3e695] [cursor=pointer]:
+              - /url: javascript:void(0);
+    - generic [ref=f3e50]:
+      - generic [ref=f3e204]:
+        - generic [ref=f3e208]:
+          - heading "Night Audit" [level=3] [ref=f3e696]
+          - generic [ref=f3e210]:
+            - generic:
+              - list
+            - generic [ref=f3e211]:
+              - button "󰑐" [ref=f3e697] [cursor=pointer]
+              - button "󰇙" [ref=f3e698] [cursor=pointer]
+        - generic [ref=f3e223]:
+          - 'heading "Audit Date: 24/07/2026" [level=5] [ref=f3e699]'
+          - 'heading "Business Date: 25/07/2026" [level=5] [ref=f3e756]'
+          - 'heading "System Date: 07/09/2026" [level=5] [ref=f3e701]'
+          - group "Basic radio toggle button group" [ref=f3e702]:
+            - radio "Change Business Date" [disabled]
+            - generic: Change Business Date
+            - radio "Change Audit Date" [checked]
+            - generic [ref=f3e239] [cursor=pointer]: Change Audit Date
+        - generic [ref=f3e241]:
+          - generic [ref=f3e248]:
+            - generic [ref=f3e252]:
+              - heading "Purge Special A/c From Co Ledger" [level=6] [ref=f3e874]
+              - button "Next" [disabled]:
+                - text: Next
+                - generic: 
+            - generic:
+              - generic:
+                - paragraph
+                - heading [level=6]
+                - list
+          - list [ref=f3e273]:
+            - listitem [ref=f3e767]:
+              - generic [aria-hidden] [ref=f3e866]: ✓
+              - generic [ref=f3e770]:
+                - generic [ref=f3e771]: Print Night Audit Reports
+                - list [ref=f3e772]:
+                  - listitem [ref=f3e773]:
+                    - generic [ref=f3e774] [cursor=pointer]:
+                      - checkbox "Print Reports(Before MIS)" [checked] [disabled] [ref=f3e775]
+                      - generic [ref=f3e776]: Print Reports(Before MIS)
+            - listitem [ref=f3e777]:
+              - generic [aria-hidden] [ref=f3e869]: ✓
+              - generic [ref=f3e780]:
+                - generic [ref=f3e781]: Statistics Update and Others
+                - list [ref=f3e782]:
+                  - listitem [ref=f3e783]:
+                    - generic [ref=f3e784] [cursor=pointer]:
+                      - checkbox "MIS Update" [checked] [disabled] [ref=f3e785]
+                      - generic [ref=f3e786]: MIS Update
+            - listitem [ref=f3e787]:
+              - generic [aria-hidden] [ref=f3e873]: ✓
+              - generic [ref=f3e790]:
+                - generic [ref=f3e791]: Transfers
+                - list [ref=f3e792]:
+                  - listitem [ref=f3e793]:
+                    - generic [ref=f3e794] [cursor=pointer]:
+                      - checkbox "Transfer To Profiles" [checked] [disabled] [ref=f3e795]
+                      - generic [ref=f3e796]: Transfer To Profiles
+                  - listitem [ref=f3e797]:
+                    - generic [ref=f3e798] [cursor=pointer]:
+                      - checkbox "Transfer To A/R" [checked] [disabled] [ref=f3e799]
+                      - generic [ref=f3e800]: Transfer To A/R
+                  - listitem [ref=f3e801]:
+                    - generic [ref=f3e802] [cursor=pointer]:
+                      - checkbox "Transfer Checked-Out Guests" [checked] [disabled] [ref=f3e803]
+                      - generic [ref=f3e804]: Transfer Checked-Out Guests
+                  - listitem [ref=f3e805]:
+                    - generic [ref=f3e806] [cursor=pointer]:
+                      - checkbox "Print Reports(After Transfers)" [checked] [disabled] [ref=f3e807]
+                      - generic [ref=f3e808]: Print Reports(After Transfers)
+            - listitem [ref=f3e809]:
+              - status [ref=f3e875]
+              - generic [ref=f3e812]:
+                - generic [ref=f3e813]: Purge Data
+                - list [ref=f3e814]:
+                  - listitem [ref=f3e815]:
+                    - generic [ref=f3e816] [cursor=pointer]:
+                      - checkbox "Purge Logs--Audit Trail" [checked] [disabled] [ref=f3e817]
+                      - generic [ref=f3e818]: Purge Logs--Audit Trail
+                  - listitem [ref=f3e819]:
+                    - generic [ref=f3e820] [cursor=pointer]:
+                      - checkbox "Purge Chkout Group Master/Members" [checked] [disabled] [ref=f3e821]
+                      - generic [ref=f3e822]: Purge Chkout Group Master/Members
+                  - listitem [ref=f3e823]:
+                    - generic [ref=f3e824] [cursor=pointer]:
+                      - checkbox "Purge Checkedout Guests" [checked] [disabled] [ref=f3e825]
+                      - generic [ref=f3e826]: Purge Checkedout Guests
+                  - listitem [ref=f3e827]:
+                    - generic [ref=f3e828] [cursor=pointer]:
+                      - checkbox "Purge FX Ledger" [checked] [disabled] [ref=f3e829]
+                      - generic [ref=f3e830]: Purge FX Ledger
+                  - listitem [ref=f3e831]:
+                    - generic [ref=f3e832] [cursor=pointer]:
+                      - checkbox "Purge Guest Messages" [checked] [disabled] [ref=f3e833]
+                      - generic [ref=f3e834]: Purge Guest Messages
+                  - listitem [ref=f3e835]:
+                    - generic [ref=f3e836] [cursor=pointer]:
+                      - checkbox "Purge Lost And Found" [checked] [disabled] [ref=f3e837]
+                      - generic [ref=f3e838]: Purge Lost And Found
+                  - listitem [ref=f3e839]:
+                    - generic [ref=f3e840] [cursor=pointer]:
+                      - checkbox "Purge NS/CX Group Master" [checked] [disabled] [ref=f3e841]
+                      - generic [ref=f3e842]: Purge NS/CX Group Master
+                  - listitem [ref=f3e843]:
+                    - generic [ref=f3e844] [cursor=pointer]:
+                      - checkbox "Purge NS/CX Reservations (FIT)" [checked] [disabled] [ref=f3e845]
+                      - generic [ref=f3e846]: Purge NS/CX Reservations (FIT)
+                  - listitem [ref=f3e847]:
+                    - generic [ref=f3e848] [cursor=pointer]:
+                      - checkbox "Purge Room Status Changes" [checked] [disabled] [ref=f3e849]
+                      - generic [ref=f3e850]: Purge Room Status Changes
+                  - listitem [ref=f3e851]:
+                    - generic [ref=f3e852] [cursor=pointer]:
+                      - checkbox "Purge Special A/c From Co Ledger" [checked] [ref=f3e853]
+                      - generic [ref=f3e854]: Purge Special A/c From Co Ledger
+                  - listitem [ref=f3e855]:
+                    - generic [ref=f3e856] [cursor=pointer]:
+                      - checkbox "Purge Temp-ooo Transactions" [checked] [ref=f3e857]
+                      - generic [ref=f3e858]: Purge Temp-ooo Transactions
+            - listitem [ref=f3e859]:
+              - generic [ref=f3e861]: "5"
+              - generic [ref=f3e862]: Change Audit Date
+      - contentinfo [ref=f3e135]:
+        - generic [ref=f3e137]:
+          - 'heading "Property Id: WEBMI, User Id: Sachin Kumar, Shift: 1, Business Date: 25/07/2026" [level=6] [ref=f3e759]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=f3e723]
+  - generic: 󰅒

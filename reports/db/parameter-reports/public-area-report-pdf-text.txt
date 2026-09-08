@@ -78,7 +78,7 @@ LOC01 Banquet ü SYSTEM_USER 06/05/2025
 LOC02 Corridor ü SYSTEM_USER 06/05/2025
 LOC03 Health center ü SYSTEM_USER 06/05/2025
 LOC04 Lift ü SYSTEM_USER 06/05/2025
-WISH PMS : Printed on : 03/08/2026at10:05(S) 10:05(L) Business date : 01/07/2025 Page : 1 of 2
+WISH PMS : Printed on : 05/09/2026at16:07(S) 16:07(L) Business date : 01/07/2025 Page : 1 of 2
 Webwish Hotel
 
 -- 1 of 2 --
@@ -106,7 +106,7 @@ P853
 P924 AUTOMATION PUBLIC AREA
 P924
 û SACH 27/06/2025 SACH 28/06/2025
-WISH PMS : Printed on : 03/08/2026at10:05(S) 10:05(L) Business date : 01/07/2025 Page : 2 of 2
+WISH PMS : Printed on : 05/09/2026at16:07(S) 16:07(L) Business date : 01/07/2025 Page : 2 of 2
 Webwish Hotel
 
 -- 2 of 2 --

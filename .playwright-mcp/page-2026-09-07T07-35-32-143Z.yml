@@ -1,0 +1,212 @@
+- generic [ref=f3e1]:
+  - generic [ref=f3e7]:
+    - generic [ref=f3e8]:
+      - banner [ref=f3e9]:
+        - generic [ref=f3e11]:
+          - generic [ref=f3e12]:
+            - link [ref=f3e14] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=f3e18]:
+              - textbox [ref=f3e878]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=f3e20]: 󰍉
+          - heading [level=5] [ref=f3e879]: WEBWISHQCMI
+          - generic [ref=f3e23]:
+            - button [ref=f3e880] [cursor=pointer]:
+              - generic [ref=f3e26]: 󰅒
+            - button [ref=f3e881] [cursor=pointer]:
+              - generic [ref=f3e29]: 
+            - button [ref=f3e882] [cursor=pointer]:
+              - generic [ref=f3e32]: 
+            - button [ref=f3e883] [cursor=pointer]:
+              - generic [ref=f3e884]: 
+              - generic [ref=f3e36]: "1"
+            - generic [ref=f3e37]:
+              - button [ref=f3e885] [cursor=pointer]:
+                - generic [ref=f3e886]: 
+              - text:  
+            - generic [ref=f3e40]:
+              - button [ref=f3e887] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=f3e889] [cursor=pointer]:
+              - generic [ref=f3e46]: 
+      - generic [ref=f3e48]:
+        - text: 
+        - region [ref=f3e890]:
+          - list [ref=f3e153]:
+            - listitem [ref=f3e154]:
+              - link [ref=f3e891] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e157]: 
+            - listitem [ref=f3e158]:
+              - link [ref=f3e892] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e161]: 
+            - listitem [ref=f3e162]:
+              - link [ref=f3e893] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e165]: 
+            - listitem [ref=f3e166]:
+              - link [ref=f3e894] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e169]: 󰃢
+            - listitem [ref=f3e170]:
+              - link [ref=f3e895] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e172]: 
+            - listitem [ref=f3e173]:
+              - link [ref=f3e896] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e176]: 
+            - listitem [ref=f3e177]:
+              - link [ref=f3e897] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e180]: 
+            - listitem [ref=f3e181]:
+              - link [ref=f3e898] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e184]: 
+            - listitem [ref=f3e185]:
+              - link [ref=f3e899] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e188]: 
+            - listitem [ref=f3e189]:
+              - link [ref=f3e900] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e192]: 
+            - text:  
+            - listitem [ref=f3e193]:
+              - link [ref=f3e901] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e196]: 
+      - generic [ref=f3e50]:
+        - generic [ref=f3e204]:
+          - generic [ref=f3e208]:
+            - heading [level=3] [ref=f3e902]: Night Audit
+            - generic [ref=f3e211]:
+              - button [ref=f3e903] [cursor=pointer]:
+                - generic [ref=f3e214]: 󰑐
+              - button [ref=f3e904] [cursor=pointer]:
+                - generic [ref=f3e221]: 󰇙
+          - generic [ref=f3e223]:
+            - heading [level=5] [ref=f3e905]:
+              - generic [ref=f3e227]: "Audit Date: 24/07/2026"
+            - heading [level=5] [ref=f3e906]:
+              - generic [ref=f3e231]: "Business Date: 25/07/2026"
+            - heading [level=5] [ref=f3e907]:
+              - generic [ref=f3e235]: "System Date: 07/09/2026"
+            - group [ref=f3e908]:
+              - radio
+              - generic [ref=f3e238] [cursor=pointer]: Change Business Date
+              - radio [checked]
+              - generic [ref=f3e239] [cursor=pointer]: Change Audit Date
+          - generic [ref=f3e241]:
+            - generic [ref=f3e252]:
+              - heading [level=6] [ref=f3e909]: Change Audit Date
+              - button [disabled]:
+                - text: Next
+                - generic: 
+            - list [ref=f3e273]:
+              - listitem [ref=f3e767]:
+                - generic [aria-hidden] [ref=f3e866]: ✓
+                - generic [ref=f3e770]:
+                  - generic [ref=f3e771]: Print Night Audit Reports
+                  - list [ref=f3e772]:
+                    - listitem [ref=f3e773]:
+                      - generic [ref=f3e774] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e910]
+                        - generic [ref=f3e776]: Print Reports(Before MIS)
+              - listitem [ref=f3e777]:
+                - generic [aria-hidden] [ref=f3e869]: ✓
+                - generic [ref=f3e780]:
+                  - generic [ref=f3e781]: Statistics Update and Others
+                  - list [ref=f3e782]:
+                    - listitem [ref=f3e783]:
+                      - generic [ref=f3e784] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e911]
+                        - generic [ref=f3e786]: MIS Update
+              - listitem [ref=f3e787]:
+                - generic [aria-hidden] [ref=f3e873]: ✓
+                - generic [ref=f3e790]:
+                  - generic [ref=f3e791]: Transfers
+                  - list [ref=f3e792]:
+                    - listitem [ref=f3e793]:
+                      - generic [ref=f3e794] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e912]
+                        - generic [ref=f3e796]: Transfer To Profiles
+                    - listitem [ref=f3e797]:
+                      - generic [ref=f3e798] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e913]
+                        - generic [ref=f3e800]: Transfer To A/R
+                    - listitem [ref=f3e801]:
+                      - generic [ref=f3e802] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e914]
+                        - generic [ref=f3e804]: Transfer Checked-Out Guests
+                    - listitem [ref=f3e805]:
+                      - generic [ref=f3e806] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e915]
+                        - generic [ref=f3e808]: Print Reports(After Transfers)
+              - listitem [ref=f3e809]:
+                - generic [aria-hidden] [ref=f3e877]: ✓
+                - generic [ref=f3e812]:
+                  - generic [ref=f3e813]: Purge Data
+                  - list [ref=f3e814]:
+                    - listitem [ref=f3e815]:
+                      - generic [ref=f3e816] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e916]
+                        - generic [ref=f3e818]: Purge Logs--Audit Trail
+                    - listitem [ref=f3e819]:
+                      - generic [ref=f3e820] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e917]
+                        - generic [ref=f3e822]: Purge Chkout Group Master/Members
+                    - listitem [ref=f3e823]:
+                      - generic [ref=f3e824] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e918]
+                        - generic [ref=f3e826]: Purge Checkedout Guests
+                    - listitem [ref=f3e827]:
+                      - generic [ref=f3e828] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e919]
+                        - generic [ref=f3e830]: Purge FX Ledger
+                    - listitem [ref=f3e831]:
+                      - generic [ref=f3e832] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e920]
+                        - generic [ref=f3e834]: Purge Guest Messages
+                    - listitem [ref=f3e835]:
+                      - generic [ref=f3e836] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e921]
+                        - generic [ref=f3e838]: Purge Lost And Found
+                    - listitem [ref=f3e839]:
+                      - generic [ref=f3e840] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e922]
+                        - generic [ref=f3e842]: Purge NS/CX Group Master
+                    - listitem [ref=f3e843]:
+                      - generic [ref=f3e844] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e923]
+                        - generic [ref=f3e846]: Purge NS/CX Reservations (FIT)
+                    - listitem [ref=f3e847]:
+                      - generic [ref=f3e848] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e924]
+                        - generic [ref=f3e850]: Purge Room Status Changes
+                    - listitem [ref=f3e851]:
+                      - generic [ref=f3e852] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e925]
+                        - generic [ref=f3e854]: Purge Special A/c From Co Ledger
+                    - listitem [ref=f3e855]:
+                      - generic [ref=f3e856] [cursor=pointer]:
+                        - checkbox [checked] [disabled] [ref=f3e926]
+                        - generic [ref=f3e858]: Purge Temp-ooo Transactions
+              - listitem [ref=f3e859]:
+                - generic [aria-hidden] [ref=f3e927]: ✓
+                - generic [ref=f3e862]: Change Audit Date
+        - contentinfo [ref=f3e135]:
+          - generic [ref=f3e137]:
+            - heading [level=6] [ref=f3e928]: "Property Id: WEBMI, User Id: Sachin Kumar, Shift: 1, Business Date: 25/07/2026"
+            - heading [level=6] [ref=f3e929]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=f3e143]: 󰅒
+  - dialog [ref=f3e931]:
+    - generic [ref=f3e940]:
+      - heading [level=4]
+      - paragraph [ref=f3e941]: Night Audit Process Completed.
+    - text: "!"
+    - button "OK" [active] [ref=f3e943] [cursor=pointer]

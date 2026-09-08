@@ -1,0 +1,229 @@
+- generic [ref=e1]:
+  - generic [ref=e134]:
+    - generic [ref=e135]:
+      - banner [ref=e136]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - link [ref=e141] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e145]:
+              - textbox [ref=e1150]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=e147]: 󰍉
+          - heading [level=5] [ref=e1151]: WEBWISHQCMI
+          - generic [ref=e150]:
+            - button [ref=e1152] [cursor=pointer]:
+              - generic [ref=e153]: 󰅒
+            - button [ref=e1153] [cursor=pointer]:
+              - generic [ref=e156]: 
+            - button [ref=e1154] [cursor=pointer]:
+              - generic [ref=e159]: 
+            - button [ref=e1155] [cursor=pointer]:
+              - generic [ref=e1156]: 
+              - generic [ref=e163]: "1"
+            - generic [ref=e164]:
+              - button [ref=e1157] [cursor=pointer]:
+                - generic [ref=e1158]: 
+              - text:  
+            - generic [ref=e167]:
+              - button [ref=e1159] [cursor=pointer]:
+                - img [ref=e1160]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e1161] [cursor=pointer]:
+              - generic [ref=e174]: 
+      - generic [ref=e183]:
+        - text: 
+        - generic [ref=e185]:
+          - region [ref=e1162]:
+            - list [ref=e192]:
+              - listitem [ref=e388]:
+                - link [ref=e1163] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e391]: 
+                - text:     
+          - button [ref=e1164] [cursor=pointer]:
+            - generic [ref=e421]: 
+      - generic [ref=e237]:
+        - generic [ref=e955]:
+          - generic [ref=e959]:
+            - heading [level=3] [ref=e1165]: Cashiering
+            - generic [ref=e963]:
+              - button [ref=e1166] [cursor=pointer]:
+                - generic [ref=e967]: 󰡭
+              - button [ref=e1167] [cursor=pointer]:
+                - generic [ref=e971]: 󰈲
+              - button [ref=e1168] [cursor=pointer]:
+                - generic [ref=e975]: 󰑐
+              - button [ref=e1169] [cursor=pointer]:
+                - generic [ref=e981]: 󰇙
+          - generic [ref=e985]:
+            - generic [ref=e986]:
+              - generic [ref=e990]:
+                - generic [ref=e992]:
+                  - heading [level=5] [ref=e1170]: Mukesh Kumar
+                  - generic [ref=e999]:
+                    - heading [level=4] [ref=e1171]: CONFIRMED
+                    - heading [level=6] [ref=e1172]: "100000080"
+                - generic [ref=e1004]:
+                  - generic [ref=e1007]:
+                    - generic [ref=e1008]: Account Id
+                    - heading [level=6] [ref=e1173]: "100081260901"
+                  - generic [ref=e1012]:
+                    - generic [ref=e1013]: Arrival
+                    - heading [level=6] [ref=e1174]: 01/09/2026
+                  - generic [ref=e1017]:
+                    - generic [ref=e1018]: Departure
+                    - heading [level=6] [ref=e1175]: 03/09/2026
+                  - generic [ref=e1022]:
+                    - generic [ref=e1023]: Room Type
+                    - heading [level=6] [ref=e1176]: BEAC
+                  - generic [ref=e1027]:
+                    - generic [ref=e1028]: Room No
+                    - heading [level=6] [ref=e1177]: A169
+                  - generic [ref=e1032]:
+                    - generic [ref=e1033]: Currency
+                    - heading [level=6] [ref=e1178]: INR
+                  - generic [ref=e1037]:
+                    - generic [ref=e1038]: Rate Code
+                    - heading [level=6] [ref=e1179]: RACK
+                  - generic [ref=e1042]:
+                    - generic [ref=e1043]: System Rate
+                    - heading [level=6] [ref=e1180]: 6,000.00
+                  - generic [ref=e1047]:
+                    - generic [ref=e1048]: Agreed Rate
+                    - heading [level=6] [ref=e1181]: 6,000.00
+                  - generic [ref=e1052]:
+                    - generic [ref=e1053]: Guest Rate
+                    - heading [level=6] [ref=e1182]: 6,000.00
+                  - generic [ref=e1058]: Deposit Required
+                  - generic [ref=e1061]:
+                    - generic [ref=e1062]: Pay By
+                    - heading [level=6] [ref=e1183]: CASH
+                  - generic [ref=e1067]: Billing Inst
+              - generic [ref=e1071]:
+                - generic [ref=e1073]:
+                  - heading [level=5] [ref=e1184]: Folio Summary
+                  - generic [ref=e1082]:
+                    - generic [ref=e1083]:
+                      - radio [checked]
+                      - generic [ref=e1084] [cursor=pointer]: Charge Summary
+                    - generic [ref=e1085]:
+                      - radio
+                      - generic [ref=e1086] [cursor=pointer]: Date Summary
+                - generic [ref=e1090]:
+                  - heading [level=5] [ref=e1185]:
+                    - text: "Folio Total:"
+                    - generic [ref=e1092]: "0.00"
+                  - generic [ref=e1093]: (Contract folio = 0.00, Other Folios = 0.00 )
+                  - generic [ref=e1095]:
+                    - checkbox [ref=e1186] [cursor=pointer]
+                    - generic [ref=e1097] [cursor=pointer]: Show Billed Transactions
+            - generic [ref=e1098]:
+              - button [ref=e1187] [cursor=pointer]: Collect Payment
+              - generic [ref=e1103]:
+                - heading [level=5] [ref=e1188]: Bill Summary
+                - generic [ref=e1108]:
+                  - generic [ref=e1109]:
+                    - heading [level=6] [ref=e1189]: Due Amount
+                    - heading [level=5] [ref=e1190]: 13,440.00
+                  - table [ref=e1113]:
+                    - rowgroup [ref=e1114]:
+                      - heading [level=6] [ref=e1191]: "Future Postings:"
+                      - row [ref=e1192]:
+                        - cell [ref=e1193]: Beachsuite (1 Room)
+                        - cell [ref=e1194]:
+                          - heading [level=6] [ref=e1195]: 12,000.00
+                      - row [ref=e1196]:
+                        - cell [ref=e1197]:
+                          - generic [ref=e1123]: Tax 6 %
+                        - cell [ref=e1198]:
+                          - heading [level=6] [ref=e1199]: 1,440.00
+                      - row [ref=e1200]:
+                        - cell [ref=e1201]: Total
+                        - cell [ref=e1202]:
+                          - heading [level=6] [ref=e1203]: 13,440.00
+                      - row [ref=e1204]:
+                        - cell [ref=e1205]: Sub Total
+                        - cell [ref=e1206]:
+                          - heading [level=6] [ref=e1207]: 13,440.00
+                - generic [ref=e1135]:
+                  - generic [ref=e1136]:
+                    - heading [level=6] [ref=e1208]: Total
+                    - heading [level=5] [ref=e1209]: 13,440.00
+                  - generic [ref=e1140]:
+                    - heading [level=6] [ref=e1210]: Payment
+                    - heading [level=5] [ref=e1211]: "0.00"
+                  - generic [ref=e1144]:
+                    - heading [level=6] [ref=e1212]: Due Amount
+                    - heading [level=5] [ref=e1213]: 13,440.00
+        - contentinfo [ref=e334]:
+          - generic [ref=e336]:
+            - heading [level=6] [ref=e1214]: "Property Id: WEBMI, User Id: Sachin Kumar, Shift: 1, Business Date: 01/09/2026"
+            - heading [level=6] [ref=e1215]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e343]: 󰅒
+  - dialog [active] [ref=e1217]:
+    - document:
+      - generic [ref=e1220]:
+        - heading "󰧮 Collect Payment" [level=5] [ref=e1223]:
+          - generic [ref=e1225]: 󰧮
+          - text: Collect Payment
+        - generic [ref=e1230]:
+          - generic [ref=e1233]:
+            - generic [ref=e1234]:
+              - textbox "Search" [ref=e1235]
+              - generic [ref=e1236]: 󰍉
+            - generic [ref=e1237]:
+              - generic [ref=e1242] [cursor=pointer]:
+                - generic [ref=e1245]: A
+                - generic [ref=e1246]:
+                  - heading "Advance Credit" [level=6] [ref=e1247]:
+                    - generic [ref=e1248]: Advance Credit
+                  - generic [ref=e1250]: ADCR
+              - generic [ref=e1253] [cursor=pointer]:
+                - generic [ref=e1350]: 󰗠
+                - generic [ref=e1255]:
+                  - generic [ref=e1258]: C
+                  - generic [ref=e1259]:
+                    - heading "Cash Collection" [level=6] [ref=e1260]:
+                      - generic [ref=e1261]: Cash Collection
+                    - generic [ref=e1263]: CACO
+              - generic [ref=e1268] [cursor=pointer]:
+                - generic [ref=e1271]: A
+                - generic [ref=e1272]:
+                  - heading "Amex Card" [level=6] [ref=e1273]:
+                    - generic [ref=e1274]: Amex Card
+                  - generic [ref=e1276]: CCAX
+              - generic [ref=e1281] [cursor=pointer]:
+                - generic [ref=e1284]: D
+                - generic [ref=e1285]:
+                  - heading "Diners Card" [level=6] [ref=e1286]:
+                    - generic [ref=e1287]: Diners Card
+                  - generic [ref=e1289]: CCDN
+              - generic [ref=e1294] [cursor=pointer]:
+                - generic [ref=e1297]: M
+                - generic [ref=e1298]:
+                  - heading "Master Card" [level=6] [ref=e1299]:
+                    - generic [ref=e1300]: Master Card
+                  - generic [ref=e1302]: CCMS
+              - generic [ref=e1307] [cursor=pointer]:
+                - generic [ref=e1310]: V
+                - generic [ref=e1311]:
+                  - heading "Visa Card" [level=6] [ref=e1312]:
+                    - generic [ref=e1313]: Visa Card
+                  - generic [ref=e1315]: CCVI
+              - generic [ref=e1320] [cursor=pointer]:
+                - generic [ref=e1323]: O
+                - generic [ref=e1324]:
+                  - heading "Online Credit Charge" [level=6] [ref=e1325]:
+                    - generic [ref=e1326]: Online Credit Charge
+                  - generic [ref=e1328]: OLCR
+              - generic [ref=e1333] [cursor=pointer]:
+                - generic [ref=e1336]: R
+                - generic [ref=e1337]:
+                  - heading "Rupay card" [level=6] [ref=e1338]:
+                    - generic [ref=e1339]: Rupay card
+                  - generic [ref=e1341]: RUPI
+          - generic [ref=e1347]:
+            - button "Next" [ref=e1351] [cursor=pointer]
+            - button "Close" [ref=e1348] [cursor=pointer]

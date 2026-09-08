@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-08-03T17:40:10.047Z",
+  "timestamp": "2026-09-08T06:45:09.509Z",
   "runStatus": "passed",
-  "totalDurationMs": 100,
-  "totalTests": 0,
-  "passed": 0,
+  "totalDurationMs": 70908,
+  "totalTests": 3,
+  "passed": 3,
   "failed": 0,
   "skipped": 0,
   "timedOut": 0,
   "interrupted": 0,
   "retriedPassed": 0,
-  "passRate": 0,
+  "passRate": 100,
   "environment": "dev",
   "browser": "mixed",
   "reports": {
@@ -19,5 +19,39 @@
     "json": "test-results/test-results.json"
   },
   "failedTests": [],
-  "tests": []
+  "tests": [
+    {
+      "title": "TC_CASH_ADV_001: Post advance via cash collection for first available guest",
+      "fullTitle": " > chromium > Cashiering\\post-advance.spec.ts > Cashiering - Post Advance (Cash Collection) > TC_CASH_ADV_001: Post advance via cash collection for first available guest",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\Cashiering\\post-advance.spec.ts",
+      "project": "chromium",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 24795,
+      "retry": 0,
+      "attachments": []
+    },
+    {
+      "title": "TC_CASH_ADV_002: Post advance step-by-step with individual validations",
+      "fullTitle": " > chromium > Cashiering\\post-advance.spec.ts > Cashiering - Post Advance (Cash Collection) > TC_CASH_ADV_002: Post advance step-by-step with individual validations",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\Cashiering\\post-advance.spec.ts",
+      "project": "chromium",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 22966,
+      "retry": 0,
+      "attachments": []
+    },
+    {
+      "title": "TC_CASH_ADV_003: Post advance fails when reference field is empty",
+      "fullTitle": " > chromium > Cashiering\\post-advance.spec.ts > Cashiering - Post Advance (Cash Collection) > TC_CASH_ADV_003: Post advance fails when reference field is empty",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\Cashiering\\post-advance.spec.ts",
+      "project": "chromium",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 20768,
+      "retry": 0,
+      "attachments": []
+    }
+  ]
 }

@@ -17,7 +17,7 @@ FMLS PRK 0 ü û û 0 0 0
 STDD Standart Double 0 û û û 0 0 0
 STDT Standard Department 0 û û û 0 0 0
 SUIT SUITE CITY VIEW 0 û û û 0 0 0
-WISH PMS : Printed on :03/08/2026at10:07(S) 10:07(L) Business date : 01/07/2025 Page : 1 of 1
+WISH PMS : Printed on :05/09/2026at16:08(S) 16:08(L) Business date : 01/07/2025 Page : 1 of 1
 Webwish Hotel, GGM
 
 -- 1 of 1 --

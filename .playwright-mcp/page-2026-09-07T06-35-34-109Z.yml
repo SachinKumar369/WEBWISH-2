@@ -1,0 +1,138 @@
+- generic [ref=f1e134]:
+  - generic [ref=f1e135]:
+    - banner [ref=f1e136]:
+      - generic [ref=f1e138]:
+        - generic [ref=f1e139]:
+          - link [ref=f1e141] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=f1e145]:
+            - textbox "Search..." [ref=f1e146]: 󰅀
+            - generic [ref=f1e147]: 󰍉
+        - heading "WEBWISHQCMI" [level=5] [ref=f1e149]
+        - generic [ref=f1e150]:
+          - button "󰅒" [ref=f1e152] [cursor=pointer]
+          - button "" [ref=f1e155] [cursor=pointer]
+          - button "" [ref=f1e158] [cursor=pointer]
+          - button " 1" [ref=f1e161] [cursor=pointer]:
+            - generic "Change Shift" [ref=f1e162]: 
+            - generic [ref=f1e163]: "1"
+          - generic [ref=f1e164]:
+            - button "" [ref=f1e165] [cursor=pointer]:
+              - generic "Notifications" [ref=f1e166]: 
+            - text:  
+          - generic [ref=f1e167]:
+            - button [ref=f1e168] [cursor=pointer]:
+              - img "Header Avatar" [ref=f1e170]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button "" [ref=f1e172] [cursor=pointer]
+          - generic:
+            - alert [ref=f1e175]:
+              - generic [ref=f1e177]:
+                - text: Currently you are working in shift#
+                - generic [ref=f1e178]: "1"
+                - text: If that is not your shift, Please
+                - link "Change Your Shift" [ref=f1e179] [cursor=pointer]:
+                  - /url: javascript:void(0);
+            - alert [ref=f1e180]:
+              - generic [ref=f1e181]:
+                - generic [ref=f1e182]: 
+                - text: Night audit has been initialized but not completed.
+    - generic [ref=f1e183]:
+      - text: 
+      - region "scrollable content" [ref=f1e190]:
+        - list [ref=f1e192]:
+          - listitem
+          - listitem [ref=f1e193]:
+            - link "" [ref=f1e195] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e197]:
+            - link "" [ref=f1e199] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e201]:
+            - link "" [ref=f1e203] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e205]:
+            - link "󰃢" [ref=f1e207] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e209]:
+            - link "" [ref=f1e210] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e212]:
+            - link "" [ref=f1e214] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e216]:
+            - link "" [ref=f1e218] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e220]:
+            - link "" [ref=f1e222] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e224]:
+            - link "" [ref=f1e226] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e228]:
+            - link "" [ref=f1e230] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem
+          - listitem: 
+          - listitem: 
+          - listitem [ref=f1e232]:
+            - link "" [ref=f1e234] [cursor=pointer]:
+              - /url: javascript:void(0);
+    - generic [ref=f1e237]:
+      - generic [ref=f1e240]:
+        - generic [ref=f1e241]:
+          - heading "Welcome! Sachin Kumar." [level=2] [ref=f1e247]
+          - generic [ref=f1e251]:
+            - generic [ref=f1e252]:
+              - generic [ref=f1e255] [cursor=pointer]:
+                - generic [ref=f1e256]:
+                  - paragraph [ref=f1e258]: Current Occupancy
+                  - heading " + 0 %" [level=5] [ref=f1e260]:
+                    - generic [ref=f1e261]: 
+                    - text: + 0 %
+                - generic [ref=f1e262]:
+                  - heading "0.00%" [level=4] [ref=f1e264]
+                  - generic [ref=f1e265]: 
+              - generic [ref=f1e270] [cursor=pointer]:
+                - generic [ref=f1e271]:
+                  - paragraph [ref=f1e273]: Expected Arrivals
+                  - heading " + 0" [level=5] [ref=f1e275]:
+                    - generic [ref=f1e276]: 
+                    - text: + 0
+                - generic [ref=f1e277]:
+                  - heading "0" [level=4] [ref=f1e279]
+                  - generic [ref=f1e280]: 
+              - generic [ref=f1e285] [cursor=pointer]:
+                - generic [ref=f1e286]:
+                  - paragraph [ref=f1e288]: In-house
+                  - heading " + 0" [level=5] [ref=f1e290]:
+                    - generic [ref=f1e291]: 
+                    - text: + 0
+                - generic [ref=f1e292]:
+                  - heading "0" [level=4] [ref=f1e294]
+                  - generic [ref=f1e295]: 
+              - generic [ref=f1e300] [cursor=pointer]:
+                - generic [ref=f1e301]:
+                  - paragraph [ref=f1e303]: Expected Departures
+                  - heading " + 0" [level=5] [ref=f1e305]:
+                    - generic [ref=f1e306]: 
+                    - text: + 0
+                - generic [ref=f1e307]:
+                  - heading "0" [level=4] [ref=f1e309]
+                  - generic [ref=f1e310]: 
+            - generic [ref=f1e315]:
+              - textbox "search booking/booked thru/function" [ref=f1e316]:
+                - /placeholder: Search function/menu/guest/group/room...
+                - text: 󰅀
+              - button "Search 󱎸" [ref=f1e317] [cursor=pointer]:
+                - text: Search
+                - generic [ref=f1e318]: 󱎸
+            - generic [ref=f1e325] [cursor=pointer]:
+              - generic [ref=f1e326]: 
+              - paragraph [ref=f1e328]: Night Audit
+        - text:   󰒊
+      - contentinfo [ref=f1e329]:
+        - generic [ref=f1e331]:
+          - 'heading "Property Id: WEBMI, User Id: Sachin Kumar, Shift: 1, Business Date: 18/07/2026" [level=6] [ref=f1e333]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=f1e336]
+  - generic: 󰅒

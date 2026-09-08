@@ -368,7 +368,9 @@ export class GroupDetailsPage {
     //   .getByPlaceholder('Search...')
     //   .first();
 
-    const searchInput = this.page.locator('app-group-search').getByRole('textbox', { name: 'Search...' });
+    //const searchInput = this.page.locator('app-group-search').getByRole('textbox', { name: 'Search...' });
+const searchInput = this.page.locator('app-group-search input[placeholder="Search"]');
+
 
     await this.elementActions.click(searchInput, 'Group search input');
     await this.elementActions.sendKeys(searchInput, searchName, 'Group search input');
@@ -628,7 +630,7 @@ export class GroupDetailsPage {
    * Navigate to Bill Routing section
    */
   async navigateToBillRouting(): Promise<void> {
-    await this.navigateToSection('Bill Routing');
+    await this.navigateToSection('Group Bill Routing');
   }
 
   /**

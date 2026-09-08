@@ -1,0 +1,16 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e15]:
+      - link "logo" [ref=e17] [cursor=pointer]:
+        - /url: index.html
+        - img "logo" [ref=e18]
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - button "Slide 1" [ref=e22] [cursor=pointer]
+          - button "Slide 2" [ref=e23] [cursor=pointer]
+          - button "Slide 3" [ref=e24] [cursor=pointer]
+        - paragraph [ref=e27]:
+          - img "..." [ref=e28]
+    - contentinfo [ref=e30]:
+      - paragraph [ref=e35]: © 2025 Prologic First India Pvt Ltd
+  - img

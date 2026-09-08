@@ -27,7 +27,7 @@ export class GlobalSearchPage extends BasePage {
   }
 
   async openDashboard(): Promise<void> {
-    await this.page.goto('https://qc2webwish.prologicfirst.in/#/pms/dashboard');
+    await this.page.goto('https://qc2webwish.prologicfirst.in/Webwish_APP/pms/dashboard');
   }
 
   // ✅ Clean heading validation

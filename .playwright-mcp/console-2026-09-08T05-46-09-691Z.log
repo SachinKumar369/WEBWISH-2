@@ -1,0 +1,5 @@
+[      11ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/:0
+[    2944ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0
+[  287081ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/SystemSetup/FDSK_QWGST01:0
+[  377292ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://qc2.prologicfirst.in/Webwish_API/api/Notifications/Load_Notifications:0
+[ 1078228ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/SystemSetup/FOCN_QFCN37/GC/100081260901:0

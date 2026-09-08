@@ -1,0 +1,201 @@
+- generic [ref=e1]:
+  - generic [ref=e134]:
+    - generic [ref=e135]:
+      - banner [ref=e136]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - link [ref=e141] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e145]:
+              - textbox "Search..." [ref=e1489]: 󰅀
+              - generic [ref=e147]: 󰍉
+          - heading "WEBWISHQCMI" [level=5] [ref=e1490]
+          - generic [ref=e150]:
+            - button "󰅒" [ref=e1491] [cursor=pointer]:
+              - generic [ref=e153]: 󰅒
+            - button "" [ref=e1492] [cursor=pointer]:
+              - generic [ref=e156]: 
+            - button "" [ref=e1493] [cursor=pointer]:
+              - generic [ref=e159]: 
+            - button " 1" [ref=e1494] [cursor=pointer]:
+              - generic "Change Shift" [ref=e1495]: 
+              - generic [ref=e163]: "1"
+            - generic [ref=e164]:
+              - button "" [ref=e1496] [cursor=pointer]:
+                - generic "Notifications" [ref=e1497]: 
+              - text:  
+            - generic [ref=e167]:
+              - button "Header Avatar" [ref=e1498] [cursor=pointer]:
+                - img "Header Avatar" [ref=e1499]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button "" [ref=e1500] [cursor=pointer]:
+              - generic [ref=e174]: 
+      - generic [ref=e183]:
+        - text: 
+        - generic [ref=e185]:
+          - region "scrollable content" [ref=e1501]:
+            - list [ref=e192]:
+              - listitem
+              - listitem [ref=e388]:
+                - link "" [ref=e1502] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e391]: 
+                - text:     
+          - button "" [ref=e1503] [cursor=pointer]:
+            - generic [ref=e421]: 
+      - generic [ref=e237]:
+        - generic [ref=e955]:
+          - generic [ref=e959]:
+            - heading "Cashiering" [level=3] [ref=e1504]
+            - generic [ref=e961]:
+              - generic:
+                - list
+              - generic [ref=e963]:
+                - button "󰡭" [ref=e1505] [cursor=pointer]:
+                  - generic [ref=e967]: 󰡭
+                - button "󰈲" [ref=e1506] [cursor=pointer]:
+                  - generic [ref=e971]: 󰈲
+                - button "󰑐" [ref=e1507] [cursor=pointer]:
+                  - generic [ref=e975]: 󰑐
+                - button "󰇙" [ref=e1508] [cursor=pointer]:
+                  - generic [ref=e981]: 󰇙
+          - generic [ref=e985]:
+            - generic [ref=e986]:
+              - generic [ref=e990]:
+                - generic [ref=e992]:
+                  - heading "Mukesh Kumar" [level=5] [ref=e1509]
+                  - generic [ref=e999]:
+                    - heading "CONFIRMED" [level=4] [ref=e1510]
+                    - heading "100000080" [level=6] [ref=e1511]
+                - generic [ref=e1004]:
+                  - generic [ref=e1007]:
+                    - generic [ref=e1008]: Account Id
+                    - heading "100081260901" [level=6] [ref=e1512]
+                  - generic [ref=e1012]:
+                    - generic [ref=e1013]: Arrival
+                    - heading "01/09/2026" [level=6] [ref=e1513]
+                  - generic [ref=e1017]:
+                    - generic [ref=e1018]: Departure
+                    - heading "03/09/2026" [level=6] [ref=e1514]
+                  - generic [ref=e1022]:
+                    - generic [ref=e1023]: Room Type
+                    - heading "BEAC" [level=6] [ref=e1515]
+                  - generic [ref=e1027]:
+                    - generic [ref=e1028]: Room No
+                    - heading "A169" [level=6] [ref=e1516]
+                  - generic [ref=e1032]:
+                    - generic [ref=e1033]: Currency
+                    - heading "INR" [level=6] [ref=e1517]
+                  - generic [ref=e1037]:
+                    - generic [ref=e1038]: Rate Code
+                    - heading "RACK" [level=6] [ref=e1518]
+                  - generic [ref=e1042]:
+                    - generic [ref=e1043]: System Rate
+                    - heading "6,000.00" [level=6] [ref=e1519]
+                  - generic [ref=e1047]:
+                    - generic [ref=e1048]: Agreed Rate
+                    - heading "6,000.00" [level=6] [ref=e1520]
+                  - generic [ref=e1052]:
+                    - generic [ref=e1053]: Guest Rate
+                    - heading "6,000.00" [level=6] [ref=e1521]
+                  - generic [ref=e1057]:
+                    - generic [ref=e1058]: Deposit Required
+                    - heading [level=6]
+                  - generic [ref=e1061]:
+                    - generic [ref=e1062]: Pay By
+                    - heading "CASH" [level=6] [ref=e1522]
+                  - generic [ref=e1066]:
+                    - generic [ref=e1067]: Billing Inst
+                    - heading [level=6]
+              - generic [ref=e1071]:
+                - generic [ref=e1073]:
+                  - heading "Folio Summary" [level=5] [ref=e1523]
+                  - generic [ref=e1082]:
+                    - generic [ref=e1083]:
+                      - radio "Charge Summary" [checked]
+                      - generic [ref=e1084] [cursor=pointer]: Charge Summary
+                    - generic [ref=e1085]:
+                      - radio "Date Summary"
+                      - generic [ref=e1086] [cursor=pointer]: Date Summary
+                - generic [ref=e1089]:
+                  - generic [ref=e1090]:
+                    - 'heading "Folio Total: -1,000.00" [level=5] [ref=e1524]':
+                      - text: "Folio Total:"
+                      - generic [ref=e1092]: "-1,000.00"
+                    - generic [ref=e1093]: (Contract folio = 0.00, Other Folios = -1,000.00 )
+                    - generic [ref=e1095]:
+                      - checkbox "Show Billed Transactions" [ref=e1525] [cursor=pointer]
+                      - generic [ref=e1097] [cursor=pointer]: Show Billed Transactions
+                  - generic [ref=e1531]:
+                    - generic [ref=e1532]:
+                      - generic [ref=e1533]:
+                        - generic [ref=e1534]: 󱔗
+                        - text: Folio No 1
+                      - generic [ref=e1535]:
+                        - button "󰐪" [ref=e1537] [cursor=pointer]:
+                          - generic [ref=e1539]: 󰐪
+                        - button "" [ref=e1541] [cursor=pointer]:
+                          - generic [ref=e1543]: 
+                        - button "" [ref=e1545] [cursor=pointer]:
+                          - generic [ref=e1547]: 
+                    - generic [ref=e1550]:
+                      - paragraph [ref=e1552]: Cash Collection
+                      - paragraph [ref=e1555]: "-1,000.00"
+                    - generic [ref=e1556]:
+                      - generic [ref=e1559]:
+                        - text: "Balance:"
+                        - text: "-1,000.00"
+                      - heading "View all transactions" [level=6] [ref=e1560] [cursor=pointer]
+            - generic [ref=e1098]:
+              - button "Collect Payment" [active] [ref=e1561] [cursor=pointer]
+              - generic [ref=e1103]:
+                - heading "Bill Summary" [level=5] [ref=e1562]
+                - generic [ref=e1108]:
+                  - generic [ref=e1109]:
+                    - heading "Due Amount" [level=6] [ref=e1563]
+                    - heading "12,440.00" [level=5] [ref=e1565]
+                  - table [ref=e1113]:
+                    - rowgroup [ref=e1114]:
+                      - heading "Current Postings:" [level=6] [ref=e1567]
+                      - row "Payment -1,000.00" [ref=e1568]:
+                        - cell "Payment" [ref=e1569]
+                        - cell "-1,000.00" [ref=e1570]:
+                          - heading "-1,000.00" [level=6] [ref=e1571]
+                      - row "Sub Total -1,000.00" [ref=e1572]:
+                        - cell "Sub Total" [ref=e1573]
+                        - cell "-1,000.00" [ref=e1574]:
+                          - heading "-1,000.00" [level=6] [ref=e1575]
+                      - heading "Future Postings:" [level=6] [ref=e1577]
+                      - row "Beachsuite (1 Room) 12,000.00" [ref=e1578]:
+                        - cell "Beachsuite (1 Room)" [ref=e1579]
+                        - cell "12,000.00" [ref=e1580]:
+                          - heading "12,000.00" [level=6] [ref=e1581]
+                      - row "Tax 6 % 1,440.00" [ref=e1582]:
+                        - cell "Tax 6 %" [ref=e1583]:
+                          - generic [ref=e1584]: Tax 6 %
+                        - cell "1,440.00" [ref=e1585]:
+                          - heading "1,440.00" [level=6] [ref=e1586]
+                      - row "Total 13,440.00" [ref=e1587]:
+                        - cell "Total" [ref=e1588]
+                        - cell "13,440.00" [ref=e1589]:
+                          - heading "13,440.00" [level=6] [ref=e1590]
+                      - row "Sub Total 13,440.00" [ref=e1591]:
+                        - cell "Sub Total" [ref=e1592]
+                        - cell "13,440.00" [ref=e1593]:
+                          - heading "13,440.00" [level=6] [ref=e1594]
+                - generic [ref=e1135]:
+                  - generic [ref=e1136]:
+                    - heading "Total" [level=6] [ref=e1595]
+                    - heading "13,440.00" [level=5] [ref=e1597]
+                  - generic [ref=e1140]:
+                    - heading "Payment" [level=6] [ref=e1598]
+                    - heading "-1,000.00" [level=5] [ref=e1600]
+                  - generic [ref=e1144]:
+                    - heading "Due Amount" [level=6] [ref=e1601]
+                    - heading "12,440.00" [level=5] [ref=e1603]
+        - contentinfo [ref=e334]:
+          - generic [ref=e336]:
+            - 'heading "Property Id: WEBMI, User Id: Sachin Kumar, Shift: 1, Business Date: 01/09/2026" [level=6] [ref=e1604]'
+            - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e1605]
+    - generic [ref=e343]: 󰅒
+  - img

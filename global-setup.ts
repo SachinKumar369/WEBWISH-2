@@ -1,4 +1,4 @@
-import { chromium, FullConfig } from 'playwright';
+import { chromium, FullConfig } from '@playwright/test';
 import { LoginPage } from './src/pages/LoginPage';
 import { testDataManager } from './src/utils/TestDataManager';
 
@@ -8,7 +8,7 @@ async function globalSetup(config: FullConfig) {
   const context = await browser.newContext();
   const page = await context.newPage();
 
-  await page.goto('https://qc2webwish.prologicfirst.in/#/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D');
+  await page.goto('https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D');
 
   const loginPage = new LoginPage(page, context);
 

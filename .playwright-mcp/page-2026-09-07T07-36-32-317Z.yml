@@ -1,0 +1,147 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e7]:
+    - generic [ref=f3e8]:
+      - banner [ref=f3e9]:
+        - generic [ref=f3e11]:
+          - generic [ref=f3e12]:
+            - link [ref=f3e14] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=f3e18]:
+              - textbox [ref=f3e878]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=f3e20]: 󰍉
+          - heading [level=5] [ref=f3e879]: WEBWISHQCMI
+          - generic [ref=f3e23]:
+            - button [ref=f3e880] [cursor=pointer]:
+              - generic [ref=f3e26]: 󰅒
+            - button [ref=f3e881] [cursor=pointer]:
+              - generic [ref=f3e29]: 
+            - button [ref=f3e882] [cursor=pointer]:
+              - generic [ref=f3e32]: 
+            - button [ref=f3e883] [cursor=pointer]:
+              - generic [ref=f3e884]: 
+              - generic [ref=f3e36]: "1"
+            - generic [ref=f3e37]:
+              - button [ref=f3e885] [cursor=pointer]:
+                - generic [ref=f3e886]: 
+              - text:  
+            - generic [ref=f3e40]:
+              - button [ref=f3e887] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=f3e889] [cursor=pointer]:
+              - generic [ref=f3e46]: 
+      - generic [ref=f3e48]:
+        - text: 
+        - region [ref=f3e890]:
+          - list [ref=f3e153]:
+            - listitem [ref=f3e154]:
+              - link [ref=f3e891] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e157]: 
+            - listitem [ref=f3e158]:
+              - link [ref=f3e892] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e161]: 
+            - listitem [ref=f3e162]:
+              - link [ref=f3e893] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e165]: 
+            - listitem [ref=f3e166]:
+              - link [ref=f3e894] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e169]: 󰃢
+            - listitem [ref=f3e170]:
+              - link [ref=f3e895] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e172]: 
+            - listitem [ref=f3e173]:
+              - link [ref=f3e896] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e176]: 
+            - listitem [ref=f3e177]:
+              - link [ref=f3e897] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e180]: 
+            - listitem [ref=f3e181]:
+              - link [ref=f3e898] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e184]: 
+            - listitem [ref=f3e185]:
+              - link [ref=f3e899] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e188]: 
+            - listitem [ref=f3e189]:
+              - link [ref=f3e900] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e192]: 
+            - text:  
+            - listitem [ref=f3e193]:
+              - link [ref=f3e901] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e196]: 
+      - generic [ref=f3e50]:
+        - generic [ref=f3e944]:
+          - generic [ref=f3e945]:
+            - heading [level=2] [ref=f3e951]: Welcome! Sachin Kumar.
+            - generic [ref=f3e955]:
+              - generic [ref=f3e956]:
+                - generic [ref=f3e959] [cursor=pointer]:
+                  - generic [ref=f3e960]:
+                    - paragraph [ref=f3e962]: Current Occupancy
+                    - heading [level=5] [ref=f3e964]:
+                      - generic [ref=f3e965]: 
+                      - text: + 0 %
+                  - generic [ref=f3e966]:
+                    - heading [level=4] [ref=f3e968]: 0.00%
+                    - generic [ref=f3e969]: 
+                - generic [ref=f3e974] [cursor=pointer]:
+                  - generic [ref=f3e975]:
+                    - paragraph [ref=f3e977]: Expected Arrivals
+                    - heading [level=5] [ref=f3e979]:
+                      - generic [ref=f3e980]: 
+                      - text: + 0
+                  - generic [ref=f3e981]:
+                    - heading [level=4] [ref=f3e983]: "0"
+                    - generic [ref=f3e984]: 
+                - generic [ref=f3e989] [cursor=pointer]:
+                  - generic [ref=f3e990]:
+                    - paragraph [ref=f3e992]: In-house
+                    - heading [level=5] [ref=f3e994]:
+                      - generic [ref=f3e995]: 
+                      - text: + 0
+                  - generic [ref=f3e996]:
+                    - heading [level=4] [ref=f3e998]: "0"
+                    - generic [ref=f3e999]: 
+                - generic [ref=f3e1004] [cursor=pointer]:
+                  - generic [ref=f3e1005]:
+                    - paragraph [ref=f3e1007]: Expected Departures
+                    - heading [level=5] [ref=f3e1009]:
+                      - generic [ref=f3e1010]: 
+                      - text: + 0
+                  - generic [ref=f3e1011]:
+                    - heading [level=4] [ref=f3e1013]: "0"
+                    - generic [ref=f3e1014]: 
+              - generic [ref=f3e1019]:
+                - textbox [ref=f3e1020]:
+                  - /placeholder: Search function/menu/guest/group/room...
+                  - text: 󰅀
+                - button [ref=f3e1021] [cursor=pointer]:
+                  - text: Search
+                  - generic [ref=f3e1022]: 󱎸
+              - generic [ref=f3e1029] [cursor=pointer]:
+                - generic [ref=f3e1030]: 
+                - paragraph [ref=f3e1032]: Night Audit
+          - text:   󰒊
+        - contentinfo [ref=f3e135]:
+          - generic [ref=f3e137]:
+            - heading [level=6] [ref=f3e928]: "Property Id: WEBMI, User Id: Sachin Kumar, Shift: 1, Business Date: 25/07/2026"
+            - heading [level=6] [ref=f3e929]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=f3e143]: 󰅒
+  - dialog [ref=f3e931]:
+    - generic [ref=f3e940]:
+      - heading [level=4]
+      - paragraph [ref=f3e941]: Night Audit Process Completed.
+    - text: "!"
+    - generic [ref=f3e942]:
+      - button "OK" [disabled]

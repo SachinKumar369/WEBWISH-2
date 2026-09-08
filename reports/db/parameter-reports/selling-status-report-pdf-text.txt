@@ -1,10 +1,10 @@
 Type Description Active Created By Created On Modified By Modified On
 HU HOUSE Use ü SYSTEM_USER 06/05/2025 ARCHANA 09/10/2025
 OC Occupied ü SYSTEM_USER 06/05/2025
-PA PRE-ASSIGN ü SYSTEM_USER 06/05/2025 ARCHANA 11/06/2025
+PA PRE-ASSIGN ü SYSTEM_USER 06/05/2025 HARSH 01/07/2025
 PO Permanent Out Of Order ü SYSTEM_USER 06/05/2025
 VA Vacant ü SYSTEM_USER 06/05/2025
-WISH PMS : Printed on : 03/08/2026at10:07(S) 10:07(L) Business date : 01/07/2025 Page : 1 of 1
+WISH PMS : Printed on : 05/09/2026at16:09(S) 16:09(L) Business date : 01/07/2025 Page : 1 of 1
 Webwish Hotel
 
 -- 1 of 1 --

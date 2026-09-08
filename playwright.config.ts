@@ -87,7 +87,7 @@ export default defineConfig({
     ['./src/listeners/CustomReporter.ts']
   ],
   use: {
-    baseURL: process.env.BASE_URL || 'https://qc2webwish.prologicfirst.in/#/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D',
+    baseURL: process.env.BASE_URL || 'https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D',
 
     //baseURL: process.env.BASE_URL || 'https://qc2webwish.prologicfirst.in/',
 

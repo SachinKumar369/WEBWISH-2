@@ -1,0 +1,197 @@
+- generic [ref=f3e1]:
+  - generic [ref=f3e7]:
+    - generic [ref=f3e8]:
+      - banner [ref=f3e9]:
+        - generic [ref=f3e11]:
+          - generic [ref=f3e12]:
+            - link [ref=f3e14] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=f3e18]:
+              - textbox [ref=f3e611]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=f3e20]: 󰍉
+          - heading [level=5] [ref=f3e612]: WEBWISHQCMI
+          - generic [ref=f3e23]:
+            - button [ref=f3e613] [cursor=pointer]:
+              - generic [ref=f3e26]: 󰅒
+            - button [ref=f3e614] [cursor=pointer]:
+              - generic [ref=f3e29]: 
+            - button [ref=f3e615] [cursor=pointer]:
+              - generic [ref=f3e32]: 
+            - button [ref=f3e616] [cursor=pointer]:
+              - generic [ref=f3e617]: 
+              - generic [ref=f3e36]: "1"
+            - generic [ref=f3e37]:
+              - button [ref=f3e618] [cursor=pointer]:
+                - generic [ref=f3e619]: 
+              - text:  
+            - generic [ref=f3e40]:
+              - button [ref=f3e620] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=f3e622] [cursor=pointer]:
+              - generic [ref=f3e46]: 
+      - generic [ref=f3e48]:
+        - text: 
+        - region [ref=f3e623]:
+          - list [ref=f3e153]:
+            - listitem [ref=f3e154]:
+              - link [ref=f3e624] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e157]: 
+            - listitem [ref=f3e158]:
+              - link [ref=f3e625] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e161]: 
+            - listitem [ref=f3e162]:
+              - link [ref=f3e626] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e165]: 
+            - listitem [ref=f3e166]:
+              - link [ref=f3e627] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e169]: 󰃢
+            - listitem [ref=f3e170]:
+              - link [ref=f3e628] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e172]: 
+            - listitem [ref=f3e173]:
+              - link [ref=f3e629] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e176]: 
+            - listitem [ref=f3e177]:
+              - link [ref=f3e630] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e180]: 
+            - listitem [ref=f3e181]:
+              - link [ref=f3e631] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e184]: 
+            - listitem [ref=f3e185]:
+              - link [ref=f3e632] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e188]: 
+            - listitem [ref=f3e189]:
+              - link [ref=f3e633] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e192]: 
+            - text:  
+            - listitem [ref=f3e193]:
+              - link [ref=f3e634] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=f3e196]: 
+      - generic [ref=f3e50]:
+        - generic [ref=f3e204]:
+          - generic [ref=f3e208]:
+            - heading [level=3] [ref=f3e635]: Night Audit
+            - generic [ref=f3e211]:
+              - button [ref=f3e636] [cursor=pointer]:
+                - generic [ref=f3e214]: 󰑐
+              - button [ref=f3e637] [cursor=pointer]:
+                - generic [ref=f3e221]: 󰇙
+          - generic [ref=f3e223]:
+            - heading [level=5] [ref=f3e638]:
+              - generic [ref=f3e227]: "Audit Date: 24/07/2026"
+            - heading [level=5] [ref=f3e639]:
+              - generic [ref=f3e231]: "Business Date: 24/07/2026"
+            - heading [level=5] [ref=f3e640]:
+              - generic [ref=f3e235]: "System Date: 07/09/2026"
+            - group [ref=f3e641]:
+              - radio [checked]
+              - generic [ref=f3e238] [cursor=pointer]: Change Business Date
+              - radio
+              - generic [ref=f3e239] [cursor=pointer]: Change Audit Date
+          - generic [ref=f3e241]:
+            - generic [ref=f3e248]:
+              - generic [ref=f3e252]:
+                - heading [level=6] [ref=f3e642]: Make Non Arrivals To No-Show
+                - button [ref=f3e643] [cursor=pointer]:
+                  - text: Next
+                  - generic [ref=f3e255]: 
+              - table [ref=f3e461]:
+                - rowgroup [ref=f3e462]:
+                  - row [ref=f3e644]:
+                    - columnheader [ref=f3e464]:
+                      - checkbox [ref=f3e465]
+                    - columnheader [ref=f3e645]: Guest ID
+                    - columnheader [ref=f3e646]: Guest Name
+                    - columnheader [ref=f3e647]: Arrival
+                    - columnheader [ref=f3e648]: Depature
+                    - columnheader [ref=f3e649]: Expected Arrival
+                    - columnheader [ref=f3e650]: Expected Depature
+                    - columnheader [ref=f3e651]: Room Type
+                    - columnheader [ref=f3e652]: Room No
+                    - columnheader [ref=f3e475]
+              - list [ref=f3e261]:
+                - listitem [ref=f3e609]: System will now make all non arrivals to no show. This process takes care of all guests who had confirmed reservations but failed to turn up.
+              - generic [ref=f3e477]:
+                - generic [ref=f3e479]:
+                  - checkbox [checked] [ref=f3e653] [cursor=pointer]
+                  - generic [ref=f3e481] [cursor=pointer]: I have verified the list
+                - button [ref=f3e654] [cursor=pointer]: save
+            - list [ref=f3e273]:
+              - listitem [ref=f3e274]:
+                - generic [aria-hidden] [ref=f3e408]: ✓
+                - generic [ref=f3e277]: Initialise Night Audit Status
+              - listitem [ref=f3e279]:
+                - generic [aria-hidden] [ref=f3e457]: ✓
+                - generic [ref=f3e282]: Change Rates for Inhouse Guest
+              - listitem [ref=f3e284]:
+                - generic [aria-hidden] [ref=f3e482]: ✓
+                - generic [ref=f3e287]: Autopost Charges
+              - listitem [ref=f3e289]:
+                - generic [aria-hidden] [ref=f3e610]: ✓
+                - generic [ref=f3e292]: Cancel Reservation On Option Date
+              - listitem [ref=f3e294]:
+                - generic [ref=f3e296]: "5"
+                - generic [ref=f3e297]: Make Non Arrivals To No-Show
+              - listitem [ref=f3e299]:
+                - generic [ref=f3e301]: "6"
+                - generic [ref=f3e302]: Make Non Arrivals Group To No-Show
+              - listitem [ref=f3e304]:
+                - generic [ref=f3e306]: "7"
+                - generic [ref=f3e307]: Change Business Date
+              - listitem [ref=f3e309]:
+                - generic [ref=f3e311]: "8"
+                - generic [ref=f3e312]:
+                  - generic [ref=f3e313]: Prior Statistics Update
+                  - list [ref=f3e314]:
+                    - listitem [ref=f3e315]:
+                      - generic [ref=f3e316] [cursor=pointer]:
+                        - checkbox [checked] [ref=f3e655]
+                        - generic [ref=f3e318]: Make Occupied Rooms Dirty
+                    - listitem [ref=f3e319]:
+                      - generic [ref=f3e320] [cursor=pointer]:
+                        - checkbox [checked] [ref=f3e656]
+                        - generic [ref=f3e322]: Release Allotment Blocks
+                    - listitem [ref=f3e323]:
+                      - generic [ref=f3e324] [cursor=pointer]:
+                        - checkbox [checked] [ref=f3e657]
+                        - generic [ref=f3e326]: Release Group Block On Action Date
+                    - listitem [ref=f3e327]:
+                      - generic [ref=f3e328] [cursor=pointer]:
+                        - checkbox [checked] [ref=f3e658]
+                        - generic [ref=f3e330]: Extend Bill Mask For Stayovers
+                    - listitem [ref=f3e331]:
+                      - generic [ref=f3e332] [cursor=pointer]:
+                        - checkbox [checked] [ref=f3e659]
+                        - generic [ref=f3e334]: Initialise Auto Post Flag
+                    - listitem [ref=f3e335]:
+                      - generic [ref=f3e336] [cursor=pointer]:
+                        - checkbox [checked] [ref=f3e660]
+                        - generic [ref=f3e338]: Account SEZ Update
+              - listitem [ref=f3e339]:
+                - generic [ref=f3e341]: "9"
+                - generic [ref=f3e342]: Recreate Availability
+        - contentinfo [ref=f3e135]:
+          - generic [ref=f3e137]:
+            - heading [level=6] [ref=f3e661]: "Property Id: WEBMI, User Id: Sachin Kumar, Shift: 1, Business Date: 24/07/2026"
+            - heading [level=6] [ref=f3e662]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=f3e143]: 󰅒
+  - dialog [ref=f3e664]:
+    - generic [ref=f3e665]: "!"
+    - generic [ref=f3e668]:
+      - heading [level=4]
+      - paragraph [ref=f3e669]: Select Values
+    - text: "!"
+    - button "OK" [active] [ref=f3e671] [cursor=pointer]

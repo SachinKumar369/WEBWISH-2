@@ -1,0 +1,4 @@
+[ 1306651ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qc2.prologicfirst.in/Webwish_API/api/Notifications/Load_Notifications:0
+[ 1306654ms] [LOG] UserSecurity z6cQJcxmrEbhhFXqdoj64Q%3D%3D @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.6330807ce05fa9df.js:0
+[ 1306662ms] [LOG] Time 13:10:46 GMT+0530 (India Standard Time) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.6330807ce05fa9df.js:0
+[ 1306822ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0

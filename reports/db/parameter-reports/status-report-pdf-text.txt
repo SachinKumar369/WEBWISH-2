@@ -8,7 +8,7 @@ NS NO SHOW ü SYSTEM_USER 06/05/2025
 TA TURN-AWAY ü SYSTEM_USER 06/05/2025
 TE TENTATIVE ü SYSTEM_USER 06/05/2025
 WL WAIT-LISTED ü SYSTEM_USER 06/05/2025
-WISH PMS : Printed on : 03/08/2026at10:08(S) 10:08(L) Business date : 01/07/2025 Page : 1 of 1
+WISH PMS : Printed on : 05/09/2026at16:09(S) 16:09(L) Business date : 01/07/2025 Page : 1 of 1
 Webwish Hotel
 
 -- 1 of 1 --

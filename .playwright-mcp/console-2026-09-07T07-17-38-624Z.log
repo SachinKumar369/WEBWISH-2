@@ -1,0 +1,2 @@
+[      54ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/SystemSetup/NAN_QNA01:0
+[   10059ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://qc2webwish.prologicfirst.in/favicon.ico:0

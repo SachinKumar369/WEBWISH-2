@@ -1,0 +1,174 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e134]:
+    - generic [ref=e135]:
+      - banner [ref=e136]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - link [ref=e141] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e145]:
+              - textbox "Search..." [ref=e146]: 󰅀
+              - generic [ref=e147]: 󰍉
+          - heading "WEBWISHQCMI" [level=5] [ref=e149]
+          - generic [ref=e150]:
+            - button "󰅒" [ref=e152] [cursor=pointer]:
+              - generic [ref=e153]: 󰅒
+            - button "" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]: 
+            - button "" [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]: 
+            - button " 1" [ref=e161] [cursor=pointer]:
+              - generic "Change Shift" [ref=e162]: 
+              - generic [ref=e163]: "1"
+            - generic [ref=e164]:
+              - button "" [ref=e165] [cursor=pointer]:
+                - generic "Notifications" [ref=e166]: 
+              - text:  
+            - generic [ref=e167]:
+              - button "Header Avatar" [ref=e168] [cursor=pointer]:
+                - img "Header Avatar" [ref=e170]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button "" [ref=e172] [cursor=pointer]:
+              - generic [ref=e174]: 
+      - generic [ref=e183]:
+        - text: 
+        - region "scrollable content" [ref=e190]:
+          - list [ref=e192]:
+            - listitem [ref=e344]:
+              - generic [ref=e345]: Front Office PMS
+            - listitem [ref=e193]:
+              - link " Dashboard" [ref=e346] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e196]: 
+                - generic [ref=e347]: Dashboard
+            - listitem [ref=e197]:
+              - link " Front Desk" [ref=e348] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e200]: 
+                - generic [ref=e349]: Front Desk
+            - listitem [ref=e201]:
+              - link " Cashiering" [ref=e350] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e204]: 
+                - generic [ref=e351]: Cashiering
+            - listitem [ref=e205]:
+              - link "󰃢 Housekeeping" [ref=e352] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e208]: 󰃢
+                - generic [ref=e353]: Housekeeping
+            - listitem [ref=e209]:
+              - link " Report" [ref=e354] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e211]: 
+                - generic [ref=e355]: Report
+            - listitem [ref=e212]:
+              - link " Manager Functions" [ref=e356] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e215]: 
+                - generic [ref=e357]: Manager Functions
+            - listitem [ref=e216]:
+              - link " Marketing" [ref=e358] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e219]: 
+                - generic [ref=e359]: Marketing
+            - listitem [ref=e220]:
+              - link " Accounting" [ref=e360] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e223]: 
+                - generic [ref=e361]: Accounting
+            - listitem [ref=e224]:
+              - link " Night Audit" [ref=e362] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e227]: 
+                - generic [ref=e363]: Night Audit
+            - listitem [ref=e228]:
+              - link " FrontOffice Setup" [ref=e364] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e231]: 
+                - generic [ref=e365]: FrontOffice Setup
+            - listitem [ref=e366]:
+              - generic [ref=e367]: Systems Administration
+            - listitem [ref=e368]:
+              - list [ref=e371]:
+                - listitem [ref=e372]:
+                  - link " Advance Control" [ref=e373] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=e374]: 
+                    - generic [ref=e375]: Advance Control
+                - listitem
+            - listitem [ref=e376]:
+              - list [ref=e379]:
+                - listitem [ref=e380]:
+                  - link " System Utilities" [ref=e381] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=e382]: 
+                    - generic [ref=e383]: System Utilities
+                - listitem
+            - listitem [ref=e232]:
+              - link " System Configurations" [ref=e384] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e235]: 
+                - generic [ref=e385]: System Configurations
+      - generic [ref=e237]:
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - heading "Welcome! Sachin Kumar." [level=2] [ref=e247]
+            - generic [ref=e251]:
+              - generic [ref=e252]:
+                - generic [ref=e255] [cursor=pointer]:
+                  - generic [ref=e256]:
+                    - paragraph [ref=e258]: Current Occupancy
+                    - heading " + 0 %" [level=5] [ref=e260]:
+                      - generic [ref=e261]: 
+                      - text: + 0 %
+                  - generic [ref=e262]:
+                    - heading "0.40%" [level=4] [ref=e264]
+                    - generic [ref=e267]: 
+                - generic [ref=e270] [cursor=pointer]:
+                  - generic [ref=e271]:
+                    - paragraph [ref=e273]: Expected Arrivals
+                    - heading " + 1" [level=5] [ref=e275]:
+                      - generic [ref=e276]: 
+                      - text: + 1
+                  - generic [ref=e277]:
+                    - heading "1" [level=4] [ref=e279]
+                    - generic [ref=e282]: 
+                - generic [ref=e285] [cursor=pointer]:
+                  - generic [ref=e286]:
+                    - paragraph [ref=e288]: In-house
+                    - heading " + 0" [level=5] [ref=e290]:
+                      - generic [ref=e291]: 
+                      - text: + 0
+                  - generic [ref=e292]:
+                    - heading "0" [level=4] [ref=e294]
+                    - generic [ref=e297]: 
+                - generic [ref=e300] [cursor=pointer]:
+                  - generic [ref=e301]:
+                    - paragraph [ref=e303]: Expected Departures
+                    - heading " + 0" [level=5] [ref=e305]:
+                      - generic [ref=e306]: 
+                      - text: + 0
+                  - generic [ref=e307]:
+                    - heading "0" [level=4] [ref=e309]
+                    - generic [ref=e312]: 
+              - generic [ref=e315]:
+                - textbox "search booking/booked thru/function" [ref=e316]:
+                  - /placeholder: Search function/menu/guest/group/room...
+                  - text: 󰅀
+                - button "Search 󱎸" [ref=e317] [cursor=pointer]:
+                  - text: Search
+                  - generic [ref=e318]: 󱎸
+              - generic [ref=e323]:
+                - generic [ref=e325] [cursor=pointer]:
+                  - generic [ref=e327]: 
+                  - paragraph [ref=e328]: Front Office Report
+                - generic [ref=e330] [cursor=pointer]:
+                  - generic [ref=e332]: 
+                  - paragraph [ref=e333]: Night Audit
+          - text:   󰒊
+        - contentinfo [ref=e334]:
+          - generic [ref=e336]:
+            - 'heading "Property Id: WEBMI, User Id: Sachin Kumar, Shift: 1, Business Date: 01/09/2026" [level=6] [ref=e338]'
+            - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e341]
+    - generic [ref=e343]: 󰅒
+  - img
