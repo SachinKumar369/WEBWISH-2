@@ -3,16 +3,33 @@
     {
       "code": "WDUBI",
       "name": "WEBWISH DUBAI 3.0",
+      "index": 0,
+      "module": "all",
+      "enabled": true,
       "url": ""
     },
     {
       "code": "WEBIN",
       "name": "WEBWISHINDIA",
+      "index": 1,
+      "module": "all",
+      "enabled": true,
       "url": ""
     },
     {
       "code": "WEBBE",
       "name": "Webwish Hotel",
+      "index": 2,
+      "module": "all",
+      "enabled": true,
+      "url": ""
+    },
+    {
+      "code": "WEBWISHQCMI",
+      "name": "WEBWISH QC MI",
+      "index": 2,
+      "module": "NightAudit,all",
+      "enabled": true,
       "url": ""
     }
   ]

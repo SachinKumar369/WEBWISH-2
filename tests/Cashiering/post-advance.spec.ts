@@ -3,6 +3,7 @@ import { LoginPage } from '../../src/pages/LoginPage';
 import { GuestManagementPage } from '../../src/pages/FrontDesk/GuestManagementPage';
 import { PostAdvancePage } from '../../src/pages/Cashiering/PostAdvancePage';
 import { testDataManager } from '../../src/utils/TestDataManager';
+import { getPropertyByIndexFromExcel } from '../../src/utils/PropertyDataProvider';
 import logger from '../../src/core/Logger';
 
 test.describe('Cashiering - Post Advance (Cash Collection)', () => {
@@ -54,8 +55,13 @@ test.describe('Cashiering - Post Advance (Cash Collection)', () => {
       const user = await testDataManager.getUserCredentials('all');
       expect(user).toBeDefined();
 
+      // ── Pick property from Excel by index ──
+      const property = getPropertyByIndexFromExcel(1);
+      expect(property).toBeDefined();
+      logger.info(`Property from Excel: ${property!.code} (index ${property!.index})`);
+
       logger.info('Step 1: Login and select property');
-      await loginPage.loginWithPropertySelection(user.username, user.password, 1);
+      await loginPage.loginWithPropertySelection(user.username, user.password, property!.index);
       await page.waitForTimeout(2000);
 
       // ── Navigate to Guest Management ──────────────────────────────────
@@ -225,6 +231,145 @@ test.describe('Cashiering - Post Advance (Cash Collection)', () => {
       await postAdvancePage['closeButton'].click();
 
       logger.info('✅ Post Advance validation error test completed successfully');
+    } catch (error) {
+      logger.error(`Test failed: ${error}`);
+      throw error;
+    }
+  });
+
+  // ═══════════════════════════════════════════════════════════════════════
+  // TC_CASH_ADV_004: Void Advance - Post advance then void it
+  // ═══════════════════════════════════════════════════════════════════════
+  test.only('TC_CASH_ADV_004: Post advance then void the cash collection transaction', async ({ page, context }) => {
+    try {
+      logger.info('Starting Void Advance test (post + void flow)');
+
+      // ── Login & Property Selection ────────────────────────────────────
+      const loginPage = new LoginPage(page, context);
+      const user = await testDataManager.getUserCredentials('all');
+      expect(user).toBeDefined();
+
+      logger.info('Step 1: Login and select property');
+      await loginPage.loginWithPropertySelection(user.username, user.password, 2);
+      await page.waitForTimeout(2000);
+
+      // ── Navigate to Guest Management ──────────────────────────────────
+      logger.info('Step 2: Navigate to Guest Management');
+      await postAdvancePage.navigateToGuestManagement();
+      await page.waitForTimeout(1000);
+
+      // ── Post an advance first ─────────────────────────────────────────
+      logger.info('Step 3: Select guest and open cashiering');
+      await postAdvancePage.selectFirstGuest();
+      await postAdvancePage.clickViewCashiering();
+      await postAdvancePage.validatePassword(user.password);
+
+      logger.info('Step 4: Post an advance (amount 500)');
+      await postAdvancePage.clickCollectPayment();
+      await postAdvancePage.selectCashCollection();
+      await postAdvancePage.clickNext();
+      await postAdvancePage.enterAmount('500');
+      await postAdvancePage.enterReference();
+      await postAdvancePage.clickPost();
+      await postAdvancePage.verifySuccessAndDismiss('Details created/updated successfully.');
+
+      // ── Void the posted advance ───────────────────────────────────────
+      logger.info('Step 5: Void the posted advance');
+      await postAdvancePage.performVoidAdvance('Cash Collection', 'Test void reason - automated');
+
+      // ── Take success screenshot ───────────────────────────────────────
+      await page.screenshot({
+        path: 'screenshots/void_advance_success.png',
+        fullPage: true,
+      });
+
+      logger.info('✅ Void Advance test completed successfully');
+    } catch (error) {
+      logger.error(`Test failed: ${error}`);
+      throw error;
+    }
+  });
+
+  // ═══════════════════════════════════════════════════════════════════════
+  // TC_CASH_ADV_005: Void Advance - Step-by-step with individual validations
+  // ═══════════════════════════════════════════════════════════════════════
+  test('TC_CASH_ADV_005: Void advance step-by-step with individual validations', async ({ page, context }) => {
+    try {
+      logger.info('Starting Void Advance step-by-step test');
+
+      // ── Login & Property Selection ────────────────────────────────────
+      const loginPage = new LoginPage(page, context);
+      const user = await testDataManager.getUserCredentials('all');
+      expect(user).toBeDefined();
+
+      logger.info('Step 1: Login and select property');
+      await loginPage.loginWithPropertySelection(user.username, user.password, 1);
+      await page.waitForTimeout(2000);
+
+      // ── Navigate to Guest Management ──────────────────────────────────
+      logger.info('Step 2: Navigate to Guest Management');
+      await postAdvancePage.navigateToGuestManagement();
+      await page.waitForTimeout(1000);
+
+      // ── Post an advance first ─────────────────────────────────────────
+      logger.info('Step 3: Select guest and open cashiering');
+      await postAdvancePage.selectFirstGuest();
+      await postAdvancePage.clickViewCashiering();
+      await postAdvancePage.validatePassword(user.password);
+
+      logger.info('Step 4: Post an advance (amount 750)');
+      await postAdvancePage.clickCollectPayment();
+      await postAdvancePage.selectCashCollection();
+      await postAdvancePage.clickNext();
+      await postAdvancePage.enterAmount('750');
+      await postAdvancePage.enterReference();
+      await postAdvancePage.clickPost();
+      await postAdvancePage.verifySuccessAndDismiss('Details created/updated successfully.');
+      logger.info('✅ Advance posted successfully');
+
+      // ── Void step-by-step ─────────────────────────────────────────────
+      logger.info('Step 5: Click View all transactions');
+      await postAdvancePage.clickViewAllTransactions();
+      await page.waitForTimeout(1000);
+
+      // Verify transaction table is visible
+      await expect(postAdvancePage['transactionTable']).toBeVisible();
+      logger.info('✅ Transaction table is visible');
+
+      logger.info('Step 6: Select Cash Collection transaction');
+      await postAdvancePage.selectTransactionByType('Cash Collection');
+
+      // Verify Void button appeared
+      await expect(postAdvancePage['voidButton']).toBeVisible();
+      logger.info('✅ Void button is visible after selection');
+
+      logger.info('Step 7: Click Void');
+      await postAdvancePage.clickVoid();
+
+      // Verify Void Charge section appeared
+      await expect(postAdvancePage['voidReasonLabel']).toBeVisible();
+      logger.info('✅ Void Charge section with reason label is visible');
+
+      logger.info('Step 8: Enter void reason');
+      await postAdvancePage.enterVoidReason('Step-by-step void test');
+
+      // Verify textarea has the reason
+      await expect(postAdvancePage['voidReasonTextarea']).toContainText('Step-by-step void test');
+      logger.info('✅ Void reason entered successfully');
+
+      logger.info('Step 9: Click Save in Void Charge section');
+      await postAdvancePage.clickVoidSave();
+
+      logger.info('Step 10: Verify success message');
+      await postAdvancePage.verifySuccessAndDismiss('Selected Charges successfully Voided.');
+
+      // ── Take success screenshot ───────────────────────────────────────
+      await page.screenshot({
+        path: 'screenshots/void_advance_step_by_step_success.png',
+        fullPage: true,
+      });
+
+      logger.info('✅ Void Advance step-by-step test completed successfully');
     } catch (error) {
       logger.error(`Test failed: ${error}`);
       throw error;

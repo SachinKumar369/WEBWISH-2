@@ -2,7 +2,7 @@
   "reportTitle": "Parameter Reports - Public Area DB Validation",
   "queryText": "select * from prm_common_masters where property_id='webwe' and param_type='PBAR'",
   "totalDbRows": 40,
-  "totalMatchedRows": 40,
+  "totalMatchedRows": 18,
   "comparison": [
     {
       "rowNumber": 1,
@@ -43,16 +43,17 @@
       ],
       "matchedValues": [
         {
-          "column": "param_code",
-          "value": "A191"
-        },
-        {
           "column": "description",
           "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "missingValues": [
+        {
+          "column": "param_code",
+          "value": "A191"
+        }
+      ],
+      "matched": false
     },
     {
       "rowNumber": 3,
@@ -66,7 +67,8 @@
           "value": "AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "param_code",
           "value": "A367"
@@ -76,8 +78,7 @@
           "value": "AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 4,
@@ -91,7 +92,8 @@
           "value": "AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "param_code",
           "value": "A399"
@@ -101,8 +103,7 @@
           "value": "AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 5,
@@ -118,16 +119,17 @@
       ],
       "matchedValues": [
         {
-          "column": "param_code",
-          "value": "A468"
-        },
-        {
           "column": "description",
           "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "missingValues": [
+        {
+          "column": "param_code",
+          "value": "A468"
+        }
+      ],
+      "matched": false
     },
     {
       "rowNumber": 6,
@@ -168,16 +170,17 @@
       ],
       "matchedValues": [
         {
-          "column": "param_code",
-          "value": "A556"
-        },
-        {
           "column": "description",
           "value": "AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "missingValues": [
+        {
+          "column": "param_code",
+          "value": "A556"
+        }
+      ],
+      "matched": false
     },
     {
       "rowNumber": 8,
@@ -193,16 +196,17 @@
       ],
       "matchedValues": [
         {
-          "column": "param_code",
-          "value": "A568"
-        },
-        {
           "column": "description",
           "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "missingValues": [
+        {
+          "column": "param_code",
+          "value": "A568"
+        }
+      ],
+      "matched": false
     },
     {
       "rowNumber": 9,
@@ -218,16 +222,17 @@
       ],
       "matchedValues": [
         {
-          "column": "param_code",
-          "value": "A590"
-        },
-        {
           "column": "description",
           "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "missingValues": [
+        {
+          "column": "param_code",
+          "value": "A590"
+        }
+      ],
+      "matched": false
     },
     {
       "rowNumber": 10,
@@ -241,7 +246,8 @@
           "value": "AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "param_code",
           "value": "A607"
@@ -251,8 +257,7 @@
           "value": "AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 11,
@@ -291,7 +296,8 @@
           "value": "AUTOMATION PUBLIC AREA A731"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "param_code",
           "value": "A731"
@@ -301,8 +307,7 @@
           "value": "AUTOMATION PUBLIC AREA A731"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 13,
@@ -318,16 +323,17 @@
       ],
       "matchedValues": [
         {
-          "column": "param_code",
-          "value": "A772"
-        },
-        {
           "column": "description",
           "value": "AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "missingValues": [
+        {
+          "column": "param_code",
+          "value": "A772"
+        }
+      ],
+      "matched": false
     },
     {
       "rowNumber": 14,
@@ -343,16 +349,17 @@
       ],
       "matchedValues": [
         {
-          "column": "param_code",
-          "value": "A775"
-        },
-        {
           "column": "description",
           "value": "AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "missingValues": [
+        {
+          "column": "param_code",
+          "value": "A775"
+        }
+      ],
+      "matched": false
     },
     {
       "rowNumber": 15,
@@ -368,16 +375,17 @@
       ],
       "matchedValues": [
         {
-          "column": "param_code",
-          "value": "A830"
-        },
-        {
           "column": "description",
           "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "missingValues": [
+        {
+          "column": "param_code",
+          "value": "A830"
+        }
+      ],
+      "matched": false
     },
     {
       "rowNumber": 16,
@@ -391,7 +399,8 @@
           "value": "AUTOMATION PUBLIC AREA A869"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "param_code",
           "value": "A869"
@@ -401,8 +410,7 @@
           "value": "AUTOMATION PUBLIC AREA A869"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 17,
@@ -416,7 +424,8 @@
           "value": "AUTOMATION PUBLIC AREA A885"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "param_code",
           "value": "A885"
@@ -426,8 +435,7 @@
           "value": "AUTOMATION PUBLIC AREA A885"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 18,
@@ -443,16 +451,17 @@
       ],
       "matchedValues": [
         {
-          "column": "param_code",
-          "value": "A886"
-        },
-        {
           "column": "description",
           "value": "AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "missingValues": [
+        {
+          "column": "param_code",
+          "value": "A886"
+        }
+      ],
+      "matched": false
     },
     {
       "rowNumber": 19,
@@ -468,16 +477,17 @@
       ],
       "matchedValues": [
         {
-          "column": "param_code",
-          "value": "A930"
-        },
-        {
           "column": "description",
           "value": "AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "missingValues": [
+        {
+          "column": "param_code",
+          "value": "A930"
+        }
+      ],
+      "matched": false
     },
     {
       "rowNumber": 20,
@@ -491,7 +501,8 @@
           "value": "AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "param_code",
           "value": "A999"
@@ -501,8 +512,7 @@
           "value": "AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 21,
@@ -891,7 +901,8 @@
           "value": "AUTOMATION PUBLIC AREA P181"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "param_code",
           "value": "P181"
@@ -901,8 +912,7 @@
           "value": "AUTOMATION PUBLIC AREA P181"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 37,
@@ -916,7 +926,8 @@
           "value": "AUTOMATION PUBLIC AREA P193"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "param_code",
           "value": "P193"
@@ -926,8 +937,7 @@
           "value": "AUTOMATION PUBLIC AREA P193"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 38,
@@ -941,7 +951,8 @@
           "value": "AUTOMATION PUBLIC AREA P710"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "param_code",
           "value": "P710"
@@ -951,8 +962,7 @@
           "value": "AUTOMATION PUBLIC AREA P710"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 39,
@@ -966,7 +976,8 @@
           "value": "AUTOMATION PUBLIC AREA P853"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "param_code",
           "value": "P853"
@@ -976,8 +987,7 @@
           "value": "AUTOMATION PUBLIC AREA P853"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 40,
@@ -991,7 +1001,8 @@
           "value": "AUTOMATION PUBLIC AREA P924"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "param_code",
           "value": "P924"
@@ -1001,8 +1012,7 @@
           "value": "AUTOMATION PUBLIC AREA P924"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     }
   ]
 }

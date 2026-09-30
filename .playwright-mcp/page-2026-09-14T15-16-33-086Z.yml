@@ -1,0 +1,123 @@
+- generic [ref=f2e2]:
+  - generic: Please wait!We are processing your request
+  - generic [ref=f2e134]:
+    - generic [ref=f2e135]:
+      - banner [ref=f2e136]:
+        - generic [ref=f2e138]:
+          - generic [ref=f2e139]:
+            - link [ref=f2e141] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=f2e145]:
+              - textbox "Search..." [ref=f2e146]: 󰅀
+              - generic [ref=f2e147]: 󰍉
+          - heading "Webwish Hotel" [level=5] [ref=f2e149]
+          - generic [ref=f2e150]:
+            - button "󰅒" [ref=f2e152] [cursor=pointer]
+            - button "" [ref=f2e155] [cursor=pointer]
+            - button "" [ref=f2e158] [cursor=pointer]
+            - button " 3" [ref=f2e161] [cursor=pointer]:
+              - generic "Change Shift" [ref=f2e162]: 
+              - generic [ref=f2e163]: "3"
+            - generic [ref=f2e164]:
+              - button "" [ref=f2e165] [cursor=pointer]:
+                - generic "Notifications" [ref=f2e166]: 
+              - text:  
+            - generic [ref=f2e167]:
+              - button [ref=f2e168] [cursor=pointer]:
+                - img "Header Avatar" [ref=f2e170]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=f2e172] [cursor=pointer]:
+              - img "Header Avatar" [ref=f2e174]
+      - generic [ref=f2e183]:
+        - text: 
+        - region "scrollable content" [ref=f2e190]:
+          - list [ref=f2e192]:
+            - listitem
+            - listitem [ref=f2e193]:
+              - link "" [ref=f2e195] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=f2e197]:
+              - link "" [ref=f2e199] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=f2e201]:
+              - link "" [ref=f2e203] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=f2e205]:
+              - link "󰃢" [ref=f2e207] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=f2e209]:
+              - link "" [ref=f2e210] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=f2e212]:
+              - link "" [ref=f2e214] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=f2e216]:
+              - link "" [ref=f2e218] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=f2e220]:
+              - link "" [ref=f2e222] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=f2e224]:
+              - link "" [ref=f2e226] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=f2e228]:
+              - link "" [ref=f2e230] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem
+            - listitem: 
+            - listitem: 
+            - listitem [ref=f2e232]:
+              - link "" [ref=f2e234] [cursor=pointer]:
+                - /url: javascript:void(0);
+      - generic [ref=f2e237]:
+        - generic [ref=f2e359]:
+          - generic [ref=f2e364]:
+            - heading "New Reservation" [level=3] [ref=f2e2748]
+            - generic [ref=f2e366]:
+              - generic:
+                - list
+              - generic [ref=f2e367]:
+                - button "󰈲" [ref=f2e2856] [cursor=pointer]
+                - button "󰑐" [ref=f2e2860] [cursor=pointer]
+          - generic [ref=f2e2749]:
+            - generic [ref=f2e2866]:
+              - generic [ref=f2e2867]: "Property Id : WEBWE"
+              - generic [ref=f2e2868]: "Arrival : 01/07/2025"
+              - generic [ref=f2e2869]: "Departure : 02/07/2025"
+              - generic [ref=f2e2870]: "Adult : 1"
+              - generic [ref=f2e2871]: "Youth : 0"
+              - generic [ref=f2e2872]: "Child : 0"
+            - generic [ref=f2e2875]:
+              - generic [ref=f2e2879]:
+                - generic [ref=f2e2880] [cursor=pointer]:
+                  - generic [ref=f2e2881]: "-"
+                  - text: Available
+                - generic [ref=f2e2882] [cursor=pointer]:
+                  - generic [ref=f2e2883]: "-"
+                  - text: Not Available
+                - generic [ref=f2e2884] [cursor=pointer]:
+                  - generic [ref=f2e2885]: 
+                  - text: Closed for Arrival
+                - generic [ref=f2e2888] [cursor=pointer]:
+                  - generic [ref=f2e2889]: 
+                  - text: Closed for Departure
+                - generic [ref=f2e2892] [cursor=pointer]:
+                  - generic [ref=f2e2893]: 
+                  - text: Stay thru (Closed for arrival and departure)
+                - generic [ref=f2e2896] [cursor=pointer]:
+                  - generic [ref=f2e2897]: 󰅜
+                  - text: Stay Close
+              - table [ref=f2e2901]:
+                - rowgroup [ref=f2e2902]:
+                  - columnheader [ref=f2e2903]
+                  - columnheader "Rooms" [ref=f2e2904]
+                - rowgroup
+            - generic [ref=f2e2847]:
+              - heading "Total - 0.00 + Taxes" [level=5] [ref=f2e2849] [cursor=pointer]
+              - button "Next" [active] [ref=f2e2850] [cursor=pointer]
+              - button "Close" [ref=f2e2851] [cursor=pointer]
+        - contentinfo [ref=f2e349]:
+          - generic [ref=f2e351]:
+            - 'heading "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 01/07/2025" [level=6] [ref=f2e353]'
+            - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=f2e356]
+    - generic: 󰅒

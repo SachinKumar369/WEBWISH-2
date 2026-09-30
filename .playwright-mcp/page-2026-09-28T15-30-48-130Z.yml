@@ -1,0 +1,140 @@
+- generic [ref=e56]:
+  - generic [ref=e57]:
+    - banner [ref=e58]:
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - link [ref=e63] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=e67]:
+            - textbox "Search..." [ref=e68]: 󰅀
+            - generic [ref=e69]: 󰍉
+        - heading "Demo Hotel" [level=5] [ref=e71]
+        - generic [ref=e72]:
+          - button "󰅒" [ref=e74] [cursor=pointer]
+          - button "" [ref=e77] [cursor=pointer]
+          - button "" [ref=e80] [cursor=pointer]
+          - button " 1" [ref=e83] [cursor=pointer]:
+            - generic "Change Shift" [ref=e84]: 
+            - generic [ref=e85]: "1"
+          - generic [ref=e86]:
+            - button "" [ref=e87] [cursor=pointer]:
+              - generic "Notifications" [ref=e88]: 
+            - text:  
+          - generic [ref=e89]:
+            - button [ref=e90] [cursor=pointer]:
+              - img "Header Avatar" [ref=e92]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button [ref=e94] [cursor=pointer]:
+            - img "Header Avatar" [ref=e96]
+    - generic [ref=e102]:
+      - text: 
+      - region "scrollable content" [ref=e109]:
+        - list [ref=e111]:
+          - listitem
+          - listitem [ref=e112]:
+            - link "" [ref=e114] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e116]:
+            - link "" [ref=e118] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e120]:
+            - link "" [ref=e122] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e124]:
+            - link "󰃢" [ref=e126] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e128]:
+            - link "" [ref=e129] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e131]:
+            - link "" [ref=e133] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e135]:
+            - link "" [ref=e137] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e139]:
+            - link "" [ref=e141] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e143]:
+            - link "" [ref=e145] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e147]:
+            - link "" [ref=e149] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem
+          - listitem: 
+          - listitem: 
+          - listitem [ref=e151]:
+            - link "" [ref=e153] [cursor=pointer]:
+              - /url: javascript:void(0);
+    - generic [ref=e156]:
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - heading "Welcome! Check User 1." [level=2] [ref=e166]
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - generic [ref=e174] [cursor=pointer]:
+                - generic [ref=e175]:
+                  - paragraph [ref=e177]: Current Occupancy
+                  - heading " + 0 %" [level=5] [ref=e179]:
+                    - generic [ref=e180]: 
+                    - text: + 0 %
+                - generic [ref=e181]:
+                  - heading "44.03%" [level=4] [ref=e183]
+                  - generic [ref=e184]: 
+              - generic [ref=e189] [cursor=pointer]:
+                - generic [ref=e190]:
+                  - paragraph [ref=e192]: Expected Arrivals
+                  - heading " -28" [level=5] [ref=e194]:
+                    - generic [ref=e195]: 
+                    - text: "-28"
+                - generic [ref=e196]:
+                  - heading "0" [level=4] [ref=e198]
+                  - generic [ref=e199]: 
+              - generic [ref=e204] [cursor=pointer]:
+                - generic [ref=e205]:
+                  - paragraph [ref=e207]: In-house
+                  - heading " + 0" [level=5] [ref=e209]:
+                    - generic [ref=e210]: 
+                    - text: + 0
+                - generic [ref=e211]:
+                  - heading "196" [level=4] [ref=e213]
+                  - generic [ref=e214]: 
+              - generic [ref=e219] [cursor=pointer]:
+                - generic [ref=e220]:
+                  - paragraph [ref=e222]: Expected Departures
+                  - heading " + 70" [level=5] [ref=e224]:
+                    - generic [ref=e225]: 
+                    - text: + 70
+                - generic [ref=e226]:
+                  - heading "70" [level=4] [ref=e228]
+                  - generic [ref=e229]: 
+            - generic [ref=e234]:
+              - textbox "search booking/booked thru/function" [ref=e235]:
+                - /placeholder: Search function/menu/guest/group/room...
+                - text: 󰅀
+              - button "Search 󱎸" [ref=e236] [cursor=pointer]:
+                - text: Search
+                - generic [ref=e237]: 󱎸
+            - generic [ref=e242]:
+              - generic [ref=e244] [cursor=pointer]:
+                - generic [ref=e245]: 
+                - paragraph [ref=e247]: Guest Management
+              - generic [ref=e249] [cursor=pointer]:
+                - generic [ref=e250]: 
+                - paragraph [ref=e252]: HouseKeeping Operations
+              - generic [ref=e254] [cursor=pointer]:
+                - generic [ref=e255]: 
+                - paragraph [ref=e257]: Group Management
+              - generic [ref=e259] [cursor=pointer]:
+                - generic [ref=e260]: 
+                - paragraph [ref=e262]: Cashiering
+              - generic [ref=e264] [cursor=pointer]:
+                - generic [ref=e265]: 
+                - paragraph [ref=e267]: Booking Calendar
+        - text:   󰒊
+      - contentinfo [ref=e268]:
+        - generic [ref=e270]:
+          - 'heading "Property Id: BDAR, User Id: Check User 1, Shift: 1, Business Date: 08/09/2026" [level=6] [ref=e272]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e275]
+  - generic: 󰅒

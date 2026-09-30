@@ -1,0 +1,967 @@
+- generic [ref=e1]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - banner [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - link [ref=e14] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e18]:
+              - textbox [ref=e360]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=e20]: 󰍉
+          - heading [level=5] [ref=e361]: Webwish Hotel
+          - generic [ref=e23]:
+            - button [ref=e362] [cursor=pointer]:
+              - generic [ref=e26]: 󰅒
+            - button [ref=e363] [cursor=pointer]:
+              - generic [ref=e29]: 
+            - button [ref=e364] [cursor=pointer]:
+              - generic [ref=e32]: 
+            - button [ref=e365] [cursor=pointer]:
+              - generic [ref=e366]: 
+              - generic [ref=e36]: "3"
+            - generic [ref=e37]:
+              - button [ref=e367] [cursor=pointer]:
+                - generic [ref=e368]: 
+              - text:  
+            - generic [ref=e40]:
+              - button [ref=e369] [cursor=pointer]:
+                - img [ref=e370]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e371] [cursor=pointer]:
+              - img [ref=e372]
+      - generic [ref=e48]:
+        - text: 
+        - region [ref=e373]:
+          - list [ref=e118]:
+            - listitem [ref=e119]:
+              - link [ref=e374] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e122]: 
+            - listitem [ref=e123]:
+              - link [ref=e375] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e126]: 
+            - listitem [ref=e127]:
+              - link [ref=e376] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e130]: 
+            - listitem [ref=e131]:
+              - link [ref=e377] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e134]: 󰃢
+            - listitem [ref=e135]:
+              - link [ref=e378] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e137]: 
+            - listitem [ref=e138]:
+              - link [ref=e379] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e141]: 
+            - listitem [ref=e142]:
+              - link [ref=e380] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e145]: 
+            - listitem [ref=e146]:
+              - link [ref=e381] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e149]: 
+            - listitem [ref=e150]:
+              - link [ref=e382] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e153]: 
+            - listitem [ref=e154]:
+              - link [ref=e383] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e157]: 
+            - text:  
+            - listitem [ref=e158]:
+              - link [ref=e384] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e161]: 
+      - generic [ref=e50]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e57]:
+              - heading [level=3] [ref=e385]: System Utilities
+              - list [ref=e62]:
+                - listitem [ref=e63]:
+                  - button [ref=e386] [cursor=pointer]:
+                    - generic [ref=e66]: 󰑐
+            - generic [ref=e67]:
+              - generic [ref=e68]:
+                - generic [ref=e70]:
+                  - textbox [ref=e387]:
+                    - /placeholder: Search...
+                  - generic [ref=e72]: 󰍉
+                - tabpanel [ref=e74]:
+                  - region [ref=e388]:
+                    - list [ref=e162]:
+                      - listitem [ref=e163]:
+                        - link [ref=e389] [cursor=pointer]:
+                          - /url: javascript:void(0);
+                          - generic [ref=e165]:
+                            - generic [ref=e166]: 
+                            - generic [ref=e168]: Populate Forecast Figures
+                      - listitem [ref=e169]:
+                        - link [active] [ref=e390] [cursor=pointer]:
+                          - /url: javascript:void(0);
+                          - generic [ref=e171]:
+                            - generic [ref=e172]: 
+                            - generic [ref=e174]: Recreate Availability
+                      - listitem [ref=e175]:
+                        - link [ref=e391] [cursor=pointer]:
+                          - /url: javascript:void(0);
+                          - generic [ref=e177]:
+                            - generic [ref=e178]: 
+                            - generic [ref=e180]: Synchronize Telephone Exchange
+              - generic [ref=e85]:
+                - generic [ref=e87]:
+                  - heading [level=5] [ref=e392]: Recreate Availability
+                  - button [ref=e393] [cursor=pointer]:
+                    - generic [ref=e186]: 󰐊
+                - region [ref=e394]
+          - generic [ref=e281]:
+            - button [ref=e395] [cursor=pointer]:
+              - generic [ref=e283]: 󰅖
+            - generic [ref=e284]:
+              - textbox [ref=e396]:
+                - /placeholder: Search function/menu/guest/group/room...
+              - button [ref=e397] [cursor=pointer]:
+                - text: Search
+                - generic [ref=e287]: 󱎸
+        - contentinfo [ref=e100]:
+          - generic [ref=e102]:
+            - heading [level=6] [ref=e398]: "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 01/07/2025"
+            - heading [level=6] [ref=e399]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e109]: 󰅒
+  - dialog [ref=e401]:
+    - document:
+      - generic [ref=e404]:
+        - heading "󰧮 Availability" [level=4] [ref=e406]:
+          - generic [ref=e408]: 󰧮
+          - text: Availability
+        - generic [ref=e411]:
+          - generic [ref=e412]:
+            - generic [ref=e413]:
+              - alert [ref=e415]:
+                - generic [ref=e416]: 
+                - strong [ref=e418]: Refreshed on
+                - text: 01/07/2025 at 18:28
+              - generic [ref=e421]:
+                - button "󰈲" [ref=e422] [cursor=pointer]:
+                  - generic [ref=e424]: 󰈲
+                - button "󰑐" [ref=e425] [cursor=pointer]:
+                  - generic [ref=e427]: 󰑐
+              - generic [ref=e430]:
+                - generic [ref=e431]: "View : Summary"
+                - generic [ref=e432]: "Date : 01/07/2025"
+              - generic [ref=e435]:
+                - generic [ref=e436] [cursor=pointer]:
+                  - generic [ref=e437]: "-"
+                  - text: Available
+                - generic [ref=e438] [cursor=pointer]:
+                  - generic [ref=e439]: "-"
+                  - text: Available Due to Over Booking(+)
+                - generic [ref=e440] [cursor=pointer]:
+                  - generic [ref=e441]: "-"
+                  - text: Room Not Available
+                - generic [ref=e442] [cursor=pointer]:
+                  - generic [ref=e443]: "-"
+                  - text: Not Available Due To UnderBooking
+                - generic [ref=e444] [cursor=pointer]:
+                  - generic [ref=e447]: 
+                  - text: Closed for Arrival
+                - generic [ref=e448] [cursor=pointer]:
+                  - generic [ref=e451]: 
+                  - text: Closed for Departure
+                - generic [ref=e452] [cursor=pointer]:
+                  - generic [ref=e455]: 
+                  - text: Only stay thru
+            - table [ref=e459]:
+              - rowgroup [ref=e460]:
+                - row "Toolbar with button groups 1 Tue 2 Wed 3 Thu 4 Fri 5 Sat 6 Sun 7 Mon 8 Tue 9 Wed 10 Thu 11 Fri 12 Sat 13 Sun 14 Mon 15 Tue 16 Wed 17 Thu 18 Fri 19 Sat 20 Sun 21 Mon 22 Tue 23 Wed 24 Thu 25 Fri 26 Sat 27 Sun 28 Mon 29 Tue 30 Wed 31 Thu" [ref=e461]:
+                  - columnheader "Toolbar with button groups" [ref=e462]:
+                    - toolbar "Toolbar with button groups"
+                  - columnheader "1 Tue" [ref=e463]:
+                    - text: "1"
+                    - text: Tue
+                  - columnheader "2 Wed" [ref=e464]:
+                    - text: "2"
+                    - text: Wed
+                  - columnheader "3 Thu" [ref=e465]:
+                    - text: "3"
+                    - text: Thu
+                  - columnheader "4 Fri" [ref=e466]:
+                    - text: "4"
+                    - text: Fri
+                  - columnheader "5 Sat" [ref=e467]:
+                    - text: "5"
+                    - text: Sat
+                  - columnheader "6 Sun" [ref=e468]:
+                    - text: "6"
+                    - text: Sun
+                  - columnheader "7 Mon" [ref=e469]:
+                    - text: "7"
+                    - text: Mon
+                  - columnheader "8 Tue" [ref=e470]:
+                    - text: "8"
+                    - text: Tue
+                  - columnheader "9 Wed" [ref=e471]:
+                    - text: "9"
+                    - text: Wed
+                  - columnheader "10 Thu" [ref=e472]:
+                    - text: "10"
+                    - text: Thu
+                  - columnheader "11 Fri" [ref=e473]:
+                    - text: "11"
+                    - text: Fri
+                  - columnheader "12 Sat" [ref=e474]:
+                    - text: "12"
+                    - text: Sat
+                  - columnheader "13 Sun" [ref=e475]:
+                    - text: "13"
+                    - text: Sun
+                  - columnheader "14 Mon" [ref=e476]:
+                    - text: "14"
+                    - text: Mon
+                  - columnheader "15 Tue" [ref=e477]:
+                    - text: "15"
+                    - text: Tue
+                  - columnheader "16 Wed" [ref=e478]:
+                    - text: "16"
+                    - text: Wed
+                  - columnheader "17 Thu" [ref=e479]:
+                    - text: "17"
+                    - text: Thu
+                  - columnheader "18 Fri" [ref=e480]:
+                    - text: "18"
+                    - text: Fri
+                  - columnheader "19 Sat" [ref=e481]:
+                    - text: "19"
+                    - text: Sat
+                  - columnheader "20 Sun" [ref=e482]:
+                    - text: "20"
+                    - text: Sun
+                  - columnheader "21 Mon" [ref=e483]:
+                    - text: "21"
+                    - text: Mon
+                  - columnheader "22 Tue" [ref=e484]:
+                    - text: "22"
+                    - text: Tue
+                  - columnheader "23 Wed" [ref=e485]:
+                    - text: "23"
+                    - text: Wed
+                  - columnheader "24 Thu" [ref=e486]:
+                    - text: "24"
+                    - text: Thu
+                  - columnheader "25 Fri" [ref=e487]:
+                    - text: "25"
+                    - text: Fri
+                  - columnheader "26 Sat" [ref=e488]:
+                    - text: "26"
+                    - text: Sat
+                  - columnheader "27 Sun" [ref=e489]:
+                    - text: "27"
+                    - text: Sun
+                  - columnheader "28 Mon" [ref=e490]:
+                    - text: "28"
+                    - text: Mon
+                  - columnheader "29 Tue" [ref=e491]:
+                    - text: "29"
+                    - text: Tue
+                  - columnheader "30 Wed" [ref=e492]:
+                    - text: "30"
+                    - text: Wed
+                  - columnheader "31 Thu" [ref=e493]:
+                    - text: "31"
+                    - text: Thu
+              - rowgroup [ref=e494]:
+                - row "DGT 19 95 112 117 125 126 126 127 118 134 134 136 132 133 135 135 135 135 145 145 145 145 145 145 145 145 145 145 145 149 150" [ref=e495]:
+                  - cell "DGT" [ref=e496]:
+                    - generic [ref=e497]: DGT
+                  - cell "19" [ref=e498]:
+                    - generic [ref=e499]: "19"
+                  - cell "95" [ref=e500]:
+                    - generic [ref=e501]: "95"
+                  - cell "112" [ref=e502]:
+                    - generic [ref=e503]: "112"
+                  - cell "117" [ref=e504]:
+                    - generic [ref=e505]: "117"
+                  - cell "125" [ref=e506]:
+                    - generic [ref=e507]: "125"
+                  - cell "126" [ref=e508]:
+                    - generic [ref=e509]: "126"
+                  - cell "126" [ref=e510]:
+                    - generic [ref=e511]: "126"
+                  - cell "127" [ref=e512]:
+                    - generic [ref=e513]: "127"
+                  - cell "118" [ref=e514]:
+                    - generic [ref=e515]: "118"
+                  - cell "134" [ref=e516]:
+                    - generic [ref=e517]: "134"
+                  - cell "134" [ref=e518]:
+                    - generic [ref=e519]: "134"
+                  - cell "136" [ref=e520]:
+                    - generic [ref=e521]: "136"
+                  - cell "132" [ref=e522]:
+                    - generic [ref=e523]: "132"
+                  - cell "133" [ref=e524]:
+                    - generic [ref=e525]: "133"
+                  - cell "135" [ref=e526]:
+                    - generic [ref=e527]: "135"
+                  - cell "135" [ref=e528]:
+                    - generic [ref=e529]: "135"
+                  - cell "135" [ref=e530]:
+                    - generic [ref=e531]: "135"
+                  - cell "135" [ref=e532]:
+                    - generic [ref=e533]: "135"
+                  - cell "145" [ref=e534]:
+                    - generic [ref=e535]: "145"
+                  - cell "145" [ref=e536]:
+                    - generic [ref=e537]: "145"
+                  - cell "145" [ref=e538]:
+                    - generic [ref=e539]: "145"
+                  - cell "145" [ref=e540]:
+                    - generic [ref=e541]: "145"
+                  - cell "145" [ref=e542]:
+                    - generic [ref=e543]: "145"
+                  - cell "145" [ref=e544]:
+                    - generic [ref=e545]: "145"
+                  - cell "145" [ref=e546]:
+                    - generic [ref=e547]: "145"
+                  - cell "145" [ref=e548]:
+                    - generic [ref=e549]: "145"
+                  - cell "145" [ref=e550]:
+                    - generic [ref=e551]: "145"
+                  - cell "145" [ref=e552]:
+                    - generic [ref=e553]: "145"
+                  - cell "145" [ref=e554]:
+                    - generic [ref=e555]: "145"
+                  - cell "149" [ref=e556]:
+                    - generic [ref=e557]: "149"
+                  - cell "150" [ref=e558]:
+                    - generic [ref=e559]: "150"
+                - row "LPT 18 45 47 48 50 50 50 50 50 50 49 49 49 49 49 49 49 49 50 50 50 50 50 50 50 50 50 50 50 50 50" [ref=e560]:
+                  - cell "LPT" [ref=e561]:
+                    - generic [ref=e562]: LPT
+                  - cell "18" [ref=e563]:
+                    - generic [ref=e564]: "18"
+                  - cell "45" [ref=e565]:
+                    - generic [ref=e566]: "45"
+                  - cell "47" [ref=e567]:
+                    - generic [ref=e568]: "47"
+                  - cell "48" [ref=e569]:
+                    - generic [ref=e570]: "48"
+                  - cell "50" [ref=e571]:
+                    - generic [ref=e572]: "50"
+                  - cell "50" [ref=e573]:
+                    - generic [ref=e574]: "50"
+                  - cell "50" [ref=e575]:
+                    - generic [ref=e576]: "50"
+                  - cell "50" [ref=e577]:
+                    - generic [ref=e578]: "50"
+                  - cell "50" [ref=e579]:
+                    - generic [ref=e580]: "50"
+                  - cell "50" [ref=e581]:
+                    - generic [ref=e582]: "50"
+                  - cell "49" [ref=e583]:
+                    - generic [ref=e584]: "49"
+                  - cell "49" [ref=e585]:
+                    - generic [ref=e586]: "49"
+                  - cell "49" [ref=e587]:
+                    - generic [ref=e588]: "49"
+                  - cell "49" [ref=e589]:
+                    - generic [ref=e590]: "49"
+                  - cell "49" [ref=e591]:
+                    - generic [ref=e592]: "49"
+                  - cell "49" [ref=e593]:
+                    - generic [ref=e594]: "49"
+                  - cell "49" [ref=e595]:
+                    - generic [ref=e596]: "49"
+                  - cell "49" [ref=e597]:
+                    - generic [ref=e598]: "49"
+                  - cell "50" [ref=e599]:
+                    - generic [ref=e600]: "50"
+                  - cell "50" [ref=e601]:
+                    - generic [ref=e602]: "50"
+                  - cell "50" [ref=e603]:
+                    - generic [ref=e604]: "50"
+                  - cell "50" [ref=e605]:
+                    - generic [ref=e606]: "50"
+                  - cell "50" [ref=e607]:
+                    - generic [ref=e608]: "50"
+                  - cell "50" [ref=e609]:
+                    - generic [ref=e610]: "50"
+                  - cell "50" [ref=e611]:
+                    - generic [ref=e612]: "50"
+                  - cell "50" [ref=e613]:
+                    - generic [ref=e614]: "50"
+                  - cell "50" [ref=e615]:
+                    - generic [ref=e616]: "50"
+                  - cell "50" [ref=e617]:
+                    - generic [ref=e618]: "50"
+                  - cell "50" [ref=e619]:
+                    - generic [ref=e620]: "50"
+                  - cell "50" [ref=e621]:
+                    - generic [ref=e622]: "50"
+                  - cell "50" [ref=e623]:
+                    - generic [ref=e624]: "50"
+                - row "Delux Room 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" [ref=e625]:
+                  - cell "Delux Room" [ref=e626]:
+                    - generic [ref=e627]: Delux Room
+                  - cell "0" [ref=e628]:
+                    - generic [ref=e629]: "0"
+                  - cell "0" [ref=e630]:
+                    - generic [ref=e631]: "0"
+                  - cell "1" [ref=e632]:
+                    - generic [ref=e633]: "1"
+                  - cell "1" [ref=e634]:
+                    - generic [ref=e635]: "1"
+                  - cell "1" [ref=e636]:
+                    - generic [ref=e637]: "1"
+                  - cell "1" [ref=e638]:
+                    - generic [ref=e639]: "1"
+                  - cell "1" [ref=e640]:
+                    - generic [ref=e641]: "1"
+                  - cell "1" [ref=e642]:
+                    - generic [ref=e643]: "1"
+                  - cell "1" [ref=e644]:
+                    - generic [ref=e645]: "1"
+                  - cell "1" [ref=e646]:
+                    - generic [ref=e647]: "1"
+                  - cell "1" [ref=e648]:
+                    - generic [ref=e649]: "1"
+                  - cell "1" [ref=e650]:
+                    - generic [ref=e651]: "1"
+                  - cell "1" [ref=e652]:
+                    - generic [ref=e653]: "1"
+                  - cell "1" [ref=e654]:
+                    - generic [ref=e655]: "1"
+                  - cell "1" [ref=e656]:
+                    - generic [ref=e657]: "1"
+                  - cell "1" [ref=e658]:
+                    - generic [ref=e659]: "1"
+                  - cell "1" [ref=e660]:
+                    - generic [ref=e661]: "1"
+                  - cell "1" [ref=e662]:
+                    - generic [ref=e663]: "1"
+                  - cell "1" [ref=e664]:
+                    - generic [ref=e665]: "1"
+                  - cell "1" [ref=e666]:
+                    - generic [ref=e667]: "1"
+                  - cell "1" [ref=e668]:
+                    - generic [ref=e669]: "1"
+                  - cell "1" [ref=e670]:
+                    - generic [ref=e671]: "1"
+                  - cell "1" [ref=e672]:
+                    - generic [ref=e673]: "1"
+                  - cell "1" [ref=e674]:
+                    - generic [ref=e675]: "1"
+                  - cell "1" [ref=e676]:
+                    - generic [ref=e677]: "1"
+                  - cell "1" [ref=e678]:
+                    - generic [ref=e679]: "1"
+                  - cell "1" [ref=e680]:
+                    - generic [ref=e681]: "1"
+                  - cell "1" [ref=e682]:
+                    - generic [ref=e683]: "1"
+                  - cell "1" [ref=e684]:
+                    - generic [ref=e685]: "1"
+                  - cell "1" [ref=e686]:
+                    - generic [ref=e687]: "1"
+                  - cell "1" [ref=e688]:
+                    - generic [ref=e689]: "1"
+                - row "Extra Bed In Room Big Family 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2" [ref=e690]:
+                  - cell "Extra Bed In Room Big Family" [ref=e691]:
+                    - generic [ref=e692]: Extra Bed In Room Big Family
+                  - cell "1" [ref=e693]:
+                    - generic [ref=e694]: "1"
+                  - cell "2" [ref=e695]:
+                    - generic [ref=e696]: "2"
+                  - cell "2" [ref=e697]:
+                    - generic [ref=e698]: "2"
+                  - cell "2" [ref=e699]:
+                    - generic [ref=e700]: "2"
+                  - cell "2" [ref=e701]:
+                    - generic [ref=e702]: "2"
+                  - cell "2" [ref=e703]:
+                    - generic [ref=e704]: "2"
+                  - cell "2" [ref=e705]:
+                    - generic [ref=e706]: "2"
+                  - cell "2" [ref=e707]:
+                    - generic [ref=e708]: "2"
+                  - cell "2" [ref=e709]:
+                    - generic [ref=e710]: "2"
+                  - cell "2" [ref=e711]:
+                    - generic [ref=e712]: "2"
+                  - cell "2" [ref=e713]:
+                    - generic [ref=e714]: "2"
+                  - cell "2" [ref=e715]:
+                    - generic [ref=e716]: "2"
+                  - cell "2" [ref=e717]:
+                    - generic [ref=e718]: "2"
+                  - cell "2" [ref=e719]:
+                    - generic [ref=e720]: "2"
+                  - cell "2" [ref=e721]:
+                    - generic [ref=e722]: "2"
+                  - cell "2" [ref=e723]:
+                    - generic [ref=e724]: "2"
+                  - cell "2" [ref=e725]:
+                    - generic [ref=e726]: "2"
+                  - cell "2" [ref=e727]:
+                    - generic [ref=e728]: "2"
+                  - cell "2" [ref=e729]:
+                    - generic [ref=e730]: "2"
+                  - cell "2" [ref=e731]:
+                    - generic [ref=e732]: "2"
+                  - cell "2" [ref=e733]:
+                    - generic [ref=e734]: "2"
+                  - cell "2" [ref=e735]:
+                    - generic [ref=e736]: "2"
+                  - cell "2" [ref=e737]:
+                    - generic [ref=e738]: "2"
+                  - cell "2" [ref=e739]:
+                    - generic [ref=e740]: "2"
+                  - cell "2" [ref=e741]:
+                    - generic [ref=e742]: "2"
+                  - cell "2" [ref=e743]:
+                    - generic [ref=e744]: "2"
+                  - cell "2" [ref=e745]:
+                    - generic [ref=e746]: "2"
+                  - cell "2" [ref=e747]:
+                    - generic [ref=e748]: "2"
+                  - cell "2" [ref=e749]:
+                    - generic [ref=e750]: "2"
+                  - cell "2" [ref=e751]:
+                    - generic [ref=e752]: "2"
+                  - cell "2" [ref=e753]:
+                    - generic [ref=e754]: "2"
+                - row "PRK 1 3 3 3 3 3 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" [ref=e755]:
+                  - cell "PRK" [ref=e756]:
+                    - generic [ref=e757]: PRK
+                  - cell "1" [ref=e758]:
+                    - generic [ref=e759]: "1"
+                  - cell "3" [ref=e760]:
+                    - generic [ref=e761]: "3"
+                  - cell "3" [ref=e762]:
+                    - generic [ref=e763]: "3"
+                  - cell "3" [ref=e764]:
+                    - generic [ref=e765]: "3"
+                  - cell "3" [ref=e766]:
+                    - generic [ref=e767]: "3"
+                  - cell "3" [ref=e768]:
+                    - generic [ref=e769]: "3"
+                  - cell "3" [ref=e770]:
+                    - generic [ref=e771]: "3"
+                  - cell "3" [ref=e772]:
+                    - generic [ref=e773]: "3"
+                  - cell "3" [ref=e774]:
+                    - generic [ref=e775]: "3"
+                  - cell "4" [ref=e776]:
+                    - generic [ref=e777]: "4"
+                  - cell "4" [ref=e778]:
+                    - generic [ref=e779]: "4"
+                  - cell "4" [ref=e780]:
+                    - generic [ref=e781]: "4"
+                  - cell "4" [ref=e782]:
+                    - generic [ref=e783]: "4"
+                  - cell "4" [ref=e784]:
+                    - generic [ref=e785]: "4"
+                  - cell "4" [ref=e786]:
+                    - generic [ref=e787]: "4"
+                  - cell "4" [ref=e788]:
+                    - generic [ref=e789]: "4"
+                  - cell "4" [ref=e790]:
+                    - generic [ref=e791]: "4"
+                  - cell "4" [ref=e792]:
+                    - generic [ref=e793]: "4"
+                  - cell "4" [ref=e794]:
+                    - generic [ref=e795]: "4"
+                  - cell "4" [ref=e796]:
+                    - generic [ref=e797]: "4"
+                  - cell "4" [ref=e798]:
+                    - generic [ref=e799]: "4"
+                  - cell "4" [ref=e800]:
+                    - generic [ref=e801]: "4"
+                  - cell "4" [ref=e802]:
+                    - generic [ref=e803]: "4"
+                  - cell "4" [ref=e804]:
+                    - generic [ref=e805]: "4"
+                  - cell "4" [ref=e806]:
+                    - generic [ref=e807]: "4"
+                  - cell "4" [ref=e808]:
+                    - generic [ref=e809]: "4"
+                  - cell "4" [ref=e810]:
+                    - generic [ref=e811]: "4"
+                  - cell "4" [ref=e812]:
+                    - generic [ref=e813]: "4"
+                  - cell "4" [ref=e814]:
+                    - generic [ref=e815]: "4"
+                  - cell "4" [ref=e816]:
+                    - generic [ref=e817]: "4"
+                  - cell "4" [ref=e818]:
+                    - generic [ref=e819]: "4"
+                - row "Standart Double 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11" [ref=e820]:
+                  - cell "Standart Double" [ref=e821]:
+                    - generic [ref=e822]: Standart Double
+                  - cell "10" [ref=e823]:
+                    - generic [ref=e824]: "10"
+                  - cell "10" [ref=e825]:
+                    - generic [ref=e826]: "10"
+                  - cell "10" [ref=e827]:
+                    - generic [ref=e828]: "10"
+                  - cell "11" [ref=e829]:
+                    - generic [ref=e830]: "11"
+                  - cell "11" [ref=e831]:
+                    - generic [ref=e832]: "11"
+                  - cell "11" [ref=e833]:
+                    - generic [ref=e834]: "11"
+                  - cell "11" [ref=e835]:
+                    - generic [ref=e836]: "11"
+                  - cell "11" [ref=e837]:
+                    - generic [ref=e838]: "11"
+                  - cell "11" [ref=e839]:
+                    - generic [ref=e840]: "11"
+                  - cell "11" [ref=e841]:
+                    - generic [ref=e842]: "11"
+                  - cell "11" [ref=e843]:
+                    - generic [ref=e844]: "11"
+                  - cell "11" [ref=e845]:
+                    - generic [ref=e846]: "11"
+                  - cell "11" [ref=e847]:
+                    - generic [ref=e848]: "11"
+                  - cell "11" [ref=e849]:
+                    - generic [ref=e850]: "11"
+                  - cell "11" [ref=e851]:
+                    - generic [ref=e852]: "11"
+                  - cell "11" [ref=e853]:
+                    - generic [ref=e854]: "11"
+                  - cell "11" [ref=e855]:
+                    - generic [ref=e856]: "11"
+                  - cell "11" [ref=e857]:
+                    - generic [ref=e858]: "11"
+                  - cell "11" [ref=e859]:
+                    - generic [ref=e860]: "11"
+                  - cell "11" [ref=e861]:
+                    - generic [ref=e862]: "11"
+                  - cell "11" [ref=e863]:
+                    - generic [ref=e864]: "11"
+                  - cell "11" [ref=e865]:
+                    - generic [ref=e866]: "11"
+                  - cell "11" [ref=e867]:
+                    - generic [ref=e868]: "11"
+                  - cell "11" [ref=e869]:
+                    - generic [ref=e870]: "11"
+                  - cell "11" [ref=e871]:
+                    - generic [ref=e872]: "11"
+                  - cell "11" [ref=e873]:
+                    - generic [ref=e874]: "11"
+                  - cell "11" [ref=e875]:
+                    - generic [ref=e876]: "11"
+                  - cell "11" [ref=e877]:
+                    - generic [ref=e878]: "11"
+                  - cell "11" [ref=e879]:
+                    - generic [ref=e880]: "11"
+                  - cell "11" [ref=e881]:
+                    - generic [ref=e882]: "11"
+                  - cell "11" [ref=e883]:
+                    - generic [ref=e884]: "11"
+                - row "Standard Department 13 17 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18" [ref=e885]:
+                  - cell "Standard Department" [ref=e886]:
+                    - generic [ref=e887]: Standard Department
+                  - cell "13" [ref=e888]:
+                    - generic [ref=e889]: "13"
+                  - cell "17" [ref=e890]:
+                    - generic [ref=e891]: "17"
+                  - cell "18" [ref=e892]:
+                    - generic [ref=e893]: "18"
+                  - cell "18" [ref=e894]:
+                    - generic [ref=e895]: "18"
+                  - cell "18" [ref=e896]:
+                    - generic [ref=e897]: "18"
+                  - cell "18" [ref=e898]:
+                    - generic [ref=e899]: "18"
+                  - cell "18" [ref=e900]:
+                    - generic [ref=e901]: "18"
+                  - cell "18" [ref=e902]:
+                    - generic [ref=e903]: "18"
+                  - cell "18" [ref=e904]:
+                    - generic [ref=e905]: "18"
+                  - cell "18" [ref=e906]:
+                    - generic [ref=e907]: "18"
+                  - cell "18" [ref=e908]:
+                    - generic [ref=e909]: "18"
+                  - cell "18" [ref=e910]:
+                    - generic [ref=e911]: "18"
+                  - cell "18" [ref=e912]:
+                    - generic [ref=e913]: "18"
+                  - cell "18" [ref=e914]:
+                    - generic [ref=e915]: "18"
+                  - cell "18" [ref=e916]:
+                    - generic [ref=e917]: "18"
+                  - cell "18" [ref=e918]:
+                    - generic [ref=e919]: "18"
+                  - cell "18" [ref=e920]:
+                    - generic [ref=e921]: "18"
+                  - cell "18" [ref=e922]:
+                    - generic [ref=e923]: "18"
+                  - cell "18" [ref=e924]:
+                    - generic [ref=e925]: "18"
+                  - cell "18" [ref=e926]:
+                    - generic [ref=e927]: "18"
+                  - cell "18" [ref=e928]:
+                    - generic [ref=e929]: "18"
+                  - cell "18" [ref=e930]:
+                    - generic [ref=e931]: "18"
+                  - cell "18" [ref=e932]:
+                    - generic [ref=e933]: "18"
+                  - cell "18" [ref=e934]:
+                    - generic [ref=e935]: "18"
+                  - cell "18" [ref=e936]:
+                    - generic [ref=e937]: "18"
+                  - cell "18" [ref=e938]:
+                    - generic [ref=e939]: "18"
+                  - cell "18" [ref=e940]:
+                    - generic [ref=e941]: "18"
+                  - cell "18" [ref=e942]:
+                    - generic [ref=e943]: "18"
+                  - cell "18" [ref=e944]:
+                    - generic [ref=e945]: "18"
+                  - cell "18" [ref=e946]:
+                    - generic [ref=e947]: "18"
+                  - cell "18" [ref=e948]:
+                    - generic [ref=e949]: "18"
+                - row "SUITE CITY VIEW 54 61 62 62 62 62 62 62 62 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 70" [ref=e950]:
+                  - cell "SUITE CITY VIEW" [ref=e951]:
+                    - generic [ref=e952]: SUITE CITY VIEW
+                  - cell "54" [ref=e953]:
+                    - generic [ref=e954]: "54"
+                  - cell "61" [ref=e955]:
+                    - generic [ref=e956]: "61"
+                  - cell "62" [ref=e957]:
+                    - generic [ref=e958]: "62"
+                  - cell "62" [ref=e959]:
+                    - generic [ref=e960]: "62"
+                  - cell "62" [ref=e961]:
+                    - generic [ref=e962]: "62"
+                  - cell "62" [ref=e963]:
+                    - generic [ref=e964]: "62"
+                  - cell "62" [ref=e965]:
+                    - generic [ref=e966]: "62"
+                  - cell "62" [ref=e967]:
+                    - generic [ref=e968]: "62"
+                  - cell "62" [ref=e969]:
+                    - generic [ref=e970]: "62"
+                  - cell "67" [ref=e971]:
+                    - generic [ref=e972]: "67"
+                  - cell "67" [ref=e973]:
+                    - generic [ref=e974]: "67"
+                  - cell "67" [ref=e975]:
+                    - generic [ref=e976]: "67"
+                  - cell "67" [ref=e977]:
+                    - generic [ref=e978]: "67"
+                  - cell "67" [ref=e979]:
+                    - generic [ref=e980]: "67"
+                  - cell "67" [ref=e981]:
+                    - generic [ref=e982]: "67"
+                  - cell "67" [ref=e983]:
+                    - generic [ref=e984]: "67"
+                  - cell "67" [ref=e985]:
+                    - generic [ref=e986]: "67"
+                  - cell "67" [ref=e987]:
+                    - generic [ref=e988]: "67"
+                  - cell "67" [ref=e989]:
+                    - generic [ref=e990]: "67"
+                  - cell "67" [ref=e991]:
+                    - generic [ref=e992]: "67"
+                  - cell "67" [ref=e993]:
+                    - generic [ref=e994]: "67"
+                  - cell "67" [ref=e995]:
+                    - generic [ref=e996]: "67"
+                  - cell "67" [ref=e997]:
+                    - generic [ref=e998]: "67"
+                  - cell "67" [ref=e999]:
+                    - generic [ref=e1000]: "67"
+                  - cell "67" [ref=e1001]:
+                    - generic [ref=e1002]: "67"
+                  - cell "67" [ref=e1003]:
+                    - generic [ref=e1004]: "67"
+                  - cell "67" [ref=e1005]:
+                    - generic [ref=e1006]: "67"
+                  - cell "67" [ref=e1007]:
+                    - generic [ref=e1008]: "67"
+                  - cell "67" [ref=e1009]:
+                    - generic [ref=e1010]: "67"
+                  - cell "67" [ref=e1011]:
+                    - generic [ref=e1012]: "67"
+                  - cell "70" [ref=e1013]:
+                    - generic [ref=e1014]: "70"
+                - row [ref=e1015]:
+                  - cell [ref=e1016]
+                  - cell [ref=e1017]
+                  - cell [ref=e1018]
+                  - cell [ref=e1019]
+                  - cell [ref=e1020]
+                  - cell [ref=e1021]
+                  - cell [ref=e1022]
+                  - cell [ref=e1023]
+                  - cell [ref=e1024]
+                  - cell [ref=e1025]
+                  - cell [ref=e1026]
+                  - cell [ref=e1027]
+                  - cell [ref=e1028]
+                  - cell [ref=e1029]
+                  - cell [ref=e1030]
+                  - cell [ref=e1031]
+                  - cell [ref=e1032]
+                  - cell [ref=e1033]
+                  - cell [ref=e1034]
+                  - cell [ref=e1035]
+                  - cell [ref=e1036]
+                  - cell [ref=e1037]
+                  - cell [ref=e1038]
+                  - cell [ref=e1039]
+                  - cell [ref=e1040]
+                  - cell [ref=e1041]
+                  - cell [ref=e1042]
+                  - cell [ref=e1043]
+                  - cell [ref=e1044]
+                  - cell [ref=e1045]
+                  - cell [ref=e1046]
+                  - cell [ref=e1047]
+                - row "Total Saleable 302 306 308 309 309 309 309 309 309 309 309 309 309 309 309 309 309 309 309 309 309 309 309 309 309 309 309 309 309 309 311" [ref=e1048]:
+                  - cell "Total Saleable" [ref=e1049]
+                  - cell "302" [ref=e1050]
+                  - cell "306" [ref=e1051]
+                  - cell "308" [ref=e1052]
+                  - cell "309" [ref=e1053]
+                  - cell "309" [ref=e1054]
+                  - cell "309" [ref=e1055]
+                  - cell "309" [ref=e1056]
+                  - cell "309" [ref=e1057]
+                  - cell "309" [ref=e1058]
+                  - cell "309" [ref=e1059]
+                  - cell "309" [ref=e1060]
+                  - cell "309" [ref=e1061]
+                  - cell "309" [ref=e1062]
+                  - cell "309" [ref=e1063]
+                  - cell "309" [ref=e1064]
+                  - cell "309" [ref=e1065]
+                  - cell "309" [ref=e1066]
+                  - cell "309" [ref=e1067]
+                  - cell "309" [ref=e1068]
+                  - cell "309" [ref=e1069]
+                  - cell "309" [ref=e1070]
+                  - cell "309" [ref=e1071]
+                  - cell "309" [ref=e1072]
+                  - cell "309" [ref=e1073]
+                  - cell "309" [ref=e1074]
+                  - cell "309" [ref=e1075]
+                  - cell "309" [ref=e1076]
+                  - cell "309" [ref=e1077]
+                  - cell "309" [ref=e1078]
+                  - cell "309" [ref=e1079]
+                  - cell "311" [ref=e1080]
+                - row "Total Booked 186 73 53 47 37 36 36 35 44 22 23 21 25 24 22 22 22 22 11 11 11 11 11 11 11 11 11 11 11 7 5" [ref=e1081]:
+                  - cell "Total Booked" [ref=e1082]
+                  - cell "186" [ref=e1083] [cursor=pointer]
+                  - cell "73" [ref=e1084] [cursor=pointer]
+                  - cell "53" [ref=e1085] [cursor=pointer]
+                  - cell "47" [ref=e1086] [cursor=pointer]
+                  - cell "37" [ref=e1087] [cursor=pointer]
+                  - cell "36" [ref=e1088] [cursor=pointer]
+                  - cell "36" [ref=e1089] [cursor=pointer]
+                  - cell "35" [ref=e1090] [cursor=pointer]
+                  - cell "44" [ref=e1091] [cursor=pointer]
+                  - cell "22" [ref=e1092] [cursor=pointer]
+                  - cell "23" [ref=e1093] [cursor=pointer]
+                  - cell "21" [ref=e1094] [cursor=pointer]
+                  - cell "25" [ref=e1095] [cursor=pointer]
+                  - cell "24" [ref=e1096] [cursor=pointer]
+                  - cell "22" [ref=e1097] [cursor=pointer]
+                  - cell "22" [ref=e1098] [cursor=pointer]
+                  - cell "22" [ref=e1099] [cursor=pointer]
+                  - cell "22" [ref=e1100] [cursor=pointer]
+                  - cell "11" [ref=e1101] [cursor=pointer]
+                  - cell "11" [ref=e1102] [cursor=pointer]
+                  - cell "11" [ref=e1103] [cursor=pointer]
+                  - cell "11" [ref=e1104] [cursor=pointer]
+                  - cell "11" [ref=e1105] [cursor=pointer]
+                  - cell "11" [ref=e1106] [cursor=pointer]
+                  - cell "11" [ref=e1107] [cursor=pointer]
+                  - cell "11" [ref=e1108] [cursor=pointer]
+                  - cell "11" [ref=e1109] [cursor=pointer]
+                  - cell "11" [ref=e1110] [cursor=pointer]
+                  - cell "11" [ref=e1111] [cursor=pointer]
+                  - cell "7" [ref=e1112] [cursor=pointer]
+                  - cell "5" [ref=e1113] [cursor=pointer]
+                - row "Occupancy % 61.59 23.86 17.21 15.21 11.97 11.65 11.65 11.33 14.24 7.12 7.44 6.80 8.09 7.77 7.12 7.12 7.12 7.12 3.56 3.56 3.56 3.56 3.56 3.56 3.56 3.56 3.56 3.56 3.56 2.27 1.61" [ref=e1114]:
+                  - cell "Occupancy %" [ref=e1115]
+                  - cell "61.59" [ref=e1116]
+                  - cell "23.86" [ref=e1117]
+                  - cell "17.21" [ref=e1118]
+                  - cell "15.21" [ref=e1119]
+                  - cell "11.97" [ref=e1120]
+                  - cell "11.65" [ref=e1121]
+                  - cell "11.65" [ref=e1122]
+                  - cell "11.33" [ref=e1123]
+                  - cell "14.24" [ref=e1124]
+                  - cell "7.12" [ref=e1125]
+                  - cell "7.44" [ref=e1126]
+                  - cell "6.80" [ref=e1127]
+                  - cell "8.09" [ref=e1128]
+                  - cell "7.77" [ref=e1129]
+                  - cell "7.12" [ref=e1130]
+                  - cell "7.12" [ref=e1131]
+                  - cell "7.12" [ref=e1132]
+                  - cell "7.12" [ref=e1133]
+                  - cell "3.56" [ref=e1134]
+                  - cell "3.56" [ref=e1135]
+                  - cell "3.56" [ref=e1136]
+                  - cell "3.56" [ref=e1137]
+                  - cell "3.56" [ref=e1138]
+                  - cell "3.56" [ref=e1139]
+                  - cell "3.56" [ref=e1140]
+                  - cell "3.56" [ref=e1141]
+                  - cell "3.56" [ref=e1142]
+                  - cell "3.56" [ref=e1143]
+                  - cell "3.56" [ref=e1144]
+                  - cell "2.27" [ref=e1145]
+                  - cell "1.61" [ref=e1146]
+                - row "Total Available 116 233 255 262 272 273 273 274 265 287 286 288 284 285 287 287 287 287 298 298 298 298 298 298 298 298 298 298 298 302 306" [ref=e1147]:
+                  - cell "Total Available" [ref=e1148]
+                  - cell "116" [ref=e1149]
+                  - cell "233" [ref=e1150]
+                  - cell "255" [ref=e1151]
+                  - cell "262" [ref=e1152]
+                  - cell "272" [ref=e1153]
+                  - cell "273" [ref=e1154]
+                  - cell "273" [ref=e1155]
+                  - cell "274" [ref=e1156]
+                  - cell "265" [ref=e1157]
+                  - cell "287" [ref=e1158]
+                  - cell "286" [ref=e1159]
+                  - cell "288" [ref=e1160]
+                  - cell "284" [ref=e1161]
+                  - cell "285" [ref=e1162]
+                  - cell "287" [ref=e1163]
+                  - cell "287" [ref=e1164]
+                  - cell "287" [ref=e1165]
+                  - cell "287" [ref=e1166]
+                  - cell "298" [ref=e1167]
+                  - cell "298" [ref=e1168]
+                  - cell "298" [ref=e1169]
+                  - cell "298" [ref=e1170]
+                  - cell "298" [ref=e1171]
+                  - cell "298" [ref=e1172]
+                  - cell "298" [ref=e1173]
+                  - cell "298" [ref=e1174]
+                  - cell "298" [ref=e1175]
+                  - cell "298" [ref=e1176]
+                  - cell "298" [ref=e1177]
+                  - cell "302" [ref=e1178]
+                  - cell "306" [ref=e1179]
+          - button "Close" [ref=e1185] [cursor=pointer]

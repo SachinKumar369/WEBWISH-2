@@ -1,0 +1,12 @@
+[    2868ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0
+[  107693ms] [WARNING] The specified value "2025-07-01 to 2025-07-02" does not conform to the required format, "yyyy-MM-dd". @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.823a313f4154e086.js:8
+[  108056ms] [ERROR] ERROR TypeError: this.criteriaActionHandlers.refresh is not a function
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/923.24dbba91bf42b0da.js:1:638134
+    at U.<computed> (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:37793)
+    at I.invokeTask (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:16756)
+    at Object.onInvokeTask (https://qc2webwish.prologicfirst.in/Webwish_APP/main.823a313f4154e086.js:9:1111784)
+    at I.invokeTask (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:16677)
+    at z.runTask (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:12122)
+    at invokeTask (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:17810)
+    at invoke (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:17711)
+    at y.args.<computed> (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:37505) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.823a313f4154e086.js:8

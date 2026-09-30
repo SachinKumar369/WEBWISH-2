@@ -1,0 +1,563 @@
+- generic [ref=e1]:
+  - generic [ref=e150]:
+    - generic [ref=e151]:
+      - banner [ref=e152]:
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - link [ref=e157] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e161]:
+              - textbox [ref=e444]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=e163]: 󰍉
+          - heading [level=5] [ref=e445]: WEBWISHQCMI
+          - generic [ref=e166]:
+            - button [ref=e446] [cursor=pointer]:
+              - generic [ref=e169]: 󰅒
+            - button [ref=e447] [cursor=pointer]:
+              - generic [ref=e172]: 
+            - button [ref=e448] [cursor=pointer]:
+              - generic [ref=e175]: 
+            - button [ref=e449] [cursor=pointer]:
+              - generic [ref=e450]: 
+              - generic [ref=e179]: "1"
+            - generic [ref=e180]:
+              - button [ref=e451] [cursor=pointer]:
+                - generic [ref=e452]: 
+              - text:  
+            - generic [ref=e183]:
+              - button [ref=e453] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e455] [cursor=pointer]:
+              - generic [ref=e189]: 
+      - generic [ref=e196]:
+        - text: 
+        - region [ref=e456]:
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - link [ref=e457] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e209]: 
+            - listitem [ref=e210]:
+              - link [ref=e458] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e213]: 
+            - listitem [ref=e214]:
+              - link [ref=e459] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e217]: 
+            - listitem [ref=e218]:
+              - link [ref=e460] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e221]: 󰃢
+            - listitem [ref=e222]:
+              - link [ref=e461] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e224]: 
+            - listitem [ref=e225]:
+              - link [ref=e462] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e228]: 
+            - listitem [ref=e229]:
+              - link [ref=e463] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e232]: 
+            - listitem [ref=e233]:
+              - link [ref=e464] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e236]: 
+            - listitem [ref=e237]:
+              - link [ref=e465] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e240]: 
+            - listitem [ref=e241]:
+              - link [ref=e466] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e244]: 
+            - text:  
+            - listitem [ref=e245]:
+              - link [ref=e467] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e248]: 
+      - generic [ref=e250]:
+        - generic [ref=e253]:
+          - generic [ref=e254]:
+            - heading [level=2] [ref=e468]: Welcome! SACHIN KUMAR.
+            - generic [ref=e264]:
+              - generic [ref=e265]:
+                - generic [ref=e268] [cursor=pointer]:
+                  - generic [ref=e269]:
+                    - paragraph [ref=e271]: Current Occupancy
+                    - heading [level=5] [ref=e469]:
+                      - generic [ref=e274]: 
+                      - text: + 0 %
+                  - generic [ref=e275]:
+                    - heading [level=4] [ref=e470]: 19.92%
+                    - generic [ref=e278]: 
+                - generic [ref=e283] [cursor=pointer]:
+                  - generic [ref=e284]:
+                    - paragraph [ref=e286]: Expected Arrivals
+                    - heading [level=5] [ref=e471]:
+                      - generic [ref=e289]: 
+                      - text: + 99
+                  - generic [ref=e290]:
+                    - heading [level=4] [ref=e472]: "99"
+                    - generic [ref=e293]: 
+                - generic [ref=e298] [cursor=pointer]:
+                  - generic [ref=e299]:
+                    - paragraph [ref=e301]: In-house
+                    - heading [level=5] [ref=e473]:
+                      - generic [ref=e304]: 
+                      - text: + 0
+                  - generic [ref=e305]:
+                    - heading [level=4] [ref=e474]: "0"
+                    - generic [ref=e308]: 
+                - generic [ref=e313] [cursor=pointer]:
+                  - generic [ref=e314]:
+                    - paragraph [ref=e316]: Expected Departures
+                    - heading [level=5] [ref=e475]:
+                      - generic [ref=e319]: 
+                      - text: + 0
+                  - generic [ref=e320]:
+                    - heading [level=4] [ref=e476]: "0"
+                    - generic [ref=e323]: 
+              - generic [ref=e328]:
+                - textbox [ref=e477]:
+                  - /placeholder: Search function/menu/guest/group/room...
+                  - text: 󰅀
+                - button [ref=e478] [cursor=pointer]:
+                  - text: Search
+                  - generic [ref=e331]: 󱎸
+              - generic [ref=e336]:
+                - generic [ref=e338] [cursor=pointer]:
+                  - generic [ref=e339]: 
+                  - paragraph [ref=e341]: Guest Management
+                - generic [ref=e343] [cursor=pointer]:
+                  - generic [ref=e344]: 
+                  - paragraph [ref=e346]: System Utilities
+                - generic [ref=e348] [cursor=pointer]:
+                  - generic [ref=e349]: 
+                  - paragraph [ref=e351]: Availability Management
+                - generic [ref=e353] [cursor=pointer]:
+                  - generic [ref=e354]: 
+                  - paragraph [ref=e356]: Night Audit
+          - text:   󰒊
+        - contentinfo [ref=e357]:
+          - generic [ref=e359]:
+            - heading [level=6] [ref=e479]: "Property Id: WEBMI, User Id: SACHIN KUMAR, Shift: 1, Business Date: 18/09/2026"
+            - heading [level=6] [ref=e480]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e365]: 󰅒
+  - dialog [ref=e482]:
+    - document:
+      - generic [ref=e485]:
+        - heading "󰧮 Availability" [level=4] [ref=e487]:
+          - generic [ref=e488]: 󰧮
+          - text: Availability
+        - generic [ref=e492]:
+          - generic [ref=e493]:
+            - generic [ref=e494]:
+              - alert [ref=e496]:
+                - generic [ref=e497]: 
+                - strong [ref=e499]: Refreshed on
+                - text: 18/09/2026 at 16:54
+              - generic [ref=e502]:
+                - button "󰈲" [ref=e503] [cursor=pointer]
+                - button "󰑐" [ref=e506] [cursor=pointer]
+              - generic [ref=e511]:
+                - generic [ref=e512]: "View : Summary"
+                - generic [ref=e513]: "Date : 18/09/2026"
+              - generic [ref=e516]:
+                - generic [ref=e517] [cursor=pointer]:
+                  - generic [ref=e518]: "-"
+                  - text: Available
+                - generic [ref=e519] [cursor=pointer]:
+                  - generic [ref=e520]: "-"
+                  - text: Available Due to Over Booking(+)
+                - generic [ref=e521] [cursor=pointer]:
+                  - generic [ref=e522]: "-"
+                  - text: Room Not Available
+                - generic [ref=e523] [cursor=pointer]:
+                  - generic [ref=e524]: "-"
+                  - text: Not Available Due To UnderBooking
+                - generic [ref=e525] [cursor=pointer]:
+                  - generic [ref=e526]: 
+                  - text: Closed for Arrival
+                - generic [ref=e529] [cursor=pointer]:
+                  - generic [ref=e530]: 
+                  - text: Closed for Departure
+                - generic [ref=e533] [cursor=pointer]:
+                  - generic [ref=e534]: 
+                  - text: Only stay thru
+            - table [ref=e540]:
+              - rowgroup [ref=e541]:
+                - row [ref=e542]:
+                  - columnheader "Toolbar with button groups" [ref=e543]:
+                    - toolbar "Toolbar with button groups"
+                  - columnheader "18 Fri" [ref=e544]
+                  - columnheader "19 Sat" [ref=e545]
+                  - columnheader "20 Sun" [ref=e546]
+                  - columnheader "21 Mon" [ref=e547]
+                  - columnheader "22 Tue" [ref=e548]
+                  - columnheader "23 Wed" [ref=e549]
+                  - columnheader "24 Thu" [ref=e550]
+                  - columnheader "25 Fri" [ref=e551]
+                  - columnheader "26 Sat" [ref=e552]
+                  - columnheader "27 Sun" [ref=e553]
+                  - columnheader "28 Mon" [ref=e554]
+                  - columnheader "29 Tue" [ref=e555]
+                  - columnheader "30 Wed" [ref=e556]
+                  - columnheader "1 Thu" [ref=e557]
+                  - columnheader "2 Fri" [ref=e558]
+                  - columnheader "3 Sat" [ref=e559]
+                  - columnheader "4 Sun" [ref=e560]
+                  - columnheader "5 Mon" [ref=e561]
+                  - columnheader "6 Tue" [ref=e562]
+                  - columnheader "7 Wed" [ref=e563]
+                  - columnheader "8 Thu" [ref=e564]
+                  - columnheader "9 Fri" [ref=e565]
+                  - columnheader "10 Sat" [ref=e566]
+                  - columnheader "11 Sun" [ref=e567]
+                  - columnheader "12 Mon" [ref=e568]
+                  - columnheader "13 Tue" [ref=e569]
+                  - columnheader "14 Wed" [ref=e570]
+                  - columnheader "15 Thu" [ref=e571]
+                  - columnheader "16 Fri" [ref=e572]
+                  - columnheader "17 Sat" [ref=e573]
+                  - columnheader "18 Sun" [ref=e574]
+              - rowgroup [ref=e575]:
+                - row [ref=e576]:
+                  - cell "Beachsuite" [ref=e577]
+                  - cell "0" [ref=e579]
+                  - cell "99" [ref=e581]
+                  - cell "99" [ref=e583]
+                  - cell "99" [ref=e585]
+                  - cell "99" [ref=e587]
+                  - cell "99" [ref=e589]
+                  - cell "100" [ref=e591]
+                  - cell "100" [ref=e593]
+                  - cell "100" [ref=e595]
+                  - cell "100" [ref=e597]
+                  - cell "100" [ref=e599]
+                  - cell "100" [ref=e601]
+                  - cell "100" [ref=e603]
+                  - cell "100" [ref=e605]
+                  - cell "100" [ref=e607]
+                  - cell "100" [ref=e609]
+                  - cell "100" [ref=e611]
+                  - cell "100" [ref=e613]
+                  - cell "100" [ref=e615]
+                  - cell "100" [ref=e617]
+                  - cell "100" [ref=e619]
+                  - cell "100" [ref=e621]
+                  - cell "100" [ref=e623]
+                  - cell "100" [ref=e625]
+                  - cell "100" [ref=e627]
+                  - cell "100" [ref=e629]
+                  - cell "100" [ref=e631]
+                  - cell "100" [ref=e633]
+                  - cell "100" [ref=e635]
+                  - cell "100" [ref=e637]
+                  - cell "100" [ref=e639]
+                - row [ref=e641]:
+                  - cell "Bed Type Standard Room" [ref=e642]
+                  - cell "100" [ref=e644]
+                  - cell "100" [ref=e646]
+                  - cell "100" [ref=e648]
+                  - cell "100" [ref=e650]
+                  - cell "100" [ref=e652]
+                  - cell "100" [ref=e654]
+                  - cell "100" [ref=e656]
+                  - cell "100" [ref=e658]
+                  - cell "100" [ref=e660]
+                  - cell "100" [ref=e662]
+                  - cell "100" [ref=e664]
+                  - cell "100" [ref=e666]
+                  - cell "100" [ref=e668]
+                  - cell "100" [ref=e670]
+                  - cell "100" [ref=e672]
+                  - cell "100" [ref=e674]
+                  - cell "100" [ref=e676]
+                  - cell "100" [ref=e678]
+                  - cell "100" [ref=e680]
+                  - cell "100" [ref=e682]
+                  - cell "100" [ref=e684]
+                  - cell "100" [ref=e686]
+                  - cell "100" [ref=e688]
+                  - cell "100" [ref=e690]
+                  - cell "100" [ref=e692]
+                  - cell "100" [ref=e694]
+                  - cell "100" [ref=e696]
+                  - cell "100" [ref=e698]
+                  - cell "100" [ref=e700]
+                  - cell "100" [ref=e702]
+                  - cell "100" [ref=e704]
+                - row [ref=e706]:
+                  - cell "Deluxe Rooms" [ref=e707]
+                  - cell "99" [ref=e709]
+                  - cell "99" [ref=e711]
+                  - cell "99" [ref=e713]
+                  - cell "99 " [ref=e715]:
+                    - generic [ref=e716]: "99"
+                    - generic [ref=e717]: 
+                  - cell "99 " [ref=e720]:
+                    - generic [ref=e721]: "99"
+                    - generic [ref=e722]: 
+                  - cell "99" [ref=e725]
+                  - cell "99" [ref=e727]
+                  - cell "100" [ref=e729]
+                  - cell "100" [ref=e731]
+                  - cell "100" [ref=e733]
+                  - cell "100" [ref=e735]
+                  - cell "100" [ref=e737]
+                  - cell "100" [ref=e739]
+                  - cell "100" [ref=e741]
+                  - cell "100" [ref=e743]
+                  - cell "100" [ref=e745]
+                  - cell "100" [ref=e747]
+                  - cell "100" [ref=e749]
+                  - cell "100" [ref=e751]
+                  - cell "100" [ref=e753]
+                  - cell "100" [ref=e755]
+                  - cell "100" [ref=e757]
+                  - cell "100" [ref=e759]
+                  - cell "100" [ref=e761]
+                  - cell "100" [ref=e763]
+                  - cell "100" [ref=e765]
+                  - cell "100" [ref=e767]
+                  - cell "100" [ref=e769]
+                  - cell "100" [ref=e771]
+                  - cell "100" [ref=e773]
+                  - cell "100" [ref=e775]
+                - row [ref=e777]:
+                  - cell "Standard Rooms" [ref=e778]
+                  - cell "99" [ref=e780]
+                  - cell "99" [ref=e782]
+                  - cell "99" [ref=e784]
+                  - cell "99" [ref=e786]
+                  - cell "99" [ref=e788]
+                  - cell "99" [ref=e790]
+                  - cell "99" [ref=e792]
+                  - cell "100" [ref=e794]
+                  - cell "100" [ref=e796]
+                  - cell "100" [ref=e798]
+                  - cell "100" [ref=e800]
+                  - cell "100" [ref=e802]
+                  - cell "100" [ref=e804]
+                  - cell "100" [ref=e806]
+                  - cell "100" [ref=e808]
+                  - cell "100" [ref=e810]
+                  - cell "100" [ref=e812]
+                  - cell "100" [ref=e814]
+                  - cell "100" [ref=e816]
+                  - cell "100" [ref=e818]
+                  - cell "100" [ref=e820]
+                  - cell "100" [ref=e822]
+                  - cell "100" [ref=e824]
+                  - cell "100" [ref=e826]
+                  - cell "100" [ref=e828]
+                  - cell "100" [ref=e830]
+                  - cell "100" [ref=e832]
+                  - cell "100" [ref=e834]
+                  - cell "100" [ref=e836]
+                  - cell "100" [ref=e838]
+                  - cell "100" [ref=e840]
+                - row [ref=e842]:
+                  - cell "Suite City View" [ref=e843]
+                  - cell "100" [ref=e845]
+                  - cell "100" [ref=e847]
+                  - cell "100" [ref=e849]
+                  - cell "100" [ref=e851]
+                  - cell "100" [ref=e853]
+                  - cell "100" [ref=e855]
+                  - cell "100" [ref=e857]
+                  - cell "100" [ref=e859]
+                  - cell "100" [ref=e861]
+                  - cell "100" [ref=e863]
+                  - cell "100" [ref=e865]
+                  - cell "100" [ref=e867]
+                  - cell "100" [ref=e869]
+                  - cell "100" [ref=e871]
+                  - cell "100" [ref=e873]
+                  - cell "100" [ref=e875]
+                  - cell "100" [ref=e877]
+                  - cell "100" [ref=e879]
+                  - cell "100" [ref=e881]
+                  - cell "100" [ref=e883]
+                  - cell "100" [ref=e885]
+                  - cell "100" [ref=e887]
+                  - cell "100" [ref=e889]
+                  - cell "100" [ref=e891]
+                  - cell "100" [ref=e893]
+                  - cell "100" [ref=e895]
+                  - cell "100" [ref=e897]
+                  - cell "100" [ref=e899]
+                  - cell "100" [ref=e901]
+                  - cell "100" [ref=e903]
+                  - cell "100" [ref=e905]
+                - row [ref=e907]:
+                  - cell [ref=e908]
+                  - cell [ref=e909]
+                  - cell [ref=e910]
+                  - cell [ref=e911]
+                  - cell [ref=e912]
+                  - cell [ref=e913]
+                  - cell [ref=e914]
+                  - cell [ref=e915]
+                  - cell [ref=e916]
+                  - cell [ref=e917]
+                  - cell [ref=e918]
+                  - cell [ref=e919]
+                  - cell [ref=e920]
+                  - cell [ref=e921]
+                  - cell [ref=e922]
+                  - cell [ref=e923]
+                  - cell [ref=e924]
+                  - cell [ref=e925]
+                  - cell [ref=e926]
+                  - cell [ref=e927]
+                  - cell [ref=e928]
+                  - cell [ref=e929]
+                  - cell [ref=e930]
+                  - cell [ref=e931]
+                  - cell [ref=e932]
+                  - cell [ref=e933]
+                  - cell [ref=e934]
+                  - cell [ref=e935]
+                  - cell [ref=e936]
+                  - cell [ref=e937]
+                  - cell [ref=e938]
+                  - cell [ref=e939]
+                - row [ref=e940]:
+                  - cell "Total Saleable" [ref=e941]
+                  - cell "497" [ref=e942]
+                  - cell "497" [ref=e943]
+                  - cell "497" [ref=e944]
+                  - cell "497" [ref=e945]
+                  - cell "497" [ref=e946]
+                  - cell "497" [ref=e947]
+                  - cell "498" [ref=e948]
+                  - cell "500" [ref=e949]
+                  - cell "500" [ref=e950]
+                  - cell "500" [ref=e951]
+                  - cell "500" [ref=e952]
+                  - cell "500" [ref=e953]
+                  - cell "500" [ref=e954]
+                  - cell "500" [ref=e955]
+                  - cell "500" [ref=e956]
+                  - cell "500" [ref=e957]
+                  - cell "500" [ref=e958]
+                  - cell "500" [ref=e959]
+                  - cell "500" [ref=e960]
+                  - cell "500" [ref=e961]
+                  - cell "500" [ref=e962]
+                  - cell "500" [ref=e963]
+                  - cell "500" [ref=e964]
+                  - cell "500" [ref=e965]
+                  - cell "500" [ref=e966]
+                  - cell "500" [ref=e967]
+                  - cell "500" [ref=e968]
+                  - cell "500" [ref=e969]
+                  - cell "500" [ref=e970]
+                  - cell "500" [ref=e971]
+                  - cell "500" [ref=e972]
+                - row [ref=e973]:
+                  - cell "Total Booked" [ref=e974]
+                  - cell "99" [ref=e975] [cursor=pointer]
+                  - cell "0" [ref=e976] [cursor=pointer]
+                  - cell "0" [ref=e977] [cursor=pointer]
+                  - cell "0" [ref=e978] [cursor=pointer]
+                  - cell "0" [ref=e979] [cursor=pointer]
+                  - cell "0" [ref=e980] [cursor=pointer]
+                  - cell "0" [ref=e981] [cursor=pointer]
+                  - cell "0" [ref=e982] [cursor=pointer]
+                  - cell "0" [ref=e983] [cursor=pointer]
+                  - cell "0" [ref=e984] [cursor=pointer]
+                  - cell "0" [ref=e985] [cursor=pointer]
+                  - cell "0" [ref=e986] [cursor=pointer]
+                  - cell "0" [ref=e987] [cursor=pointer]
+                  - cell "0" [ref=e988] [cursor=pointer]
+                  - cell "0" [ref=e989] [cursor=pointer]
+                  - cell "0" [ref=e990] [cursor=pointer]
+                  - cell "0" [ref=e991] [cursor=pointer]
+                  - cell "0" [ref=e992] [cursor=pointer]
+                  - cell "0" [ref=e993] [cursor=pointer]
+                  - cell "0" [ref=e994] [cursor=pointer]
+                  - cell "0" [ref=e995] [cursor=pointer]
+                  - cell "0" [ref=e996] [cursor=pointer]
+                  - cell "0" [ref=e997] [cursor=pointer]
+                  - cell "0" [ref=e998] [cursor=pointer]
+                  - cell "0" [ref=e999] [cursor=pointer]
+                  - cell "0" [ref=e1000] [cursor=pointer]
+                  - cell "0" [ref=e1001] [cursor=pointer]
+                  - cell "0" [ref=e1002] [cursor=pointer]
+                  - cell "0" [ref=e1003] [cursor=pointer]
+                  - cell "0" [ref=e1004] [cursor=pointer]
+                  - cell "0" [ref=e1005] [cursor=pointer]
+                - row [ref=e1006]:
+                  - cell "Occupancy %" [ref=e1007]
+                  - cell "19.92" [ref=e1008]
+                  - cell "0.00" [ref=e1009]
+                  - cell "0.00" [ref=e1010]
+                  - cell "0.00" [ref=e1011]
+                  - cell "0.00" [ref=e1012]
+                  - cell "0.00" [ref=e1013]
+                  - cell "0.00" [ref=e1014]
+                  - cell "0.00" [ref=e1015]
+                  - cell "0.00" [ref=e1016]
+                  - cell "0.00" [ref=e1017]
+                  - cell "0.00" [ref=e1018]
+                  - cell "0.00" [ref=e1019]
+                  - cell "0.00" [ref=e1020]
+                  - cell "0.00" [ref=e1021]
+                  - cell "0.00" [ref=e1022]
+                  - cell "0.00" [ref=e1023]
+                  - cell "0.00" [ref=e1024]
+                  - cell "0.00" [ref=e1025]
+                  - cell "0.00" [ref=e1026]
+                  - cell "0.00" [ref=e1027]
+                  - cell "0.00" [ref=e1028]
+                  - cell "0.00" [ref=e1029]
+                  - cell "0.00" [ref=e1030]
+                  - cell "0.00" [ref=e1031]
+                  - cell "0.00" [ref=e1032]
+                  - cell "0.00" [ref=e1033]
+                  - cell "0.00" [ref=e1034]
+                  - cell "0.00" [ref=e1035]
+                  - cell "0.00" [ref=e1036]
+                  - cell "0.00" [ref=e1037]
+                  - cell "0.00" [ref=e1038]
+                - row [ref=e1039]:
+                  - cell "Total Available" [ref=e1040]
+                  - cell "398" [ref=e1041]
+                  - cell "497" [ref=e1042]
+                  - cell "497" [ref=e1043]
+                  - cell "497" [ref=e1044]
+                  - cell "497" [ref=e1045]
+                  - cell "497" [ref=e1046]
+                  - cell "498" [ref=e1047]
+                  - cell "500" [ref=e1048]
+                  - cell "500" [ref=e1049]
+                  - cell "500" [ref=e1050]
+                  - cell "500" [ref=e1051]
+                  - cell "500" [ref=e1052]
+                  - cell "500" [ref=e1053]
+                  - cell "500" [ref=e1054]
+                  - cell "500" [ref=e1055]
+                  - cell "500" [ref=e1056]
+                  - cell "500" [ref=e1057]
+                  - cell "500" [ref=e1058]
+                  - cell "500" [ref=e1059]
+                  - cell "500" [ref=e1060]
+                  - cell "500" [ref=e1061]
+                  - cell "500" [ref=e1062]
+                  - cell "500" [ref=e1063]
+                  - cell "500" [ref=e1064]
+                  - cell "500" [ref=e1065]
+                  - cell "500" [ref=e1066]
+                  - cell "500" [ref=e1067]
+                  - cell "500" [ref=e1068]
+                  - cell "500" [ref=e1069]
+                  - cell "500" [ref=e1070]
+                  - cell "500" [ref=e1071]
+          - button "Close" [active] [ref=e1077] [cursor=pointer]

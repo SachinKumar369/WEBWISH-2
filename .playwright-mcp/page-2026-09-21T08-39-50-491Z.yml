@@ -1,0 +1,799 @@
+- generic [ref=f6e1718]:
+  - generic [ref=f6e1719]:
+    - banner [ref=f6e1720]:
+      - generic [ref=f6e1722]:
+        - generic [ref=f6e1723]:
+          - link [ref=f6e1725] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=f6e1729]:
+            - textbox "Search" [ref=f6e1730]: guest management 󰅀
+            - generic [ref=f6e1731]: 󰍉
+        - heading "Webwish Hotel" [level=5] [ref=f6e1733]
+        - generic [ref=f6e1734]:
+          - button "󰅒" [ref=f6e1736] [cursor=pointer]
+          - button "" [ref=f6e1739] [cursor=pointer]
+          - button "" [ref=f6e1742] [cursor=pointer]
+          - button " 3" [ref=f6e1745] [cursor=pointer]:
+            - generic "Change Shift" [ref=f6e1746]: 
+            - generic [ref=f6e1747]: "3"
+          - generic [ref=f6e1748]:
+            - button "" [ref=f6e1749] [cursor=pointer]:
+              - generic "Notifications" [ref=f6e1750]: 
+            - text:  
+          - generic [ref=f6e1751]:
+            - button [ref=f6e1752] [cursor=pointer]:
+              - img "Header Avatar" [ref=f6e1754]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button [ref=f6e1756] [cursor=pointer]:
+            - img "Header Avatar" [ref=f6e1758]
+    - generic [ref=f6e1767]:
+      - text: 
+      - region "scrollable content" [ref=f6e1774]:
+        - list [ref=f6e1776]:
+          - listitem
+          - listitem [ref=f6e1777]:
+            - link "" [ref=f6e1779] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1781]:
+            - link "" [ref=f6e1783] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1785]:
+            - link "" [ref=f6e1787] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1789]:
+            - link "󰃢" [ref=f6e1791] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1793]:
+            - link "" [ref=f6e1794] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1796]:
+            - link "" [ref=f6e1798] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1800]:
+            - link "" [ref=f6e1802] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1804]:
+            - link "" [ref=f6e1806] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1808]:
+            - link "" [ref=f6e1810] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1812]:
+            - link "" [ref=f6e1814] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem
+          - listitem: 
+          - listitem: 
+          - listitem [ref=f6e1816]:
+            - link "" [ref=f6e1818] [cursor=pointer]:
+              - /url: javascript:void(0);
+    - generic [ref=f6e1821]:
+      - generic [ref=f6e1943]:
+        - generic [ref=f6e1947]:
+          - heading "New Reservation" [level=3] [ref=f6e2359]
+          - toolbar "Grid actions" [ref=f6e2465]:
+            - button "Filter" [ref=f6e2467] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f6e2468]: 󰈲
+            - button "Refresh" [ref=f6e2471] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f6e2472]: 󰑐
+        - generic [ref=f6e2360]:
+          - generic [ref=f6e2477]:
+            - generic [ref=f6e2478]: "Property Id : WEBWE"
+            - generic [ref=f6e2479]: "Arrival : 02/07/2025"
+            - generic [ref=f6e2480]: "Departure : 03/07/2025"
+            - generic [ref=f6e2481]: "Adult : 1"
+            - generic [ref=f6e2482]: "Youth : 0"
+            - generic [ref=f6e2483]: "Child : 0"
+          - generic [ref=f6e2486]:
+            - generic [ref=f6e2490]:
+              - generic [ref=f6e2491] [cursor=pointer]:
+                - generic [ref=f6e2492]: "-"
+                - text: Available
+              - generic [ref=f6e2493] [cursor=pointer]:
+                - generic [ref=f6e2494]: "-"
+                - text: Not Available
+              - generic [ref=f6e2495] [cursor=pointer]:
+                - generic [ref=f6e2496]: 
+                - text: Closed for Arrival
+              - generic [ref=f6e2499] [cursor=pointer]:
+                - generic [ref=f6e2500]: 
+                - text: Closed for Departure
+              - generic [ref=f6e2503] [cursor=pointer]:
+                - generic [ref=f6e2504]: 
+                - text: Stay thru (Closed for arrival and departure)
+              - generic [ref=f6e2507] [cursor=pointer]:
+                - generic [ref=f6e2508]: 󰅜
+                - text: Stay Close
+            - table [ref=f6e2512]:
+              - rowgroup [ref=f6e2513]:
+                - columnheader [ref=f6e2514]
+                - columnheader "2 Jul, 2025" [ref=f6e2515]
+                - columnheader "3 Jul, 2025" [ref=f6e2516]
+                - columnheader "4 Jul, 2025" [ref=f6e2517]
+                - columnheader "5 Jul, 2025" [ref=f6e2518]
+                - columnheader "6 Jul, 2025" [ref=f6e2519]
+                - columnheader "7 Jul, 2025" [ref=f6e2520]
+                - columnheader "8 Jul, 2025" [ref=f6e2521]
+                - columnheader "9 Jul, 2025" [ref=f6e2522]
+                - columnheader "10 Jul, 2025" [ref=f6e2523]
+                - columnheader "11 Jul, 2025" [ref=f6e2524]
+                - columnheader "Rooms" [ref=f6e2525]
+              - rowgroup [ref=f6e2526]:
+                - row [ref=f6e2527]:
+                  - cell "DGT 151 rooms Upto 107 person(s) per room" [ref=f6e2528]:
+                    - generic [ref=f6e2529]:
+                      - heading "DGT" [level=5] [ref=f6e2530]
+                      - paragraph [ref=f6e2531]: 151 rooms
+                      - separator [ref=f6e2532]
+                      - paragraph [ref=f6e2533]:
+                        - generic [ref=f6e2534]: 
+                        - text: Upto 107 person(s) per room
+                  - cell [ref=f6e2535]:
+                    - generic [ref=f6e2536]:
+                      - paragraph [ref=f6e2538]: Rack Rate
+                      - paragraph [ref=f6e2539]: 107 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2540]
+                      - paragraph [ref=f6e2541]
+                  - cell [ref=f6e2542]:
+                    - generic [ref=f6e2543]:
+                      - paragraph [ref=f6e2545]: Rack Rate
+                      - paragraph [ref=f6e2546]: 122 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2547]
+                      - paragraph [ref=f6e2548]
+                  - cell [ref=f6e2549]:
+                    - generic [ref=f6e2550]:
+                      - paragraph [ref=f6e2552]: Rack Rate
+                      - paragraph [ref=f6e2553]: 134 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2554]
+                      - paragraph [ref=f6e2555]
+                  - cell [ref=f6e2556]:
+                    - generic [ref=f6e2557]:
+                      - paragraph [ref=f6e2559]: Rack Rate
+                      - paragraph [ref=f6e2560]: 140 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2561]
+                      - paragraph [ref=f6e2562]
+                  - cell [ref=f6e2563]:
+                    - generic [ref=f6e2564]:
+                      - paragraph [ref=f6e2566]: Rack Rate
+                      - paragraph [ref=f6e2567]: 141 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2568]
+                      - paragraph [ref=f6e2569]
+                  - cell " Rack Rate 141 Rooms ₹1,000.00" [ref=f6e2570]:
+                    - generic [ref=f6e2571]:
+                      - generic [ref=f6e2573]: 
+                      - paragraph [ref=f6e2575]: Rack Rate
+                      - paragraph [ref=f6e2576]: 141 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2577]
+                      - paragraph [ref=f6e2578]
+                  - cell " Rack Rate 142 Rooms ₹1,000.00" [ref=f6e2579]:
+                    - generic [ref=f6e2580]:
+                      - generic [ref=f6e2582]: 
+                      - paragraph [ref=f6e2584]: Rack Rate
+                      - paragraph [ref=f6e2585]: 142 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2586]
+                      - paragraph [ref=f6e2587]
+                  - cell " Rack Rate 134 Rooms ₹1,000.00" [ref=f6e2588]:
+                    - generic [ref=f6e2589]:
+                      - generic [ref=f6e2591]: 
+                      - paragraph [ref=f6e2593]: Rack Rate
+                      - paragraph [ref=f6e2594]: 134 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2595]
+                      - paragraph [ref=f6e2596]
+                  - cell [ref=f6e2597]:
+                    - generic [ref=f6e2598]:
+                      - paragraph [ref=f6e2600]: Rack Rate
+                      - paragraph [ref=f6e2601]: 137 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2602]
+                      - paragraph [ref=f6e2603]
+                  - cell [ref=f6e2604]:
+                    - generic [ref=f6e2605]:
+                      - paragraph [ref=f6e2607]: Rack Rate
+                      - paragraph [ref=f6e2608]: 137 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2609]
+                      - paragraph [ref=f6e2610]
+                  - cell "+ 0 -" [ref=f6e2611]:
+                    - generic [ref=f6e2613]:
+                      - button "+" [ref=f6e2614] [cursor=pointer]
+                      - generic [ref=f6e2615]: "0"
+                      - button "-" [ref=f6e2616] [cursor=pointer]
+                - row [ref=f6e2617]:
+                  - cell "LPT 50 rooms Upto 44 person(s) per room" [ref=f6e2618]:
+                    - generic [ref=f6e2619]:
+                      - heading "LPT" [level=5] [ref=f6e2620]
+                      - paragraph [ref=f6e2621]: 50 rooms
+                      - separator [ref=f6e2622]
+                      - paragraph [ref=f6e2623]:
+                        - generic [ref=f6e2624]: 
+                        - text: Upto 44 person(s) per room
+                  - cell [ref=f6e2625]:
+                    - generic [ref=f6e2626]:
+                      - paragraph [ref=f6e2628]: Rack Rate
+                      - paragraph [ref=f6e2629]: 44 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2630]
+                      - paragraph [ref=f6e2631]
+                  - cell [ref=f6e2632]:
+                    - generic [ref=f6e2633]:
+                      - paragraph [ref=f6e2635]: Rack Rate
+                      - paragraph [ref=f6e2636]: 47 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2637]
+                      - paragraph [ref=f6e2638]
+                  - cell [ref=f6e2639]:
+                    - generic [ref=f6e2640]:
+                      - paragraph [ref=f6e2642]: Rack Rate
+                      - paragraph [ref=f6e2643]: 48 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2644]
+                      - paragraph [ref=f6e2645]
+                  - cell [ref=f6e2646]:
+                    - generic [ref=f6e2647]:
+                      - paragraph [ref=f6e2649]: Rack Rate
+                      - paragraph [ref=f6e2650]: 50 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2651]
+                      - paragraph [ref=f6e2652]
+                  - cell [ref=f6e2653]:
+                    - generic [ref=f6e2654]:
+                      - paragraph [ref=f6e2656]: Rack Rate
+                      - paragraph [ref=f6e2657]: 50 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2658]
+                      - paragraph [ref=f6e2659]
+                  - cell [ref=f6e2660]:
+                    - generic [ref=f6e2661]:
+                      - paragraph [ref=f6e2663]: Rack Rate
+                      - paragraph [ref=f6e2664]: 50 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2665]
+                      - paragraph [ref=f6e2666]
+                  - cell [ref=f6e2667]:
+                    - generic [ref=f6e2668]:
+                      - paragraph [ref=f6e2670]: Rack Rate
+                      - paragraph [ref=f6e2671]: 50 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2672]
+                      - paragraph [ref=f6e2673]
+                  - cell [ref=f6e2674]:
+                    - generic [ref=f6e2675]:
+                      - paragraph [ref=f6e2677]: Rack Rate
+                      - paragraph [ref=f6e2678]: 50 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2679]
+                      - paragraph [ref=f6e2680]
+                  - cell [ref=f6e2681]:
+                    - generic [ref=f6e2682]:
+                      - paragraph [ref=f6e2684]: Rack Rate
+                      - paragraph [ref=f6e2685]: 50 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2686]
+                      - paragraph [ref=f6e2687]
+                  - cell [ref=f6e2688]:
+                    - generic [ref=f6e2689]:
+                      - paragraph [ref=f6e2691]: Rack Rate
+                      - paragraph [ref=f6e2692]: 49 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2693]
+                      - paragraph [ref=f6e2694]
+                  - cell "+ 0 -" [ref=f6e2695]:
+                    - generic [ref=f6e2697]:
+                      - button "+" [ref=f6e2698] [cursor=pointer]
+                      - generic [ref=f6e2699]: "0"
+                      - button "-" [ref=f6e2700] [cursor=pointer]
+                - row [ref=f6e2701]:
+                  - cell "DUMMY Room 1 rooms Upto -1 person(s) per room" [ref=f6e2702]:
+                    - generic [ref=f6e2703]:
+                      - heading "DUMMY Room" [level=5] [ref=f6e2704]
+                      - paragraph [ref=f6e2705]: 1 rooms
+                      - separator [ref=f6e2706]
+                      - paragraph [ref=f6e2707]:
+                        - generic [ref=f6e2708]: 
+                        - text: Upto -1 person(s) per room
+                  - cell [ref=f6e2709]:
+                    - generic [ref=f6e2710]:
+                      - paragraph [ref=f6e2712]: Rack Rate
+                      - paragraph [ref=f6e2713]: "-1 Rooms"
+                      - heading "₹1,000.00" [level=6] [ref=f6e2714]
+                      - paragraph [ref=f6e2715]
+                  - cell [ref=f6e2716]:
+                    - generic [ref=f6e2717]:
+                      - paragraph [ref=f6e2719]: Rack Rate
+                      - paragraph [ref=f6e2720]: 0 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2721]
+                      - paragraph [ref=f6e2722]
+                  - cell [ref=f6e2723]:
+                    - generic [ref=f6e2724]:
+                      - paragraph [ref=f6e2726]: Rack Rate
+                      - paragraph [ref=f6e2727]: 0 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2728]
+                      - paragraph [ref=f6e2729]
+                  - cell [ref=f6e2730]:
+                    - generic [ref=f6e2731]:
+                      - paragraph [ref=f6e2733]: Rack Rate
+                      - paragraph [ref=f6e2734]: 0 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2735]
+                      - paragraph [ref=f6e2736]
+                  - cell [ref=f6e2737]:
+                    - generic [ref=f6e2738]:
+                      - paragraph [ref=f6e2740]: Rack Rate
+                      - paragraph [ref=f6e2741]: 0 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2742]
+                      - paragraph [ref=f6e2743]
+                  - cell [ref=f6e2744]:
+                    - generic [ref=f6e2745]:
+                      - paragraph [ref=f6e2747]: Rack Rate
+                      - paragraph [ref=f6e2748]: 0 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2749]
+                      - paragraph [ref=f6e2750]
+                  - cell [ref=f6e2751]:
+                    - generic [ref=f6e2752]:
+                      - paragraph [ref=f6e2754]: Rack Rate
+                      - paragraph [ref=f6e2755]: 0 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2756]
+                      - paragraph [ref=f6e2757]
+                  - cell [ref=f6e2758]:
+                    - generic [ref=f6e2759]:
+                      - paragraph [ref=f6e2761]: Rack Rate
+                      - paragraph [ref=f6e2762]: 0 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2763]
+                      - paragraph [ref=f6e2764]
+                  - cell [ref=f6e2765]:
+                    - generic [ref=f6e2766]:
+                      - paragraph [ref=f6e2768]: Rack Rate
+                      - paragraph [ref=f6e2769]: 1 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2770]
+                      - paragraph [ref=f6e2771]
+                  - cell [ref=f6e2772]:
+                    - generic [ref=f6e2773]:
+                      - paragraph [ref=f6e2775]: Rack Rate
+                      - paragraph [ref=f6e2776]: 1 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2777]
+                      - paragraph [ref=f6e2778]
+                  - cell "+ 0 -" [ref=f6e2779]:
+                    - generic [ref=f6e2781]:
+                      - button "+" [ref=f6e2782] [cursor=pointer]
+                      - generic [ref=f6e2783]: "0"
+                      - button "-" [ref=f6e2784] [cursor=pointer]
+                - row [ref=f6e2785]:
+                  - cell "Delux Room 1 rooms Upto 0 person(s) per room" [ref=f6e2786]:
+                    - generic [ref=f6e2787]:
+                      - heading "Delux Room" [level=5] [ref=f6e2788]
+                      - paragraph [ref=f6e2789]: 1 rooms
+                      - separator [ref=f6e2790]
+                      - paragraph [ref=f6e2791]:
+                        - generic [ref=f6e2792]: 
+                        - text: Upto 0 person(s) per room
+                  - cell [ref=f6e2793]:
+                    - generic [ref=f6e2794]:
+                      - paragraph [ref=f6e2796]: Rack Rate
+                      - paragraph [ref=f6e2797]: 0 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2798]
+                      - paragraph [ref=f6e2799]
+                  - cell [ref=f6e2800]:
+                    - generic [ref=f6e2801]:
+                      - paragraph [ref=f6e2803]: Rack Rate
+                      - paragraph [ref=f6e2804]: 1 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2805]
+                      - paragraph [ref=f6e2806]
+                  - cell [ref=f6e2807]:
+                    - generic [ref=f6e2808]:
+                      - paragraph [ref=f6e2810]: Rack Rate
+                      - paragraph [ref=f6e2811]: 1 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2812]
+                      - paragraph [ref=f6e2813]
+                  - cell [ref=f6e2814]:
+                    - generic [ref=f6e2815]:
+                      - paragraph [ref=f6e2817]: Rack Rate
+                      - paragraph [ref=f6e2818]: 1 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2819]
+                      - paragraph [ref=f6e2820]
+                  - cell [ref=f6e2821]:
+                    - generic [ref=f6e2822]:
+                      - paragraph [ref=f6e2824]: Rack Rate
+                      - paragraph [ref=f6e2825]: 1 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2826]
+                      - paragraph [ref=f6e2827]
+                  - cell [ref=f6e2828]:
+                    - generic [ref=f6e2829]:
+                      - paragraph [ref=f6e2831]: Rack Rate
+                      - paragraph [ref=f6e2832]: 1 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2833]
+                      - paragraph [ref=f6e2834]
+                  - cell [ref=f6e2835]:
+                    - generic [ref=f6e2836]:
+                      - paragraph [ref=f6e2838]: Rack Rate
+                      - paragraph [ref=f6e2839]: 1 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2840]
+                      - paragraph [ref=f6e2841]
+                  - cell [ref=f6e2842]:
+                    - generic [ref=f6e2843]:
+                      - paragraph [ref=f6e2845]: Rack Rate
+                      - paragraph [ref=f6e2846]: 1 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2847]
+                      - paragraph [ref=f6e2848]
+                  - cell [ref=f6e2849]:
+                    - generic [ref=f6e2850]:
+                      - paragraph [ref=f6e2852]: Rack Rate
+                      - paragraph [ref=f6e2853]: 1 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2854]
+                      - paragraph [ref=f6e2855]
+                  - cell [ref=f6e2856]:
+                    - generic [ref=f6e2857]:
+                      - paragraph [ref=f6e2859]: Rack Rate
+                      - paragraph [ref=f6e2860]: 1 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2861]
+                      - paragraph [ref=f6e2862]
+                  - cell "+ 0 -" [ref=f6e2863]:
+                    - generic [ref=f6e2865]:
+                      - button "+" [ref=f6e2866] [cursor=pointer]
+                      - generic [ref=f6e2867]: "0"
+                      - button "-" [ref=f6e2868] [cursor=pointer]
+                - row [ref=f6e2869]:
+                  - cell "Extra Bed In Room Big Family 2 rooms Upto 2 person(s) per room" [ref=f6e2870]:
+                    - generic [ref=f6e2871]:
+                      - heading "Extra Bed In Room Big Family" [level=5] [ref=f6e2872]
+                      - paragraph [ref=f6e2873]: 2 rooms
+                      - separator [ref=f6e2874]
+                      - paragraph [ref=f6e2875]:
+                        - generic [ref=f6e2876]: 
+                        - text: Upto 2 person(s) per room
+                  - cell [ref=f6e2877]:
+                    - generic [ref=f6e2878]:
+                      - paragraph [ref=f6e2880]: Rack Rate
+                      - paragraph [ref=f6e2881]: 2 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2882]
+                      - paragraph [ref=f6e2883]
+                  - cell [ref=f6e2884]:
+                    - generic [ref=f6e2885]:
+                      - paragraph [ref=f6e2887]: Rack Rate
+                      - paragraph [ref=f6e2888]: 2 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2889]
+                      - paragraph [ref=f6e2890]
+                  - cell [ref=f6e2891]:
+                    - generic [ref=f6e2892]:
+                      - paragraph [ref=f6e2894]: Rack Rate
+                      - paragraph [ref=f6e2895]: 2 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2896]
+                      - paragraph [ref=f6e2897]
+                  - cell [ref=f6e2898]:
+                    - generic [ref=f6e2899]:
+                      - paragraph [ref=f6e2901]: Rack Rate
+                      - paragraph [ref=f6e2902]: 2 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2903]
+                      - paragraph [ref=f6e2904]
+                  - cell [ref=f6e2905]:
+                    - generic [ref=f6e2906]:
+                      - paragraph [ref=f6e2908]: Rack Rate
+                      - paragraph [ref=f6e2909]: 2 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2910]
+                      - paragraph [ref=f6e2911]
+                  - cell [ref=f6e2912]:
+                    - generic [ref=f6e2913]:
+                      - paragraph [ref=f6e2915]: Rack Rate
+                      - paragraph [ref=f6e2916]: 2 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2917]
+                      - paragraph [ref=f6e2918]
+                  - cell [ref=f6e2919]:
+                    - generic [ref=f6e2920]:
+                      - paragraph [ref=f6e2922]: Rack Rate
+                      - paragraph [ref=f6e2923]: 2 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2924]
+                      - paragraph [ref=f6e2925]
+                  - cell [ref=f6e2926]:
+                    - generic [ref=f6e2927]:
+                      - paragraph [ref=f6e2929]: Rack Rate
+                      - paragraph [ref=f6e2930]: 2 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2931]
+                      - paragraph [ref=f6e2932]
+                  - cell [ref=f6e2933]:
+                    - generic [ref=f6e2934]:
+                      - paragraph [ref=f6e2936]: Rack Rate
+                      - paragraph [ref=f6e2937]: 2 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2938]
+                      - paragraph [ref=f6e2939]
+                  - cell [ref=f6e2940]:
+                    - generic [ref=f6e2941]:
+                      - paragraph [ref=f6e2943]: Rack Rate
+                      - paragraph [ref=f6e2944]: 2 Rooms
+                      - heading "₹1,000.00" [level=6] [ref=f6e2945]
+                      - paragraph [ref=f6e2946]
+                  - cell "+ 0 -" [ref=f6e2947]:
+                    - generic [ref=f6e2949]:
+                      - button "+" [ref=f6e2950] [cursor=pointer]
+                      - generic [ref=f6e2951]: "0"
+                      - button "-" [ref=f6e2952] [cursor=pointer]
+                - row [ref=f6e2953]:
+                  - cell "PRK 4 rooms Upto 3 person(s) per room" [ref=f6e2954]:
+                    - generic [ref=f6e2955]:
+                      - heading "PRK" [level=5] [ref=f6e2956]
+                      - paragraph [ref=f6e2957]: 4 rooms
+                      - separator [ref=f6e2958]
+                      - paragraph [ref=f6e2959]:
+                        - generic [ref=f6e2960]: 
+                        - text: Upto 3 person(s) per room
+                  - cell [ref=f6e2961]:
+                    - generic [ref=f6e2962]:
+                      - paragraph [ref=f6e2964]: Rack Rate
+                      - paragraph [ref=f6e2965]: 3 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e2966]
+                      - paragraph [ref=f6e2967]
+                  - cell [ref=f6e2968]:
+                    - generic [ref=f6e2969]:
+                      - paragraph [ref=f6e2971]: Rack Rate
+                      - paragraph [ref=f6e2972]: 3 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e2973]
+                      - paragraph [ref=f6e2974]
+                  - cell [ref=f6e2975]:
+                    - generic [ref=f6e2976]:
+                      - paragraph [ref=f6e2978]: Rack Rate
+                      - paragraph [ref=f6e2979]: 3 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e2980]
+                      - paragraph [ref=f6e2981]
+                  - cell [ref=f6e2982]:
+                    - generic [ref=f6e2983]:
+                      - paragraph [ref=f6e2985]: Rack Rate
+                      - paragraph [ref=f6e2986]: 3 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e2987]
+                      - paragraph [ref=f6e2988]
+                  - cell [ref=f6e2989]:
+                    - generic [ref=f6e2990]:
+                      - paragraph [ref=f6e2992]: Rack Rate
+                      - paragraph [ref=f6e2993]: 3 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e2994]
+                      - paragraph [ref=f6e2995]
+                  - cell [ref=f6e2996]:
+                    - generic [ref=f6e2997]:
+                      - paragraph [ref=f6e2999]: Rack Rate
+                      - paragraph [ref=f6e3000]: 3 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3001]
+                      - paragraph [ref=f6e3002]
+                  - cell [ref=f6e3003]:
+                    - generic [ref=f6e3004]:
+                      - paragraph [ref=f6e3006]: Rack Rate
+                      - paragraph [ref=f6e3007]: 3 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3008]
+                      - paragraph [ref=f6e3009]
+                  - cell [ref=f6e3010]:
+                    - generic [ref=f6e3011]:
+                      - paragraph [ref=f6e3013]: Rack Rate
+                      - paragraph [ref=f6e3014]: 3 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3015]
+                      - paragraph [ref=f6e3016]
+                  - cell [ref=f6e3017]:
+                    - generic [ref=f6e3018]:
+                      - paragraph [ref=f6e3020]: Rack Rate
+                      - paragraph [ref=f6e3021]: 4 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3022]
+                      - paragraph [ref=f6e3023]
+                  - cell [ref=f6e3024]:
+                    - generic [ref=f6e3025]:
+                      - paragraph [ref=f6e3027]: Rack Rate
+                      - paragraph [ref=f6e3028]: 4 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3029]
+                      - paragraph [ref=f6e3030]
+                  - cell "+ 0 -" [ref=f6e3031]:
+                    - generic [ref=f6e3033]:
+                      - button "+" [ref=f6e3034] [cursor=pointer]
+                      - generic [ref=f6e3035]: "0"
+                      - button "-" [ref=f6e3036] [cursor=pointer]
+                - row [ref=f6e3037]:
+                  - cell "Standart Double 11 rooms Upto 10 person(s) per room" [ref=f6e3038]:
+                    - generic [ref=f6e3039]:
+                      - heading "Standart Double" [level=5] [ref=f6e3040]
+                      - paragraph [ref=f6e3041]: 11 rooms
+                      - separator [ref=f6e3042]
+                      - paragraph [ref=f6e3043]:
+                        - generic [ref=f6e3044]: 
+                        - text: Upto 10 person(s) per room
+                  - cell [ref=f6e3045]:
+                    - generic [ref=f6e3046]:
+                      - paragraph [ref=f6e3048]: Rack Rate
+                      - paragraph [ref=f6e3049]: 10 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3050]
+                      - paragraph [ref=f6e3051]
+                  - cell [ref=f6e3052]:
+                    - generic [ref=f6e3053]:
+                      - paragraph [ref=f6e3055]: Rack Rate
+                      - paragraph [ref=f6e3056]: 10 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3057]
+                      - paragraph [ref=f6e3058]
+                  - cell [ref=f6e3059]:
+                    - generic [ref=f6e3060]:
+                      - paragraph [ref=f6e3062]: Rack Rate
+                      - paragraph [ref=f6e3063]: 11 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3064]
+                      - paragraph [ref=f6e3065]
+                  - cell [ref=f6e3066]:
+                    - generic [ref=f6e3067]:
+                      - paragraph [ref=f6e3069]: Rack Rate
+                      - paragraph [ref=f6e3070]: 11 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3071]
+                      - paragraph [ref=f6e3072]
+                  - cell [ref=f6e3073]:
+                    - generic [ref=f6e3074]:
+                      - paragraph [ref=f6e3076]: Rack Rate
+                      - paragraph [ref=f6e3077]: 11 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3078]
+                      - paragraph [ref=f6e3079]
+                  - cell [ref=f6e3080]:
+                    - generic [ref=f6e3081]:
+                      - paragraph [ref=f6e3083]: Rack Rate
+                      - paragraph [ref=f6e3084]: 11 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3085]
+                      - paragraph [ref=f6e3086]
+                  - cell [ref=f6e3087]:
+                    - generic [ref=f6e3088]:
+                      - paragraph [ref=f6e3090]: Rack Rate
+                      - paragraph [ref=f6e3091]: 11 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3092]
+                      - paragraph [ref=f6e3093]
+                  - cell [ref=f6e3094]:
+                    - generic [ref=f6e3095]:
+                      - paragraph [ref=f6e3097]: Rack Rate
+                      - paragraph [ref=f6e3098]: 11 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3099]
+                      - paragraph [ref=f6e3100]
+                  - cell [ref=f6e3101]:
+                    - generic [ref=f6e3102]:
+                      - paragraph [ref=f6e3104]: Rack Rate
+                      - paragraph [ref=f6e3105]: 11 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3106]
+                      - paragraph [ref=f6e3107]
+                  - cell [ref=f6e3108]:
+                    - generic [ref=f6e3109]:
+                      - paragraph [ref=f6e3111]: Rack Rate
+                      - paragraph [ref=f6e3112]: 11 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3113]
+                      - paragraph [ref=f6e3114]
+                  - cell "+ 0 -" [ref=f6e3115]:
+                    - generic [ref=f6e3117]:
+                      - button "+" [ref=f6e3118] [cursor=pointer]
+                      - generic [ref=f6e3119]: "0"
+                      - button "-" [ref=f6e3120] [cursor=pointer]
+                - row [ref=f6e3121]:
+                  - cell "Standard Department 22 rooms Upto 18 person(s) per room" [ref=f6e3122]:
+                    - generic [ref=f6e3123]:
+                      - heading "Standard Department" [level=5] [ref=f6e3124]
+                      - paragraph [ref=f6e3125]: 22 rooms
+                      - separator [ref=f6e3126]
+                      - paragraph [ref=f6e3127]:
+                        - generic [ref=f6e3128]: 
+                        - text: Upto 18 person(s) per room
+                  - cell [ref=f6e3129]:
+                    - generic [ref=f6e3130]:
+                      - paragraph [ref=f6e3132]: Rack Rate
+                      - paragraph [ref=f6e3133]: 18 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3134]
+                      - paragraph [ref=f6e3135]
+                  - cell [ref=f6e3136]:
+                    - generic [ref=f6e3137]:
+                      - paragraph [ref=f6e3139]: Rack Rate
+                      - paragraph [ref=f6e3140]: 18 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3141]
+                      - paragraph [ref=f6e3142]
+                  - cell [ref=f6e3143]:
+                    - generic [ref=f6e3144]:
+                      - paragraph [ref=f6e3146]: Rack Rate
+                      - paragraph [ref=f6e3147]: 18 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3148]
+                      - paragraph [ref=f6e3149]
+                  - cell [ref=f6e3150]:
+                    - generic [ref=f6e3151]:
+                      - paragraph [ref=f6e3153]: Rack Rate
+                      - paragraph [ref=f6e3154]: 18 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3155]
+                      - paragraph [ref=f6e3156]
+                  - cell [ref=f6e3157]:
+                    - generic [ref=f6e3158]:
+                      - paragraph [ref=f6e3160]: Rack Rate
+                      - paragraph [ref=f6e3161]: 18 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3162]
+                      - paragraph [ref=f6e3163]
+                  - cell [ref=f6e3164]:
+                    - generic [ref=f6e3165]:
+                      - paragraph [ref=f6e3167]: Rack Rate
+                      - paragraph [ref=f6e3168]: 18 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3169]
+                      - paragraph [ref=f6e3170]
+                  - cell [ref=f6e3171]:
+                    - generic [ref=f6e3172]:
+                      - paragraph [ref=f6e3174]: Rack Rate
+                      - paragraph [ref=f6e3175]: 18 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3176]
+                      - paragraph [ref=f6e3177]
+                  - cell [ref=f6e3178]:
+                    - generic [ref=f6e3179]:
+                      - paragraph [ref=f6e3181]: Rack Rate
+                      - paragraph [ref=f6e3182]: 18 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3183]
+                      - paragraph [ref=f6e3184]
+                  - cell [ref=f6e3185]:
+                    - generic [ref=f6e3186]:
+                      - paragraph [ref=f6e3188]: Rack Rate
+                      - paragraph [ref=f6e3189]: 18 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3190]
+                      - paragraph [ref=f6e3191]
+                  - cell [ref=f6e3192]:
+                    - generic [ref=f6e3193]:
+                      - paragraph [ref=f6e3195]: Rack Rate
+                      - paragraph [ref=f6e3196]: 18 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3197]
+                      - paragraph [ref=f6e3198]
+                  - cell "+ 0 -" [ref=f6e3199]:
+                    - generic [ref=f6e3201]:
+                      - button "+" [ref=f6e3202] [cursor=pointer]
+                      - generic [ref=f6e3203]: "0"
+                      - button "-" [ref=f6e3204] [cursor=pointer]
+                - row [ref=f6e3205]:
+                  - cell "SUITE CITY VIEW 70 rooms Upto 64 person(s) per room" [ref=f6e3206]:
+                    - generic [ref=f6e3207]:
+                      - heading "SUITE CITY VIEW" [level=5] [ref=f6e3208]
+                      - paragraph [ref=f6e3209]: 70 rooms
+                      - separator [ref=f6e3210]
+                      - paragraph [ref=f6e3211]:
+                        - generic [ref=f6e3212]: 
+                        - text: Upto 64 person(s) per room
+                  - cell [ref=f6e3213]:
+                    - generic [ref=f6e3214]:
+                      - paragraph [ref=f6e3216]: Rack Rate
+                      - paragraph [ref=f6e3217]: 64 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3218]
+                      - paragraph [ref=f6e3219]
+                  - cell [ref=f6e3220]:
+                    - generic [ref=f6e3221]:
+                      - paragraph [ref=f6e3223]: Rack Rate
+                      - paragraph [ref=f6e3224]: 64 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3225]
+                      - paragraph [ref=f6e3226]
+                  - cell [ref=f6e3227]:
+                    - generic [ref=f6e3228]:
+                      - paragraph [ref=f6e3230]: Rack Rate
+                      - paragraph [ref=f6e3231]: 64 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3232]
+                      - paragraph [ref=f6e3233]
+                  - cell [ref=f6e3234]:
+                    - generic [ref=f6e3235]:
+                      - paragraph [ref=f6e3237]: Rack Rate
+                      - paragraph [ref=f6e3238]: 64 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3239]
+                      - paragraph [ref=f6e3240]
+                  - cell [ref=f6e3241]:
+                    - generic [ref=f6e3242]:
+                      - paragraph [ref=f6e3244]: Rack Rate
+                      - paragraph [ref=f6e3245]: 64 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3246]
+                      - paragraph [ref=f6e3247]
+                  - cell [ref=f6e3248]:
+                    - generic [ref=f6e3249]:
+                      - paragraph [ref=f6e3251]: Rack Rate
+                      - paragraph [ref=f6e3252]: 64 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3253]
+                      - paragraph [ref=f6e3254]
+                  - cell [ref=f6e3255]:
+                    - generic [ref=f6e3256]:
+                      - paragraph [ref=f6e3258]: Rack Rate
+                      - paragraph [ref=f6e3259]: 64 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3260]
+                      - paragraph [ref=f6e3261]
+                  - cell [ref=f6e3262]:
+                    - generic [ref=f6e3263]:
+                      - paragraph [ref=f6e3265]: Rack Rate
+                      - paragraph [ref=f6e3266]: 64 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3267]
+                      - paragraph [ref=f6e3268]
+                  - cell [ref=f6e3269]:
+                    - generic [ref=f6e3270]:
+                      - paragraph [ref=f6e3272]: Rack Rate
+                      - paragraph [ref=f6e3273]: 69 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3274]
+                      - paragraph [ref=f6e3275]
+                  - cell [ref=f6e3276]:
+                    - generic [ref=f6e3277]:
+                      - paragraph [ref=f6e3279]: Rack Rate
+                      - paragraph [ref=f6e3280]: 69 Rooms
+                      - heading "₹0.00" [level=6] [ref=f6e3281]
+                      - paragraph [ref=f6e3282]
+                  - cell "+ 0 -" [ref=f6e3283]:
+                    - generic [ref=f6e3285]:
+                      - button "+" [ref=f6e3286] [cursor=pointer]
+                      - generic [ref=f6e3287]: "0"
+                      - button "-" [ref=f6e3288] [cursor=pointer]
+          - generic [ref=f6e2458]:
+            - heading "Total - 0.00 + Taxes" [level=5] [ref=f6e2460] [cursor=pointer]
+            - button "Next" [active] [ref=f6e2461] [cursor=pointer]
+            - button "Close" [ref=f6e2462] [cursor=pointer]
+      - contentinfo [ref=f6e1933]:
+        - generic [ref=f6e1935]:
+          - 'heading "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 02/07/2025" [level=6] [ref=f6e1937]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=f6e1940]
+  - generic: 󰅒

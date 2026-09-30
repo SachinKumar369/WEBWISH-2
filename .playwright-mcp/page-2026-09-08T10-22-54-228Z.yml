@@ -1,0 +1,192 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e612]:
+    - generic [ref=e613]:
+      - banner [ref=e614]:
+        - generic [ref=e616]:
+          - generic [ref=e617]:
+            - link [ref=e619] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e623]:
+              - textbox "Search" [ref=e2194]: 󰅀
+              - generic [ref=e625]: 󰍉
+          - heading "Webwish Hotel" [level=5] [ref=e2195]
+          - generic [ref=e628]:
+            - button "󰅒" [ref=e2196] [cursor=pointer]:
+              - generic [ref=e631]: 󰅒
+            - button "" [ref=e2197] [cursor=pointer]:
+              - generic [ref=e634]: 
+            - button "" [ref=e2198] [cursor=pointer]:
+              - generic [ref=e637]: 
+            - button " 3" [ref=e2199] [cursor=pointer]:
+              - generic "Change Shift" [ref=e2200]: 
+              - generic [ref=e641]: "3"
+            - generic [ref=e642]:
+              - button "" [ref=e2201] [cursor=pointer]:
+                - generic "Notifications" [ref=e2202]: 
+              - text:  
+            - generic [ref=e645]:
+              - button "Header Avatar" [ref=e2203] [cursor=pointer]:
+                - img "Header Avatar" [ref=e2204]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button "Header Avatar" [ref=e2205] [cursor=pointer]:
+              - img "Header Avatar" [ref=e2206]
+      - generic [ref=e653]:
+        - text: 
+        - generic [ref=e655]:
+          - region "scrollable content" [ref=e2207]:
+            - list [ref=e662]:
+              - listitem
+              - listitem [ref=e663]:
+                - link "" [ref=e2208] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e666]: 
+                - text:     
+          - button "" [ref=e2209] [cursor=pointer]:
+            - generic [ref=e668]: 
+      - generic [ref=e670]:
+        - generic [ref=e2210]:
+          - generic [ref=e2214]:
+            - heading "Cashiering" [level=3] [ref=e2215]
+            - generic [ref=e2216]:
+              - generic:
+                - list
+              - generic [ref=e2218]:
+                - button "󰡭" [ref=e2220] [cursor=pointer]:
+                  - generic [ref=e2222]: 󰡭
+                - button "󰈲" [ref=e2224] [cursor=pointer]:
+                  - generic [ref=e2226]: 󰈲
+                - button "󰑐" [ref=e2228] [cursor=pointer]:
+                  - generic [ref=e2230]: 󰑐
+                - button "󰇙" [ref=e2235] [cursor=pointer]:
+                  - generic [ref=e2236]: 󰇙
+          - generic [ref=e2240]:
+            - generic [ref=e2241]:
+              - generic [ref=e2245]:
+                - generic [ref=e2247]:
+                  - heading "LT Sachin 20august" [level=5] [ref=e2251]
+                  - generic [ref=e2254]:
+                    - heading "CONFIRMED" [level=4] [ref=e2255]
+                    - heading "100001201" [level=6] [ref=e2256]
+                - generic [ref=e2259]:
+                  - generic [ref=e2262]:
+                    - generic [ref=e2263]: Account Id
+                    - heading "101373250701" [level=6] [ref=e2264]
+                  - generic [ref=e2267]:
+                    - generic [ref=e2268]: Arrival
+                    - heading "01/07/2025" [level=6] [ref=e2269]
+                  - generic [ref=e2272]:
+                    - generic [ref=e2273]: Departure
+                    - heading "02/07/2025" [level=6] [ref=e2274]
+                  - generic [ref=e2277]:
+                    - generic [ref=e2278]: Room Type
+                    - heading "DELX" [level=6] [ref=e2279]
+                  - generic [ref=e2282]:
+                    - generic [ref=e2283]: Room No
+                    - heading [level=6]
+                  - generic [ref=e2286]:
+                    - generic [ref=e2287]: Currency
+                    - heading "INR" [level=6] [ref=e2288]
+                  - generic [ref=e2291]:
+                    - generic [ref=e2292]: Rate Code
+                    - heading "RACK" [level=6] [ref=e2293]
+                  - generic [ref=e2296]:
+                    - generic [ref=e2297]: System Rate
+                    - heading "1,000.00" [level=6] [ref=e2298]
+                  - generic [ref=e2301]:
+                    - generic [ref=e2302]: Agreed Rate
+                    - heading "1,000.00" [level=6] [ref=e2303]
+                  - generic [ref=e2306]:
+                    - generic [ref=e2307]: Guest Rate
+                    - heading "1,000.00" [level=6] [ref=e2308]
+                  - generic [ref=e2311]:
+                    - generic [ref=e2312]: Deposit Required
+                    - heading [level=6]
+                  - generic [ref=e2315]:
+                    - generic [ref=e2316]: Pay By
+                    - heading "CASH" [level=6] [ref=e2317]
+                  - generic [ref=e2320]:
+                    - generic [ref=e2321]: Billing Inst
+                    - heading [level=6]
+              - generic [ref=e2530]:
+                - generic [ref=e2532]:
+                  - heading "Folio Summary" [level=5] [ref=e2536]
+                  - generic [ref=e2541]:
+                    - generic [ref=e2542]:
+                      - radio "Charge Summary" [checked]
+                      - generic [ref=e2543] [cursor=pointer]: Charge Summary
+                    - generic [ref=e2544]:
+                      - radio "Date Summary"
+                      - generic [ref=e2545] [cursor=pointer]: Date Summary
+                - generic [ref=e2548]:
+                  - generic [ref=e2549]:
+                    - 'heading "Folio Total: 0.00" [level=5] [ref=e2550]':
+                      - text: "Folio Total:"
+                      - generic [ref=e2551]: "0.00"
+                    - generic [ref=e2552]: (Contract folio = 0.00, Other Folios = 0.00 )
+                    - generic [ref=e2554]:
+                      - checkbox "Show Billed Transactions" [ref=e2555] [cursor=pointer]
+                      - generic [ref=e2556] [cursor=pointer]: Show Billed Transactions
+                  - generic [ref=e2562]:
+                    - generic [ref=e2563]:
+                      - generic [ref=e2564]:
+                        - generic [ref=e2565]: 󱔗
+                        - text: Folio No 1
+                      - generic [ref=e2566]:
+                        - button "󰐪" [ref=e2568] [cursor=pointer]:
+                          - generic [ref=e2570]: 󰐪
+                        - button "" [ref=e2572] [cursor=pointer]:
+                          - generic [ref=e2574]: 
+                    - generic [ref=e2576]:
+                      - generic [ref=e2579]:
+                        - text: "Balance:"
+                        - text: "0.00"
+                      - heading "View all transactions" [level=6] [ref=e2580] [cursor=pointer]
+            - generic [ref=e2376]:
+              - button "Collect Payment" [ref=e2378] [cursor=pointer]
+              - generic [ref=e2381]:
+                - heading "Bill Summary" [level=5] [ref=e2384]
+                - generic [ref=e2386]:
+                  - generic [ref=e2387]:
+                    - heading "Due Amount" [level=6] [ref=e2388]
+                    - heading "1,000.00" [level=5] [ref=e2390]
+                  - table [ref=e2391]:
+                    - rowgroup [ref=e2392]:
+                      - heading "Future Postings:" [level=6] [ref=e2394]
+                      - row "DGT (1 Room) 892.86" [ref=e2395]:
+                        - cell "DGT (1 Room)" [ref=e2396]
+                        - cell "892.86" [ref=e2397]:
+                          - heading "892.86" [level=6] [ref=e2398]
+                      - row "Central GST 6 % 53.57" [ref=e2399]:
+                        - cell "Central GST 6 %" [ref=e2400]:
+                          - generic [ref=e2401]: Central GST 6 %
+                        - cell "53.57" [ref=e2402]:
+                          - heading "53.57" [level=6] [ref=e2403]
+                      - row "State GST 6 % 53.57" [ref=e2404]:
+                        - cell "State GST 6 %" [ref=e2405]:
+                          - generic [ref=e2406]: State GST 6 %
+                        - cell "53.57" [ref=e2407]:
+                          - heading "53.57" [level=6] [ref=e2408]
+                      - row "Total 1,000.00" [ref=e2409]:
+                        - cell "Total" [ref=e2410]
+                        - cell "1,000.00" [ref=e2411]:
+                          - heading "1,000.00" [level=6] [ref=e2412]
+                      - row "Sub Total 1,000.00" [ref=e2413]:
+                        - cell "Sub Total" [ref=e2414]
+                        - cell "1,000.00" [ref=e2415]:
+                          - heading "1,000.00" [level=6] [ref=e2416]
+                - generic [ref=e2418]:
+                  - generic [ref=e2419]:
+                    - heading "Total" [level=6] [ref=e2420]
+                    - heading "1,000.00" [level=5] [ref=e2422]
+                  - generic [ref=e2423]:
+                    - heading "Payment" [level=6] [ref=e2424]
+                    - heading "0.00" [level=5] [ref=e2426]
+                  - generic [ref=e2427]:
+                    - heading "Due Amount" [level=6] [ref=e2428]
+                    - heading "1,000.00" [level=5] [ref=e2430]
+        - contentinfo [ref=e1936]:
+          - generic [ref=e1938]:
+            - 'heading "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 01/07/2025" [level=6] [ref=e2431]'
+            - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e2432]
+    - generic [ref=e1945]: 󰅒
+  - img

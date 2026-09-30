@@ -1,0 +1,166 @@
+- generic [ref=e1]:
+  - generic [ref=e150]:
+    - generic [ref=e151]:
+      - banner [ref=e152]:
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - link [ref=e157] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e161]:
+              - textbox [ref=e1115]:
+                - /placeholder: Search...
+                - text: ava 󰅀
+              - generic [ref=e163]: 󰍉
+          - heading [level=5] [ref=e1116]: WEBWISHQCMI
+          - generic [ref=e166]:
+            - button [ref=e1117] [cursor=pointer]:
+              - generic [ref=e169]: 󰅒
+            - button [ref=e1118] [cursor=pointer]:
+              - generic [ref=e172]: 
+            - button [ref=e1119] [cursor=pointer]:
+              - generic [ref=e175]: 
+            - button [ref=e1120] [cursor=pointer]:
+              - generic [ref=e1121]: 
+              - generic [ref=e179]: "1"
+            - generic [ref=e180]:
+              - button [ref=e1122] [cursor=pointer]:
+                - generic [ref=e1123]: 
+              - text:  
+            - generic [ref=e183]:
+              - button [ref=e1124] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e1126] [cursor=pointer]:
+              - generic [ref=e189]: 
+      - generic [ref=e196]:
+        - text: 
+        - region [ref=e1127]:
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - link [ref=e1128] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e209]: 
+            - listitem [ref=e210]:
+              - link [ref=e1129] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e213]: 
+            - listitem [ref=e214]:
+              - link [ref=e1130] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e217]: 
+            - listitem [ref=e218]:
+              - link [ref=e1131] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e221]: 󰃢
+            - listitem [ref=e222]:
+              - link [ref=e1132] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e224]: 
+            - listitem [ref=e225]:
+              - link [ref=e1133] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e228]: 
+            - listitem [ref=e229]:
+              - link [ref=e1134] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e232]: 
+            - listitem [ref=e233]:
+              - link [ref=e1135] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e236]: 
+            - listitem [ref=e237]:
+              - link [ref=e1136] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e240]: 
+            - listitem [ref=e241]:
+              - link [ref=e1137] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e244]: 
+            - text:  
+            - listitem [ref=e245]:
+              - link [ref=e1138] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e248]: 
+      - generic [ref=e250]:
+        - generic [ref=e1139]:
+          - generic [ref=e1143]:
+            - heading [level=3] [ref=e1144]: Availability Management
+            - generic [ref=e1146]:
+              - button [disabled]:
+                - generic:
+                  - generic: 󰆓
+                  - text: Save
+              - button [disabled]: Advance Selection
+              - generic [ref=e1148]:
+                - button [ref=e1149] [cursor=pointer]:
+                  - generic [ref=e1150]: 󰈲
+                - button [ref=e1152] [cursor=pointer]:
+                  - generic [ref=e1153]: 󰑐
+                - button [ref=e1155] [cursor=pointer]:
+                  - generic [ref=e1156]: 󰋚
+          - generic [ref=e1165]:
+            - generic [ref=e1166] [cursor=pointer]:
+              - generic [ref=e1167]: M
+              - text: Before business date
+            - generic [ref=e1168] [cursor=pointer]:
+              - generic [ref=e1169]: "-"
+              - text: Not valid dates
+            - generic [ref=e1170] [cursor=pointer]:
+              - generic [ref=e1171]: 
+              - text: Closed for Arrival
+            - generic [ref=e1174] [cursor=pointer]:
+              - generic [ref=e1175]: 
+              - text: Closed for Departure
+            - generic [ref=e1178] [cursor=pointer]:
+              - generic [ref=e1179]: 
+              - text: Stay thru (Closed for arrival and departure)
+            - generic [ref=e1182] [cursor=pointer]:
+              - generic [ref=e1183]: 󰅜
+              - text: Stay Close
+        - contentinfo [ref=e357]:
+          - generic [ref=e359]:
+            - heading [level=6] [ref=e1186]: "Property Id: WEBMI, User Id: SACHIN KUMAR, Shift: 1, Business Date: 18/09/2026"
+            - heading [level=6] [ref=e1187]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e365]: 󰅒
+  - dialog [ref=e1189]:
+    - document:
+      - generic [ref=e1192]:
+        - generic [ref=e1193]:
+          - heading "󰧮 Room Type Availability Filter" [level=5] [ref=e1195]:
+            - generic [ref=e1196]: 󰧮
+            - text: Room Type Availability Filter
+          - button "Close" [ref=e1199] [cursor=pointer]
+        - generic [ref=e1202]:
+          - generic [ref=e1205]:
+            - generic [ref=e1206]:
+              - generic [ref=e1207]: Year
+              - generic [ref=e1211]:
+                - generic [ref=e1212]:
+                  - generic "2026" [ref=e1216]
+                  - combobox [ref=e1217]:
+                    - textbox [ref=e1218]
+                - generic "Clear all" [ref=e1219] [cursor=pointer]:
+                  - generic [aria-hidden]: ×
+                - generic [ref=e1220] [cursor=pointer]
+            - generic [ref=e1221]:
+              - generic [ref=e1222]: Room Type
+              - generic [ref=e1226]:
+                - generic [ref=e1227]:
+                  - generic [ref=e1286]:
+                    - generic [ref=e1287]: DLX
+                    - generic "Deluxe Rooms" [ref=e1288]
+                  - combobox [ref=e1229]:
+                    - textbox [active] [ref=e1230]
+                - generic "Clear all" [ref=e1289] [cursor=pointer]:
+                  - generic [aria-hidden]: ×
+                - generic [ref=e1231] [cursor=pointer]
+            - generic [ref=e1232]:
+              - generic [ref=e1233]: Rate Code
+              - generic [ref=e1237]:
+                - generic [ref=e1238]:
+                  - generic [ref=e1239]: "--select--"
+                  - combobox [ref=e1240]:
+                    - textbox [ref=e1241]
+                - generic [ref=e1242] [cursor=pointer]
+          - generic [ref=e1247]:
+            - button "Apply" [ref=e1248] [cursor=pointer]
+            - button "Close" [ref=e1249] [cursor=pointer]

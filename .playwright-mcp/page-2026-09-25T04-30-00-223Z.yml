@@ -1,0 +1,993 @@
+- generic [ref=e1]:
+  - generic [ref=e134]:
+    - generic [ref=e135]:
+      - banner [ref=e136]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - link [ref=e141] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e145]:
+              - textbox [ref=e1673]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=e147]: 󰍉
+          - heading [level=5] [ref=e1674]: Webwish Hotel
+          - generic [ref=e150]:
+            - button [ref=e1675] [cursor=pointer]:
+              - generic [ref=e153]: 󰅒
+            - button [ref=e1676] [cursor=pointer]:
+              - generic [ref=e156]: 
+            - button [ref=e1677] [cursor=pointer]:
+              - generic [ref=e159]: 
+            - button [ref=e1678] [cursor=pointer]:
+              - generic [ref=e1679]: 
+              - generic [ref=e163]: "3"
+            - generic [ref=e164]:
+              - button [ref=e1680] [cursor=pointer]:
+                - generic [ref=e1681]: 
+              - text:  
+            - generic [ref=e167]:
+              - button [ref=e1682] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e1684] [cursor=pointer]
+      - generic [ref=e183]:
+        - text: 
+        - generic [ref=e185]:
+          - region [ref=e1686]:
+            - list [ref=e192]:
+              - listitem [ref=e359]:
+                - link [ref=e1687] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e362]: 󰃢
+                - text:    
+          - button [ref=e1688] [cursor=pointer]:
+            - generic [ref=e364]: 
+      - generic [ref=e237]:
+        - generic [ref=e365]:
+          - generic [ref=e366]:
+            - generic [ref=e369]:
+              - heading [level=3] [ref=e1689]: HouseKeeping Operations
+              - toolbar [ref=e1690]:
+                - button [ref=e1691] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=e379]: 
+                - button [ref=e1692] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=e383]: 󱀮
+                - button [ref=e1693] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=e387]: 󰈲
+                - button [ref=e1694] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=e391]: 󰑐
+                - button [ref=e1695] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=e395]: 󰋚
+                - button [ref=e1696] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=e399]: 󰋖
+            - generic [ref=e401]:
+              - generic [ref=e403]:
+                - generic [ref=e405]:
+                  - generic [ref=e406]:
+                    - radio
+                    - generic [ref=e407] [cursor=pointer]: 3|Arrivals
+                  - generic [ref=e408]:
+                    - radio
+                    - generic [ref=e409] [cursor=pointer]: 183|Occupied
+                  - generic [ref=e410]:
+                    - radio
+                    - generic [ref=e411] [cursor=pointer]: 124|Departures
+                - text: 
+              - generic [ref=e412]: "Date : 02/07/2025"
+              - button [ref=e1697] [cursor=pointer]:
+                - text: No Grouping
+                - generic [ref=e423]: 󰅀
+            - generic [ref=e425]:
+              - generic [ref=e428]:
+                - textbox [ref=e1698]:
+                  - /placeholder: Search...
+                - generic [ref=e430]: 󰍉
+                - button [ref=e1699] [cursor=pointer]:
+                  - text: All
+                  - generic [ref=e433]: 󰅀
+              - generic [ref=e434]:
+                - list [ref=e1700]:
+                  - listitem [ref=e1701]:
+                    - button [ref=e1702] [cursor=pointer]:
+                      - generic [ref=e443]: Dirty
+                  - listitem [ref=e1703]:
+                    - button [ref=e1704] [cursor=pointer]:
+                      - generic [ref=e447]: Maid-In
+                  - listitem [ref=e1705]:
+                    - button [ref=e1706] [cursor=pointer]:
+                      - generic [ref=e451]: Clean
+                  - listitem [ref=e1707]:
+                    - button [ref=e1708] [cursor=pointer]:
+                      - generic [ref=e455]: Inspected
+                  - listitem [ref=e1709]:
+                    - button [ref=e1710] [cursor=pointer]:
+                      - generic [ref=e459]: T-OOO
+                  - listitem [ref=e1711]:
+                    - button [ref=e1712] [cursor=pointer]:
+                      - generic [ref=e463]: Re-Check
+                - list [ref=e1713]:
+                  - listitem [ref=e1714]:
+                    - button [ref=e1715] [cursor=pointer]:
+                      - generic [ref=e472]: House Use
+                  - listitem [ref=e1716]:
+                    - button [ref=e1717] [cursor=pointer]:
+                      - generic [ref=e476]: Occupied
+                  - listitem [ref=e1718]:
+                    - button [ref=e1719] [cursor=pointer]:
+                      - generic [ref=e480]: P-OOO
+                  - listitem [ref=e1720]:
+                    - button [ref=e1721] [cursor=pointer]:
+                      - generic [ref=e484]: Vacant
+              - generic [ref=e485]:
+                - button [ref=e1722] [cursor=pointer]: "Total: 312"
+                - button [ref=e1723] [cursor=pointer]: Unselect All
+                - generic [ref=e490]:
+                  - generic [ref=e491]:
+                    - radio [checked]
+                    - generic [ref=e492] [cursor=pointer]: 
+                  - generic [ref=e495]:
+                    - radio
+                    - generic [ref=e496] [cursor=pointer]: 
+          - generic [ref=e509]:
+            - generic [ref=e511]:
+              - generic [ref=e513] [cursor=pointer]:
+                - generic [ref=e514]:
+                  - generic [ref=e515]: DI
+                  - generic [ref=e517]: VA
+                - generic [ref=e519]:
+                  - heading [level=5] [ref=e1724]: "02"
+                  - generic [ref=e522]: PRK
+              - generic [ref=e525] [cursor=pointer]:
+                - generic [ref=e526]:
+                  - generic [ref=e527]: RC
+                  - generic [ref=e529]: OC
+                - generic [ref=e531]:
+                  - heading [level=5] [ref=e1725]: "1000"
+                  - generic [ref=e534]:
+                    - generic [ref=e535]: DGT
+                    - button [ref=e1726]:
+                      - generic [ref=e537]: 󰀄
+              - generic [ref=e538] [cursor=pointer]:
+                - generic [ref=e1658]: 󰄬
+                - generic [ref=e539]:
+                  - generic [ref=e540]:
+                    - generic [ref=e541]: DI
+                    - generic [ref=e543]: PO
+                  - generic [ref=e545]:
+                    - heading [level=5] [ref=e1727]: "1001"
+                    - generic [ref=e548]: Standart Double
+              - generic [ref=e551] [cursor=pointer]:
+                - generic [ref=e552]:
+                  - generic [ref=e553]: RC
+                  - generic [ref=e555]: OC
+                - generic [ref=e557]:
+                  - generic [ref=e558]:
+                    - heading [level=5] [ref=e1728]: "1002"
+                    - generic [ref=e560]: SAIHTA
+                  - generic [ref=e561]:
+                    - generic [ref=e562]: DGT
+                    - button [ref=e1729]:
+                      - generic [ref=e564]: 󰀄
+              - generic [ref=e566] [cursor=pointer]:
+                - generic [ref=e567]:
+                  - generic [ref=e568]: RC
+                  - generic [ref=e570]: PO
+                - generic [ref=e572]:
+                  - heading [level=5] [ref=e1730]: "1003"
+                  - generic [ref=e575]: SUITE CITY VIEW
+              - generic [ref=e578] [cursor=pointer]:
+                - generic [ref=e579]:
+                  - generic [ref=e580]: RC
+                  - generic [ref=e582]: VA
+                - generic [ref=e584]:
+                  - heading [level=5] [ref=e1731]: "1004"
+                  - generic [ref=e587]:
+                    - generic [ref=e588]: DGT
+                    - button [ref=e1732]:
+                      - generic [ref=e590]: 󰀄
+            - generic [ref=e592]:
+              - generic [ref=e594] [cursor=pointer]:
+                - generic [ref=e595]:
+                  - generic [ref=e596]: DI
+                  - generic [ref=e598]: PO
+                - generic [ref=e600]:
+                  - heading [level=5] [ref=e1733]: "1005"
+                  - generic [ref=e603]: LPT
+              - generic [ref=e606] [cursor=pointer]:
+                - generic [ref=e607]:
+                  - generic [ref=e608]: CL
+                  - generic [ref=e610]: VA
+                - generic [ref=e612]:
+                  - heading [level=5] [ref=e1734]: "1006"
+                  - generic [ref=e615]: DGT
+              - generic [ref=e618] [cursor=pointer]:
+                - generic [ref=e619]:
+                  - generic [ref=e620]: RC
+                  - generic [ref=e622]: VA
+                - generic [ref=e624]:
+                  - heading [level=5] [ref=e1735]: "1007"
+                  - generic [ref=e627]: SUITE CITY VIEW
+              - generic [ref=e630] [cursor=pointer]:
+                - generic [ref=e631]:
+                  - generic [ref=e632]: RC
+                  - generic [ref=e634]: OC
+                - generic [ref=e636]:
+                  - heading [level=5] [ref=e1736]: "1008"
+                  - generic [ref=e639]:
+                    - generic [ref=e640]: DGT
+                    - button [ref=e1737]:
+                      - generic [ref=e642]: 󰀄
+              - generic [ref=e644] [cursor=pointer]:
+                - generic [ref=e645]:
+                  - generic [ref=e646]: RC
+                  - generic [ref=e648]: OC
+                - generic [ref=e650]:
+                  - heading [level=5] [ref=e1738]: "1009"
+                  - generic [ref=e653]:
+                    - generic [ref=e654]: SUITE CITY VIEW
+                    - button [ref=e1739]:
+                      - generic [ref=e656]: 󰀄
+              - generic [ref=e658] [cursor=pointer]:
+                - generic [ref=e659]:
+                  - generic [ref=e660]: RC
+                  - generic [ref=e662]: OC
+                - generic [ref=e664]:
+                  - heading [level=5] [ref=e1740]: "1010"
+                  - generic [ref=e667]:
+                    - generic [ref=e668]: DGT
+                    - button [ref=e1741]:
+                      - generic [ref=e670]: 󰀄
+            - generic [ref=e672]:
+              - generic [ref=e674] [cursor=pointer]:
+                - generic [ref=e675]:
+                  - generic [ref=e676]: RC
+                  - generic [ref=e678]: OC
+                - generic [ref=e680]:
+                  - heading [level=5] [ref=e1742]: "1011"
+                  - generic [ref=e683]:
+                    - generic [ref=e684]: LPT
+                    - button [ref=e1743]:
+                      - generic [ref=e686]: 󰀄
+              - generic [ref=e688] [cursor=pointer]:
+                - generic [ref=e689]:
+                  - generic [ref=e690]: RC
+                  - generic [ref=e692]: OC
+                - generic [ref=e694]:
+                  - heading [level=5] [ref=e1744]: "1012"
+                  - generic [ref=e697]:
+                    - generic [ref=e698]: DGT
+                    - button [ref=e1745]:
+                      - generic [ref=e700]: 󰀄
+              - generic [ref=e702] [cursor=pointer]:
+                - generic [ref=e703]:
+                  - generic [ref=e704]: RC
+                  - generic [ref=e706]: OC
+                - generic [ref=e708]:
+                  - heading [level=5] [ref=e1746]: "1013"
+                  - generic [ref=e711]:
+                    - generic [ref=e712]: SUITE CITY VIEW
+                    - button [ref=e1747]:
+                      - generic [ref=e714]: 󰀄
+              - generic [ref=e716] [cursor=pointer]:
+                - generic [ref=e717]:
+                  - generic [ref=e718]: RC
+                  - generic [ref=e720]: OC
+                - generic [ref=e722]:
+                  - heading [level=5] [ref=e1748]: "1014"
+                  - generic [ref=e725]:
+                    - generic [ref=e726]: DGT
+                    - button [ref=e1749]:
+                      - generic [ref=e728]: 󰀄
+              - generic [ref=e730] [cursor=pointer]:
+                - generic [ref=e731]:
+                  - generic [ref=e732]: RC
+                  - generic [ref=e734]: PO
+                - generic [ref=e736]:
+                  - heading [level=5] [ref=e1750]: "1015"
+                  - generic [ref=e739]: Standard Department
+              - generic [ref=e742] [cursor=pointer]:
+                - generic [ref=e743]:
+                  - generic [ref=e744]: RC
+                  - generic [ref=e746]: OC
+                - generic [ref=e748]:
+                  - heading [level=5] [ref=e1751]: "1016"
+                  - generic [ref=e751]:
+                    - generic [ref=e752]: DGT
+                    - button [ref=e1752]:
+                      - generic [ref=e754]: 󰀄
+            - generic [ref=e756]:
+              - generic [ref=e758] [cursor=pointer]:
+                - generic [ref=e759]:
+                  - generic [ref=e760]: DI
+                  - generic [ref=e762]: PO
+                - generic [ref=e764]:
+                  - heading [level=5] [ref=e1753]: "1017"
+                  - generic [ref=e767]: LPT
+              - generic [ref=e770] [cursor=pointer]:
+                - generic [ref=e771]:
+                  - generic [ref=e772]: RC
+                  - generic [ref=e774]: OC
+                - generic [ref=e776]:
+                  - heading [level=5] [ref=e1754]: "1018"
+                  - generic [ref=e779]:
+                    - generic [ref=e780]: DGT
+                    - button [ref=e1755]:
+                      - generic [ref=e782]: 󰀄
+              - generic [ref=e784] [cursor=pointer]:
+                - generic [ref=e785]:
+                  - generic [ref=e786]: RC
+                  - generic [ref=e788]: OC
+                - generic [ref=e790]:
+                  - heading [level=5] [ref=e1756]: "1019"
+                  - generic [ref=e793]:
+                    - generic [ref=e794]: SUITE CITY VIEW
+                    - button [ref=e1757]:
+                      - generic [ref=e796]: 󰀄
+              - generic [ref=e798] [cursor=pointer]:
+                - generic [ref=e799]:
+                  - generic [ref=e800]: IN
+                  - generic [ref=e802]: OC
+                - generic [ref=e804]:
+                  - heading [level=5] [ref=e1758]: "1020"
+                  - generic [ref=e807]:
+                    - generic [ref=e808]: DGT
+                    - button [ref=e1759]:
+                      - generic [ref=e810]: 󰀄
+              - generic [ref=e812] [cursor=pointer]:
+                - generic [ref=e813]:
+                  - generic [ref=e814]: IN
+                  - generic [ref=e816]: VA
+                - generic [ref=e818]:
+                  - heading [level=5] [ref=e1760]: "1021"
+                  - generic [ref=e821]: SUITE CITY VIEW
+              - generic [ref=e824] [cursor=pointer]:
+                - generic [ref=e825]:
+                  - generic [ref=e826]: RC
+                  - generic [ref=e828]: OC
+                - generic [ref=e830]:
+                  - heading [level=5] [ref=e1761]: "1022"
+                  - generic [ref=e833]:
+                    - generic [ref=e834]: DGT
+                    - button [ref=e1762]:
+                      - generic [ref=e836]: 󰀄
+            - generic [ref=e838]:
+              - generic [ref=e840] [cursor=pointer]:
+                - generic [ref=e841]:
+                  - generic [ref=e842]: DI
+                  - generic [ref=e844]: PO
+                - generic [ref=e846]:
+                  - heading [level=5] [ref=e1763]: "1023"
+                  - generic [ref=e849]: LPT
+              - generic [ref=e852] [cursor=pointer]:
+                - generic [ref=e853]:
+                  - generic [ref=e854]: RC
+                  - generic [ref=e856]: VA
+                - generic [ref=e858]:
+                  - heading [level=5] [ref=e1764]: "1024"
+                  - generic [ref=e861]: DGT
+              - generic [ref=e864] [cursor=pointer]:
+                - generic [ref=e865]:
+                  - generic [ref=e866]: RC
+                  - generic [ref=e868]: OC
+                - generic [ref=e870]:
+                  - heading [level=5] [ref=e1765]: "1025"
+                  - generic [ref=e873]:
+                    - generic [ref=e874]: Standard Department
+                    - button [ref=e1766]:
+                      - generic [ref=e876]: 󰀄
+              - generic [ref=e878] [cursor=pointer]:
+                - generic [ref=e879]:
+                  - generic [ref=e880]: DI
+                  - generic [ref=e882]: VA
+                - generic [ref=e884]:
+                  - heading [level=5] [ref=e1767]: "1026"
+                  - generic [ref=e887]: DGT
+              - generic [ref=e890] [cursor=pointer]:
+                - generic [ref=e891]:
+                  - generic [ref=e892]: RC
+                  - generic [ref=e894]: OC
+                - generic [ref=e896]:
+                  - heading [level=5] [ref=e1768]: "1027"
+                  - generic [ref=e899]:
+                    - generic [ref=e900]: SUITE CITY VIEW
+                    - button [ref=e1769]:
+                      - generic [ref=e902]: 󰀄
+              - generic [ref=e904] [cursor=pointer]:
+                - generic [ref=e905]:
+                  - generic [ref=e906]: RC
+                  - generic [ref=e908]: VA
+                - generic [ref=e910]:
+                  - heading [level=5] [ref=e1770]: "1028"
+                  - generic [ref=e913]: SUITE CITY VIEW
+            - generic [ref=e916]:
+              - generic [ref=e918] [cursor=pointer]:
+                - generic [ref=e919]:
+                  - generic [ref=e920]: DI
+                  - generic [ref=e922]: PO
+                - generic [ref=e924]:
+                  - heading [level=5] [ref=e1771]: "1029"
+                  - generic [ref=e927]: LPT
+              - generic [ref=e930] [cursor=pointer]:
+                - generic [ref=e931]:
+                  - generic [ref=e932]: RC
+                  - generic [ref=e934]: VA
+                - generic [ref=e936]:
+                  - heading [level=5] [ref=e1772]: "1030"
+                  - generic [ref=e939]: DGT
+              - generic [ref=e942] [cursor=pointer]:
+                - generic [ref=e943]:
+                  - generic [ref=e944]: RC
+                  - generic [ref=e946]: OC
+                - generic [ref=e948]:
+                  - heading [level=5] [ref=e1773]: "1031"
+                  - generic [ref=e951]:
+                    - generic [ref=e952]: SUITE CITY VIEW
+                    - button [ref=e1774]:
+                      - generic [ref=e954]: 󰀄
+              - generic [ref=e956] [cursor=pointer]:
+                - generic [ref=e957]:
+                  - generic [ref=e958]: RC
+                  - generic [ref=e960]: OC
+                - generic [ref=e962]:
+                  - heading [level=5] [ref=e1775]: "1032"
+                  - generic [ref=e965]:
+                    - generic [ref=e966]: DGT
+                    - button [ref=e1776]:
+                      - generic [ref=e968]: 󰀄
+              - generic [ref=e970] [cursor=pointer]:
+                - generic [ref=e971]:
+                  - generic [ref=e972]: RC
+                  - generic [ref=e974]: OC
+                - generic [ref=e976]:
+                  - heading [level=5] [ref=e1777]: "1033"
+                  - generic [ref=e979]:
+                    - generic [ref=e980]: SUITE CITY VIEW
+                    - button [ref=e1778]:
+                      - generic [ref=e982]: 󰀄
+              - generic [ref=e984] [cursor=pointer]:
+                - generic [ref=e985]:
+                  - generic [ref=e986]: RC
+                  - generic [ref=e988]: OC
+                - generic [ref=e990]:
+                  - generic [ref=e991]:
+                    - heading [level=5] [ref=e1779]: "1034"
+                    - generic [ref=e993]: Pooja1
+                  - generic [ref=e994]:
+                    - generic [ref=e995]: DGT
+                    - button [ref=e1780]:
+                      - generic [ref=e997]: 󰀄
+            - generic [ref=e999]:
+              - generic [ref=e1001] [cursor=pointer]:
+                - generic [ref=e1002]:
+                  - generic [ref=e1003]: DI
+                  - generic [ref=e1005]: PO
+                - generic [ref=e1007]:
+                  - generic [ref=e1008]:
+                    - heading [level=5] [ref=e1781]: "1035"
+                    - generic [ref=e1010]: SONAM
+                  - generic [ref=e1011]: LPT
+              - generic [ref=e1014] [cursor=pointer]:
+                - generic [ref=e1015]:
+                  - generic [ref=e1016]: RC
+                  - generic [ref=e1018]: OC
+                - generic [ref=e1020]:
+                  - heading [level=5] [ref=e1782]: "1036"
+                  - generic [ref=e1023]:
+                    - generic [ref=e1024]: DGT
+                    - button [ref=e1783]:
+                      - generic [ref=e1026]: 󰀄
+              - generic [ref=e1028] [cursor=pointer]:
+                - generic [ref=e1029]:
+                  - generic [ref=e1030]: RC
+                  - generic [ref=e1032]: OC
+                - generic [ref=e1034]:
+                  - heading [level=5] [ref=e1784]: "1037"
+                  - generic [ref=e1037]:
+                    - generic [ref=e1038]: SUITE CITY VIEW
+                    - button [ref=e1785]:
+                      - generic [ref=e1040]: 󰀄
+              - generic [ref=e1042] [cursor=pointer]:
+                - generic [ref=e1043]:
+                  - generic [ref=e1044]: RC
+                  - generic [ref=e1046]: OC
+                - generic [ref=e1048]:
+                  - heading [level=5] [ref=e1786]: "1038"
+                  - generic [ref=e1051]:
+                    - generic [ref=e1052]: DGT
+                    - button [ref=e1787]:
+                      - generic [ref=e1054]: 󰀄
+              - generic [ref=e1056] [cursor=pointer]:
+                - generic [ref=e1057]:
+                  - generic [ref=e1058]: RC
+                  - generic [ref=e1060]: VA
+                - generic [ref=e1062]:
+                  - heading [level=5] [ref=e1788]: "1039"
+                  - generic [ref=e1065]: SUITE CITY VIEW
+              - generic [ref=e1068] [cursor=pointer]:
+                - generic [ref=e1069]:
+                  - generic [ref=e1070]: RC
+                  - generic [ref=e1072]: OC
+                - generic [ref=e1074]:
+                  - heading [level=5] [ref=e1789]: "1040"
+                  - generic [ref=e1077]:
+                    - generic [ref=e1078]: DGT
+                    - button [ref=e1790]:
+                      - generic [ref=e1080]: 󰀄
+            - generic [ref=e1082]:
+              - generic [ref=e1084] [cursor=pointer]:
+                - generic [ref=e1085]:
+                  - generic [ref=e1086]: RC
+                  - generic [ref=e1088]: OC
+                - generic [ref=e1090]:
+                  - heading [level=5] [ref=e1791]: "1041"
+                  - generic [ref=e1093]:
+                    - generic [ref=e1094]: LPT
+                    - button [ref=e1792]:
+                      - generic [ref=e1096]: 󰀄
+              - generic [ref=e1098] [cursor=pointer]:
+                - generic [ref=e1099]:
+                  - generic [ref=e1100]: RC
+                  - generic [ref=e1102]: VA
+                - generic [ref=e1104]:
+                  - heading [level=5] [ref=e1793]: "1042"
+                  - generic [ref=e1107]:
+                    - generic [ref=e1108]: DGT
+                    - button [ref=e1794]:
+                      - generic [ref=e1110]: 󰀄
+              - generic [ref=e1112] [cursor=pointer]:
+                - generic [ref=e1113]:
+                  - generic [ref=e1114]: RC
+                  - generic [ref=e1116]: PO
+                - generic [ref=e1118]:
+                  - heading [level=5] [ref=e1795]: "1043"
+                  - generic [ref=e1121]: Standart Double
+              - generic [ref=e1124] [cursor=pointer]:
+                - generic [ref=e1125]:
+                  - generic [ref=e1126]: RC
+                  - generic [ref=e1128]: OC
+                - generic [ref=e1130]:
+                  - heading [level=5] [ref=e1796]: "1044"
+                  - generic [ref=e1133]:
+                    - generic [ref=e1134]: DGT
+                    - button [ref=e1797]:
+                      - generic [ref=e1136]: 󰀄
+              - generic [ref=e1138] [cursor=pointer]:
+                - generic [ref=e1139]:
+                  - generic [ref=e1140]: RC
+                  - generic [ref=e1142]: PO
+                - generic [ref=e1144]:
+                  - heading [level=5] [ref=e1798]: "1045"
+                  - generic [ref=e1147]: Standard Department
+              - generic [ref=e1150] [cursor=pointer]:
+                - generic [ref=e1151]:
+                  - generic [ref=e1152]: RC
+                  - generic [ref=e1154]: OC
+                - generic [ref=e1156]:
+                  - heading [level=5] [ref=e1799]: "1046"
+                  - generic [ref=e1159]:
+                    - generic [ref=e1160]: DGT
+                    - button [ref=e1800]:
+                      - generic [ref=e1162]: 󰀄
+            - generic [ref=e1164]:
+              - generic [ref=e1166] [cursor=pointer]:
+                - generic [ref=e1167]:
+                  - generic [ref=e1168]: RC
+                  - generic [ref=e1170]: OC
+                - generic [ref=e1172]:
+                  - heading [level=5] [ref=e1801]: "1047"
+                  - generic [ref=e1175]:
+                    - generic [ref=e1176]: LPT
+                    - button [ref=e1802]:
+                      - generic [ref=e1178]: 󰀄
+              - generic [ref=e1180] [cursor=pointer]:
+                - generic [ref=e1181]:
+                  - generic [ref=e1182]: RC
+                  - generic [ref=e1184]: OC
+                - generic [ref=e1186]:
+                  - heading [level=5] [ref=e1803]: "1048"
+                  - generic [ref=e1189]:
+                    - generic [ref=e1190]: DGT
+                    - button [ref=e1804]:
+                      - generic [ref=e1192]: 󰀄
+              - generic [ref=e1194] [cursor=pointer]:
+                - generic [ref=e1195]:
+                  - generic [ref=e1196]: RC
+                  - generic [ref=e1198]: VA
+                - generic [ref=e1200]:
+                  - heading [level=5] [ref=e1805]: "1049"
+                  - generic [ref=e1203]: SUITE CITY VIEW
+              - generic [ref=e1206] [cursor=pointer]:
+                - generic [ref=e1207]:
+                  - generic [ref=e1208]: RC
+                  - generic [ref=e1210]: OC
+                - generic [ref=e1212]:
+                  - heading [level=5] [ref=e1806]: "1050"
+                  - generic [ref=e1215]:
+                    - generic [ref=e1216]: DGT
+                    - button [ref=e1807]:
+                      - generic [ref=e1218]: 󰀄
+              - generic [ref=e1220] [cursor=pointer]:
+                - generic [ref=e1221]:
+                  - generic [ref=e1222]: RC
+                  - generic [ref=e1224]: VA
+                - generic [ref=e1226]:
+                  - heading [level=5] [ref=e1808]: "1051"
+                  - generic [ref=e1229]: SUITE CITY VIEW
+              - generic [ref=e1232] [cursor=pointer]:
+                - generic [ref=e1233]:
+                  - generic [ref=e1234]: RC
+                  - generic [ref=e1236]: OC
+                - generic [ref=e1238]:
+                  - heading [level=5] [ref=e1809]: "1052"
+                  - generic [ref=e1241]:
+                    - generic [ref=e1242]: DGT
+                    - button [ref=e1810]:
+                      - generic [ref=e1244]: 󰀄
+            - generic [ref=e1246]:
+              - generic [ref=e1248] [cursor=pointer]:
+                - generic [ref=e1249]:
+                  - generic [ref=e1250]: RC
+                  - generic [ref=e1252]: OC
+                - generic [ref=e1254]:
+                  - heading [level=5] [ref=e1811]: "1053"
+                  - generic [ref=e1257]:
+                    - generic [ref=e1258]: LPT
+                    - button [ref=e1812]:
+                      - generic [ref=e1260]: 󰀄
+              - generic [ref=e1262] [cursor=pointer]:
+                - generic [ref=e1263]:
+                  - generic [ref=e1264]: RC
+                  - generic [ref=e1266]: OC
+                - generic [ref=e1268]:
+                  - heading [level=5] [ref=e1813]: "1054"
+                  - generic [ref=e1271]:
+                    - generic [ref=e1272]: DGT
+                    - button [ref=e1814]:
+                      - generic [ref=e1274]: 󰀄
+              - generic [ref=e1276] [cursor=pointer]:
+                - generic [ref=e1277]:
+                  - generic [ref=e1278]: DI
+                  - generic [ref=e1280]: PO
+                - generic [ref=e1282]:
+                  - heading [level=5] [ref=e1815]: "1055"
+                  - generic [ref=e1285]: Standard Department
+              - generic [ref=e1288] [cursor=pointer]:
+                - generic [ref=e1289]:
+                  - generic [ref=e1290]: RC
+                  - generic [ref=e1292]: OC
+                - generic [ref=e1294]:
+                  - heading [level=5] [ref=e1816]: "1056"
+                  - generic [ref=e1297]:
+                    - generic [ref=e1298]: DGT
+                    - button [ref=e1817]:
+                      - generic [ref=e1300]: 󰀄
+              - generic [ref=e1302] [cursor=pointer]:
+                - generic [ref=e1303]:
+                  - generic [ref=e1304]: RC
+                  - generic [ref=e1306]: PO
+                - generic [ref=e1308]:
+                  - generic [ref=e1309]:
+                    - heading [level=5] [ref=e1818]: "1057"
+                    - generic [ref=e1311]: DEEPA
+                  - generic [ref=e1312]: Standart Double
+              - generic [ref=e1315] [cursor=pointer]:
+                - generic [ref=e1316]:
+                  - generic [ref=e1317]: RC
+                  - generic [ref=e1319]: OC
+                - generic [ref=e1321]:
+                  - heading [level=5] [ref=e1819]: "1058"
+                  - generic [ref=e1324]:
+                    - generic [ref=e1325]: DGT
+                    - button [ref=e1820]:
+                      - generic [ref=e1327]: 󰀄
+            - generic [ref=e1329]:
+              - generic [ref=e1331] [cursor=pointer]:
+                - generic [ref=e1332]:
+                  - generic [ref=e1333]: DI
+                  - generic [ref=e1335]: PO
+                - generic [ref=e1337]:
+                  - heading [level=5] [ref=e1821]: "1059"
+                  - generic [ref=e1340]: LPT
+              - generic [ref=e1343] [cursor=pointer]:
+                - generic [ref=e1344]:
+                  - generic [ref=e1345]: RC
+                  - generic [ref=e1347]: OC
+                - generic [ref=e1349]:
+                  - heading [level=5] [ref=e1822]: "1060"
+                  - generic [ref=e1352]:
+                    - generic [ref=e1353]: DGT
+                    - button [ref=e1823]:
+                      - generic [ref=e1355]: 󰀄
+              - generic [ref=e1357] [cursor=pointer]:
+                - generic [ref=e1358]:
+                  - generic [ref=e1359]: RC
+                  - generic [ref=e1361]: OC
+                - generic [ref=e1363]:
+                  - heading [level=5] [ref=e1824]: "1061"
+                  - generic [ref=e1366]:
+                    - generic [ref=e1367]: SUITE CITY VIEW
+                    - button [ref=e1825]:
+                      - generic [ref=e1369]: 󰀄
+              - generic [ref=e1371] [cursor=pointer]:
+                - generic [ref=e1372]:
+                  - generic [ref=e1373]: RC
+                  - generic [ref=e1375]: OC
+                - generic [ref=e1377]:
+                  - heading [level=5] [ref=e1826]: "1062"
+                  - generic [ref=e1380]:
+                    - generic [ref=e1381]: DGT
+                    - button [ref=e1827]:
+                      - generic [ref=e1383]: 󰀄
+              - generic [ref=e1385] [cursor=pointer]:
+                - generic [ref=e1386]:
+                  - generic [ref=e1387]: RC
+                  - generic [ref=e1389]: VA
+                - generic [ref=e1391]:
+                  - heading [level=5] [ref=e1828]: "1063"
+                  - generic [ref=e1394]: SUITE CITY VIEW
+              - generic [ref=e1397] [cursor=pointer]:
+                - generic [ref=e1398]:
+                  - generic [ref=e1399]: RC
+                  - generic [ref=e1401]: OC
+                - generic [ref=e1403]:
+                  - heading [level=5] [ref=e1829]: "1064"
+                  - generic [ref=e1406]:
+                    - generic [ref=e1407]: DGT
+                    - button [ref=e1830]:
+                      - generic [ref=e1409]: 󰀄
+            - generic [ref=e1411]:
+              - generic [ref=e1413] [cursor=pointer]:
+                - generic [ref=e1414]:
+                  - generic [ref=e1415]: DI
+                  - generic [ref=e1417]: PO
+                - generic [ref=e1419]:
+                  - heading [level=5] [ref=e1831]: "1065"
+                  - generic [ref=e1422]: LPT
+              - generic [ref=e1425] [cursor=pointer]:
+                - generic [ref=e1426]:
+                  - generic [ref=e1427]: RC
+                  - generic [ref=e1429]: OC
+                - generic [ref=e1431]:
+                  - heading [level=5] [ref=e1832]: "1066"
+                  - generic [ref=e1434]:
+                    - generic [ref=e1435]: DGT
+                    - button [ref=e1833]:
+                      - generic [ref=e1437]: 󰀄
+              - generic [ref=e1439] [cursor=pointer]:
+                - generic [ref=e1440]:
+                  - generic [ref=e1441]: RC
+                  - generic [ref=e1443]: VA
+                - generic [ref=e1445]:
+                  - heading [level=5] [ref=e1834]: "1067"
+                  - generic [ref=e1448]: SUITE CITY VIEW
+              - generic [ref=e1451] [cursor=pointer]:
+                - generic [ref=e1452]:
+                  - generic [ref=e1453]: RC
+                  - generic [ref=e1455]: OC
+                - generic [ref=e1457]:
+                  - heading [level=5] [ref=e1835]: "1068"
+                  - generic [ref=e1460]:
+                    - generic [ref=e1461]: DGT
+                    - button [ref=e1836]:
+                      - generic [ref=e1463]: 󰀄
+              - generic [ref=e1465] [cursor=pointer]:
+                - generic [ref=e1466]:
+                  - generic [ref=e1467]: RC
+                  - generic [ref=e1469]: VA
+                - generic [ref=e1471]:
+                  - heading [level=5] [ref=e1837]: "1069"
+                  - generic [ref=e1474]: SUITE CITY VIEW
+              - generic [ref=e1477] [cursor=pointer]:
+                - generic [ref=e1478]:
+                  - generic [ref=e1479]: RC
+                  - generic [ref=e1481]: VA
+                - generic [ref=e1483]:
+                  - heading [level=5] [ref=e1838]: "1070"
+                  - generic [ref=e1486]: DGT
+            - generic [ref=e1489]:
+              - generic [ref=e1491] [cursor=pointer]:
+                - generic [ref=e1492]:
+                  - generic [ref=e1493]: RC
+                  - generic [ref=e1495]: OC
+                - generic [ref=e1497]:
+                  - heading [level=5] [ref=e1839]: "1071"
+                  - generic [ref=e1500]:
+                    - generic [ref=e1501]: LPT
+                    - button [ref=e1840]:
+                      - generic [ref=e1503]: 󰀄
+              - generic [ref=e1505] [cursor=pointer]:
+                - generic [ref=e1506]:
+                  - generic [ref=e1507]: RC
+                  - generic [ref=e1509]: OC
+                - generic [ref=e1511]:
+                  - heading [level=5] [ref=e1841]: "1072"
+                  - generic [ref=e1514]:
+                    - generic [ref=e1515]: DGT
+                    - button [ref=e1842]:
+                      - generic [ref=e1517]: 󰀄
+              - generic [ref=e1519] [cursor=pointer]:
+                - generic [ref=e1520]:
+                  - generic [ref=e1521]: RC
+                  - generic [ref=e1523]: OC
+                - generic [ref=e1525]:
+                  - heading [level=5] [ref=e1843]: "1073"
+                  - generic [ref=e1528]:
+                    - generic [ref=e1529]: SUITE CITY VIEW
+                    - button [ref=e1844]:
+                      - generic [ref=e1531]: 󰀄
+              - generic [ref=e1533] [cursor=pointer]:
+                - generic [ref=e1534]:
+                  - generic [ref=e1535]: RC
+                  - generic [ref=e1537]: OC
+                - generic [ref=e1539]:
+                  - heading [level=5] [ref=e1845]: "1074"
+                  - generic [ref=e1542]:
+                    - generic [ref=e1543]: DGT
+                    - button [ref=e1846]:
+                      - generic [ref=e1545]: 󰀄
+              - generic [ref=e1547] [cursor=pointer]:
+                - generic [ref=e1548]:
+                  - generic [ref=e1549]: RC
+                  - generic [ref=e1551]: PO
+                - generic [ref=e1553]:
+                  - heading [level=5] [ref=e1847]: "1075"
+                  - generic [ref=e1556]: Standard Department
+              - generic [ref=e1559] [cursor=pointer]:
+                - generic [ref=e1560]:
+                  - generic [ref=e1561]: RC
+                  - generic [ref=e1563]: OC
+                - generic [ref=e1565]:
+                  - heading [level=5] [ref=e1848]: "1076"
+                  - generic [ref=e1568]:
+                    - generic [ref=e1569]: DGT
+                    - button [ref=e1849]:
+                      - generic [ref=e1571]: 󰀄
+            - generic [ref=e1573]:
+              - generic [ref=e1575] [cursor=pointer]:
+                - generic [ref=e1576]:
+                  - generic [ref=e1577]: RC
+                  - generic [ref=e1579]: OC
+                - generic [ref=e1581]:
+                  - heading [level=5] [ref=e1850]: "1077"
+                  - generic [ref=e1584]:
+                    - generic [ref=e1585]: LPT
+                    - button [ref=e1851]:
+                      - generic [ref=e1587]: 󰀄
+              - generic [ref=e1589] [cursor=pointer]:
+                - generic [ref=e1590]:
+                  - generic [ref=e1591]: RC
+                  - generic [ref=e1593]: OC
+                - generic [ref=e1595]:
+                  - heading [level=5] [ref=e1852]: "1078"
+                  - generic [ref=e1598]:
+                    - generic [ref=e1599]: DGT
+                    - button [ref=e1853]:
+                      - generic [ref=e1601]: 󰀄
+              - generic [ref=e1603] [cursor=pointer]:
+                - generic [ref=e1604]:
+                  - generic [ref=e1605]: DI
+                  - generic [ref=e1607]: VA
+                - generic [ref=e1609]:
+                  - heading [level=5] [ref=e1854]: "1079"
+                  - generic [ref=e1612]: SUITE CITY VIEW
+              - generic [ref=e1615] [cursor=pointer]:
+                - generic [ref=e1616]:
+                  - generic [ref=e1617]: RC
+                  - generic [ref=e1619]: OC
+                - generic [ref=e1621]:
+                  - heading [level=5] [ref=e1855]: "1080"
+                  - generic [ref=e1624]:
+                    - generic [ref=e1625]: DGT
+                    - button [ref=e1856]:
+                      - generic [ref=e1627]: 󰀄
+              - generic [ref=e1629] [cursor=pointer]:
+                - generic [ref=e1630]:
+                  - generic [ref=e1631]: RC
+                  - generic [ref=e1633]: OC
+                - generic [ref=e1635]:
+                  - heading [level=5] [ref=e1857]: "1081"
+                  - generic [ref=e1638]:
+                    - generic [ref=e1639]: SUITE CITY VIEW
+                    - button [ref=e1858]:
+                      - generic [ref=e1641]: 󰀄
+              - generic [ref=e1643] [cursor=pointer]:
+                - generic [ref=e1644]:
+                  - generic [ref=e1645]: RC
+                  - generic [ref=e1647]: OC
+                - generic [ref=e1649]:
+                  - heading [level=5] [ref=e1859]: "1082"
+                  - generic [ref=e1652]:
+                    - generic [ref=e1653]: DGT
+                    - button [ref=e1860]:
+                      - generic [ref=e1655]: 󰀄
+          - generic [ref=e1660]:
+            - text: 
+            - generic [ref=e1661]:
+              - button [ref=e1861] [cursor=pointer]: View Room Details
+              - button [ref=e1862] [cursor=pointer]: Mark Clean
+              - button [ref=e1863] [cursor=pointer]: Mark Dirty
+              - button [ref=e1864] [cursor=pointer]: Mark Inspected
+              - button [ref=e1865] [cursor=pointer]: Maid-In
+              - button [ref=e1866] [cursor=pointer]: Re-Check
+              - button [ref=e1867] [cursor=pointer]: Set Permanent Out of Order
+              - button [ref=e1868] [cursor=pointer]: Set Temporary Out of Order
+              - button [ref=e1869] [cursor=pointer]: Assign Maid
+            - text: 
+            - button [ref=e1870] [cursor=pointer]: Close
+        - contentinfo [ref=e349]:
+          - generic [ref=e351]:
+            - heading [level=6] [ref=e1871]: "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 02/07/2025"
+            - heading [level=6] [ref=e1872]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e357]: 󰅒
+  - dialog [ref=e1874]:
+    - document:
+      - generic [ref=e1877]:
+        - heading "󰧮 Set Permanent Out Of Order" [level=4] [ref=e1879]:
+          - generic [ref=e1880]: 󰧮
+          - text: Set Permanent Out Of Order
+        - generic [ref=e1884]:
+          - generic [ref=e1885]:
+            - generic [ref=e1889]:
+              - generic [ref=e1890]:
+                - text: "For Date : 2025-07-02"
+                - button [active] [ref=e1891] [cursor=pointer]
+              - generic [ref=e1892]:
+                - text: "Rooms : 1001"
+                - button [ref=e1893] [cursor=pointer]
+              - button "󰈵" [ref=e1895] [cursor=pointer]
+            - generic [ref=e1898]:
+              - generic [ref=e1899]:
+                - generic [ref=e1900]: Date From
+                - textbox "Select" [ref=e1903]: 02/07/2025
+              - generic [ref=e1904]:
+                - generic [ref=e1905]: Date To
+                - textbox "Select" [ref=e1908]: 02/07/2025
+              - generic [ref=e1909]:
+                - generic [ref=e1910]: Remarks
+                - textbox [ref=e1913]
+              - generic [ref=e1914]:
+                - generic [ref=e1917]:
+                  - checkbox "Overrride Text" [ref=e1918] [cursor=pointer]
+                  - generic [ref=e1919] [cursor=pointer]: Overrride Text
+                - button "Apply" [ref=e1921] [cursor=pointer]
+              - button "󰈲" [ref=e1923] [cursor=pointer]
+            - table [ref=e1929]:
+              - rowgroup [ref=e1930]:
+                - row [ref=e1931]:
+                  - columnheader [ref=e1932]:
+                    - checkbox [ref=e1935] [cursor=pointer]
+                  - columnheader "Selling Status" [ref=e1936]
+                  - columnheader "HK Status" [ref=e1937]
+                  - 'columnheader "Room #" [ref=e1938]'
+                  - columnheader "Room Type" [ref=e1939]
+                  - columnheader "Date From" [ref=e1940]
+                  - columnheader "Date To" [ref=e1941]
+                  - columnheader "Remarks" [ref=e1942]
+              - rowgroup [ref=e1943]:
+                - row [ref=e1944]:
+                  - cell [ref=e1945]:
+                    - checkbox [ref=e1948] [cursor=pointer]
+                  - cell "PO" [ref=e1949]
+                  - cell "DI" [ref=e1950]
+                  - cell "1001" [ref=e1951]
+                  - cell "STDD" [ref=e1952]
+                  - cell [ref=e1954]:
+                    - textbox "Select" [disabled] [ref=e1956]: 02/07/2025
+                  - cell [ref=e1957]:
+                    - textbox "Select" [disabled] [ref=e1959]: 07/07/2025
+                  - cell [ref=e1960]:
+                    - textbox "Remarks" [ref=e1962]: HK_MULTI_OOO_1790245352084
+                - row [ref=e1963]:
+                  - cell [ref=e1964]:
+                    - checkbox [ref=e1967] [cursor=pointer]
+                  - cell "PO" [ref=e1968]
+                  - cell "DI" [ref=e1969]
+                  - cell "1001" [ref=e1970]
+                  - cell "STDD" [ref=e1971]
+                  - cell [ref=e1973]:
+                    - textbox "Select" [ref=e1975]: 02/07/2025
+                  - cell [ref=e1976]:
+                    - textbox "Select" [ref=e1978]: 02/07/2025
+                  - cell [ref=e1979]:
+                    - textbox "Remarks" [ref=e1981]
+          - button "Close" [ref=e1984] [cursor=pointer]

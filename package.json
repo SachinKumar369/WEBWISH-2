@@ -45,6 +45,7 @@
   "author": "SDET Automation Team",
   "license": "MIT",
   "devDependencies": {
+    "@playwright/mcp": "^0.0.82",
     "@playwright/test": "^1.40.0",
     "@types/expect": "^24.3.0",
     "@types/node": "^20.19.33",

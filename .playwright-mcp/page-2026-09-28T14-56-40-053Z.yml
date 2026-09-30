@@ -1,0 +1,579 @@
+- generic [ref=f2e56]:
+  - generic [ref=f2e57]:
+    - banner [ref=f2e58]:
+      - generic [ref=f2e60]:
+        - generic [ref=f2e61]:
+          - link [ref=f2e63] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=f2e67]:
+            - textbox "Search..." [ref=f2e68]: 󰅀
+            - generic [ref=f2e69]: 󰍉
+        - heading "Demo Hotel" [level=5] [ref=f2e71]
+        - generic [ref=f2e72]:
+          - button "󰅒" [ref=f2e74] [cursor=pointer]
+          - button "" [ref=f2e77] [cursor=pointer]
+          - button "" [ref=f2e80] [cursor=pointer]
+          - button " 1" [ref=f2e83] [cursor=pointer]:
+            - generic "Change Shift" [ref=f2e84]: 
+            - generic [ref=f2e85]: "1"
+          - generic [ref=f2e86]:
+            - button "" [ref=f2e87] [cursor=pointer]:
+              - generic "Notifications" [ref=f2e88]: 
+            - text:  
+          - generic [ref=f2e89]:
+            - button [ref=f2e90] [cursor=pointer]:
+              - img "Header Avatar" [ref=f2e92]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button [ref=f2e94] [cursor=pointer]:
+            - img "Header Avatar" [ref=f2e96]
+    - generic [ref=f2e102]:
+      - text: 
+      - generic [ref=f2e104]:
+        - region "scrollable content" [ref=f2e109]:
+          - list [ref=f2e111]:
+            - listitem
+            - listitem [ref=f2e322]:
+              - link "" [ref=f2e356] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - text:     
+        - button "" [ref=f2e354] [cursor=pointer]
+    - generic [ref=f2e156]:
+      - generic [ref=f2e357]:
+        - generic [ref=f2e358]:
+          - generic [ref=f2e361]:
+            - heading "Guest Management" [level=3] [ref=f2e364]
+            - toolbar "Grid actions" [ref=f2e368]:
+              - button "New Reservation" [ref=f2e370] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f2e371]: 󰐕
+              - button "Filter" [ref=f2e374] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f2e375]: 󰈲
+              - button "Refresh" [ref=f2e378] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f2e379]: 󰑐
+              - button "Download" [ref=f2e382] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f2e383]: 󰥦
+          - generic [ref=f2e385]:
+            - generic [ref=f2e386]:
+              - generic [ref=f2e388]:
+                - generic [ref=f2e390]:
+                  - generic [ref=f2e391]:
+                    - radio "Arrivals" [checked]
+                    - generic [ref=f2e392] [cursor=pointer]: Arrivals
+                  - generic [ref=f2e393]:
+                    - radio "In-House"
+                    - generic [ref=f2e394] [cursor=pointer]: In-House
+                  - generic [ref=f2e395]:
+                    - radio "Departures"
+                    - generic [ref=f2e396] [cursor=pointer]: Departures
+                - text: 
+              - generic [ref=f2e399]:
+                - generic [ref=f2e400]: "Property Id : BDAR"
+                - generic [ref=f2e401]: "Status : Reserved"
+                - generic [ref=f2e402]:
+                  - text: "Quick Search : Expected Arrival (Today)"
+                  - button [ref=f2e403] [cursor=pointer]
+                - button "󰈵" [ref=f2e405] [cursor=pointer]
+            - generic [ref=f2e409]:
+              - generic [ref=f2e412]:
+                - textbox "Search" [ref=f2e413]
+                - generic [ref=f2e414]: 󰍉
+                - button "All 󰅀" [ref=f2e416] [cursor=pointer]:
+                  - text: All
+                  - generic [ref=f2e417]: 󰅀
+              - list "Shape legend" [ref=f2e423]:
+                - listitem "Waitlisted" [ref=f2e424]:
+                  - button "Waitlisted" [ref=f2e425] [cursor=pointer]
+                - listitem "Confirmed" [ref=f2e428]:
+                  - button "Confirmed" [ref=f2e429] [cursor=pointer]
+                - listitem "Hold" [ref=f2e432]:
+                  - button "Hold" [ref=f2e433] [cursor=pointer]
+                - listitem "Inhouse" [ref=f2e436]:
+                  - button "Inhouse" [ref=f2e437] [cursor=pointer]
+                - listitem "Checked-out" [ref=f2e440]:
+                  - button "Checked-out" [ref=f2e441] [cursor=pointer]
+                - listitem "Cancelled" [ref=f2e444]:
+                  - button "Cancelled" [ref=f2e445] [cursor=pointer]
+                - listitem "NoShow" [ref=f2e448]:
+                  - button "NoShow" [ref=f2e449] [cursor=pointer]
+                - listitem "All" [ref=f2e452]:
+                  - button "All" [ref=f2e453] [cursor=pointer]
+              - generic [ref=f2e456]:
+                - 'button "Total: 26" [ref=f2e457] [cursor=pointer]'
+                - generic [ref=f2e460]:
+                  - generic [ref=f2e461]:
+                    - radio ""
+                    - generic [ref=f2e462] [cursor=pointer]: 
+                  - generic [ref=f2e465]:
+                    - radio "" [checked]
+                    - generic [ref=f2e466] [cursor=pointer]: 
+        - generic [ref=f2e474]:
+          - generic [ref=f2e476]:
+            - checkbox [ref=f2e480] [cursor=pointer]
+            - generic [ref=f2e481]:
+              - generic "Id" [ref=f2e484] [cursor=pointer]
+              - generic "Guest Name" [ref=f2e488] [cursor=pointer]
+              - generic "Confirmation No" [ref=f2e492] [cursor=pointer]
+              - generic "Status" [ref=f2e496] [cursor=pointer]
+              - generic "Hk Status" [ref=f2e500] [cursor=pointer]
+              - generic "Arrival" [ref=f2e504] [cursor=pointer]
+              - generic "Departure" [ref=f2e508] [cursor=pointer]
+              - generic "Room No" [ref=f2e512] [cursor=pointer]
+              - generic "Nights" [ref=f2e516] [cursor=pointer]
+              - generic "Pax(A/Y/C)" [ref=f2e520] [cursor=pointer]
+              - generic "Room Type" [ref=f2e524] [cursor=pointer]
+              - generic "Travel Agent" [ref=f2e528] [cursor=pointer]
+              - generic "Corporate" [ref=f2e532] [cursor=pointer]
+              - generic "Operator" [ref=f2e536] [cursor=pointer]
+              - generic "Other Ref No" [ref=f2e540] [cursor=pointer]
+              - generic "Agreed Rate" [ref=f2e544] [cursor=pointer]
+              - generic "Guest Rate" [ref=f2e548] [cursor=pointer]
+              - generic "Guest Balance" [ref=f2e552] [cursor=pointer]
+            - generic [ref=f2e555] [cursor=pointer]
+          - generic [ref=f2e557]:
+            - generic [ref=f2e558]:
+              - checkbox [ref=f2e562] [cursor=pointer]
+              - generic "100497260908" [ref=f2e568]
+              - generic [ref=f2e572]:
+                - generic [ref=f2e573]: F
+                - generic [ref=f2e574]: Kadan Saikumar E
+              - generic "10144532" [ref=f2e580]
+              - generic [ref=f2e581]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e597]
+              - generic "10/09/2026, 12:00" [ref=f2e603]
+              - generic "2" [ref=f2e614]
+              - generic "1/0/0" [ref=f2e620]
+              - generic "DMK" [ref=f2e626]
+              - generic "411.70" [ref=f2e652]
+              - generic "411.70" [ref=f2e658]
+              - generic "0.00" [ref=f2e664]
+              - generic [ref=f2e667]:
+                - button "" [ref=f2e668] [cursor=pointer]
+                - button "󰗔" [ref=f2e670] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e672] [cursor=pointer]
+            - generic [ref=f2e674]:
+              - checkbox [ref=f2e678] [cursor=pointer]
+              - generic "100498260908" [ref=f2e684]
+              - generic [ref=f2e688]:
+                - generic [ref=f2e689]: F
+                - generic [ref=f2e690]: Kumar Manoj
+              - generic "10144533" [ref=f2e696]
+              - generic [ref=f2e697]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e713]
+              - generic "10/09/2026, 12:00" [ref=f2e719]
+              - generic "2" [ref=f2e730]
+              - generic "1/0/0" [ref=f2e736]
+              - generic "DMK" [ref=f2e742]
+              - generic "411.70" [ref=f2e768]
+              - generic "411.70" [ref=f2e774]
+              - generic "0.00" [ref=f2e780]
+              - generic [ref=f2e783]:
+                - button "" [ref=f2e784] [cursor=pointer]
+                - button "󰗔" [ref=f2e786] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e788] [cursor=pointer]
+            - generic [ref=f2e790]:
+              - checkbox [ref=f2e794] [cursor=pointer]
+              - generic "100529260908" [ref=f2e800]
+              - generic [ref=f2e804]:
+                - generic [ref=f2e805]: F
+                - generic [ref=f2e806]: Kumar Swamy Gowd
+              - generic "10144538" [ref=f2e812]
+              - generic [ref=f2e813]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e829]
+              - generic "09/09/2026, 12:00" [ref=f2e835]
+              - generic "1" [ref=f2e846]
+              - generic "1/0/0" [ref=f2e852]
+              - generic "DMK" [ref=f2e858]
+              - generic "411.70" [ref=f2e884]
+              - generic "411.70" [ref=f2e890]
+              - generic "0.00" [ref=f2e896]
+              - generic [ref=f2e899]:
+                - button "" [ref=f2e900] [cursor=pointer]
+                - button "󰗔" [ref=f2e902] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e904] [cursor=pointer]
+            - generic [ref=f2e906]:
+              - checkbox [ref=f2e910] [cursor=pointer]
+              - generic "100496260908" [ref=f2e916]
+              - generic [ref=f2e920]:
+                - generic [ref=f2e921]: F
+                - generic [ref=f2e922]: Sachin Patil
+              - generic "10144531" [ref=f2e928]
+              - generic [ref=f2e929]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e945]
+              - generic "10/09/2026, 12:00" [ref=f2e951]
+              - generic "2" [ref=f2e962]
+              - generic "1/0/0" [ref=f2e968]
+              - generic "DMK" [ref=f2e974]
+              - generic "411.70" [ref=f2e1000]
+              - generic "411.70" [ref=f2e1006]
+              - generic "0.00" [ref=f2e1012]
+              - generic [ref=f2e1015]:
+                - button "" [ref=f2e1016] [cursor=pointer]
+                - button "󰗔" [ref=f2e1018] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e1020] [cursor=pointer]
+            - generic [ref=f2e1022]:
+              - checkbox [ref=f2e1026] [cursor=pointer]
+              - generic "100495260908" [ref=f2e1032]
+              - generic [ref=f2e1036]:
+                - generic [ref=f2e1037]: G
+                - generic [ref=f2e1038]: Test group 28 sep
+              - generic "10144530" [ref=f2e1044]
+              - generic [ref=f2e1045]: CF
+              - generic [ref=f2e1051]: CL
+              - generic "08/09/2026, 12:00" [ref=f2e1062]
+              - generic "30/09/2026, 12:00" [ref=f2e1068]
+              - generic "926" [ref=f2e1074]
+              - generic "22" [ref=f2e1080]
+              - generic "1/0/0" [ref=f2e1086]
+              - generic "RYS" [ref=f2e1092]
+              - generic "0.00" [ref=f2e1118]
+              - generic "0.00" [ref=f2e1124]
+              - generic "0.00" [ref=f2e1130]
+              - generic [ref=f2e1133]:
+                - button "" [ref=f2e1134] [cursor=pointer]
+                - button "󰗔" [ref=f2e1136] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e1138] [cursor=pointer]
+            - generic [ref=f2e1140]:
+              - checkbox [ref=f2e1144] [cursor=pointer]
+              - generic "100507260908" [ref=f2e1150]
+              - generic [ref=f2e1154]:
+                - generic [ref=f2e1155]: M
+                - generic [ref=f2e1156]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e1162]
+              - generic [ref=f2e1163]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e1179]
+              - generic "09/09/2026, 12:00" [ref=f2e1185]
+              - generic "1" [ref=f2e1196]
+              - generic "1/0/0" [ref=f2e1202]
+              - generic "DMK" [ref=f2e1208]
+              - generic "411.70" [ref=f2e1234]
+              - generic "411.70" [ref=f2e1240]
+              - generic "0.00" [ref=f2e1246]
+              - generic [ref=f2e1249]:
+                - button "" [ref=f2e1250] [cursor=pointer]
+                - button "󰗔" [ref=f2e1252] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e1254] [cursor=pointer]
+            - generic [ref=f2e1256]:
+              - checkbox [ref=f2e1260] [cursor=pointer]
+              - generic "100508260908" [ref=f2e1266]
+              - generic [ref=f2e1270]:
+                - generic [ref=f2e1271]: M
+                - generic [ref=f2e1272]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e1278]
+              - generic [ref=f2e1279]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e1295]
+              - generic "08/09/2026, 12:00" [ref=f2e1301]
+              - generic "1" [ref=f2e1312]
+              - generic "1/0/0" [ref=f2e1318]
+              - generic "DMK" [ref=f2e1324]
+              - generic "411.70" [ref=f2e1350]
+              - generic "411.70" [ref=f2e1356]
+              - generic "0.00" [ref=f2e1362]
+              - generic [ref=f2e1365]:
+                - button "" [ref=f2e1366] [cursor=pointer]
+                - button "󰗔" [ref=f2e1368] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e1370] [cursor=pointer]
+            - generic [ref=f2e1372]:
+              - checkbox [ref=f2e1376] [cursor=pointer]
+              - generic "100509260908" [ref=f2e1382]
+              - generic [ref=f2e1386]:
+                - generic [ref=f2e1387]: M
+                - generic [ref=f2e1388]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e1394]
+              - generic [ref=f2e1395]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e1411]
+              - generic "08/09/2026, 12:00" [ref=f2e1417]
+              - generic "1" [ref=f2e1428]
+              - generic "1/0/0" [ref=f2e1434]
+              - generic "DMK" [ref=f2e1440]
+              - generic "411.70" [ref=f2e1466]
+              - generic "411.70" [ref=f2e1472]
+              - generic "0.00" [ref=f2e1478]
+              - generic [ref=f2e1481]:
+                - button "" [ref=f2e1482] [cursor=pointer]
+                - button "󰗔" [ref=f2e1484] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e1486] [cursor=pointer]
+            - generic [ref=f2e1488]:
+              - checkbox [ref=f2e1492] [cursor=pointer]
+              - generic "100510260908" [ref=f2e1498]
+              - generic [ref=f2e1502]:
+                - generic [ref=f2e1503]: M
+                - generic [ref=f2e1504]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e1510]
+              - generic [ref=f2e1511]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e1527]
+              - generic "08/09/2026, 12:00" [ref=f2e1533]
+              - generic "1" [ref=f2e1544]
+              - generic "1/0/0" [ref=f2e1550]
+              - generic "DMK" [ref=f2e1556]
+              - generic "411.70" [ref=f2e1582]
+              - generic "411.70" [ref=f2e1588]
+              - generic "0.00" [ref=f2e1594]
+              - generic [ref=f2e1597]:
+                - button "" [ref=f2e1598] [cursor=pointer]
+                - button "󰗔" [ref=f2e1600] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e1602] [cursor=pointer]
+            - generic [ref=f2e1604]:
+              - checkbox [ref=f2e1608] [cursor=pointer]
+              - generic "100511260908" [ref=f2e1614]
+              - generic [ref=f2e1618]:
+                - generic [ref=f2e1619]: M
+                - generic [ref=f2e1620]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e1626]
+              - generic [ref=f2e1627]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e1643]
+              - generic "08/09/2026, 12:00" [ref=f2e1649]
+              - generic "1" [ref=f2e1660]
+              - generic "1/0/0" [ref=f2e1666]
+              - generic "DMK" [ref=f2e1672]
+              - generic "411.70" [ref=f2e1698]
+              - generic "411.70" [ref=f2e1704]
+              - generic "0.00" [ref=f2e1710]
+              - generic [ref=f2e1713]:
+                - button "" [ref=f2e1714] [cursor=pointer]
+                - button "󰗔" [ref=f2e1716] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e1718] [cursor=pointer]
+            - generic [ref=f2e1720]:
+              - checkbox [ref=f2e1724] [cursor=pointer]
+              - generic "100512260908" [ref=f2e1730]
+              - generic [ref=f2e1734]:
+                - generic [ref=f2e1735]: M
+                - generic [ref=f2e1736]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e1742]
+              - generic [ref=f2e1743]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e1759]
+              - generic "08/09/2026, 12:00" [ref=f2e1765]
+              - generic "1" [ref=f2e1776]
+              - generic "1/0/0" [ref=f2e1782]
+              - generic "DMK" [ref=f2e1788]
+              - generic "411.70" [ref=f2e1814]
+              - generic "411.70" [ref=f2e1820]
+              - generic "0.00" [ref=f2e1826]
+              - generic [ref=f2e1829]:
+                - button "" [ref=f2e1830] [cursor=pointer]
+                - button "󰗔" [ref=f2e1832] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e1834] [cursor=pointer]
+            - generic [ref=f2e1836]:
+              - checkbox [ref=f2e1840] [cursor=pointer]
+              - generic "100513260908" [ref=f2e1846]
+              - generic [ref=f2e1850]:
+                - generic [ref=f2e1851]: M
+                - generic [ref=f2e1852]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e1858]
+              - generic [ref=f2e1859]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e1875]
+              - generic "08/09/2026, 12:00" [ref=f2e1881]
+              - generic "1" [ref=f2e1892]
+              - generic "1/0/0" [ref=f2e1898]
+              - generic "DMK" [ref=f2e1904]
+              - generic "411.70" [ref=f2e1930]
+              - generic "411.70" [ref=f2e1936]
+              - generic "0.00" [ref=f2e1942]
+              - generic [ref=f2e1945]:
+                - button "" [ref=f2e1946] [cursor=pointer]
+                - button "󰗔" [ref=f2e1948] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e1950] [cursor=pointer]
+            - generic [ref=f2e1952]:
+              - checkbox [ref=f2e1956] [cursor=pointer]
+              - generic "100514260908" [ref=f2e1962]
+              - generic [ref=f2e1966]:
+                - generic [ref=f2e1967]: M
+                - generic [ref=f2e1968]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e1974]
+              - generic [ref=f2e1975]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e1991]
+              - generic "08/09/2026, 12:00" [ref=f2e1997]
+              - generic "1" [ref=f2e2008]
+              - generic "1/0/0" [ref=f2e2014]
+              - generic "DMK" [ref=f2e2020]
+              - generic "411.70" [ref=f2e2046]
+              - generic "411.70" [ref=f2e2052]
+              - generic "0.00" [ref=f2e2058]
+              - generic [ref=f2e2061]:
+                - button "" [ref=f2e2062] [cursor=pointer]
+                - button "󰗔" [ref=f2e2064] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e2066] [cursor=pointer]
+            - generic [ref=f2e2068]:
+              - checkbox [ref=f2e2072] [cursor=pointer]
+              - generic "100515260908" [ref=f2e2078]
+              - generic [ref=f2e2082]:
+                - generic [ref=f2e2083]: M
+                - generic [ref=f2e2084]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e2090]
+              - generic [ref=f2e2091]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e2107]
+              - generic "08/09/2026, 12:00" [ref=f2e2113]
+              - generic "1" [ref=f2e2124]
+              - generic "1/0/0" [ref=f2e2130]
+              - generic "DMK" [ref=f2e2136]
+              - generic "411.70" [ref=f2e2162]
+              - generic "411.70" [ref=f2e2168]
+              - generic "0.00" [ref=f2e2174]
+              - generic [ref=f2e2177]:
+                - button "" [ref=f2e2178] [cursor=pointer]
+                - button "󰗔" [ref=f2e2180] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e2182] [cursor=pointer]
+            - generic [ref=f2e2184]:
+              - checkbox [ref=f2e2188] [cursor=pointer]
+              - generic "100516260908" [ref=f2e2194]
+              - generic [ref=f2e2198]:
+                - generic [ref=f2e2199]: M
+                - generic [ref=f2e2200]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e2206]
+              - generic [ref=f2e2207]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e2223]
+              - generic "08/09/2026, 12:00" [ref=f2e2229]
+              - generic "1" [ref=f2e2240]
+              - generic "1/0/0" [ref=f2e2246]
+              - generic "DMK" [ref=f2e2252]
+              - generic "411.70" [ref=f2e2278]
+              - generic "411.70" [ref=f2e2284]
+              - generic "0.00" [ref=f2e2290]
+              - generic [ref=f2e2293]:
+                - button "" [ref=f2e2294] [cursor=pointer]
+                - button "󰗔" [ref=f2e2296] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e2298] [cursor=pointer]
+            - generic [ref=f2e2300]:
+              - checkbox [ref=f2e2304] [cursor=pointer]
+              - generic "100517260908" [ref=f2e2310]
+              - generic [ref=f2e2314]:
+                - generic [ref=f2e2315]: M
+                - generic [ref=f2e2316]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e2322]
+              - generic [ref=f2e2323]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e2339]
+              - generic "08/09/2026, 12:00" [ref=f2e2345]
+              - generic "1" [ref=f2e2356]
+              - generic "1/0/0" [ref=f2e2362]
+              - generic "DMK" [ref=f2e2368]
+              - generic "411.70" [ref=f2e2394]
+              - generic "411.70" [ref=f2e2400]
+              - generic "0.00" [ref=f2e2406]
+              - generic [ref=f2e2409]:
+                - button "" [ref=f2e2410] [cursor=pointer]
+                - button "󰗔" [ref=f2e2412] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e2414] [cursor=pointer]
+            - generic [ref=f2e2416]:
+              - checkbox [ref=f2e2420] [cursor=pointer]
+              - generic "100518260908" [ref=f2e2426]
+              - generic [ref=f2e2430]:
+                - generic [ref=f2e2431]: M
+                - generic [ref=f2e2432]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e2438]
+              - generic [ref=f2e2439]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e2455]
+              - generic "08/09/2026, 12:00" [ref=f2e2461]
+              - generic "1" [ref=f2e2472]
+              - generic "1/0/0" [ref=f2e2478]
+              - generic "OBS" [ref=f2e2484]
+              - generic "1,235.11" [ref=f2e2510]
+              - generic "411.70" [ref=f2e2516]
+              - generic "0.00" [ref=f2e2522]
+              - generic [ref=f2e2525]:
+                - button "" [ref=f2e2526] [cursor=pointer]
+                - button "󰗔" [ref=f2e2528] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e2530] [cursor=pointer]
+            - generic [ref=f2e2532]:
+              - checkbox [ref=f2e2536] [cursor=pointer]
+              - generic "100519260908" [ref=f2e2542]
+              - generic [ref=f2e2546]:
+                - generic [ref=f2e2547]: M
+                - generic [ref=f2e2548]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e2554]
+              - generic [ref=f2e2555]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e2571]
+              - generic "08/09/2026, 12:00" [ref=f2e2577]
+              - generic "1" [ref=f2e2588]
+              - generic "1/0/0" [ref=f2e2594]
+              - generic "DMK" [ref=f2e2600]
+              - generic "411.70" [ref=f2e2626]
+              - generic "411.70" [ref=f2e2632]
+              - generic "0.00" [ref=f2e2638]
+              - generic [ref=f2e2641]:
+                - button "" [ref=f2e2642] [cursor=pointer]
+                - button "󰗔" [ref=f2e2644] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e2646] [cursor=pointer]
+            - generic [ref=f2e2648]:
+              - checkbox [ref=f2e2652] [cursor=pointer]
+              - generic "100520260908" [ref=f2e2658]
+              - generic [ref=f2e2662]:
+                - generic [ref=f2e2663]: M
+                - generic [ref=f2e2664]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e2670]
+              - generic [ref=f2e2671]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e2687]
+              - generic "08/09/2026, 12:00" [ref=f2e2693]
+              - generic "1" [ref=f2e2704]
+              - generic "1/0/0" [ref=f2e2710]
+              - generic "DMK" [ref=f2e2716]
+              - generic "411.70" [ref=f2e2742]
+              - generic "411.70" [ref=f2e2748]
+              - generic "0.00" [ref=f2e2754]
+              - generic [ref=f2e2757]:
+                - button "" [ref=f2e2758] [cursor=pointer]
+                - button "󰗔" [ref=f2e2760] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e2762] [cursor=pointer]
+            - generic [ref=f2e2764]:
+              - checkbox [ref=f2e2768] [cursor=pointer]
+              - generic "100521260908" [ref=f2e2774]
+              - generic [ref=f2e2778]:
+                - generic [ref=f2e2779]: M
+                - generic [ref=f2e2780]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e2786]
+              - generic [ref=f2e2787]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e2803]
+              - generic "08/09/2026, 12:00" [ref=f2e2809]
+              - generic "1" [ref=f2e2820]
+              - generic "1/0/0" [ref=f2e2826]
+              - generic "DMK" [ref=f2e2832]
+              - generic "411.70" [ref=f2e2858]
+              - generic "411.70" [ref=f2e2864]
+              - generic "0.00" [ref=f2e2870]
+              - generic [ref=f2e2873]:
+                - button "" [ref=f2e2874] [cursor=pointer]
+                - button "󰗔" [ref=f2e2876] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e2878] [cursor=pointer]
+            - generic [ref=f2e2880]:
+              - checkbox [ref=f2e2884] [cursor=pointer]
+              - generic "100522260908" [ref=f2e2890]
+              - generic [ref=f2e2894]:
+                - generic [ref=f2e2895]: M
+                - generic [ref=f2e2896]: البلوشي Khatun A خاتون
+              - generic "10144537" [ref=f2e2902]
+              - generic [ref=f2e2903]: CF
+              - generic "08/09/2026, 12:00" [ref=f2e2919]
+              - generic "08/09/2026, 12:00" [ref=f2e2925]
+              - generic "1" [ref=f2e2936]
+              - generic "1/0/0" [ref=f2e2942]
+              - generic "DMK" [ref=f2e2948]
+              - generic "411.70" [ref=f2e2974]
+              - generic "411.70" [ref=f2e2980]
+              - generic "0.00" [ref=f2e2986]
+              - generic [ref=f2e2989]:
+                - button "" [ref=f2e2990] [cursor=pointer]
+                - button "󰗔" [ref=f2e2992] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f2e2994] [cursor=pointer]
+      - contentinfo [ref=f2e268]:
+        - generic [ref=f2e270]:
+          - 'heading "Property Id: BDAR, User Id: Check User 1, Shift: 1, Business Date: 08/09/2026" [level=6] [ref=f2e272]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=f2e275]
+  - generic: 󰅒

@@ -233,6 +233,11 @@ export class GuestReservationPage extends BasePage {
     return this.guestDetailsDialog.locator('button').filter({ hasText: 'Close' }).first();
   }
 
+  /** Advance search close button */
+ 
+  private readonly closeButtonInSearch = this.page.getByRole('button', { name: 'Close' });
+
+
   /** Stay Details heading on the booking detail page (h5) */
   private get stayDetailsHeading(): Locator {
     return this.page.locator('h5').filter({ hasText: 'Stay Details' }).first();
@@ -443,6 +448,9 @@ export class GuestReservationPage extends BasePage {
     // Use JavaScript click as the icon may be outside the viewport or partially hidden
     await this.firstProfileLinkButton.evaluate((el) => (el as HTMLElement).click());
     await this.page.waitForTimeout(2000);
+
+    await this.elementActions.click(this.closeButtonInSearch, 'Close Button');
+
 
     logger.info(`✅ Profile linked successfully: ${profileName.trim()}`);
     return profileName.trim();
@@ -1425,4 +1433,7 @@ export class GuestReservationPage extends BasePage {
 
     logger.info('✅ Stay details modified and saved');
   }
+
+
+   
 }

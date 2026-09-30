@@ -1,0 +1,244 @@
+- generic [ref=e1]:
+  - generic [ref=e612]:
+    - generic [ref=e613]:
+      - banner [ref=e614]:
+        - generic [ref=e616]:
+          - generic [ref=e617]:
+            - link [ref=e619] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e623]:
+              - textbox [ref=e2581]:
+                - /placeholder: Search
+                - text: 󰅀
+              - generic [ref=e625]: 󰍉
+          - heading [level=5] [ref=e2582]: Webwish Hotel
+          - generic [ref=e628]:
+            - button [ref=e2583] [cursor=pointer]:
+              - generic [ref=e631]: 󰅒
+            - button [ref=e2584] [cursor=pointer]:
+              - generic [ref=e634]: 
+            - button [ref=e2585] [cursor=pointer]:
+              - generic [ref=e637]: 
+            - button [ref=e2586] [cursor=pointer]:
+              - generic [ref=e2587]: 
+              - generic [ref=e641]: "3"
+            - generic [ref=e642]:
+              - button [ref=e2588] [cursor=pointer]:
+                - generic [ref=e2589]: 
+              - text:  
+            - generic [ref=e645]:
+              - button [ref=e2590] [cursor=pointer]:
+                - img [ref=e2591]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e2592] [cursor=pointer]:
+              - img [ref=e2593]
+      - generic [ref=e653]:
+        - text: 
+        - generic [ref=e655]:
+          - region [ref=e2594]:
+            - list [ref=e662]:
+              - listitem [ref=e663]:
+                - link [ref=e2595] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e666]: 
+                - text:     
+          - button [ref=e2596] [cursor=pointer]:
+            - generic [ref=e668]: 
+      - generic [ref=e670]:
+        - generic [ref=e2210]:
+          - generic [ref=e2214]:
+            - heading [level=3] [ref=e2597]: Cashiering
+            - generic [ref=e2218]:
+              - button [ref=e2598] [cursor=pointer]:
+                - generic [ref=e2222]: 󰡭
+              - button [ref=e2599] [cursor=pointer]:
+                - generic [ref=e2226]: 󰈲
+              - button [ref=e2600] [cursor=pointer]:
+                - generic [ref=e2230]: 󰑐
+              - button [ref=e2601] [cursor=pointer]:
+                - generic [ref=e2236]: 󰇙
+          - generic [ref=e2240]:
+            - generic [ref=e2241]:
+              - generic [ref=e2245]:
+                - generic [ref=e2247]:
+                  - heading [level=5] [ref=e2602]: LT Sachin 20august
+                  - generic [ref=e2254]:
+                    - heading [level=4] [ref=e2603]: CONFIRMED
+                    - heading [level=6] [ref=e2604]: "100001201"
+                - generic [ref=e2259]:
+                  - generic [ref=e2262]:
+                    - generic [ref=e2263]: Account Id
+                    - heading [level=6] [ref=e2605]: "101373250701"
+                  - generic [ref=e2267]:
+                    - generic [ref=e2268]: Arrival
+                    - heading [level=6] [ref=e2606]: 01/07/2025
+                  - generic [ref=e2272]:
+                    - generic [ref=e2273]: Departure
+                    - heading [level=6] [ref=e2607]: 02/07/2025
+                  - generic [ref=e2277]:
+                    - generic [ref=e2278]: Room Type
+                    - heading [level=6] [ref=e2608]: DELX
+                  - generic [ref=e2283]: Room No
+                  - generic [ref=e2286]:
+                    - generic [ref=e2287]: Currency
+                    - heading [level=6] [ref=e2609]: INR
+                  - generic [ref=e2291]:
+                    - generic [ref=e2292]: Rate Code
+                    - heading [level=6] [ref=e2610]: RACK
+                  - generic [ref=e2296]:
+                    - generic [ref=e2297]: System Rate
+                    - heading [level=6] [ref=e2611]: 1,000.00
+                  - generic [ref=e2301]:
+                    - generic [ref=e2302]: Agreed Rate
+                    - heading [level=6] [ref=e2612]: 1,000.00
+                  - generic [ref=e2306]:
+                    - generic [ref=e2307]: Guest Rate
+                    - heading [level=6] [ref=e2613]: 1,000.00
+                  - generic [ref=e2312]: Deposit Required
+                  - generic [ref=e2315]:
+                    - generic [ref=e2316]: Pay By
+                    - heading [level=6] [ref=e2614]: CASH
+                  - generic [ref=e2321]: Billing Inst
+              - generic [ref=e2530]:
+                - generic [ref=e2532]:
+                  - heading [level=5] [ref=e2615]: Folio Summary
+                  - generic [ref=e2541]:
+                    - generic [ref=e2542]:
+                      - radio [checked]
+                      - generic [ref=e2543] [cursor=pointer]: Charge Summary
+                    - generic [ref=e2544]:
+                      - radio
+                      - generic [ref=e2545] [cursor=pointer]: Date Summary
+                - generic [ref=e2548]:
+                  - generic [ref=e2549]:
+                    - heading [level=5] [ref=e2616]:
+                      - text: "Folio Total:"
+                      - generic [ref=e2551]: "0.00"
+                    - generic [ref=e2552]: (Contract folio = 0.00, Other Folios = 0.00 )
+                    - generic [ref=e2554]:
+                      - checkbox [ref=e2617] [cursor=pointer]
+                      - generic [ref=e2556] [cursor=pointer]: Show Billed Transactions
+                  - generic [ref=e2562]:
+                    - generic [ref=e2563]:
+                      - generic [ref=e2564]:
+                        - generic [ref=e2565]: 󱔗
+                        - text: Folio No 1
+                      - generic [ref=e2566]:
+                        - button [ref=e2618] [cursor=pointer]:
+                          - generic [ref=e2570]: 󰐪
+                        - button [ref=e2619] [cursor=pointer]:
+                          - generic [ref=e2574]: 
+                    - generic [ref=e2576]:
+                      - generic [ref=e2579]: "Balance: 0.00"
+                      - heading [level=6] [ref=e2620] [cursor=pointer]: View all transactions
+            - generic [ref=e2376]:
+              - button [ref=e2621] [cursor=pointer]: Collect Payment
+              - generic [ref=e2381]:
+                - heading [level=5] [ref=e2622]: Bill Summary
+                - generic [ref=e2386]:
+                  - generic [ref=e2387]:
+                    - heading [level=6] [ref=e2623]: Due Amount
+                    - heading [level=5] [ref=e2624]: 1,000.00
+                  - table [ref=e2391]:
+                    - rowgroup [ref=e2392]:
+                      - heading [level=6] [ref=e2625]: "Future Postings:"
+                      - row [ref=e2626]:
+                        - cell [ref=e2627]: DGT (1 Room)
+                        - cell [ref=e2628]:
+                          - heading [level=6] [ref=e2629]: "892.86"
+                      - row [ref=e2630]:
+                        - cell [ref=e2631]:
+                          - generic [ref=e2401]: Central GST 6 %
+                        - cell [ref=e2632]:
+                          - heading [level=6] [ref=e2633]: "53.57"
+                      - row [ref=e2634]:
+                        - cell [ref=e2635]:
+                          - generic [ref=e2406]: State GST 6 %
+                        - cell [ref=e2636]:
+                          - heading [level=6] [ref=e2637]: "53.57"
+                      - row [ref=e2638]:
+                        - cell [ref=e2639]: Total
+                        - cell [ref=e2640]:
+                          - heading [level=6] [ref=e2641]: 1,000.00
+                      - row [ref=e2642]:
+                        - cell [ref=e2643]: Sub Total
+                        - cell [ref=e2644]:
+                          - heading [level=6] [ref=e2645]: 1,000.00
+                - generic [ref=e2418]:
+                  - generic [ref=e2419]:
+                    - heading [level=6] [ref=e2646]: Total
+                    - heading [level=5] [ref=e2647]: 1,000.00
+                  - generic [ref=e2423]:
+                    - heading [level=6] [ref=e2648]: Payment
+                    - heading [level=5] [ref=e2649]: "0.00"
+                  - generic [ref=e2427]:
+                    - heading [level=6] [ref=e2650]: Due Amount
+                    - heading [level=5] [ref=e2651]: 1,000.00
+        - contentinfo [ref=e1936]:
+          - generic [ref=e1938]:
+            - heading [level=6] [ref=e2652]: "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 01/07/2025"
+            - heading [level=6] [ref=e2653]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e1945]: 󰅒
+  - dialog [ref=e2655]:
+    - document:
+      - generic [ref=e2658]:
+        - heading "󰧮 Collect Payment" [level=5] [ref=e2661]:
+          - generic [ref=e2663]: 󰧮
+          - text: Collect Payment
+        - generic [ref=e2668]:
+          - generic [ref=e2671]:
+            - heading "Cash Collection" [level=5] [ref=e2796]
+            - generic [ref=e2798]:
+              - generic [ref=e2801]:
+                - generic [ref=e2803]: "Folio :"
+                - group "Basic radio toggle button group" [ref=e2804]:
+                  - radio "1" [checked]
+                  - generic [ref=e2805] [cursor=pointer]: "1"
+                - group "Basic radio toggle button group" [ref=e2806]:
+                  - radio "2"
+                  - generic [ref=e2807] [cursor=pointer]: "2"
+                - group "Basic radio toggle button group" [ref=e2808]:
+                  - radio "3"
+                  - generic [ref=e2809] [cursor=pointer]: "3"
+                - group "Basic radio toggle button group" [ref=e2810]:
+                  - radio "4"
+                  - generic [ref=e2811] [cursor=pointer]: "4"
+                - group "Basic radio toggle button group" [ref=e2812]:
+                  - radio "5"
+                  - generic [ref=e2813] [cursor=pointer]: "5"
+                - group "Basic radio toggle button group" [ref=e2814]:
+                  - radio "6"
+                  - generic [ref=e2815] [cursor=pointer]: "6"
+                - group "Basic radio toggle button group" [ref=e2816]:
+                  - radio "7"
+                  - generic [ref=e2817] [cursor=pointer]: "7"
+                - group "Basic radio toggle button group" [ref=e2818]:
+                  - radio "8"
+                  - generic [ref=e2819] [cursor=pointer]: "8"
+              - generic [ref=e2821]:
+                - generic [ref=e2822]:
+                  - generic [ref=e2824]: Amount*
+                  - textbox [active] [ref=e2826]: "0.00"
+                - generic [ref=e2828]: 󰅖
+                - generic [ref=e2829]:
+                  - generic [ref=e2831]: Quantity
+                  - spinbutton [ref=e2833]: "0"
+                - generic [ref=e2835]: 󰇼
+                - heading "₹0.00" [level=5] [ref=e2836]
+              - generic [ref=e2840]:
+                - radio "INR" [checked]
+                - generic [ref=e2841] [cursor=pointer]: INR
+              - generic [ref=e2842]:
+                - generic [ref=e2844]: Reference
+                - textbox [ref=e2846]
+              - generic [ref=e2847]:
+                - generic [ref=e2849]: Remarks
+                - textbox [ref=e2851]
+          - generic [ref=e2782]:
+            - button "󰜱 Back" [ref=e2852] [cursor=pointer]:
+              - generic [ref=e2853]:
+                - generic [ref=e2854]: 󰜱
+                - text: Back
+            - generic [ref=e2785]:
+              - button "Post" [ref=e2855] [cursor=pointer]
+              - button "Close" [ref=e2786] [cursor=pointer]

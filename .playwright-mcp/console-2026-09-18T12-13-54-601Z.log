@@ -1,0 +1,3 @@
+[    1963ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0
+[  148213ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/dashboard:0
+[  252654ms] [WARNING] The specified value "2025-07-02 to 2025-07-03" does not conform to the required format, "yyyy-MM-dd". @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.be7e5d04a1e003a5.js:8

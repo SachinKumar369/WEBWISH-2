@@ -1,0 +1,218 @@
+- generic [ref=f6e1718]:
+  - generic [ref=f6e1719]:
+    - banner [ref=f6e1720]:
+      - generic [ref=f6e1722]:
+        - generic [ref=f6e1723]:
+          - link [ref=f6e1725] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=f6e1729]:
+            - textbox "Search" [ref=f6e1730]: guest management 󰅀
+            - generic [ref=f6e1731]: 󰍉
+        - heading "Webwish Hotel" [level=5] [ref=f6e1733]
+        - generic [ref=f6e1734]:
+          - button "󰅒" [ref=f6e1736] [cursor=pointer]
+          - button "" [ref=f6e1739] [cursor=pointer]
+          - button "" [ref=f6e1742] [cursor=pointer]
+          - button " 3" [ref=f6e1745] [cursor=pointer]:
+            - generic "Change Shift" [ref=f6e1746]: 
+            - generic [ref=f6e1747]: "3"
+          - generic [ref=f6e1748]:
+            - button "" [ref=f6e1749] [cursor=pointer]:
+              - generic "Notifications" [ref=f6e1750]: 
+            - text:  
+          - generic [ref=f6e1751]:
+            - button [ref=f6e1752] [cursor=pointer]:
+              - img "Header Avatar" [ref=f6e1754]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button [ref=f6e1756] [cursor=pointer]:
+            - img "Header Avatar" [ref=f6e1758]
+    - generic [ref=f6e1767]:
+      - text: 
+      - region "scrollable content" [ref=f6e1774]:
+        - list [ref=f6e1776]:
+          - listitem
+          - listitem [ref=f6e1777]:
+            - link "" [ref=f6e1779] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1781]:
+            - link "" [ref=f6e1783] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1785]:
+            - link "" [ref=f6e1787] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1789]:
+            - link "󰃢" [ref=f6e1791] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1793]:
+            - link "" [ref=f6e1794] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1796]:
+            - link "" [ref=f6e1798] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1800]:
+            - link "" [ref=f6e1802] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1804]:
+            - link "" [ref=f6e1806] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1808]:
+            - link "" [ref=f6e1810] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1812]:
+            - link "" [ref=f6e1814] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem
+          - listitem: 
+          - listitem: 
+          - listitem [ref=f6e1816]:
+            - link "" [ref=f6e1818] [cursor=pointer]:
+              - /url: javascript:void(0);
+    - generic [ref=f6e1821]:
+      - generic [ref=f6e1943]:
+        - generic [ref=f6e1944]:
+          - generic [ref=f6e1947]:
+            - heading "Guest Management" [level=3] [ref=f6e1950]
+            - toolbar "Grid actions" [ref=f6e1954]:
+              - button "New Reservation" [ref=f6e1956] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f6e1957]: 󰐕
+              - button "Filter" [ref=f6e1960] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f6e1961]: 󰈲
+              - button "Refresh" [ref=f6e1964] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f6e1965]: 󰑐
+              - button "Download" [ref=f6e1968] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f6e1969]: 󰥦
+          - generic [ref=f6e1971]:
+            - generic [ref=f6e1974]:
+              - generic [ref=f6e1976]:
+                - generic [ref=f6e1977]:
+                  - radio "Arrivals" [checked]
+                  - generic [ref=f6e1978] [cursor=pointer]: Arrivals
+                - generic [ref=f6e1979]:
+                  - radio "In-House"
+                  - generic [ref=f6e1980] [cursor=pointer]: In-House
+                - generic [ref=f6e1981]:
+                  - radio "Departures"
+                  - generic [ref=f6e1982] [cursor=pointer]: Departures
+              - generic [ref=f6e1985]:
+                - generic [ref=f6e1986]: "Property Id : WEBWE"
+                - generic [ref=f6e1987]: "Status : Reserved"
+                - generic [ref=f6e1988]:
+                  - text: "Quick Search : Expected Arrival (Today)"
+                  - button [ref=f6e1989] [cursor=pointer]
+                - button "󰈵" [ref=f6e1991] [cursor=pointer]
+            - generic [ref=f6e1995]:
+              - generic [ref=f6e1997]:
+                - textbox "Search" [ref=f6e1998]
+                - generic [ref=f6e1999]: 󰍉
+                - button "All 󰅀" [ref=f6e2001] [cursor=pointer]:
+                  - text: All
+                  - generic [ref=f6e2002]: 󰅀
+              - generic [ref=f6e2003]:
+                - generic [ref=f6e2005]:
+                  - generic [ref=f6e2006] [cursor=pointer]:
+                    - generic [ref=f6e2007]: "-"
+                    - text: Waitlisted
+                  - generic [ref=f6e2008] [cursor=pointer]:
+                    - generic [ref=f6e2009]: "-"
+                    - text: Confirmed
+                  - generic [ref=f6e2010] [cursor=pointer]:
+                    - generic [ref=f6e2011]: "-"
+                    - text: Hold
+                  - generic [ref=f6e2012] [cursor=pointer]:
+                    - generic [ref=f6e2013]: "-"
+                    - text: Inhouse
+                  - generic [ref=f6e2014] [cursor=pointer]:
+                    - generic [ref=f6e2015]: "-"
+                    - text: Checked-out
+                  - generic [ref=f6e2016] [cursor=pointer]:
+                    - generic [ref=f6e2017]: "-"
+                    - text: Cancelled
+                  - generic [ref=f6e2018] [cursor=pointer]:
+                    - generic [ref=f6e2019]: "-"
+                    - text: NoShow
+                  - generic [ref=f6e2020] [cursor=pointer]:
+                    - generic [ref=f6e2021]: "-"
+                    - text: All
+                - 'button "Total: 2" [disabled]'
+                - generic [ref=f6e2024]:
+                  - generic [ref=f6e2025]:
+                    - radio ""
+                    - generic [ref=f6e2026] [cursor=pointer]: 
+                  - generic [ref=f6e2029]:
+                    - radio "" [checked]
+                    - generic [ref=f6e2030] [cursor=pointer]: 
+        - generic [ref=f6e2038]:
+          - generic [ref=f6e2040]:
+            - checkbox [ref=f6e2044] [cursor=pointer]
+            - generic [ref=f6e2045]:
+              - generic "Id" [ref=f6e2048] [cursor=pointer]
+              - generic "Guest Name" [ref=f6e2052] [cursor=pointer]
+              - generic "Confirmation No" [ref=f6e2056] [cursor=pointer]
+              - generic "Status" [ref=f6e2060] [cursor=pointer]
+              - generic "Hk Status" [ref=f6e2064] [cursor=pointer]
+              - generic "Arrival" [ref=f6e2068] [cursor=pointer]
+              - generic "Departure" [ref=f6e2072] [cursor=pointer]
+              - generic "Room No" [ref=f6e2076] [cursor=pointer]
+              - generic "Nights" [ref=f6e2080] [cursor=pointer]
+              - generic "Pax(A/Y/C)" [ref=f6e2084] [cursor=pointer]
+              - generic "Room Type" [ref=f6e2088] [cursor=pointer]
+              - generic "Travel Agent" [ref=f6e2092] [cursor=pointer]
+              - generic "Corporate" [ref=f6e2096] [cursor=pointer]
+              - generic "Operator" [ref=f6e2100] [cursor=pointer]
+              - generic "Other Ref No" [ref=f6e2104] [cursor=pointer]
+              - generic "Agreed Rate" [ref=f6e2108] [cursor=pointer]
+              - generic "Guest Rate" [ref=f6e2112] [cursor=pointer]
+              - generic "Guest Balance" [ref=f6e2116] [cursor=pointer]
+            - generic [ref=f6e2119] [cursor=pointer]
+          - generic [ref=f6e2121]:
+            - generic [ref=f6e2122]:
+              - checkbox [ref=f6e2126] [cursor=pointer]
+              - generic "100848250627" [ref=f6e2132]
+              - generic [ref=f6e2136]:
+                - generic [ref=f6e2137]: G
+                - generic [ref=f6e2138]: New oen Check
+              - generic "100000692" [ref=f6e2144]
+              - generic [ref=f6e2145]: CONFIRMED
+              - generic [ref=f6e2151]: Inspected
+              - generic "02/07/2025, 00:00" [ref=f6e2162]
+              - generic "12/07/2025, 00:00" [ref=f6e2168]
+              - generic "1004" [ref=f6e2174]
+              - generic "10" [ref=f6e2180]
+              - generic "1/0/0" [ref=f6e2186]
+              - generic "DGT" [ref=f6e2192]
+              - generic "600.00" [ref=f6e2218]
+              - generic "600.00" [ref=f6e2224]
+              - generic "0.00" [ref=f6e2230]
+              - generic [ref=f6e2233]:
+                - button "" [ref=f6e2234] [cursor=pointer]
+                - button "󰗔" [ref=f6e2236] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f6e2238] [cursor=pointer]
+            - generic [ref=f6e2240]:
+              - checkbox [ref=f6e2244] [cursor=pointer]
+              - generic "101484250702" [ref=f6e2250]
+              - generic [ref=f6e2254]:
+                - generic [ref=f6e2255]: S
+                - generic [ref=f6e2256]: Raj Prakash
+              - generic "100001286" [ref=f6e2262]
+              - generic [ref=f6e2263]: CONFIRMED
+              - generic [ref=f6e2269]: Inspected
+              - generic "02/07/2025, 12:00" [ref=f6e2280]
+              - generic "04/07/2025, 11:30" [ref=f6e2286]
+              - generic "1042" [ref=f6e2292]
+              - generic "2" [ref=f6e2298]
+              - generic "2/0/0" [ref=f6e2304]
+              - generic "DGT" [ref=f6e2310]
+              - generic "0.00" [ref=f6e2336]
+              - generic "0.00" [ref=f6e2342]
+              - generic "0.00" [ref=f6e2348]
+              - generic [ref=f6e2351]:
+                - button "" [ref=f6e2352] [cursor=pointer]
+                - button "󰗔" [ref=f6e2354] [cursor=pointer]
+                - text: 󰗕
+                - button "" [ref=f6e2356] [cursor=pointer]
+      - contentinfo [ref=f6e1933]:
+        - generic [ref=f6e1935]:
+          - 'heading "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 02/07/2025" [level=6] [ref=f6e1937]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=f6e1940]
+  - generic: 󰅒

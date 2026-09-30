@@ -1,0 +1,284 @@
+- generic [ref=e1]:
+  - generic [ref=e612]:
+    - generic [ref=e613]:
+      - banner [ref=e614]:
+        - generic [ref=e616]:
+          - generic [ref=e617]:
+            - link [ref=e619] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e623]:
+              - textbox [ref=e3142]:
+                - /placeholder: Search
+                - text: 󰅀
+              - generic [ref=e625]: 󰍉
+          - heading [level=5] [ref=e3143]: Webwish Hotel
+          - generic [ref=e628]:
+            - button [ref=e3144] [cursor=pointer]:
+              - generic [ref=e631]: 󰅒
+            - button [ref=e3145] [cursor=pointer]:
+              - generic [ref=e634]: 
+            - button [ref=e3146] [cursor=pointer]:
+              - generic [ref=e637]: 
+            - button [ref=e3147] [cursor=pointer]:
+              - generic [ref=e3148]: 
+              - generic [ref=e641]: "3"
+            - generic [ref=e642]:
+              - button [ref=e3149] [cursor=pointer]:
+                - generic [ref=e3150]: 
+              - text:  
+            - generic [ref=e645]:
+              - button [ref=e3151] [cursor=pointer]:
+                - img [ref=e3152]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e3153] [cursor=pointer]:
+              - img [ref=e3154]
+      - generic [ref=e653]:
+        - text: 
+        - generic [ref=e655]:
+          - region [ref=e3155]:
+            - list [ref=e662]:
+              - listitem [ref=e663]:
+                - link [ref=e3156] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e666]: 
+                - text:     
+          - button [ref=e3157] [cursor=pointer]:
+            - generic [ref=e668]: 
+      - generic [ref=e670]:
+        - generic [ref=e2210]:
+          - generic [ref=e2214]:
+            - heading [level=3] [ref=e3158]: Cashiering
+            - generic [ref=e2218]:
+              - button [ref=e3159] [cursor=pointer]:
+                - generic [ref=e2222]: 󰡭
+              - button [ref=e3160] [cursor=pointer]:
+                - generic [ref=e2226]: 󰈲
+              - button [ref=e3161] [cursor=pointer]:
+                - generic [ref=e2230]: 󰑐
+              - button [ref=e3162] [cursor=pointer]:
+                - generic [ref=e2236]: 󰇙
+          - generic [ref=e2240]:
+            - generic [ref=e2241]:
+              - generic [ref=e2245]:
+                - generic [ref=e2247]:
+                  - heading [level=5] [ref=e3163]: LT Sachin 20august
+                  - generic [ref=e2254]:
+                    - heading [level=4] [ref=e3164]: CONFIRMED
+                    - heading [level=6] [ref=e3165]: "100001201"
+                - generic [ref=e2259]:
+                  - generic [ref=e2262]:
+                    - generic [ref=e2263]: Account Id
+                    - heading [level=6] [ref=e3166]: "101373250701"
+                  - generic [ref=e2267]:
+                    - generic [ref=e2268]: Arrival
+                    - heading [level=6] [ref=e3167]: 01/07/2025
+                  - generic [ref=e2272]:
+                    - generic [ref=e2273]: Departure
+                    - heading [level=6] [ref=e3168]: 02/07/2025
+                  - generic [ref=e2277]:
+                    - generic [ref=e2278]: Room Type
+                    - heading [level=6] [ref=e3169]: DELX
+                  - generic [ref=e2283]: Room No
+                  - generic [ref=e2286]:
+                    - generic [ref=e2287]: Currency
+                    - heading [level=6] [ref=e3170]: INR
+                  - generic [ref=e2291]:
+                    - generic [ref=e2292]: Rate Code
+                    - heading [level=6] [ref=e3171]: RACK
+                  - generic [ref=e2296]:
+                    - generic [ref=e2297]: System Rate
+                    - heading [level=6] [ref=e3172]: 1,000.00
+                  - generic [ref=e2301]:
+                    - generic [ref=e2302]: Agreed Rate
+                    - heading [level=6] [ref=e3173]: 1,000.00
+                  - generic [ref=e2306]:
+                    - generic [ref=e2307]: Guest Rate
+                    - heading [level=6] [ref=e3174]: 1,000.00
+                  - generic [ref=e2312]: Deposit Required
+                  - generic [ref=e2315]:
+                    - generic [ref=e2316]: Pay By
+                    - heading [level=6] [ref=e3175]: CASH
+                  - generic [ref=e2321]: Billing Inst
+              - generic [ref=e3009]:
+                - generic [ref=e3011]:
+                  - heading [level=5] [ref=e3176]: Folio Details
+                  - generic [ref=e3018]:
+                    - button [ref=e3177] [cursor=pointer]:
+                      - text: Group By
+                      - generic [ref=e3024]: 󰅀
+                    - button [ref=e3178] [cursor=pointer]:
+                      - generic [ref=e3027]: 󰊓
+                    - button [ref=e3179] [cursor=pointer]:
+                      - generic [ref=e3029]:
+                        - generic [ref=e3030]: 󰜱
+                        - text: Back
+                    - button [ref=e3180] [cursor=pointer]:
+                      - generic [ref=e3032]:
+                        - generic [ref=e3033]: 󰠘
+                        - text: Save
+                    - button [ref=e3181] [cursor=pointer]:
+                      - generic [ref=e3037]: 󰈲
+                    - button [ref=e3182] [cursor=pointer]:
+                      - generic [ref=e3043]: 󰇙
+                - generic [ref=e3047]:
+                  - generic [ref=e3049]:
+                    - generic [ref=e3051]:
+                      - group [ref=e3183]:
+                        - radio
+                        - generic [ref=e3053] [cursor=pointer]: A
+                      - group [ref=e3184]:
+                        - radio [checked]
+                        - generic [ref=e3055] [cursor=pointer]: "1"
+                    - generic [ref=e3058]:
+                      - textbox [ref=e3185]:
+                        - /placeholder: Search
+                      - generic [ref=e3060]: 
+                  - generic [ref=e3063]:
+                    - generic [ref=e3064]: "Show all transactions : N"
+                    - generic [ref=e3065]: "Show billed transactions : N"
+                  - table [ref=e3068]:
+                    - rowgroup [ref=e3069]:
+                      - row [ref=e3186]:
+                        - columnheader [ref=e3071]:
+                          - checkbox [ref=e3072]
+                        - columnheader [ref=e3187]: Charge Description
+                        - columnheader [ref=e3188]: Description
+                        - columnheader [ref=e3189]: Amount
+                        - columnheader [ref=e3190]: Code
+                        - columnheader [ref=e3191]: Business Date
+                        - columnheader [ref=e3192]: Time
+                        - columnheader [ref=e3193]: Reference
+                        - columnheader [ref=e3194]: Transaction Type
+                        - columnheader [ref=e3195]: Cashier Name
+                        - columnheader [ref=e3196]: Remarks
+                        - columnheader [ref=e3197]: Transfer Remarks
+                        - columnheader [ref=e3198]: System Date
+                        - columnheader [ref=e3199]: Invoice No
+                        - columnheader [ref=e3200]: Quantity
+                        - columnheader [ref=e3201]: Shift
+                        - columnheader [ref=e3202]: Currency
+                        - columnheader [ref=e3203]: Amount Fx
+                        - columnheader [ref=e3204]: Folio No
+                        - columnheader [ref=e3205]: Rate
+                        - columnheader [ref=e3206]: Allowance Code
+                        - columnheader [ref=e3207]: Prior Split
+                        - columnheader [ref=e3208]: Outlet Code
+                        - columnheader [ref=e3209]: Card Number
+                        - columnheader [ref=e3210]: Card Expiry Date
+                        - columnheader [ref=e3211]: Smart Pay code
+                        - columnheader [ref=e3212]: Gateway Code
+                        - columnheader [ref=e3213]: Gateway Active
+                    - rowgroup [ref=e3100]:
+                      - row [ref=e3214]:
+                        - cell [ref=e3102]:
+                          - checkbox [checked] [ref=e3103]
+                        - cell [ref=e3215]: Cash Collection
+                        - cell [ref=e3216]:
+                          - textbox [ref=e3107]: Cash Collection
+                        - cell [ref=e3217]: "-500.00"
+                        - cell [ref=e3218]: CACO
+                        - cell [ref=e3219]: 01/07/2025
+                        - cell [ref=e3220]: 15:54:00
+                        - cell [ref=e3221]: Advance Test
+                        - cell [ref=e3222]: RG
+                        - cell [ref=e3223]: Sachin Kumar
+                        - cell [ref=e3115]
+                        - cell [ref=e3116]
+                        - cell [ref=e3224]: 08/09/2026
+                        - cell [ref=e3225]: "0"
+                        - cell [ref=e3226]: "0"
+                        - cell [ref=e3227]: "3"
+                        - cell [ref=e3121]
+                        - cell [ref=e3228]: "0.00"
+                        - cell [ref=e3229]: "1"
+                        - cell [ref=e3230]: "0"
+                        - cell [ref=e3231]: CAPO
+                        - cell [ref=e3232]: "0.00"
+                        - cell [ref=e3233]: PMS
+                        - cell [ref=e3128]
+                        - cell [ref=e3234]: 00/0000
+                        - cell [ref=e3130]
+                        - cell [ref=e3131]
+                        - cell [ref=e3132]
+            - generic [ref=e2376]:
+              - button [ref=e3235] [cursor=pointer]: Collect Payment
+              - generic [ref=e2381]:
+                - heading [level=5] [ref=e3236]: Bill Summary
+                - generic [ref=e2386]:
+                  - generic [ref=e2387]:
+                    - heading [level=6] [ref=e3237]: Due Amount
+                    - heading [level=5] [ref=e3238]: "500.00"
+                  - table [ref=e2391]:
+                    - rowgroup [ref=e2392]:
+                      - heading [level=6] [ref=e3239]: "Current Postings:"
+                      - row [ref=e3240]:
+                        - cell [ref=e3241]: Payment
+                        - cell [ref=e3242]:
+                          - heading [level=6] [ref=e3243]: "-500.00"
+                      - row [ref=e3244]:
+                        - cell [ref=e3245]: Sub Total
+                        - cell [ref=e3246]:
+                          - heading [level=6] [ref=e3247]: "-500.00"
+                      - heading [level=6] [ref=e3248]: "Future Postings:"
+                      - row [ref=e3249]:
+                        - cell [ref=e3250]: DGT (1 Room)
+                        - cell [ref=e3251]:
+                          - heading [level=6] [ref=e3252]: "892.86"
+                      - row [ref=e3253]:
+                        - cell [ref=e3254]:
+                          - generic [ref=e2979]: Central GST 6 %
+                        - cell [ref=e3255]:
+                          - heading [level=6] [ref=e3256]: "53.57"
+                      - row [ref=e3257]:
+                        - cell [ref=e3258]:
+                          - generic [ref=e2984]: State GST 6 %
+                        - cell [ref=e3259]:
+                          - heading [level=6] [ref=e3260]: "53.57"
+                      - row [ref=e3261]:
+                        - cell [ref=e3262]: Total
+                        - cell [ref=e3263]:
+                          - heading [level=6] [ref=e3264]: 1,000.00
+                      - row [ref=e3265]:
+                        - cell [ref=e3266]: Sub Total
+                        - cell [ref=e3267]:
+                          - heading [level=6] [ref=e3268]: 1,000.00
+                - generic [ref=e2418]:
+                  - generic [ref=e2419]:
+                    - heading [level=6] [ref=e3269]: Total
+                    - heading [level=5] [ref=e3270]: 1,000.00
+                  - generic [ref=e2423]:
+                    - heading [level=6] [ref=e3271]: Payment
+                    - heading [level=5] [ref=e3272]: "-500.00"
+                  - generic [ref=e2427]:
+                    - heading [level=6] [ref=e3273]: Due Amount
+                    - heading [level=5] [ref=e3274]: "500.00"
+          - generic [ref=e3133]:
+            - text: 
+            - generic [ref=e3134]:
+              - button [ref=e3275] [cursor=pointer]: Transfer
+              - button [ref=e3276] [cursor=pointer]: Void
+              - button [ref=e3277] [cursor=pointer]: Payment Refund
+              - button [ref=e3278] [cursor=pointer]: Split
+              - button [ref=e3279] [cursor=pointer]: Voucher Print
+            - text: 
+            - button [ref=e3280] [cursor=pointer]: Close
+        - contentinfo [ref=e1936]:
+          - generic [ref=e1938]:
+            - heading [level=6] [ref=e3281]: "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 01/07/2025"
+            - heading [level=6] [ref=e3282]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e1945]: 󰅒
+  - dialog [active] [ref=e3284]:
+    - document:
+      - generic [ref=e3287]:
+        - generic [ref=e3288]:
+          - heading "󰧮 Void Charge" [level=5] [ref=e3290]:
+            - generic [ref=e3292]: 󰧮
+            - text: Void Charge
+          - button "Close" [ref=e3294] [cursor=pointer]
+        - generic [ref=e3297]:
+          - generic [ref=e3301]:
+            - generic [ref=e3303]: Void Reason?*
+            - textbox [ref=e3305]
+          - generic [ref=e3310]:
+            - button "Save" [ref=e3311] [cursor=pointer]
+            - button "Close" [ref=e3312] [cursor=pointer]

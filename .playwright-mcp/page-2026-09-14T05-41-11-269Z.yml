@@ -1,0 +1,635 @@
+- generic [ref=e1]:
+  - generic [ref=e137]:
+    - generic [ref=e138]:
+      - banner [ref=e139]:
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - link [ref=e144] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e148]:
+              - textbox [ref=e655]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=e150]: 󰍉
+          - heading [level=5] [ref=e656]: Webwish Hotel
+          - generic [ref=e153]:
+            - button [ref=e657] [cursor=pointer]:
+              - generic [ref=e156]: 󰅒
+            - button [ref=e658] [cursor=pointer]:
+              - generic [ref=e159]: 
+            - button [ref=e659] [cursor=pointer]:
+              - generic [ref=e162]: 
+            - button [ref=e660] [cursor=pointer]:
+              - generic [ref=e661]: 
+              - generic [ref=e166]: "3"
+            - generic [ref=e167]:
+              - button [ref=e662] [cursor=pointer]:
+                - generic [ref=e663]: 
+              - text:  
+            - generic [ref=e170]:
+              - button [ref=e664] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e666] [cursor=pointer]
+      - generic [ref=e186]:
+        - text: 
+        - region [ref=e668]:
+          - list [ref=e195]:
+            - listitem [ref=e196]:
+              - link [ref=e669] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e199]: 
+            - listitem [ref=e200]:
+              - link [ref=e670] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e203]: 
+            - listitem [ref=e204]:
+              - link [ref=e671] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e207]: 
+            - listitem [ref=e208]:
+              - link [ref=e672] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e211]: 󰃢
+            - listitem [ref=e212]:
+              - link [ref=e673] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e214]: 
+            - listitem [ref=e215]:
+              - link [ref=e674] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e218]: 
+            - listitem [ref=e219]:
+              - link [ref=e675] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e222]: 
+            - listitem [ref=e223]:
+              - link [ref=e676] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e226]: 
+            - listitem [ref=e227]:
+              - link [ref=e677] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e230]: 
+            - listitem [ref=e231]:
+              - link [ref=e678] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e234]: 
+            - text:  
+            - listitem [ref=e235]:
+              - link [ref=e679] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e238]: 
+      - generic [ref=e240]:
+        - generic [ref=e415]:
+          - generic [ref=e419]:
+            - heading [level=3] [ref=e680]: System Utilities
+            - list [ref=e424]:
+              - listitem [ref=e425]:
+                - button [ref=e681] [cursor=pointer]:
+                  - generic [ref=e427]: 󰑐
+          - generic [ref=e429]:
+            - generic [ref=e430]:
+              - generic [ref=e432]:
+                - textbox [ref=e682]:
+                  - /placeholder: Search...
+                - generic [ref=e434]: 󰍉
+              - tabpanel [ref=e436]:
+                - region [ref=e683]:
+                  - list [ref=e443]:
+                    - listitem [ref=e444]:
+                      - link [ref=e684] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=e446]:
+                          - generic [ref=e447]: 
+                          - generic [ref=e448]: Populate Forecast Figures
+                    - listitem [ref=e450]:
+                      - link [ref=e685] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=e452]:
+                          - generic [ref=e453]: 
+                          - generic [ref=e454]: Recreate Availability
+                    - listitem [ref=e456]:
+                      - link [ref=e686] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=e458]:
+                          - generic [ref=e459]: 
+                          - generic [ref=e460]: Synchronize Telephone Exchange
+            - generic [ref=e466]:
+              - generic [ref=e468]:
+                - heading [level=5] [ref=e687]: Recreate Availability
+                - button [active] [ref=e688] [cursor=pointer]:
+                  - generic [ref=e485]: 󰐊
+              - region [ref=e689]
+        - contentinfo [ref=e325]:
+          - generic [ref=e327]:
+            - heading [level=6] [ref=e690]: "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 01/07/2025"
+            - heading [level=6] [ref=e691]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e333]: 󰅒
+  - dialog [ref=e693]:
+    - document:
+      - generic [ref=e696]:
+        - heading "󰧮 Availability" [level=4] [ref=e698]:
+          - generic [ref=e699]: 󰧮
+          - text: Availability
+        - generic [ref=e703]:
+          - generic [ref=e704]:
+            - generic [ref=e705]:
+              - alert [ref=e707]:
+                - generic [ref=e708]: 
+                - strong [ref=e710]: Refreshed on
+                - text: 01/07/2025 at 11:07
+              - generic [ref=e713]:
+                - button "󰈲" [ref=e714] [cursor=pointer]
+                - button "󰑐" [ref=e717] [cursor=pointer]
+              - generic [ref=e722]:
+                - generic [ref=e723]: "View : Summary"
+                - generic [ref=e724]: "Date : 01/07/2025"
+              - generic [ref=e727]:
+                - generic [ref=e728] [cursor=pointer]:
+                  - generic [ref=e729]: "-"
+                  - text: Available
+                - generic [ref=e730] [cursor=pointer]:
+                  - generic [ref=e731]: "-"
+                  - text: Available Due to Over Booking(+)
+                - generic [ref=e732] [cursor=pointer]:
+                  - generic [ref=e733]: "-"
+                  - text: Room Not Available
+                - generic [ref=e734] [cursor=pointer]:
+                  - generic [ref=e735]: "-"
+                  - text: Not Available Due To UnderBooking
+                - generic [ref=e736] [cursor=pointer]:
+                  - generic [ref=e737]: 
+                  - text: Closed for Arrival
+                - generic [ref=e740] [cursor=pointer]:
+                  - generic [ref=e741]: 
+                  - text: Closed for Departure
+                - generic [ref=e744] [cursor=pointer]:
+                  - generic [ref=e745]: 
+                  - text: Only stay thru
+            - table [ref=e751]:
+              - rowgroup [ref=e752]:
+                - row [ref=e753]:
+                  - columnheader "Toolbar with button groups" [ref=e754]:
+                    - toolbar "Toolbar with button groups"
+                  - columnheader "1 Tue" [ref=e755]
+                  - columnheader "2 Wed" [ref=e756]
+                  - columnheader "3 Thu" [ref=e757]
+                  - columnheader "4 Fri" [ref=e758]
+                  - columnheader "5 Sat" [ref=e759]
+                  - columnheader "6 Sun" [ref=e760]
+                  - columnheader "7 Mon" [ref=e761]
+                  - columnheader "8 Tue" [ref=e762]
+                  - columnheader "9 Wed" [ref=e763]
+                  - columnheader "10 Thu" [ref=e764]
+                  - columnheader "11 Fri" [ref=e765]
+                  - columnheader "12 Sat" [ref=e766]
+                  - columnheader "13 Sun" [ref=e767]
+                  - columnheader "14 Mon" [ref=e768]
+                  - columnheader "15 Tue" [ref=e769]
+                  - columnheader "16 Wed" [ref=e770]
+                  - columnheader "17 Thu" [ref=e771]
+                  - columnheader "18 Fri" [ref=e772]
+                  - columnheader "19 Sat" [ref=e773]
+                  - columnheader "20 Sun" [ref=e774]
+                  - columnheader "21 Mon" [ref=e775]
+                  - columnheader "22 Tue" [ref=e776]
+                  - columnheader "23 Wed" [ref=e777]
+                  - columnheader "24 Thu" [ref=e778]
+                  - columnheader "25 Fri" [ref=e779]
+                  - columnheader "26 Sat" [ref=e780]
+                  - columnheader "27 Sun" [ref=e781]
+                  - columnheader "28 Mon" [ref=e782]
+                  - columnheader "29 Tue" [ref=e783]
+                  - columnheader "30 Wed" [ref=e784]
+                  - columnheader "31 Thu" [ref=e785]
+              - rowgroup [ref=e786]:
+                - row [ref=e787]:
+                  - cell "DGT" [ref=e788]
+                  - cell "19" [ref=e790]
+                  - cell "95" [ref=e792]
+                  - cell "112" [ref=e794]
+                  - cell "117" [ref=e796]
+                  - cell "125" [ref=e798]
+                  - cell "126" [ref=e800]
+                  - cell "126" [ref=e802]
+                  - cell "127" [ref=e804]
+                  - cell "118" [ref=e806]
+                  - cell "134" [ref=e808]
+                  - cell "134" [ref=e810]
+                  - cell "136" [ref=e812]
+                  - cell "132" [ref=e814]
+                  - cell "133" [ref=e816]
+                  - cell "135" [ref=e818]
+                  - cell "135" [ref=e820]
+                  - cell "135" [ref=e822]
+                  - cell "135" [ref=e824]
+                  - cell "145" [ref=e826]
+                  - cell "145" [ref=e828]
+                  - cell "145" [ref=e830]
+                  - cell "145" [ref=e832]
+                  - cell "145" [ref=e834]
+                  - cell "145" [ref=e836]
+                  - cell "145" [ref=e838]
+                  - cell "145" [ref=e840]
+                  - cell "145" [ref=e842]
+                  - cell "145" [ref=e844]
+                  - cell "145" [ref=e846]
+                  - cell "149" [ref=e848]
+                  - cell "150" [ref=e850]
+                - row [ref=e852]:
+                  - cell "LPT" [ref=e853]
+                  - cell "18" [ref=e855]
+                  - cell "45" [ref=e857]
+                  - cell "47" [ref=e859]
+                  - cell "48" [ref=e861]
+                  - cell "50" [ref=e863]
+                  - cell "50" [ref=e865]
+                  - cell "50" [ref=e867]
+                  - cell "50" [ref=e869]
+                  - cell "50" [ref=e871]
+                  - cell "50" [ref=e873]
+                  - cell "49" [ref=e875]
+                  - cell "49" [ref=e877]
+                  - cell "49" [ref=e879]
+                  - cell "49" [ref=e881]
+                  - cell "49" [ref=e883]
+                  - cell "49" [ref=e885]
+                  - cell "49" [ref=e887]
+                  - cell "49" [ref=e889]
+                  - cell "50" [ref=e891]
+                  - cell "50" [ref=e893]
+                  - cell "50" [ref=e895]
+                  - cell "50" [ref=e897]
+                  - cell "50" [ref=e899]
+                  - cell "50" [ref=e901]
+                  - cell "50" [ref=e903]
+                  - cell "50" [ref=e905]
+                  - cell "50" [ref=e907]
+                  - cell "50" [ref=e909]
+                  - cell "50" [ref=e911]
+                  - cell "50" [ref=e913]
+                  - cell "50" [ref=e915]
+                - row [ref=e917]:
+                  - cell "Delux Room" [ref=e918]
+                  - cell "0" [ref=e920]
+                  - cell "0" [ref=e922]
+                  - cell "1" [ref=e924]
+                  - cell "1" [ref=e926]
+                  - cell "1" [ref=e928]
+                  - cell "1" [ref=e930]
+                  - cell "1" [ref=e932]
+                  - cell "1" [ref=e934]
+                  - cell "1" [ref=e936]
+                  - cell "1" [ref=e938]
+                  - cell "1" [ref=e940]
+                  - cell "1" [ref=e942]
+                  - cell "1" [ref=e944]
+                  - cell "1" [ref=e946]
+                  - cell "1" [ref=e948]
+                  - cell "1" [ref=e950]
+                  - cell "1" [ref=e952]
+                  - cell "1" [ref=e954]
+                  - cell "1" [ref=e956]
+                  - cell "1" [ref=e958]
+                  - cell "1" [ref=e960]
+                  - cell "1" [ref=e962]
+                  - cell "1" [ref=e964]
+                  - cell "1" [ref=e966]
+                  - cell "1" [ref=e968]
+                  - cell "1" [ref=e970]
+                  - cell "1" [ref=e972]
+                  - cell "1" [ref=e974]
+                  - cell "1" [ref=e976]
+                  - cell "1" [ref=e978]
+                  - cell "1" [ref=e980]
+                - row [ref=e982]:
+                  - cell "Extra Bed In Room Big Family" [ref=e983]
+                  - cell "1" [ref=e985]
+                  - cell "2" [ref=e987]
+                  - cell "2" [ref=e989]
+                  - cell "2" [ref=e991]
+                  - cell "2" [ref=e993]
+                  - cell "2" [ref=e995]
+                  - cell "2" [ref=e997]
+                  - cell "2" [ref=e999]
+                  - cell "2" [ref=e1001]
+                  - cell "2" [ref=e1003]
+                  - cell "2" [ref=e1005]
+                  - cell "2" [ref=e1007]
+                  - cell "2" [ref=e1009]
+                  - cell "2" [ref=e1011]
+                  - cell "2" [ref=e1013]
+                  - cell "2" [ref=e1015]
+                  - cell "2" [ref=e1017]
+                  - cell "2" [ref=e1019]
+                  - cell "2" [ref=e1021]
+                  - cell "2" [ref=e1023]
+                  - cell "2" [ref=e1025]
+                  - cell "2" [ref=e1027]
+                  - cell "2" [ref=e1029]
+                  - cell "2" [ref=e1031]
+                  - cell "2" [ref=e1033]
+                  - cell "2" [ref=e1035]
+                  - cell "2" [ref=e1037]
+                  - cell "2" [ref=e1039]
+                  - cell "2" [ref=e1041]
+                  - cell "2" [ref=e1043]
+                  - cell "2" [ref=e1045]
+                - row [ref=e1047]:
+                  - cell "PRK" [ref=e1048]
+                  - cell "1" [ref=e1050]
+                  - cell "3" [ref=e1052]
+                  - cell "3" [ref=e1054]
+                  - cell "3" [ref=e1056]
+                  - cell "3" [ref=e1058]
+                  - cell "3" [ref=e1060]
+                  - cell "3" [ref=e1062]
+                  - cell "3" [ref=e1064]
+                  - cell "3" [ref=e1066]
+                  - cell "4" [ref=e1068]
+                  - cell "4" [ref=e1070]
+                  - cell "4" [ref=e1072]
+                  - cell "4" [ref=e1074]
+                  - cell "4" [ref=e1076]
+                  - cell "4" [ref=e1078]
+                  - cell "4" [ref=e1080]
+                  - cell "4" [ref=e1082]
+                  - cell "4" [ref=e1084]
+                  - cell "4" [ref=e1086]
+                  - cell "4" [ref=e1088]
+                  - cell "4" [ref=e1090]
+                  - cell "4" [ref=e1092]
+                  - cell "4" [ref=e1094]
+                  - cell "4" [ref=e1096]
+                  - cell "4" [ref=e1098]
+                  - cell "4" [ref=e1100]
+                  - cell "4" [ref=e1102]
+                  - cell "4" [ref=e1104]
+                  - cell "4" [ref=e1106]
+                  - cell "4" [ref=e1108]
+                  - cell "4" [ref=e1110]
+                - row [ref=e1112]:
+                  - cell "Standart Double" [ref=e1113]
+                  - cell "10" [ref=e1115]
+                  - cell "10" [ref=e1117]
+                  - cell "10" [ref=e1119]
+                  - cell "11" [ref=e1121]
+                  - cell "11" [ref=e1123]
+                  - cell "11" [ref=e1125]
+                  - cell "11" [ref=e1127]
+                  - cell "11" [ref=e1129]
+                  - cell "11" [ref=e1131]
+                  - cell "11" [ref=e1133]
+                  - cell "11" [ref=e1135]
+                  - cell "11" [ref=e1137]
+                  - cell "11" [ref=e1139]
+                  - cell "11" [ref=e1141]
+                  - cell "11" [ref=e1143]
+                  - cell "11" [ref=e1145]
+                  - cell "11" [ref=e1147]
+                  - cell "11" [ref=e1149]
+                  - cell "11" [ref=e1151]
+                  - cell "11" [ref=e1153]
+                  - cell "11" [ref=e1155]
+                  - cell "11" [ref=e1157]
+                  - cell "11" [ref=e1159]
+                  - cell "11" [ref=e1161]
+                  - cell "11" [ref=e1163]
+                  - cell "11" [ref=e1165]
+                  - cell "11" [ref=e1167]
+                  - cell "11" [ref=e1169]
+                  - cell "11" [ref=e1171]
+                  - cell "11" [ref=e1173]
+                  - cell "11" [ref=e1175]
+                - row [ref=e1177]:
+                  - cell "Standard Department" [ref=e1178]
+                  - cell "13" [ref=e1180]
+                  - cell "17" [ref=e1182]
+                  - cell "18" [ref=e1184]
+                  - cell "18" [ref=e1186]
+                  - cell "18" [ref=e1188]
+                  - cell "18" [ref=e1190]
+                  - cell "18" [ref=e1192]
+                  - cell "18" [ref=e1194]
+                  - cell "18" [ref=e1196]
+                  - cell "18" [ref=e1198]
+                  - cell "18" [ref=e1200]
+                  - cell "18" [ref=e1202]
+                  - cell "18" [ref=e1204]
+                  - cell "18" [ref=e1206]
+                  - cell "18" [ref=e1208]
+                  - cell "18" [ref=e1210]
+                  - cell "18" [ref=e1212]
+                  - cell "18" [ref=e1214]
+                  - cell "18" [ref=e1216]
+                  - cell "18" [ref=e1218]
+                  - cell "18" [ref=e1220]
+                  - cell "18" [ref=e1222]
+                  - cell "18" [ref=e1224]
+                  - cell "18" [ref=e1226]
+                  - cell "18" [ref=e1228]
+                  - cell "18" [ref=e1230]
+                  - cell "18" [ref=e1232]
+                  - cell "18" [ref=e1234]
+                  - cell "18" [ref=e1236]
+                  - cell "18" [ref=e1238]
+                  - cell "18" [ref=e1240]
+                - row [ref=e1242]:
+                  - cell "SUITE CITY VIEW" [ref=e1243]
+                  - cell "54" [ref=e1245]
+                  - cell "61" [ref=e1247]
+                  - cell "62" [ref=e1249]
+                  - cell "62" [ref=e1251]
+                  - cell "62" [ref=e1253]
+                  - cell "62" [ref=e1255]
+                  - cell "62" [ref=e1257]
+                  - cell "62" [ref=e1259]
+                  - cell "62" [ref=e1261]
+                  - cell "67" [ref=e1263]
+                  - cell "67" [ref=e1265]
+                  - cell "67" [ref=e1267]
+                  - cell "67" [ref=e1269]
+                  - cell "67" [ref=e1271]
+                  - cell "67" [ref=e1273]
+                  - cell "67" [ref=e1275]
+                  - cell "67" [ref=e1277]
+                  - cell "67" [ref=e1279]
+                  - cell "67" [ref=e1281]
+                  - cell "67" [ref=e1283]
+                  - cell "67" [ref=e1285]
+                  - cell "67" [ref=e1287]
+                  - cell "67" [ref=e1289]
+                  - cell "67" [ref=e1291]
+                  - cell "67" [ref=e1293]
+                  - cell "67" [ref=e1295]
+                  - cell "67" [ref=e1297]
+                  - cell "67" [ref=e1299]
+                  - cell "67" [ref=e1301]
+                  - cell "67" [ref=e1303]
+                  - cell "70" [ref=e1305]
+                - row [ref=e1307]:
+                  - cell [ref=e1308]
+                  - cell [ref=e1309]
+                  - cell [ref=e1310]
+                  - cell [ref=e1311]
+                  - cell [ref=e1312]
+                  - cell [ref=e1313]
+                  - cell [ref=e1314]
+                  - cell [ref=e1315]
+                  - cell [ref=e1316]
+                  - cell [ref=e1317]
+                  - cell [ref=e1318]
+                  - cell [ref=e1319]
+                  - cell [ref=e1320]
+                  - cell [ref=e1321]
+                  - cell [ref=e1322]
+                  - cell [ref=e1323]
+                  - cell [ref=e1324]
+                  - cell [ref=e1325]
+                  - cell [ref=e1326]
+                  - cell [ref=e1327]
+                  - cell [ref=e1328]
+                  - cell [ref=e1329]
+                  - cell [ref=e1330]
+                  - cell [ref=e1331]
+                  - cell [ref=e1332]
+                  - cell [ref=e1333]
+                  - cell [ref=e1334]
+                  - cell [ref=e1335]
+                  - cell [ref=e1336]
+                  - cell [ref=e1337]
+                  - cell [ref=e1338]
+                  - cell [ref=e1339]
+                - row [ref=e1340]:
+                  - cell "Total Saleable" [ref=e1341]
+                  - cell "302" [ref=e1342]
+                  - cell "306" [ref=e1343]
+                  - cell "308" [ref=e1344]
+                  - cell "309" [ref=e1345]
+                  - cell "309" [ref=e1346]
+                  - cell "309" [ref=e1347]
+                  - cell "309" [ref=e1348]
+                  - cell "309" [ref=e1349]
+                  - cell "309" [ref=e1350]
+                  - cell "309" [ref=e1351]
+                  - cell "309" [ref=e1352]
+                  - cell "309" [ref=e1353]
+                  - cell "309" [ref=e1354]
+                  - cell "309" [ref=e1355]
+                  - cell "309" [ref=e1356]
+                  - cell "309" [ref=e1357]
+                  - cell "309" [ref=e1358]
+                  - cell "309" [ref=e1359]
+                  - cell "309" [ref=e1360]
+                  - cell "309" [ref=e1361]
+                  - cell "309" [ref=e1362]
+                  - cell "309" [ref=e1363]
+                  - cell "309" [ref=e1364]
+                  - cell "309" [ref=e1365]
+                  - cell "309" [ref=e1366]
+                  - cell "309" [ref=e1367]
+                  - cell "309" [ref=e1368]
+                  - cell "309" [ref=e1369]
+                  - cell "309" [ref=e1370]
+                  - cell "309" [ref=e1371]
+                  - cell "311" [ref=e1372]
+                - row [ref=e1373]:
+                  - cell "Total Booked" [ref=e1374]
+                  - cell "186" [ref=e1375] [cursor=pointer]
+                  - cell "73" [ref=e1376] [cursor=pointer]
+                  - cell "53" [ref=e1377] [cursor=pointer]
+                  - cell "47" [ref=e1378] [cursor=pointer]
+                  - cell "37" [ref=e1379] [cursor=pointer]
+                  - cell "36" [ref=e1380] [cursor=pointer]
+                  - cell "36" [ref=e1381] [cursor=pointer]
+                  - cell "35" [ref=e1382] [cursor=pointer]
+                  - cell "44" [ref=e1383] [cursor=pointer]
+                  - cell "22" [ref=e1384] [cursor=pointer]
+                  - cell "23" [ref=e1385] [cursor=pointer]
+                  - cell "21" [ref=e1386] [cursor=pointer]
+                  - cell "25" [ref=e1387] [cursor=pointer]
+                  - cell "24" [ref=e1388] [cursor=pointer]
+                  - cell "22" [ref=e1389] [cursor=pointer]
+                  - cell "22" [ref=e1390] [cursor=pointer]
+                  - cell "22" [ref=e1391] [cursor=pointer]
+                  - cell "22" [ref=e1392] [cursor=pointer]
+                  - cell "11" [ref=e1393] [cursor=pointer]
+                  - cell "11" [ref=e1394] [cursor=pointer]
+                  - cell "11" [ref=e1395] [cursor=pointer]
+                  - cell "11" [ref=e1396] [cursor=pointer]
+                  - cell "11" [ref=e1397] [cursor=pointer]
+                  - cell "11" [ref=e1398] [cursor=pointer]
+                  - cell "11" [ref=e1399] [cursor=pointer]
+                  - cell "11" [ref=e1400] [cursor=pointer]
+                  - cell "11" [ref=e1401] [cursor=pointer]
+                  - cell "11" [ref=e1402] [cursor=pointer]
+                  - cell "11" [ref=e1403] [cursor=pointer]
+                  - cell "7" [ref=e1404] [cursor=pointer]
+                  - cell "5" [ref=e1405] [cursor=pointer]
+                - row [ref=e1406]:
+                  - cell "Occupancy %" [ref=e1407]
+                  - cell "61.59" [ref=e1408]
+                  - cell "23.86" [ref=e1409]
+                  - cell "17.21" [ref=e1410]
+                  - cell "15.21" [ref=e1411]
+                  - cell "11.97" [ref=e1412]
+                  - cell "11.65" [ref=e1413]
+                  - cell "11.65" [ref=e1414]
+                  - cell "11.33" [ref=e1415]
+                  - cell "14.24" [ref=e1416]
+                  - cell "7.12" [ref=e1417]
+                  - cell "7.44" [ref=e1418]
+                  - cell "6.80" [ref=e1419]
+                  - cell "8.09" [ref=e1420]
+                  - cell "7.77" [ref=e1421]
+                  - cell "7.12" [ref=e1422]
+                  - cell "7.12" [ref=e1423]
+                  - cell "7.12" [ref=e1424]
+                  - cell "7.12" [ref=e1425]
+                  - cell "3.56" [ref=e1426]
+                  - cell "3.56" [ref=e1427]
+                  - cell "3.56" [ref=e1428]
+                  - cell "3.56" [ref=e1429]
+                  - cell "3.56" [ref=e1430]
+                  - cell "3.56" [ref=e1431]
+                  - cell "3.56" [ref=e1432]
+                  - cell "3.56" [ref=e1433]
+                  - cell "3.56" [ref=e1434]
+                  - cell "3.56" [ref=e1435]
+                  - cell "3.56" [ref=e1436]
+                  - cell "2.27" [ref=e1437]
+                  - cell "1.61" [ref=e1438]
+                - row [ref=e1439]:
+                  - cell "Total Available" [ref=e1440]
+                  - cell "116" [ref=e1441]
+                  - cell "233" [ref=e1442]
+                  - cell "255" [ref=e1443]
+                  - cell "262" [ref=e1444]
+                  - cell "272" [ref=e1445]
+                  - cell "273" [ref=e1446]
+                  - cell "273" [ref=e1447]
+                  - cell "274" [ref=e1448]
+                  - cell "265" [ref=e1449]
+                  - cell "287" [ref=e1450]
+                  - cell "286" [ref=e1451]
+                  - cell "288" [ref=e1452]
+                  - cell "284" [ref=e1453]
+                  - cell "285" [ref=e1454]
+                  - cell "287" [ref=e1455]
+                  - cell "287" [ref=e1456]
+                  - cell "287" [ref=e1457]
+                  - cell "287" [ref=e1458]
+                  - cell "298" [ref=e1459]
+                  - cell "298" [ref=e1460]
+                  - cell "298" [ref=e1461]
+                  - cell "298" [ref=e1462]
+                  - cell "298" [ref=e1463]
+                  - cell "298" [ref=e1464]
+                  - cell "298" [ref=e1465]
+                  - cell "298" [ref=e1466]
+                  - cell "298" [ref=e1467]
+                  - cell "298" [ref=e1468]
+                  - cell "298" [ref=e1469]
+                  - cell "302" [ref=e1470]
+                  - cell "306" [ref=e1471]
+          - button "Close" [ref=e1477] [cursor=pointer]

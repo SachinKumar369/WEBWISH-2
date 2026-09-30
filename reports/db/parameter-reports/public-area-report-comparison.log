@@ -1,93 +1,93 @@
-Timestamp: 2026-09-05T10:37:32.724Z
+Timestamp: 2026-09-08T08:30:05.283Z
 Report: Parameter Reports - Public Area DB Validation
 
 Executed Query:
 select * from prm_common_masters where property_id='webwe' and param_type='PBAR'
 
 Total DB Rows: 40
-Total Matched Rows: 40
+Total Matched Rows: 18
 
 Comparison Details (DB vs PDF):
 1. matched=true | matchedValueCount=2 | missingValueCount=0
    relevant: param_code=1111, description=:\"';/SASA
    matched: param_code=1111, description=:\"';/SASA
    missing: none
-2. matched=true | matchedValueCount=2 | missingValueCount=0
+2. matched=false | matchedValueCount=1 | missingValueCount=1
    relevant: param_code=A191, description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
-   matched: param_code=A191, description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
-   missing: none
-3. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
+   missing: param_code=A191
+3. matched=false | matchedValueCount=0 | missingValueCount=2
    relevant: param_code=A367, description=AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*
-   matched: param_code=A367, description=AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*
-   missing: none
-4. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: none
+   missing: param_code=A367, description=AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*
+4. matched=false | matchedValueCount=0 | missingValueCount=2
    relevant: param_code=A399, description=AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*
-   matched: param_code=A399, description=AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*
-   missing: none
-5. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: none
+   missing: param_code=A399, description=AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*
+5. matched=false | matchedValueCount=1 | missingValueCount=1
    relevant: param_code=A468, description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
-   matched: param_code=A468, description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
-   missing: none
+   matched: description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
+   missing: param_code=A468
 6. matched=true | matchedValueCount=2 | missingValueCount=0
    relevant: param_code=A520, description=AUTOMATION PUBLIC AREA A520
    matched: param_code=A520, description=AUTOMATION PUBLIC AREA A520
    missing: none
-7. matched=true | matchedValueCount=2 | missingValueCount=0
+7. matched=false | matchedValueCount=1 | missingValueCount=1
    relevant: param_code=A556, description=AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405
-   matched: param_code=A556, description=AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405
-   missing: none
-8. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: description=AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405
+   missing: param_code=A556
+8. matched=false | matchedValueCount=1 | missingValueCount=1
    relevant: param_code=A568, description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
-   matched: param_code=A568, description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
-   missing: none
-9. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
+   missing: param_code=A568
+9. matched=false | matchedValueCount=1 | missingValueCount=1
    relevant: param_code=A590, description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
-   matched: param_code=A590, description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
-   missing: none
-10. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
+   missing: param_code=A590
+10. matched=false | matchedValueCount=0 | missingValueCount=2
    relevant: param_code=A607, description=AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*
-   matched: param_code=A607, description=AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*
-   missing: none
+   matched: none
+   missing: param_code=A607, description=AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*
 11. matched=true | matchedValueCount=2 | missingValueCount=0
    relevant: param_code=A689, description=AUTOMATION PUBLIC AREA A689
    matched: param_code=A689, description=AUTOMATION PUBLIC AREA A689
    missing: none
-12. matched=true | matchedValueCount=2 | missingValueCount=0
+12. matched=false | matchedValueCount=0 | missingValueCount=2
    relevant: param_code=A731, description=AUTOMATION PUBLIC AREA A731
-   matched: param_code=A731, description=AUTOMATION PUBLIC AREA A731
-   missing: none
-13. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: none
+   missing: param_code=A731, description=AUTOMATION PUBLIC AREA A731
+13. matched=false | matchedValueCount=1 | missingValueCount=1
    relevant: param_code=A772, description=AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405
-   matched: param_code=A772, description=AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405
-   missing: none
-14. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: description=AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405
+   missing: param_code=A772
+14. matched=false | matchedValueCount=1 | missingValueCount=1
    relevant: param_code=A775, description=AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405
-   matched: param_code=A775, description=AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405
-   missing: none
-15. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: description=AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405
+   missing: param_code=A775
+15. matched=false | matchedValueCount=1 | missingValueCount=1
    relevant: param_code=A830, description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
-   matched: param_code=A830, description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
-   missing: none
-16. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
+   missing: param_code=A830
+16. matched=false | matchedValueCount=0 | missingValueCount=2
    relevant: param_code=A869, description=AUTOMATION PUBLIC AREA A869
-   matched: param_code=A869, description=AUTOMATION PUBLIC AREA A869
-   missing: none
-17. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: none
+   missing: param_code=A869, description=AUTOMATION PUBLIC AREA A869
+17. matched=false | matchedValueCount=0 | missingValueCount=2
    relevant: param_code=A885, description=AUTOMATION PUBLIC AREA A885
-   matched: param_code=A885, description=AUTOMATION PUBLIC AREA A885
-   missing: none
-18. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: none
+   missing: param_code=A885, description=AUTOMATION PUBLIC AREA A885
+18. matched=false | matchedValueCount=1 | missingValueCount=1
    relevant: param_code=A886, description=AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405
-   matched: param_code=A886, description=AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405
-   missing: none
-19. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: description=AUTOMATION ADJFLAKDJFLAJDLJ3O4375984508340984509809485098405
+   missing: param_code=A886
+19. matched=false | matchedValueCount=1 | missingValueCount=1
    relevant: param_code=A930, description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
-   matched: param_code=A930, description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
-   missing: none
-20. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: description=AUTOMATION SAVED DESCRIPTION !@#$%%^&*(*&$&$&$&$&$&#*@(#(#*$
+   missing: param_code=A930
+20. matched=false | matchedValueCount=0 | missingValueCount=2
    relevant: param_code=A999, description=AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*
-   matched: param_code=A999, description=AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*
-   missing: none
+   matched: none
+   missing: param_code=A999, description=AUTOMATION !@#$%^&*&^$#@#$%^&*()(*&^%$#@#$%^&*(*&^%$#$%^&*(*
 21. matched=true | matchedValueCount=2 | missingValueCount=0
    relevant: param_code=LC2, description=BALCONY
    matched: param_code=LC2, description=BALCONY
@@ -148,26 +148,26 @@ Comparison Details (DB vs PDF):
    relevant: param_code=LOC12, description=SPA
    matched: param_code=LOC12, description=SPA
    missing: none
-36. matched=true | matchedValueCount=2 | missingValueCount=0
+36. matched=false | matchedValueCount=0 | missingValueCount=2
    relevant: param_code=P181, description=AUTOMATION PUBLIC AREA P181
-   matched: param_code=P181, description=AUTOMATION PUBLIC AREA P181
-   missing: none
-37. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: none
+   missing: param_code=P181, description=AUTOMATION PUBLIC AREA P181
+37. matched=false | matchedValueCount=0 | missingValueCount=2
    relevant: param_code=P193, description=AUTOMATION PUBLIC AREA P193
-   matched: param_code=P193, description=AUTOMATION PUBLIC AREA P193
-   missing: none
-38. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: none
+   missing: param_code=P193, description=AUTOMATION PUBLIC AREA P193
+38. matched=false | matchedValueCount=0 | missingValueCount=2
    relevant: param_code=P710, description=AUTOMATION PUBLIC AREA P710
-   matched: param_code=P710, description=AUTOMATION PUBLIC AREA P710
-   missing: none
-39. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: none
+   missing: param_code=P710, description=AUTOMATION PUBLIC AREA P710
+39. matched=false | matchedValueCount=0 | missingValueCount=2
    relevant: param_code=P853, description=AUTOMATION PUBLIC AREA P853
-   matched: param_code=P853, description=AUTOMATION PUBLIC AREA P853
-   missing: none
-40. matched=true | matchedValueCount=2 | missingValueCount=0
+   matched: none
+   missing: param_code=P853, description=AUTOMATION PUBLIC AREA P853
+40. matched=false | matchedValueCount=0 | missingValueCount=2
    relevant: param_code=P924, description=AUTOMATION PUBLIC AREA P924
-   matched: param_code=P924, description=AUTOMATION PUBLIC AREA P924
-   missing: none
+   matched: none
+   missing: param_code=P924, description=AUTOMATION PUBLIC AREA P924
 
 PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\public-area-report-pdf-text.txt
 JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\public-area-report-vs-db.json

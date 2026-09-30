@@ -1,0 +1,90 @@
+- generic [ref=f2e56]:
+  - generic [ref=f2e57]:
+    - banner [ref=f2e58]:
+      - generic [ref=f2e60]:
+        - generic [ref=f2e61]:
+          - link [ref=f2e63] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=f2e67]:
+            - textbox "Search..." [ref=f2e68]: 󰅀
+            - generic [ref=f2e69]: 󰍉
+        - heading "Demo Hotel" [level=5] [ref=f2e71]
+        - generic [ref=f2e72]:
+          - button "󰅒" [ref=f2e74] [cursor=pointer]
+          - button "" [ref=f2e77] [cursor=pointer]
+          - button "" [ref=f2e80] [cursor=pointer]
+          - button " 1" [ref=f2e83] [cursor=pointer]:
+            - generic "Change Shift" [ref=f2e84]: 
+            - generic [ref=f2e85]: "1"
+          - generic [ref=f2e86]:
+            - button "" [ref=f2e87] [cursor=pointer]:
+              - generic "Notifications" [ref=f2e88]: 
+            - text:  
+          - generic [ref=f2e89]:
+            - button [ref=f2e90] [cursor=pointer]:
+              - img "Header Avatar" [ref=f2e92]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button [ref=f2e94] [cursor=pointer]:
+            - img "Header Avatar" [ref=f2e96]
+    - generic [ref=f2e102]:
+      - text: 
+      - generic [ref=f2e104]:
+        - region "scrollable content" [ref=f2e109]:
+          - list [ref=f2e111]:
+            - listitem
+            - listitem [ref=f2e322]:
+              - link "" [ref=f2e356] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - text:     
+        - button "" [ref=f2e354] [cursor=pointer]
+    - generic [ref=f2e156]:
+      - generic [ref=f2e357]:
+        - heading "New Reservation" [level=3] [ref=f2e2997]
+        - generic [ref=f2e2998]:
+          - generic [ref=f2e3000]:
+            - heading "Stay Details" [level=5] [ref=f2e3006]
+            - generic [ref=f2e3012]:
+              - generic [ref=f2e3013]:
+                - generic [ref=f2e3014]: Check In/ Check Out Date
+                - textbox "Select Date Range" [ref=f2e3017]: 08/09/2026 to 09/09/2026
+              - generic [ref=f2e3018]:
+                - generic [ref=f2e3019]: Pax(A/Y/C)
+                - generic [ref=f2e3023] [cursor=pointer]:
+                  - generic [ref=f2e3024]: 1 -A, 0 -Y, 0 -C
+                  - generic [ref=f2e3025]: 󰍝
+              - generic [ref=f2e3027]:
+                - generic [ref=f2e3028]: Booked Thru
+                - generic [ref=f2e3032]:
+                  - text: "--Select--"
+                  - generic [ref=f2e3033] [cursor=pointer]: 󰍝
+          - generic [ref=f2e3035]:
+            - heading "Guest Prefrences" [level=5] [ref=f2e3041]
+            - generic [ref=f2e3044]:
+              - text: You can select maximum 4 Preferences.
+              - generic [ref=f2e3047]:
+                - heading [level=6]
+                - generic [ref=f2e3049]:
+                  - generic [ref=f2e3051]:
+                    - checkbox "Connecting Rooms" [ref=f2e3052] [cursor=pointer]
+                    - generic [ref=f2e3053] [cursor=pointer]: Connecting Rooms
+                  - generic [ref=f2e3055]:
+                    - checkbox "Handicap" [ref=f2e3056] [cursor=pointer]
+                    - generic [ref=f2e3057] [cursor=pointer]: Handicap
+                  - generic [ref=f2e3059]:
+                    - checkbox "Marina" [ref=f2e3060] [cursor=pointer]
+                    - generic [ref=f2e3061] [cursor=pointer]: Marina
+                  - generic [ref=f2e3063]:
+                    - checkbox "Non Smoking" [ref=f2e3064] [cursor=pointer]
+                    - generic [ref=f2e3065] [cursor=pointer]: Non Smoking
+                  - generic [ref=f2e3067]:
+                    - checkbox "Sea View" [ref=f2e3068] [cursor=pointer]
+                    - generic [ref=f2e3069] [cursor=pointer]: Sea View
+          - generic [ref=f2e3072]:
+            - heading "Total - 0.00 + Taxes" [level=5] [ref=f2e3074] [cursor=pointer]
+            - button "Next" [ref=f2e3075] [cursor=pointer]
+            - button "Close" [ref=f2e3076] [cursor=pointer]
+      - contentinfo [ref=f2e268]:
+        - generic [ref=f2e270]:
+          - 'heading "Property Id: BDAR, User Id: Check User 1, Shift: 1, Business Date: 08/09/2026" [level=6] [ref=f2e272]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=f2e275]
+  - generic: 󰅒

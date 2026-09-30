@@ -1,0 +1,135 @@
+- generic [ref=e1]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - banner [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - link [ref=e14] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e18]:
+              - textbox [ref=e190]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=e20]: 󰍉
+          - heading [level=5] [ref=e191]: Webwish Hotel
+          - generic [ref=e23]:
+            - button [ref=e192] [cursor=pointer]:
+              - generic [ref=e26]: 󰅒
+            - button [ref=e193] [cursor=pointer]:
+              - generic [ref=e29]: 
+            - button [ref=e194] [cursor=pointer]:
+              - generic [ref=e32]: 
+            - button [ref=e195] [cursor=pointer]:
+              - generic [ref=e196]: 
+              - generic [ref=e36]: "3"
+            - generic [ref=e37]:
+              - button [ref=e197] [cursor=pointer]:
+                - generic [ref=e198]: 
+              - text:  
+            - generic [ref=e40]:
+              - button [ref=e199] [cursor=pointer]:
+                - img [ref=e200]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e201] [cursor=pointer]:
+              - img [ref=e202]
+      - generic [ref=e48]:
+        - text: 
+        - region [ref=e203]:
+          - list [ref=e118]:
+            - listitem [ref=e119]:
+              - link [ref=e204] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e122]: 
+            - listitem [ref=e123]:
+              - link [ref=e205] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e126]: 
+            - listitem [ref=e127]:
+              - link [ref=e206] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e130]: 
+            - listitem [ref=e131]:
+              - link [ref=e207] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e134]: 󰃢
+            - listitem [ref=e135]:
+              - link [ref=e208] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e137]: 
+            - listitem [ref=e138]:
+              - link [ref=e209] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e141]: 
+            - listitem [ref=e142]:
+              - link [ref=e210] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e145]: 
+            - listitem [ref=e146]:
+              - link [ref=e211] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e149]: 
+            - listitem [ref=e150]:
+              - link [ref=e212] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e153]: 
+            - listitem [ref=e154]:
+              - link [ref=e213] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e157]: 
+            - text:  
+            - listitem [ref=e158]:
+              - link [ref=e214] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e161]: 
+      - generic [ref=e50]:
+        - generic [ref=e53]:
+          - generic [ref=e57]:
+            - heading [level=3] [ref=e215]: System Utilities
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - button [ref=e216] [cursor=pointer]:
+                  - generic [ref=e66]: 󰑐
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - generic [ref=e70]:
+                - textbox [ref=e217]:
+                  - /placeholder: Search...
+                - generic [ref=e72]: 󰍉
+              - tabpanel [ref=e74]:
+                - region [ref=e218]:
+                  - list [ref=e162]:
+                    - listitem [ref=e163]:
+                      - link [ref=e219] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=e165]:
+                          - generic [ref=e166]: 
+                          - generic [ref=e168]: Populate Forecast Figures
+                    - listitem [ref=e169]:
+                      - link [ref=e220] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=e171]:
+                          - generic [ref=e172]: 
+                          - generic [ref=e174]: Recreate Availability
+                    - listitem [ref=e175]:
+                      - link [ref=e221] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=e177]:
+                          - generic [ref=e178]: 
+                          - generic [ref=e180]: Synchronize Telephone Exchange
+            - generic [ref=e85]:
+              - generic [ref=e87]:
+                - heading [level=5] [ref=e222]: Recreate Availability
+                - button [ref=e223] [cursor=pointer]:
+                  - generic [ref=e186]: 󰐊
+              - region [ref=e224]
+        - contentinfo [ref=e100]:
+          - generic [ref=e102]:
+            - heading [level=6] [ref=e225]: "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 01/07/2025"
+            - heading [level=6] [ref=e226]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e109]: 󰅒
+  - dialog [ref=e228]:
+    - generic [ref=e237]:
+      - heading [level=4]
+      - paragraph [ref=e238]: Availability has been Recreated.
+    - text: "!"
+    - button "OK" [active] [ref=e240] [cursor=pointer]

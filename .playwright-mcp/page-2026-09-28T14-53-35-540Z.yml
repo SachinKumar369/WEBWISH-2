@@ -1,0 +1,44 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e11]:
+      - generic [ref=e15]:
+        - link [ref=e55] [cursor=pointer]:
+          - /url: index.html
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - button [ref=e57] [cursor=pointer]
+            - button [ref=e58] [cursor=pointer]
+            - button [ref=e59] [cursor=pointer]
+          - paragraph [ref=e27]
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - heading [level=4] [ref=e61]: Welcome!
+          - paragraph [ref=e34]: Please login to your account
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]: User Id
+            - textbox [ref=e62]:
+              - /placeholder: Enter username.
+              - text: SACH
+          - generic [ref=e39]:
+            - generic [ref=e40]: Password
+            - generic [ref=e42]:
+              - textbox [ref=e63]:
+                - /placeholder: Enter password
+                - text: Sachin@578
+              - generic [ref=e44] [cursor=pointer]: 
+          - generic [ref=e46]:
+            - button [ref=e64] [cursor=pointer]: Log in
+            - link [ref=e65] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - text: Forgot password?
+    - contentinfo [ref=e49]:
+      - paragraph [ref=e54]: © 2025 Prologic First India Pvt Ltd
+  - dialog [ref=e67]:
+    - heading "Error" [level=2] [ref=e72]
+    - generic [ref=e74]:
+      - heading [level=4]
+      - paragraph [ref=e75]: Invalid User Id. (606)
+    - text: "!"
+    - generic [ref=e76]:
+      - button "OK" [disabled]

@@ -86,7 +86,7 @@ export class AvailabilityManagementPage extends BasePage {
     this.applyButton = this.page.getByRole('button', { name: 'Apply' });
 
     // Advance Selection
-    this.advanceSelectionButton = this.page.getByRole('button', { name: 'Advance Selection' });
+    this.advanceSelectionButton = this.page.getByRole('button', { name: /Advance Selection/ });
     this.dateRangeInput = this.page.getByRole('textbox', { name: 'Select Date Range' });
     this.monthSelect = this.page.getByLabel('Month');
     this.allDaysCheckbox = this.page.getByRole('checkbox', { name: 'All Days' });
@@ -111,7 +111,8 @@ export class AvailabilityManagementPage extends BasePage {
     this.availabilityHoverArea = this.page.locator('div').filter({ hasText: 'Availability' }).nth(5);
 
     // Business Date Heading
-    this.businessDateHeading = this.page.getByRole('heading', { name: 'Property Id: WEBWE,  User Id' });
+    // Use a text locator for the header containing 'Business Date:'
+    this.businessDateHeading = this.page.locator('text=Business Date:');
   }
 
   // ──────────────────────────────────────────────────────────────
@@ -137,6 +138,8 @@ export class AvailabilityManagementPage extends BasePage {
    */
   async getBusinessDate(): Promise<string> {
     logger.info('Fetching business date from header');
+    // Ensure the header element is present and visible before extracting text
+    await this.businessDateHeading.waitFor({ state: 'visible', timeout: 10000 });
     const headerText = await this.businessDateHeading.textContent();
     logger.info(`Header text: ${headerText}`);
 
@@ -198,20 +201,33 @@ export class AvailabilityManagementPage extends BasePage {
   }
 
   /** Opens Advance Selection, picks start/end dates from the calendar picker, checks All Days, and applies. */
+  /** Opens Advance Selection, picks start/end dates from the calendar picker, checks All Days, and applies. */
   async selectAdvanceDateRange(config: {
     startDate: string;   // DD/MM/YYYY
     endDate: string;     // DD/MM/YYYY
   }): Promise<void> {
-    // wait for 2 seconds to ensure the UI is ready for next interactions
-    await this.page.waitForTimeout(2000);
+    // Ensure the Advance Selection button is present and clickable
+    logger.info('Waiting for Advance Selection button to be visible');
+    const advanceBtn = this.page.locator('button:has-text("Advance Selection")');
+    await advanceBtn.waitFor({ state: 'visible', timeout: 30000 });
 
     logger.info('Opening Advance Selection');
-    await this.elementActions.click(this.advanceSelectionButton, 'Advance Selection button');
+    // Use a safe click with JavaScript fallback
+    try {
+      await advanceBtn.click();
+    } catch (e) {
+      logger.warn('Standard click failed for Advance Selection, using JavaScript click');
+      const handle = await advanceBtn.elementHandle();
+      if (handle) {
+        await this.page.evaluate((el) => (el as HTMLElement).click(), handle);
+      }
+    }
 
     // Click the date range input to open the calendar picker
     logger.info(`Selecting date range: ${config.startDate} to ${config.endDate}`);
     const dateRangeLocator = this.page.getByRole('textbox', { name: 'Select Date Range' });
-    await this.elementActions.click(dateRangeLocator, 'Date Range input');
+    await dateRangeLocator.waitFor({ state: 'visible', timeout: 10000 });
+    await dateRangeLocator.click();
 
     // Click the start date label in the calendar
     const startComponents = AvailabilityManagementPage.parseDateString(config.startDate);
@@ -233,7 +249,8 @@ export class AvailabilityManagementPage extends BasePage {
 
     // Apply the date range
     logger.info('Applying date range');
-    await this.elementActions.click(this.applyButton, 'Apply button');
+    await this.applyButton.waitFor({ state: 'visible', timeout: 10000 });
+    await this.applyButton.click();
   }
 
   /** Handles the "Do you want to select more days to update?" confirmation. */
@@ -292,6 +309,148 @@ export class AvailabilityManagementPage extends BasePage {
   }
 
   // ──────────────────────────────────────────────────────────────
+  //  Revise Availability (SU_AVAIL_006)
+  // ──────────────────────────────────────────────────────────────
+
+  /**
+   * Click on the current business date in the calendar header row
+   * (S M T W T F S) to select it for editing.
+   * The calendar header contains day-of-week abbreviations and clicking
+   * on the current business date cell opens a confirmation popup.
+   */
+  async clickBusinessDateInCalendar(): Promise<void> {
+    logger.info('Clicking on the current business date in the calendar (S M T W T F S)');
+
+    // Get the business date and extract the day of week
+    const businessDate = await this.getBusinessDate();
+    const [dayStr, monthStr, yearStr] = businessDate.split('/');
+    const dayOfWeekNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const dateObj = new Date(parseInt(yearStr), parseInt(monthStr) - 1, parseInt(dayStr));
+    const dayOfWeek = dayOfWeekNames[dateObj.getDay()];
+    logger.info(`Business date: ${businessDate} (${dayOfWeek})`);
+
+    // Find the calendar container and click on the business date cell
+    const clicked = await this.page.evaluate((day: number) => {
+      // Look for the calendar grid cells
+      const cells = document.querySelectorAll('.fc-day, td.fc-day, td[data-date], .calendar-day, .day-cell, td.day');
+      for (const cell of cells) {
+        const dateAttr = cell.getAttribute('data-date') || cell.getAttribute('data-day');
+        if (dateAttr && dateAttr.includes(String(day))) {
+          (cell as HTMLElement).click();
+          return true;
+        }
+      }
+
+      // Fallback: look for table cells in the availability management grid
+      const allCells = document.querySelectorAll('table td');
+      for (const cell of allCells) {
+        const text = cell.textContent?.trim() || '';
+        // Match the day number in a week header context
+        if (text === String(day)) {
+          (cell as HTMLElement).click();
+          return true;
+        }
+      }
+      return false;
+    }, parseInt(dayStr));
+
+    if (!clicked) {
+      // Try alternative: click the day column header that matches the business date
+      logger.info('Trying alternative approach: clicking day column header');
+      const dayHeader = this.page.locator('th, td').filter({ hasText: new RegExp(`^${dayOfWeek}$`) }).first();
+      await this.elementActions.click(dayHeader, `Day header: ${dayOfWeek}`);
+    }
+
+    await this.page.waitForTimeout(1000);
+    logger.info('Business date clicked in calendar');
+  }
+
+  /**
+   * Click Yes on the confirmation popup that appears after clicking
+   * a business date in the availability management calendar.
+   */
+  async confirmBusinessDatePopup(): Promise<void> {
+    logger.info('Checking for business date confirmation popup');
+    try {
+      const yesButton = this.page.getByRole('button', { name: 'Yes' });
+      if (await yesButton.isVisible({ timeout: 5000 })) {
+        await this.elementActions.click(yesButton, 'Yes button on business date confirmation');
+        logger.info('Confirmed business date popup');
+      }
+    } catch {
+      logger.info('No business date confirmation popup appeared');
+    }
+  }
+
+  /**
+   * Click the "Revise Availability" button to open the revise availability modal.
+   */
+  async clickReviseAvailability(): Promise<void> {
+    logger.info('Clicking Revise Availability button');
+    const reviseBtn = this.page.getByRole('button', { name: /Revise Availability/i }).first();
+    await this.elementActions.click(reviseBtn, 'Revise Availability button');
+    await this.page.waitForTimeout(1000);
+    logger.info('Revise Availability modal opened');
+  }
+
+  /**
+   * In the Revise Availability modal, select the type (e.g., "Overbooking")
+   * from the dropdown and enter a numeric value.
+   *
+   * @param type   The type to select (e.g., 'Overbooking')
+   * @param value  The numeric value to enter
+   */
+  async selectReviseTypeAndEnterValue(type: string, value: number): Promise<void> {
+    logger.info(`Selecting revise type: "${type}" with value: ${value}`);
+
+    // Select the type from the combobox/dropdown
+    const typeDropdown = this.page.getByRole('combobox').first();
+    await this.elementActions.click(typeDropdown, 'Revise type dropdown');
+    await typeDropdown.selectOption({ label: type });
+    logger.info(`Selected type: "${type}"`);
+
+    // Enter the value in the spinbutton/number input
+    const valueInput = this.page.getByRole('spinbutton').first();
+    await this.elementActions.click(valueInput, 'Revise value input');
+    await valueInput.fill(String(value));
+    logger.info(`Entered value: ${value}`);
+  }
+
+  /**
+   * Click Save in the Revise Availability modal.
+   */
+  async saveReviseAvailability(): Promise<void> {
+    logger.info('Saving revised availability');
+    const saveBtn = this.page.locator('.modal.show button, ngb-modal-window button')
+      .filter({ hasText: /Save/i }).first();
+    await this.elementActions.click(saveBtn, 'Save button in Revise Availability modal');
+    await this.page.waitForTimeout(2000);
+    logger.info('Revise Availability saved');
+  }
+
+  /**
+   * Verify the success message after saving revised availability
+   * and click OK to dismiss.
+   */
+  async verifyReviseSuccessAndClickOK(): Promise<void> {
+    logger.info('Verifying revised availability success message');
+
+    // Wait for the success/alert popup
+    const successPopup = this.page.locator('.swal2-popup, .modal.show')
+      .filter({ hasText: /success|updated|created|saved/i }).first();
+    await successPopup.waitFor({ state: 'visible', timeout: 15000 });
+
+    const messageText = await successPopup.textContent() || '';
+    logger.info(`Success message: ${messageText}`);
+
+    // Click OK
+    const okBtn = this.page.locator('.swal2-confirm, .modal.show button')
+      .filter({ hasText: /^OK$/i }).first();
+    await this.elementActions.click(okBtn, 'OK button on success message');
+    logger.info('Success message dismissed');
+  }
+
+  // ──────────────────────────────────────────────────────────────
   //  Full Flow
   // ──────────────────────────────────────────────────────────────
 
@@ -337,5 +496,37 @@ export class AvailabilityManagementPage extends BasePage {
 
     // Step 7: Verify arrival closed message in new reservation
     await this.verifyArrivalClosed('This date is closed for Arrival.');
+  }
+
+  /**
+   * Runs the full overbooking flow via Availability Management (SU_AVAIL_006).
+   *
+   * @param config  Configuration for the overbooking flow
+   */
+  async runOverbookingRevisionFlow(config: {
+    propertyName: string;
+    overbookingValue: number;
+  }): Promise<void> {
+    const { propertyName, overbookingValue } = config;
+
+    // Step 1: Open Availability Management
+    await this.openAvailabilityManagement();
+
+    // Step 2: Get business date and set up date range filter
+    const businessDate = await this.getBusinessDate();
+    const year = businessDate.split('/')[2];
+    const startDate = `01/01/${year}`;
+    const endDate = `31/12/${year}`;
+
+    // Step 3: Select property and apply
+    await this.selectPropertyAndApply(propertyName);
+
+    // Step 4: Advance date range selection
+    await this.selectAdvanceDateRange({ startDate, endDate });
+
+    // Step 5: Confirm "more days" prompt
+    await this.confirmMoreDaysUpdate();
+
+    logger.info('Availability Management filter applied successfully');
   }
 }

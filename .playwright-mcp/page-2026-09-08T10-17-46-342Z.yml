@@ -1,0 +1,154 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e134]:
+    - generic [ref=e135]:
+      - banner [ref=e136]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - link [ref=e141] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e145]:
+              - textbox "Search..." [ref=e146]: 󰅀
+              - generic [ref=e147]: 󰍉
+          - heading "WEBWISHQCMI" [level=5] [ref=e149]
+          - generic [ref=e150]:
+            - button "󰅒" [ref=e152] [cursor=pointer]:
+              - generic [ref=e153]: 󰅒
+            - button "" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]: 
+            - button "" [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]: 
+            - button " 1" [ref=e161] [cursor=pointer]:
+              - generic "Change Shift" [ref=e162]: 
+              - generic [ref=e163]: "1"
+            - generic [ref=e164]:
+              - button "" [ref=e165] [cursor=pointer]:
+                - generic "Notifications" [ref=e166]: 
+              - text:  
+            - generic [ref=e167]:
+              - button "Header Avatar" [ref=e168] [cursor=pointer]:
+                - img "Header Avatar" [ref=e170]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button "" [ref=e172] [cursor=pointer]:
+              - generic [ref=e174]: 
+      - generic [ref=e180]:
+        - text: 
+        - generic [ref=e182]:
+          - region "scrollable content" [ref=e187]:
+            - list [ref=e189]:
+              - listitem
+              - listitem [ref=e395]:
+                - link "" [ref=e429] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e398]: 
+                - text:     
+          - button "" [ref=e427] [cursor=pointer]:
+            - generic [ref=e428]: 
+      - generic [ref=e234]:
+        - generic [ref=e430]:
+          - generic [ref=e431]:
+            - generic [ref=e435]:
+              - heading "Guest Management" [level=3] [ref=e436]
+              - generic [ref=e437]:
+                - generic:
+                  - list
+                - generic [ref=e438]:
+                  - button "󰐕 New Reservation" [ref=e439] [cursor=pointer]:
+                    - generic [ref=e440]:
+                      - generic [ref=e441]: 󰐕
+                      - text: New Reservation
+                  - button "󰈲" [ref=e443] [cursor=pointer]:
+                    - generic [ref=e445]: 󰈲
+                  - button "󰑐" [ref=e447] [cursor=pointer]:
+                    - generic [ref=e449]: 󰑐
+                  - button "󰇙" [ref=e454] [cursor=pointer]:
+                    - generic [ref=e455]: 󰇙
+            - generic [ref=e456]:
+              - generic [ref=e459]:
+                - generic [ref=e461]:
+                  - generic [ref=e462]:
+                    - radio "Arrivals" [checked]
+                    - generic [ref=e463] [cursor=pointer]: Arrivals
+                  - generic [ref=e464]:
+                    - radio "In-House"
+                    - generic [ref=e465] [cursor=pointer]: In-House
+                  - generic [ref=e466]:
+                    - radio "Departures"
+                    - generic [ref=e467] [cursor=pointer]: Departures
+                - generic [ref=e470]:
+                  - generic [ref=e471]: "Property Id : WEBMI"
+                  - generic [ref=e472]: "Status : Reserved"
+                  - generic [ref=e473]:
+                    - text: "Quick Search : Expected Arrival (Today)"
+                    - button [ref=e474] [cursor=pointer]
+                  - button "󰈵" [ref=e476] [cursor=pointer]:
+                    - generic [ref=e478]: 󰈵
+              - generic [ref=e480]:
+                - generic [ref=e482]:
+                  - textbox "Search" [ref=e483]
+                  - generic [ref=e484]: 󰍉
+                  - button "All 󰅀" [ref=e486] [cursor=pointer]:
+                    - text: All
+                    - generic [ref=e487]: 󰅀
+                - generic [ref=e488]:
+                  - generic [ref=e490]:
+                    - generic [ref=e491] [cursor=pointer]:
+                      - generic [ref=e492]: "-"
+                      - text: Waitlisted
+                    - generic [ref=e493] [cursor=pointer]:
+                      - generic [ref=e494]: "-"
+                      - text: Confirmed
+                    - generic [ref=e495] [cursor=pointer]:
+                      - generic [ref=e496]: "-"
+                      - text: Hold
+                    - generic [ref=e497] [cursor=pointer]:
+                      - generic [ref=e498]: "-"
+                      - text: Inhouse
+                    - generic [ref=e499] [cursor=pointer]:
+                      - generic [ref=e500]: "-"
+                      - text: Checked-out
+                    - generic [ref=e501] [cursor=pointer]:
+                      - generic [ref=e502]: "-"
+                      - text: Cancelled
+                    - generic [ref=e503] [cursor=pointer]:
+                      - generic [ref=e504]: "-"
+                      - text: NoShow
+                    - generic [ref=e505] [cursor=pointer]:
+                      - generic [ref=e506]: "-"
+                      - text: All
+                  - 'button "Total: 0" [disabled]'
+                  - generic [ref=e509]:
+                    - generic [ref=e510]:
+                      - radio ""
+                      - generic [ref=e513] [cursor=pointer]: 
+                    - generic [ref=e514]:
+                      - radio "" [checked]
+                      - generic [ref=e517] [cursor=pointer]: 
+          - generic [ref=e523]:
+            - generic [ref=e525]:
+              - checkbox [ref=e529] [cursor=pointer]
+              - generic [ref=e530]:
+                - generic "Id" [ref=e533] [cursor=pointer]
+                - generic "Guest Name" [ref=e537] [cursor=pointer]
+                - generic "Confirmation No" [ref=e541] [cursor=pointer]
+                - generic "Status" [ref=e545] [cursor=pointer]
+                - generic "Hk Status" [ref=e549] [cursor=pointer]
+                - generic "Arrival" [ref=e553] [cursor=pointer]
+                - generic "Departure" [ref=e557] [cursor=pointer]
+                - generic "Room No" [ref=e561] [cursor=pointer]
+                - generic "Nights" [ref=e565] [cursor=pointer]
+                - generic "Pax(A/Y/C)" [ref=e569] [cursor=pointer]
+                - generic "Room Type" [ref=e573] [cursor=pointer]
+                - generic "Travel Agent" [ref=e577] [cursor=pointer]
+                - generic "Corporate" [ref=e581] [cursor=pointer]
+                - generic "Operator" [ref=e585] [cursor=pointer]
+                - generic "Other Ref No" [ref=e589] [cursor=pointer]
+                - generic "Agreed Rate" [ref=e593] [cursor=pointer]
+                - generic "Guest Rate" [ref=e597] [cursor=pointer]
+                - generic "Guest Balance" [ref=e601] [cursor=pointer]
+            - generic [ref=e607]: No bookings match the current filters
+        - contentinfo [ref=e341]:
+          - generic [ref=e343]:
+            - 'heading "Property Id: WEBMI, User Id: Sachin Kumar, Shift: 1, Business Date: 02/09/2026" [level=6] [ref=e345]'
+            - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e348]
+    - generic [ref=e350]: 󰅒
+  - img

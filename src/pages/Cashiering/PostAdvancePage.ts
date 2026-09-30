@@ -453,6 +453,200 @@ async enterReference(): Promise<string> {
   }
 
   // ═══════════════════════════════════════════════════════════════════════
+  // View All Transactions
+  // ═══════════════════════════════════════════════════════════════════════
+
+  private get viewAllTransactionsHeading() {
+    return this.page.locator('h6:has-text("View all transactions")');
+  }
+
+  // ── Transaction Grid ─────────────────────────────────────────────────
+  private get transactionTable() {
+    return this.page.locator('table').first();
+  }
+
+  private get transactionRows() {
+    return this.transactionTable.locator('tbody tr');
+  }
+
+  // ── Void Charge Section ──────────────────────────────────────────────
+  private get voidButton() {
+    return this.page.getByRole('button', { name: 'Void' });
+  }
+
+  private get voidReasonTextarea() {
+    return this.page.locator('textarea');
+  }
+
+  private get voidReasonLabel() {
+    return this.page.locator('label:has-text("Void Reason")');
+  }
+
+  private get voidSaveButton() {
+    // The Void Charge section has its own Save button; we need the second visible Save button
+    // (first Save is for the main cashiering page)
+    return this.page.locator('button:has-text("Save")').nth(1);
+  }
+
+  private get voidCloseButton() {
+    return this.page.locator('button:has-text("Close")');
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════
+  // View All Transactions Methods
+  // ═══════════════════════════════════════════════════════════════════════
+
+  /**
+   * Click the "View all transactions" heading to open the transaction list.
+   */
+  async clickViewAllTransactions(): Promise<void> {
+    try {
+      logger.info('Clicking View all transactions heading');
+      await this.elementActions.click(this.viewAllTransactionsHeading, 'View all transactions heading');
+      await this.page.waitForTimeout(2000);
+      logger.info('✅ View all transactions opened');
+    } catch (error) {
+      logger.error(`Failed to click View all transactions: ${error}`);
+      await this.takeScreenshot('view_all_transactions_failure');
+      throw error;
+    }
+  }
+
+  /**
+   * Select a transaction row by its type text (e.g., 'Cash Collection').
+   * Clicks the checkbox in the first matching row.
+   * @param transactionType - The text in the transaction type column to search for
+   */
+  async selectTransactionByType(transactionType: string): Promise<void> {
+    try {
+      logger.info(`Selecting transaction by type: "${transactionType}"`);
+
+      // Find the row containing the transaction type text and click its checkbox
+      const rows = this.transactionRows;
+      const rowCount = await rows.count();
+
+      for (let i = 0; i < rowCount; i++) {
+        const row = rows.nth(i);
+        const rowText = await row.textContent();
+        if (rowText?.includes(transactionType)) {
+          const checkbox = row.locator('input[type="checkbox"]');
+          if (await checkbox.count() > 0) {
+            await checkbox.first().click();
+            logger.info(`✅ Selected transaction row: "${transactionType}" at index ${i}`);
+            await this.page.waitForTimeout(1000);
+
+            // Verify Void button is now visible
+            await this.elementActions.waitForElement(this.voidButton, 5000, 'Void button');
+            logger.info('✅ Void button is now visible');
+            return;
+          }
+        }
+      }
+
+      throw new Error(`Transaction row with type "${transactionType}" not found or has no checkbox`);
+    } catch (error) {
+      logger.error(`Failed to select transaction: ${error}`);
+      await this.takeScreenshot('select_transaction_failure');
+      throw error;
+    }
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════
+  // Void Charge Flow
+  // ═══════════════════════════════════════════════════════════════════════
+
+  /**
+   * Click the "Void" button to initiate the void process.
+   */
+  async clickVoid(): Promise<void> {
+    try {
+      logger.info('Clicking Void button');
+      await this.elementActions.click(this.voidButton, 'Void button');
+      await this.page.waitForTimeout(1000);
+      logger.info('✅ Void button clicked');
+    } catch (error) {
+      logger.error(`Failed to click Void: ${error}`);
+      await this.takeScreenshot('click_void_failure');
+      throw error;
+    }
+  }
+
+  /**
+   * Enter a reason in the Void Reason textarea.
+   * @param reason - The void reason text
+   */
+  async enterVoidReason(reason: string): Promise<void> {
+    try {
+      logger.info(`Entering void reason: "${reason}"`);
+
+      // Wait for the textarea to be visible
+      await this.elementActions.waitForElement(this.voidReasonTextarea, 5000, 'Void reason textarea');
+
+      await this.elementActions.sendKeys(this.voidReasonTextarea, reason, 'Void reason field');
+      logger.info(`✅ Void reason entered: "${reason}"`);
+    } catch (error) {
+      logger.error(`Failed to enter void reason: ${error}`);
+      await this.takeScreenshot('enter_void_reason_failure');
+      throw error;
+    }
+  }
+
+  /**
+   * Click Save in the Void Charge section.
+   */
+  async clickVoidSave(): Promise<void> {
+    try {
+      logger.info('Clicking Save in Void Charge section');
+      await this.elementActions.click(this.voidSaveButton, 'Void Save button');
+      logger.info('✅ Void Save button clicked');
+    } catch (error) {
+      logger.error(`Failed to click Void Save: ${error}`);
+      await this.takeScreenshot('void_save_failure');
+      throw error;
+    }
+  }
+
+  /**
+   * Execute the complete Void Advance flow.
+   * Assumes the user is on the Cashiering page with the transaction grid visible.
+   *
+   * @param transactionType - Transaction type to select (e.g., 'Cash Collection')
+   * @param reason - Void reason text
+   */
+  async performVoidAdvance(
+    transactionType: string = 'Cash Collection',
+    reason: string = 'Test void reason'
+  ): Promise<void> {
+    try {
+      logger.info('Starting Void Advance flow');
+
+      // Step 1: Click View all transactions
+      await this.clickViewAllTransactions();
+
+      // Step 2: Select the transaction by type
+      await this.selectTransactionByType(transactionType);
+
+      // Step 3: Click Void
+      await this.clickVoid();
+
+      // Step 4: Enter void reason
+      await this.enterVoidReason(reason);
+
+      // Step 5: Click Save
+      await this.clickVoidSave();
+
+      // Step 6: Verify success message
+      await this.verifySuccessAndDismiss('Selected Charges successfully Voided.');
+
+      logger.info('✅ Void Advance flow completed successfully');
+    } catch (error) {
+      logger.error(`Void Advance flow failed: ${error}`);
+      await this.takeScreenshot('void_advance_flow_failure');
+      throw error;
+    }
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════
   // Convenience: Full Post Advance Flow
   // ═══════════════════════════════════════════════════════════════════════
 

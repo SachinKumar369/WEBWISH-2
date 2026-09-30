@@ -1,0 +1,488 @@
+- generic [ref=e1]:
+  - generic [ref=e612]:
+    - generic [ref=e613]:
+      - banner [ref=e614]:
+        - generic [ref=e616]:
+          - generic [ref=e617]:
+            - link [ref=e619] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e623]:
+              - textbox "Search" [ref=e624]: 󰅀
+              - generic [ref=e625]: 󰍉
+          - heading "Webwish Hotel" [level=5] [ref=e627]
+          - generic [ref=e628]:
+            - button "󰅒" [ref=e630] [cursor=pointer]:
+              - generic [ref=e631]: 󰅒
+            - button "" [ref=e633] [cursor=pointer]:
+              - generic [ref=e634]: 
+            - button "" [ref=e636] [cursor=pointer]:
+              - generic [ref=e637]: 
+            - button " 3" [ref=e639] [cursor=pointer]:
+              - generic "Change Shift" [ref=e640]: 
+              - generic [ref=e641]: "3"
+            - generic [ref=e642]:
+              - button "" [ref=e643] [cursor=pointer]:
+                - generic "Notifications" [ref=e644]: 
+              - text:  
+            - generic [ref=e645]:
+              - button "Header Avatar" [ref=e646] [cursor=pointer]:
+                - img "Header Avatar" [ref=e648]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button "Header Avatar" [ref=e650] [cursor=pointer]:
+              - img "Header Avatar" [ref=e652]
+      - generic [ref=e653]:
+        - text: 
+        - generic [ref=e655]:
+          - region "scrollable content" [ref=e660]:
+            - list [ref=e662]:
+              - listitem
+              - listitem [ref=e663]:
+                - link "" [ref=e665] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e666]: 
+                - text:     
+          - button "" [ref=e667] [cursor=pointer]:
+            - generic [ref=e668]: 
+      - generic [ref=e670]:
+        - generic [ref=e673]:
+          - generic [ref=e674]:
+            - generic [ref=e678]:
+              - heading "Guest Management" [level=3] [ref=e679]
+              - generic [ref=e680]:
+                - generic:
+                  - list
+                - generic [ref=e681]:
+                  - button "󰐕 New Reservation" [ref=e682] [cursor=pointer]:
+                    - generic [ref=e683]:
+                      - generic [ref=e684]: 󰐕
+                      - text: New Reservation
+                  - button "󰈲" [ref=e686] [cursor=pointer]:
+                    - generic [ref=e688]: 󰈲
+                  - button "󰑐" [ref=e690] [cursor=pointer]:
+                    - generic [ref=e692]: 󰑐
+                  - button "󰇙" [ref=e697] [cursor=pointer]:
+                    - generic [ref=e698]: 󰇙
+            - generic [ref=e699]:
+              - generic [ref=e702]:
+                - generic [ref=e704]:
+                  - generic [ref=e705]:
+                    - radio "Arrivals" [checked]
+                    - generic [ref=e706] [cursor=pointer]: Arrivals
+                  - generic [ref=e707]:
+                    - radio "In-House"
+                    - generic [ref=e708] [cursor=pointer]: In-House
+                  - generic [ref=e709]:
+                    - radio "Departures"
+                    - generic [ref=e710] [cursor=pointer]: Departures
+                - generic [ref=e713]:
+                  - generic [ref=e1946]: "Property Id : WEBWE"
+                  - generic [ref=e1947]: "Status : Arrivals"
+                  - generic [ref=e1948]:
+                    - text: "Quick Search : Expected Arrival"
+                    - button [ref=e1949] [cursor=pointer]
+                  - button "󰈵" [ref=e719] [cursor=pointer]:
+                    - generic [ref=e721]: 󰈵
+              - generic [ref=e723]:
+                - generic [ref=e725]:
+                  - textbox "Search" [ref=e726]
+                  - generic [ref=e727]: 󰍉
+                  - button "All 󰅀" [ref=e729] [cursor=pointer]:
+                    - text: All
+                    - generic [ref=e730]: 󰅀
+                - generic [ref=e731]:
+                  - generic [ref=e733]:
+                    - generic [ref=e734] [cursor=pointer]:
+                      - generic [ref=e735]: "-"
+                      - text: Waitlisted
+                    - generic [ref=e736] [cursor=pointer]:
+                      - generic [ref=e737]: "-"
+                      - text: Confirmed
+                    - generic [ref=e738] [cursor=pointer]:
+                      - generic [ref=e739]: "-"
+                      - text: Hold
+                    - generic [ref=e740] [cursor=pointer]:
+                      - generic [ref=e741]: "-"
+                      - text: Inhouse
+                    - generic [ref=e742] [cursor=pointer]:
+                      - generic [ref=e743]: "-"
+                      - text: Checked-out
+                    - generic [ref=e744] [cursor=pointer]:
+                      - generic [ref=e745]: "-"
+                      - text: Cancelled
+                    - generic [ref=e746] [cursor=pointer]:
+                      - generic [ref=e747]: "-"
+                      - text: NoShow
+                    - generic [ref=e748] [cursor=pointer]:
+                      - generic [ref=e749]: "-"
+                      - text: All
+                  - 'button "Total: 13" [disabled]'
+                  - generic [ref=e752]:
+                    - generic [ref=e753]:
+                      - radio ""
+                      - generic [ref=e756] [cursor=pointer]: 
+                    - generic [ref=e757]:
+                      - radio "" [checked]
+                      - generic [ref=e760] [cursor=pointer]: 
+          - generic [ref=e766]:
+            - generic [ref=e768]:
+              - checkbox [checked=mixed] [ref=e772] [cursor=pointer]
+              - generic [ref=e773]:
+                - generic "Id" [ref=e776] [cursor=pointer]
+                - generic "Guest Name" [ref=e780] [cursor=pointer]
+                - generic "Confirmation No" [ref=e784] [cursor=pointer]
+                - generic "Status" [ref=e788] [cursor=pointer]
+                - generic "Hk Status" [ref=e792] [cursor=pointer]
+                - generic "Arrival" [ref=e796] [cursor=pointer]
+                - generic "Departure" [ref=e800] [cursor=pointer]
+                - generic "Room No" [ref=e804] [cursor=pointer]
+                - generic "Nights" [ref=e808] [cursor=pointer]
+                - generic "Pax(A/Y/C)" [ref=e812] [cursor=pointer]
+                - generic "Room Type" [ref=e816] [cursor=pointer]
+                - generic "Travel Agent" [ref=e820] [cursor=pointer]
+                - generic "Corporate" [ref=e824] [cursor=pointer]
+                - generic "Operator" [ref=e828] [cursor=pointer]
+                - generic "Other Ref No" [ref=e832] [cursor=pointer]
+                - generic "Agreed Rate" [ref=e836] [cursor=pointer]
+                - generic "Guest Rate" [ref=e840] [cursor=pointer]
+                - generic "Guest Balance" [ref=e844] [cursor=pointer]
+            - generic [ref=e849]:
+              - generic [ref=e850]:
+                - checkbox [checked] [active] [ref=e854] [cursor=pointer]
+                - generic "101373250701" [ref=e859]
+                - generic [ref=e863]:
+                  - generic [ref=e864]: F
+                  - generic [ref=e865]: 20august Sachin
+                - generic "100001201" [ref=e870]
+                - generic [ref=e875]: CONFIRMED
+                - generic [ref=e881]: 01/07/2025, 12:00
+                - generic [ref=e886]: 02/07/2025, 11:30
+                - generic "1" [ref=e892]
+                - generic "1/0/0" [ref=e897]
+                - generic "DGT" [ref=e902]
+                - generic "$1,000.00" [ref=e911]: 1,000.00
+                - generic "$1,000.00" [ref=e916]: 1,000.00
+                - generic "$0.00" [ref=e921]: "0.00"
+                - generic [ref=e924]:
+                  - button "" [ref=e925] [cursor=pointer]:
+                    - generic [ref=e926]: 
+                  - button "󰗔" [ref=e927] [cursor=pointer]:
+                    - generic [ref=e928]: 󰗔
+                  - text: 󰗕
+                  - button "" [ref=e929] [cursor=pointer]:
+                    - generic [ref=e930]: 
+              - generic [ref=e931]:
+                - checkbox [ref=e935] [cursor=pointer]
+                - generic "101416250701" [ref=e940]
+                - generic [ref=e944]:
+                  - generic [ref=e945]: F
+                  - generic [ref=e946]: check section
+                - generic "100001224" [ref=e951]
+                - generic [ref=e956]: CONFIRMED
+                - generic [ref=e961]: Dirty
+                - generic [ref=e966]: 01/07/2025, 12:00
+                - generic [ref=e971]: 02/07/2025, 11:30
+                - generic "1122" [ref=e976]
+                - generic "1" [ref=e981]
+                - generic "1/0/0" [ref=e986]
+                - generic "DGT" [ref=e991]
+                - generic "$1,000.00" [ref=e1000]: 1,000.00
+                - generic "$1,000.00" [ref=e1005]: 1,000.00
+                - generic "$0.00" [ref=e1010]: "0.00"
+                - generic [ref=e1013]:
+                  - button "" [ref=e1014] [cursor=pointer]:
+                    - generic [ref=e1015]: 
+                  - button "󰗔" [ref=e1016] [cursor=pointer]:
+                    - generic [ref=e1017]: 󰗔
+                  - text: 󰗕
+                  - button "" [ref=e1018] [cursor=pointer]:
+                    - generic [ref=e1019]: 
+              - generic [ref=e1020]:
+                - checkbox [ref=e1024] [cursor=pointer]
+                - generic "100187260124" [ref=e1029]
+                - generic [ref=e1033]:
+                  - generic [ref=e1034]: F
+                  - generic [ref=e1035]: Kumar Mueksh
+                - generic "100000174" [ref=e1040]
+                - generic [ref=e1045]: CONFIRMED
+                - generic [ref=e1051]: 01/07/2025, 12:00
+                - generic [ref=e1056]: 26/01/2026, 14:00
+                - generic "209" [ref=e1062]
+                - generic "1/0/0" [ref=e1067]
+                - generic "DGT" [ref=e1072]
+                - generic "Stah Interface" [ref=e1077]
+                - generic "ABC travels" [ref=e1083]
+                - generic "1319200000000305" [ref=e1088]
+                - generic "$100.00" [ref=e1093]: "100.00"
+                - generic "$100.00" [ref=e1098]: "100.00"
+                - generic "$0.00" [ref=e1103]: "0.00"
+                - generic [ref=e1106]:
+                  - button "" [ref=e1107] [cursor=pointer]:
+                    - generic [ref=e1108]: 
+                  - button "󰗔" [ref=e1109] [cursor=pointer]:
+                    - generic [ref=e1110]: 󰗔
+                  - text: 󰗕
+                  - button "" [ref=e1111] [cursor=pointer]:
+                    - generic [ref=e1112]: 
+              - generic [ref=e1113]:
+                - checkbox [ref=e1117] [cursor=pointer]
+                - generic "101315250701" [ref=e1122]
+                - generic [ref=e1126]:
+                  - generic [ref=e1127]: M
+                  - generic [ref=e1128]: Kumar Mukesh
+                - generic "100001144" [ref=e1133]
+                - generic [ref=e1138]: CONFIRMED
+                - generic [ref=e1144]: 01/07/2025, 12:00
+                - generic [ref=e1149]: 02/07/2025, 11:30
+                - generic "1" [ref=e1155]
+                - generic "3/0/0" [ref=e1160]
+                - generic "Extra Bed In Room Big Family" [ref=e1165]
+                - generic "$0.00" [ref=e1174]: "0.00"
+                - generic "$0.00" [ref=e1179]: "0.00"
+                - generic "-$1,000.00" [ref=e1184]: "-1,000.00"
+                - generic [ref=e1187]:
+                  - button "" [ref=e1188] [cursor=pointer]:
+                    - generic [ref=e1189]: 
+                  - button "󰗔" [ref=e1190] [cursor=pointer]:
+                    - generic [ref=e1191]: 󰗔
+                  - text: 󰗕
+                  - button "" [ref=e1192] [cursor=pointer]:
+                    - generic [ref=e1193]: 
+              - generic [ref=e1194]:
+                - checkbox [ref=e1198] [cursor=pointer]
+                - generic "101315250701" [ref=e1203]
+                - generic [ref=e1207]:
+                  - generic [ref=e1208]: M
+                  - generic [ref=e1209]: Kumar Mukesh
+                - generic "100001144" [ref=e1214]
+                - generic [ref=e1219]: CONFIRMED
+                - generic [ref=e1225]: 01/07/2025, 12:00
+                - generic [ref=e1230]: 02/07/2025, 11:30
+                - generic "1" [ref=e1236]
+                - generic "3/0/0" [ref=e1241]
+                - generic "Extra Bed In Room Big Family" [ref=e1246]
+                - generic "$0.00" [ref=e1255]: "0.00"
+                - generic "$0.00" [ref=e1260]: "0.00"
+                - generic "-$1,000.00" [ref=e1265]: "-1,000.00"
+                - generic [ref=e1268]:
+                  - button "" [ref=e1269] [cursor=pointer]:
+                    - generic [ref=e1270]: 
+                  - button "󰗔" [ref=e1271] [cursor=pointer]:
+                    - generic [ref=e1272]: 󰗔
+                  - text: 󰗕
+                  - button "" [ref=e1273] [cursor=pointer]:
+                    - generic [ref=e1274]: 
+              - generic [ref=e1275]:
+                - checkbox [ref=e1279] [cursor=pointer]
+                - generic "101315250701" [ref=e1284]
+                - generic [ref=e1288]:
+                  - generic [ref=e1289]: M
+                  - generic [ref=e1290]: Kumar Mukesh
+                - generic "100001144" [ref=e1295]
+                - generic [ref=e1300]: CONFIRMED
+                - generic [ref=e1306]: 01/07/2025, 12:00
+                - generic [ref=e1311]: 02/07/2025, 11:30
+                - generic "1" [ref=e1317]
+                - generic "3/0/0" [ref=e1322]
+                - generic "Extra Bed In Room Big Family" [ref=e1327]
+                - generic "$0.00" [ref=e1336]: "0.00"
+                - generic "$0.00" [ref=e1341]: "0.00"
+                - generic "-$1,000.00" [ref=e1346]: "-1,000.00"
+                - generic [ref=e1349]:
+                  - button "" [ref=e1350] [cursor=pointer]:
+                    - generic [ref=e1351]: 
+                  - button "󰗔" [ref=e1352] [cursor=pointer]:
+                    - generic [ref=e1353]: 󰗔
+                  - text: 󰗕
+                  - button "" [ref=e1354] [cursor=pointer]:
+                    - generic [ref=e1355]: 
+              - generic [ref=e1356]:
+                - checkbox [ref=e1360] [cursor=pointer]
+                - generic "101312250701" [ref=e1365]
+                - generic [ref=e1369]:
+                  - generic [ref=e1370]: M
+                  - generic [ref=e1371]: rehmat khan
+                - generic "100001139" [ref=e1376]
+                - generic [ref=e1381]: CONFIRMED
+                - generic [ref=e1387]: 01/07/2025, 12:00
+                - generic [ref=e1392]: 02/07/2025, 11:30
+                - generic "1" [ref=e1398]
+                - generic "2/1/1" [ref=e1403]
+                - generic "LPT" [ref=e1408]
+                - generic "$0.00" [ref=e1417]: "0.00"
+                - generic "$0.00" [ref=e1422]: "0.00"
+                - generic "$0.00" [ref=e1427]: "0.00"
+                - generic [ref=e1430]:
+                  - button "" [ref=e1431] [cursor=pointer]:
+                    - generic [ref=e1432]: 
+                  - button "󰗔" [ref=e1433] [cursor=pointer]:
+                    - generic [ref=e1434]: 󰗔
+                  - text: 󰗕
+                  - button "" [ref=e1435] [cursor=pointer]:
+                    - generic [ref=e1436]: 
+              - generic [ref=e1437]:
+                - checkbox [ref=e1441] [cursor=pointer]
+                - generic "101312250701" [ref=e1446]
+                - generic [ref=e1450]:
+                  - generic [ref=e1451]: M
+                  - generic [ref=e1452]: rehmat khan
+                - generic "100001139" [ref=e1457]
+                - generic [ref=e1462]: CONFIRMED
+                - generic [ref=e1468]: 01/07/2025, 12:00
+                - generic [ref=e1473]: 02/07/2025, 11:30
+                - generic "1" [ref=e1479]
+                - generic "2/1/1" [ref=e1484]
+                - generic "LPT" [ref=e1489]
+                - generic "$0.00" [ref=e1498]: "0.00"
+                - generic "$0.00" [ref=e1503]: "0.00"
+                - generic "$0.00" [ref=e1508]: "0.00"
+                - generic [ref=e1511]:
+                  - button "" [ref=e1512] [cursor=pointer]:
+                    - generic [ref=e1513]: 
+                  - button "󰗔" [ref=e1514] [cursor=pointer]:
+                    - generic [ref=e1515]: 󰗔
+                  - text: 󰗕
+                  - button "" [ref=e1516] [cursor=pointer]:
+                    - generic [ref=e1517]: 
+              - generic [ref=e1518]:
+                - checkbox [ref=e1522] [cursor=pointer]
+                - generic "101312250701" [ref=e1527]
+                - generic [ref=e1531]:
+                  - generic [ref=e1532]: M
+                  - generic [ref=e1533]: rehmat khan
+                - generic "100001139" [ref=e1538]
+                - generic [ref=e1543]: CONFIRMED
+                - generic [ref=e1549]: 01/07/2025, 12:00
+                - generic [ref=e1554]: 02/07/2025, 11:30
+                - generic "1" [ref=e1560]
+                - generic "2/1/1" [ref=e1565]
+                - generic "LPT" [ref=e1570]
+                - generic "$0.00" [ref=e1579]: "0.00"
+                - generic "$0.00" [ref=e1584]: "0.00"
+                - generic "$0.00" [ref=e1589]: "0.00"
+                - generic [ref=e1592]:
+                  - button "" [ref=e1593] [cursor=pointer]:
+                    - generic [ref=e1594]: 
+                  - button "󰗔" [ref=e1595] [cursor=pointer]:
+                    - generic [ref=e1596]: 󰗔
+                  - text: 󰗕
+                  - button "" [ref=e1597] [cursor=pointer]:
+                    - generic [ref=e1598]: 
+              - generic [ref=e1599]:
+                - checkbox [ref=e1603] [cursor=pointer]
+                - generic "101312250701" [ref=e1608]
+                - generic [ref=e1612]:
+                  - generic [ref=e1613]: M
+                  - generic [ref=e1614]: rehmat khan
+                - generic "100001139" [ref=e1619]
+                - generic [ref=e1624]: CONFIRMED
+                - generic [ref=e1630]: 01/07/2025, 12:00
+                - generic [ref=e1635]: 02/07/2025, 11:30
+                - generic "1" [ref=e1641]
+                - generic "2/1/1" [ref=e1646]
+                - generic "LPT" [ref=e1651]
+                - generic "$0.00" [ref=e1660]: "0.00"
+                - generic "$0.00" [ref=e1665]: "0.00"
+                - generic "$0.00" [ref=e1670]: "0.00"
+                - generic [ref=e1673]:
+                  - button "" [ref=e1674] [cursor=pointer]:
+                    - generic [ref=e1675]: 
+                  - button "󰗔" [ref=e1676] [cursor=pointer]:
+                    - generic [ref=e1677]: 󰗔
+                  - text: 󰗕
+                  - button "" [ref=e1678] [cursor=pointer]:
+                    - generic [ref=e1679]: 
+              - generic [ref=e1680]:
+                - checkbox [ref=e1684] [cursor=pointer]
+                - generic "101342250701" [ref=e1689]
+                - generic [ref=e1693]:
+                  - generic [ref=e1694]: M
+                  - generic [ref=e1695]: retest regenn
+                - generic "100001176" [ref=e1700]
+                - generic [ref=e1705]: CONFIRMED
+                - generic [ref=e1711]: 01/07/2025, 12:00
+                - generic [ref=e1716]: 01/07/2025, 11:30
+                - generic "1" [ref=e1722]
+                - generic "13/3/4" [ref=e1727]
+                - generic "DGT" [ref=e1732]
+                - generic "thsi" [ref=e1740]
+                - generic "$0.00" [ref=e1745]: "0.00"
+                - generic "$0.00" [ref=e1750]: "0.00"
+                - generic "$0.00" [ref=e1755]: "0.00"
+                - generic [ref=e1758]:
+                  - button "" [ref=e1759] [cursor=pointer]:
+                    - generic [ref=e1760]: 
+                  - button "󰗔" [ref=e1761] [cursor=pointer]:
+                    - generic [ref=e1762]: 󰗔
+                  - text: 󰗕
+                  - button "" [ref=e1763] [cursor=pointer]:
+                    - generic [ref=e1764]: 
+              - generic [ref=e1765]:
+                - checkbox [ref=e1769] [cursor=pointer]
+                - generic "101342250701" [ref=e1774]
+                - generic [ref=e1778]:
+                  - generic [ref=e1779]: M
+                  - generic [ref=e1780]: retest regenn
+                - generic "100001176" [ref=e1785]
+                - generic [ref=e1790]: CONFIRMED
+                - generic [ref=e1796]: 01/07/2025, 12:00
+                - generic [ref=e1801]: 01/07/2025, 11:30
+                - generic "1" [ref=e1807]
+                - generic "13/3/4" [ref=e1812]
+                - generic "DGT" [ref=e1817]
+                - generic "thsi" [ref=e1825]
+                - generic "$0.00" [ref=e1830]: "0.00"
+                - generic "$0.00" [ref=e1835]: "0.00"
+                - generic "$0.00" [ref=e1840]: "0.00"
+                - generic [ref=e1843]:
+                  - button "" [ref=e1844] [cursor=pointer]:
+                    - generic [ref=e1845]: 
+                  - button "󰗔" [ref=e1846] [cursor=pointer]:
+                    - generic [ref=e1847]: 󰗔
+                  - text: 󰗕
+                  - button "" [ref=e1848] [cursor=pointer]:
+                    - generic [ref=e1849]: 
+              - generic [ref=e1850]:
+                - checkbox [ref=e1854] [cursor=pointer]
+                - generic "101342250701" [ref=e1859]
+                - generic [ref=e1863]:
+                  - generic [ref=e1864]: M
+                  - generic [ref=e1865]: retest regenn
+                - generic "100001176" [ref=e1870]
+                - generic [ref=e1875]: CONFIRMED
+                - generic [ref=e1881]: 01/07/2025, 12:00
+                - generic [ref=e1886]: 01/07/2025, 11:30
+                - generic "1" [ref=e1892]
+                - generic "13/3/4" [ref=e1897]
+                - generic "DGT" [ref=e1902]
+                - generic "thsi" [ref=e1910]
+                - generic "$0.00" [ref=e1915]: "0.00"
+                - generic "$0.00" [ref=e1920]: "0.00"
+                - generic "$0.00" [ref=e1925]: "0.00"
+                - generic [ref=e1928]:
+                  - button "" [ref=e1929] [cursor=pointer]:
+                    - generic [ref=e1930]: 
+                  - button "󰗔" [ref=e1931] [cursor=pointer]:
+                    - generic [ref=e1932]: 󰗔
+                  - text: 󰗕
+                  - button "" [ref=e1933] [cursor=pointer]:
+                    - generic [ref=e1934]: 
+          - generic [ref=e1950]:
+            - text: 
+            - generic [ref=e1951]:
+              - button "Reservation Details" [ref=e1952] [cursor=pointer]
+              - button "View Cashiering" [ref=e1953] [cursor=pointer]
+              - button "Auto Assign Room" [ref=e1954] [cursor=pointer]
+              - button "Print Registration" [ref=e1955] [cursor=pointer]
+              - button "Print Folio" [ref=e1956] [cursor=pointer]
+              - button "Print Proforma" [ref=e1957] [cursor=pointer]
+              - button "Cancel Confirm" [ref=e1958] [cursor=pointer]
+              - button "Checkin" [ref=e1959] [cursor=pointer]
+              - button "Link Group" [ref=e1960] [cursor=pointer]
+            - text: 
+            - button "Close" [ref=e1962] [cursor=pointer]
+        - contentinfo [ref=e1936]:
+          - generic [ref=e1938]:
+            - 'heading "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 01/07/2025" [level=6] [ref=e1940]'
+            - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e1943]
+    - generic [ref=e1945]: 󰅒
+  - img

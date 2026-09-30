@@ -1,0 +1,8 @@
+[     708ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0
+[   64916ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/dashboard:0
+[  130600ms] [WARNING] The specified value "2026-09-16 to 2026-09-17" does not conform to the required format, "yyyy-MM-dd". @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.be7e5d04a1e003a5.js:8
+[  450497ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qc2.prologicfirst.in/Webwish_API/api/Notifications/Load_Notifications:0
+[  450501ms] [LOG] UserSecurity z6cQJcxmrEbhhFXqdoj64Q%3D%3D @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.be7e5d04a1e003a5.js:0
+[  450502ms] [LOG] Time 18:56:54 GMT+0530 (India Standard Time) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.be7e5d04a1e003a5.js:0
+[  450634ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0
+[ 2412973ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0

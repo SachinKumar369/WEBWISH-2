@@ -1,0 +1,550 @@
+- generic [ref=e150]:
+  - generic [ref=e151]:
+    - banner [ref=e152]:
+      - generic [ref=e154]:
+        - generic [ref=e155]:
+          - link [ref=e157] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=e161]:
+            - textbox "Search..." [ref=e1290]: ava 󰅀
+            - generic [ref=e163]: 󰍉
+        - heading "WEBWISHQCMI" [level=5] [ref=e1291]
+        - generic [ref=e166]:
+          - button "󰅒" [ref=e1292] [cursor=pointer]
+          - button "" [ref=e1293] [cursor=pointer]
+          - button "" [ref=e1294] [cursor=pointer]
+          - button " 1" [ref=e1295] [cursor=pointer]:
+            - generic "Change Shift" [ref=e1296]: 
+            - generic [ref=e179]: "1"
+          - generic [ref=e180]:
+            - button "" [ref=e1297] [cursor=pointer]:
+              - generic "Notifications" [ref=e1298]: 
+            - text:  
+          - generic [ref=e183]:
+            - button [ref=e1299] [cursor=pointer]:
+              - img "Header Avatar" [ref=e1300]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button "" [ref=e1301] [cursor=pointer]
+    - generic [ref=e196]:
+      - text: 
+      - region "scrollable content" [ref=e1302]:
+        - list [ref=e205]:
+          - listitem
+          - listitem [ref=e206]:
+            - link "" [ref=e1303] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e210]:
+            - link "" [ref=e1304] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e214]:
+            - link "" [ref=e1305] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e218]:
+            - link "󰃢" [ref=e1306] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e222]:
+            - link "" [ref=e1307] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e225]:
+            - link "" [ref=e1308] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e229]:
+            - link "" [ref=e1309] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e233]:
+            - link "" [ref=e1310] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e237]:
+            - link "" [ref=e1311] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e241]:
+            - link "" [ref=e1312] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem
+          - listitem: 
+          - listitem: 
+          - listitem [ref=e245]:
+            - link "" [ref=e1313] [cursor=pointer]:
+              - /url: javascript:void(0);
+    - generic [ref=e250]:
+      - generic [ref=e1139]:
+        - generic [ref=e1143]:
+          - heading "Availability Management" [level=3] [ref=e1314]
+          - generic [ref=e1145]:
+            - generic:
+              - list
+            - generic [ref=e1146]:
+              - button "󰆓 Save" [disabled]:
+                - generic:
+                  - generic: 󰆓
+                  - text: Save
+              - button "Advance Selection" [ref=e1315] [cursor=pointer]
+              - generic [ref=e1148]:
+                - button "󰈲" [ref=e1316] [cursor=pointer]
+                - button "󰑐" [ref=e1317] [cursor=pointer]
+                - button "󰋚" [ref=e1318] [cursor=pointer]
+        - generic [ref=e1158]:
+          - generic [ref=e1321]:
+            - generic [ref=e1322]: "Year : 2026"
+            - generic [ref=e1323]: "Room Type : Deluxe Rooms"
+          - generic [ref=e1160]:
+            - generic [ref=e1165]:
+              - generic [ref=e1166] [cursor=pointer]:
+                - generic [ref=e1167]: M
+                - text: Before business date
+              - generic [ref=e1168] [cursor=pointer]:
+                - generic [ref=e1169]: "-"
+                - text: Not valid dates
+              - generic [ref=e1170] [cursor=pointer]:
+                - generic [ref=e1171]: 
+                - text: Closed for Arrival
+              - generic [ref=e1174] [cursor=pointer]:
+                - generic [ref=e1175]: 
+                - text: Closed for Departure
+              - generic [ref=e1178] [cursor=pointer]:
+                - generic [ref=e1179]: 
+                - text: Stay thru (Closed for arrival and departure)
+              - generic [ref=e1182] [cursor=pointer]:
+                - generic [ref=e1183]: 󰅜
+                - text: Stay Close
+            - table [ref=e1331]:
+              - rowgroup [ref=e1332]:
+                - row [ref=e1333]:
+                  - columnheader [ref=e1334]
+                  - columnheader "1" [ref=e1335]
+                  - columnheader "2" [ref=e1336]
+                  - columnheader "3" [ref=e1337]
+                  - columnheader "4" [ref=e1338]
+                  - columnheader "5" [ref=e1339]
+                  - columnheader "6" [ref=e1340]
+                  - columnheader "7" [ref=e1341]
+                  - columnheader "8" [ref=e1342]
+                  - columnheader "9" [ref=e1343]
+                  - columnheader "10" [ref=e1344]
+                  - columnheader "11" [ref=e1345]
+                  - columnheader "12" [ref=e1346]
+                  - columnheader "13" [ref=e1347]
+                  - columnheader "14" [ref=e1348]
+                  - columnheader "15" [ref=e1349]
+                  - columnheader "16" [ref=e1350]
+                  - columnheader "17" [ref=e1351]
+                  - columnheader "18" [ref=e1352]
+                  - columnheader "19" [ref=e1353]
+                  - columnheader "20" [ref=e1354]
+                  - columnheader "21" [ref=e1355]
+                  - columnheader "22" [ref=e1356]
+                  - columnheader "23" [ref=e1357]
+                  - columnheader "24" [ref=e1358]
+                  - columnheader "25" [ref=e1359]
+                  - columnheader "26" [ref=e1360]
+                  - columnheader "27" [ref=e1361]
+                  - columnheader "28" [ref=e1362]
+                  - columnheader "29" [ref=e1363]
+                  - columnheader "30" [ref=e1364]
+                  - columnheader "31" [ref=e1365]
+              - rowgroup [ref=e1366]:
+                - row [ref=e1367]:
+                  - cell "January" [ref=e1368]
+                  - cell "T" [ref=e1369]
+                  - cell "F" [ref=e1370]
+                  - cell "S" [ref=e1371]
+                  - cell "S" [ref=e1372]
+                  - cell "M" [ref=e1373]
+                  - cell "T" [ref=e1374]
+                  - cell "W" [ref=e1375]
+                  - cell "T" [ref=e1376]
+                  - cell "F" [ref=e1377]
+                  - cell "S" [ref=e1378]
+                  - cell "S" [ref=e1379]
+                  - cell "M" [ref=e1380]
+                  - cell "T" [ref=e1381]
+                  - cell "W" [ref=e1382]
+                  - cell "T" [ref=e1383]
+                  - cell "F" [ref=e1384]
+                  - cell "S" [ref=e1385]
+                  - cell "S" [ref=e1386]
+                  - cell "M" [ref=e1387]
+                  - cell "T" [ref=e1388]
+                  - cell "W" [ref=e1389]
+                  - cell "T" [ref=e1390]
+                  - cell "F" [ref=e1391]
+                  - cell "S" [ref=e1392]
+                  - cell "S" [ref=e1393]
+                  - cell "M" [ref=e1394]
+                  - cell "T" [ref=e1395]
+                  - cell "W" [ref=e1396]
+                  - cell "T" [ref=e1397]
+                  - cell "F" [ref=e1398]
+                  - cell "S" [ref=e1399]
+                - row [ref=e1400]:
+                  - cell "February" [ref=e1401]
+                  - cell "S" [ref=e1402]
+                  - cell "M" [ref=e1403]
+                  - cell "T" [ref=e1404]
+                  - cell "W" [ref=e1405]
+                  - cell "T" [ref=e1406]
+                  - cell "F" [ref=e1407]
+                  - cell "S" [ref=e1408]
+                  - cell "S" [ref=e1409]
+                  - cell "M" [ref=e1410]
+                  - cell "T" [ref=e1411]
+                  - cell "W" [ref=e1412]
+                  - cell "T" [ref=e1413]
+                  - cell "F" [ref=e1414]
+                  - cell "S" [ref=e1415]
+                  - cell "S" [ref=e1416]
+                  - cell "M" [ref=e1417]
+                  - cell "T" [ref=e1418]
+                  - cell "W" [ref=e1419]
+                  - cell "T" [ref=e1420]
+                  - cell "F" [ref=e1421]
+                  - cell "S" [ref=e1422]
+                  - cell "S" [ref=e1423]
+                  - cell "M" [ref=e1424]
+                  - cell "T" [ref=e1425]
+                  - cell "W" [ref=e1426]
+                  - cell "T" [ref=e1427]
+                  - cell "F" [ref=e1428]
+                  - cell "S" [ref=e1429]
+                  - cell [ref=e1430]
+                  - cell [ref=e1431]
+                  - cell [ref=e1432]
+                - row [ref=e1433]:
+                  - cell "March" [ref=e1434]
+                  - cell "S" [ref=e1435]
+                  - cell "M" [ref=e1436]
+                  - cell "T" [ref=e1437]
+                  - cell "W" [ref=e1438]
+                  - cell "T" [ref=e1439]
+                  - cell "F" [ref=e1440]
+                  - cell "S" [ref=e1441]
+                  - cell "S" [ref=e1442]
+                  - cell "M" [ref=e1443]
+                  - cell "T" [ref=e1444]
+                  - cell "W" [ref=e1445]
+                  - cell "T" [ref=e1446]
+                  - cell "F" [ref=e1447]
+                  - cell "S" [ref=e1448]
+                  - cell "S" [ref=e1449]
+                  - cell "M" [ref=e1450]
+                  - cell "T" [ref=e1451]
+                  - cell "W" [ref=e1452]
+                  - cell "T" [ref=e1453]
+                  - cell "F" [ref=e1454]
+                  - cell "S" [ref=e1455]
+                  - cell "S" [ref=e1456]
+                  - cell "M" [ref=e1457]
+                  - cell "T" [ref=e1458]
+                  - cell "W" [ref=e1459]
+                  - cell "T" [ref=e1460]
+                  - cell "F" [ref=e1461]
+                  - cell "S" [ref=e1462]
+                  - cell "S" [ref=e1463]
+                  - cell "M" [ref=e1464]
+                  - cell "T" [ref=e1465]
+                - row [ref=e1466]:
+                  - cell "April" [ref=e1467]
+                  - cell "W" [ref=e1468]
+                  - cell "T" [ref=e1469]
+                  - cell "F" [ref=e1470]
+                  - cell "S" [ref=e1471]
+                  - cell "S" [ref=e1472]
+                  - cell "M" [ref=e1473]
+                  - cell "T" [ref=e1474]
+                  - cell "W" [ref=e1475]
+                  - cell "T" [ref=e1476]
+                  - cell "F" [ref=e1477]
+                  - cell "S" [ref=e1478]
+                  - cell "S" [ref=e1479]
+                  - cell "M" [ref=e1480]
+                  - cell "T" [ref=e1481]
+                  - cell "W" [ref=e1482]
+                  - cell "T" [ref=e1483]
+                  - cell "F" [ref=e1484]
+                  - cell "S" [ref=e1485]
+                  - cell "S" [ref=e1486]
+                  - cell "M" [ref=e1487]
+                  - cell "T" [ref=e1488]
+                  - cell "W" [ref=e1489]
+                  - cell "T" [ref=e1490]
+                  - cell "F" [ref=e1491]
+                  - cell "S" [ref=e1492]
+                  - cell "S" [ref=e1493]
+                  - cell "M" [ref=e1494]
+                  - cell "T" [ref=e1495]
+                  - cell "W" [ref=e1496]
+                  - cell "T" [ref=e1497]
+                  - cell [ref=e1498]
+                - row [ref=e1499]:
+                  - cell "May" [ref=e1500]
+                  - cell "F" [ref=e1501]
+                  - cell "S" [ref=e1502]
+                  - cell "S" [ref=e1503]
+                  - cell "M" [ref=e1504]
+                  - cell "T" [ref=e1505]
+                  - cell "W" [ref=e1506]
+                  - cell "T" [ref=e1507]
+                  - cell "F" [ref=e1508]
+                  - cell "S" [ref=e1509]
+                  - cell "S" [ref=e1510]
+                  - cell "M" [ref=e1511]
+                  - cell "T" [ref=e1512]
+                  - cell "W" [ref=e1513]
+                  - cell "T" [ref=e1514]
+                  - cell "F" [ref=e1515]
+                  - cell "S" [ref=e1516]
+                  - cell "S" [ref=e1517]
+                  - cell "M" [ref=e1518]
+                  - cell "T" [ref=e1519]
+                  - cell "W" [ref=e1520]
+                  - cell "T" [ref=e1521]
+                  - cell "F" [ref=e1522]
+                  - cell "S" [ref=e1523]
+                  - cell "S" [ref=e1524]
+                  - cell "M" [ref=e1525]
+                  - cell "T" [ref=e1526]
+                  - cell "W" [ref=e1527]
+                  - cell "T" [ref=e1528]
+                  - cell "F" [ref=e1529]
+                  - cell "S" [ref=e1530]
+                  - cell "S" [ref=e1531]
+                - row [ref=e1532]:
+                  - cell "June" [ref=e1533]
+                  - cell "M" [ref=e1534]
+                  - cell "T" [ref=e1535]
+                  - cell "W" [ref=e1536]
+                  - cell "T" [ref=e1537]
+                  - cell "F" [ref=e1538]
+                  - cell "S" [ref=e1539]
+                  - cell "S" [ref=e1540]
+                  - cell "M" [ref=e1541]
+                  - cell "T" [ref=e1542]
+                  - cell "W" [ref=e1543]
+                  - cell "T" [ref=e1544]
+                  - cell "F" [ref=e1545]
+                  - cell "S" [ref=e1546]
+                  - cell "S" [ref=e1547]
+                  - cell "M" [ref=e1548]
+                  - cell "T" [ref=e1549]
+                  - cell "W" [ref=e1550]
+                  - cell "T" [ref=e1551]
+                  - cell "F" [ref=e1552]
+                  - cell "S" [ref=e1553]
+                  - cell "S" [ref=e1554]
+                  - cell "M" [ref=e1555]
+                  - cell "T" [ref=e1556]
+                  - cell "W" [ref=e1557]
+                  - cell "T" [ref=e1558]
+                  - cell "F" [ref=e1559]
+                  - cell "S" [ref=e1560]
+                  - cell "S" [ref=e1561]
+                  - cell "M" [ref=e1562]
+                  - cell "T" [ref=e1563]
+                  - cell [ref=e1564]
+                - row [ref=e1565]:
+                  - cell "July" [ref=e1566]
+                  - cell "W" [ref=e1567]
+                  - cell "T" [ref=e1568]
+                  - cell "F" [ref=e1569]
+                  - cell "S" [ref=e1570]
+                  - cell "S" [ref=e1571]
+                  - cell "M" [ref=e1572]
+                  - cell "T" [ref=e1573]
+                  - cell "W" [ref=e1574]
+                  - cell "T" [ref=e1575]
+                  - cell "F" [ref=e1576]
+                  - cell "S" [ref=e1577]
+                  - cell "S" [ref=e1578]
+                  - cell "M" [ref=e1579]
+                  - cell "T" [ref=e1580]
+                  - cell "W" [ref=e1581]
+                  - cell "T" [ref=e1582]
+                  - cell "F" [ref=e1583]
+                  - cell "S" [ref=e1584]
+                  - cell "S" [ref=e1585]
+                  - cell "M" [ref=e1586]
+                  - cell "T" [ref=e1587]
+                  - cell "W" [ref=e1588]
+                  - cell "T" [ref=e1589]
+                  - cell "F" [ref=e1590]
+                  - cell "S" [ref=e1591]
+                  - cell "S" [ref=e1592]
+                  - cell "M" [ref=e1593]
+                  - cell "T" [ref=e1594]
+                  - cell "W" [ref=e1595]
+                  - cell "T" [ref=e1596]
+                  - cell "F" [ref=e1597]
+                - row [ref=e1598]:
+                  - cell "August" [ref=e1599]
+                  - cell "S" [ref=e1600]
+                  - cell "S" [ref=e1601]
+                  - cell "M" [ref=e1602]
+                  - cell "T" [ref=e1603]
+                  - cell "W" [ref=e1604]
+                  - cell "T" [ref=e1605]
+                  - cell "F" [ref=e1606]
+                  - cell "S" [ref=e1607]
+                  - cell "S" [ref=e1608]
+                  - cell "M" [ref=e1609]
+                  - cell "T" [ref=e1610]
+                  - cell "W" [ref=e1611]
+                  - cell "T" [ref=e1612]
+                  - cell "F" [ref=e1613]
+                  - cell "S" [ref=e1614]
+                  - cell "S" [ref=e1615]
+                  - cell "M" [ref=e1616]
+                  - cell "T" [ref=e1617]
+                  - cell "W" [ref=e1618]
+                  - cell "T" [ref=e1619]
+                  - cell "F" [ref=e1620]
+                  - cell "S" [ref=e1621]
+                  - cell "S" [ref=e1622]
+                  - cell "M" [ref=e1623]
+                  - cell "T" [ref=e1624]
+                  - cell "W" [ref=e1625]
+                  - cell "T" [ref=e1626]
+                  - cell "F" [ref=e1627]
+                  - cell "S" [ref=e1628]
+                  - cell "S" [ref=e1629]
+                  - cell "M" [ref=e1630]
+                - row [ref=e1631]:
+                  - cell "September" [ref=e1632]
+                  - cell "T" [ref=e1633]
+                  - cell "W" [ref=e1634]
+                  - cell "T" [ref=e1635]
+                  - cell "F" [ref=e1636]
+                  - cell "S" [ref=e1637]
+                  - cell "S" [ref=e1638]
+                  - cell "M" [ref=e1639]
+                  - cell "T" [ref=e1640]
+                  - cell "W" [ref=e1641]
+                  - cell "T" [ref=e1642]
+                  - cell "F" [ref=e1643]
+                  - cell "S" [ref=e1644]
+                  - cell "S" [ref=e1645]
+                  - cell "M" [ref=e1646]
+                  - cell "T" [ref=e1647]
+                  - cell "W" [ref=e1648]
+                  - cell "T" [ref=e1649]
+                  - cell "F" [ref=e1650]
+                  - cell "S" [ref=e1651]
+                  - cell "S" [ref=e1652]
+                  - cell " M" [ref=e1653]:
+                    - generic [ref=e1654]: 
+                    - generic [ref=e1655]: M
+                  - cell " T" [ref=e1656]:
+                    - generic [ref=e1657]: 
+                    - generic [ref=e1658]: T
+                  - cell "W" [ref=e1659]
+                  - cell "T" [ref=e1660]
+                  - cell "F" [ref=e1661]
+                  - cell "S" [ref=e1662]
+                  - cell "S" [ref=e1663]
+                  - cell "M" [ref=e1664]
+                  - cell "T" [ref=e1665]
+                  - cell "W" [ref=e1666]
+                  - cell [ref=e1667]
+                - row [ref=e1668]:
+                  - cell "October" [ref=e1669]
+                  - cell "T" [ref=e1670]
+                  - cell "F" [ref=e1671]
+                  - cell "S" [ref=e1672]
+                  - cell "S" [ref=e1673]
+                  - cell "M" [ref=e1674]
+                  - cell "T" [ref=e1675]
+                  - cell "W" [ref=e1676]
+                  - cell "T" [ref=e1677]
+                  - cell "F" [ref=e1678]
+                  - cell "S" [ref=e1679]
+                  - cell "S" [ref=e1680]
+                  - cell "M" [ref=e1681]
+                  - cell "T" [ref=e1682]
+                  - cell "W" [ref=e1683]
+                  - cell "T" [ref=e1684]
+                  - cell "F" [ref=e1685]
+                  - cell "S" [ref=e1686]
+                  - cell "S" [ref=e1687]
+                  - cell "M" [ref=e1688]
+                  - cell "T" [ref=e1689]
+                  - cell "W" [ref=e1690]
+                  - cell "T" [ref=e1691]
+                  - cell "F" [ref=e1692]
+                  - cell "S" [ref=e1693]
+                  - cell "S" [ref=e1694]
+                  - cell "M" [ref=e1695]
+                  - cell "T" [ref=e1696]
+                  - cell "W" [ref=e1697]
+                  - cell "T" [ref=e1698]
+                  - cell "F" [ref=e1699]
+                  - cell "S" [ref=e1700]
+                - row [ref=e1701]:
+                  - cell "November" [ref=e1702]
+                  - cell "S" [ref=e1703]
+                  - cell "M" [ref=e1704]
+                  - cell "T" [ref=e1705]
+                  - cell "W" [ref=e1706]
+                  - cell "T" [ref=e1707]
+                  - cell "F" [ref=e1708]
+                  - cell "S" [ref=e1709]
+                  - cell "S" [ref=e1710]
+                  - cell "M" [ref=e1711]
+                  - cell "T" [ref=e1712]
+                  - cell "W" [ref=e1713]
+                  - cell "T" [ref=e1714]
+                  - cell "F" [ref=e1715]
+                  - cell "S" [ref=e1716]
+                  - cell "S" [ref=e1717]
+                  - cell "M" [ref=e1718]
+                  - cell "T" [ref=e1719]
+                  - cell "W" [ref=e1720]
+                  - cell "T" [ref=e1721]
+                  - cell "F" [ref=e1722]
+                  - cell "S" [ref=e1723]
+                  - cell "S" [ref=e1724]
+                  - cell "M" [ref=e1725]
+                  - cell "T" [ref=e1726]
+                  - cell "W" [ref=e1727]
+                  - cell "T" [ref=e1728]
+                  - cell "F" [ref=e1729]
+                  - cell "S" [ref=e1730]
+                  - cell "S" [ref=e1731]
+                  - cell "M" [ref=e1732]
+                  - cell [ref=e1733]
+                - row [ref=e1734]:
+                  - cell "December" [ref=e1735]
+                  - cell "T" [ref=e1736]
+                  - cell "W" [ref=e1737]
+                  - cell "T" [ref=e1738]
+                  - cell "F" [ref=e1739]
+                  - cell "S" [ref=e1740]
+                  - cell "S" [ref=e1741]
+                  - cell "M" [ref=e1742]
+                  - cell "T" [ref=e1743]
+                  - cell "W" [ref=e1744]
+                  - cell "T" [ref=e1745]
+                  - cell "F" [ref=e1746]
+                  - cell "S" [ref=e1747]
+                  - cell "S" [ref=e1748]
+                  - cell "M" [ref=e1749]
+                  - cell "T" [ref=e1750]
+                  - cell "W" [ref=e1751]
+                  - cell "T" [ref=e1752]
+                  - cell "F" [ref=e1753]
+                  - cell "S" [ref=e1754]
+                  - cell "S" [ref=e1755]
+                  - cell "M" [ref=e1756]
+                  - cell "T" [ref=e1757]
+                  - cell "W" [ref=e1758]
+                  - cell "T" [ref=e1759]
+                  - cell "F" [ref=e1760]
+                  - cell "S" [ref=e1761]
+                  - cell "S" [ref=e1762]
+                  - cell "M" [ref=e1763]
+                  - cell "T" [ref=e1764]
+                  - cell "W" [ref=e1765]
+                  - cell "T" [ref=e1766]
+      - contentinfo [ref=e357]:
+        - generic [ref=e359]:
+          - 'heading "Property Id: WEBMI, User Id: SACHIN KUMAR, Shift: 1, Business Date: 18/09/2026" [level=6] [ref=e1767]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e1768]
+  - generic: 󰅒

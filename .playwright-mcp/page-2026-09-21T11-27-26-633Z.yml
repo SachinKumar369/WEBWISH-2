@@ -1,0 +1,573 @@
+- generic [ref=e1]:
+  - generic [ref=e150]:
+    - generic [ref=e151]:
+      - banner [ref=e152]:
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - link [ref=e157] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e161]:
+              - textbox [ref=e1769]:
+                - /placeholder: Search...
+                - text: ava 󰅀
+              - generic [ref=e163]: 󰍉
+          - heading [level=5] [ref=e1770]: WEBWISHQCMI
+          - generic [ref=e166]:
+            - button [ref=e1771] [cursor=pointer]:
+              - generic [ref=e169]: 󰅒
+            - button [ref=e1772] [cursor=pointer]:
+              - generic [ref=e172]: 
+            - button [ref=e1773] [cursor=pointer]:
+              - generic [ref=e175]: 
+            - button [ref=e1774] [cursor=pointer]:
+              - generic [ref=e1775]: 
+              - generic [ref=e179]: "1"
+            - generic [ref=e180]:
+              - button [ref=e1776] [cursor=pointer]:
+                - generic [ref=e1777]: 
+              - text:  
+            - generic [ref=e183]:
+              - button [ref=e1778] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e1780] [cursor=pointer]:
+              - generic [ref=e189]: 
+      - generic [ref=e196]:
+        - text: 
+        - region [ref=e1781]:
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - link [ref=e1782] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e209]: 
+            - listitem [ref=e210]:
+              - link [ref=e1783] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e213]: 
+            - listitem [ref=e214]:
+              - link [ref=e1784] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e217]: 
+            - listitem [ref=e218]:
+              - link [ref=e1785] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e221]: 󰃢
+            - listitem [ref=e222]:
+              - link [ref=e1786] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e224]: 
+            - listitem [ref=e225]:
+              - link [ref=e1787] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e228]: 
+            - listitem [ref=e229]:
+              - link [ref=e1788] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e232]: 
+            - listitem [ref=e233]:
+              - link [ref=e1789] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e236]: 
+            - listitem [ref=e237]:
+              - link [ref=e1790] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e240]: 
+            - listitem [ref=e241]:
+              - link [ref=e1791] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e244]: 
+            - text:  
+            - listitem [ref=e245]:
+              - link [ref=e1792] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e248]: 
+      - generic [ref=e250]:
+        - generic [ref=e1139]:
+          - generic [ref=e1143]:
+            - heading [level=3] [ref=e1793]: Availability Management
+            - generic [ref=e1146]:
+              - button [disabled]:
+                - generic:
+                  - generic: 󰆓
+                  - text: Save
+              - button [ref=e1794] [cursor=pointer]: Advance Selection
+              - generic [ref=e1148]:
+                - button [ref=e1795] [cursor=pointer]:
+                  - generic [ref=e1150]: 󰈲
+                - button [ref=e1796] [cursor=pointer]:
+                  - generic [ref=e1153]: 󰑐
+                - button [ref=e1797] [cursor=pointer]:
+                  - generic [ref=e1156]: 󰋚
+          - generic [ref=e1158]:
+            - generic [ref=e1321]:
+              - generic [ref=e1322]: "Year : 2026"
+              - generic [ref=e1323]: "Room Type : Deluxe Rooms"
+            - generic [ref=e1160]:
+              - generic [ref=e1165]:
+                - generic [ref=e1166] [cursor=pointer]:
+                  - generic [ref=e1167]: M
+                  - text: Before business date
+                - generic [ref=e1168] [cursor=pointer]:
+                  - generic [ref=e1169]: "-"
+                  - text: Not valid dates
+                - generic [ref=e1170] [cursor=pointer]:
+                  - generic [ref=e1171]: 
+                  - text: Closed for Arrival
+                - generic [ref=e1174] [cursor=pointer]:
+                  - generic [ref=e1175]: 
+                  - text: Closed for Departure
+                - generic [ref=e1178] [cursor=pointer]:
+                  - generic [ref=e1179]: 
+                  - text: Stay thru (Closed for arrival and departure)
+                - generic [ref=e1182] [cursor=pointer]:
+                  - generic [ref=e1183]: 󰅜
+                  - text: Stay Close
+              - table [ref=e1331]:
+                - rowgroup [ref=e1332]:
+                  - row [ref=e1798]:
+                    - columnheader [ref=e1334]
+                    - columnheader [ref=e1799]: "1"
+                    - columnheader [ref=e1800]: "2"
+                    - columnheader [ref=e1801]: "3"
+                    - columnheader [ref=e1802]: "4"
+                    - columnheader [ref=e1803]: "5"
+                    - columnheader [ref=e1804]: "6"
+                    - columnheader [ref=e1805]: "7"
+                    - columnheader [ref=e1806]: "8"
+                    - columnheader [ref=e1807]: "9"
+                    - columnheader [ref=e1808]: "10"
+                    - columnheader [ref=e1809]: "11"
+                    - columnheader [ref=e1810]: "12"
+                    - columnheader [ref=e1811]: "13"
+                    - columnheader [ref=e1812]: "14"
+                    - columnheader [ref=e1813]: "15"
+                    - columnheader [ref=e1814]: "16"
+                    - columnheader [ref=e1815]: "17"
+                    - columnheader [ref=e1816]: "18"
+                    - columnheader [ref=e1817]: "19"
+                    - columnheader [ref=e1818]: "20"
+                    - columnheader [ref=e1819]: "21"
+                    - columnheader [ref=e1820]: "22"
+                    - columnheader [ref=e1821]: "23"
+                    - columnheader [ref=e1822]: "24"
+                    - columnheader [ref=e1823]: "25"
+                    - columnheader [ref=e1824]: "26"
+                    - columnheader [ref=e1825]: "27"
+                    - columnheader [ref=e1826]: "28"
+                    - columnheader [ref=e1827]: "29"
+                    - columnheader [ref=e1828]: "30"
+                    - columnheader [ref=e1829]: "31"
+                - rowgroup [ref=e1366]:
+                  - row [ref=e1830]:
+                    - cell [ref=e1831]: January
+                    - cell [ref=e1832]: T
+                    - cell [ref=e1833]: F
+                    - cell [ref=e1834]: S
+                    - cell [ref=e1835]: S
+                    - cell [ref=e1836]: M
+                    - cell [ref=e1837]: T
+                    - cell [ref=e1838]: W
+                    - cell [ref=e1839]: T
+                    - cell [ref=e1840]: F
+                    - cell [ref=e1841]: S
+                    - cell [ref=e1842]: S
+                    - cell [ref=e1843]: M
+                    - cell [ref=e1844]: T
+                    - cell [ref=e1845]: W
+                    - cell [ref=e1846]: T
+                    - cell [ref=e1847]: F
+                    - cell [ref=e1848]: S
+                    - cell [ref=e1849]: S
+                    - cell [ref=e1850]: M
+                    - cell [ref=e1851]: T
+                    - cell [ref=e1852]: W
+                    - cell [ref=e1853]: T
+                    - cell [ref=e1854]: F
+                    - cell [ref=e1855]: S
+                    - cell [ref=e1856]: S
+                    - cell [ref=e1857]: M
+                    - cell [ref=e1858]: T
+                    - cell [ref=e1859]: W
+                    - cell [ref=e1860]: T
+                    - cell [ref=e1861]: F
+                    - cell [ref=e1862]: S
+                  - row [ref=e1863]:
+                    - cell [ref=e1864]: February
+                    - cell [ref=e1865]: S
+                    - cell [ref=e1866]: M
+                    - cell [ref=e1867]: T
+                    - cell [ref=e1868]: W
+                    - cell [ref=e1869]: T
+                    - cell [ref=e1870]: F
+                    - cell [ref=e1871]: S
+                    - cell [ref=e1872]: S
+                    - cell [ref=e1873]: M
+                    - cell [ref=e1874]: T
+                    - cell [ref=e1875]: W
+                    - cell [ref=e1876]: T
+                    - cell [ref=e1877]: F
+                    - cell [ref=e1878]: S
+                    - cell [ref=e1879]: S
+                    - cell [ref=e1880]: M
+                    - cell [ref=e1881]: T
+                    - cell [ref=e1882]: W
+                    - cell [ref=e1883]: T
+                    - cell [ref=e1884]: F
+                    - cell [ref=e1885]: S
+                    - cell [ref=e1886]: S
+                    - cell [ref=e1887]: M
+                    - cell [ref=e1888]: T
+                    - cell [ref=e1889]: W
+                    - cell [ref=e1890]: T
+                    - cell [ref=e1891]: F
+                    - cell [ref=e1892]: S
+                    - cell [ref=e1430]
+                    - cell [ref=e1431]
+                    - cell [ref=e1432]
+                  - row [ref=e1893]:
+                    - cell [ref=e1894]: March
+                    - cell [ref=e1895]: S
+                    - cell [ref=e1896]: M
+                    - cell [ref=e1897]: T
+                    - cell [ref=e1898]: W
+                    - cell [ref=e1899]: T
+                    - cell [ref=e1900]: F
+                    - cell [ref=e1901]: S
+                    - cell [ref=e1902]: S
+                    - cell [ref=e1903]: M
+                    - cell [ref=e1904]: T
+                    - cell [ref=e1905]: W
+                    - cell [ref=e1906]: T
+                    - cell [ref=e1907]: F
+                    - cell [ref=e1908]: S
+                    - cell [ref=e1909]: S
+                    - cell [ref=e1910]: M
+                    - cell [ref=e1911]: T
+                    - cell [ref=e1912]: W
+                    - cell [ref=e1913]: T
+                    - cell [ref=e1914]: F
+                    - cell [ref=e1915]: S
+                    - cell [ref=e1916]: S
+                    - cell [ref=e1917]: M
+                    - cell [ref=e1918]: T
+                    - cell [ref=e1919]: W
+                    - cell [ref=e1920]: T
+                    - cell [ref=e1921]: F
+                    - cell [ref=e1922]: S
+                    - cell [ref=e1923]: S
+                    - cell [ref=e1924]: M
+                    - cell [ref=e1925]: T
+                  - row [ref=e1926]:
+                    - cell [ref=e1927]: April
+                    - cell [ref=e1928]: W
+                    - cell [ref=e1929]: T
+                    - cell [ref=e1930]: F
+                    - cell [ref=e1931]: S
+                    - cell [ref=e1932]: S
+                    - cell [ref=e1933]: M
+                    - cell [ref=e1934]: T
+                    - cell [ref=e1935]: W
+                    - cell [ref=e1936]: T
+                    - cell [ref=e1937]: F
+                    - cell [ref=e1938]: S
+                    - cell [ref=e1939]: S
+                    - cell [ref=e1940]: M
+                    - cell [ref=e1941]: T
+                    - cell [ref=e1942]: W
+                    - cell [ref=e1943]: T
+                    - cell [ref=e1944]: F
+                    - cell [ref=e1945]: S
+                    - cell [ref=e1946]: S
+                    - cell [ref=e1947]: M
+                    - cell [ref=e1948]: T
+                    - cell [ref=e1949]: W
+                    - cell [ref=e1950]: T
+                    - cell [ref=e1951]: F
+                    - cell [ref=e1952]: S
+                    - cell [ref=e1953]: S
+                    - cell [ref=e1954]: M
+                    - cell [ref=e1955]: T
+                    - cell [ref=e1956]: W
+                    - cell [ref=e1957]: T
+                    - cell [ref=e1498]
+                  - row [ref=e1958]:
+                    - cell [ref=e1959]: May
+                    - cell [ref=e1960]: F
+                    - cell [ref=e1961]: S
+                    - cell [ref=e1962]: S
+                    - cell [ref=e1963]: M
+                    - cell [ref=e1964]: T
+                    - cell [ref=e1965]: W
+                    - cell [ref=e1966]: T
+                    - cell [ref=e1967]: F
+                    - cell [ref=e1968]: S
+                    - cell [ref=e1969]: S
+                    - cell [ref=e1970]: M
+                    - cell [ref=e1971]: T
+                    - cell [ref=e1972]: W
+                    - cell [ref=e1973]: T
+                    - cell [ref=e1974]: F
+                    - cell [ref=e1975]: S
+                    - cell [ref=e1976]: S
+                    - cell [ref=e1977]: M
+                    - cell [ref=e1978]: T
+                    - cell [ref=e1979]: W
+                    - cell [ref=e1980]: T
+                    - cell [ref=e1981]: F
+                    - cell [ref=e1982]: S
+                    - cell [ref=e1983]: S
+                    - cell [ref=e1984]: M
+                    - cell [ref=e1985]: T
+                    - cell [ref=e1986]: W
+                    - cell [ref=e1987]: T
+                    - cell [ref=e1988]: F
+                    - cell [ref=e1989]: S
+                    - cell [ref=e1990]: S
+                  - row [ref=e1991]:
+                    - cell [ref=e1992]: June
+                    - cell [ref=e1993]: M
+                    - cell [ref=e1994]: T
+                    - cell [ref=e1995]: W
+                    - cell [ref=e1996]: T
+                    - cell [ref=e1997]: F
+                    - cell [ref=e1998]: S
+                    - cell [ref=e1999]: S
+                    - cell [ref=e2000]: M
+                    - cell [ref=e2001]: T
+                    - cell [ref=e2002]: W
+                    - cell [ref=e2003]: T
+                    - cell [ref=e2004]: F
+                    - cell [ref=e2005]: S
+                    - cell [ref=e2006]: S
+                    - cell [ref=e2007]: M
+                    - cell [ref=e2008]: T
+                    - cell [ref=e2009]: W
+                    - cell [ref=e2010]: T
+                    - cell [ref=e2011]: F
+                    - cell [ref=e2012]: S
+                    - cell [ref=e2013]: S
+                    - cell [ref=e2014]: M
+                    - cell [ref=e2015]: T
+                    - cell [ref=e2016]: W
+                    - cell [ref=e2017]: T
+                    - cell [ref=e2018]: F
+                    - cell [ref=e2019]: S
+                    - cell [ref=e2020]: S
+                    - cell [ref=e2021]: M
+                    - cell [ref=e2022]: T
+                    - cell [ref=e1564]
+                  - row [ref=e2023]:
+                    - cell [ref=e2024]: July
+                    - cell [ref=e2025]: W
+                    - cell [ref=e2026]: T
+                    - cell [ref=e2027]: F
+                    - cell [ref=e2028]: S
+                    - cell [ref=e2029]: S
+                    - cell [ref=e2030]: M
+                    - cell [ref=e2031]: T
+                    - cell [ref=e2032]: W
+                    - cell [ref=e2033]: T
+                    - cell [ref=e2034]: F
+                    - cell [ref=e2035]: S
+                    - cell [ref=e2036]: S
+                    - cell [ref=e2037]: M
+                    - cell [ref=e2038]: T
+                    - cell [ref=e2039]: W
+                    - cell [ref=e2040]: T
+                    - cell [ref=e2041]: F
+                    - cell [ref=e2042]: S
+                    - cell [ref=e2043]: S
+                    - cell [ref=e2044]: M
+                    - cell [ref=e2045]: T
+                    - cell [ref=e2046]: W
+                    - cell [ref=e2047]: T
+                    - cell [ref=e2048]: F
+                    - cell [ref=e2049]: S
+                    - cell [ref=e2050]: S
+                    - cell [ref=e2051]: M
+                    - cell [ref=e2052]: T
+                    - cell [ref=e2053]: W
+                    - cell [ref=e2054]: T
+                    - cell [ref=e2055]: F
+                  - row [ref=e2056]:
+                    - cell [ref=e2057]: August
+                    - cell [ref=e2058]: S
+                    - cell [ref=e2059]: S
+                    - cell [ref=e2060]: M
+                    - cell [ref=e2061]: T
+                    - cell [ref=e2062]: W
+                    - cell [ref=e2063]: T
+                    - cell [ref=e2064]: F
+                    - cell [ref=e2065]: S
+                    - cell [ref=e2066]: S
+                    - cell [ref=e2067]: M
+                    - cell [ref=e2068]: T
+                    - cell [ref=e2069]: W
+                    - cell [ref=e2070]: T
+                    - cell [ref=e2071]: F
+                    - cell [ref=e2072]: S
+                    - cell [ref=e2073]: S
+                    - cell [ref=e2074]: M
+                    - cell [ref=e2075]: T
+                    - cell [ref=e2076]: W
+                    - cell [ref=e2077]: T
+                    - cell [ref=e2078]: F
+                    - cell [ref=e2079]: S
+                    - cell [ref=e2080]: S
+                    - cell [ref=e2081]: M
+                    - cell [ref=e2082]: T
+                    - cell [ref=e2083]: W
+                    - cell [ref=e2084]: T
+                    - cell [ref=e2085]: F
+                    - cell [ref=e2086]: S
+                    - cell [ref=e2087]: S
+                    - cell [ref=e2088]: M
+                  - row [ref=e2089]:
+                    - cell [ref=e2090]: September
+                    - cell [ref=e2091]: T
+                    - cell [ref=e2092]: W
+                    - cell [ref=e2093]: T
+                    - cell [ref=e2094]: F
+                    - cell [ref=e2095]: S
+                    - cell [ref=e2096]: S
+                    - cell [ref=e2097]: M
+                    - cell [ref=e2098]: T
+                    - cell [ref=e2099]: W
+                    - cell [ref=e2100]: T
+                    - cell [ref=e2101]: F
+                    - cell [ref=e2102]: S
+                    - cell [ref=e2103]: S
+                    - cell [ref=e2104]: M
+                    - cell [ref=e2105]: T
+                    - cell [ref=e2106]: W
+                    - cell [ref=e2107]: T
+                    - cell [ref=e2108]: F
+                    - cell [ref=e2109]: S
+                    - cell [ref=e2110]: S
+                    - cell [ref=e2111]:
+                      - generic [ref=e1654]: 
+                      - generic [ref=e1655]: M
+                    - cell [ref=e2112]:
+                      - generic [ref=e1657]: 
+                      - generic [ref=e1658]: T
+                    - cell [ref=e2113]: W
+                    - cell [ref=e2114]: T
+                    - cell [ref=e2115]: F
+                    - cell [ref=e2116]: S
+                    - cell [ref=e2117]: S
+                    - cell [ref=e2118]: M
+                    - cell [ref=e2119]: T
+                    - cell [ref=e2120]: W
+                    - cell [ref=e1667]
+                  - row [ref=e2121]:
+                    - cell [ref=e2122]: October
+                    - cell [ref=e2123]: T
+                    - cell [ref=e2124]: F
+                    - cell [ref=e2125]: S
+                    - cell [ref=e2126]: S
+                    - cell [ref=e2127]: M
+                    - cell [ref=e2128]: T
+                    - cell [ref=e2129]: W
+                    - cell [ref=e2130]: T
+                    - cell [ref=e2131]: F
+                    - cell [ref=e2132]: S
+                    - cell [ref=e2133]: S
+                    - cell [ref=e2134]: M
+                    - cell [ref=e2135]: T
+                    - cell [ref=e2136]: W
+                    - cell [ref=e2137]: T
+                    - cell [ref=e2138]: F
+                    - cell [ref=e2139]: S
+                    - cell [ref=e2140]: S
+                    - cell [ref=e2141]: M
+                    - cell [ref=e2142]: T
+                    - cell [ref=e2143]: W
+                    - cell [ref=e2144]: T
+                    - cell [ref=e2145]: F
+                    - cell [ref=e2146]: S
+                    - cell [ref=e2147]: S
+                    - cell [ref=e2148]: M
+                    - cell [ref=e2149]: T
+                    - cell [ref=e2150]: W
+                    - cell [ref=e2151]: T
+                    - cell [ref=e2152]: F
+                    - cell [ref=e2153]: S
+                  - row [ref=e2154]:
+                    - cell [ref=e2155]: November
+                    - cell [ref=e2156]: S
+                    - cell [ref=e2157]: M
+                    - cell [ref=e2158]: T
+                    - cell [ref=e2159]: W
+                    - cell [ref=e2160]: T
+                    - cell [ref=e2161]: F
+                    - cell [ref=e2162]: S
+                    - cell [ref=e2163]: S
+                    - cell [ref=e2164]: M
+                    - cell [ref=e2165]: T
+                    - cell [ref=e2166]: W
+                    - cell [ref=e2167]: T
+                    - cell [ref=e2168]: F
+                    - cell [ref=e2169]: S
+                    - cell [ref=e2170]: S
+                    - cell [ref=e2171]: M
+                    - cell [ref=e2172]: T
+                    - cell [ref=e2173]: W
+                    - cell [ref=e2174]: T
+                    - cell [ref=e2175]: F
+                    - cell [ref=e2176]: S
+                    - cell [ref=e2177]: S
+                    - cell [ref=e2178]: M
+                    - cell [ref=e2179]: T
+                    - cell [ref=e2180]: W
+                    - cell [ref=e2181]: T
+                    - cell [ref=e2182]: F
+                    - cell [ref=e2183]: S
+                    - cell [ref=e2184]: S
+                    - cell [ref=e2185]: M
+                    - cell [ref=e1733]
+                  - row [ref=e2186]:
+                    - cell [ref=e2187]: December
+                    - cell [ref=e2188]: T
+                    - cell [ref=e2189]: W
+                    - cell [ref=e2190]: T
+                    - cell [ref=e2191]: F
+                    - cell [ref=e2192]: S
+                    - cell [ref=e2193]: S
+                    - cell [ref=e2194]: M
+                    - cell [ref=e2195]: T
+                    - cell [ref=e2196]: W
+                    - cell [ref=e2197]: T
+                    - cell [ref=e2198]: F
+                    - cell [ref=e2199]: S
+                    - cell [ref=e2200]: S
+                    - cell [ref=e2201]: M
+                    - cell [ref=e2202]: T
+                    - cell [ref=e2203]: W
+                    - cell [ref=e2204]: T
+                    - cell [ref=e2205]: F
+                    - cell [ref=e2206]: S
+                    - cell [ref=e2207]: S
+                    - cell [ref=e2208]: M
+                    - cell [ref=e2209]: T
+                    - cell [ref=e2210]: W
+                    - cell [ref=e2211]: T
+                    - cell [ref=e2212]: F
+                    - cell [ref=e2213]: S
+                    - cell [ref=e2214]: S
+                    - cell [ref=e2215]: M
+                    - cell [ref=e2216]: T
+                    - cell [ref=e2217]: W
+                    - cell [ref=e2218]: T
+        - contentinfo [ref=e357]:
+          - generic [ref=e359]:
+            - heading [level=6] [ref=e2219]: "Property Id: WEBMI, User Id: SACHIN KUMAR, Shift: 1, Business Date: 18/09/2026"
+            - heading [level=6] [ref=e2220]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e365]: 󰅒
+  - dialog [ref=e2222]:
+    - generic [ref=e2223]: "?"
+    - generic [ref=e2226]:
+      - heading "Please Confirm" [level=4] [ref=e2227]
+      - paragraph [ref=e2228]: Do you want to select more days to update?
+    - text: "!"
+    - generic [ref=e2229]:
+      - button "Yes" [active] [ref=e2230] [cursor=pointer]
+      - button "No" [ref=e2231] [cursor=pointer]

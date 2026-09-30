@@ -1,0 +1,143 @@
+- generic [ref=e56]:
+  - generic [ref=e57]:
+    - banner [ref=e58]:
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - link [ref=e63] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=e67]:
+            - textbox "Search..." [ref=e68]: 󰅀
+            - generic [ref=e69]: 󰍉
+        - heading "Demo Hotel" [level=5] [ref=e71]
+        - generic [ref=e72]:
+          - button "󰅒" [ref=e74] [cursor=pointer]
+          - button "" [ref=e77] [cursor=pointer]
+          - button "" [ref=e80] [cursor=pointer]
+          - button " 1" [ref=e83] [cursor=pointer]:
+            - generic "Change Shift" [ref=e84]: 
+            - generic [ref=e85]: "1"
+          - generic [ref=e86]:
+            - button "" [ref=e87] [cursor=pointer]:
+              - generic "Notifications" [ref=e88]: 
+            - text:  
+          - generic [ref=e89]:
+            - button [ref=e90] [cursor=pointer]:
+              - img "Header Avatar" [ref=e92]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button [ref=e94] [cursor=pointer]:
+            - img "Header Avatar" [ref=e96]
+    - generic [ref=e102]:
+      - text: 
+      - generic [ref=e104]:
+        - region "scrollable content" [ref=e109]:
+          - list [ref=e111]:
+            - listitem [ref=e320]:
+              - generic [ref=e321]: Front Office PMS
+            - listitem [ref=e322]:
+              - link " Front Desk" [ref=e324] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e325]: 
+                - generic [ref=e326]: Front Desk
+              - list [ref=e328]:
+                - listitem [ref=e330]:
+                  - link " Booking Calendar" [ref=e331] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=e332]: 
+                    - generic [ref=e333]: Booking Calendar
+                - listitem [ref=e335]:
+                  - link " Guest Management" [ref=e336] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=e337]: 
+                    - generic [ref=e338]: Guest Management
+                - listitem [ref=e340]:
+                  - link " Group Management" [ref=e341] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=e342]: 
+                    - generic [ref=e343]: Group Management
+                - listitem [ref=e345]:
+                  - link " Special Accounts" [ref=e346] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=e347]: 
+                    - generic [ref=e348]: Special Accounts
+                - listitem [ref=e350]:
+                  - link " Task Management" [ref=e351] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=e352]: 
+                    - generic [ref=e353]: Task Management
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+        - button "" [ref=e354] [cursor=pointer]
+    - generic [ref=e156]:
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - heading "Welcome! Check User 1." [level=2] [ref=e166]
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - generic [ref=e174] [cursor=pointer]:
+                - generic [ref=e175]:
+                  - paragraph [ref=e177]: Current Occupancy
+                  - heading " + 0 %" [level=5] [ref=e179]:
+                    - generic [ref=e180]: 
+                    - text: + 0 %
+                - generic [ref=e181]:
+                  - heading "44.03%" [level=4] [ref=e183]
+                  - generic [ref=e184]: 
+              - generic [ref=e189] [cursor=pointer]:
+                - generic [ref=e190]:
+                  - paragraph [ref=e192]: Expected Arrivals
+                  - heading " -28" [level=5] [ref=e194]:
+                    - generic [ref=e195]: 
+                    - text: "-28"
+                - generic [ref=e196]:
+                  - heading "0" [level=4] [ref=e198]
+                  - generic [ref=e199]: 
+              - generic [ref=e204] [cursor=pointer]:
+                - generic [ref=e205]:
+                  - paragraph [ref=e207]: In-house
+                  - heading " + 0" [level=5] [ref=e209]:
+                    - generic [ref=e210]: 
+                    - text: + 0
+                - generic [ref=e211]:
+                  - heading "196" [level=4] [ref=e213]
+                  - generic [ref=e214]: 
+              - generic [ref=e219] [cursor=pointer]:
+                - generic [ref=e220]:
+                  - paragraph [ref=e222]: Expected Departures
+                  - heading " + 70" [level=5] [ref=e224]:
+                    - generic [ref=e225]: 
+                    - text: + 70
+                - generic [ref=e226]:
+                  - heading "70" [level=4] [ref=e228]
+                  - generic [ref=e229]: 
+            - generic [ref=e234]:
+              - textbox "search booking/booked thru/function" [ref=e235]:
+                - /placeholder: Search function/menu/guest/group/room...
+                - text: 󰅀
+              - button "Search 󱎸" [ref=e236] [cursor=pointer]:
+                - text: Search
+                - generic [ref=e237]: 󱎸
+            - generic [ref=e242]:
+              - generic [ref=e244] [cursor=pointer]:
+                - generic [ref=e245]: 
+                - paragraph [ref=e247]: Guest Management
+              - generic [ref=e249] [cursor=pointer]:
+                - generic [ref=e250]: 
+                - paragraph [ref=e252]: HouseKeeping Operations
+              - generic [ref=e254] [cursor=pointer]:
+                - generic [ref=e255]: 
+                - paragraph [ref=e257]: Group Management
+              - generic [ref=e259] [cursor=pointer]:
+                - generic [ref=e260]: 
+                - paragraph [ref=e262]: Cashiering
+              - generic [ref=e264] [cursor=pointer]:
+                - generic [ref=e265]: 
+                - paragraph [ref=e267]: Booking Calendar
+        - text:   󰒊
+      - contentinfo [ref=e268]:
+        - generic [ref=e270]:
+          - 'heading "Property Id: BDAR, User Id: Check User 1, Shift: 1, Business Date: 08/09/2026" [level=6] [ref=e272]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e275]
+  - generic: 󰅒

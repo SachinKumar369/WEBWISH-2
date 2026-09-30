@@ -1,0 +1,96 @@
+- generic [ref=f4e2]:
+  - generic: Please wait!We are processing your request
+  - generic [ref=f4e7]:
+    - generic [ref=f4e8]:
+      - banner [ref=f4e9]:
+        - generic [ref=f4e11]:
+          - generic [ref=f4e12]:
+            - link [ref=f4e14] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=f4e18]:
+              - textbox "Search..." [ref=f4e19]: 󰅀
+              - generic [ref=f4e20]: 󰍉
+          - heading "WEBWISH DUBAI 5.0" [level=5] [ref=f4e22]
+          - generic [ref=f4e23]:
+            - button "󰅒" [ref=f4e25] [cursor=pointer]
+            - button "" [ref=f4e28] [cursor=pointer]
+            - button "" [ref=f4e31] [cursor=pointer]
+            - button " 3" [ref=f4e34] [cursor=pointer]:
+              - generic "Change Shift" [ref=f4e35]: 
+              - generic [ref=f4e36]: "3"
+            - generic [ref=f4e37]:
+              - button "" [ref=f4e38] [cursor=pointer]:
+                - generic "Notifications" [ref=f4e39]: 
+              - text:  
+            - generic [ref=f4e40]:
+              - button [ref=f4e41] [cursor=pointer]:
+                - img "Header Avatar" [ref=f4e43]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=f4e45] [cursor=pointer]:
+              - img "Header Avatar" [ref=f4e47]
+      - generic [ref=f4e48]:
+        - text: 
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - region "scrollable content":
+                      - generic:
+                        - list
+      - generic [ref=f4e50]:
+        - generic [ref=f4e53]:
+          - generic [ref=f4e54]:
+            - heading "Welcome! Sachin Kumar." [level=2] [ref=f4e60]
+            - generic [ref=f4e64]:
+              - generic [ref=f4e65]:
+                - generic [ref=f4e68] [cursor=pointer]:
+                  - generic [ref=f4e69]:
+                    - paragraph [ref=f4e71]: Current Occupancy
+                    - heading " + 0 %" [level=5] [ref=f4e73]:
+                      - generic [ref=f4e74]: 
+                      - text: + 0 %
+                  - generic [ref=f4e75]:
+                    - heading "0.00%" [level=4] [ref=f4e77]
+                    - generic [ref=f4e78]: 
+                - generic [ref=f4e83] [cursor=pointer]:
+                  - generic [ref=f4e84]:
+                    - paragraph [ref=f4e86]: Expected Arrivals
+                    - heading " + 0" [level=5] [ref=f4e88]:
+                      - generic [ref=f4e89]: 
+                      - text: + 0
+                  - generic [ref=f4e90]:
+                    - heading "0" [level=4] [ref=f4e92]
+                    - generic [ref=f4e93]: 
+                - generic [ref=f4e98] [cursor=pointer]:
+                  - generic [ref=f4e99]:
+                    - paragraph [ref=f4e101]: In-house
+                    - heading " + 0" [level=5] [ref=f4e103]:
+                      - generic [ref=f4e104]: 
+                      - text: + 0
+                  - generic [ref=f4e105]:
+                    - heading "0" [level=4] [ref=f4e107]
+                    - generic [ref=f4e108]: 
+                - generic [ref=f4e113] [cursor=pointer]:
+                  - generic [ref=f4e114]:
+                    - paragraph [ref=f4e116]: Expected Departures
+                    - heading " + 0" [level=5] [ref=f4e118]:
+                      - generic [ref=f4e119]: 
+                      - text: + 0
+                  - generic [ref=f4e120]:
+                    - heading "0" [level=4] [ref=f4e122]
+                    - generic [ref=f4e123]: 
+              - generic [ref=f4e128]:
+                - textbox "search booking/booked thru/function" [ref=f4e129]:
+                  - /placeholder: Search function/menu/guest/group/room...
+                  - text: 󰅀
+                - button "Search 󱎸" [ref=f4e130] [cursor=pointer]:
+                  - text: Search
+                  - generic [ref=f4e131]: 󱎸
+          - text:   󰒊
+        - contentinfo [ref=f4e135]:
+          - generic [ref=f4e137]:
+            - 'heading "Property Id: WDUBI, User Id: Sachin Kumar, Shift: 3, Business Date: 04/12/2025" [level=6] [ref=f4e139]'
+            - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=f4e142]
+    - generic: 󰅒

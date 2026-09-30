@@ -1,0 +1,60 @@
+- generic [ref=e56]:
+  - generic [ref=e63]:
+    - generic [ref=e67]:
+      - link [ref=e69] [cursor=pointer]:
+        - /url: index.html
+        - img "logo" [ref=e70]
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - button "Slide 1" [ref=e74] [cursor=pointer]
+          - button "Slide 2" [ref=e75] [cursor=pointer]
+          - button "Slide 3" [ref=e76] [cursor=pointer]
+        - paragraph [ref=e79]:
+          - img "..." [ref=e80]
+    - generic [ref=e83]:
+      - heading "Select a property to signin!" [level=4] [ref=e85]
+      - generic [ref=e89]:
+        - textbox "Text input with dropdown button" [ref=e90]:
+          - /placeholder: Search
+          - text: 󰅀
+        - generic [ref=e91]: 󰍉
+      - table [ref=e93]:
+        - rowgroup [ref=e94]:
+          - row [ref=e95]:
+            - cell "INDIA" [ref=e96]
+            - cell "India Support" [ref=e98]
+            - cell [ref=e100]:
+              - link "󰍂" [ref=e101] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - row [ref=e103]:
+            - cell "WDUBI" [ref=e104]
+            - cell "WEBWISH DUBAI 5.0" [ref=e106]
+            - cell [ref=e108]:
+              - link "󰍂" [ref=e109] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - row [ref=e111]:
+            - cell "WEBIN" [ref=e112]
+            - cell "WEBWISHINDIA" [ref=e114]
+            - cell [ref=e116]:
+              - link "󰍂" [ref=e117] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - row [ref=e119]:
+            - cell "WEBMI" [ref=e120]
+            - cell "WEBWISHQCMI" [ref=e122]
+            - cell [ref=e124]:
+              - link "󰍂" [ref=e125] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - row [ref=e127]:
+            - cell "WEBMY" [ref=e128]
+            - cell "WEBWISH Malaysia" [ref=e130]
+            - cell [ref=e132]:
+              - link "󰍂" [ref=e133] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - row [ref=e135]:
+            - cell "WEBWE" [ref=e136]
+            - cell "Webwish Hotel" [ref=e138]
+            - cell [ref=e140]:
+              - link "󰍂" [ref=e141] [cursor=pointer]:
+                - /url: javascript:void(0)
+  - contentinfo [ref=e143]:
+    - paragraph [ref=e148]: © 2025 Prologic First India Pvt Ltd

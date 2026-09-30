@@ -1,0 +1,138 @@
+- generic [ref=f6e1718]:
+  - generic [ref=f6e1719]:
+    - banner [ref=f6e1720]:
+      - generic [ref=f6e1722]:
+        - generic [ref=f6e1723]:
+          - link [ref=f6e1725] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=f6e1729]:
+            - textbox "Search" [ref=f6e1730]: guest management 󰅀
+            - generic [ref=f6e1731]: 󰍉
+        - heading "Webwish Hotel" [level=5] [ref=f6e1733]
+        - generic [ref=f6e1734]:
+          - button "󰅒" [ref=f6e1736] [cursor=pointer]
+          - button "" [ref=f6e1739] [cursor=pointer]
+          - button "" [ref=f6e1742] [cursor=pointer]
+          - button " 3" [ref=f6e1745] [cursor=pointer]:
+            - generic "Change Shift" [ref=f6e1746]: 
+            - generic [ref=f6e1747]: "3"
+          - generic [ref=f6e1748]:
+            - button "" [ref=f6e1749] [cursor=pointer]:
+              - generic "Notifications" [ref=f6e1750]: 
+            - text:  
+          - generic [ref=f6e1751]:
+            - button [ref=f6e1752] [cursor=pointer]:
+              - img "Header Avatar" [ref=f6e1754]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button [ref=f6e1756] [cursor=pointer]:
+            - img "Header Avatar" [ref=f6e1758]
+    - generic [ref=f6e1767]:
+      - text: 
+      - region "scrollable content" [ref=f6e1774]:
+        - list [ref=f6e1776]:
+          - listitem
+          - listitem [ref=f6e1777]:
+            - link "" [ref=f6e1779] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1781]:
+            - link "" [ref=f6e1783] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1785]:
+            - link "" [ref=f6e1787] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1789]:
+            - link "󰃢" [ref=f6e1791] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1793]:
+            - link "" [ref=f6e1794] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1796]:
+            - link "" [ref=f6e1798] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1800]:
+            - link "" [ref=f6e1802] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1804]:
+            - link "" [ref=f6e1806] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1808]:
+            - link "" [ref=f6e1810] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f6e1812]:
+            - link "" [ref=f6e1814] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem
+          - listitem: 
+          - listitem: 
+          - listitem [ref=f6e1816]:
+            - link "" [ref=f6e1818] [cursor=pointer]:
+              - /url: javascript:void(0);
+    - generic [ref=f6e1821]:
+      - generic [ref=f6e1943]:
+        - heading "New Reservation" [level=3] [ref=f6e2359]
+        - generic [ref=f6e2360]:
+          - generic [ref=f6e2362]:
+            - heading "Stay Details" [level=5] [ref=f6e2368]
+            - generic [ref=f6e2374]:
+              - generic [ref=f6e2375]:
+                - generic [ref=f6e2376]: Check In/ Check Out Date
+                - textbox "Select Date Range" [ref=f6e2379]: 02/07/2025 to 03/07/2025
+              - generic [ref=f6e2380]:
+                - generic [ref=f6e2381]: Pax(A/Y/C)
+                - generic [ref=f6e2385] [cursor=pointer]:
+                  - generic [ref=f6e2386]: 1 -A, 0 -Y, 0 -C
+                  - generic [ref=f6e2387]: 󰍝
+              - generic [ref=f6e2389]:
+                - generic [ref=f6e2390]: Booked Thru
+                - generic [ref=f6e2394]:
+                  - text: "--Select--"
+                  - generic [ref=f6e2395] [cursor=pointer]: 󰍝
+          - generic [ref=f6e2397]:
+            - heading "Guest Prefrences" [level=5] [ref=f6e2403]
+            - generic [ref=f6e2406]:
+              - text: You can select maximum 4 Preferences.
+              - generic [ref=f6e2408]:
+                - generic [ref=f6e2409]:
+                  - heading [level=6]
+                  - generic [ref=f6e2411]:
+                    - generic [ref=f6e2413]:
+                      - checkbox "AUTOMATION" [ref=f6e2414] [cursor=pointer]
+                      - generic [ref=f6e2415] [cursor=pointer]: AUTOMATION
+                    - generic [ref=f6e2417]:
+                      - checkbox "Balcony" [ref=f6e2418] [cursor=pointer]
+                      - generic [ref=f6e2419] [cursor=pointer]: Balcony
+                    - generic [ref=f6e2421]:
+                      - checkbox "AUTOMATION" [ref=f6e2422] [cursor=pointer]
+                      - generic [ref=f6e2423] [cursor=pointer]: AUTOMATION
+                    - generic [ref=f6e2425]:
+                      - checkbox "Elevator" [ref=f6e2426] [cursor=pointer]
+                      - generic [ref=f6e2427] [cursor=pointer]: Elevator
+                    - generic [ref=f6e2429]:
+                      - checkbox "AUTOMATION" [ref=f6e2430] [cursor=pointer]
+                      - generic [ref=f6e2431] [cursor=pointer]: AUTOMATION
+                    - generic [ref=f6e2433]:
+                      - checkbox "NEAR LIFT" [ref=f6e2434] [cursor=pointer]
+                      - generic [ref=f6e2435] [cursor=pointer]: NEAR LIFT
+                - generic [ref=f6e2436]:
+                  - heading "Bakery" [level=6] [ref=f6e2437]
+                  - generic [ref=f6e2441]:
+                    - checkbox "AUTOMATION" [ref=f6e2442] [cursor=pointer]
+                    - generic [ref=f6e2443] [cursor=pointer]: AUTOMATION
+                - generic [ref=f6e2444]:
+                  - heading "Others" [level=6] [ref=f6e2445]
+                  - generic [ref=f6e2447]:
+                    - generic [ref=f6e2449]:
+                      - checkbox "NO Smoking" [ref=f6e2450] [cursor=pointer]
+                      - generic [ref=f6e2451] [cursor=pointer]: NO Smoking
+                    - generic [ref=f6e2453]:
+                      - checkbox "Connecting Rooms" [ref=f6e2454] [cursor=pointer]
+                      - generic [ref=f6e2455] [cursor=pointer]: Connecting Rooms
+          - generic [ref=f6e2458]:
+            - heading "Total - 0.00 + Taxes" [level=5] [ref=f6e2460] [cursor=pointer]
+            - button "Next" [ref=f6e2461] [cursor=pointer]
+            - button "Close" [ref=f6e2462] [cursor=pointer]
+      - contentinfo [ref=f6e1933]:
+        - generic [ref=f6e1935]:
+          - 'heading "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 02/07/2025" [level=6] [ref=f6e1937]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=f6e1940]
+  - generic: 󰅒

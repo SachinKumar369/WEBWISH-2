@@ -1,0 +1,133 @@
+- generic [ref=e1]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - banner [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - link [ref=e14] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e18]:
+              - textbox "Search..." [ref=e241]: 󰅀
+              - generic [ref=e20]: 󰍉
+          - heading "Webwish Hotel" [level=5] [ref=e242]
+          - generic [ref=e23]:
+            - button "󰅒" [ref=e243] [cursor=pointer]:
+              - generic [ref=e26]: 󰅒
+            - button "" [ref=e244] [cursor=pointer]:
+              - generic [ref=e29]: 
+            - button "" [ref=e245] [cursor=pointer]:
+              - generic [ref=e32]: 
+            - button " 3" [ref=e246] [cursor=pointer]:
+              - generic "Change Shift" [ref=e247]: 
+              - generic [ref=e36]: "3"
+            - generic [ref=e37]:
+              - button "" [ref=e248] [cursor=pointer]:
+                - generic "Notifications" [ref=e249]: 
+              - text:  
+            - generic [ref=e40]:
+              - button "Header Avatar" [ref=e250] [cursor=pointer]:
+                - img "Header Avatar" [ref=e251]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button "Header Avatar" [ref=e252] [cursor=pointer]:
+              - img "Header Avatar" [ref=e253]
+      - generic [ref=e48]:
+        - text: 
+        - region "scrollable content" [ref=e254]:
+          - list [ref=e118]:
+            - listitem
+            - listitem [ref=e119]:
+              - link "" [ref=e255] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e122]: 
+            - listitem [ref=e123]:
+              - link "" [ref=e256] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e126]: 
+            - listitem [ref=e127]:
+              - link "" [ref=e257] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e130]: 
+            - listitem [ref=e131]:
+              - link "󰃢" [ref=e258] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e134]: 󰃢
+            - listitem [ref=e135]:
+              - link "" [ref=e259] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e137]: 
+            - listitem [ref=e138]:
+              - link "" [ref=e260] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e141]: 
+            - listitem [ref=e142]:
+              - link "" [ref=e261] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e145]: 
+            - listitem [ref=e146]:
+              - link "" [ref=e262] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e149]: 
+            - listitem [ref=e150]:
+              - link "" [ref=e263] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e153]: 
+            - listitem [ref=e154]:
+              - link "" [ref=e264] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e157]: 
+            - listitem
+            - listitem: 
+            - listitem: 
+            - listitem [ref=e158]:
+              - link "" [ref=e265] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e161]: 
+      - generic [ref=e50]:
+        - generic [ref=e53]:
+          - generic [ref=e57]:
+            - heading "System Utilities" [level=3] [ref=e266]
+            - generic [ref=e59]:
+              - generic:
+                - list
+              - list [ref=e62]:
+                - listitem [ref=e63]:
+                  - button "󰑐" [ref=e267] [cursor=pointer]:
+                    - generic [ref=e66]: 󰑐
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - generic [ref=e70]:
+                - textbox "Search..." [ref=e268]
+                - generic [ref=e72]: 󰍉
+              - tabpanel [ref=e74]:
+                - region "scrollable content" [ref=e269]:
+                  - list [ref=e162]:
+                    - listitem [ref=e163]:
+                      - link " Populate Forecast Figures" [ref=e270] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=e165]:
+                          - generic [ref=e166]: 
+                          - generic [ref=e168]: Populate Forecast Figures
+                    - listitem [ref=e169]:
+                      - link " Recreate Availability" [active] [ref=e271] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=e171]:
+                          - generic [ref=e172]: 
+                          - generic [ref=e174]: Recreate Availability
+                    - listitem [ref=e175]:
+                      - link " Synchronize Telephone Exchange" [ref=e272] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=e177]:
+                          - generic [ref=e178]: 
+                          - generic [ref=e180]: Synchronize Telephone Exchange
+            - generic [ref=e85]:
+              - generic [ref=e87]:
+                - heading "Recreate Availability" [level=5] [ref=e273]
+                - button "󰐊" [ref=e274] [cursor=pointer]:
+                  - generic [ref=e186]: 󰐊
+              - region "scrollable content" [ref=e275]
+        - contentinfo [ref=e100]:
+          - generic [ref=e102]:
+            - 'heading "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 01/07/2025" [level=6] [ref=e276]'
+            - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e277]
+    - generic [ref=e109]: 󰅒
+  - img

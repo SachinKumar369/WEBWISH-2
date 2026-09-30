@@ -2,6 +2,7 @@ import { test, expect, Page, BrowserContext } from '@playwright/test';
 import { LoginPage } from '../../src/pages/LoginPage';
 import { NightAuditPage } from '../../src/pages/NightAudit/NightAuditPage';
 import { testDataManager } from '../../src/utils/TestDataManager';
+import { getPropertyByIndexFromExcel } from '../../src/utils/PropertyDataProvider';
 import logger from '../../src/core/Logger';
 
 /**
@@ -22,7 +23,7 @@ import logger from '../../src/core/Logger';
  *
  * After all 9 steps the business date advances to the next day.
  *
- * Property: WEBWISHQCMI (index 2)
+ * Property is read from test-data/properties.xlsx (module = "NightAudit").
  */
 test.describe('Night Audit Tests', () => {
   let page: Page;
@@ -41,9 +42,13 @@ test.describe('Night Audit Tests', () => {
     const user = await testDataManager.getUserCredentials('all');
     expect(user).toBeDefined();
 
-    // Login with WEBWISHQCMI property (index 2)
-    await loginPage.loginWithPropertySelection(user.username, user.password, 2);
-    logger.info('Login completed for Night Audit test');
+    // ── Pick property from Excel by index ──
+    const property = getPropertyByIndexFromExcel(1);
+    expect(property).toBeDefined();
+    logger.info(`Property from Excel: ${property!.code} (index ${property!.index})`);
+
+    await loginPage.loginWithPropertySelection(user.username, user.password, property!.index);
+    logger.info(`Login completed for Night Audit test`);
   });
 
   test.afterEach(async () => {

@@ -1,0 +1,90 @@
+- generic [ref=e56]:
+  - generic [ref=e57]:
+    - banner [ref=e58]:
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - link [ref=e63] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=e67]:
+            - textbox "Search..." [ref=e68]: 󰅀
+            - generic [ref=e69]: 󰍉
+        - heading "Demo Hotel" [level=5] [ref=e71]
+        - generic [ref=e72]:
+          - button "󰅒" [ref=e74] [cursor=pointer]
+          - button "" [ref=e77] [cursor=pointer]
+          - button "" [ref=e80] [cursor=pointer]
+          - button " 1" [ref=e83] [cursor=pointer]:
+            - generic "Change Shift" [ref=e84]: 
+            - generic [ref=e85]: "1"
+          - generic [ref=e86]:
+            - button "" [ref=e87] [cursor=pointer]:
+              - generic "Notifications" [ref=e88]: 
+            - text:  
+          - generic [ref=e89]:
+            - button [ref=e90] [cursor=pointer]:
+              - img "Header Avatar" [ref=e92]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button [ref=e94] [cursor=pointer]:
+            - img "Header Avatar" [ref=e96]
+    - generic [ref=e102]:
+      - text: 
+      - generic [ref=e104]:
+        - region "scrollable content" [ref=e109]:
+          - list [ref=e111]:
+            - listitem
+            - listitem [ref=e322]:
+              - link "" [ref=e356] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - text:     
+        - button "" [ref=e354] [cursor=pointer]
+    - generic [ref=e156]:
+      - generic [ref=e357]:
+        - heading "New Reservation" [level=3] [ref=e560]
+        - generic [ref=e561]:
+          - generic [ref=e563]:
+            - heading "Stay Details" [level=5] [ref=e569]
+            - generic [ref=e575]:
+              - generic [ref=e576]:
+                - generic [ref=e577]: Check In/ Check Out Date
+                - textbox "Select Date Range" [ref=e580]: 08/09/2026 to 09/09/2026
+              - generic [ref=e581]:
+                - generic [ref=e582]: Pax(A/Y/C)
+                - generic [ref=e586] [cursor=pointer]:
+                  - generic [ref=e587]: 1 -A, 0 -Y, 0 -C
+                  - generic [ref=e588]: 󰍝
+              - generic [ref=e590]:
+                - generic [ref=e591]: Booked Thru
+                - generic [ref=e595]:
+                  - text: "--Select--"
+                  - generic [ref=e596] [cursor=pointer]: 󰍝
+          - generic [ref=e598]:
+            - heading "Guest Prefrences" [level=5] [ref=e604]
+            - generic [ref=e607]:
+              - text: You can select maximum 4 Preferences.
+              - generic [ref=e610]:
+                - heading [level=6]
+                - generic [ref=e612]:
+                  - generic [ref=e614]:
+                    - checkbox "Connecting Rooms" [ref=e615] [cursor=pointer]
+                    - generic [ref=e616] [cursor=pointer]: Connecting Rooms
+                  - generic [ref=e618]:
+                    - checkbox "Handicap" [ref=e619] [cursor=pointer]
+                    - generic [ref=e620] [cursor=pointer]: Handicap
+                  - generic [ref=e622]:
+                    - checkbox "Marina" [ref=e623] [cursor=pointer]
+                    - generic [ref=e624] [cursor=pointer]: Marina
+                  - generic [ref=e626]:
+                    - checkbox "Non Smoking" [ref=e627] [cursor=pointer]
+                    - generic [ref=e628] [cursor=pointer]: Non Smoking
+                  - generic [ref=e630]:
+                    - checkbox "Sea View" [ref=e631] [cursor=pointer]
+                    - generic [ref=e632] [cursor=pointer]: Sea View
+          - generic [ref=e635]:
+            - heading "Total - 0.00 + Taxes" [level=5] [ref=e637] [cursor=pointer]
+            - button "Next" [ref=e638] [cursor=pointer]
+            - button "Close" [ref=e639] [cursor=pointer]
+      - contentinfo [ref=e268]:
+        - generic [ref=e270]:
+          - 'heading "Property Id: BDAR, User Id: Check User 1, Shift: 1, Business Date: 08/09/2026" [level=6] [ref=e272]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e275]
+  - generic: 󰅒

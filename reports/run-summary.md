@@ -1,8 +1,8 @@
 # Test Run Summary
 
 - Status: passed
-- Total: 3
-- Passed: 3
+- Total: 1
+- Passed: 1
 - Failed: 0
 - Skipped: 0
 - Timed Out: 0

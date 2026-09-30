@@ -38,7 +38,8 @@ export class GroupManagementPage {
   // LOCATORS
   // ============================================
   private get frontDeskLink(): Locator {
-    return this.page.getByRole('link', { name: ' Front Desk' });
+    // The link text may have extra whitespace; use a regex to match "Front Desk" regardless of surrounding spaces.
+    return this.page.getByRole('link', { name: /Front Desk/ });
   }
 
   private get groupManagementLink(): Locator {
@@ -89,6 +90,12 @@ export class GroupManagementPage {
 
   private get okButton(): Locator {
     return this.page.getByRole('button', { name: 'OK' });
+  }
+
+  // Public method to wait for the success message after creating a group
+  async waitForSuccessMessage(timeout: number = 5000): Promise<void> {
+    await this.successMessage.waitFor({ state: 'visible', timeout });
+    logger.info('Success message displayed after group creation');
   }
 
   private get groupSearchInput(): Locator {
@@ -261,6 +268,49 @@ export class GroupManagementPage {
 
     await this.page.keyboard.press('Enter');
     logger.info(`Selected option from ${fieldName} dropdown`);
+  }
+
+  /**
+   * Select an option from an ng-select dropdown by typing text into its
+   * typeahead search box. This is more reliable than arrow-key counting
+   * when the option order may change across environments.
+   *
+   * @param label     - The field label used to locate the dropdown container (e.g. 'Currency')
+   * @param text      - The text to type into the search box (e.g. 'INR')
+   * @param fieldName - Human-readable name for logging
+   */
+  private async selectDropdownByText(
+    label: string,
+    text: string,
+    fieldName: string
+  ): Promise<void> {
+    const container = this.page
+      .locator('div')
+      .filter({ hasText: new RegExp(`^${label}`, 'i') })
+      .first();
+
+    await container.scrollIntoViewIfNeeded();
+
+    // Click the ng-select textbox to open the dropdown
+    const textboxTarget = container.locator('ng-select').getByRole('textbox').first();
+    if (await textboxTarget.count()) {
+      await this.elementActions.click(textboxTarget, `${fieldName} dropdown textbox`);
+    } else {
+      const containerTarget = container.locator('.ng-select-container').first();
+      if (await containerTarget.count()) {
+        await this.elementActions.click(containerTarget, `${fieldName} dropdown container`);
+      } else {
+        await this.elementActions.click(container.locator('span').nth(1), `${fieldName} dropdown`);
+      }
+    }
+
+    // Type the search text to filter options
+    await textboxTarget.fill(text);
+    await this.page.waitForTimeout(500);
+
+    // Select the first filtered option
+    await this.page.keyboard.press('Enter');
+    logger.info(`Selected "${text}" from ${fieldName} dropdown`);
   }
 
   private async getReleaseBlockOnInput(): Promise<Locator> {
@@ -566,10 +616,11 @@ export class GroupManagementPage {
   }
 
   /**
-   * Select Currency from dropdown
+   * Select Currency from dropdown by typing the currency code (e.g. INR).
+   * Uses ng-select typeahead search instead of fragile arrow-key counting.
    */
-  async selectCurrency(arrowDownCount: number = 3): Promise<void> {
-    await this.selectDropdownByArrowKeys('Currency', arrowDownCount, 'Currency');
+  async selectCurrency(code: string = 'INR'): Promise<void> {
+    await this.selectDropdownByText('Currency', code, 'Currency');
   }
 
   /**
@@ -661,7 +712,7 @@ export class GroupManagementPage {
     await this.selectMarketSegment(3);
     await this.selectBusinessSource(2);
     await this.selectDomicileCode(3);
-    await this.selectCurrency(3);
+    await this.selectCurrency('INR');
     await this.selectGroupClass(2);
     await this.selectPaymentMethod(2);
 
@@ -831,7 +882,7 @@ export class GroupManagementPage {
     await this.selectMarketSegment(3);
     await this.selectBusinessSource(2);
     await this.selectDomicileCode(3);
-    await this.selectCurrency(3);
+    await this.selectCurrency('INR');
     await this.selectGroupClass(2);
     await this.selectPaymentMethod(2);
 

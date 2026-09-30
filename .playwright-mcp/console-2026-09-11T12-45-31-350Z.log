@@ -1,0 +1,16 @@
+[   59179ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/login:0
+[   68614ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0
+[   72877ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/dashboard:0
+[  480404ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'bookings')
+    at U.SetSearchResult (https://qc2webwish.prologicfirst.in/Webwish_APP/main.752edd15aae21715.js:1:4536890)
+    at U.ngOnInit (https://qc2webwish.prologicfirst.in/Webwish_APP/main.752edd15aae21715.js:1:4536559)
+    at Pm (https://qc2webwish.prologicfirst.in/Webwish_APP/main.752edd15aae21715.js:9:1081999)
+    at eu (https://qc2webwish.prologicfirst.in/Webwish_APP/main.752edd15aae21715.js:9:1082156)
+    at Fc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.752edd15aae21715.js:9:1081900)
+    at Oc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.752edd15aae21715.js:9:1081604)
+    at Oy (https://qc2webwish.prologicfirst.in/Webwish_APP/main.752edd15aae21715.js:9:1127679)
+    at Ly (https://qc2webwish.prologicfirst.in/Webwish_APP/main.752edd15aae21715.js:9:1128825)
+    at Fy (https://qc2webwish.prologicfirst.in/Webwish_APP/main.752edd15aae21715.js:9:1128654)
+    at Oy (https://qc2webwish.prologicfirst.in/Webwish_APP/main.752edd15aae21715.js:9:1127835) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.752edd15aae21715.js:8
+[ 2057227ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://qc2.prologicfirst.in/Webwish_API/api/Notifications/Load_Notifications:0
+[ 2771226ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/system-admin/SACG_SCN09:0

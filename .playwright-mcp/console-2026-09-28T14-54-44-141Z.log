@@ -1,0 +1,4 @@
+[       8ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/select-property:0
+[    4529ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://qc2.prologicfirst.in/Webwish_APP/login/VbVTQ%2BZtgWSQXorhA7ugdw%3D%3D:0
+[  179803ms] [WARNING] The specified value "2026-09-08 to 2026-09-09" does not conform to the required format, "yyyy-MM-dd". @ https://qc2.prologicfirst.in/Webwish_APP/main.2189e0a47848433f.js:8
+[  469745ms] [LOG] visit data {noofVisit: 1, roomNights: 1, mostVisitedProp: BDAR, mostVisitedPropDesc: Demo Hotel, lastStayArr: 2025-08-18} @ https://qc2.prologicfirst.in/Webwish_APP/219.9173fbb00cb5800b.js:0
