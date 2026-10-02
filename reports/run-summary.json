@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-30T15:00:43.056Z",
+  "timestamp": "2026-10-01T12:22:28.546Z",
   "runStatus": "passed",
-  "totalDurationMs": 72661,
+  "totalDurationMs": 78776,
   "totalTests": 1,
   "passed": 1,
   "failed": 0,
@@ -21,13 +21,13 @@
   "failedTests": [],
   "tests": [
     {
-      "title": "Create guest reservation via Guest Management",
-      "fullTitle": " > chromium > Regression\\GuestManagement\\guest-reservation.spec.ts > Guest Reservation - Regression > Create guest reservation via Guest Management",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\Regression\\GuestManagement\\guest-reservation.spec.ts",
+      "title": "Create guest reservation without linking profile",
+      "fullTitle": " > chromium > Regression\\GuestManagement\\guest-reservation-no-profile.spec.ts > Guest Reservation Without Profile - Regression > Create guest reservation without linking profile",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\Regression\\GuestManagement\\guest-reservation-no-profile.spec.ts",
       "project": "chromium",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 69096,
+      "durationMs": 74599,
       "retry": 0,
       "attachments": []
     }

@@ -89,6 +89,11 @@ export class GuestReservationPage extends BasePage {
     return this.page.locator('table tbody');
   }
 
+  /** Processing loader text shown when a request is stuck ("Please wait! We are processing your request") */
+  private get processingLoader(): Locator {
+    return this.page.getByText('We are processing your request');
+  }
+
   // ──────────────────────────────────────────────────────
   //  QUICK RESERVATION DIALOG LOCATORS
   // ──────────────────────────────────────────────────────
@@ -303,12 +308,75 @@ export class GuestReservationPage extends BasePage {
 
   /**
    * Click Next on the Stay Details page to go to room selection.
+   * Waits for the room grid to actually load (processing loader gone + room rows visible).
+   * @returns true if the room grid loaded, false if it stayed stuck on the loader.
    */
-  async clickNextOnStayDetails(): Promise<void> {
+  async clickNextOnStayDetails(): Promise<boolean> {
     logger.info('Clicking Next on Stay Details page');
     await this.elementActions.click(this.nextButton, 'Next button on Stay Details');
-    await this.page.waitForTimeout(3000); // Wait for room grid to load
-    logger.info('✅ Room selection grid loaded');
+    return this.waitForRoomGridToLoad();
+  }
+
+  /**
+   * Wait for the room selection grid to load: processing loader must disappear
+   * and at least one room row must be visible.
+   * @param timeoutMs Maximum time to wait (default 25s).
+   * @returns true if the grid loaded, false if it stayed stuck.
+   */
+  private async waitForRoomGridToLoad(timeoutMs = 25000): Promise<boolean> {
+    try {
+      await this.processingLoader.waitFor({ state: 'hidden', timeout: timeoutMs });
+      await this.page.locator('table tbody tr').first().waitFor({ state: 'visible', timeout: timeoutMs });
+      logger.info('✅ Room selection grid loaded');
+      return true;
+    } catch {
+      const loaderVisible = await this.processingLoader.isVisible().catch(() => false);
+      logger.warn(
+        `⚠️ Room grid did not load within ${timeoutMs}ms (processing loader still visible: ${loaderVisible})`
+      );
+      return false;
+    }
+  }
+
+  /**
+   * Click Next on Stay Details with recovery for a stuck room grid.
+   * If the grid does not load (stuck on "Please wait! We are processing your request"),
+   * refresh the page, return to Guest Management (page with the New Reservation button),
+   * click New Reservation again and follow the same steps.
+   * Throws if the grid still does not load after the recovery attempt.
+   */
+  async clickNextOnStayDetailsWithRecovery(): Promise<void> {
+    const loaded = await this.clickNextOnStayDetails();
+    if (loaded) {
+      return;
+    }
+
+    logger.warn('🔄 Room grid stuck on processing loader — refreshing page and retrying');
+    await this.page.reload({ waitUntil: 'domcontentloaded' });
+    await this.page.waitForTimeout(3000);
+
+    // After refresh, the app should land back on Guest Management (New Reservation button page).
+    // If not, navigate via sidebar (Front Desk → Guest Management).
+    const onGuestManagement = await this.guestManagementHeading
+      .waitFor({ state: 'visible', timeout: 10000 })
+      .then(() => true)
+      .catch(() => false);
+
+    if (!onGuestManagement) {
+      logger.info('Not on Guest Management after refresh — navigating via sidebar');
+      await this.navigateToGuestManagement();
+    } else {
+      logger.info('✅ Refresh landed back on Guest Management page');
+    }
+
+    // Follow the same steps again: New Reservation → Next
+    await this.clickNewReservation();
+    const retryLoaded = await this.clickNextOnStayDetails();
+
+    if (!retryLoaded) {
+      throw new Error('Room selection grid did not load even after page refresh recovery');
+    }
+    logger.info('✅ Room grid loaded after refresh recovery');
   }
 
   // ──────────────────────────────────────────────────────
@@ -441,15 +509,20 @@ export class GuestReservationPage extends BasePage {
     logger.info(`Linking profile: ${profileName.trim()}`);
 
     // Click the link button on the first profile (scroll table into view, then use JS click)
-    const tableContainer = this.advanceSearchDialog.locator('.table-responsive, .modal-body').first();
-    await tableContainer.evaluate((el) => el.scrollTop = 0);
-    await this.page.waitForTimeout(500);
 
-    // Use JavaScript click as the icon may be outside the viewport or partially hidden
-    await this.firstProfileLinkButton.evaluate((el) => (el as HTMLElement).click());
-    await this.page.waitForTimeout(2000);
+    const linkprofile = this.page.locator('i.icon-size.mdi.mdi-link.n-icon-sz').first();
 
-    await this.elementActions.click(this.closeButtonInSearch, 'Close Button');
+    await this.elementActions.click(linkprofile, "Link Profile Button Click");
+
+    // const tableContainer = this.advanceSearchDialog.locator('.table-responsive, .modal-body').first();
+    // await tableContainer.evaluate((el) => el.scrollTop = 0);
+    // await this.page.waitForTimeout(500);
+
+    // // Use JavaScript click as the icon may be outside the viewport or partially hidden
+    // await this.firstProfileLinkButton.evaluate((el) => (el as HTMLElement).click());
+    // await this.page.waitForTimeout(2000);
+
+    //await this.elementActions.click(this.closeButtonInSearch, 'Close Button');
 
 
     logger.info(`✅ Profile linked successfully: ${profileName.trim()}`);

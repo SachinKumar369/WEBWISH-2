@@ -57,8 +57,11 @@ test.describe.serial('Guest Reservation Without Profile - Regression', () => {
     });
 
     // ── Step 4: Click Next on Stay Details ──
+    // If the room grid gets stuck on the "Please wait! We are processing your request"
+    // loader, the page object refreshes the page, returns to Guest Management,
+    // clicks New Reservation again and retries the same steps.
     await test.step('Click Next on Stay Details', async () => {
-      await guestReservation.clickNextOnStayDetails();
+      await guestReservation.clickNextOnStayDetailsWithRecovery();
       logger.info('Room selection grid loaded');
     });
 
