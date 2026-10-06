@@ -2,7 +2,7 @@
   "reportTitle": "Parameter Reports - Room Type List DB Validation",
   "queryText": "select * from prm_room_type where property_id='webwe'",
   "totalDbRows": 15,
-  "totalMatchedRows": 15,
+  "totalMatchedRows": 3,
   "comparison": [
     {
       "rowNumber": 1,
@@ -46,14 +46,14 @@
           "value": "DGK"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "DGK"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 4,
@@ -63,14 +63,14 @@
           "value": "EXK"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "EXK"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 5,
@@ -80,14 +80,14 @@
           "value": "DGT"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "DGT"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 6,
@@ -97,14 +97,14 @@
           "value": "LPK"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "LPK"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 7,
@@ -114,14 +114,14 @@
           "value": "LPT"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "LPT"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 8,
@@ -131,14 +131,14 @@
           "value": "AUTOMATION"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "AUTOMATION"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 9,
@@ -148,14 +148,14 @@
           "value": "DUMMY ROOM"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "DUMMY ROOM"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 10,
@@ -165,14 +165,14 @@
           "value": "DELUX ROOM"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "DELUX ROOM"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 11,
@@ -182,14 +182,14 @@
           "value": "EXTRA BED IN ROOM BIG FAMILY"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "EXTRA BED IN ROOM BIG FAMILY"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 12,
@@ -199,14 +199,14 @@
           "value": "PRK"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "PRK"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 13,
@@ -216,14 +216,14 @@
           "value": "STANDART DOUBLE"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "STANDART DOUBLE"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 14,
@@ -233,14 +233,14 @@
           "value": "STANDARD DEPARTMENT"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "STANDARD DEPARTMENT"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 15,

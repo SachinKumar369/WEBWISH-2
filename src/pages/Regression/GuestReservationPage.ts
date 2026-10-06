@@ -98,8 +98,8 @@ export class GuestReservationPage extends BasePage {
   //  QUICK RESERVATION DIALOG LOCATORS
   // ──────────────────────────────────────────────────────
 
-  /** Quick Reservation dialog */
-  private get quickReservationDialog(): Locator {
+  /** Quick Reservation dialog (protected — reused by GuestReservationWaitlistPage) */
+  protected get quickReservationDialog(): Locator {
     return this.page.locator('ngb-modal-window[role="dialog"]').filter({ hasText: 'Quick Reservation' });
   }
 

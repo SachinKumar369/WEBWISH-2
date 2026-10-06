@@ -1,49 +1,49 @@
-Timestamp: 2026-09-05T10:38:01.623Z
+Timestamp: 2026-10-05T10:20:32.297Z
 Report: Parameter Reports - Room Attribute DB Validation
 
 Executed Query:
 select * from prm_room_attribute where property_id='webwe'
 
 Total DB Rows: 9
-Total Matched Rows: 9
+Total Matched Rows: 0
 
 Comparison Details (DB vs PDF):
-1. matched=true | matchedValueCount=1 | missingValueCount=0
+1. matched=false | matchedValueCount=0 | missingValueCount=1
    relevant: description=AUTOMATION
-   matched: description=AUTOMATION
-   missing: none
-2. matched=true | matchedValueCount=1 | missingValueCount=0
+   matched: none
+   missing: description=AUTOMATION
+2. matched=false | matchedValueCount=0 | missingValueCount=1
    relevant: description=AUTOMATION
-   matched: description=AUTOMATION
-   missing: none
-3. matched=true | matchedValueCount=1 | missingValueCount=0
+   matched: none
+   missing: description=AUTOMATION
+3. matched=false | matchedValueCount=0 | missingValueCount=1
    relevant: description=BALCONY
-   matched: description=BALCONY
-   missing: none
-4. matched=true | matchedValueCount=1 | missingValueCount=0
+   matched: none
+   missing: description=BALCONY
+4. matched=false | matchedValueCount=0 | missingValueCount=1
    relevant: description=AUTOMATION
-   matched: description=AUTOMATION
-   missing: none
-5. matched=true | matchedValueCount=1 | missingValueCount=0
+   matched: none
+   missing: description=AUTOMATION
+5. matched=false | matchedValueCount=0 | missingValueCount=1
    relevant: description=CONNECTING ROOMS
-   matched: description=CONNECTING ROOMS
-   missing: none
-6. matched=true | matchedValueCount=1 | missingValueCount=0
+   matched: none
+   missing: description=CONNECTING ROOMS
+6. matched=false | matchedValueCount=0 | missingValueCount=1
    relevant: description=ELEVATOR
-   matched: description=ELEVATOR
-   missing: none
-7. matched=true | matchedValueCount=1 | missingValueCount=0
+   matched: none
+   missing: description=ELEVATOR
+7. matched=false | matchedValueCount=0 | missingValueCount=1
    relevant: description=AUTOMATION
-   matched: description=AUTOMATION
-   missing: none
-8. matched=true | matchedValueCount=1 | missingValueCount=0
+   matched: none
+   missing: description=AUTOMATION
+8. matched=false | matchedValueCount=0 | missingValueCount=1
    relevant: description=NEAR LIFT
-   matched: description=NEAR LIFT
-   missing: none
-9. matched=true | matchedValueCount=1 | missingValueCount=0
+   matched: none
+   missing: description=NEAR LIFT
+9. matched=false | matchedValueCount=0 | missingValueCount=1
    relevant: description=NO SMOKING
-   matched: description=NO SMOKING
-   missing: none
+   matched: none
+   missing: description=NO SMOKING
 
 PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\room-attribute-report-pdf-text.txt
 JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\room-attribute-report-vs-db.json

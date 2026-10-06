@@ -10,7 +10,7 @@ RUPI Rupay Card 0.00 Credit Card û
 SVCD SV Card 10000.00 LC û
 VCHR Voucher 0.00 City Ledger û
 VISA Visa Card 0.00 Credit Card û
-WISH PMS : Printed on :08/09/2026at13:59(S) 13:59(L) Business date : 01/09/2026 Page : 1 of 1
+WISH PMS : Printed on :05/10/2026at15:49(S) 15:49(L) Business date : 23/09/2026 Page : 1 of 1
 WEBWISHQCMI
 
 -- 1 of 1 --

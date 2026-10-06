@@ -1,11 +1,11 @@
-Timestamp: 2026-09-05T10:40:27.486Z
+Timestamp: 2026-10-05T10:22:35.709Z
 Report: Parameter Reports - Visa Type List DB Validation
 
 Executed Query:
 select * from prm_common_masters where property_id='webwe' and param_type='VISA'
 
 Total DB Rows: 10
-Total Matched Rows: 10
+Total Matched Rows: 9
 
 Comparison Details (DB vs PDF):
 1. matched=true | matchedValueCount=2 | missingValueCount=0
@@ -44,10 +44,10 @@ Comparison Details (DB vs PDF):
    relevant: param_code=TRAN, description=TRANSIT VISA
    matched: param_code=TRAN, description=TRANSIT VISA
    missing: none
-10. matched=true | matchedValueCount=2 | missingValueCount=0
+10. matched=false | matchedValueCount=0 | missingValueCount=2
    relevant: param_code=V583, description=AUTOMATION VISA V583
-   matched: param_code=V583, description=AUTOMATION VISA V583
-   missing: none
+   matched: none
+   missing: param_code=V583, description=AUTOMATION VISA V583
 
 PDF Text File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\visa-type-list-report-pdf-text.txt
 JSON Comparison File: E:\Automation Project\WebWish 2\reports\db\parameter-reports\visa-type-list-report-vs-db.json

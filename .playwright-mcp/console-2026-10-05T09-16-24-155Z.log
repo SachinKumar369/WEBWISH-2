@@ -1,0 +1,24 @@
+[     851ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0
+[  103484ms] [ERROR] ERROR TypeError: Cannot read properties of null (reading 'CTRY')
+    at Li.readingCountryStateCity_Values (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:1:633803)
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:1:3189231
+    at Object.next (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:1:795745)
+    at I.next (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:788260)
+    at y._next (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:787944)
+    at y.next (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:787639)
+    at m._next (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:787944)
+    at m.next (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:787639)
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:801266
+    at m._next (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:797920) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[  475464ms] [ERROR] ERROR TypeError: Cannot read properties of null (reading 'CTRY')
+    at Li.readingCountryStateCity_Values (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:1:633803)
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:1:3189231
+    at Object.next (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:1:795745)
+    at I.next (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:788260)
+    at y._next (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:787944)
+    at y.next (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:787639)
+    at m._next (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:787944)
+    at m.next (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:787639)
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:801266
+    at m._next (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:797920) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 1175102ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/Marketing/MKTG_MKT25A:0

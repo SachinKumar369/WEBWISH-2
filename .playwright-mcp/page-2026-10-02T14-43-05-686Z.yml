@@ -1,0 +1,293 @@
+- generic [ref=e1]:
+  - generic [ref=e56]:
+    - generic [ref=e57]:
+      - banner [ref=e58]:
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - link [ref=e63] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e67]:
+              - textbox [ref=e3939]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=e69]: 󰍉
+          - heading [level=5] [ref=e3940]: DEMO HOTEL
+          - generic [ref=e72]:
+            - button [ref=e3941] [cursor=pointer]:
+              - generic [ref=e75]: 󰅒
+            - button [ref=e3942] [cursor=pointer]:
+              - generic [ref=e78]: 
+            - button [ref=e3943] [cursor=pointer]:
+              - generic [ref=e81]: 
+            - button [ref=e3944] [cursor=pointer]:
+              - generic [ref=e3945]: 
+              - generic [ref=e85]: "1"
+            - generic [ref=e86]:
+              - button [ref=e3946] [cursor=pointer]:
+                - generic [ref=e3947]: 
+              - text:  
+            - generic [ref=e89]:
+              - button [ref=e3948] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e3950] [cursor=pointer]
+      - generic [ref=e102]:
+        - text: 
+        - generic [ref=e104]:
+          - region [ref=e3952]:
+            - list [ref=e111]:
+              - listitem [ref=e312]:
+                - link [ref=e3953] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e315]: 
+                - text:     
+          - button [ref=e3954] [cursor=pointer]:
+            - generic [ref=e345]: 
+      - generic [ref=e156]:
+        - generic [ref=e3477]:
+          - generic [ref=e3481]:
+            - heading [level=3] [ref=e3955]: Reservation Details
+            - toolbar [ref=e3956]:
+              - button [ref=e3957] [cursor=pointer]:
+                - generic [ref=e3492]: Sections
+              - button [ref=e3958] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e3496]: 󱎸
+              - button [ref=e3959] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e3500]: 󰑐
+              - button [ref=e3960] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e3504]: 󰋚
+              - button [ref=e3961] [cursor=pointer]:
+                - generic [ref=e3509]: More
+          - generic [ref=e3515]:
+            - generic [ref=e3517]:
+              - generic [ref=e3521]:
+                - generic [ref=e3523]:
+                  - heading [level=5] [ref=e3962]: Guest Details 10146231
+                  - button [ref=e3963] [cursor=pointer]:
+                    - generic [ref=e3533]: 󰏫
+                - generic [ref=e3536]:
+                  - generic [ref=e3543]:
+                    - generic [ref=e3544]:
+                      - generic [ref=e3545]: Last Name*
+                      - textbox [ref=e3548]: ANAND KUMAR GUPT
+                    - generic [ref=e3549]:
+                      - generic [ref=e3550]: First Name
+                      - textbox [ref=e3553]
+                    - generic [ref=e3554]:
+                      - generic [ref=e3555]: Title
+                      - combobox [ref=e3560]:
+                        - textbox [disabled] [ref=e3561]
+                    - generic [ref=e3563]:
+                      - text: Profile Id
+                      - generic [ref=e3564]:
+                        - generic [ref=e3565]: "439943"
+                        - button [ref=e3965] [cursor=pointer]:
+                          - generic [ref=e3568]: 󰌸
+                        - button [ref=e3966] [cursor=pointer]:
+                          - generic [ref=e3572]: 󰈈
+                    - generic [ref=e3574]:
+                      - generic [ref=e3575]: Contact Number
+                      - textbox [ref=e3578]
+                    - generic [ref=e3579]:
+                      - generic [ref=e3580]: Email Id
+                      - textbox [ref=e3967]:
+                        - /placeholder: example@gmail.com
+                    - generic [ref=e3585]:
+                      - generic [ref=e3586]: Domicile Code
+                      - combobox [ref=e3591]:
+                        - textbox [disabled] [ref=e3592]
+                    - generic [ref=e3594]:
+                      - generic [ref=e3595]: Guest Class*
+                      - generic [ref=e3600]:
+                        - generic [ref=e3601]: Complimentary
+                        - combobox [ref=e3605]:
+                          - textbox [disabled] [ref=e3606]
+                    - generic [ref=e3608]:
+                      - generic [ref=e3609]: Market Segment*
+                      - generic [ref=e3614]:
+                        - generic [ref=e3615]: AIRLINE GROUPS
+                        - combobox [ref=e3619]:
+                          - textbox [disabled] [ref=e3620]
+                    - generic [ref=e3622]:
+                      - generic [ref=e3623]: Business Source*
+                      - generic [ref=e3628]:
+                        - generic [ref=e3629]: AGODA
+                        - combobox [ref=e3633]:
+                          - textbox [disabled] [ref=e3634]
+                    - generic [ref=e3636]: Booked Thru
+                    - generic [ref=e3640]:
+                      - generic [ref=e3641]: External Reference
+                      - textbox [ref=e3644]
+                  - generic [ref=e3645]:
+                    - generic [ref=e3646]: Comments
+                    - generic [ref=e3650]: Remarks
+              - generic [ref=e3659]:
+                - heading [level=5] [ref=e3971]: Stay Details
+                - generic [ref=e3671]:
+                  - generic [ref=e3672]:
+                    - generic [ref=e3674]:
+                      - heading [level=5] [ref=e3972]: "Stay #1 - ANAND KUMAR GUPT"
+                      - heading [level=5] [ref=e3973]: "102556260928"
+                    - generic [ref=e3678]:
+                      - generic [ref=e3679]: WAIT-LISTED
+                      - button [ref=e3974] [cursor=pointer]:
+                        - generic [ref=e3682]: 󰏫
+                  - generic [ref=e3684]:
+                    - generic [ref=e3686]:
+                      - generic [ref=e3689]:
+                        - generic [ref=e3690]: Arrival/Departure
+                        - heading [level=6] [ref=e3975]: 28/09/2026 to 29/09/2026
+                      - generic [ref=e3694]:
+                        - generic [ref=e3695]: Nights
+                        - heading [level=6] [ref=e3976]: "1"
+                      - generic [ref=e3699]:
+                        - generic [ref=e3700]: Rooms and No. of Guest
+                        - heading [level=6] [ref=e3977]: 1-Rooms, 1-A, 0-Y, 0-C
+                      - generic [ref=e3704]:
+                        - generic [ref=e3705]: Rate Code
+                        - heading [level=6] [ref=e3978]: WKRO
+                      - generic [ref=e3709]:
+                        - generic [ref=e3710]: Agreed Rate
+                        - heading [level=6] [ref=e3979]: "411.70"
+                      - generic [ref=e3714]:
+                        - generic [ref=e3715]: Currency
+                        - heading [level=6] [ref=e3980]: AED
+                      - button [ref=e3981] [cursor=pointer]:
+                        - generic [ref=e3721]: 󰷊
+                      - generic [ref=e3725]:
+                        - generic [ref=e3726]: Expected Arrival Date
+                        - heading [level=6] [ref=e3982]: 28/09/2026
+                      - generic [ref=e3730]:
+                        - generic [ref=e3731]: Expected Arrival Time
+                        - heading [level=6] [ref=e3983]: 12:00
+                      - generic [ref=e3733]: Arrival Details
+                      - generic [ref=e3739]:
+                        - generic [ref=e3740]: Expected Departure Date
+                        - heading [level=6] [ref=e3984]: 29/09/2026
+                      - generic [ref=e3744]:
+                        - generic [ref=e3745]: Expected Departure Time
+                        - heading [level=6] [ref=e3985]: 12:00
+                      - generic [ref=e3747]: Departure Details
+                      - generic [ref=e3751]: Meal Plan
+                      - generic [ref=e3755]: Billing Instructions
+                    - generic [ref=e3762]:
+                      - generic [ref=e3763]: 
+                      - generic [ref=e3765]:
+                        - generic [ref=e3766]: DMK
+                        - generic [ref=e3767]: N/A
+                        - generic [ref=e3768]: ANAND KUMAR GUPT
+                        - button [ref=e3986] [cursor=pointer]: Assign Room
+                    - tablist [ref=e3772]:
+                      - tab [ref=e3987]:
+                        - button [ref=e3988] [cursor=pointer]:
+                          - generic [ref=e3776]:
+                            - generic [ref=e3777]: Additional Services (0)
+                            - generic [ref=e3778]: + Add Services
+            - generic [ref=e3779]:
+              - button [ref=e3989] [cursor=pointer]: Confirm
+              - generic [ref=e3785]:
+                - generic [ref=e3787]:
+                  - heading [level=5] [ref=e3990]: Bill Summary
+                  - generic [ref=e3789]: Proforma InvoiceApply Discounts
+                - generic [ref=e3792]:
+                  - generic [ref=e3793]:
+                    - heading [level=6] [ref=e3991]: Due Amount
+                    - heading [level=5] [ref=e3992]: "411.70"
+                  - table [ref=e3797]:
+                    - rowgroup [ref=e3798]:
+                      - heading [level=6] [ref=e3993]: "Future Postings:"
+                      - row [ref=e3994]:
+                        - cell [ref=e3995]: Deluxe Marina King (1 Room)
+                        - cell [ref=e3996]:
+                          - heading [level=6] [ref=e3997]: "328.05"
+                      - row [ref=e3998]:
+                        - cell [ref=e3999]:
+                          - generic [ref=e3807]: Municipality Fee (5%) 5 %
+                        - cell [ref=e4000]:
+                          - heading [level=6] [ref=e4001]: "16.40"
+                      - row [ref=e4002]:
+                        - cell [ref=e4003]:
+                          - generic [ref=e3812]: Service Charge (10%) 10 %
+                        - cell [ref=e4004]:
+                          - heading [level=6] [ref=e4005]: "32.80"
+                      - row [ref=e4006]:
+                        - cell [ref=e4007]:
+                          - generic [ref=e3817]: Tourism Fee (5%) 5 %
+                        - cell [ref=e4008]:
+                          - heading [level=6] [ref=e4009]: "16.40"
+                      - row [ref=e4010]:
+                        - cell [ref=e4011]:
+                          - generic [ref=e3822]: VAT (5%) 5.5 %
+                        - cell [ref=e4012]:
+                          - heading [level=6] [ref=e4013]: "18.04"
+                      - row [ref=e4014]:
+                        - cell [ref=e4015]: Total
+                        - cell [ref=e4016]:
+                          - heading [level=6] [ref=e4017]: "411.70"
+                      - row [ref=e4018]:
+                        - cell [ref=e4019]: Sub Total
+                        - cell [ref=e4020]:
+                          - heading [level=6] [ref=e4021]: "411.70"
+                - generic [ref=e3834]:
+                  - generic [ref=e3835]:
+                    - heading [level=6] [ref=e4022]: Total
+                    - heading [level=5] [ref=e4023]: "411.70"
+                  - generic [ref=e3839]:
+                    - heading [level=6] [ref=e4024]: Payment
+                    - heading [level=5] [ref=e4025]: "0.00"
+                  - generic [ref=e3843]:
+                    - heading [level=6] [ref=e4026]: Due Amount
+                    - heading [level=5] [ref=e4027]: "411.70"
+              - generic [ref=e3847]:
+                - generic [ref=e3851]:
+                  - generic [ref=e3853]:
+                    - heading [level=5] [ref=e4028]: Payment Details
+                    - button [ref=e4029] [cursor=pointer]:
+                      - generic [ref=e3863]: 󰏫
+                  - generic [ref=e3867]:
+                    - generic [ref=e3868]:
+                      - generic [ref=e3869]: Payment Method*
+                      - generic [ref=e3874]:
+                        - generic [ref=e3877]:
+                          - generic [ref=e3878]: CASH
+                          - generic [ref=e4030]: CASH
+                        - combobox [ref=e3880]:
+                          - textbox [disabled] [ref=e3881]
+                    - generic [ref=e3883]:
+                      - generic [ref=e3884]: Ar Id
+                      - combobox [ref=e3889]:
+                        - textbox [disabled] [ref=e3890]
+                    - generic [ref=e3892]: GST Number
+                    - generic [ref=e3896]: VAT Number
+                    - generic [ref=e3902]:
+                      - generic [ref=e3903]: Deposit Due
+                      - heading [level=6] [ref=e4031]: "0.00"
+                    - generic [ref=e3905]:
+                      - generic [ref=e3906]: Due On
+                      - textbox [disabled] [ref=e4032] [cursor=pointer]:
+                        - /placeholder: Select
+                    - generic [ref=e3912]:
+                      - generic [ref=e3913]: Deposit Received
+                      - heading [level=6] [ref=e4033]: "0.00"
+                - generic [ref=e3918]:
+                  - heading [level=5] [ref=e4034]: Modification Details
+                  - generic [ref=e3928]:
+                    - generic [ref=e3929]:
+                      - generic [ref=e3930]: Created By
+                      - heading [level=6] [ref=e4035]: CRISTINA MISHRA
+                    - generic [ref=e3933]:
+                      - generic [ref=e3934]: Created On
+                      - heading [level=6] [ref=e4036]: 02/10/2026, 18:20:52
+        - contentinfo [ref=e258]:
+          - generic [ref=e260]:
+            - heading [level=6] [ref=e4037]: "Property Id: BDAR, User Id: CRISTINA MISHRA, Shift: 1, Business Date: 28/09/2026"
+            - heading [level=6] [ref=e4038]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e266]: 󰅒
+  - dialog [ref=e4040]:
+    - generic [ref=e4041]: "?"
+    - generic [ref=e4044]:
+      - heading "Please Confirm" [level=4] [ref=e4045]
+      - paragraph [ref=e4046]: Are u want to Confirm these Guests.?
+    - text: "!"
+    - generic [ref=e4047]:
+      - button "Yes" [active] [ref=e4048] [cursor=pointer]
+      - button "No" [ref=e4049] [cursor=pointer]

@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-10-01T12:22:28.546Z",
-  "runStatus": "passed",
-  "totalDurationMs": 78776,
+  "timestamp": "2026-10-06T05:12:15.187Z",
+  "runStatus": "failed",
+  "totalDurationMs": 67655,
   "totalTests": 1,
-  "passed": 1,
-  "failed": 0,
+  "passed": 0,
+  "failed": 1,
   "skipped": 0,
   "timedOut": 0,
   "interrupted": 0,
   "retriedPassed": 0,
-  "passRate": 100,
+  "passRate": 0,
   "environment": "dev",
   "browser": "mixed",
   "reports": {
@@ -18,18 +18,40 @@
     "junit": "test-results/junit.xml",
     "json": "test-results/test-results.json"
   },
-  "failedTests": [],
+  "failedTests": [
+    {
+      "title": "AGENT_ALLOT_001: Allocate rooms to an agent via Allotment and check availability",
+      "fullTitle": " > chromium > Availability\\agent-allotment.spec.ts > Availability - Agent Allotment (Allocate Rooms) > AGENT_ALLOT_001: Allocate rooms to an agent via Allotment and check availability",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\Availability\\agent-allotment.spec.ts",
+      "project": "chromium",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 64706,
+      "retry": 0,
+      "error": "Error: BUG: availability for DGT on 02/07/2025 did NOT decrease after allotting 5 rooms (before=117, after=117)\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m117\u001b[39m\nReceived:   \u001b[31m117\u001b[39m",
+      "attachments": [
+        "E:\\Automation Project\\WebWish 2\\test-results\\Availability-agent-allotme-18c27-ment-and-check-availability-chromium\\test-failed-1.png",
+        "E:\\Automation Project\\WebWish 2\\test-results\\Availability-agent-allotme-18c27-ment-and-check-availability-chromium\\video.webm",
+        "E:\\Automation Project\\WebWish 2\\test-results\\Availability-agent-allotme-18c27-ment-and-check-availability-chromium\\error-context.md"
+      ]
+    }
+  ],
   "tests": [
     {
-      "title": "Create guest reservation without linking profile",
-      "fullTitle": " > chromium > Regression\\GuestManagement\\guest-reservation-no-profile.spec.ts > Guest Reservation Without Profile - Regression > Create guest reservation without linking profile",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\Regression\\GuestManagement\\guest-reservation-no-profile.spec.ts",
+      "title": "AGENT_ALLOT_001: Allocate rooms to an agent via Allotment and check availability",
+      "fullTitle": " > chromium > Availability\\agent-allotment.spec.ts > Availability - Agent Allotment (Allocate Rooms) > AGENT_ALLOT_001: Allocate rooms to an agent via Allotment and check availability",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\Availability\\agent-allotment.spec.ts",
       "project": "chromium",
-      "status": "passed",
+      "status": "failed",
       "expectedStatus": "passed",
-      "durationMs": 74599,
+      "durationMs": 64706,
       "retry": 0,
-      "attachments": []
+      "error": "Error: BUG: availability for DGT on 02/07/2025 did NOT decrease after allotting 5 rooms (before=117, after=117)\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m117\u001b[39m\nReceived:   \u001b[31m117\u001b[39m",
+      "attachments": [
+        "E:\\Automation Project\\WebWish 2\\test-results\\Availability-agent-allotme-18c27-ment-and-check-availability-chromium\\test-failed-1.png",
+        "E:\\Automation Project\\WebWish 2\\test-results\\Availability-agent-allotme-18c27-ment-and-check-availability-chromium\\video.webm",
+        "E:\\Automation Project\\WebWish 2\\test-results\\Availability-agent-allotme-18c27-ment-and-check-availability-chromium\\error-context.md"
+      ]
     }
   ]
 }

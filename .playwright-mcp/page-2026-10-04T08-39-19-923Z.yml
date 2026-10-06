@@ -1,0 +1,535 @@
+- generic [ref=f3e1]:
+  - generic [ref=f3e134]:
+    - generic [ref=f3e135]:
+      - banner [ref=f3e136]:
+        - generic [ref=f3e138]:
+          - generic [ref=f3e139]:
+            - link [ref=f3e141] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=f3e145]:
+              - textbox [ref=f3e2434]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=f3e147]: 󰍉
+          - heading [level=5] [ref=f3e2435]: Webwish Hotel
+          - generic [ref=f3e150]:
+            - button [ref=f3e2436] [cursor=pointer]:
+              - generic [ref=f3e153]: 󰅒
+            - button [ref=f3e2437] [cursor=pointer]:
+              - generic [ref=f3e156]: 
+            - button [ref=f3e2438] [cursor=pointer]:
+              - generic [ref=f3e159]: 
+            - button [ref=f3e2439] [cursor=pointer]:
+              - generic [ref=f3e2440]: 
+              - generic [ref=f3e163]: "3"
+            - generic [ref=f3e164]:
+              - button [ref=f3e2441] [cursor=pointer]:
+                - generic [ref=f3e2442]: 
+              - text:  
+            - generic [ref=f3e167]:
+              - button [ref=f3e2443] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=f3e2445] [cursor=pointer]
+      - generic [ref=f3e175]:
+        - text: 
+        - generic [ref=f3e177]:
+          - region [ref=f3e2447]:
+            - list [ref=f3e184]:
+              - listitem [ref=f3e187]:
+                - link [ref=f3e2448] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=f3e190]: 
+                - text:     
+          - button [ref=f3e2449] [cursor=pointer]:
+            - generic [ref=f3e220]: 
+      - generic [ref=f3e222]:
+        - generic [ref=f3e349]:
+          - generic [ref=f3e353]:
+            - heading [level=3] [ref=f3e2450]: Reservation Details
+            - toolbar [ref=f3e2451]:
+              - button [ref=f3e2452] [cursor=pointer]:
+                - generic [ref=f3e1971]: Sections
+              - button [ref=f3e2453] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f3e1975]: 󱎸
+              - button [ref=f3e2454] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f3e1979]: 󰑐
+              - button [ref=f3e2455] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f3e1983]: 󰋚
+              - button [ref=f3e2456] [cursor=pointer]:
+                - generic [ref=f3e1988]: More
+          - generic [ref=f3e1994]:
+            - generic [ref=f3e1996]:
+              - generic [ref=f3e2000]:
+                - generic [ref=f3e2002]:
+                  - heading [level=5] [ref=f3e2457]: Guest Details 100001339
+                  - button [ref=f3e2458] [cursor=pointer]:
+                    - generic [ref=f3e2012]: 󰏫
+                - generic [ref=f3e2015]:
+                  - generic [ref=f3e2022]:
+                    - generic [ref=f3e2023]:
+                      - generic [ref=f3e2024]: Last Name*
+                      - textbox [ref=f3e2027]: EWE
+                    - generic [ref=f3e2028]:
+                      - generic [ref=f3e2029]: First Name
+                      - textbox [ref=f3e2032]: BOOKING
+                    - generic [ref=f3e2033]:
+                      - generic [ref=f3e2034]: Title
+                      - combobox [ref=f3e2039]:
+                        - textbox [disabled] [ref=f3e2040]
+                    - generic [ref=f3e2042]:
+                      - text: Profile Id
+                      - generic [ref=f3e2043]:
+                        - generic [ref=f3e2044]: "1940"
+                        - button [ref=f3e2460] [cursor=pointer]:
+                          - generic [ref=f3e2047]: 󰌸
+                        - button [ref=f3e2461] [cursor=pointer]:
+                          - generic [ref=f3e2051]: 󰈈
+                    - generic [ref=f3e2053]:
+                      - generic [ref=f3e2054]: Contact Number
+                      - textbox [ref=f3e2057]
+                    - generic [ref=f3e2058]:
+                      - generic [ref=f3e2059]: Email Id
+                      - textbox [ref=f3e2462]:
+                        - /placeholder: example@gmail.com
+                    - generic [ref=f3e2064]:
+                      - generic [ref=f3e2065]: Domicile Code
+                      - generic [ref=f3e2070]:
+                        - generic [ref=f3e2071]: Algeria
+                        - combobox [ref=f3e2075]:
+                          - textbox [disabled] [ref=f3e2076]
+                    - generic [ref=f3e2078]:
+                      - generic [ref=f3e2079]: Guest Class*
+                      - generic [ref=f3e2084]:
+                        - generic [ref=f3e2085]: Normal
+                        - combobox [ref=f3e2089]:
+                          - textbox [disabled] [ref=f3e2090]
+                    - generic [ref=f3e2092]:
+                      - generic [ref=f3e2093]: Market Segment*
+                      - generic [ref=f3e2098]:
+                        - generic [ref=f3e2099]: Others
+                        - combobox [ref=f3e2103]:
+                          - textbox [disabled] [ref=f3e2104]
+                    - generic [ref=f3e2106]:
+                      - generic [ref=f3e2107]: Business Source*
+                      - generic [ref=f3e2112]:
+                        - generic [ref=f3e2113]: Others
+                        - combobox [ref=f3e2117]:
+                          - textbox [disabled] [ref=f3e2118]
+                    - generic [ref=f3e2121]:
+                      - generic [ref=f3e2122]: Booked Thru
+                      - heading [level=6] [ref=f3e2467]: rerer,
+                    - generic [ref=f3e2125]:
+                      - generic [ref=f3e2126]: External Reference
+                      - textbox [ref=f3e2129]
+                  - generic [ref=f3e2130]:
+                    - generic [ref=f3e2131]: Comments
+                    - generic [ref=f3e2135]: Remarks
+              - generic [ref=f3e2144]:
+                - heading [level=5] [ref=f3e2468]: Stay Details
+                - generic [ref=f3e2156]:
+                  - generic [ref=f3e2157]:
+                    - generic [ref=f3e2159]:
+                      - heading [level=5] [ref=f3e2469]: "Stay #1 - BOOKING EWE"
+                      - heading [level=5] [ref=f3e2470]: "101586250702"
+                    - generic [ref=f3e2163]:
+                      - generic [ref=f3e2164]: CONFIRMED
+                      - button [ref=f3e2471] [cursor=pointer]:
+                        - generic [ref=f3e2167]: 󰏫
+                  - generic [ref=f3e2169]:
+                    - generic [ref=f3e2171]:
+                      - generic [ref=f3e2174]:
+                        - generic [ref=f3e2175]: Arrival/Departure
+                        - heading [level=6] [ref=f3e2472]: 02/07/2025 to 03/07/2025
+                      - generic [ref=f3e2179]:
+                        - generic [ref=f3e2180]: Nights
+                        - heading [level=6] [ref=f3e2473]: "1"
+                      - generic [ref=f3e2184]:
+                        - generic [ref=f3e2185]: Rooms and No. of Guest
+                        - heading [level=6] [ref=f3e2474]: 1-Rooms, 1-A, 0-Y, 0-C
+                      - generic [ref=f3e2189]:
+                        - generic [ref=f3e2190]: Rate Code
+                        - heading [level=6] [ref=f3e2475]: "1"
+                      - generic [ref=f3e2194]:
+                        - generic [ref=f3e2195]: Agreed Rate
+                        - heading [level=6] [ref=f3e2476]: "100.00"
+                      - generic [ref=f3e2199]:
+                        - generic [ref=f3e2200]: Currency
+                        - heading [level=6] [ref=f3e2477]: INR
+                      - button [ref=f3e2478] [cursor=pointer]:
+                        - generic [ref=f3e2206]: 󰷊
+                      - generic [ref=f3e2210]:
+                        - generic [ref=f3e2211]: Expected Arrival Date
+                        - heading [level=6] [ref=f3e2479]: 02/07/2025
+                      - generic [ref=f3e2215]:
+                        - generic [ref=f3e2216]: Expected Arrival Time
+                        - heading [level=6] [ref=f3e2480]: 12:00
+                      - generic [ref=f3e2218]: Arrival Details
+                      - generic [ref=f3e2224]:
+                        - generic [ref=f3e2225]: Expected Departure Date
+                        - heading [level=6] [ref=f3e2481]: 03/07/2025
+                      - generic [ref=f3e2229]:
+                        - generic [ref=f3e2230]: Expected Departure Time
+                        - heading [level=6] [ref=f3e2482]: 11:30
+                      - generic [ref=f3e2232]: Departure Details
+                      - generic [ref=f3e2236]: Meal Plan
+                      - generic [ref=f3e2240]: Billing Instructions
+                    - generic [ref=f3e2247]:
+                      - generic [ref=f3e2248]: 
+                      - generic [ref=f3e2250]:
+                        - generic [ref=f3e2251]: SUIT
+                        - generic [ref=f3e2252]: "1273"
+                        - generic [ref=f3e2253]: BOOKING EWE
+                        - button [ref=f3e2483] [cursor=pointer]: Change Room
+                    - tablist [ref=f3e2257]:
+                      - tab [ref=f3e2484]:
+                        - button [ref=f3e2485] [cursor=pointer]:
+                          - generic [ref=f3e2261]:
+                            - generic [ref=f3e2262]: Additional Services (0)
+                            - generic [ref=f3e2263]: + Add Services
+            - generic [ref=f3e2264]:
+              - generic [ref=f3e2265]:
+                - button [ref=f3e2486] [cursor=pointer]: Cancel
+                - button [ref=f3e2487] [cursor=pointer]: Checkin
+                - button [ref=f3e2488] [cursor=pointer]: View Cashiering
+                - button [ref=f3e2489] [cursor=pointer]: Print Registration
+              - generic [ref=f3e2273]:
+                - generic [ref=f3e2275]:
+                  - heading [level=5] [ref=f3e2490]: Bill Summary
+                  - generic [ref=f3e2277]: Proforma InvoiceApply Discounts
+                - generic [ref=f3e2280]:
+                  - generic [ref=f3e2281]:
+                    - heading [level=6] [ref=f3e2491]: Due Amount
+                    - heading [level=5] [ref=f3e2492]: "112.00"
+                  - table [ref=f3e2285]:
+                    - rowgroup [ref=f3e2286]:
+                      - heading [level=6] [ref=f3e2493]: "Future Postings:"
+                      - row [ref=f3e2494]:
+                        - cell [ref=f3e2495]: SUITE CITY VIEW (1 Room)
+                        - cell [ref=f3e2496]:
+                          - heading [level=6] [ref=f3e2497]: "100.00"
+                      - row [ref=f3e2498]:
+                        - cell [ref=f3e2499]:
+                          - generic [ref=f3e2295]: Central GST 6 %
+                        - cell [ref=f3e2500]:
+                          - heading [level=6] [ref=f3e2501]: "6.00"
+                      - row [ref=f3e2502]:
+                        - cell [ref=f3e2503]:
+                          - generic [ref=f3e2300]: State GST 6 %
+                        - cell [ref=f3e2504]:
+                          - heading [level=6] [ref=f3e2505]: "6.00"
+                      - row [ref=f3e2506]:
+                        - cell [ref=f3e2507]: Total
+                        - cell [ref=f3e2508]:
+                          - heading [level=6] [ref=f3e2509]: "112.00"
+                      - row [ref=f3e2510]:
+                        - cell [ref=f3e2511]: Sub Total
+                        - cell [ref=f3e2512]:
+                          - heading [level=6] [ref=f3e2513]: "112.00"
+                - generic [ref=f3e2312]:
+                  - generic [ref=f3e2313]:
+                    - heading [level=6] [ref=f3e2514]: Total
+                    - heading [level=5] [ref=f3e2515]: "112.00"
+                  - generic [ref=f3e2317]:
+                    - heading [level=6] [ref=f3e2516]: Payment
+                    - heading [level=5] [ref=f3e2517]: "0.00"
+                  - generic [ref=f3e2321]:
+                    - heading [level=6] [ref=f3e2518]: Due Amount
+                    - heading [level=5] [ref=f3e2519]: "112.00"
+              - generic [ref=f3e2325]:
+                - generic [ref=f3e2329]:
+                  - generic [ref=f3e2331]:
+                    - heading [level=5] [ref=f3e2520]: Payment Details
+                    - button [ref=f3e2521] [cursor=pointer]:
+                      - generic [ref=f3e2341]: 󰏫
+                  - generic [ref=f3e2345]:
+                    - generic [ref=f3e2346]:
+                      - generic [ref=f3e2347]: Payment Method*
+                      - generic [ref=f3e2352]:
+                        - generic [ref=f3e2355]:
+                          - generic [ref=f3e2356]: CASH
+                          - generic [ref=f3e2522]: Cash
+                        - combobox [ref=f3e2358]:
+                          - textbox [disabled] [ref=f3e2359]
+                    - generic [ref=f3e2361]:
+                      - generic [ref=f3e2362]: Ar Id
+                      - generic [ref=f3e2367]:
+                        - generic [ref=f3e2368]: 2HUB PRIVATE LIMITED
+                        - combobox [ref=f3e2372]:
+                          - textbox [disabled] [ref=f3e2373]
+                    - generic [ref=f3e2375]: GST Number
+                    - generic [ref=f3e2379]: VAT Number
+                    - generic [ref=f3e2385]:
+                      - generic [ref=f3e2386]: Deposit Due
+                      - heading [level=6] [ref=f3e2524]: "0.00"
+                    - generic [ref=f3e2388]:
+                      - generic [ref=f3e2389]: Due On
+                      - textbox [disabled] [ref=f3e2525] [cursor=pointer]:
+                        - /placeholder: Select
+                    - generic [ref=f3e2395]:
+                      - generic [ref=f3e2396]: Deposit Received
+                      - heading [level=6] [ref=f3e2526]: "0.00"
+                - generic [ref=f3e2401]:
+                  - heading [level=5] [ref=f3e2527]: Modification Details
+                  - generic [ref=f3e2411]:
+                    - generic [ref=f3e2412]:
+                      - generic [ref=f3e2413]: Created By
+                      - heading [level=6] [ref=f3e2528]: Harshit
+                    - generic [ref=f3e2416]:
+                      - generic [ref=f3e2417]: Created On
+                      - heading [level=6] [ref=f3e2529]: 30/09/2026, 17:16:06
+                    - generic [ref=f3e2420]:
+                      - generic [ref=f3e2421]: Last Modified By
+                      - heading [level=6] [ref=f3e2530]: Harshit
+                    - generic [ref=f3e2424]:
+                      - generic [ref=f3e2425]: Last Modified On
+                      - heading [level=6] [ref=f3e2531]: 30/09/2026, 17:16:23
+        - contentinfo [ref=f3e338]:
+          - generic [ref=f3e340]:
+            - heading [level=6] [ref=f3e2532]: "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 02/07/2025"
+            - heading [level=6] [ref=f3e2533]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=f3e346]: 󰅒
+  - dialog [active] [ref=f3e2535]:
+    - document:
+      - generic [ref=f3e2538]:
+        - heading "󰧮 Quick Reservation" [level=5] [ref=f3e3072]:
+          - generic [ref=f3e2542]: 󰧮
+          - text: Quick Reservation
+        - generic [ref=f3e2548]:
+          - generic [ref=f3e2554]:
+            - generic [ref=f3e2556]:
+              - generic [ref=f3e2558]:
+                - generic [ref=f3e2560]:
+                  - generic [ref=f3e2561]:
+                    - radio "Waitlist"
+                    - generic [ref=f3e2562] [cursor=pointer]: Waitlist
+                  - generic [ref=f3e2563]:
+                    - radio "Confirm" [checked]
+                    - generic [ref=f3e2564] [cursor=pointer]: Confirm
+                  - generic [ref=f3e2565]:
+                    - radio "Hold"
+                    - generic [ref=f3e2566] [cursor=pointer]: Hold
+                  - generic [ref=f3e2567]:
+                    - radio "Walkin"
+                    - generic [ref=f3e2568] [cursor=pointer]: Walkin
+                - paragraph [ref=f3e2569]: Being copy From 101586250702
+              - generic [ref=f3e2573]:
+                - heading "Guest Details 100001339" [level=5] [ref=f3e3073]
+                - generic [ref=f3e2584]:
+                  - generic [ref=f3e2587]:
+                    - checkbox "Common for all stay" [checked] [ref=f3e3074] [cursor=pointer]
+                    - generic [ref=f3e2589] [cursor=pointer]: Common for all stay
+                  - generic [ref=f3e2590]:
+                    - generic [ref=f3e2591]: Last Name*
+                    - textbox [ref=f3e2594]: EWE
+                  - generic [ref=f3e2595]:
+                    - generic [ref=f3e2596]: First Name
+                    - textbox [ref=f3e2599]: BOOKING
+                  - generic [ref=f3e2600]:
+                    - generic [ref=f3e2601]: Title
+                    - generic [ref=f3e2605]:
+                      - generic [ref=f3e2606]:
+                        - generic [ref=f3e2607]: "--select--"
+                        - combobox [ref=f3e2608]:
+                          - textbox [ref=f3e2609]
+                      - generic [ref=f3e2610] [cursor=pointer]
+                  - generic [ref=f3e2611]:
+                    - text: Profile Id
+                    - generic [ref=f3e2612]:
+                      - generic [ref=f3e2613]: "1940"
+                      - button "󰌸" [ref=f3e3075] [cursor=pointer]
+                      - button "󰈈" [ref=f3e3076] [cursor=pointer]
+                  - generic [ref=f3e2622]:
+                    - generic [ref=f3e2623]: Contact Number
+                    - textbox [ref=f3e2626]
+                  - generic [ref=f3e2627]:
+                    - generic [ref=f3e2628]: Email Id
+                    - generic [ref=f3e2631]:
+                      - textbox "example@gmail.com" [ref=f3e3077]
+                      - generic [ref=f3e2633]: 
+                  - generic [ref=f3e2634]:
+                    - generic [ref=f3e2635]: Domicile Code
+                    - generic [ref=f3e2639]:
+                      - generic [ref=f3e2640]:
+                        - generic "Algeria" [ref=f3e3078]
+                        - combobox [ref=f3e2645]:
+                          - textbox [ref=f3e2646]
+                      - generic "Clear all" [ref=f3e3079] [cursor=pointer]:
+                        - generic [aria-hidden]: ×
+                      - generic [ref=f3e2648] [cursor=pointer]
+                  - generic [ref=f3e2649]:
+                    - generic [ref=f3e2650]: Guest Class*
+                    - generic [ref=f3e2654]:
+                      - generic [ref=f3e2655]:
+                        - generic "Normal" [ref=f3e3080]
+                        - combobox [ref=f3e2660]:
+                          - textbox [ref=f3e2661]
+                      - generic [ref=f3e2662] [cursor=pointer]
+                  - generic [ref=f3e2663]:
+                    - generic [ref=f3e2664]: Market Segment*
+                    - generic [ref=f3e2668]:
+                      - generic [ref=f3e2669]:
+                        - generic "Others" [ref=f3e3081]
+                        - combobox [ref=f3e2674]:
+                          - textbox [ref=f3e2675]
+                      - generic [ref=f3e2676] [cursor=pointer]
+                  - generic [ref=f3e2677]:
+                    - generic [ref=f3e2678]: Business Source*
+                    - generic [ref=f3e2682]:
+                      - generic [ref=f3e2683]:
+                        - generic "Others" [ref=f3e3082]
+                        - combobox [ref=f3e2688]:
+                          - textbox [ref=f3e2689]
+                      - generic [ref=f3e2690] [cursor=pointer]
+                  - generic [ref=f3e2692]:
+                    - generic [ref=f3e2693]: Booked Thru
+                    - generic [ref=f3e2697]:
+                      - generic [ref=f3e2698]: rerer
+                      - generic [ref=f3e2699] [cursor=pointer]: 󰍝
+                      - generic [ref=f3e2700] [cursor=pointer]: 󰅖
+                  - generic [ref=f3e2701]:
+                    - generic [ref=f3e2702]: External Reference
+                    - textbox [ref=f3e2705]
+                  - generic [ref=f3e2706]:
+                    - generic [ref=f3e2707]: Membership No
+                    - textbox "xxxx xxxx xxxx xxxx xxxx" [ref=f3e3083]
+              - generic [ref=f3e2717]:
+                - heading "Stay Details" [level=5] [ref=f3e3084]
+                - generic [ref=f3e2729]:
+                  - generic [ref=f3e2730]:
+                    - generic [ref=f3e2732]:
+                      - 'heading "Stay #1" [level=5] [ref=f3e3085]'
+                      - heading "WEBWE" [level=5] [ref=f3e3086]
+                    - button "󰏫" [ref=f3e3087] [cursor=pointer]
+                  - generic [ref=f3e2741]:
+                    - generic [ref=f3e2743]:
+                      - generic [ref=f3e2746]:
+                        - generic [ref=f3e2747]: Arrival/Departure
+                        - heading "02/07/2025 to 03/07/2025" [level=6] [ref=f3e3088]
+                      - generic [ref=f3e2751]:
+                        - generic [ref=f3e2752]: Rooms and No. of Guest
+                        - heading "1-Rooms, 1-A, 0-Y, 0-C" [level=6] [ref=f3e3089]
+                      - generic [ref=f3e2756]:
+                        - generic [ref=f3e2757]: Room No
+                        - heading [level=6]
+                      - generic [ref=f3e2760]:
+                        - generic [ref=f3e2761]: Rate Code
+                        - heading "Test Rate" [level=6] [ref=f3e3090]
+                      - generic [ref=f3e2765]:
+                        - generic [ref=f3e2766]: Agreed Rate
+                        - heading "100.00" [level=6] [ref=f3e3091]
+                      - generic [ref=f3e2770]:
+                        - generic [ref=f3e2771]: Currency
+                        - heading "INR" [level=6] [ref=f3e3092]
+                      - button "󰷊" [ref=f3e3093] [cursor=pointer]
+                      - generic [ref=f3e2781]:
+                        - generic [ref=f3e2782]: Expected Arrival Date
+                        - heading "02/07/2025" [level=6] [ref=f3e3094]
+                      - generic [ref=f3e2786]:
+                        - generic [ref=f3e2787]: Expected Arrival Time
+                        - heading "12:00" [level=6] [ref=f3e3095]
+                      - generic [ref=f3e2791]:
+                        - generic [ref=f3e2792]: Arrival Details
+                        - heading [level=6]
+                      - generic [ref=f3e2795]:
+                        - generic [ref=f3e2796]: Expected Departure Date
+                        - heading "03/07/2025" [level=6] [ref=f3e3096]
+                      - generic [ref=f3e2800]:
+                        - generic [ref=f3e2801]: Expected Departure Time
+                        - heading "11:30" [level=6] [ref=f3e3097]
+                      - generic [ref=f3e2805]:
+                        - generic [ref=f3e2806]: Departure Details
+                        - heading [level=6]
+                      - generic [ref=f3e2809]:
+                        - generic [ref=f3e2810]: Billing Instructions
+                        - heading [level=6]
+                    - tablist [ref=f3e2813]:
+                      - tab [ref=f3e3098]:
+                        - button "Additional Services (0) + Add Services" [ref=f3e3099] [cursor=pointer]:
+                          - generic [ref=f3e2817]:
+                            - generic [ref=f3e2818]: Additional Services (0)
+                            - generic [ref=f3e2819]: + Add Services
+            - generic [ref=f3e2820]:
+              - generic [ref=f3e2824]:
+                - heading "Bill Summary" [level=5] [ref=f3e3100]
+                - generic [ref=f3e2829]:
+                  - generic [ref=f3e2830]:
+                    - heading "Due Amount" [level=6] [ref=f3e3101]
+                    - heading "100.80" [level=5] [ref=f3e3102]
+                  - table [ref=f3e2834]:
+                    - rowgroup [ref=f3e2835]:
+                      - heading "Future Postings:" [level=6] [ref=f3e3103]
+                      - row [ref=f3e3104]:
+                        - cell "SUITE CITY VIEW (1 Room)" [ref=f3e3105]
+                        - cell [ref=f3e3106]:
+                          - heading "100.00" [level=6] [ref=f3e3107]
+                      - row [ref=f3e3108]:
+                        - cell "SUITE CITY VIEW (1 Room)" [ref=f3e3109]
+                        - cell [ref=f3e3110]:
+                          - heading "-10.00" [level=6] [ref=f3e3111]
+                      - row [ref=f3e3112]:
+                        - cell "Central GST 6 %" [ref=f3e3113]
+                        - cell [ref=f3e3114]:
+                          - heading "5.40" [level=6] [ref=f3e3115]
+                      - row [ref=f3e3116]:
+                        - cell "State GST 6 %" [ref=f3e3117]
+                        - cell [ref=f3e3118]:
+                          - heading "5.40" [level=6] [ref=f3e3119]
+                      - row [ref=f3e3120]:
+                        - cell "Total" [ref=f3e3121]
+                        - cell [ref=f3e3122]:
+                          - heading "100.80" [level=6] [ref=f3e3123]
+                      - row [ref=f3e3124]:
+                        - cell "Sub Total" [ref=f3e3125]
+                        - cell [ref=f3e3126]:
+                          - heading "100.80" [level=6] [ref=f3e3127]
+                - generic [ref=f3e2865]:
+                  - generic [ref=f3e2866]:
+                    - heading "Total" [level=6] [ref=f3e3128]
+                    - heading "100.80" [level=5] [ref=f3e3129]
+                  - generic [ref=f3e2870]:
+                    - heading "Payment" [level=6] [ref=f3e3130]
+                    - heading "0.00" [level=5] [ref=f3e3131]
+                  - generic [ref=f3e2874]:
+                    - heading "Due Amount" [level=6] [ref=f3e3132]
+                    - heading "100.80" [level=5] [ref=f3e3133]
+              - generic [ref=f3e2882]:
+                - heading "Payment Details" [level=5] [ref=f3e3134]
+                - generic [ref=f3e2892]:
+                  - generic [ref=f3e2893]:
+                    - generic [ref=f3e2894]: Payment Method*
+                    - generic [ref=f3e2898]:
+                      - generic [ref=f3e2899]:
+                        - generic [ref=f3e2902]:
+                          - generic [ref=f3e2903]: CASH
+                          - generic "Cash" [ref=f3e3135]
+                        - combobox [ref=f3e2905]:
+                          - textbox [ref=f3e2906]
+                      - generic [ref=f3e2907] [cursor=pointer]
+                  - generic [ref=f3e2908]:
+                    - generic [ref=f3e2909]: Ar Id
+                    - generic [ref=f3e2913]:
+                      - generic [ref=f3e2914]:
+                        - generic "2HUB PRIVATE LIMITED" [ref=f3e3136]
+                        - combobox [ref=f3e2919]:
+                          - textbox [ref=f3e2920]
+                      - generic "Clear all" [ref=f3e3137] [cursor=pointer]:
+                        - generic [aria-hidden]: ×
+                      - generic [ref=f3e2922] [cursor=pointer]
+                  - generic [ref=f3e2923]:
+                    - generic [ref=f3e2924]: Deposit Due
+                    - textbox [ref=f3e2927]: "0.00"
+                  - generic [ref=f3e2928]:
+                    - generic [ref=f3e2929]: Due On
+                    - textbox "Select" [ref=f3e3138]
+          - generic [ref=f3e2939]:
+            - 'heading "Availability release after: 111 seconds." [level=6] [ref=f3e3139]'
+            - button "Confirm & Continue" [ref=f3e3140] [cursor=pointer]
+            - button "Close" [ref=f3e3141] [cursor=pointer]
+  - dialog [ref=f3e3143]:
+    - generic [ref=f3e3144]: "?"
+    - generic [ref=f3e3146]: Do you want to send the confirmation letter on save?
+    - text: "!"
+    - generic [ref=f3e3147]:
+      - button [ref=f3e3148] [cursor=pointer]: "Yes"
+      - button [ref=f3e3149] [cursor=pointer]: "No"
+      - button [ref=f3e3150] [cursor=pointer]: Cancel

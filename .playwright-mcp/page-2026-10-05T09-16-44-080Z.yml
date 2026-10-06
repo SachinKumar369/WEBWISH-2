@@ -1,0 +1,47 @@
+- generic [ref=e56]:
+  - generic [ref=e63]:
+    - generic [ref=e67]:
+      - link [ref=e69] [cursor=pointer]:
+        - /url: index.html
+        - img "logo" [ref=e70]
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - button "Slide 1" [ref=e74] [cursor=pointer]
+          - button "Slide 2" [ref=e75] [cursor=pointer]
+          - button "Slide 3" [ref=e76] [cursor=pointer]
+        - paragraph [ref=e79]:
+          - img "..." [ref=e80]
+    - generic [ref=e83]:
+      - heading "Select a property to signin!" [level=4] [ref=e85]
+      - generic [ref=e89]:
+        - textbox "Text input with dropdown button" [ref=e90]:
+          - /placeholder: Search
+        - generic [ref=e91]: 󰍉
+      - table [ref=e93]:
+        - rowgroup [ref=e94]:
+          - row [ref=e95]:
+            - cell "WDUBI" [ref=e96]
+            - cell "WEBWISH DUBAI 5.0" [ref=e98]
+            - cell [ref=e100]:
+              - link "󰍂" [ref=e101] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - row [ref=e103]:
+            - cell "WEBIN" [ref=e104]
+            - cell "WEBWISHINDIA" [ref=e106]
+            - cell [ref=e108]:
+              - link "󰍂" [ref=e109] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - row [ref=e111]:
+            - cell "WEBMI" [ref=e112]
+            - cell "WEBWISHQCMI" [ref=e114]
+            - cell [ref=e116]:
+              - link "󰍂" [ref=e117] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - row [ref=e119]:
+            - cell "WEBWE" [ref=e120]
+            - cell "Webwish Hotel" [ref=e122]
+            - cell [ref=e124]:
+              - link "󰍂" [ref=e125] [cursor=pointer]:
+                - /url: javascript:void(0)
+  - contentinfo [ref=e127]:
+    - paragraph [ref=e132]: © 2025 Prologic First India Pvt Ltd

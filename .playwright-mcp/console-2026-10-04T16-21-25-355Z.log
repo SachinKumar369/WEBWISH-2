@@ -1,0 +1,11 @@
+[   44660ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0
+[  149222ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/SystemSetup/FDSK_QWGST01/DE/101590250702:0
+[  299013ms] [LOG] {data: c, dropdown: Array(0), middleVisible: false, screenMode: 1, localUserRights: Object} @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:0
+[  742527ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/SystemSetup/FDSK_QWGST01/DE/101602250702:0
+[  825775ms] [LOG] {data: c, dropdown: Array(0), middleVisible: false, screenMode: 1, localUserRights: Object} @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:0
+[  864703ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/SystemSetup/FDSK_QWGST01/DE/101602250702:0
+[ 1389234ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qc2.prologicfirst.in/Webwish_API/api/Notifications/Load_Notifications:0
+[ 1389238ms] [LOG] UserSecurity z6cQJcxmrEbhhFXqdoj64Q%3D%3D @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:0
+[ 1389244ms] [LOG] Time 22:14:34 GMT+0530 (India Standard Time) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:0
+[ 1389384ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0
+[48345921ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0

@@ -2,7 +2,7 @@
   "reportTitle": "Parameter Reports - Tax Exempt Charge Code DB Validation",
   "queryText": "select * from prm_tax_xmpt_charge_cd where property_id='webwe'",
   "totalDbRows": 14,
-  "totalMatchedRows": 14,
+  "totalMatchedRows": 13,
   "comparison": [
     {
       "rowNumber": 1,
@@ -318,16 +318,17 @@
       ],
       "matchedValues": [
         {
-          "column": "tax_exempt_code",
-          "value": "ASAS"
-        },
-        {
           "column": "charge_code",
           "value": "SVCH"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "missingValues": [
+        {
+          "column": "tax_exempt_code",
+          "value": "ASAS"
+        }
+      ],
+      "matched": false
     },
     {
       "rowNumber": 14,

@@ -1,15 +1,6 @@
 Type Description Active Created By Created On Modified By Modified On
-69 AUTOMATION ü SACH 26/06/2025 ARCHANA 26/06/2025
-BD AUTOMATION ü SACH 26/06/2025
-BL Balcony ü ARCHANA 13/06/2025
-C2 AUTOMATION ü SACH 26/06/2025
-CR Connecting Rooms ü ARCHANA 13/06/2025
-EL Elevator ü ARCHANA 24/05/2025
-FD AUTOMATION ü SACH 26/06/2025
-LI NEAR LIFT ü ARCHANA 24/05/2025
-NS NO Smoking ü ARCHANA 24/05/2025
-WISH PMS : Printed on : 05/09/2026at16:08(S) 16:08(L) Business date : 01/07/2025 Page : 1 of 1
-Webwish Hotel
+WISH PMS : Printed on : 05/10/2026at15:50(S) 15:50(L) Business date : 23/09/2026 Page : 1 of 1
+WEBWISHQCMI
 
 -- 1 of 1 --
 

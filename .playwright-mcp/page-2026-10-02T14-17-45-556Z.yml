@@ -1,0 +1,1375 @@
+- generic [ref=e1]:
+  - generic [ref=e56]:
+    - generic [ref=e57]:
+      - banner [ref=e58]:
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - link [ref=e63] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e67]:
+              - textbox [ref=e1998]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=e69]: 󰍉
+          - heading [level=5] [ref=e1999]: DEMO HOTEL
+          - generic [ref=e72]:
+            - button [ref=e2000] [cursor=pointer]:
+              - generic [ref=e75]: 󰅒
+            - button [ref=e2001] [cursor=pointer]:
+              - generic [ref=e78]: 
+            - button [ref=e2002] [cursor=pointer]:
+              - generic [ref=e81]: 
+            - button [ref=e2003] [cursor=pointer]:
+              - generic [ref=e2004]: 
+              - generic [ref=e85]: "1"
+            - generic [ref=e86]:
+              - button [ref=e2005] [cursor=pointer]:
+                - generic [ref=e2006]: 
+              - text:  
+            - generic [ref=e89]:
+              - button [ref=e2007] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e2009] [cursor=pointer]
+      - generic [ref=e102]:
+        - text: 
+        - generic [ref=e104]:
+          - region [ref=e2011]:
+            - list [ref=e111]:
+              - listitem [ref=e312]:
+                - link [ref=e2012] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e315]: 
+                - text:     
+          - button [ref=e2013] [cursor=pointer]:
+            - generic [ref=e345]: 
+      - generic [ref=e156]:
+        - generic [ref=e347]:
+          - generic [ref=e351]:
+            - heading [level=3] [ref=e2014]: New Reservation
+            - toolbar [ref=e2015]:
+              - button [ref=e2016] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e753]: 󰈲
+              - button [ref=e2017] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e757]: 󰑐
+          - generic [ref=e669]:
+            - generic [ref=e762]:
+              - generic [ref=e763]: "Property Id : BDAR"
+              - generic [ref=e764]: "Arrival : 28/09/2026"
+              - generic [ref=e765]: "Departure : 29/09/2026"
+              - generic [ref=e766]: "Adult : 1"
+              - generic [ref=e767]: "Youth : 0"
+              - generic [ref=e768]: "Child : 0"
+            - generic [ref=e771]:
+              - generic [ref=e775]:
+                - generic [ref=e776] [cursor=pointer]:
+                  - generic [ref=e777]: "-"
+                  - text: Available
+                - generic [ref=e778] [cursor=pointer]:
+                  - generic [ref=e779]: "-"
+                  - text: Not Available
+                - generic [ref=e780] [cursor=pointer]:
+                  - generic [ref=e781]: 
+                  - text: Closed for Arrival
+                - generic [ref=e784] [cursor=pointer]:
+                  - generic [ref=e785]: 
+                  - text: Closed for Departure
+                - generic [ref=e788] [cursor=pointer]:
+                  - generic [ref=e789]: 
+                  - text: Stay thru (Closed for arrival and departure)
+                - generic [ref=e792] [cursor=pointer]:
+                  - generic [ref=e793]: 󰅜
+                  - text: Stay Close
+              - table [ref=e797]:
+                - rowgroup [ref=e798]:
+                  - columnheader [ref=e799]
+                  - columnheader [ref=e2018]: 28 Sep, 2026
+                  - columnheader [ref=e2019]: 29 Sep, 2026
+                  - columnheader [ref=e2020]: 30 Sep, 2026
+                  - columnheader [ref=e2021]: 1 Oct, 2026
+                  - columnheader [ref=e2022]: 2 Oct, 2026
+                  - columnheader [ref=e2023]: 3 Oct, 2026
+                  - columnheader [ref=e2024]: 4 Oct, 2026
+                  - columnheader [ref=e2025]: 5 Oct, 2026
+                  - columnheader [ref=e2026]: 6 Oct, 2026
+                  - columnheader [ref=e2027]: 7 Oct, 2026
+                  - columnheader [ref=e2028]: Rooms
+                - rowgroup [ref=e811]:
+                  - row [ref=e2029]:
+                    - cell [ref=e2030]:
+                      - generic [ref=e814]:
+                        - heading [level=5] [ref=e2031]: Deluxe Marina King
+                        - paragraph [ref=e816]: 90 rooms
+                        - separator [ref=e817]
+                        - paragraph [ref=e818]:
+                          - generic [ref=e819]: 
+                          - text: Upto 24 person(s) per room
+                    - cell [ref=e2032]:
+                      - generic [ref=e821]:
+                        - paragraph [ref=e823]: WLKRO
+                        - paragraph [ref=e824]: 24 Rooms
+                        - heading [level=6] [ref=e2033]: AED411.70
+                        - paragraph [ref=e826]
+                    - cell [ref=e2034]:
+                      - generic [ref=e828]:
+                        - paragraph [ref=e830]: WLKRO
+                        - paragraph [ref=e831]: 40 Rooms
+                        - heading [level=6] [ref=e2035]: AED411.70
+                        - paragraph [ref=e833]
+                    - cell [ref=e2036]:
+                      - generic [ref=e835]:
+                        - paragraph [ref=e837]: WLKRO
+                        - paragraph [ref=e838]: 57 Rooms
+                        - heading [level=6] [ref=e2037]: AED411.70
+                        - paragraph [ref=e840]
+                    - cell [ref=e2038]:
+                      - generic [ref=e842]:
+                        - paragraph [ref=e844]: WLKRO
+                        - paragraph [ref=e845]: 50 Rooms
+                        - heading [level=6] [ref=e2039]: AED457.45
+                        - paragraph [ref=e847]
+                    - cell [ref=e2040]:
+                      - generic [ref=e849]:
+                        - paragraph [ref=e851]: WLKRO
+                        - paragraph [ref=e852]: 53 Rooms
+                        - heading [level=6] [ref=e2041]: AED594.68
+                        - paragraph [ref=e854]
+                    - cell [ref=e2042]:
+                      - generic [ref=e856]:
+                        - paragraph [ref=e858]: WLKRO
+                        - paragraph [ref=e859]: 50 Rooms
+                        - heading [level=6] [ref=e2043]: AED594.68
+                        - paragraph [ref=e861]
+                    - cell [ref=e2044]:
+                      - generic [ref=e863]:
+                        - paragraph [ref=e865]: WLKRO
+                        - paragraph [ref=e866]: 76 Rooms
+                        - heading [level=6] [ref=e2045]: AED457.45
+                        - paragraph [ref=e868]
+                    - cell [ref=e2046]:
+                      - generic [ref=e870]:
+                        - paragraph [ref=e872]: WLKRO
+                        - paragraph [ref=e873]: 72 Rooms
+                        - heading [level=6] [ref=e2047]: AED457.45
+                        - paragraph [ref=e875]
+                    - cell [ref=e2048]:
+                      - generic [ref=e877]:
+                        - paragraph [ref=e879]: WLKRO
+                        - paragraph [ref=e880]: 72 Rooms
+                        - heading [level=6] [ref=e2049]: AED457.45
+                        - paragraph [ref=e882]
+                    - cell [ref=e2050]:
+                      - generic [ref=e884]:
+                        - paragraph [ref=e886]: WLKRO
+                        - paragraph [ref=e887]: 62 Rooms
+                        - heading [level=6] [ref=e2051]: AED457.45
+                        - paragraph [ref=e889]
+                    - cell [ref=e2052]:
+                      - generic [ref=e892]:
+                        - button [ref=e2053] [cursor=pointer]: +
+                        - generic [ref=e894]: "1"
+                        - button [ref=e2054] [cursor=pointer]: "-"
+                  - row [ref=e2055]:
+                    - cell [ref=e2056]:
+                      - generic [ref=e898]:
+                        - heading [level=5] [ref=e2057]: Deluxe Marina Twin
+                        - paragraph [ref=e900]: 17 rooms
+                        - separator [ref=e901]
+                        - paragraph [ref=e902]:
+                          - generic [ref=e903]: 
+                          - text: Upto 13 person(s) per room
+                    - cell [ref=e2058]:
+                      - generic [ref=e905]:
+                        - paragraph [ref=e907]: WLKRO
+                        - paragraph [ref=e908]: 13 Rooms
+                        - heading [level=6] [ref=e2059]: AED411.70
+                        - paragraph [ref=e910]
+                    - cell [ref=e2060]:
+                      - generic [ref=e912]:
+                        - paragraph [ref=e914]: WLKRO
+                        - paragraph [ref=e915]: 15 Rooms
+                        - heading [level=6] [ref=e2061]: AED411.70
+                        - paragraph [ref=e917]
+                    - cell [ref=e2062]:
+                      - generic [ref=e919]:
+                        - paragraph [ref=e921]: WLKRO
+                        - paragraph [ref=e922]: 15 Rooms
+                        - heading [level=6] [ref=e2063]: AED411.70
+                        - paragraph [ref=e924]
+                    - cell [ref=e2064]:
+                      - generic [ref=e926]:
+                        - paragraph [ref=e928]: WLKRO
+                        - paragraph [ref=e929]: 13 Rooms
+                        - heading [level=6] [ref=e2065]: AED457.45
+                        - paragraph [ref=e931]
+                    - cell [ref=e2066]:
+                      - generic [ref=e933]:
+                        - paragraph [ref=e935]: WLKRO
+                        - paragraph [ref=e936]: 3 Rooms
+                        - heading [level=6] [ref=e2067]: AED594.68
+                        - paragraph [ref=e938]
+                    - cell [ref=e2068]:
+                      - generic [ref=e940]:
+                        - paragraph [ref=e942]: WLKRO
+                        - paragraph [ref=e943]: 11 Rooms
+                        - heading [level=6] [ref=e2069]: AED594.68
+                        - paragraph [ref=e945]
+                    - cell [ref=e2070]:
+                      - generic [ref=e947]:
+                        - paragraph [ref=e949]: WLKRO
+                        - paragraph [ref=e950]: 16 Rooms
+                        - heading [level=6] [ref=e2071]: AED457.45
+                        - paragraph [ref=e952]
+                    - cell [ref=e2072]:
+                      - generic [ref=e954]:
+                        - paragraph [ref=e956]: WLKRO
+                        - paragraph [ref=e957]: 16 Rooms
+                        - heading [level=6] [ref=e2073]: AED457.45
+                        - paragraph [ref=e959]
+                    - cell [ref=e2074]:
+                      - generic [ref=e961]:
+                        - paragraph [ref=e963]: WLKRO
+                        - paragraph [ref=e964]: 15 Rooms
+                        - heading [level=6] [ref=e2075]: AED457.45
+                        - paragraph [ref=e966]
+                    - cell [ref=e2076]:
+                      - generic [ref=e968]:
+                        - paragraph [ref=e970]: WLKRO
+                        - paragraph [ref=e971]: 4 Rooms
+                        - heading [level=6] [ref=e2077]: AED457.45
+                        - paragraph [ref=e973]
+                    - cell [ref=e2078]:
+                      - generic [ref=e976]:
+                        - button [ref=e2079] [cursor=pointer]: +
+                        - generic [ref=e978]: "0"
+                        - button [ref=e2080] [cursor=pointer]: "-"
+                  - row [ref=e2081]:
+                    - cell [ref=e2082]:
+                      - generic [ref=e982]:
+                        - heading [level=5] [ref=e2083]: Diplomatic Suite
+                        - paragraph [ref=e984]: 16 rooms
+                        - separator [ref=e985]
+                        - paragraph [ref=e986]:
+                          - generic [ref=e987]: 
+                          - text: Upto 7 person(s) per room
+                    - cell [ref=e2084]:
+                      - generic [ref=e989]:
+                        - paragraph [ref=e991]: WLKRO
+                        - paragraph [ref=e992]: 7 Rooms
+                        - heading [level=6] [ref=e2085]: AED1,143.62
+                        - paragraph [ref=e994]
+                    - cell [ref=e2086]:
+                      - generic [ref=e996]:
+                        - paragraph [ref=e998]: WLKRO
+                        - paragraph [ref=e999]: 7 Rooms
+                        - heading [level=6] [ref=e2087]: AED1,143.62
+                        - paragraph [ref=e1001]
+                    - cell [ref=e2088]:
+                      - generic [ref=e1003]:
+                        - paragraph [ref=e1005]: WLKRO
+                        - paragraph [ref=e1006]: 7 Rooms
+                        - heading [level=6] [ref=e2089]: AED1,143.62
+                        - paragraph [ref=e1008]
+                    - cell [ref=e2090]:
+                      - generic [ref=e1010]:
+                        - paragraph [ref=e1012]: WLKRO
+                        - paragraph [ref=e1013]: 6 Rooms
+                        - heading [level=6] [ref=e2091]: AED1,189.36
+                        - paragraph [ref=e1015]
+                    - cell [ref=e2092]:
+                      - generic [ref=e1017]:
+                        - paragraph [ref=e1019]: WLKRO
+                        - paragraph [ref=e1020]: 12 Rooms
+                        - heading [level=6] [ref=e2093]: AED1,326.60
+                        - paragraph [ref=e1022]
+                    - cell [ref=e2094]:
+                      - generic [ref=e1024]:
+                        - paragraph [ref=e1026]: WLKRO
+                        - paragraph [ref=e1027]: 12 Rooms
+                        - heading [level=6] [ref=e2095]: AED1,326.60
+                        - paragraph [ref=e1029]
+                    - cell [ref=e2096]:
+                      - generic [ref=e1031]:
+                        - paragraph [ref=e1033]: WLKRO
+                        - paragraph [ref=e1034]: 15 Rooms
+                        - heading [level=6] [ref=e2097]: AED1,189.36
+                        - paragraph [ref=e1036]
+                    - cell [ref=e2098]:
+                      - generic [ref=e1038]:
+                        - paragraph [ref=e1040]: WLKRO
+                        - paragraph [ref=e1041]: 15 Rooms
+                        - heading [level=6] [ref=e2099]: AED1,189.36
+                        - paragraph [ref=e1043]
+                    - cell [ref=e2100]:
+                      - generic [ref=e1045]:
+                        - paragraph [ref=e1047]: WLKRO
+                        - paragraph [ref=e1048]: 15 Rooms
+                        - heading [level=6] [ref=e2101]: AED1,189.36
+                        - paragraph [ref=e1050]
+                    - cell [ref=e2102]:
+                      - generic [ref=e1052]:
+                        - paragraph [ref=e1054]: WLKRO
+                        - paragraph [ref=e1055]: 15 Rooms
+                        - heading [level=6] [ref=e2103]: AED1,189.36
+                        - paragraph [ref=e1057]
+                    - cell [ref=e2104]:
+                      - generic [ref=e1060]:
+                        - button [ref=e2105] [cursor=pointer]: +
+                        - generic [ref=e1062]: "0"
+                        - button [ref=e2106] [cursor=pointer]: "-"
+                  - row [ref=e2107]:
+                    - cell [ref=e2108]:
+                      - generic [ref=e1066]:
+                        - heading [level=5] [ref=e2109]: Deluxe Sea King
+                        - paragraph [ref=e1068]: 102 rooms
+                        - separator [ref=e1069]
+                        - paragraph [ref=e1070]:
+                          - generic [ref=e1071]: 
+                          - text: Upto 45 person(s) per room
+                    - cell [ref=e2110]:
+                      - generic [ref=e1073]:
+                        - paragraph [ref=e1075]: WLKRO
+                        - paragraph [ref=e1076]: 45 Rooms
+                        - heading [level=6] [ref=e2111]: AED548.94
+                        - paragraph [ref=e1078]
+                    - cell [ref=e2112]:
+                      - generic [ref=e1080]:
+                        - paragraph [ref=e1082]: WLKRO
+                        - paragraph [ref=e1083]: 56 Rooms
+                        - heading [level=6] [ref=e2113]: AED548.94
+                        - paragraph [ref=e1085]
+                    - cell [ref=e2114]:
+                      - generic [ref=e1087]:
+                        - paragraph [ref=e1089]: WLKRO
+                        - paragraph [ref=e1090]: 69 Rooms
+                        - heading [level=6] [ref=e2115]: AED548.94
+                        - paragraph [ref=e1092]
+                    - cell [ref=e2116]:
+                      - generic [ref=e1094]:
+                        - paragraph [ref=e1096]: WLKRO
+                        - paragraph [ref=e1097]: 71 Rooms
+                        - heading [level=6] [ref=e2117]: AED594.68
+                        - paragraph [ref=e1099]
+                    - cell [ref=e2118]:
+                      - generic [ref=e1101]:
+                        - paragraph [ref=e1103]: WLKRO
+                        - paragraph [ref=e1104]: 90 Rooms
+                        - heading [level=6] [ref=e2119]: AED731.92
+                        - paragraph [ref=e1106]
+                    - cell [ref=e2120]:
+                      - generic [ref=e1108]:
+                        - paragraph [ref=e1110]: WLKRO
+                        - paragraph [ref=e1111]: 92 Rooms
+                        - heading [level=6] [ref=e2121]: AED731.92
+                        - paragraph [ref=e1113]
+                    - cell [ref=e2122]:
+                      - generic [ref=e1115]:
+                        - paragraph [ref=e1117]: WLKRO
+                        - paragraph [ref=e1118]: 96 Rooms
+                        - heading [level=6] [ref=e2123]: AED594.68
+                        - paragraph [ref=e1120]
+                    - cell [ref=e2124]:
+                      - generic [ref=e1122]:
+                        - paragraph [ref=e1124]: WLKRO
+                        - paragraph [ref=e1125]: 95 Rooms
+                        - heading [level=6] [ref=e2125]: AED594.68
+                        - paragraph [ref=e1127]
+                    - cell [ref=e2126]:
+                      - generic [ref=e1129]:
+                        - paragraph [ref=e1131]: WLKRO
+                        - paragraph [ref=e1132]: 97 Rooms
+                        - heading [level=6] [ref=e2127]: AED594.68
+                        - paragraph [ref=e1134]
+                    - cell [ref=e2128]:
+                      - generic [ref=e1136]:
+                        - paragraph [ref=e1138]: WLKRO
+                        - paragraph [ref=e1139]: 96 Rooms
+                        - heading [level=6] [ref=e2129]: AED594.68
+                        - paragraph [ref=e1141]
+                    - cell [ref=e2130]:
+                      - generic [ref=e1144]:
+                        - button [ref=e2131] [cursor=pointer]: +
+                        - generic [ref=e1146]: "0"
+                        - button [ref=e2132] [cursor=pointer]: "-"
+                  - row [ref=e2133]:
+                    - cell [ref=e2134]:
+                      - generic [ref=e1150]:
+                        - heading [level=5] [ref=e2135]: Deluxe Sea Twin
+                        - paragraph [ref=e1152]: 34 rooms
+                        - separator [ref=e1153]
+                        - paragraph [ref=e1154]:
+                          - generic [ref=e1155]: 
+                          - text: Upto 22 person(s) per room
+                    - cell [ref=e2136]:
+                      - generic [ref=e1157]:
+                        - paragraph [ref=e1159]: WLKRO
+                        - paragraph [ref=e1160]: 22 Rooms
+                        - heading [level=6] [ref=e2137]: AED548.94
+                        - paragraph [ref=e1162]
+                    - cell [ref=e2138]:
+                      - generic [ref=e1164]:
+                        - paragraph [ref=e1166]: WLKRO
+                        - paragraph [ref=e1167]: 26 Rooms
+                        - heading [level=6] [ref=e2139]: AED548.94
+                        - paragraph [ref=e1169]
+                    - cell [ref=e2140]:
+                      - generic [ref=e1171]:
+                        - paragraph [ref=e1173]: WLKRO
+                        - paragraph [ref=e1174]: 25 Rooms
+                        - heading [level=6] [ref=e2141]: AED548.94
+                        - paragraph [ref=e1176]
+                    - cell [ref=e2142]:
+                      - generic [ref=e1178]:
+                        - paragraph [ref=e1180]: WLKRO
+                        - paragraph [ref=e1181]: 15 Rooms
+                        - heading [level=6] [ref=e2143]: AED594.68
+                        - paragraph [ref=e1183]
+                    - cell [ref=e2144]:
+                      - generic [ref=e1185]:
+                        - paragraph [ref=e1187]: WLKRO
+                        - paragraph [ref=e1188]: 27 Rooms
+                        - heading [level=6] [ref=e2145]: AED731.92
+                        - paragraph [ref=e1190]
+                    - cell [ref=e2146]:
+                      - generic [ref=e1192]:
+                        - paragraph [ref=e1194]: WLKRO
+                        - paragraph [ref=e1195]: 28 Rooms
+                        - heading [level=6] [ref=e2147]: AED731.92
+                        - paragraph [ref=e1197]
+                    - cell [ref=e2148]:
+                      - generic [ref=e1199]:
+                        - paragraph [ref=e1201]: WLKRO
+                        - paragraph [ref=e1202]: 34 Rooms
+                        - heading [level=6] [ref=e2149]: AED594.68
+                        - paragraph [ref=e1204]
+                    - cell [ref=e2150]:
+                      - generic [ref=e1206]:
+                        - paragraph [ref=e1208]: WLKRO
+                        - paragraph [ref=e1209]: 34 Rooms
+                        - heading [level=6] [ref=e2151]: AED594.68
+                        - paragraph [ref=e1211]
+                    - cell [ref=e2152]:
+                      - generic [ref=e1213]:
+                        - paragraph [ref=e1215]: WLKRO
+                        - paragraph [ref=e1216]: 34 Rooms
+                        - heading [level=6] [ref=e2153]: AED594.68
+                        - paragraph [ref=e1218]
+                    - cell [ref=e2154]:
+                      - generic [ref=e1220]:
+                        - paragraph [ref=e1222]: WLKRO
+                        - paragraph [ref=e1223]: 34 Rooms
+                        - heading [level=6] [ref=e2155]: AED594.68
+                        - paragraph [ref=e1225]
+                    - cell [ref=e2156]:
+                      - generic [ref=e1228]:
+                        - button [ref=e2157] [cursor=pointer]: +
+                        - generic [ref=e1230]: "0"
+                        - button [ref=e2158] [cursor=pointer]: "-"
+                  - row [ref=e2159]:
+                    - cell [ref=e2160]:
+                      - generic [ref=e1234]:
+                        - heading [level=5] [ref=e2161]: Handicap
+                        - paragraph [ref=e1236]: 2 rooms
+                        - separator [ref=e1237]
+                        - paragraph [ref=e1238]:
+                          - generic [ref=e1239]: 
+                          - text: Upto 1 person(s) per room
+                    - cell [ref=e2162]:
+                      - generic [ref=e1241]:
+                        - paragraph [ref=e1243]: WLKRO
+                        - paragraph [ref=e1244]: 1 Rooms
+                        - heading [level=6] [ref=e2163]: AED0.00
+                        - paragraph [ref=e1246]
+                    - cell [ref=e2164]:
+                      - generic [ref=e1248]:
+                        - paragraph [ref=e1250]: WLKRO
+                        - paragraph [ref=e1251]: 2 Rooms
+                        - heading [level=6] [ref=e2165]: AED0.00
+                        - paragraph [ref=e1253]
+                    - cell [ref=e2166]:
+                      - generic [ref=e1255]:
+                        - paragraph [ref=e1257]: WLKRO
+                        - paragraph [ref=e1258]: 2 Rooms
+                        - heading [level=6] [ref=e2167]: AED0.00
+                        - paragraph [ref=e1260]
+                    - cell [ref=e2168]:
+                      - generic [ref=e1262]:
+                        - paragraph [ref=e1264]: WLKRO
+                        - paragraph [ref=e1265]: 2 Rooms
+                        - heading [level=6] [ref=e2169]: AED0.00
+                        - paragraph [ref=e1267]
+                    - cell [ref=e2170]:
+                      - generic [ref=e1269]:
+                        - paragraph [ref=e1271]: WLKRO
+                        - paragraph [ref=e1272]: 2 Rooms
+                        - heading [level=6] [ref=e2171]: AED0.00
+                        - paragraph [ref=e1274]
+                    - cell [ref=e2172]:
+                      - generic [ref=e1276]:
+                        - paragraph [ref=e1278]: WLKRO
+                        - paragraph [ref=e1279]: 2 Rooms
+                        - heading [level=6] [ref=e2173]: AED0.00
+                        - paragraph [ref=e1281]
+                    - cell [ref=e2174]:
+                      - generic [ref=e1283]:
+                        - paragraph [ref=e1285]: WLKRO
+                        - paragraph [ref=e1286]: 2 Rooms
+                        - heading [level=6] [ref=e2175]: AED0.00
+                        - paragraph [ref=e1288]
+                    - cell [ref=e2176]:
+                      - generic [ref=e1290]:
+                        - paragraph [ref=e1292]: WLKRO
+                        - paragraph [ref=e1293]: 2 Rooms
+                        - heading [level=6] [ref=e2177]: AED0.00
+                        - paragraph [ref=e1295]
+                    - cell [ref=e2178]:
+                      - generic [ref=e1297]:
+                        - paragraph [ref=e1299]: WLKRO
+                        - paragraph [ref=e1300]: 2 Rooms
+                        - heading [level=6] [ref=e2179]: AED0.00
+                        - paragraph [ref=e1302]
+                    - cell [ref=e2180]:
+                      - generic [ref=e1304]:
+                        - paragraph [ref=e1306]: WLKRO
+                        - paragraph [ref=e1307]: 2 Rooms
+                        - heading [level=6] [ref=e2181]: AED0.00
+                        - paragraph [ref=e1309]
+                    - cell [ref=e2182]:
+                      - generic [ref=e1312]:
+                        - button [ref=e2183] [cursor=pointer]: +
+                        - generic [ref=e1314]: "0"
+                        - button [ref=e2184] [cursor=pointer]: "-"
+                  - row [ref=e2185]:
+                    - cell [ref=e2186]:
+                      - generic [ref=e1318]:
+                        - heading [level=5] [ref=e2187]: One Bedroom City
+                        - paragraph [ref=e1320]: 40 rooms
+                        - separator [ref=e1321]
+                        - paragraph [ref=e1322]:
+                          - generic [ref=e1323]: 
+                          - text: Upto 16 person(s) per room
+                    - cell [ref=e2188]:
+                      - generic [ref=e1325]:
+                        - paragraph [ref=e1327]: WLKRO
+                        - paragraph [ref=e1328]: 16 Rooms
+                        - heading [level=6] [ref=e2189]: AED1,052.13
+                        - paragraph [ref=e1330]
+                    - cell [ref=e2190]:
+                      - generic [ref=e1332]:
+                        - paragraph [ref=e1334]: WLKRO
+                        - paragraph [ref=e1335]: 19 Rooms
+                        - heading [level=6] [ref=e2191]: AED1,052.13
+                        - paragraph [ref=e1337]
+                    - cell [ref=e2192]:
+                      - generic [ref=e1339]:
+                        - paragraph [ref=e1341]: WLKRO
+                        - paragraph [ref=e1342]: 27 Rooms
+                        - heading [level=6] [ref=e2193]: AED1,052.13
+                        - paragraph [ref=e1344]
+                    - cell [ref=e2194]:
+                      - generic [ref=e1346]:
+                        - paragraph [ref=e1348]: WLKRO
+                        - paragraph [ref=e1349]: 27 Rooms
+                        - heading [level=6] [ref=e2195]: AED1,189.36
+                        - paragraph [ref=e1351]
+                    - cell [ref=e2196]:
+                      - generic [ref=e1353]:
+                        - paragraph [ref=e1355]: WLKRO
+                        - paragraph [ref=e1356]: 28 Rooms
+                        - heading [level=6] [ref=e2197]: AED1,326.60
+                        - paragraph [ref=e1358]
+                    - cell [ref=e2198]:
+                      - generic [ref=e1360]:
+                        - paragraph [ref=e1362]: WLKRO
+                        - paragraph [ref=e1363]: 30 Rooms
+                        - heading [level=6] [ref=e2199]: AED1,326.60
+                        - paragraph [ref=e1365]
+                    - cell [ref=e2200]:
+                      - generic [ref=e1367]:
+                        - paragraph [ref=e1369]: WLKRO
+                        - paragraph [ref=e1370]: 30 Rooms
+                        - heading [level=6] [ref=e2201]: AED1,189.36
+                        - paragraph [ref=e1372]
+                    - cell [ref=e2202]:
+                      - generic [ref=e1374]:
+                        - paragraph [ref=e1376]: WLKRO
+                        - paragraph [ref=e1377]: 23 Rooms
+                        - heading [level=6] [ref=e2203]: AED1,189.36
+                        - paragraph [ref=e1379]
+                    - cell [ref=e2204]:
+                      - generic [ref=e1381]:
+                        - paragraph [ref=e1383]: WLKRO
+                        - paragraph [ref=e1384]: 23 Rooms
+                        - heading [level=6] [ref=e2205]: AED1,189.36
+                        - paragraph [ref=e1386]
+                    - cell [ref=e2206]:
+                      - generic [ref=e1388]:
+                        - paragraph [ref=e1390]: WLKRO
+                        - paragraph [ref=e1391]: 22 Rooms
+                        - heading [level=6] [ref=e2207]: AED1,189.36
+                        - paragraph [ref=e1393]
+                    - cell [ref=e2208]:
+                      - generic [ref=e1396]:
+                        - button [ref=e2209] [cursor=pointer]: +
+                        - generic [ref=e1398]: "0"
+                        - button [ref=e2210] [cursor=pointer]: "-"
+                  - row [ref=e2211]:
+                    - cell [ref=e2212]:
+                      - generic [ref=e1402]:
+                        - heading [level=5] [ref=e2213]: Premium One Bedroom
+                        - paragraph [ref=e1404]: 2 rooms
+                        - separator [ref=e1405]
+                        - paragraph [ref=e1406]:
+                          - generic [ref=e1407]: 
+                          - text: Upto 2 person(s) per room
+                    - cell [ref=e2214]:
+                      - generic [ref=e1409]:
+                        - paragraph [ref=e1411]: WLKRO
+                        - paragraph [ref=e1412]: 2 Rooms
+                        - heading [level=6] [ref=e2215]: AED1,326.60
+                        - paragraph [ref=e1414]
+                    - cell [ref=e2216]:
+                      - generic [ref=e1416]:
+                        - paragraph [ref=e1418]: WLKRO
+                        - paragraph [ref=e1419]: 2 Rooms
+                        - heading [level=6] [ref=e2217]: AED1,326.60
+                        - paragraph [ref=e1421]
+                    - cell [ref=e2218]:
+                      - generic [ref=e1423]:
+                        - paragraph [ref=e1425]: WLKRO
+                        - paragraph [ref=e1426]: 2 Rooms
+                        - heading [level=6] [ref=e2219]: AED1,326.60
+                        - paragraph [ref=e1428]
+                    - cell [ref=e2220]:
+                      - generic [ref=e1430]:
+                        - paragraph [ref=e1432]: WLKRO
+                        - paragraph [ref=e1433]: 2 Rooms
+                        - heading [level=6] [ref=e2221]: AED1,372.34
+                        - paragraph [ref=e1435]
+                    - cell [ref=e2222]:
+                      - generic [ref=e1437]:
+                        - paragraph [ref=e1439]: WLKRO
+                        - paragraph [ref=e1440]: 2 Rooms
+                        - heading [level=6] [ref=e2223]: AED1,509.58
+                        - paragraph [ref=e1442]
+                    - cell [ref=e2224]:
+                      - generic [ref=e1444]:
+                        - paragraph [ref=e1446]: WLKRO
+                        - paragraph [ref=e1447]: 2 Rooms
+                        - heading [level=6] [ref=e2225]: AED1,509.58
+                        - paragraph [ref=e1449]
+                    - cell [ref=e2226]:
+                      - generic [ref=e1451]:
+                        - paragraph [ref=e1453]: WLKRO
+                        - paragraph [ref=e1454]: 2 Rooms
+                        - heading [level=6] [ref=e2227]: AED1,372.34
+                        - paragraph [ref=e1456]
+                    - cell [ref=e2228]:
+                      - generic [ref=e1458]:
+                        - paragraph [ref=e1460]: WLKRO
+                        - paragraph [ref=e1461]: 2 Rooms
+                        - heading [level=6] [ref=e2229]: AED1,372.34
+                        - paragraph [ref=e1463]
+                    - cell [ref=e2230]:
+                      - generic [ref=e1465]:
+                        - paragraph [ref=e1467]: WLKRO
+                        - paragraph [ref=e1468]: 2 Rooms
+                        - heading [level=6] [ref=e2231]: AED1,372.34
+                        - paragraph [ref=e1470]
+                    - cell [ref=e2232]:
+                      - generic [ref=e1472]:
+                        - paragraph [ref=e1474]: WLKRO
+                        - paragraph [ref=e1475]: 2 Rooms
+                        - heading [level=6] [ref=e2233]: AED1,372.34
+                        - paragraph [ref=e1477]
+                    - cell [ref=e2234]:
+                      - generic [ref=e1480]:
+                        - button [ref=e2235] [cursor=pointer]: +
+                        - generic [ref=e1482]: "0"
+                        - button [ref=e2236] [cursor=pointer]: "-"
+                  - row [ref=e2237]:
+                    - cell [ref=e2238]:
+                      - generic [ref=e1486]:
+                        - heading [level=5] [ref=e2239]: One Bedroom Sea
+                        - paragraph [ref=e1488]: 14 rooms
+                        - separator [ref=e1489]
+                        - paragraph [ref=e1490]:
+                          - generic [ref=e1491]: 
+                          - text: Upto 10 person(s) per room
+                    - cell [ref=e2240]:
+                      - generic [ref=e1493]:
+                        - paragraph [ref=e1495]: WLKRO
+                        - paragraph [ref=e1496]: 10 Rooms
+                        - heading [level=6] [ref=e2241]: AED1,235.11
+                        - paragraph [ref=e1498]
+                    - cell [ref=e2242]:
+                      - generic [ref=e1500]:
+                        - paragraph [ref=e1502]: WLKRO
+                        - paragraph [ref=e1503]: 10 Rooms
+                        - heading [level=6] [ref=e2243]: AED1,235.11
+                        - paragraph [ref=e1505]
+                    - cell [ref=e2244]:
+                      - generic [ref=e1507]:
+                        - paragraph [ref=e1509]: WLKRO
+                        - paragraph [ref=e1510]: 11 Rooms
+                        - heading [level=6] [ref=e2245]: AED1,235.11
+                        - paragraph [ref=e1512]
+                    - cell [ref=e2246]:
+                      - generic [ref=e1514]:
+                        - paragraph [ref=e1516]: WLKRO
+                        - paragraph [ref=e1517]: 11 Rooms
+                        - heading [level=6] [ref=e2247]: AED1,280.85
+                        - paragraph [ref=e1519]
+                    - cell [ref=e2248]:
+                      - generic [ref=e1521]:
+                        - paragraph [ref=e1523]: WLKRO
+                        - paragraph [ref=e1524]: 11 Rooms
+                        - heading [level=6] [ref=e2249]: AED1,418.09
+                        - paragraph [ref=e1526]
+                    - cell [ref=e2250]:
+                      - generic [ref=e1528]:
+                        - paragraph [ref=e1530]: WLKRO
+                        - paragraph [ref=e1531]: 11 Rooms
+                        - heading [level=6] [ref=e2251]: AED1,418.09
+                        - paragraph [ref=e1533]
+                    - cell [ref=e2252]:
+                      - generic [ref=e1535]:
+                        - paragraph [ref=e1537]: WLKRO
+                        - paragraph [ref=e1538]: 12 Rooms
+                        - heading [level=6] [ref=e2253]: AED1,280.85
+                        - paragraph [ref=e1540]
+                    - cell [ref=e2254]:
+                      - generic [ref=e1542]:
+                        - paragraph [ref=e1544]: WLKRO
+                        - paragraph [ref=e1545]: 12 Rooms
+                        - heading [level=6] [ref=e2255]: AED1,280.85
+                        - paragraph [ref=e1547]
+                    - cell [ref=e2256]:
+                      - generic [ref=e1549]:
+                        - paragraph [ref=e1551]: WLKRO
+                        - paragraph [ref=e1552]: 12 Rooms
+                        - heading [level=6] [ref=e2257]: AED1,280.85
+                        - paragraph [ref=e1554]
+                    - cell [ref=e2258]:
+                      - generic [ref=e1556]:
+                        - paragraph [ref=e1558]: WLKRO
+                        - paragraph [ref=e1559]: 12 Rooms
+                        - heading [level=6] [ref=e2259]: AED1,280.85
+                        - paragraph [ref=e1561]
+                    - cell [ref=e2260]:
+                      - generic [ref=e1564]:
+                        - button [ref=e2261] [cursor=pointer]: +
+                        - generic [ref=e1566]: "0"
+                        - button [ref=e2262] [cursor=pointer]: "-"
+                  - row [ref=e2263]:
+                    - cell [ref=e2264]:
+                      - generic [ref=e1570]:
+                        - heading [level=5] [ref=e2265]: Premium King
+                        - paragraph [ref=e1572]: 4 rooms
+                        - separator [ref=e1573]
+                        - paragraph [ref=e1574]:
+                          - generic [ref=e1575]: 
+                          - text: Upto 3 person(s) per room
+                    - cell [ref=e2266]:
+                      - generic [ref=e1577]:
+                        - paragraph [ref=e1579]: WLKRO
+                        - paragraph [ref=e1580]: 3 Rooms
+                        - heading [level=6] [ref=e2267]: AED640.43
+                        - paragraph [ref=e1582]
+                    - cell [ref=e2268]:
+                      - generic [ref=e1584]:
+                        - paragraph [ref=e1586]: WLKRO
+                        - paragraph [ref=e1587]: 3 Rooms
+                        - heading [level=6] [ref=e2269]: AED640.43
+                        - paragraph [ref=e1589]
+                    - cell [ref=e2270]:
+                      - generic [ref=e1591]:
+                        - paragraph [ref=e1593]: WLKRO
+                        - paragraph [ref=e1594]: 4 Rooms
+                        - heading [level=6] [ref=e2271]: AED640.43
+                        - paragraph [ref=e1596]
+                    - cell [ref=e2272]:
+                      - generic [ref=e1598]:
+                        - paragraph [ref=e1600]: WLKRO
+                        - paragraph [ref=e1601]: 4 Rooms
+                        - heading [level=6] [ref=e2273]: AED686.17
+                        - paragraph [ref=e1603]
+                    - cell [ref=e2274]:
+                      - generic [ref=e1605]:
+                        - paragraph [ref=e1607]: WLKRO
+                        - paragraph [ref=e1608]: 3 Rooms
+                        - heading [level=6] [ref=e2275]: AED823.41
+                        - paragraph [ref=e1610]
+                    - cell [ref=e2276]:
+                      - generic [ref=e1612]:
+                        - paragraph [ref=e1614]: WLKRO
+                        - paragraph [ref=e1615]: 4 Rooms
+                        - heading [level=6] [ref=e2277]: AED823.41
+                        - paragraph [ref=e1617]
+                    - cell [ref=e2278]:
+                      - generic [ref=e1619]:
+                        - paragraph [ref=e1621]: WLKRO
+                        - paragraph [ref=e1622]: 4 Rooms
+                        - heading [level=6] [ref=e2279]: AED686.17
+                        - paragraph [ref=e1624]
+                    - cell [ref=e2280]:
+                      - generic [ref=e1626]:
+                        - paragraph [ref=e1628]: WLKRO
+                        - paragraph [ref=e1629]: 4 Rooms
+                        - heading [level=6] [ref=e2281]: AED686.17
+                        - paragraph [ref=e1631]
+                    - cell [ref=e2282]:
+                      - generic [ref=e1633]:
+                        - paragraph [ref=e1635]: WLKRO
+                        - paragraph [ref=e1636]: 4 Rooms
+                        - heading [level=6] [ref=e2283]: AED686.17
+                        - paragraph [ref=e1638]
+                    - cell [ref=e2284]:
+                      - generic [ref=e1640]:
+                        - paragraph [ref=e1642]: WLKRO
+                        - paragraph [ref=e1643]: 4 Rooms
+                        - heading [level=6] [ref=e2285]: AED686.17
+                        - paragraph [ref=e1645]
+                    - cell [ref=e2286]:
+                      - generic [ref=e1648]:
+                        - button [ref=e2287] [cursor=pointer]: +
+                        - generic [ref=e1650]: "0"
+                        - button [ref=e2288] [cursor=pointer]: "-"
+                  - row [ref=e2289]:
+                    - cell [ref=e2290]:
+                      - generic [ref=e1654]:
+                        - heading [level=5] [ref=e2291]: Al Bahar Suite
+                        - paragraph [ref=e1656]: 1 rooms
+                        - separator [ref=e1657]
+                        - paragraph [ref=e1658]:
+                          - generic [ref=e1659]: 
+                          - text: Upto 1 person(s) per room
+                    - cell [ref=e2292]:
+                      - generic [ref=e1661]:
+                        - paragraph [ref=e1663]: WLKRO
+                        - paragraph [ref=e1664]: 1 Rooms
+                        - heading [level=6] [ref=e2293]: AED0.00
+                        - paragraph [ref=e1666]
+                    - cell [ref=e2294]:
+                      - generic [ref=e1668]:
+                        - paragraph [ref=e1670]: WLKRO
+                        - paragraph [ref=e1671]: 1 Rooms
+                        - heading [level=6] [ref=e2295]: AED0.00
+                        - paragraph [ref=e1673]
+                    - cell [ref=e2296]:
+                      - generic [ref=e1675]:
+                        - paragraph [ref=e1677]: WLKRO
+                        - paragraph [ref=e1678]: 0 Rooms
+                        - heading [level=6] [ref=e2297]: AED0.00
+                        - paragraph [ref=e1680]
+                    - cell [ref=e2298]:
+                      - generic [ref=e1682]:
+                        - paragraph [ref=e1684]: WLKRO
+                        - paragraph [ref=e1685]: 0 Rooms
+                        - heading [level=6] [ref=e2299]: AED0.00
+                        - paragraph [ref=e1687]
+                    - cell [ref=e2300]:
+                      - generic [ref=e1689]:
+                        - paragraph [ref=e1691]: WLKRO
+                        - paragraph [ref=e1692]: 0 Rooms
+                        - heading [level=6] [ref=e2301]: AED0.00
+                        - paragraph [ref=e1694]
+                    - cell [ref=e2302]:
+                      - generic [ref=e1696]:
+                        - paragraph [ref=e1698]: WLKRO
+                        - paragraph [ref=e1699]: 0 Rooms
+                        - heading [level=6] [ref=e2303]: AED0.00
+                        - paragraph [ref=e1701]
+                    - cell [ref=e2304]:
+                      - generic [ref=e1703]:
+                        - paragraph [ref=e1705]: WLKRO
+                        - paragraph [ref=e1706]: 1 Rooms
+                        - heading [level=6] [ref=e2305]: AED0.00
+                        - paragraph [ref=e1708]
+                    - cell [ref=e2306]:
+                      - generic [ref=e1710]:
+                        - paragraph [ref=e1712]: WLKRO
+                        - paragraph [ref=e1713]: 1 Rooms
+                        - heading [level=6] [ref=e2307]: AED0.00
+                        - paragraph [ref=e1715]
+                    - cell [ref=e2308]:
+                      - generic [ref=e1717]:
+                        - paragraph [ref=e1719]: WLKRO
+                        - paragraph [ref=e1720]: 1 Rooms
+                        - heading [level=6] [ref=e2309]: AED0.00
+                        - paragraph [ref=e1722]
+                    - cell [ref=e2310]:
+                      - generic [ref=e1724]:
+                        - paragraph [ref=e1726]: WLKRO
+                        - paragraph [ref=e1727]: 1 Rooms
+                        - heading [level=6] [ref=e2311]: AED0.00
+                        - paragraph [ref=e1729]
+                    - cell [ref=e2312]:
+                      - generic [ref=e1732]:
+                        - button [ref=e2313] [cursor=pointer]: +
+                        - generic [ref=e1734]: "0"
+                        - button [ref=e2314] [cursor=pointer]: "-"
+                  - row [ref=e2315]:
+                    - cell [ref=e2316]:
+                      - generic [ref=e1738]:
+                        - heading [level=5] [ref=e2317]: Two Bedroom City
+                        - paragraph [ref=e1740]: 31 rooms
+                        - separator [ref=e1741]
+                        - paragraph [ref=e1742]:
+                          - generic [ref=e1743]: 
+                          - text: Upto 5 person(s) per room
+                    - cell [ref=e2318]:
+                      - generic [ref=e1745]:
+                        - paragraph [ref=e1747]: WLKRO
+                        - paragraph [ref=e1748]: 5 Rooms
+                        - heading [level=6] [ref=e2319]: AED1,418.09
+                        - paragraph [ref=e1750]
+                    - cell [ref=e2320]:
+                      - generic [ref=e1752]:
+                        - paragraph [ref=e1754]: WLKRO
+                        - paragraph [ref=e1755]: 13 Rooms
+                        - heading [level=6] [ref=e2321]: AED1,418.09
+                        - paragraph [ref=e1757]
+                    - cell [ref=e2322]:
+                      - generic [ref=e1759]:
+                        - paragraph [ref=e1761]: WLKRO
+                        - paragraph [ref=e1762]: 20 Rooms
+                        - heading [level=6] [ref=e2323]: AED1,418.09
+                        - paragraph [ref=e1764]
+                    - cell [ref=e2324]:
+                      - generic [ref=e1766]:
+                        - paragraph [ref=e1768]: WLKRO
+                        - paragraph [ref=e1769]: 20 Rooms
+                        - heading [level=6] [ref=e2325]: AED1,463.83
+                        - paragraph [ref=e1771]
+                    - cell [ref=e2326]:
+                      - generic [ref=e1773]:
+                        - paragraph [ref=e1775]: WLKRO
+                        - paragraph [ref=e1776]: 20 Rooms
+                        - heading [level=6] [ref=e2327]: AED1,601.07
+                        - paragraph [ref=e1778]
+                    - cell [ref=e2328]:
+                      - generic [ref=e1780]:
+                        - paragraph [ref=e1782]: WLKRO
+                        - paragraph [ref=e1783]: 19 Rooms
+                        - heading [level=6] [ref=e2329]: AED1,601.07
+                        - paragraph [ref=e1785]
+                    - cell [ref=e2330]:
+                      - generic [ref=e1787]:
+                        - paragraph [ref=e1789]: WLKRO
+                        - paragraph [ref=e1790]: 20 Rooms
+                        - heading [level=6] [ref=e2331]: AED1,463.83
+                        - paragraph [ref=e1792]
+                    - cell [ref=e2332]:
+                      - generic [ref=e1794]:
+                        - paragraph [ref=e1796]: WLKRO
+                        - paragraph [ref=e1797]: 20 Rooms
+                        - heading [level=6] [ref=e2333]: AED1,463.83
+                        - paragraph [ref=e1799]
+                    - cell [ref=e2334]:
+                      - generic [ref=e1801]:
+                        - paragraph [ref=e1803]: WLKRO
+                        - paragraph [ref=e1804]: 20 Rooms
+                        - heading [level=6] [ref=e2335]: AED1,463.83
+                        - paragraph [ref=e1806]
+                    - cell [ref=e2336]:
+                      - generic [ref=e1808]:
+                        - paragraph [ref=e1810]: WLKRO
+                        - paragraph [ref=e1811]: 20 Rooms
+                        - heading [level=6] [ref=e2337]: AED1,463.83
+                        - paragraph [ref=e1813]
+                    - cell [ref=e2338]:
+                      - generic [ref=e1816]:
+                        - button [ref=e2339] [cursor=pointer]: +
+                        - generic [ref=e1818]: "0"
+                        - button [ref=e2340] [cursor=pointer]: "-"
+                  - row [ref=e2341]:
+                    - cell [ref=e2342]:
+                      - generic [ref=e1822]:
+                        - heading [level=5] [ref=e2343]: Premium Two Bedroom
+                        - paragraph [ref=e1824]: 1 rooms
+                        - separator [ref=e1825]
+                        - paragraph [ref=e1826]:
+                          - generic [ref=e1827]: 
+                          - text: Upto 1 person(s) per room
+                    - cell [ref=e2344]:
+                      - generic [ref=e1829]:
+                        - paragraph [ref=e1831]: WLKRO
+                        - paragraph [ref=e1832]: 1 Rooms
+                        - heading [level=6] [ref=e2345]: AED1,784.05
+                        - paragraph [ref=e1834]
+                    - cell [ref=e2346]:
+                      - generic [ref=e1836]:
+                        - paragraph [ref=e1838]: WLKRO
+                        - paragraph [ref=e1839]: 1 Rooms
+                        - heading [level=6] [ref=e2347]: AED1,784.05
+                        - paragraph [ref=e1841]
+                    - cell [ref=e2348]:
+                      - generic [ref=e1843]:
+                        - paragraph [ref=e1845]: WLKRO
+                        - paragraph [ref=e1846]: 1 Rooms
+                        - heading [level=6] [ref=e2349]: AED1,784.05
+                        - paragraph [ref=e1848]
+                    - cell [ref=e2350]:
+                      - generic [ref=e1850]:
+                        - paragraph [ref=e1852]: WLKRO
+                        - paragraph [ref=e1853]: 1 Rooms
+                        - heading [level=6] [ref=e2351]: AED1,829.79
+                        - paragraph [ref=e1855]
+                    - cell [ref=e2352]:
+                      - generic [ref=e1857]:
+                        - paragraph [ref=e1859]: WLKRO
+                        - paragraph [ref=e1860]: 1 Rooms
+                        - heading [level=6] [ref=e2353]: AED1,967.02
+                        - paragraph [ref=e1862]
+                    - cell [ref=e2354]:
+                      - generic [ref=e1864]:
+                        - paragraph [ref=e1866]: WLKRO
+                        - paragraph [ref=e1867]: 1 Rooms
+                        - heading [level=6] [ref=e2355]: AED1,967.02
+                        - paragraph [ref=e1869]
+                    - cell [ref=e2356]:
+                      - generic [ref=e1871]:
+                        - paragraph [ref=e1873]: WLKRO
+                        - paragraph [ref=e1874]: 1 Rooms
+                        - heading [level=6] [ref=e2357]: AED1,829.79
+                        - paragraph [ref=e1876]
+                    - cell [ref=e2358]:
+                      - generic [ref=e1878]:
+                        - paragraph [ref=e1880]: WLKRO
+                        - paragraph [ref=e1881]: 1 Rooms
+                        - heading [level=6] [ref=e2359]: AED1,829.79
+                        - paragraph [ref=e1883]
+                    - cell [ref=e2360]:
+                      - generic [ref=e1885]:
+                        - paragraph [ref=e1887]: WLKRO
+                        - paragraph [ref=e1888]: 1 Rooms
+                        - heading [level=6] [ref=e2361]: AED1,829.79
+                        - paragraph [ref=e1890]
+                    - cell [ref=e2362]:
+                      - generic [ref=e1892]:
+                        - paragraph [ref=e1894]: WLKRO
+                        - paragraph [ref=e1895]: 1 Rooms
+                        - heading [level=6] [ref=e2363]: AED1,829.79
+                        - paragraph [ref=e1897]
+                    - cell [ref=e2364]:
+                      - generic [ref=e1900]:
+                        - button [ref=e2365] [cursor=pointer]: +
+                        - generic [ref=e1902]: "0"
+                        - button [ref=e2366] [cursor=pointer]: "-"
+                  - row [ref=e2367]:
+                    - cell [ref=e2368]:
+                      - generic [ref=e1906]:
+                        - heading [level=5] [ref=e2369]: Two Bedroom Sea
+                        - paragraph [ref=e1908]: 23 rooms
+                        - separator [ref=e1909]
+                        - paragraph [ref=e1910]:
+                          - generic [ref=e1911]: 
+                          - text: Upto 14 person(s) per room
+                    - cell [ref=e2370]:
+                      - generic [ref=e1913]:
+                        - paragraph [ref=e1915]: WLKRO
+                        - paragraph [ref=e1916]: 14 Rooms
+                        - heading [level=6] [ref=e2371]: AED1,601.07
+                        - paragraph [ref=e1918]
+                    - cell [ref=e2372]:
+                      - generic [ref=e1920]:
+                        - paragraph [ref=e1922]: WLKRO
+                        - paragraph [ref=e1923]: 14 Rooms
+                        - heading [level=6] [ref=e2373]: AED1,601.07
+                        - paragraph [ref=e1925]
+                    - cell [ref=e2374]:
+                      - generic [ref=e1927]:
+                        - paragraph [ref=e1929]: WLKRO
+                        - paragraph [ref=e1930]: 15 Rooms
+                        - heading [level=6] [ref=e2375]: AED1,601.07
+                        - paragraph [ref=e1932]
+                    - cell [ref=e2376]:
+                      - generic [ref=e1934]:
+                        - paragraph [ref=e1936]: WLKRO
+                        - paragraph [ref=e1937]: 14 Rooms
+                        - heading [level=6] [ref=e2377]: AED1,646.81
+                        - paragraph [ref=e1939]
+                    - cell [ref=e2378]:
+                      - generic [ref=e1941]:
+                        - paragraph [ref=e1943]: WLKRO
+                        - paragraph [ref=e1944]: 14 Rooms
+                        - heading [level=6] [ref=e2379]: AED1,784.05
+                        - paragraph [ref=e1946]
+                    - cell [ref=e2380]:
+                      - generic [ref=e1948]:
+                        - paragraph [ref=e1950]: WLKRO
+                        - paragraph [ref=e1951]: 15 Rooms
+                        - heading [level=6] [ref=e2381]: AED1,784.05
+                        - paragraph [ref=e1953]
+                    - cell [ref=e2382]:
+                      - generic [ref=e1955]:
+                        - paragraph [ref=e1957]: WLKRO
+                        - paragraph [ref=e1958]: 15 Rooms
+                        - heading [level=6] [ref=e2383]: AED1,646.81
+                        - paragraph [ref=e1960]
+                    - cell [ref=e2384]:
+                      - generic [ref=e1962]:
+                        - paragraph [ref=e1964]: WLKRO
+                        - paragraph [ref=e1965]: 15 Rooms
+                        - heading [level=6] [ref=e2385]: AED1,646.81
+                        - paragraph [ref=e1967]
+                    - cell [ref=e2386]:
+                      - generic [ref=e1969]:
+                        - paragraph [ref=e1971]: WLKRO
+                        - paragraph [ref=e1972]: 15 Rooms
+                        - heading [level=6] [ref=e2387]: AED1,646.81
+                        - paragraph [ref=e1974]
+                    - cell [ref=e2388]:
+                      - generic [ref=e1976]:
+                        - paragraph [ref=e1978]: WLKRO
+                        - paragraph [ref=e1979]: 15 Rooms
+                        - heading [level=6] [ref=e2389]: AED1,646.81
+                        - paragraph [ref=e1981]
+                    - cell [ref=e2390]:
+                      - generic [ref=e1984]:
+                        - button [ref=e2391] [cursor=pointer]: +
+                        - generic [ref=e1986]: "0"
+                        - button [ref=e2392] [cursor=pointer]: "-"
+            - generic [ref=e743]:
+              - heading [level=5] [ref=e2393] [cursor=pointer]: Total - 411.70 + Taxes
+              - generic [ref=e1992] [cursor=pointer]:
+                - text: 1 DMK
+                - generic [ref=e1993]: 󰅖
+                - text: 28/09/2026-29/09/2026 Adult:1
+                - button [ref=e2394]:
+                  - generic [ref=e1996]: 󰷊
+              - button [ref=e2395] [cursor=pointer]: Next
+              - button [ref=e2396] [cursor=pointer]: Close
+        - contentinfo [ref=e258]:
+          - generic [ref=e260]:
+            - heading [level=6] [ref=e2397]: "Property Id: BDAR, User Id: CRISTINA MISHRA, Shift: 1, Business Date: 28/09/2026"
+            - heading [level=6] [ref=e2398]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e266]: 󰅒
+  - dialog [ref=e2400]:
+    - document:
+      - generic [ref=e2403]:
+        - heading "󰧮 Quick Reservation" [level=5] [ref=e2406]:
+          - generic [ref=e2407]: 󰧮
+          - text: Quick Reservation
+        - generic [ref=e2413]:
+          - generic [ref=e2419]:
+            - generic [ref=e2421]:
+              - generic [ref=e2425]:
+                - generic [ref=e2426]:
+                  - radio "Waitlist" [checked] [active]
+                  - generic [ref=e2427] [cursor=pointer]: Waitlist
+                - generic [ref=e2428]:
+                  - radio "Confirm"
+                  - generic [ref=e2429] [cursor=pointer]: Confirm
+                - generic [ref=e2430]:
+                  - radio "Hold"
+                  - generic [ref=e2431] [cursor=pointer]: Hold
+                - generic [ref=e2432]:
+                  - radio "Walkin"
+                  - generic [ref=e2433] [cursor=pointer]: Walkin
+              - generic [ref=e2437]:
+                - heading "Guest Details" [level=5] [ref=e2443]
+                - generic [ref=e2448]:
+                  - generic [ref=e2451]:
+                    - checkbox "Common for all stay" [checked] [ref=e2452] [cursor=pointer]
+                    - generic [ref=e2453] [cursor=pointer]: Common for all stay
+                  - generic [ref=e2454]:
+                    - generic [ref=e2455]: Last Name*
+                    - textbox [ref=e2458]
+                  - generic [ref=e2459]:
+                    - generic [ref=e2460]: First Name
+                    - textbox [ref=e2463]
+                  - generic [ref=e2464]:
+                    - generic [ref=e2465]: Title
+                    - generic [ref=e2469]:
+                      - generic [ref=e2470]:
+                        - generic [ref=e2471]: "--select--"
+                        - combobox [ref=e2472]:
+                          - textbox [ref=e2473]
+                      - generic [ref=e2474] [cursor=pointer]
+                  - generic [ref=e2475]:
+                    - generic [ref=e2476]: Contact Number
+                    - textbox [ref=e2479]
+                  - generic [ref=e2480]:
+                    - generic [ref=e2481]: Email Id
+                    - generic [ref=e2484]:
+                      - textbox "example@gmail.com" [ref=e2485]
+                      - generic [ref=e2486]: 
+                  - generic [ref=e2487]:
+                    - generic [ref=e2488]: Domicile Code
+                    - generic [ref=e2492]:
+                      - generic [ref=e2493]:
+                        - generic [ref=e2494]: "--select--"
+                        - combobox [ref=e2495]:
+                          - textbox [ref=e2496]
+                      - generic [ref=e2497] [cursor=pointer]
+                  - generic [ref=e2498]:
+                    - generic [ref=e2499]: Guest Class*
+                    - generic [ref=e2503]:
+                      - generic [ref=e2504]:
+                        - generic "Regular Guest" [ref=e2508]
+                        - combobox [ref=e2509]:
+                          - textbox [ref=e2510]
+                      - generic [ref=e2511] [cursor=pointer]
+                  - generic [ref=e2512]:
+                    - generic [ref=e2513]: Market Segment*
+                    - generic [ref=e2517]:
+                      - generic [ref=e2518]:
+                        - generic [ref=e2519]: "--select--"
+                        - combobox [ref=e2520]:
+                          - textbox [ref=e2521]
+                      - generic [ref=e2522] [cursor=pointer]
+                  - generic [ref=e2523]:
+                    - generic [ref=e2524]: Business Source*
+                    - generic [ref=e2528]:
+                      - generic [ref=e2529]:
+                        - generic [ref=e2530]: "--select--"
+                        - combobox [ref=e2531]:
+                          - textbox [ref=e2532]
+                      - generic [ref=e2533] [cursor=pointer]
+                  - generic [ref=e2535]:
+                    - generic [ref=e2536]: Booked Thru
+                    - generic [ref=e2540]:
+                      - text: "--Select--"
+                      - generic [ref=e2541] [cursor=pointer]: 󰍝
+                  - generic [ref=e2542]:
+                    - generic [ref=e2543]: External Reference
+                    - textbox [ref=e2546]
+                  - generic [ref=e2547]:
+                    - generic [ref=e2548]: Membership No
+                    - textbox "xxxx xxxx xxxx xxxx xxxx" [ref=e2552]
+              - generic [ref=e2558]:
+                - heading "Stay Details" [level=5] [ref=e2564]
+                - generic [ref=e2570]:
+                  - generic [ref=e2571]:
+                    - generic [ref=e2573]:
+                      - 'heading "Stay #1" [level=5] [ref=e2574]'
+                      - heading "BDAR" [level=5] [ref=e2575]
+                    - button "󰏫" [ref=e2579] [cursor=pointer]
+                  - generic [ref=e2582]:
+                    - generic [ref=e2584]:
+                      - generic [ref=e2587]:
+                        - generic [ref=e2588]: Arrival/Departure
+                        - heading "28/09/2026 to 29/09/2026" [level=6] [ref=e2589]
+                      - generic [ref=e2592]:
+                        - generic [ref=e2593]: Rooms and No. of Guest
+                        - heading "1-Rooms, 1-A, 0-Y, 0-C" [level=6] [ref=e2594]
+                      - generic [ref=e2597]:
+                        - generic [ref=e2598]: Room No
+                        - heading [level=6]
+                      - generic [ref=e2601]:
+                        - generic [ref=e2602]: Rate Code
+                        - heading "WLKRO" [level=6] [ref=e2603]
+                      - generic [ref=e2606]:
+                        - generic [ref=e2607]: Agreed Rate
+                        - heading "411.70" [level=6] [ref=e2608]
+                      - generic [ref=e2611]:
+                        - generic [ref=e2612]: Currency
+                        - heading "AED" [level=6] [ref=e2613]
+                      - button "󰷊" [ref=e2617] [cursor=pointer]
+                      - generic [ref=e2622]:
+                        - generic [ref=e2623]: Expected Arrival Date
+                        - heading "28/09/2026" [level=6] [ref=e2624]
+                      - generic [ref=e2627]:
+                        - generic [ref=e2628]: Expected Arrival Time
+                        - heading "12:00" [level=6] [ref=e2629]
+                      - generic [ref=e2632]:
+                        - generic [ref=e2633]: Arrival Details
+                        - heading [level=6]
+                      - generic [ref=e2636]:
+                        - generic [ref=e2637]: Expected Departure Date
+                        - heading "29/09/2026" [level=6] [ref=e2638]
+                      - generic [ref=e2641]:
+                        - generic [ref=e2642]: Expected Departure Time
+                        - heading "12:00" [level=6] [ref=e2643]
+                      - generic [ref=e2646]:
+                        - generic [ref=e2647]: Departure Details
+                        - heading [level=6]
+                      - generic [ref=e2650]:
+                        - generic [ref=e2651]: Billing Instructions
+                        - heading [level=6]
+                    - tablist [ref=e2654]:
+                      - tab [ref=e2656]:
+                        - button "Additional Services (0) + Add Services" [ref=e2657] [cursor=pointer]:
+                          - generic [ref=e2658]:
+                            - generic [ref=e2659]: Additional Services (0)
+                            - generic [ref=e2660]: + Add Services
+            - generic [ref=e2661]:
+              - generic [ref=e2665]:
+                - heading "Bill Summary" [level=5] [ref=e2668]
+                - generic [ref=e2670]:
+                  - generic [ref=e2671]:
+                    - heading "Due Amount" [level=6] [ref=e2747]
+                    - heading "411.70" [level=5] [ref=e2749]
+                  - table [ref=e2672]:
+                    - rowgroup [ref=e2673]:
+                      - heading "Future Postings:" [level=6] [ref=e2751]
+                      - row [ref=e2752]:
+                        - cell "Deluxe Marina King (1 Room)" [ref=e2753]
+                        - cell [ref=e2754]:
+                          - heading "328.05" [level=6] [ref=e2755]
+                      - row [ref=e2756]:
+                        - cell "Municipality Fee (5%) 5 %" [ref=e2757]
+                        - cell [ref=e2759]:
+                          - heading "16.40" [level=6] [ref=e2760]
+                      - row [ref=e2761]:
+                        - cell "Service Charge (10%) 10 %" [ref=e2762]
+                        - cell [ref=e2764]:
+                          - heading "32.80" [level=6] [ref=e2765]
+                      - row [ref=e2766]:
+                        - cell "Tourism Fee (5%) 5 %" [ref=e2767]
+                        - cell [ref=e2769]:
+                          - heading "16.40" [level=6] [ref=e2770]
+                      - row [ref=e2771]:
+                        - cell "VAT (5%) 5.5 %" [ref=e2772]
+                        - cell [ref=e2774]:
+                          - heading "18.04" [level=6] [ref=e2775]
+                      - row [ref=e2776]:
+                        - cell "Total" [ref=e2777]
+                        - cell [ref=e2778]:
+                          - heading "411.70" [level=6] [ref=e2779]
+                      - row [ref=e2780]:
+                        - cell "Sub Total" [ref=e2781]
+                        - cell [ref=e2782]:
+                          - heading "411.70" [level=6] [ref=e2783]
+                - generic [ref=e2679]:
+                  - generic [ref=e2680]:
+                    - heading "Total" [level=6] [ref=e2784]
+                    - heading "411.70" [level=5] [ref=e2786]
+                  - generic [ref=e2681]:
+                    - heading "Payment" [level=6] [ref=e2787]
+                    - heading "0.00" [level=5] [ref=e2789]
+                  - generic [ref=e2682]:
+                    - heading "Due Amount" [level=6] [ref=e2790]
+                    - heading "411.70" [level=5] [ref=e2792]
+              - generic [ref=e2687]:
+                - heading "Payment Details" [level=5] [ref=e2693]
+                - generic [ref=e2697]:
+                  - generic [ref=e2698]:
+                    - generic [ref=e2699]: Payment Method*
+                    - generic [ref=e2703]:
+                      - generic [ref=e2704]:
+                        - generic [ref=e2707]:
+                          - generic [ref=e2708]: CASH
+                          - generic "CASH" [ref=e2709]
+                        - combobox [ref=e2710]:
+                          - textbox [ref=e2711]
+                      - generic [ref=e2712] [cursor=pointer]
+                  - generic [ref=e2713]:
+                    - generic [ref=e2714]: Ar Id
+                    - generic [ref=e2718]:
+                      - generic [ref=e2719]:
+                        - generic [ref=e2720]: "--select--"
+                        - combobox [ref=e2721]:
+                          - textbox [ref=e2722]
+                      - generic [ref=e2723] [cursor=pointer]
+                  - generic [ref=e2724]:
+                    - generic [ref=e2725]: Deposit Due
+                    - textbox [ref=e2728]: "0.00"
+                  - generic [ref=e2729]:
+                    - generic [ref=e2730]: Due On
+                    - textbox "Select" [ref=e2733]
+          - generic [ref=e2740]:
+            - 'heading "Availability release after: 465 seconds." [level=6] [ref=e2795]'
+            - button "Waitlist & Continue" [ref=e2796] [cursor=pointer]
+            - button "Close" [ref=e2746] [cursor=pointer]

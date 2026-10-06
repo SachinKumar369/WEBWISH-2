@@ -1,0 +1,687 @@
+- generic [ref=e1]:
+  - generic [ref=e3189]:
+    - generic [ref=e3190]:
+      - banner [ref=e3191]:
+        - generic [ref=e3193]:
+          - generic [ref=e3194]:
+            - link [ref=e3196] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e3200]:
+              - textbox [ref=e7793]:
+                - /placeholder: Search
+                - text: 󰅀
+              - generic [ref=e3202]: 󰍉
+          - heading [level=5] [ref=e7794]: Webwish Hotel
+          - generic [ref=e3205]:
+            - button [ref=e7795] [cursor=pointer]:
+              - generic [ref=e3208]: 󰅒
+            - button [ref=e7796] [cursor=pointer]:
+              - generic [ref=e3211]: 
+            - button [ref=e7797] [cursor=pointer]:
+              - generic [ref=e3214]: 
+            - button [ref=e7798] [cursor=pointer]:
+              - generic [ref=e7799]: 
+              - generic [ref=e3218]: "3"
+            - generic [ref=e3219]:
+              - button [ref=e7800] [cursor=pointer]:
+                - generic [ref=e7801]: 
+              - text:  
+            - generic [ref=e3222]:
+              - button [ref=e7802] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e7804] [cursor=pointer]
+      - generic [ref=e3238]:
+        - text: 
+        - generic [ref=e3240]:
+          - region [ref=e7806]:
+            - list [ref=e3247]:
+              - listitem [ref=e6143]:
+                - link [ref=e7807] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e6146]: 
+                - text:    
+          - button [ref=e7808] [cursor=pointer]:
+            - generic [ref=e6171]: 
+      - generic [ref=e3292]:
+        - generic [ref=e6173]:
+          - generic [ref=e6176]:
+            - heading [level=3] [ref=e7809]: Agent Maintenance
+            - toolbar [ref=e7810]:
+              - button [ref=e7811] [cursor=pointer]:
+                - generic [ref=e6872]: Sections
+              - button [ref=e7812] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e6876]: 󱎸
+              - button [ref=e7813] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e6190]: 󰑐
+              - button [ref=e7814] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e6880]: 󰋚
+          - generic [ref=e6886]:
+            - generic [ref=e6888]:
+              - generic [ref=e6890]:
+                - generic [ref=e6892]:
+                  - heading [level=5] [ref=e7815]: Profile Info
+                  - button [ref=e7816] [cursor=pointer]:
+                    - generic [ref=e6902]: 󰲶
+                - generic [ref=e6907]:
+                  - generic [ref=e6910]:
+                    - generic [ref=e6911]: Id
+                    - heading [level=6] [ref=e7817]: AGT14859
+                  - generic [ref=e6915]:
+                    - generic [ref=e6916]: Name
+                    - heading [level=6] [ref=e7818]: Agent_148598
+                  - generic [ref=e6920]:
+                    - generic [ref=e6921]: Legal Name
+                    - heading [level=6] [ref=e7819]: Agent_148598 Legal
+                  - generic [ref=e6923]: Ar Id
+                  - generic [ref=e6927]: Sales Executive
+                  - generic [ref=e6931]: Market Segment
+                  - generic [ref=e6935]: Industry
+                  - generic [ref=e6939]: Importance Ind
+                  - generic [ref=e6945]:
+                    - generic [ref=e6946]: Main Head
+                    - heading [level=6] [ref=e7820]: OT
+                  - generic [ref=e6948]: Other Reference No
+                  - generic [ref=e6952]: Vat/Fiscal No.
+                  - generic [ref=e6956]: GSTIN Number
+                  - generic [ref=e6960]: Pan Number
+              - generic [ref=e6965]:
+                - heading [level=5] [ref=e7821]: Address
+                - generic [ref=e6975]:
+                  - generic [ref=e6976]:
+                    - generic [ref=e6979]:
+                      - generic [ref=e6980]: Address1
+                      - heading [level=6] [ref=e7822]: 123 Test Street
+                    - generic [ref=e6982]: Address2
+                    - generic [ref=e6986]: Address3
+                    - generic [ref=e6992]:
+                      - generic [ref=e6993]: Country
+                      - heading [level=6] [ref=e7823]: AE
+                    - generic [ref=e6995]: State
+                    - generic [ref=e6999]: City
+                    - generic [ref=e7003]: Zip
+                  - generic [ref=e7007]:
+                    - heading [level=5] [ref=e7824]: Contact Details
+                    - generic [ref=e7013]: Phone No. 1
+                    - generic [ref=e7017]: Phone No. 2
+                    - generic [ref=e7021]: Mobile
+                    - generic [ref=e7025]: Email
+                    - generic [ref=e7029]: Website
+            - generic [ref=e7033]:
+              - generic [ref=e7036]:
+                - generic [ref=e7038]:
+                  - heading [level=5] [ref=e7825]: Defaults
+                  - button [ref=e7826] [cursor=pointer]:
+                    - generic [ref=e7048]: 󰲶
+                - generic [ref=e7053]:
+                  - generic [ref=e7054]: Currency
+                  - generic [ref=e7058]: Domicile Code
+                  - generic [ref=e7062]: Room Type
+                  - generic [ref=e7066]: Market Segment
+                  - generic [ref=e7070]: Guest Class
+                  - generic [ref=e7074]: Business Source
+                  - generic [ref=e7078]: Payment Method
+                  - generic [ref=e7082]: Cancellation Policy
+                  - generic [ref=e7086]: Language Code
+                  - generic [ref=e7092]:
+                    - generic [ref=e7093]: Deposit Due Days
+                    - heading [level=6] [ref=e7827]: "0"
+                  - generic [ref=e7095]: Billing Inst.
+                  - generic [ref=e7099]: Comments
+              - generic [ref=e7105]:
+                - generic [ref=e7107]:
+                  - heading [level=5] [ref=e7828]: Other Details
+                  - button [ref=e7829] [cursor=pointer]:
+                    - generic [ref=e7117]: 󰲶
+                - generic [ref=e7122]:
+                  - generic [ref=e7123]: Conference Business Potential
+                  - generic [ref=e7127]: Conference Requirements
+                  - generic [ref=e7131]: Competition Usage
+                  - generic [ref=e7135]: Company Size
+              - generic [ref=e7141]:
+                - generic [ref=e7143]:
+                  - heading [level=5] [ref=e7830]: Options
+                  - button [ref=e7831] [cursor=pointer]:
+                    - generic [ref=e7152]:
+                      - generic [ref=e7153]: 󰆓
+                      - text: Update
+                - table [ref=e7160]:
+                  - rowgroup [ref=e7161]:
+                    - row [ref=e7832]:
+                      - columnheader [ref=e7833]: Option
+                      - columnheader [ref=e7834]: Description
+                      - columnheader [ref=e7835]: Value
+                  - rowgroup [ref=e7166]:
+                    - row [ref=e7836]:
+                      - cell [ref=e7837]:
+                        - generic [ref=e7169]: ADAG
+                      - cell [ref=e7838]:
+                        - generic [ref=e7172]: Adult age starting from
+                      - cell [ref=e7174]:
+                        - textbox [ref=e7176]
+                    - row [ref=e7839]:
+                      - cell [ref=e7840]:
+                        - generic [ref=e7179]: FXCV
+                      - cell [ref=e7841]:
+                        - generic [ref=e7182]: FX Convert Rate EC/ET/BC/BT/SC/ST
+                      - cell [ref=e7842]:
+                        - generic [ref=e7187]:
+                          - generic [ref=e7188]:
+                            - generic [ref=e7189]: "--select--"
+                            - combobox [ref=e7190]:
+                              - textbox [ref=e7191]
+                          - generic [ref=e7192] [cursor=pointer]
+                    - row [ref=e7843]:
+                      - cell [ref=e7844]:
+                        - generic [ref=e7195]: FXRT
+                      - cell [ref=e7845]:
+                        - generic [ref=e7198]: Fx Conversion Rate (A)rrival/(D)aily/(M)onth Begin
+                      - cell [ref=e7846]:
+                        - generic [ref=e7203]:
+                          - generic [ref=e7204]:
+                            - generic [ref=e7205]: "--select--"
+                            - combobox [ref=e7206]:
+                              - textbox [ref=e7207]
+                          - generic [ref=e7208] [cursor=pointer]
+                    - row [ref=e7847]:
+                      - cell [ref=e7848]:
+                        - generic [ref=e7211]: MAGZ
+                      - cell [ref=e7849]:
+                        - generic [ref=e7214]: Subscribe Magazine
+                      - cell [ref=e7850]:
+                        - generic [ref=e7217]:
+                          - checkbox [ref=e7851] [cursor=pointer]
+                          - generic [ref=e7219] [cursor=pointer]: "No"
+                    - row [ref=e7852]:
+                      - cell [ref=e7853]:
+                        - generic [ref=e7222]: TYPE
+                      - cell [ref=e7854]:
+                        - generic [ref=e7225]: Travel Agent Type
+                      - cell [ref=e7855]:
+                        - generic [ref=e7230]:
+                          - generic [ref=e7231]:
+                            - generic [ref=e7234]:
+                              - generic [ref=e7235]: TA
+                              - generic [ref=e7856]: TravelAgent
+                            - combobox [ref=e7237]:
+                              - textbox [ref=e7238]
+                          - generic [ref=e7239] [cursor=pointer]
+        - contentinfo [ref=e3404]:
+          - generic [ref=e3406]:
+            - heading [level=6] [ref=e7857]: "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 02/07/2025"
+            - heading [level=6] [ref=e7858]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e3412]: 󰅒
+  - dialog [active] [ref=e7860]:
+    - document:
+      - generic [ref=e7863]:
+        - heading "󰧮 Availability" [level=4] [ref=e7865]:
+          - generic [ref=e7866]: 󰧮
+          - text: Availability
+        - generic [ref=e7870]:
+          - generic [ref=e7871]:
+            - generic [ref=e7872]:
+              - alert [ref=e7874]:
+                - generic [ref=e7875]: 
+                - strong [ref=e7877]: Refreshed on
+                - text: 02/07/2025 at 16:29
+              - generic [ref=e7880]:
+                - button "󰈲" [ref=e7881] [cursor=pointer]
+                - button "󰑐" [ref=e7884] [cursor=pointer]
+              - generic [ref=e7889]:
+                - generic [ref=e7890]: "View : Summary"
+                - generic [ref=e7891]: "Date : 02/07/2025"
+              - generic [ref=e7894]:
+                - generic [ref=e7895] [cursor=pointer]:
+                  - generic [ref=e7896]: "-"
+                  - text: Available
+                - generic [ref=e7897] [cursor=pointer]:
+                  - generic [ref=e7898]: "-"
+                  - text: Available Due to Over Booking(+)
+                - generic [ref=e7899] [cursor=pointer]:
+                  - generic [ref=e7900]: "-"
+                  - text: Room Not Available
+                - generic [ref=e7901] [cursor=pointer]:
+                  - generic [ref=e7902]: "-"
+                  - text: Not Available Due To UnderBooking
+                - generic [ref=e7903] [cursor=pointer]:
+                  - generic [ref=e7904]: 
+                  - text: Closed for Arrival
+                - generic [ref=e7907] [cursor=pointer]:
+                  - generic [ref=e7908]: 
+                  - text: Closed for Departure
+                - generic [ref=e7911] [cursor=pointer]:
+                  - generic [ref=e7912]: 
+                  - text: Only stay thru
+            - generic [ref=e7919]:
+              - generic [ref=e7921]:
+                - generic [ref=e7923] [cursor=pointer]
+                - generic [ref=e7925]:
+                  - generic "2 Wed" [ref=e7928] [cursor=pointer]
+                  - generic "3 Thu" [ref=e7932] [cursor=pointer]
+                  - generic "4 Fri" [ref=e7936] [cursor=pointer]
+                  - generic "5 Sat" [ref=e7940] [cursor=pointer]
+                  - generic "6 Sun" [ref=e7944] [cursor=pointer]
+                  - generic "7 Mon" [ref=e7948] [cursor=pointer]
+                  - generic "8 Tue" [ref=e7952] [cursor=pointer]
+                  - generic "9 Wed" [ref=e7956] [cursor=pointer]
+                  - generic "10 Thu" [ref=e7960] [cursor=pointer]
+                  - generic "11 Fri" [ref=e7964] [cursor=pointer]
+                  - generic "12 Sat" [ref=e7968] [cursor=pointer]
+                  - generic "13 Sun" [ref=e7972] [cursor=pointer]
+                  - generic "14 Mon" [ref=e7976] [cursor=pointer]
+                  - generic "15 Tue" [ref=e7980] [cursor=pointer]
+                  - generic "16 Wed" [ref=e7984] [cursor=pointer]
+                  - generic "17 Thu" [ref=e7988] [cursor=pointer]
+                  - generic "18 Fri" [ref=e7992] [cursor=pointer]
+                  - generic "19 Sat" [ref=e7996] [cursor=pointer]
+                  - generic "20 Sun" [ref=e8000] [cursor=pointer]
+                  - generic "21 Mon" [ref=e8004] [cursor=pointer]
+                  - generic "22 Tue" [ref=e8008] [cursor=pointer]
+                  - generic "23 Wed" [ref=e8012] [cursor=pointer]
+                  - generic "24 Thu" [ref=e8016] [cursor=pointer]
+                  - generic "25 Fri" [ref=e8020] [cursor=pointer]
+                  - generic "26 Sat" [ref=e8024] [cursor=pointer]
+                  - generic "27 Sun" [ref=e8028] [cursor=pointer]
+                  - generic "28 Mon" [ref=e8032] [cursor=pointer]
+                  - generic "29 Tue" [ref=e8036] [cursor=pointer]
+                  - generic "30 Wed" [ref=e8040] [cursor=pointer]
+                  - generic "31 Thu" [ref=e8044] [cursor=pointer]
+                  - generic "1 Fri" [ref=e8048] [cursor=pointer]
+              - generic [ref=e8051]:
+                - generic [ref=e8052]:
+                  - generic "DGT" [ref=e8059]
+                  - generic "117" [ref=e8065]
+                  - generic "124" [ref=e8071]
+                  - generic "136" [ref=e8077]
+                  - generic "142" [ref=e8083]
+                  - generic "142" [ref=e8089]
+                  - generic "144" [ref=e8095]
+                  - generic "146" [ref=e8101]
+                  - generic "147" [ref=e8107]
+                  - generic "150" [ref=e8113]
+                  - generic "150" [ref=e8119]
+                  - generic "150" [ref=e8125]
+                  - generic "150" [ref=e8131]
+                  - generic "151" [ref=e8137]
+                  - generic "151" [ref=e8143]
+                  - generic "151" [ref=e8149]
+                  - generic "151" [ref=e8155]
+                  - generic "-81" [ref=e8161]
+                  - generic "-81" [ref=e8167]
+                  - generic "-81" [ref=e8173]
+                  - generic "-81" [ref=e8179]
+                  - generic "-81" [ref=e8185]
+                  - generic "-81" [ref=e8191]
+                  - generic "-81" [ref=e8197]
+                  - generic "-81" [ref=e8203]
+                  - generic "-81" [ref=e8209]
+                  - generic "-81" [ref=e8215]
+                  - generic "-81" [ref=e8221]
+                  - generic "-81" [ref=e8227]
+                  - generic "-81" [ref=e8233]
+                  - generic "151" [ref=e8239]
+                  - generic "151" [ref=e8245]
+                - generic [ref=e8246]:
+                  - generic "LPT" [ref=e8253]
+                  - generic "27" [ref=e8259]
+                  - generic "31" [ref=e8265]
+                  - generic "30" [ref=e8271]
+                  - generic "33" [ref=e8277]
+                  - generic "33" [ref=e8283]
+                  - generic "49" [ref=e8289]
+                  - generic "49" [ref=e8295]
+                  - generic "49" [ref=e8301]
+                  - generic "50" [ref=e8307]
+                  - generic "49" [ref=e8313]
+                  - generic "49" [ref=e8319]
+                  - generic "49" [ref=e8325]
+                  - generic "49" [ref=e8331]
+                  - generic "49" [ref=e8337]
+                  - generic "49" [ref=e8343]
+                  - generic "49" [ref=e8349]
+                  - generic "49" [ref=e8355]
+                  - generic "50" [ref=e8361]
+                  - generic "50" [ref=e8367]
+                  - generic "50" [ref=e8373]
+                  - generic "50" [ref=e8379]
+                  - generic "50" [ref=e8385]
+                  - generic "50" [ref=e8391]
+                  - generic "50" [ref=e8397]
+                  - generic "50" [ref=e8403]
+                  - generic "50" [ref=e8409]
+                  - generic "50" [ref=e8415]
+                  - generic "50" [ref=e8421]
+                  - generic "50" [ref=e8427]
+                  - generic "50" [ref=e8433]
+                  - generic "50" [ref=e8439]
+                - generic [ref=e8440]:
+                  - generic "Delux Room" [ref=e8447]
+                  - generic "0" [ref=e8453]
+                  - generic "1" [ref=e8459]
+                  - generic "1" [ref=e8465]
+                  - generic "1" [ref=e8471]
+                  - generic "1" [ref=e8477]
+                  - generic "1" [ref=e8483]
+                  - generic "1" [ref=e8489]
+                  - generic "1" [ref=e8495]
+                  - generic "1" [ref=e8501]
+                  - generic "1" [ref=e8507]
+                  - generic "1" [ref=e8513]
+                  - generic "1" [ref=e8519]
+                  - generic "1" [ref=e8525]
+                  - generic "1" [ref=e8531]
+                  - generic "1" [ref=e8537]
+                  - generic "1" [ref=e8543]
+                  - generic "1" [ref=e8549]
+                  - generic "1" [ref=e8555]
+                  - generic "1" [ref=e8561]
+                  - generic "1" [ref=e8567]
+                  - generic "1" [ref=e8573]
+                  - generic "1" [ref=e8579]
+                  - generic "1" [ref=e8585]
+                  - generic "1" [ref=e8591]
+                  - generic "1" [ref=e8597]
+                  - generic "1" [ref=e8603]
+                  - generic "1" [ref=e8609]
+                  - generic "1" [ref=e8615]
+                  - generic "1" [ref=e8621]
+                  - generic "1" [ref=e8627]
+                  - generic "1" [ref=e8633]
+                - generic [ref=e8634]:
+                  - generic "Extra Bed In Room Big Family" [ref=e8641]
+                  - generic "2" [ref=e8647]
+                  - generic "2" [ref=e8653]
+                  - generic "2" [ref=e8659]
+                  - generic "2" [ref=e8665]
+                  - generic "2" [ref=e8671]
+                  - generic "2" [ref=e8677]
+                  - generic "2" [ref=e8683]
+                  - generic "2" [ref=e8689]
+                  - generic "2" [ref=e8695]
+                  - generic "2" [ref=e8701]
+                  - generic "2" [ref=e8707]
+                  - generic "2" [ref=e8713]
+                  - generic "2" [ref=e8719]
+                  - generic "2" [ref=e8725]
+                  - generic "2" [ref=e8731]
+                  - generic "2" [ref=e8737]
+                  - generic "0" [ref=e8743]
+                  - generic "0" [ref=e8749]
+                  - generic "0" [ref=e8755]
+                  - generic "0" [ref=e8761]
+                  - generic "0" [ref=e8767]
+                  - generic "0" [ref=e8773]
+                  - generic "0" [ref=e8779]
+                  - generic "0" [ref=e8785]
+                  - generic "0" [ref=e8791]
+                  - generic "0" [ref=e8797]
+                  - generic "0" [ref=e8803]
+                  - generic "0" [ref=e8809]
+                  - generic "0" [ref=e8815]
+                  - generic "0" [ref=e8821]
+                  - generic "2" [ref=e8827]
+                - generic [ref=e8828]:
+                  - generic "PRK" [ref=e8835]
+                  - generic "3" [ref=e8841]
+                  - generic "3" [ref=e8847]
+                  - generic "3" [ref=e8853]
+                  - generic "3" [ref=e8859]
+                  - generic "3" [ref=e8865]
+                  - generic "3" [ref=e8871]
+                  - generic "3" [ref=e8877]
+                  - generic "3" [ref=e8883]
+                  - generic "4" [ref=e8889]
+                  - generic "4" [ref=e8895]
+                  - generic "4" [ref=e8901]
+                  - generic "4" [ref=e8907]
+                  - generic "4" [ref=e8913]
+                  - generic "4" [ref=e8919]
+                  - generic "4" [ref=e8925]
+                  - generic "4" [ref=e8931]
+                  - generic "4" [ref=e8937]
+                  - generic "4" [ref=e8943]
+                  - generic "4" [ref=e8949]
+                  - generic "4" [ref=e8955]
+                  - generic "4" [ref=e8961]
+                  - generic "4" [ref=e8967]
+                  - generic "4" [ref=e8973]
+                  - generic "4" [ref=e8979]
+                  - generic "4" [ref=e8985]
+                  - generic "4" [ref=e8991]
+                  - generic "4" [ref=e8997]
+                  - generic "4" [ref=e9003]
+                  - generic "4" [ref=e9009]
+                  - generic "4" [ref=e9015]
+                  - generic "4" [ref=e9021]
+                - generic [ref=e9022]:
+                  - generic "Standart Double" [ref=e9029]
+                  - generic "0" [ref=e9035]
+                  - generic "1" [ref=e9041]
+                  - generic "2" [ref=e9047]
+                  - generic "2" [ref=e9053]
+                  - generic "2" [ref=e9059]
+                  - generic "11" [ref=e9065]
+                  - generic "11" [ref=e9071]
+                  - generic "11" [ref=e9077]
+                  - generic "11" [ref=e9083]
+                  - generic "11" [ref=e9089]
+                  - generic "11" [ref=e9095]
+                  - generic "11" [ref=e9101]
+                  - generic "11" [ref=e9107]
+                  - generic "11" [ref=e9113]
+                  - generic "11" [ref=e9119]
+                  - generic "11" [ref=e9125]
+                  - generic "11" [ref=e9131]
+                  - generic "11" [ref=e9137]
+                  - generic "11" [ref=e9143]
+                  - generic "11" [ref=e9149]
+                  - generic "11" [ref=e9155]
+                  - generic "11" [ref=e9161]
+                  - generic "11" [ref=e9167]
+                  - generic "11" [ref=e9173]
+                  - generic "11" [ref=e9179]
+                  - generic "11" [ref=e9185]
+                  - generic "11" [ref=e9191]
+                  - generic "11" [ref=e9197]
+                  - generic "11" [ref=e9203]
+                  - generic "11" [ref=e9209]
+                  - generic "11" [ref=e9215]
+                - generic [ref=e9216]:
+                  - generic "Standard Department" [ref=e9223]
+                  - generic "15" [ref=e9229]
+                  - generic "17" [ref=e9235]
+                  - generic "17" [ref=e9241]
+                  - generic "17" [ref=e9247]
+                  - generic "17" [ref=e9253]
+                  - generic "22" [ref=e9259]
+                  - generic "22" [ref=e9265]
+                  - generic "22" [ref=e9271]
+                  - generic "22" [ref=e9277]
+                  - generic "22" [ref=e9283]
+                  - generic "22" [ref=e9289]
+                  - generic "22" [ref=e9295]
+                  - generic "22" [ref=e9301]
+                  - generic "22" [ref=e9307]
+                  - generic "22" [ref=e9313]
+                  - generic "22" [ref=e9319]
+                  - generic "4" [ref=e9325]
+                  - generic "4" [ref=e9331]
+                  - generic "5" [ref=e9337]
+                  - generic "4" [ref=e9343]
+                  - generic "4" [ref=e9349]
+                  - generic "4" [ref=e9355]
+                  - generic "4" [ref=e9361]
+                  - generic "4" [ref=e9367]
+                  - generic "4" [ref=e9373]
+                  - generic "5" [ref=e9379]
+                  - generic "4" [ref=e9385]
+                  - generic "4" [ref=e9391]
+                  - generic "4" [ref=e9397]
+                  - generic "14" [ref=e9403]
+                  - generic "18" [ref=e9409]
+                - generic [ref=e9410]:
+                  - generic "SUITE CITY VIEW" [ref=e9417]
+                  - generic "54" [ref=e9423]
+                  - generic "59" [ref=e9429]
+                  - generic "61" [ref=e9435]
+                  - generic "64" [ref=e9441]
+                  - generic "64" [ref=e9447]
+                  - generic "64" [ref=e9453]
+                  - generic "64" [ref=e9459]
+                  - generic "64" [ref=e9465]
+                  - generic "69" [ref=e9471]
+                  - generic "69" [ref=e9477]
+                  - generic "69" [ref=e9483]
+                  - generic "69" [ref=e9489]
+                  - generic "69" [ref=e9495]
+                  - generic "69" [ref=e9501]
+                  - generic "69" [ref=e9507]
+                  - generic "69" [ref=e9513]
+                  - generic "2" [ref=e9519]
+                  - generic "2" [ref=e9525]
+                  - generic "3" [ref=e9531]
+                  - generic "4" [ref=e9537]
+                  - generic "3" [ref=e9543]
+                  - generic "12" [ref=e9549]
+                  - generic "12" [ref=e9555]
+                  - generic "12" [ref=e9561]
+                  - generic "12" [ref=e9567]
+                  - generic "13" [ref=e9573]
+                  - generic "13" [ref=e9579]
+                  - generic "13" [ref=e9585]
+                  - generic "12" [ref=e9591]
+                  - generic "43" [ref=e9597]
+                  - generic "71" [ref=e9603]
+              - generic [ref=e9605]:
+                - generic [ref=e9606]:
+                  - generic "Total Saleable" [ref=e9613]
+                  - generic "277" [ref=e9619]
+                  - generic "281" [ref=e9625]
+                  - generic "281" [ref=e9631]
+                  - generic "281" [ref=e9637]
+                  - generic "281" [ref=e9643]
+                  - generic "311" [ref=e9649]
+                  - generic "311" [ref=e9655]
+                  - generic "311" [ref=e9661]
+                  - generic "311" [ref=e9667]
+                  - generic "311" [ref=e9673]
+                  - generic "311" [ref=e9679]
+                  - generic "311" [ref=e9685]
+                  - generic "311" [ref=e9691]
+                  - generic "311" [ref=e9697]
+                  - generic "311" [ref=e9703]
+                  - generic "311" [ref=e9709]
+                  - generic "311" [ref=e9715]
+                  - generic "311" [ref=e9721]
+                  - generic "311" [ref=e9727]
+                  - generic "311" [ref=e9733]
+                  - generic "311" [ref=e9739]
+                  - generic "311" [ref=e9745]
+                  - generic "311" [ref=e9751]
+                  - generic "311" [ref=e9757]
+                  - generic "311" [ref=e9763]
+                  - generic "311" [ref=e9769]
+                  - generic "311" [ref=e9775]
+                  - generic "311" [ref=e9781]
+                  - generic "311" [ref=e9787]
+                  - generic "311" [ref=e9793]
+                  - generic "311" [ref=e9799]
+                - generic [ref=e9800]:
+                  - generic "Total Booked" [ref=e9807]
+                  - generic "69" [ref=e9813] [cursor=pointer]
+                  - generic "43" [ref=e9819] [cursor=pointer]
+                  - generic "29" [ref=e9825] [cursor=pointer]
+                  - generic "17" [ref=e9831] [cursor=pointer]
+                  - generic "17" [ref=e9837] [cursor=pointer]
+                  - generic "15" [ref=e9843] [cursor=pointer]
+                  - generic "13" [ref=e9849] [cursor=pointer]
+                  - generic "12" [ref=e9855] [cursor=pointer]
+                  - generic "2" [ref=e9861] [cursor=pointer]
+                  - generic "3" [ref=e9867] [cursor=pointer]
+                  - generic "3" [ref=e9873] [cursor=pointer]
+                  - generic "3" [ref=e9879] [cursor=pointer]
+                  - generic "2" [ref=e9885] [cursor=pointer]
+                  - generic "2" [ref=e9891] [cursor=pointer]
+                  - generic "2" [ref=e9897] [cursor=pointer]
+                  - generic "2" [ref=e9903] [cursor=pointer]
+                  - generic "321" [ref=e9909] [cursor=pointer]
+                  - generic "320" [ref=e9915] [cursor=pointer]
+                  - generic "318" [ref=e9921] [cursor=pointer]
+                  - generic "318" [ref=e9927] [cursor=pointer]
+                  - generic "319" [ref=e9933] [cursor=pointer]
+                  - generic "310" [ref=e9939] [cursor=pointer]
+                  - generic "310" [ref=e9945] [cursor=pointer]
+                  - generic "310" [ref=e9951] [cursor=pointer]
+                  - generic "310" [ref=e9957] [cursor=pointer]
+                  - generic "308" [ref=e9963] [cursor=pointer]
+                  - generic "309" [ref=e9969] [cursor=pointer]
+                  - generic "309" [ref=e9975] [cursor=pointer]
+                  - generic "310" [ref=e9981] [cursor=pointer]
+                  - generic "37" [ref=e9987] [cursor=pointer]
+                  - generic "3" [ref=e9993] [cursor=pointer]
+                - generic [ref=e9994]:
+                  - generic "Occupancy %" [ref=e10001]
+                  - generic "24.91" [ref=e10007]
+                  - generic "15.30" [ref=e10013]
+                  - generic "10.32" [ref=e10019]
+                  - generic "6.05" [ref=e10025]
+                  - generic "6.05" [ref=e10031]
+                  - generic "4.82" [ref=e10037]
+                  - generic "4.18" [ref=e10043]
+                  - generic "3.86" [ref=e10049]
+                  - generic "0.64" [ref=e10055]
+                  - generic "0.96" [ref=e10061]
+                  - generic "0.96" [ref=e10067]
+                  - generic "0.96" [ref=e10073]
+                  - generic "0.64" [ref=e10079]
+                  - generic "0.64" [ref=e10085]
+                  - generic "0.64" [ref=e10091]
+                  - generic "0.64" [ref=e10097]
+                  - generic "103.22" [ref=e10103]
+                  - generic "102.89" [ref=e10109]
+                  - generic "102.25" [ref=e10115]
+                  - generic "102.25" [ref=e10121]
+                  - generic "102.57" [ref=e10127]
+                  - generic "99.68" [ref=e10133]
+                  - generic "99.68" [ref=e10139]
+                  - generic "99.68" [ref=e10145]
+                  - generic "99.68" [ref=e10151]
+                  - generic "99.04" [ref=e10157]
+                  - generic "99.36" [ref=e10163]
+                  - generic "99.36" [ref=e10169]
+                  - generic "99.68" [ref=e10175]
+                  - generic "11.90" [ref=e10181]
+                  - generic "0.96" [ref=e10187]
+                - generic [ref=e10188]:
+                  - generic "Total Available" [ref=e10195]
+                  - generic "218" [ref=e10201]
+                  - generic "238" [ref=e10207]
+                  - generic "252" [ref=e10213]
+                  - generic "264" [ref=e10219]
+                  - generic "264" [ref=e10225]
+                  - generic "296" [ref=e10231]
+                  - generic "298" [ref=e10237]
+                  - generic "299" [ref=e10243]
+                  - generic "309" [ref=e10249]
+                  - generic "308" [ref=e10255]
+                  - generic "308" [ref=e10261]
+                  - generic "308" [ref=e10267]
+                  - generic "309" [ref=e10273]
+                  - generic "309" [ref=e10279]
+                  - generic "309" [ref=e10285]
+                  - generic "309" [ref=e10291]
+                  - generic "-10" [ref=e10297]
+                  - generic "-9" [ref=e10303]
+                  - generic "-7" [ref=e10309]
+                  - generic "-7" [ref=e10315]
+                  - generic "-8" [ref=e10321]
+                  - generic "1" [ref=e10327]
+                  - generic "1" [ref=e10333]
+                  - generic "1" [ref=e10339]
+                  - generic "1" [ref=e10345]
+                  - generic "3" [ref=e10351]
+                  - generic "2" [ref=e10357]
+                  - generic "2" [ref=e10363]
+                  - generic "1" [ref=e10369]
+                  - generic "274" [ref=e10375]
+                  - generic "308" [ref=e10381]
+          - button "Close" [ref=e10387] [cursor=pointer]

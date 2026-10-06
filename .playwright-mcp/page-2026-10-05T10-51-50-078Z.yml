@@ -1,0 +1,490 @@
+- generic [ref=e3189]:
+  - generic [ref=e3190]:
+    - banner [ref=e3191]:
+      - generic [ref=e3193]:
+        - generic [ref=e3194]:
+          - link [ref=e3196] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=e3200]:
+            - textbox "Search" [ref=e6061]: 󰅀
+            - generic [ref=e3202]: 󰍉
+        - heading "Webwish Hotel" [level=5] [ref=e6062]
+        - generic [ref=e3205]:
+          - button "󰅒" [ref=e6063] [cursor=pointer]
+          - button "" [ref=e6064] [cursor=pointer]
+          - button "" [ref=e6065] [cursor=pointer]
+          - button " 3" [ref=e6066] [cursor=pointer]:
+            - generic "Change Shift" [ref=e6067]: 
+            - generic [ref=e3218]: "3"
+          - generic [ref=e3219]:
+            - button "" [ref=e6068] [cursor=pointer]:
+              - generic "Notifications" [ref=e6069]: 
+            - text:  
+          - generic [ref=e3222]:
+            - button [ref=e6070] [cursor=pointer]:
+              - img "Header Avatar" [ref=e6071]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button [ref=e6072] [cursor=pointer]:
+            - img "Header Avatar" [ref=e6073]
+    - generic [ref=e3238]:
+      - text: 
+      - generic [ref=e3240]:
+        - region "scrollable content" [ref=e6074]:
+          - list [ref=e3247]:
+            - listitem
+            - listitem [ref=e6143]:
+              - link "" [ref=e6172] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - text:    
+        - button "" [ref=e6170] [cursor=pointer]
+    - generic [ref=e3292]:
+      - generic [ref=e6173]:
+        - generic [ref=e6176]:
+          - heading "Agent Maintenance" [level=3] [ref=e6179]
+          - toolbar "Grid actions" [ref=e6183]:
+            - button "New Account" [ref=e6185] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e6186]: 󰐕
+            - button "Refresh" [ref=e6189] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e6190]: 󰑐
+        - generic [ref=e6195]:
+          - generic [ref=e6198]:
+            - textbox "Search" [ref=e6199]
+            - generic [ref=e6200]: 󰍉
+            - button "All 󰅀" [ref=e6202] [cursor=pointer]:
+              - text: All
+              - generic [ref=e6203]: 󰅀
+          - generic [ref=e6205]:
+            - 'button "Total: 59" [disabled]'
+            - generic [ref=e6207]:
+              - generic [ref=e6208]:
+                - radio "" [checked]
+                - generic [ref=e6209] [cursor=pointer]: 
+              - generic [ref=e6212]:
+                - radio ""
+                - generic [ref=e6213] [cursor=pointer]: 
+        - generic [ref=e6223]:
+          - generic [ref=e6225]:
+            - generic [ref=e6227]:
+              - generic [ref=e6228]: SA
+              - generic [ref=e6232]:
+                - generic [ref=e6233]:
+                  - heading "saddsa" [level=6] [ref=e6234]
+                  - generic [ref=e6235]: "090"
+                - generic [ref=e6236]: asdad
+              - generic [ref=e6239]:
+                - button "Card actions" [ref=e6240] [cursor=pointer]:
+                  - generic [ref=e6241]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6243]:
+              - generic [ref=e6244]: MI
+              - generic [ref=e6248]:
+                - generic [ref=e6249]:
+                  - heading "Miscell" [level=6] [ref=e6250]
+                  - generic [ref=e6251]: "0909"
+                - generic [ref=e6252]: miscell pvt ltd
+                - generic [ref=e6254]: example@gmail.com
+              - generic [ref=e6257]:
+                - button "Card actions" [ref=e6258] [cursor=pointer]:
+                  - generic [ref=e6259]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6261]:
+              - generic [ref=e6262]: "12"
+              - generic [ref=e6266]:
+                - generic [ref=e6267]:
+                  - heading "12345" [level=6] [ref=e6268]
+                  - generic [ref=e6269]: 123AR
+                - generic [ref=e6270]: RTYUIOHGHJKL:KJJ
+                - generic [ref=e6272]: test@j.com
+              - generic [ref=e6275]:
+                - button "Card actions" [ref=e6276] [cursor=pointer]:
+                  - generic [ref=e6277]: 󰇙
+                - text: 󰛐
+          - generic [ref=e6279]:
+            - generic [ref=e6281]:
+              - generic [ref=e6282]: 3W
+              - generic [ref=e6286]:
+                - generic [ref=e6287]:
+                  - heading "360 DEGREE WORLD" [level=6] [ref=e6288]
+                  - generic [ref=e6289]: 360DW
+                - generic [ref=e6290]: 360 DEGREE WORLD
+                - generic [ref=e6292]: archutom@gmail.com
+              - generic [ref=e6295]:
+                - button "Card actions" [ref=e6296] [cursor=pointer]:
+                  - generic [ref=e6297]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6299]:
+              - generic [ref=e6300]: NA
+              - generic [ref=e6304]:
+                - generic [ref=e6305]:
+                  - heading "name" [level=6] [ref=e6306]
+                  - generic [ref=e6307]: 450SS
+                - generic [ref=e6308]: Legal name
+                - generic [ref=e6310]: ram@gmail.
+              - generic [ref=e6313]:
+                - button "Card actions" [ref=e6314] [cursor=pointer]:
+                  - generic [ref=e6315]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6317]:
+              - generic [ref=e6318]: SA
+              - generic [ref=e6322]:
+                - generic [ref=e6323]:
+                  - heading "Sachin travel Agent" [level=6] [ref=e6324]
+                  - generic [ref=e6325]: "898989"
+                - generic [ref=e6326]: legalname
+              - generic [ref=e6329]:
+                - button "Card actions" [ref=e6330] [cursor=pointer]:
+                  - generic [ref=e6331]: 󰇙
+                - text: 󰛐
+          - generic [ref=e6333]:
+            - generic [ref=e6335]:
+              - generic [ref=e6336]: GA
+              - generic [ref=e6340]:
+                - generic [ref=e6341]:
+                  - heading "giri travel agent" [level=6] [ref=e6342]
+                  - generic [ref=e6343]: "909090"
+                - generic [ref=e6344]: legalname
+              - generic [ref=e6347]:
+                - button "Card actions" [ref=e6348] [cursor=pointer]:
+                  - generic [ref=e6349]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6351]:
+              - generic [ref=e6352]: HA
+              - generic [ref=e6356]:
+                - generic [ref=e6357]:
+                  - heading "harsh" [level=6] [ref=e6358]
+                  - generic [ref=e6359]: "9454"
+                - generic [ref=e6360]: Harshitsharmaa
+              - generic [ref=e6363]:
+                - button "Card actions" [ref=e6364] [cursor=pointer]:
+                  - generic [ref=e6365]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6367]:
+              - generic [ref=e6368]: RA
+              - generic [ref=e6372]:
+                - generic [ref=e6373]:
+                  - heading "RAJKARAN" [level=6] [ref=e6374]
+                  - generic [ref=e6375]: 9530RAJ
+                - generic [ref=e6376]: rAJKARANTEST
+                - generic [ref=e6378]: Email@gmail.com
+              - generic [ref=e6381]:
+                - button "Card actions" [ref=e6382] [cursor=pointer]:
+                  - generic [ref=e6383]: 󰇙
+                - text: 󰛐
+          - generic [ref=e6385]:
+            - generic [ref=e6387]:
+              - generic [ref=e6388]: HJ
+              - generic [ref=e6392]:
+                - generic [ref=e6393]:
+                  - heading "H@rshit Sh@rm@ ji" [level=6] [ref=e6394]
+                  - generic [ref=e6395]: 9555HS
+                - generic [ref=e6396]: harshitSharmaa
+                - generic [ref=e6398]: Email@gmail.com
+              - generic [ref=e6401]:
+                - button "Card actions" [ref=e6402] [cursor=pointer]:
+                  - generic [ref=e6403]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6405]:
+              - generic [ref=e6406]: HA
+              - generic [ref=e6410]:
+                - generic [ref=e6411]:
+                  - heading "HARSHIT" [level=6] [ref=e6412]
+                  - generic [ref=e6413]: 9555HS1
+                - generic [ref=e6414]: HARSHIT
+              - generic [ref=e6417]:
+                - button "Card actions" [ref=e6418] [cursor=pointer]:
+                  - generic [ref=e6419]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6421]:
+              - generic [ref=e6422]: HA
+              - generic [ref=e6426]:
+                - generic [ref=e6427]:
+                  - heading "harsh" [level=6] [ref=e6428]
+                  - generic [ref=e6429]: 9555HSj
+                - generic [ref=e6430]: harshitsharma
+              - generic [ref=e6433]:
+                - button "Card actions" [ref=e6434] [cursor=pointer]:
+                  - generic [ref=e6435]: 󰇙
+                - text: 󰛐
+          - generic [ref=e6437]:
+            - generic [ref=e6439]:
+              - generic [ref=e6440]: DP
+              - generic [ref=e6444]:
+                - generic [ref=e6445]:
+                  - heading "dharmendra pradhan" [level=6] [ref=e6446]
+                  - generic [ref=e6447]: 9Z9Z
+                - generic [ref=e6448]: resign
+                - generic [ref=e6450]: example@gmail.com
+              - generic [ref=e6453]:
+                - button "Card actions" [ref=e6454] [cursor=pointer]:
+                  - generic [ref=e6455]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6457]:
+              - generic [ref=e6458]: AT
+              - generic [ref=e6462]:
+                - generic [ref=e6463]:
+                  - heading "ABC travels" [level=6] [ref=e6464]
+                  - generic [ref=e6465]: ABC
+                - generic [ref=e6466]: ABC Travels Pvt Ltd
+                - generic [ref=e6468]: pattanaik@prologicfirst.com
+              - generic [ref=e6471]:
+                - button "Card actions" [ref=e6472] [cursor=pointer]:
+                  - generic [ref=e6473]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6475]:
+              - generic [ref=e6476]: SA
+              - generic [ref=e6480]:
+                - generic [ref=e6481]:
+                  - heading "sa" [level=6] [ref=e6482]
+                  - generic [ref=e6483]: ABC1
+                - generic [ref=e6484]: sd
+                - generic [ref=e6486]: 11sachinkumar@gmail.com
+              - generic [ref=e6489]:
+                - button "Card actions" [ref=e6490] [cursor=pointer]:
+                  - generic [ref=e6491]: 󰇙
+                - text: 󰛐
+          - generic [ref=e6493]:
+            - generic [ref=e6495]:
+              - generic [ref=e6496]: SA
+              - generic [ref=e6500]:
+                - generic [ref=e6501]:
+                  - heading "SACHI" [level=6] [ref=e6502]
+                  - generic [ref=e6503]: ABCAA
+                - generic [ref=e6504]: KUMAR
+              - generic [ref=e6507]:
+                - button "Card actions" [ref=e6508] [cursor=pointer]:
+                  - generic [ref=e6509]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6511]:
+              - generic [ref=e6512]: AG
+              - generic [ref=e6516]:
+                - generic [ref=e6517]:
+                  - heading "aGENT" [level=6] [ref=e6518]
+                  - generic [ref=e6519]: AGE12345
+                - generic [ref=e6520]: IRSHAd
+              - generic [ref=e6523]:
+                - button "Card actions" [ref=e6524] [cursor=pointer]:
+                  - generic [ref=e6525]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6527]:
+              - generic [ref=e6528]: AT
+              - generic [ref=e6532]:
+                - generic [ref=e6533]:
+                  - heading "Agoda travel" [level=6] [ref=e6534]
+                  - generic [ref=e6535]: AGODa
+                - generic [ref=e6536]: Agoda travel agent
+              - generic [ref=e6539]:
+                - button "Card actions" [ref=e6540] [cursor=pointer]:
+                  - generic [ref=e6541]: 󰇙
+                - text: 󰛐
+          - generic [ref=e6543]:
+            - generic [ref=e6545]:
+              - generic [ref=e6546]: AG
+              - generic [ref=e6550]:
+                - generic [ref=e6551]:
+                  - heading "Agent_148598" [level=6] [ref=e6552]
+                  - generic [ref=e6553]: AGT14859
+                - generic [ref=e6554]: Agent_148598 Legal
+              - generic [ref=e6557]:
+                - button "Card actions" [ref=e6558] [cursor=pointer]:
+                  - generic [ref=e6559]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6561]:
+              - generic [ref=e6562]: AG
+              - generic [ref=e6566]:
+                - generic [ref=e6567]:
+                  - heading "Agent_474364" [level=6] [ref=e6568]
+                  - generic [ref=e6569]: AGT47436
+                - generic [ref=e6570]: Agent_474364 Legal
+              - generic [ref=e6573]:
+                - button "Card actions" [ref=e6574] [cursor=pointer]:
+                  - generic [ref=e6575]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6577]:
+              - generic [ref=e6578]: AG
+              - generic [ref=e6582]:
+                - generic [ref=e6583]:
+                  - heading "Agent_683139" [level=6] [ref=e6584]
+                  - generic [ref=e6585]: AGT68313
+                - generic [ref=e6586]: Agent_683139 Legal
+              - generic [ref=e6589]:
+                - button "Card actions" [ref=e6590] [cursor=pointer]:
+                  - generic [ref=e6591]: 󰇙
+                - text: 󰛐
+          - generic [ref=e6593]:
+            - generic [ref=e6595]:
+              - generic [ref=e6596]: AG
+              - generic [ref=e6600]:
+                - generic [ref=e6601]:
+                  - heading "Agent_698240" [level=6] [ref=e6602]
+                  - generic [ref=e6603]: AGT69824
+                - generic [ref=e6604]: Agent_698240 Legal
+              - generic [ref=e6607]:
+                - button "Card actions" [ref=e6608] [cursor=pointer]:
+                  - generic [ref=e6609]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6611]:
+              - generic [ref=e6612]: AG
+              - generic [ref=e6616]:
+                - generic [ref=e6617]:
+                  - heading "Agent_876507" [level=6] [ref=e6618]
+                  - generic [ref=e6619]: AGT87650
+                - generic [ref=e6620]: Agent_876507 Legal
+              - generic [ref=e6623]:
+                - button "Card actions" [ref=e6624] [cursor=pointer]:
+                  - generic [ref=e6625]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6627]:
+              - generic [ref=e6628]: RA
+              - generic [ref=e6632]:
+                - generic [ref=e6633]:
+                  - heading "Repro Agent" [level=6] [ref=e6634]
+                  - generic [ref=e6635]: AGT99999
+                - generic [ref=e6636]: Repro Agent Legal
+              - generic [ref=e6639]:
+                - button "Card actions" [ref=e6640] [cursor=pointer]:
+                  - generic [ref=e6641]: 󰇙
+                - text: 󰛐
+          - generic [ref=e6643]:
+            - generic [ref=e6645]:
+              - generic [ref=e6646]: MR
+              - generic [ref=e6650]:
+                - generic [ref=e6651]:
+                  - heading "Mr.babhbali" [level=6] [ref=e6652]
+                  - generic [ref=e6653]: BAHUBALi
+                - generic [ref=e6654]: Bahu
+              - generic [ref=e6657]:
+                - button "Card actions" [ref=e6658] [cursor=pointer]:
+                  - generic [ref=e6659]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6661]:
+              - generic [ref=e6662]: PA
+              - generic [ref=e6666]:
+                - generic [ref=e6667]:
+                  - heading "PATTANAIK" [level=6] [ref=e6668]
+                  - generic [ref=e6669]: DEBAJYOT
+                - generic [ref=e6670]: DEBAJYOTIPATTANAIK
+              - generic [ref=e6673]:
+                - button "Card actions" [ref=e6674] [cursor=pointer]:
+                  - generic [ref=e6675]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6677]:
+              - generic [ref=e6678]: RT
+              - generic [ref=e6682]:
+                - generic [ref=e6683]:
+                  - heading "Rate tiger" [level=6] [ref=e6684]
+                  - generic [ref=e6685]: EREV
+                - generic [ref=e6686]: Rate tiger
+                - generic [ref=e6688]: mukesh@prologicfirst.com
+              - generic [ref=e6691]:
+                - button "Card actions" [ref=e6692] [cursor=pointer]:
+                  - generic [ref=e6693]: 󰇙
+                - text: 󰛐
+          - generic [ref=e6695]:
+            - generic [ref=e6697]:
+              - generic [ref=e6698]: RE
+              - generic [ref=e6702]:
+                - generic [ref=e6703]:
+                  - heading "rerer" [level=6] [ref=e6704]
+                  - generic [ref=e6705]: EWEw
+                - generic [ref=e6706]: wewwe
+                - generic [ref=e6708]: EXAMPLE@GMAIL.COM
+              - generic [ref=e6711]:
+                - button "Card actions" [ref=e6712] [cursor=pointer]:
+                  - generic [ref=e6713]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6715]:
+              - generic [ref=e6716]: FP
+              - generic [ref=e6720]:
+                - generic [ref=e6721]:
+                  - heading "FAME PILOT" [level=6] [ref=e6722]
+                  - generic [ref=e6723]: FAME
+                - generic [ref=e6724]: FAME PILOT PVT LTD
+                - generic [ref=e6726]: archutom@gmail.com
+              - generic [ref=e6729]:
+                - button "Card actions" [ref=e6730] [cursor=pointer]:
+                  - generic [ref=e6731]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6733]:
+              - generic [ref=e6734]: GT
+              - generic [ref=e6738]:
+                - generic [ref=e6739]:
+                  - heading "Giri travles" [level=6] [ref=e6740]
+                  - generic [ref=e6741]: GH1234
+                - generic [ref=e6742]: giri travels
+              - generic [ref=e6745]:
+                - button "Card actions" [ref=e6746] [cursor=pointer]:
+                  - generic [ref=e6747]: 󰇙
+                - text: 󰛐
+          - generic [ref=e6749]:
+            - generic [ref=e6751]:
+              - generic [ref=e6752]: NE
+              - generic [ref=e6756]:
+                - generic [ref=e6757]:
+                  - heading "newTA" [level=6] [ref=e6758]
+                  - generic [ref=e6759]: GHNk
+                - generic [ref=e6760]: tAlegal
+              - generic [ref=e6763]:
+                - button "Card actions" [ref=e6764] [cursor=pointer]:
+                  - generic [ref=e6765]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6767]:
+              - generic [ref=e6768]: GK
+              - generic [ref=e6772]:
+                - generic [ref=e6773]:
+                  - heading "Ganesh kumar" [level=6] [ref=e6774]
+                  - generic [ref=e6775]: GKOOO1
+                - generic [ref=e6776]: Ganesh & Sons
+              - generic [ref=e6779]:
+                - button "Card actions" [ref=e6780] [cursor=pointer]:
+                  - generic [ref=e6781]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6783]:
+              - generic [ref=e6784]: GT
+              - generic [ref=e6788]:
+                - generic [ref=e6789]:
+                  - heading "gl kP travel" [level=6] [ref=e6790]
+                  - generic [ref=e6791]: GLKr
+                - generic [ref=e6792]: GLKP& Sons
+              - generic [ref=e6795]:
+                - button "Card actions" [ref=e6796] [cursor=pointer]:
+                  - generic [ref=e6797]: 󰇙
+                - text: 󰛐
+          - generic [ref=e6799]:
+            - generic [ref=e6801]:
+              - generic [ref=e6802]: GA
+              - generic [ref=e6806]:
+                - generic [ref=e6807]:
+                  - heading "guys-travel agent" [level=6] [ref=e6808]
+                  - generic [ref=e6809]: GUYs
+                - generic [ref=e6810]: guys travel agent
+              - generic [ref=e6813]:
+                - button "Card actions" [ref=e6814] [cursor=pointer]:
+                  - generic [ref=e6815]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6817]:
+              - generic [ref=e6818]: BA
+              - generic [ref=e6822]:
+                - generic [ref=e6823]:
+                  - heading "Brij travel agent" [level=6] [ref=e6824]
+                  - generic [ref=e6825]: Gy
+                - generic [ref=e6826]: brij travel
+              - generic [ref=e6829]:
+                - button "Card actions" [ref=e6830] [cursor=pointer]:
+                  - generic [ref=e6831]: 󰇙
+                - text: 󰛐
+            - generic [ref=e6833]:
+              - generic [ref=e6834]: GH
+              - generic [ref=e6838]:
+                - generic [ref=e6839]:
+                  - heading "Ghai" [level=6] [ref=e6840]
+                  - generic [ref=e6841]: GYZH
+                - generic [ref=e6842]: legal name
+              - generic [ref=e6845]:
+                - button "Card actions" [ref=e6846] [cursor=pointer]:
+                  - generic [ref=e6847]: 󰇙
+                - text: 󰛐
+      - contentinfo [ref=e3404]:
+        - generic [ref=e3406]:
+          - 'heading "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 02/07/2025" [level=6] [ref=e6097]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e6098]
+  - generic: 󰅒

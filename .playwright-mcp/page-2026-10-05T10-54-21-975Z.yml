@@ -1,0 +1,272 @@
+- generic [ref=e1]:
+  - generic [ref=e3189]:
+    - generic [ref=e3190]:
+      - banner [ref=e3191]:
+        - generic [ref=e3193]:
+          - generic [ref=e3194]:
+            - link [ref=e3196] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e3200]:
+              - textbox [ref=e7249]:
+                - /placeholder: Search
+                - text: 󰅀
+              - generic [ref=e3202]: 󰍉
+          - heading [level=5] [ref=e7250]: Webwish Hotel
+          - generic [ref=e3205]:
+            - button [ref=e7251] [cursor=pointer]:
+              - generic [ref=e3208]: 󰅒
+            - button [ref=e7252] [cursor=pointer]:
+              - generic [ref=e3211]: 
+            - button [ref=e7253] [cursor=pointer]:
+              - generic [ref=e3214]: 
+            - button [ref=e7254] [cursor=pointer]:
+              - generic [ref=e7255]: 
+              - generic [ref=e3218]: "3"
+            - generic [ref=e3219]:
+              - button [ref=e7256] [cursor=pointer]:
+                - generic [ref=e7257]: 
+              - text:  
+            - generic [ref=e3222]:
+              - button [ref=e7258] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e7260] [cursor=pointer]
+      - generic [ref=e3238]:
+        - text: 
+        - generic [ref=e3240]:
+          - region [ref=e7262]:
+            - list [ref=e3247]:
+              - listitem [ref=e6143]:
+                - link [ref=e7263] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e6146]: 
+                - text:    
+          - button [ref=e7264] [cursor=pointer]:
+            - generic [ref=e6171]: 
+      - generic [ref=e3292]:
+        - generic [ref=e6173]:
+          - generic [ref=e6176]:
+            - heading [level=3] [ref=e7265]: Agent Maintenance
+            - toolbar [ref=e7266]:
+              - button [ref=e7267] [cursor=pointer]:
+                - generic [ref=e6872]: Sections
+              - button [ref=e7268] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e6876]: 󱎸
+              - button [ref=e7269] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e6190]: 󰑐
+              - button [ref=e7270] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e6880]: 󰋚
+          - generic [ref=e6886]:
+            - generic [ref=e6888]:
+              - generic [ref=e6890]:
+                - generic [ref=e6892]:
+                  - heading [level=5] [ref=e7271]: Profile Info
+                  - button [ref=e7272] [cursor=pointer]:
+                    - generic [ref=e6902]: 󰲶
+                - generic [ref=e6907]:
+                  - generic [ref=e6910]:
+                    - generic [ref=e6911]: Id
+                    - heading [level=6] [ref=e7273]: AGT14859
+                  - generic [ref=e6915]:
+                    - generic [ref=e6916]: Name
+                    - heading [level=6] [ref=e7274]: Agent_148598
+                  - generic [ref=e6920]:
+                    - generic [ref=e6921]: Legal Name
+                    - heading [level=6] [ref=e7275]: Agent_148598 Legal
+                  - generic [ref=e6923]: Ar Id
+                  - generic [ref=e6927]: Sales Executive
+                  - generic [ref=e6931]: Market Segment
+                  - generic [ref=e6935]: Industry
+                  - generic [ref=e6939]: Importance Ind
+                  - generic [ref=e6945]:
+                    - generic [ref=e6946]: Main Head
+                    - heading [level=6] [ref=e7276]: OT
+                  - generic [ref=e6948]: Other Reference No
+                  - generic [ref=e6952]: Vat/Fiscal No.
+                  - generic [ref=e6956]: GSTIN Number
+                  - generic [ref=e6960]: Pan Number
+              - generic [ref=e6965]:
+                - heading [level=5] [ref=e7277]: Address
+                - generic [ref=e6975]:
+                  - generic [ref=e6976]:
+                    - generic [ref=e6979]:
+                      - generic [ref=e6980]: Address1
+                      - heading [level=6] [ref=e7278]: 123 Test Street
+                    - generic [ref=e6982]: Address2
+                    - generic [ref=e6986]: Address3
+                    - generic [ref=e6992]:
+                      - generic [ref=e6993]: Country
+                      - heading [level=6] [ref=e7279]: AE
+                    - generic [ref=e6995]: State
+                    - generic [ref=e6999]: City
+                    - generic [ref=e7003]: Zip
+                  - generic [ref=e7007]:
+                    - heading [level=5] [ref=e7280]: Contact Details
+                    - generic [ref=e7013]: Phone No. 1
+                    - generic [ref=e7017]: Phone No. 2
+                    - generic [ref=e7021]: Mobile
+                    - generic [ref=e7025]: Email
+                    - generic [ref=e7029]: Website
+            - generic [ref=e7033]:
+              - generic [ref=e7036]:
+                - generic [ref=e7038]:
+                  - heading [level=5] [ref=e7281]: Defaults
+                  - button [ref=e7282] [cursor=pointer]:
+                    - generic [ref=e7048]: 󰲶
+                - generic [ref=e7053]:
+                  - generic [ref=e7054]: Currency
+                  - generic [ref=e7058]: Domicile Code
+                  - generic [ref=e7062]: Room Type
+                  - generic [ref=e7066]: Market Segment
+                  - generic [ref=e7070]: Guest Class
+                  - generic [ref=e7074]: Business Source
+                  - generic [ref=e7078]: Payment Method
+                  - generic [ref=e7082]: Cancellation Policy
+                  - generic [ref=e7086]: Language Code
+                  - generic [ref=e7092]:
+                    - generic [ref=e7093]: Deposit Due Days
+                    - heading [level=6] [ref=e7283]: "0"
+                  - generic [ref=e7095]: Billing Inst.
+                  - generic [ref=e7099]: Comments
+              - generic [ref=e7105]:
+                - generic [ref=e7107]:
+                  - heading [level=5] [ref=e7284]: Other Details
+                  - button [ref=e7285] [cursor=pointer]:
+                    - generic [ref=e7117]: 󰲶
+                - generic [ref=e7122]:
+                  - generic [ref=e7123]: Conference Business Potential
+                  - generic [ref=e7127]: Conference Requirements
+                  - generic [ref=e7131]: Competition Usage
+                  - generic [ref=e7135]: Company Size
+              - generic [ref=e7141]:
+                - generic [ref=e7143]:
+                  - heading [level=5] [ref=e7286]: Options
+                  - button [ref=e7287] [cursor=pointer]:
+                    - generic [ref=e7152]:
+                      - generic [ref=e7153]: 󰆓
+                      - text: Update
+                - table [ref=e7160]:
+                  - rowgroup [ref=e7161]:
+                    - row [ref=e7288]:
+                      - columnheader [ref=e7289]: Option
+                      - columnheader [ref=e7290]: Description
+                      - columnheader [ref=e7291]: Value
+                  - rowgroup [ref=e7166]:
+                    - row [ref=e7292]:
+                      - cell [ref=e7293]:
+                        - generic [ref=e7169]: ADAG
+                      - cell [ref=e7294]:
+                        - generic [ref=e7172]: Adult age starting from
+                      - cell [ref=e7174]:
+                        - textbox [ref=e7176]
+                    - row [ref=e7295]:
+                      - cell [ref=e7296]:
+                        - generic [ref=e7179]: FXCV
+                      - cell [ref=e7297]:
+                        - generic [ref=e7182]: FX Convert Rate EC/ET/BC/BT/SC/ST
+                      - cell [ref=e7298]:
+                        - generic [ref=e7187]:
+                          - generic [ref=e7188]:
+                            - generic [ref=e7189]: "--select--"
+                            - combobox [ref=e7190]:
+                              - textbox [ref=e7191]
+                          - generic [ref=e7192] [cursor=pointer]
+                    - row [ref=e7299]:
+                      - cell [ref=e7300]:
+                        - generic [ref=e7195]: FXRT
+                      - cell [ref=e7301]:
+                        - generic [ref=e7198]: Fx Conversion Rate (A)rrival/(D)aily/(M)onth Begin
+                      - cell [ref=e7302]:
+                        - generic [ref=e7203]:
+                          - generic [ref=e7204]:
+                            - generic [ref=e7205]: "--select--"
+                            - combobox [ref=e7206]:
+                              - textbox [ref=e7207]
+                          - generic [ref=e7208] [cursor=pointer]
+                    - row [ref=e7303]:
+                      - cell [ref=e7304]:
+                        - generic [ref=e7211]: MAGZ
+                      - cell [ref=e7305]:
+                        - generic [ref=e7214]: Subscribe Magazine
+                      - cell [ref=e7306]:
+                        - generic [ref=e7217]:
+                          - checkbox [ref=e7307] [cursor=pointer]
+                          - generic [ref=e7219] [cursor=pointer]: "No"
+                    - row [ref=e7308]:
+                      - cell [ref=e7309]:
+                        - generic [ref=e7222]: TYPE
+                      - cell [ref=e7310]:
+                        - generic [ref=e7225]: Travel Agent Type
+                      - cell [ref=e7311]:
+                        - generic [ref=e7230]:
+                          - generic [ref=e7231]:
+                            - generic [ref=e7234]:
+                              - generic [ref=e7235]: TA
+                              - generic [ref=e7312]: TravelAgent
+                            - combobox [ref=e7237]:
+                              - textbox [ref=e7238]
+                          - generic [ref=e7239] [cursor=pointer]
+        - contentinfo [ref=e3404]:
+          - generic [ref=e3406]:
+            - heading [level=6] [ref=e7313]: "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 02/07/2025"
+            - heading [level=6] [ref=e7314]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e3412]: 󰅒
+  - dialog [aria-hidden] [ref=e7316]:
+    - document:
+      - generic [ref=e7319]:
+        - heading [level=4] [ref=e7377]:
+          - generic [ref=e7322]: 󰧮
+          - text: Allotment
+        - generic [ref=e7326]:
+          - generic [ref=e7336]:
+            - generic [ref=e7337]:
+              - generic [ref=e7340]:
+                - button [ref=e7378] [cursor=pointer]:
+                  - generic [ref=e7343]: 󰐗
+                - button [ref=e7379] [cursor=pointer]:
+                  - generic [ref=e7347]: 󰚃
+                - button [ref=e7380] [cursor=pointer]:
+                  - generic [ref=e7351]: 󰑐
+              - generic [ref=e7355]:
+                - textbox [ref=e7381]:
+                  - /placeholder: Search
+                - generic [ref=e7357]: 
+            - table [ref=e7359]:
+              - rowgroup [ref=e7360]:
+                - row [ref=e7382]:
+                  - columnheader [ref=e7362]:
+                    - checkbox [ref=e7363]
+                  - columnheader [ref=e7383]: 󰍝 Date From 󰍠
+                  - columnheader [ref=e7384]: Date To
+                  - columnheader [ref=e7385]: Room Type
+                  - columnheader [ref=e7386]: Blocked
+                  - columnheader [ref=e7368]
+          - button [ref=e7387] [cursor=pointer]: Close
+  - dialog [ref=e7389]:
+    - document:
+      - generic [ref=e7392]:
+        - heading "󰧮 Allotments" [level=4] [ref=e7394]:
+          - generic [ref=e7395]: 󰧮
+          - text: Allotments
+        - generic [ref=e7399]:
+          - generic [ref=e7402]:
+            - generic [ref=e7403]:
+              - generic [ref=e7404]: Date From*
+              - textbox "Select" [active] [ref=e7407]
+            - generic [ref=e7408]:
+              - generic [ref=e7409]: Date To*
+              - textbox "Select" [ref=e7412]
+            - generic [ref=e7413]:
+              - generic [ref=e7414]: Room Type*
+              - generic [ref=e7418]:
+                - generic [ref=e7419]:
+                  - generic [ref=e7420]: "--select--"
+                  - combobox [ref=e7421]:
+                    - textbox [ref=e7422]
+                - generic [ref=e7423] [cursor=pointer]
+            - generic [ref=e7424]:
+              - generic [ref=e7425]: Blocked*
+              - textbox [ref=e7428]: "1"
+          - generic [ref=e7433]:
+            - button "Save" [ref=e7434] [cursor=pointer]
+            - button "Save & Add New" [ref=e7435] [cursor=pointer]
+            - button "Close" [ref=e7436] [cursor=pointer]

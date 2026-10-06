@@ -1,0 +1,349 @@
+- generic [ref=f1e4]:
+  - generic [ref=f1e5]:
+    - banner [ref=f1e6]:
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - link [ref=f1e11] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=f1e15]:
+            - textbox "Search..." [ref=f1e16]: 󰅀
+            - generic [ref=f1e17]: 󰍉
+        - heading "DEMO HOTEL" [level=5] [ref=f1e19]
+        - generic [ref=f1e20]:
+          - button "󰅒" [ref=f1e22] [cursor=pointer]
+          - button "" [ref=f1e25] [cursor=pointer]
+          - button "" [ref=f1e28] [cursor=pointer]
+          - button " 1" [ref=f1e31] [cursor=pointer]:
+            - generic "Change Shift" [ref=f1e32]: 
+            - generic [ref=f1e33]: "1"
+          - generic [ref=f1e34]:
+            - button "" [ref=f1e35] [cursor=pointer]:
+              - generic "Notifications" [ref=f1e36]: 
+            - text:  
+          - generic [ref=f1e37]:
+            - button [expanded] [active] [ref=f1e38] [cursor=pointer]:
+              - img "Header Avatar" [ref=f1e40]
+            - generic [ref=f1e575]:
+              - generic [ref=f1e578]:
+                - generic [ref=f1e579]: 󰀉
+                - heading "CRISTINA MISHRA" [level=6] [ref=f1e581]
+                - paragraph
+              - tabpanel [ref=f1e583]:
+                - generic [ref=f1e585]:
+                  - link " My Properties" [ref=f1e587] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=f1e588]: 
+                    - generic [ref=f1e589]: My Properties
+                  - link "󰀉 My Profile" [ref=f1e591] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=f1e592]: 󰀉
+                    - generic [ref=f1e593]: My Profile
+                  - link "󰻨 My Mails" [ref=f1e595] [cursor=pointer]:
+                    - /url: /Webwish_APP/system-admin/SACG_EMAIL
+                    - generic [ref=f1e596]: 󰻨
+                    - generic [ref=f1e597]: My Mails
+                  - link "󰀋 Lock Screen" [ref=f1e599] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=f1e600]: 󰀋
+                    - generic [ref=f1e601]: Lock Screen
+                  - link "󰀋 Change password" [ref=f1e603] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=f1e604]: 󰀋
+                    - generic [ref=f1e605]: Change password
+                  - link "󰍃 Signout" [ref=f1e607] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=f1e608]: 󰍃
+                    - generic [ref=f1e609]: Signout
+          - button [ref=f1e42] [cursor=pointer]:
+            - img "Header Avatar" [ref=f1e44]
+    - generic [ref=f1e45]:
+      - text: 
+      - region "scrollable content" [ref=f1e52]:
+        - list [ref=f1e54]:
+          - listitem
+          - listitem [ref=f1e55]:
+            - link "" [ref=f1e57] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e59]:
+            - link "" [ref=f1e61] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e63]:
+            - link "" [ref=f1e65] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e67]:
+            - link "󰃢" [ref=f1e69] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e71]:
+            - link "" [ref=f1e72] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e74]:
+            - link "" [ref=f1e76] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e78]:
+            - link "" [ref=f1e80] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e82]:
+            - link "" [ref=f1e84] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e86]:
+            - link "" [ref=f1e88] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f1e90]:
+            - link "" [ref=f1e92] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem
+          - listitem: 
+          - listitem: 
+          - listitem [ref=f1e94]:
+            - link "" [ref=f1e96] [cursor=pointer]:
+              - /url: javascript:void(0);
+    - generic [ref=f1e99]:
+      - generic [ref=f1e102]:
+        - generic [ref=f1e106]:
+          - heading "Reservation Details" [level=3] [ref=f1e109]
+          - toolbar "Grid actions" [ref=f1e113]:
+            - button "Sections" [ref=f1e116] [cursor=pointer]
+            - button "Search" [ref=f1e120] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f1e121]: 󱎸
+            - button "Refresh" [ref=f1e124] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f1e125]: 󰑐
+            - button "Log" [ref=f1e128] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f1e129]: 󰋚
+            - button "More" [ref=f1e133] [cursor=pointer]
+        - generic [ref=f1e140]:
+          - generic [ref=f1e142]:
+            - generic [ref=f1e146]:
+              - generic [ref=f1e148]:
+                - heading "Guest Details 10146231" [level=5] [ref=f1e152]
+                - button "󰏫" [ref=f1e157] [cursor=pointer]
+              - generic [ref=f1e161]:
+                - generic [ref=f1e162]:
+                  - img "200x200" [ref=f1e167]
+                  - generic [ref=f1e168]:
+                    - generic [ref=f1e169]:
+                      - generic [ref=f1e170]: Last Name*
+                      - textbox [ref=f1e173]: ANAND KUMAR GUPT
+                    - generic [ref=f1e174]:
+                      - generic [ref=f1e175]: First Name
+                      - textbox [ref=f1e178]
+                    - generic [ref=f1e179]:
+                      - generic [ref=f1e180]: Title
+                      - combobox [ref=f1e185]:
+                        - textbox [disabled] [ref=f1e186]
+                    - generic [ref=f1e188]:
+                      - text: Profile Id
+                      - generic [ref=f1e189]:
+                        - generic [ref=f1e190]: "439943"
+                        - button "󰌸" [ref=f1e192] [cursor=pointer]
+                        - button "󰈈" [ref=f1e196] [cursor=pointer]
+                    - generic [ref=f1e199]:
+                      - generic [ref=f1e200]: Contact Number
+                      - textbox [ref=f1e203]
+                    - generic [ref=f1e204]:
+                      - generic [ref=f1e205]: Mail Id
+                      - textbox "example@gmail.com" [ref=f1e209]
+                    - generic [ref=f1e210]:
+                      - generic [ref=f1e211]: Domicile
+                      - combobox [ref=f1e216]:
+                        - textbox [disabled] [ref=f1e217]
+                    - generic [ref=f1e219]:
+                      - generic [ref=f1e220]: Guest Class*
+                      - generic [ref=f1e225]:
+                        - generic "Complimentary" [ref=f1e229]
+                        - combobox [ref=f1e230]:
+                          - textbox [disabled] [ref=f1e231]
+                    - generic [ref=f1e233]:
+                      - generic [ref=f1e234]: Market Segment*
+                      - generic [ref=f1e239]:
+                        - generic "AIRLINE GROUPS" [ref=f1e243]
+                        - combobox [ref=f1e244]:
+                          - textbox [disabled] [ref=f1e245]
+                    - generic [ref=f1e247]:
+                      - generic [ref=f1e248]: Business Source*
+                      - generic [ref=f1e253]:
+                        - generic "AGODA" [ref=f1e257]
+                        - combobox [ref=f1e258]:
+                          - textbox [disabled] [ref=f1e259]
+                    - generic [ref=f1e262]:
+                      - generic [ref=f1e263]: Booked Thru
+                      - heading [level=6]
+                    - generic [ref=f1e265]:
+                      - generic [ref=f1e266]: External Refrence
+                      - textbox [ref=f1e269]
+                - generic [ref=f1e270]:
+                  - generic [ref=f1e273]:
+                    - generic [ref=f1e274]: Comments
+                    - heading [level=6]
+                  - generic [ref=f1e277]:
+                    - generic [ref=f1e278]: Remarks
+                    - heading [level=6]
+            - generic [ref=f1e284]:
+              - heading "Stay Details" [level=5] [ref=f1e290]
+              - generic [ref=f1e296]:
+                - generic [ref=f1e297]:
+                  - generic [ref=f1e299]:
+                    - 'heading "Stay #1 - ANAND KUMAR GUPT" [level=5] [ref=f1e300]'
+                    - heading "102556260928" [level=5] [ref=f1e301]
+                  - generic [ref=f1e303]:
+                    - generic [ref=f1e304]: CONFIRMED
+                    - button "󰏫" [ref=f1e306] [cursor=pointer]
+                - generic [ref=f1e309]:
+                  - generic [ref=f1e311]:
+                    - generic [ref=f1e314]:
+                      - generic [ref=f1e315]: Arrival/Departure
+                      - heading "28/09/2026 to 29/09/2026" [level=6] [ref=f1e316]
+                    - generic [ref=f1e319]:
+                      - generic [ref=f1e320]: Nights
+                      - heading "1" [level=6] [ref=f1e321]
+                    - generic [ref=f1e324]:
+                      - generic [ref=f1e325]: Rooms and No. of Guest
+                      - heading "1-Rooms, 1-A, 0-Y, 0-C" [level=6] [ref=f1e326]
+                    - generic [ref=f1e329]:
+                      - generic [ref=f1e330]: Rate Code
+                      - heading "WKRO" [level=6] [ref=f1e331]
+                    - generic [ref=f1e334]:
+                      - generic [ref=f1e335]: Agreed Rate
+                      - heading "411.70" [level=6] [ref=f1e336]
+                    - generic [ref=f1e339]:
+                      - generic [ref=f1e340]: Currency
+                      - heading "AED" [level=6] [ref=f1e341]
+                    - button "󰷊" [ref=f1e345] [cursor=pointer]
+                    - generic [ref=f1e350]:
+                      - generic [ref=f1e351]: Expected Arrival Date
+                      - heading "28/09/2026" [level=6] [ref=f1e352]
+                    - generic [ref=f1e355]:
+                      - generic [ref=f1e356]: Expected Arrival Time
+                      - heading "12:00" [level=6] [ref=f1e357]
+                    - generic [ref=f1e360]:
+                      - generic [ref=f1e361]: Arrival Details
+                      - heading [level=6]
+                    - generic [ref=f1e364]:
+                      - generic [ref=f1e365]: Expected Departure Date
+                      - heading "29/09/2026" [level=6] [ref=f1e366]
+                    - generic [ref=f1e369]:
+                      - generic [ref=f1e370]: Expected Departure Time
+                      - heading "12:00" [level=6] [ref=f1e371]
+                    - generic [ref=f1e374]:
+                      - generic [ref=f1e375]: Departure Details
+                      - heading [level=6]
+                    - generic [ref=f1e378]:
+                      - generic [ref=f1e379]: Meal Plan
+                      - heading [level=6]
+                    - generic [ref=f1e382]:
+                      - generic [ref=f1e383]: Billing Instructions
+                      - heading [level=6]
+                  - generic [ref=f1e387]:
+                    - generic [ref=f1e388]: 
+                    - generic [ref=f1e390]:
+                      - generic [ref=f1e391]: DMK
+                      - generic [ref=f1e392]: N/A
+                      - generic [ref=f1e393]: ANAND KUMAR GUPT
+                      - button "Assign Room" [ref=f1e394] [cursor=pointer]
+                  - tablist [ref=f1e397]:
+                    - tab [ref=f1e399]:
+                      - button "Additional Services (0) + Add Services" [ref=f1e400] [cursor=pointer]:
+                        - generic [ref=f1e401]:
+                          - generic [ref=f1e402]: Additional Services (0)
+                          - generic [ref=f1e403]: + Add Services
+          - generic [ref=f1e404]:
+            - generic [ref=f1e405]:
+              - button "Cancel" [ref=f1e406] [cursor=pointer]
+              - button "Checkin" [ref=f1e407] [cursor=pointer]
+              - button "View Cashiering" [ref=f1e408] [cursor=pointer]
+              - button "Print Registration" [ref=f1e409] [cursor=pointer]
+            - generic [ref=f1e413]:
+              - generic [ref=f1e415]:
+                - heading "Bill Summary" [level=5] [ref=f1e416]
+                - generic [ref=f1e417]: Proforma InvoiceApply Discounts
+              - generic [ref=f1e420]:
+                - generic [ref=f1e421]:
+                  - heading "Due Amount" [level=6] [ref=f1e422]
+                  - heading "411.70" [level=5] [ref=f1e424]
+                - table [ref=f1e425]:
+                  - rowgroup [ref=f1e426]:
+                    - heading "Future Postings:" [level=6] [ref=f1e428]
+                    - row [ref=f1e429]:
+                      - cell "Deluxe Marina King (1 Room)" [ref=f1e430]
+                      - cell [ref=f1e431]:
+                        - heading "328.05" [level=6] [ref=f1e432]
+                    - row [ref=f1e433]:
+                      - cell "Municipality Fee (5%) 5 %" [ref=f1e434]
+                      - cell [ref=f1e436]:
+                        - heading "16.40" [level=6] [ref=f1e437]
+                    - row [ref=f1e438]:
+                      - cell "Service Charge (10%) 10 %" [ref=f1e439]
+                      - cell [ref=f1e441]:
+                        - heading "32.80" [level=6] [ref=f1e442]
+                    - row [ref=f1e443]:
+                      - cell "Tourism Fee (5%) 5 %" [ref=f1e444]
+                      - cell [ref=f1e446]:
+                        - heading "16.40" [level=6] [ref=f1e447]
+                    - row [ref=f1e448]:
+                      - cell "VAT (5%) 5.5 %" [ref=f1e449]
+                      - cell [ref=f1e451]:
+                        - heading "18.04" [level=6] [ref=f1e452]
+                    - row [ref=f1e453]:
+                      - cell "Total" [ref=f1e454]
+                      - cell [ref=f1e455]:
+                        - heading "411.70" [level=6] [ref=f1e456]
+                    - row [ref=f1e457]:
+                      - cell "Sub Total" [ref=f1e458]
+                      - cell [ref=f1e459]:
+                        - heading "411.70" [level=6] [ref=f1e460]
+              - generic [ref=f1e462]:
+                - generic [ref=f1e463]:
+                  - heading "Total" [level=6] [ref=f1e464]
+                  - heading "411.70" [level=5] [ref=f1e466]
+                - generic [ref=f1e467]:
+                  - heading "Payment" [level=6] [ref=f1e468]
+                  - heading "0.00" [level=5] [ref=f1e470]
+                - generic [ref=f1e471]:
+                  - heading "Due Amount" [level=6] [ref=f1e472]
+                  - heading "411.70" [level=5] [ref=f1e474]
+            - generic [ref=f1e475]:
+              - generic [ref=f1e479]:
+                - generic [ref=f1e481]:
+                  - heading "Payment Details" [level=5] [ref=f1e485]
+                  - button "󰏫" [ref=f1e490] [cursor=pointer]
+                - generic [ref=f1e495]:
+                  - generic [ref=f1e496]:
+                    - generic [ref=f1e497]: Payment*
+                    - generic [ref=f1e502]:
+                      - generic [ref=f1e505]:
+                        - generic [ref=f1e506]: CASH
+                        - generic "CASH" [ref=f1e507]
+                      - combobox [ref=f1e508]:
+                        - textbox [disabled] [ref=f1e509]
+                  - generic [ref=f1e511]:
+                    - generic [ref=f1e512]: Debtor Id
+                    - combobox [ref=f1e517]:
+                      - textbox [disabled] [ref=f1e518]
+                  - generic [ref=f1e522]:
+                    - generic [ref=f1e523]: GST Number
+                    - heading [level=6]
+                  - generic [ref=f1e526]:
+                    - generic [ref=f1e527]: VAT Number
+                    - heading [level=6]
+                  - generic [ref=f1e530]:
+                    - generic [ref=f1e531]: Deposit Due
+                    - heading "0.00" [level=6] [ref=f1e532]
+                  - generic [ref=f1e533]:
+                    - generic [ref=f1e534]: Due On
+                    - textbox [disabled] [ref=f1e537] [cursor=pointer]
+                  - generic [ref=f1e540]:
+                    - generic [ref=f1e541]: Deposit Received
+                    - heading "0.00" [level=6] [ref=f1e542]
+              - generic [ref=f1e546]:
+                - heading "Modification Details" [level=5] [ref=f1e552]
+                - generic [ref=f1e556]:
+                  - generic [ref=f1e557]:
+                    - generic [ref=f1e558]: Created By
+                    - heading "CRISTINA MISHRA" [level=6] [ref=f1e560]
+                  - generic [ref=f1e561]:
+                    - generic [ref=f1e562]: Created On
+                    - heading "02/10/2026, 18:20:52" [level=6] [ref=f1e564]
+      - contentinfo [ref=f1e565]:
+        - generic [ref=f1e567]:
+          - 'heading "Property Id: BDAR, User Id: CRISTINA MISHRA, Shift: 1, Business Date: 28/09/2026" [level=6] [ref=f1e569]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=f1e572]
+  - generic: 󰅒

@@ -1,0 +1,207 @@
+- generic [ref=e134]:
+  - generic [ref=e135]:
+    - banner [ref=e136]:
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - link [ref=e141] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=e145]:
+            - textbox "Search..." [ref=e146]: 󰅀
+            - generic [ref=e147]: 󰍉
+        - heading "Webwish Hotel" [level=5] [ref=e149]
+        - generic [ref=e150]:
+          - button "󰅒" [ref=e152] [cursor=pointer]
+          - button "" [ref=e155] [cursor=pointer]
+          - button "" [ref=e158] [cursor=pointer]
+          - button " 3" [ref=e161] [cursor=pointer]:
+            - generic "Change Shift" [ref=e162]: 
+            - generic [ref=e163]: "3"
+          - generic [ref=e164]:
+            - button "" [ref=e165] [cursor=pointer]:
+              - generic "Notifications" [ref=e166]: 
+            - text:  
+          - generic [ref=e167]:
+            - button [ref=e168] [cursor=pointer]:
+              - img "Header Avatar" [ref=e170]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button [ref=e172] [cursor=pointer]:
+            - img "Header Avatar" [ref=e174]
+    - generic [ref=e183]:
+      - text: 
+      - region "scrollable content" [ref=e190]:
+        - list [ref=e192]:
+          - listitem [ref=e359]:
+            - generic [ref=e360]: Front Office PMS
+          - listitem [ref=e193]:
+            - link " Dashboard" [ref=e541] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e196]: 
+              - generic [ref=e362]: Dashboard
+          - listitem [ref=e197]:
+            - link " Front Desk" [ref=e542] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e200]: 
+              - generic [ref=e364]: Front Desk
+          - listitem [ref=e201]:
+            - link " Cashiering" [ref=e543] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e204]: 
+              - generic [ref=e366]: Cashiering
+          - listitem [ref=e205]:
+            - link "󰃢 Housekeeping" [ref=e544] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e208]: 󰃢
+              - generic [ref=e368]: Housekeeping
+          - listitem [ref=e209]:
+            - link " Report" [active] [ref=e545] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e211]: 
+              - generic [ref=e370]: Report
+          - listitem [ref=e212]:
+            - link " Manager Functions" [ref=e546] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e215]: 
+              - generic [ref=e372]: Manager Functions
+          - listitem [ref=e216]:
+            - link " Marketing" [ref=e547] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e219]: 
+              - generic [ref=e374]: Marketing
+          - listitem [ref=e220]:
+            - link " Accounting" [ref=e548] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e223]: 
+              - generic [ref=e376]: Accounting
+          - listitem [ref=e224]:
+            - link " Night Audit" [ref=e549] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e227]: 
+              - generic [ref=e378]: Night Audit
+          - listitem [ref=e228]:
+            - link " FrontOffice Setup" [ref=e550] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e231]: 
+              - generic [ref=e380]: FrontOffice Setup
+          - listitem [ref=e381]:
+            - generic [ref=e382]: Systems Administration
+          - listitem [ref=e383]:
+            - list [ref=e386]:
+              - listitem [ref=e387]:
+                - link " Advance Control" [ref=e388] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e389]: 
+                  - generic [ref=e390]: Advance Control
+              - listitem
+          - listitem [ref=e391]:
+            - list [ref=e394]:
+              - listitem [ref=e395]:
+                - link " System Utilities" [ref=e396] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e397]: 
+                  - generic [ref=e398]: System Utilities
+              - listitem
+          - listitem [ref=e232]:
+            - link " System Configurations" [ref=e551] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - generic [ref=e235]: 
+              - generic [ref=e400]: System Configurations
+    - generic [ref=e237]:
+      - generic [ref=e412]:
+        - generic [ref=e416]:
+          - heading "Reports" [level=3] [ref=e417]
+          - generic [ref=e418]:
+            - generic:
+              - list
+            - button "󰑐" [ref=e422] [cursor=pointer]
+        - generic [ref=e425]:
+          - generic [ref=e426]:
+            - generic [ref=e428]:
+              - textbox "Search..." [ref=e429]
+              - generic [ref=e430]: 󰍉
+              - generic [ref=e431]:
+                - button "" [ref=e432] [cursor=pointer]
+                - button "" [ref=e434] [cursor=pointer]
+            - tablist [ref=e436]:
+              - tab "All" [selected] [ref=e437] [cursor=pointer]
+              - tab "Scheduled" [ref=e438] [cursor=pointer]
+              - tab "Night Audit" [ref=e439] [cursor=pointer]
+            - tabpanel [ref=e441]:
+              - region "scrollable content" [ref=e446]:
+                - tree [ref=e449]:
+                  - group [ref=e450]:
+                    - treeitem "Archive Reports" [ref=e451]:
+                      - generic [ref=e452] [cursor=pointer]:
+                        - generic [aria-hidden] [ref=e453]: ▸
+                        - generic [aria-hidden] [ref=e454]: 
+                        - generic [ref=e455]: Archive Reports
+                    - treeitem "Country Specific Reports" [ref=e456]:
+                      - generic [ref=e457] [cursor=pointer]:
+                        - generic [aria-hidden] [ref=e458]: ▸
+                        - generic [aria-hidden] [ref=e459]: 
+                        - generic [ref=e460]: Country Specific Reports
+                    - treeitem "Cashiering Reports" [ref=e461]:
+                      - generic [ref=e462] [cursor=pointer]:
+                        - generic [aria-hidden] [ref=e463]: ▸
+                        - generic [aria-hidden] [ref=e464]: 
+                        - generic [ref=e465]: Cashiering Reports
+                    - treeitem "Post Check In Reports" [ref=e466]:
+                      - generic [ref=e467] [cursor=pointer]:
+                        - generic [aria-hidden] [ref=e468]: ▸
+                        - generic [aria-hidden] [ref=e469]: 
+                        - generic [ref=e470]: Post Check In Reports
+                    - treeitem "Pre Check In Reports" [ref=e471]:
+                      - generic [ref=e472] [cursor=pointer]:
+                        - generic [aria-hidden] [ref=e473]: ▸
+                        - generic [aria-hidden] [ref=e474]: 
+                        - generic [ref=e475]: Pre Check In Reports
+                    - treeitem "User Log Details Report" [ref=e476]:
+                      - generic [ref=e477] [cursor=pointer]:
+                        - generic [aria-hidden] [ref=e478]: ▸
+                        - generic [aria-hidden] [ref=e479]: 
+                        - generic [ref=e480]: User Log Details Report
+                    - treeitem "Manager Reports" [ref=e481]:
+                      - generic [ref=e482] [cursor=pointer]:
+                        - generic [aria-hidden] [ref=e483]: ▸
+                        - generic [aria-hidden] [ref=e484]: 
+                        - generic [ref=e485]: Manager Reports
+                    - treeitem "Parameter Reports" [ref=e486]:
+                      - generic [ref=e487] [cursor=pointer]:
+                        - generic [aria-hidden] [ref=e488]: ▸
+                        - generic [aria-hidden] [ref=e489]: 
+                        - generic [ref=e490]: Parameter Reports
+                    - treeitem "Housekeeping Reports" [ref=e491]:
+                      - generic [ref=e492] [cursor=pointer]:
+                        - generic [aria-hidden] [ref=e493]: ▸
+                        - generic [aria-hidden] [ref=e494]: 
+                        - generic [ref=e495]: Housekeeping Reports
+                    - treeitem "Reports Repository" [ref=e496]:
+                      - generic [ref=e497] [cursor=pointer]:
+                        - generic [aria-hidden] [ref=e498]: 
+                        - generic [ref=e499]: Reports Repository
+          - generic [ref=e504]:
+            - generic [ref=e511]:
+              - heading [level=5] [ref=e512]:
+                - link "Selected Report" [ref=e513] [cursor=pointer]:
+                  - /url: javascript:void(0);
+              - paragraph [ref=e514]:
+                - generic [ref=e515]: Report Id
+            - region "scrollable content" [ref=e520]:
+              - table [ref=e522]:
+                - rowgroup [ref=e523]:
+                  - row [ref=e524]:
+                    - cell [ref=e525]:
+                      - strong [ref=e526]: Execution Type
+                    - cell ":" [ref=e527]
+                    - cell "View (PDF)" [ref=e528]:
+                      - generic [ref=e531]:
+                        - generic [ref=e532]:
+                          - generic "View (PDF)" [ref=e536]
+                          - combobox [ref=e537]:
+                            - textbox [ref=e538]
+                        - generic [ref=e539] [cursor=pointer]
+                    - cell [ref=e540]
+      - contentinfo [ref=e349]:
+        - generic [ref=e351]:
+          - 'heading "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 02/07/2025" [level=6] [ref=e353]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e356]
+  - generic: 󰅒

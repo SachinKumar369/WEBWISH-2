@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import logger from '../../../src/core/Logger';
 import { LoginPage } from '../../../src/pages/LoginPage';
 import { GuestReservationCancelPage } from '../../../src/pages/Regression/GuestReservationCancelPage';
-import { getUserByUsernameFromExcel } from '../../../src/utils/UserDataProvider';
+import { getUserByIndexFromExcel, getUserByUsernameFromExcel } from '../../../src/utils/UserDataProvider';
 
 /**
  * Test: Cancel a Guest Reservation via Guest Management.
@@ -22,7 +22,8 @@ test.describe.serial('Guest Reservation Cancel - Regression', () => {
     const guestCancel = new GuestReservationCancelPage(page, context);
 
     // ── Step 1: Login with user from Excel ──
-    const user = getUserByUsernameFromExcel('CR01'); // Stage user
+    const user = getUserByIndexFromExcel(5);
+    //const user = getUserByUsernameFromExcel('CR01'); // Stage user
     expect(user).toBeDefined();
 
     await test.step('Login with user + property from Excel', async () => {

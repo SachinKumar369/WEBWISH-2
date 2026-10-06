@@ -2,7 +2,7 @@
   "reportTitle": "Parameter Reports - Room Attribute DB Validation",
   "queryText": "select * from prm_room_attribute where property_id='webwe'",
   "totalDbRows": 9,
-  "totalMatchedRows": 9,
+  "totalMatchedRows": 0,
   "comparison": [
     {
       "rowNumber": 1,
@@ -12,14 +12,14 @@
           "value": "AUTOMATION"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "AUTOMATION"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 2,
@@ -29,14 +29,14 @@
           "value": "AUTOMATION"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "AUTOMATION"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 3,
@@ -46,14 +46,14 @@
           "value": "BALCONY"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "BALCONY"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 4,
@@ -63,14 +63,14 @@
           "value": "AUTOMATION"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "AUTOMATION"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 5,
@@ -80,14 +80,14 @@
           "value": "CONNECTING ROOMS"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "CONNECTING ROOMS"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 6,
@@ -97,14 +97,14 @@
           "value": "ELEVATOR"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "ELEVATOR"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 7,
@@ -114,14 +114,14 @@
           "value": "AUTOMATION"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "AUTOMATION"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 8,
@@ -131,14 +131,14 @@
           "value": "NEAR LIFT"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "NEAR LIFT"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     },
     {
       "rowNumber": 9,
@@ -148,14 +148,14 @@
           "value": "NO SMOKING"
         }
       ],
-      "matchedValues": [
+      "matchedValues": [],
+      "missingValues": [
         {
           "column": "description",
           "value": "NO SMOKING"
         }
       ],
-      "missingValues": [],
-      "matched": true
+      "matched": false
     }
   ]
 }

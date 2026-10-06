@@ -1,0 +1,193 @@
+- generic [ref=e1]:
+  - generic [ref=e3189]:
+    - generic [ref=e3190]:
+      - banner [ref=e3191]:
+        - generic [ref=e3193]:
+          - generic [ref=e3194]:
+            - link [ref=e3196] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e3200]:
+              - textbox "Search" [ref=e3201]: 󰅀
+              - generic [ref=e3202]: 󰍉
+          - heading "Webwish Hotel" [level=5] [ref=e3204]
+          - generic [ref=e3205]:
+            - button "󰅒" [ref=e3207] [cursor=pointer]
+            - button "" [ref=e3210] [cursor=pointer]
+            - button "" [ref=e3213] [cursor=pointer]
+            - button " 3" [ref=e3216] [cursor=pointer]:
+              - generic "Change Shift" [ref=e3217]: 
+              - generic [ref=e3218]: "3"
+            - generic [ref=e3219]:
+              - button "" [ref=e3220] [cursor=pointer]:
+                - generic "Notifications" [ref=e3221]: 
+              - text:  
+            - generic [ref=e3222]:
+              - button [ref=e3223] [cursor=pointer]:
+                - img "Header Avatar" [ref=e3225]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e3227] [cursor=pointer]:
+              - img "Header Avatar" [ref=e3229]
+      - generic [ref=e3238]:
+        - text: 
+        - region "scrollable content" [ref=e3245]:
+          - list [ref=e3247]:
+            - listitem
+            - listitem [ref=e3248]:
+              - link "" [ref=e3250] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=e3252]:
+              - link "" [ref=e3254] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=e3256]:
+              - link "" [ref=e3258] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=e3260]:
+              - link "󰃢" [ref=e3262] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=e3264]:
+              - link "" [ref=e3265] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=e3267]:
+              - link "" [ref=e3269] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=e3271]:
+              - link "" [ref=e3273] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=e3275]:
+              - link "" [ref=e3277] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=e3279]:
+              - link "" [ref=e3281] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=e3283]:
+              - link "" [ref=e3285] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem
+            - listitem: 
+            - listitem: 
+            - listitem [ref=e3287]:
+              - link "" [ref=e3289] [cursor=pointer]:
+                - /url: javascript:void(0);
+      - generic [ref=e3292]:
+        - generic [ref=e3295]:
+          - generic [ref=e3296]:
+            - heading "Welcome! Sachin Kumar." [level=2] [ref=e3302]
+            - generic [ref=e3306]:
+              - generic [ref=e3307]:
+                - generic [ref=e3310] [cursor=pointer]:
+                  - generic [ref=e3311]:
+                    - paragraph [ref=e3313]: Current Occupancy
+                    - heading " + 0 %" [level=5] [ref=e3315]:
+                      - generic [ref=e3316]: 
+                      - text: + 0 %
+                  - generic [ref=e3317]:
+                    - heading "24.91%" [level=4] [ref=e3319]
+                    - generic [ref=e3320]: 
+                - generic [ref=e3325] [cursor=pointer]:
+                  - generic [ref=e3326]:
+                    - paragraph [ref=e3328]: Expected Arrivals
+                    - heading " -138" [level=5] [ref=e3330]:
+                      - generic [ref=e3331]: 
+                      - text: "-138"
+                  - generic [ref=e3332]:
+                    - heading "4" [level=4] [ref=e3334]
+                    - generic [ref=e3335]: 
+                - generic [ref=e3340] [cursor=pointer]:
+                  - generic [ref=e3341]:
+                    - paragraph [ref=e3343]: In-house
+                    - heading " + 0" [level=5] [ref=e3345]:
+                      - generic [ref=e3346]: 
+                      - text: + 0
+                  - generic [ref=e3347]:
+                    - heading "195" [level=4] [ref=e3349]
+                    - generic [ref=e3350]: 
+                - generic [ref=e3355] [cursor=pointer]:
+                  - generic [ref=e3356]:
+                    - paragraph [ref=e3358]: Expected Departures
+                    - heading " + 124" [level=5] [ref=e3360]:
+                      - generic [ref=e3361]: 
+                      - text: + 124
+                  - generic [ref=e3362]:
+                    - heading "124" [level=4] [ref=e3364]
+                    - generic [ref=e3365]: 
+              - generic [ref=e3370]:
+                - textbox "search booking/booked thru/function" [ref=e3371]:
+                  - /placeholder: Search function/menu/guest/group/room...
+                  - text: 󰅀
+                - button "Search 󱎸" [ref=e3372] [cursor=pointer]:
+                  - text: Search
+                  - generic [ref=e3373]: 󱎸
+              - generic [ref=e3378]:
+                - generic [ref=e3380] [cursor=pointer]:
+                  - generic [ref=e3381]: 
+                  - paragraph [ref=e3383]: Guest Management
+                - generic [ref=e3385] [cursor=pointer]:
+                  - generic [ref=e3386]: 
+                  - paragraph [ref=e3388]: Group Management
+                - generic [ref=e3390] [cursor=pointer]:
+                  - generic [ref=e3391]: 
+                  - paragraph [ref=e3393]: Front Office Report
+                - generic [ref=e3395] [cursor=pointer]:
+                  - generic [ref=e3396]: 
+                  - paragraph [ref=e3398]: HouseKeeping Operations
+                - generic [ref=e3400] [cursor=pointer]:
+                  - generic [ref=e3401]: 
+                  - paragraph [ref=e3403]: Cashiering
+          - text:   󰒊
+        - contentinfo [ref=e3404]:
+          - generic [ref=e3406]:
+            - 'heading "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 02/07/2025" [level=6] [ref=e3408]'
+            - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e3411]
+    - generic: 󰅒
+  - dialog [ref=e3415]:
+    - generic [ref=e3416]:
+      - heading "Quick Access" [level=5] [ref=e3417]
+      - button "Close" [active] [ref=e3418] [cursor=pointer]
+    - region "scrollable content" [ref=e3424]:
+      - generic [ref=e3426]:
+        - heading [level=6]
+        - paragraph
+        - button "󰅒 Global search" [ref=e3429] [cursor=pointer]:
+          - generic [ref=e3430]: 󰅒
+          - text: Global search
+        - separator [ref=e3431]
+        - heading "Active Tabs" [level=6] [ref=e3432]
+        - paragraph
+        - generic [ref=e3435] [cursor=pointer]:
+          - generic [ref=e3436]: Agent Management
+          - generic [ref=e3437]: ×
+        - separator [ref=e3438]
+        - text:  
+        - heading "Quick Links" [level=6] [ref=e3439]
+        - paragraph
+        - button " Availability" [ref=e3443] [cursor=pointer]:
+          - generic [ref=e3444]: 
+          - text: Availability
+        - button " Cashier Scroll" [ref=e3448] [cursor=pointer]:
+          - generic [ref=e3449]: 
+          - text: Cashier Scroll
+        - button " EMERGENCY REPORT" [ref=e3453] [cursor=pointer]:
+          - generic [ref=e3454]: 
+          - text: EMERGENCY REPORT
+        - button " Fx Calculator" [ref=e3458] [cursor=pointer]:
+          - generic [ref=e3459]: 
+          - text: Fx Calculator
+        - button " House Position" [ref=e3463] [cursor=pointer]:
+          - generic [ref=e3464]: 
+          - text: House Position
+        - button " Lock Maintenance" [ref=e3468] [cursor=pointer]:
+          - generic [ref=e3469]: 
+          - text: Lock Maintenance
+        - button " Manual Alert" [ref=e3473] [cursor=pointer]:
+          - generic [ref=e3474]: 
+          - text: Manual Alert
+        - button " Rate Inquiry" [ref=e3478] [cursor=pointer]:
+          - generic [ref=e3479]: 
+          - text: Rate Inquiry
+        - button " SHIFTEND REPORT" [ref=e3483] [cursor=pointer]:
+          - generic [ref=e3484]: 
+          - text: SHIFTEND REPORT
+        - button " Shortcut Settings" [ref=e3488] [cursor=pointer]:
+          - generic [ref=e3489]: 
+          - text: Shortcut Settings
+        - separator [ref=e3490]

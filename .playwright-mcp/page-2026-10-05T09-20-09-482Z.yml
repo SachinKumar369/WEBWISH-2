@@ -1,0 +1,326 @@
+- generic [ref=e1]:
+  - generic [ref=e134]:
+    - generic [ref=e135]:
+      - banner [ref=e136]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - link [ref=e141] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e145]:
+              - textbox [ref=e634]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=e147]: 󰍉
+          - heading [level=5] [ref=e635]: WEBWISHQCMI
+          - generic [ref=e150]:
+            - button [ref=e636] [cursor=pointer]:
+              - generic [ref=e153]: 󰅒
+            - button [ref=e637] [cursor=pointer]:
+              - generic [ref=e156]: 
+            - button [ref=e638] [cursor=pointer]:
+              - generic [ref=e159]: 
+            - button [ref=e639] [cursor=pointer]:
+              - generic [ref=e640]: 
+              - generic [ref=e163]: "1"
+            - generic [ref=e164]:
+              - button [ref=e641] [cursor=pointer]:
+                - generic [ref=e642]: 
+              - text:  
+            - generic [ref=e167]:
+              - button [ref=e643] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e645] [cursor=pointer]:
+              - generic [ref=e173]: 
+      - generic [ref=e180]:
+        - text: 
+        - generic [ref=e182]:
+          - region [ref=e646]:
+            - list [ref=e189]:
+              - listitem [ref=e400]:
+                - link [ref=e647] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e403]: 
+                - text:    
+          - button [ref=e648] [cursor=pointer]:
+            - generic [ref=e428]: 
+      - generic [ref=e234]:
+        - generic [ref=e430]:
+          - generic [ref=e433]:
+            - heading [level=3] [ref=e649]: Agent Maintenance
+            - toolbar [ref=e650]:
+              - button [ref=e651] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e443]: 󰐕
+                - generic [ref=e444]: New Account
+              - button [ref=e652] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e447]: 󰑐
+          - generic [ref=e452]:
+            - generic [ref=e455]:
+              - textbox [ref=e653]:
+                - /placeholder: Search
+              - generic [ref=e457]: 󰍉
+              - button [ref=e654] [cursor=pointer]:
+                - text: All
+                - generic [ref=e460]: 󰅀
+            - generic [ref=e462]:
+              - button [disabled]: "Total: 9"
+              - generic [ref=e464]:
+                - generic [ref=e465]:
+                  - radio [checked]
+                  - generic [ref=e466] [cursor=pointer]: 
+                - generic [ref=e469]:
+                  - radio
+                  - generic [ref=e470] [cursor=pointer]: 
+          - generic [ref=e480]:
+            - generic [ref=e482]:
+              - generic [ref=e484]:
+                - generic [ref=e485]: HK
+                - generic [ref=e489]:
+                  - generic [ref=e490]:
+                    - heading [level=6] [ref=e655]: harshit khan
+                    - generic [ref=e492]: ABDULHA
+                  - generic [ref=e493]: harshit khan
+                - generic [ref=e496]:
+                  - button [ref=e656] [cursor=pointer]:
+                    - generic [ref=e498]: 󰇙
+                  - text: 󰛐
+              - generic [ref=e500]:
+                - generic [ref=e501]: AG
+                - generic [ref=e505]:
+                  - generic [ref=e506]:
+                    - heading [level=6] [ref=e657]: agent
+                    - generic [ref=e508]: AGEN4
+                  - generic [ref=e509]: agent
+                - generic [ref=e512]:
+                  - button [ref=e658] [cursor=pointer]:
+                    - generic [ref=e514]: 󰇙
+                  - text: 󰛐
+              - generic [ref=e516]:
+                - generic [ref=e517]: AC
+                - generic [ref=e521]:
+                  - generic [ref=e522]:
+                    - heading [level=6] [ref=e659]: abdul chaurasia
+                    - generic [ref=e524]: AGENt
+                  - generic [ref=e525]: this is legal name
+                  - generic [ref=e527]: chaurasia.abdul@khan.mohd
+                - generic [ref=e530]:
+                  - button [ref=e660] [cursor=pointer]:
+                    - generic [ref=e532]: 󰇙
+                  - text: 󰛐
+            - generic [ref=e534]:
+              - generic [ref=e536]:
+                - generic [ref=e537]: AG
+                - generic [ref=e541]:
+                  - generic [ref=e542]:
+                    - heading [level=6] [ref=e661]: agentA
+                    - generic [ref=e544]: AGENT11
+                  - generic [ref=e545]: AGENT
+                - generic [ref=e548]:
+                  - button [ref=e662] [cursor=pointer]:
+                    - generic [ref=e550]: 󰇙
+                  - text: 󰛐
+              - generic [ref=e552]:
+                - generic [ref=e553]: AG
+                - generic [ref=e557]:
+                  - generic [ref=e558]:
+                    - heading [level=6] [ref=e663]: AGAENT
+                    - generic [ref=e560]: AGENT12
+                  - generic [ref=e561]: AGENT
+                - generic [ref=e564]:
+                  - button [ref=e664] [cursor=pointer]:
+                    - generic [ref=e566]: 󰇙
+                  - text: 󰛐
+              - generic [ref=e568]:
+                - generic [ref=e569]: AG
+                - generic [ref=e573]:
+                  - generic [ref=e574]:
+                    - heading [level=6] [ref=e665]: agent
+                    - generic [ref=e576]: AGENT4
+                  - generic [ref=e577]: agent
+                - generic [ref=e580]:
+                  - button [ref=e666] [cursor=pointer]:
+                    - generic [ref=e582]: 󰇙
+                  - text: 󰛐
+            - generic [ref=e584]:
+              - generic [ref=e586]:
+                - generic [ref=e587]: HK
+                - generic [ref=e591]:
+                  - generic [ref=e592]:
+                    - heading [level=6] [ref=e667]: harshit gaffar khan
+                    - generic [ref=e594]: GAFFAr
+                  - generic [ref=e595]: harshit gaffar khan
+                - generic [ref=e598]:
+                  - button [ref=e668] [cursor=pointer]:
+                    - generic [ref=e600]: 󰇙
+                  - text: 󰛐
+              - generic [ref=e602]:
+                - generic [ref=e603]: GK
+                - generic [ref=e607]:
+                  - generic [ref=e608]:
+                    - heading [level=6] [ref=e669]: Gyanesh Kumar
+                    - generic [ref=e610]: KRM
+                  - generic [ref=e611]: criminal charge
+                - generic [ref=e614]:
+                  - button [ref=e670] [cursor=pointer]:
+                    - generic [ref=e616]: 󰇙
+                  - text: 󰛐
+              - generic [ref=e618]:
+                - generic [ref=e619]: MA
+                - generic [ref=e623]:
+                  - generic [ref=e624]:
+                    - heading [level=6] [ref=e671]: Maximojo
+                    - generic [ref=e626]: MAXM
+                  - generic [ref=e627]: Maximojo
+                - generic [ref=e630]:
+                  - button [ref=e672] [cursor=pointer]:
+                    - generic [ref=e632]: 󰇙
+                  - text: 󰛐
+        - contentinfo [ref=e346]:
+          - generic [ref=e348]:
+            - heading [level=6] [ref=e673]: "Property Id: WEBMI, User Id: Sachin Kumar, Shift: 1, Business Date: 23/09/2026"
+            - heading [level=6] [ref=e674]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e354]: 󰅒
+  - dialog [ref=e676]:
+    - document:
+      - generic [ref=e679]:
+        - heading "󰧮 Profile Details" [level=4] [ref=e681]:
+          - generic [ref=e682]: 󰧮
+          - text: Profile Details
+        - generic [ref=e686]:
+          - generic [ref=e687]:
+            - generic [ref=e689]:
+              - generic [ref=e691]:
+                - switch "Active" [disabled]
+                - generic [ref=e692]: Active
+              - generic [ref=e693]:
+                - generic [ref=e695]:
+                  - radio "None" [checked] [ref=e696] [cursor=pointer]
+                  - generic [ref=e697] [cursor=pointer]: None
+                - generic [ref=e699]:
+                  - radio "Is Channel" [ref=e700] [cursor=pointer]
+                  - generic [ref=e701] [cursor=pointer]: Is Channel
+                - generic [ref=e703]:
+                  - radio "Is Channel Manager" [ref=e704] [cursor=pointer]
+                  - generic [ref=e705] [cursor=pointer]: Is Channel Manager
+            - generic [ref=e706]:
+              - generic [ref=e707]:
+                - generic [ref=e708]: Id*
+                - textbox [ref=e711]: AGT001
+              - generic [ref=e712]:
+                - generic [ref=e713]: Name*
+                - textbox [ref=e716]: Automation Agent
+              - generic [ref=e717]:
+                - generic [ref=e718]: Legal Name*
+                - textbox [ref=e721]: Automation Agent Legal
+              - generic [ref=e722]:
+                - generic [ref=e723]: Ar Id
+                - generic [ref=e727]:
+                  - generic [ref=e728]:
+                    - generic [ref=e729]: "--select--"
+                    - combobox [ref=e730]:
+                      - textbox [ref=e731]
+                  - generic [ref=e732] [cursor=pointer]
+              - generic [ref=e733]:
+                - generic [ref=e734]: Sales Executive
+                - generic [ref=e738]:
+                  - generic [ref=e739]:
+                    - generic [ref=e740]: "--select--"
+                    - combobox [ref=e741]:
+                      - textbox [ref=e742]
+                  - generic [ref=e743] [cursor=pointer]
+              - generic [ref=e744]:
+                - generic [ref=e745]: Market Segment
+                - generic [ref=e749]:
+                  - generic [ref=e750]:
+                    - generic [ref=e751]: "--select--"
+                    - combobox [ref=e752]:
+                      - textbox [ref=e753]
+                  - generic [ref=e754] [cursor=pointer]
+              - generic [ref=e755]:
+                - generic [ref=e756]: Industry
+                - generic [ref=e760]:
+                  - generic [ref=e761]:
+                    - generic [ref=e762]: "--select--"
+                    - combobox [ref=e763]:
+                      - textbox [ref=e764]
+                  - generic [ref=e765] [cursor=pointer]
+              - generic [ref=e766]:
+                - generic [ref=e767]: Imprtance Ind
+                - generic [ref=e771]:
+                  - generic [ref=e772]:
+                    - generic [ref=e773]: "--select--"
+                    - combobox [ref=e774]:
+                      - textbox [ref=e775]
+                  - generic [ref=e776] [cursor=pointer]
+              - generic [ref=e777]:
+                - generic [ref=e778]: Main Head*
+                - generic [ref=e782]:
+                  - generic [ref=e783]:
+                    - generic [ref=e913]:
+                      - generic [ref=e914]: OT
+                      - generic "Others" [ref=e915]
+                    - combobox [ref=e785]:
+                      - textbox [active] [ref=e786]
+                  - generic "Clear all" [ref=e916] [cursor=pointer]:
+                    - generic [aria-hidden]: ×
+                  - generic [ref=e787] [cursor=pointer]
+              - generic [ref=e788]:
+                - generic [ref=e789]: Other Reference No
+                - textbox [ref=e792]
+              - generic [ref=e793]:
+                - generic [ref=e794]: Special Amenities
+                - generic [ref=e798]:
+                  - generic [ref=e799]:
+                    - generic [ref=e800]: "--select--"
+                    - combobox [ref=e801]:
+                      - textbox [ref=e802]
+                  - generic [ref=e803] [cursor=pointer]
+              - generic [ref=e804]:
+                - generic [ref=e805]: Vat No
+                - textbox "XX1234567X" [ref=e808]
+              - generic [ref=e809]:
+                - generic [ref=e810]: Pan No
+                - textbox "XXXXX0000X" [ref=e813]
+            - generic [ref=e814]:
+              - generic [ref=e815]:
+                - generic [ref=e816]: Address 1*
+                - textbox [ref=e819]
+              - generic [ref=e820]:
+                - generic [ref=e821]: Address 2
+                - textbox [ref=e824]
+              - generic [ref=e825]:
+                - generic [ref=e826]: Address 3
+                - textbox [ref=e829]
+            - generic [ref=e831]:
+              - generic [ref=e832]:
+                - generic [ref=e833]: Country*
+                - textbox [ref=e836]
+              - generic [ref=e837]:
+                - generic [ref=e838]: State
+                - textbox [ref=e841]
+              - generic [ref=e842]:
+                - generic [ref=e843]: City
+                - textbox [ref=e846]
+              - generic [ref=e847]:
+                - generic [ref=e848]: zip
+                - textbox [ref=e851]
+            - generic [ref=e852]:
+              - generic [ref=e853]:
+                - generic [ref=e854]: Phone No 1
+                - textbox [ref=e857]
+              - generic [ref=e858]:
+                - generic [ref=e859]: Phone No 2
+                - textbox [ref=e862]
+              - generic [ref=e863]:
+                - generic [ref=e864]: Mobile Number
+                - textbox [ref=e867]
+              - generic [ref=e868]:
+                - generic [ref=e869]: Email Id
+                - generic [ref=e872]:
+                  - textbox "example@gmail.com" [ref=e873]
+                  - generic [ref=e874]: 
+              - generic [ref=e875]:
+                - generic [ref=e876]: Website
+                - textbox [ref=e879]
+          - generic [ref=e884]:
+            - button "Save" [ref=e885] [cursor=pointer]
+            - button "Close" [ref=e886] [cursor=pointer]

@@ -1,0 +1,172 @@
+- generic [ref=e134]:
+  - generic [ref=e135]:
+    - banner [ref=e136]:
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - link [ref=e141] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=e145]:
+            - textbox "Search..." [ref=e146]: 󰅀
+            - generic [ref=e147]: 󰍉
+        - heading "WEBWISHQCMI" [level=5] [ref=e149]
+        - generic [ref=e150]:
+          - button "󰅒" [ref=e152] [cursor=pointer]
+          - button "" [ref=e155] [cursor=pointer]
+          - button "" [ref=e158] [cursor=pointer]
+          - button " 1" [ref=e161] [cursor=pointer]:
+            - generic "Change Shift" [ref=e162]: 
+            - generic [ref=e163]: "1"
+          - generic [ref=e164]:
+            - button "" [ref=e165] [cursor=pointer]:
+              - generic "Notifications" [ref=e166]: 
+            - text:  
+          - generic [ref=e167]:
+            - button [ref=e168] [cursor=pointer]:
+              - img "Header Avatar" [ref=e170]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button "" [ref=e172] [cursor=pointer]
+    - generic [ref=e180]:
+      - text: 
+      - generic [ref=e182]:
+        - region "scrollable content" [ref=e187]:
+          - list [ref=e189]:
+            - listitem
+            - listitem [ref=e400]:
+              - link "" [ref=e429] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - text:    
+        - button "" [ref=e427] [cursor=pointer]
+    - generic [ref=e234]:
+      - generic [ref=e430]:
+        - generic [ref=e433]:
+          - heading "Agent Maintenance" [level=3] [ref=e436]
+          - toolbar "Grid actions" [ref=e440]:
+            - button "New Account" [ref=e442] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e443]: 󰐕
+            - button "Refresh" [ref=e446] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e447]: 󰑐
+        - generic [ref=e452]:
+          - generic [ref=e455]:
+            - textbox "Search" [ref=e456]
+            - generic [ref=e457]: 󰍉
+            - button "All 󰅀" [ref=e459] [cursor=pointer]:
+              - text: All
+              - generic [ref=e460]: 󰅀
+          - generic [ref=e462]:
+            - 'button "Total: 9" [disabled]'
+            - generic [ref=e464]:
+              - generic [ref=e465]:
+                - radio "" [checked]
+                - generic [ref=e466] [cursor=pointer]: 
+              - generic [ref=e469]:
+                - radio ""
+                - generic [ref=e470] [cursor=pointer]: 
+        - generic [ref=e480]:
+          - generic [ref=e482]:
+            - generic [ref=e484]:
+              - generic [ref=e485]: HK
+              - generic [ref=e489]:
+                - generic [ref=e490]:
+                  - heading "harshit khan" [level=6] [ref=e491]
+                  - generic [ref=e492]: ABDULHA
+                - generic [ref=e493]: harshit khan
+              - generic [ref=e496]:
+                - button "Card actions" [ref=e497] [cursor=pointer]:
+                  - generic [ref=e498]: 󰇙
+                - text: 󰛐
+            - generic [ref=e500]:
+              - generic [ref=e501]: AG
+              - generic [ref=e505]:
+                - generic [ref=e506]:
+                  - heading "agent" [level=6] [ref=e507]
+                  - generic [ref=e508]: AGEN4
+                - generic [ref=e509]: agent
+              - generic [ref=e512]:
+                - button "Card actions" [ref=e513] [cursor=pointer]:
+                  - generic [ref=e514]: 󰇙
+                - text: 󰛐
+            - generic [ref=e516]:
+              - generic [ref=e517]: AC
+              - generic [ref=e521]:
+                - generic [ref=e522]:
+                  - heading "abdul chaurasia" [level=6] [ref=e523]
+                  - generic [ref=e524]: AGENt
+                - generic [ref=e525]: this is legal name
+                - generic [ref=e527]: chaurasia.abdul@khan.mohd
+              - generic [ref=e530]:
+                - button "Card actions" [ref=e531] [cursor=pointer]:
+                  - generic [ref=e532]: 󰇙
+                - text: 󰛐
+          - generic [ref=e534]:
+            - generic [ref=e536]:
+              - generic [ref=e537]: AG
+              - generic [ref=e541]:
+                - generic [ref=e542]:
+                  - heading "agentA" [level=6] [ref=e543]
+                  - generic [ref=e544]: AGENT11
+                - generic [ref=e545]: AGENT
+              - generic [ref=e548]:
+                - button "Card actions" [ref=e549] [cursor=pointer]:
+                  - generic [ref=e550]: 󰇙
+                - text: 󰛐
+            - generic [ref=e552]:
+              - generic [ref=e553]: AG
+              - generic [ref=e557]:
+                - generic [ref=e558]:
+                  - heading "AGAENT" [level=6] [ref=e559]
+                  - generic [ref=e560]: AGENT12
+                - generic [ref=e561]: AGENT
+              - generic [ref=e564]:
+                - button "Card actions" [ref=e565] [cursor=pointer]:
+                  - generic [ref=e566]: 󰇙
+                - text: 󰛐
+            - generic [ref=e568]:
+              - generic [ref=e569]: AG
+              - generic [ref=e573]:
+                - generic [ref=e574]:
+                  - heading "agent" [level=6] [ref=e575]
+                  - generic [ref=e576]: AGENT4
+                - generic [ref=e577]: agent
+              - generic [ref=e580]:
+                - button "Card actions" [ref=e581] [cursor=pointer]:
+                  - generic [ref=e582]: 󰇙
+                - text: 󰛐
+          - generic [ref=e584]:
+            - generic [ref=e586]:
+              - generic [ref=e587]: HK
+              - generic [ref=e591]:
+                - generic [ref=e592]:
+                  - heading "harshit gaffar khan" [level=6] [ref=e593]
+                  - generic [ref=e594]: GAFFAr
+                - generic [ref=e595]: harshit gaffar khan
+              - generic [ref=e598]:
+                - button "Card actions" [ref=e599] [cursor=pointer]:
+                  - generic [ref=e600]: 󰇙
+                - text: 󰛐
+            - generic [ref=e602]:
+              - generic [ref=e603]: GK
+              - generic [ref=e607]:
+                - generic [ref=e608]:
+                  - heading "Gyanesh Kumar" [level=6] [ref=e609]
+                  - generic [ref=e610]: KRM
+                - generic [ref=e611]: criminal charge
+              - generic [ref=e614]:
+                - button "Card actions" [ref=e615] [cursor=pointer]:
+                  - generic [ref=e616]: 󰇙
+                - text: 󰛐
+            - generic [ref=e618]:
+              - generic [ref=e619]: MA
+              - generic [ref=e623]:
+                - generic [ref=e624]:
+                  - heading "Maximojo" [level=6] [ref=e625]
+                  - generic [ref=e626]: MAXM
+                - generic [ref=e627]: Maximojo
+              - generic [ref=e630]:
+                - button "Card actions" [ref=e631] [cursor=pointer]:
+                  - generic [ref=e632]: 󰇙
+                - text: 󰛐
+      - contentinfo [ref=e346]:
+        - generic [ref=e348]:
+          - 'heading "Property Id: WEBMI, User Id: Sachin Kumar, Shift: 1, Business Date: 23/09/2026" [level=6] [ref=e350]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e353]
+  - generic: 󰅒
