@@ -47,6 +47,13 @@ export interface OverbookingAttemptResult {
   extraClickPopupText: string | null;   // Popup text on the extra click, if any (null = silently blocked)
 }
 
+/**
+ * Rows of the Quick Access → Availability grid. The grid is an `<app-data-grid>`
+ * (div-based, CDK virtual scroll) rather than a `<table>`; each `.dg-row` holds
+ * `.dg-cell`s: [room type / total label, day 1, day 2, …].
+ */
+const AVAILABILITY_GRID_ROW_SELECTOR = 'ngb-modal-window.show app-data-grid .dg-row';
+
 // ──────────────────────────────────────────────────────────────
 //  Page Object – Recreate Availability (System Utilities)
 // ──────────────────────────────────────────────────────────────
@@ -125,11 +132,15 @@ export class RecreateAvailabilityPage extends BasePage {
     // Quick Access panel
     this.quickAccessButton = this.page.locator('.side-button.shadow-lg');
     this.quickAccessPanel = this.page.locator('.offcanvas.show, ngb-offcanvas-panel.offcanvas, .offcanvas.offcanvas-end');
-    this.availabilityQuickLink = this.page.locator('button.list-group-item').filter({ hasText: 'Availability' });
+    // "Quick Links" tile: <button class="action-btn"><div class="icon-box">…</div><span class="btn-label">Availability</span></button>.
+    // Accessible name includes an icon glyph, so match on the exact label text (verified via Playwright MCP).
+    this.availabilityQuickLink = this.page
+      .locator('.offcanvas.show button.action-btn')
+      .filter({ has: this.page.locator('.btn-label', { hasText: /^\s*Availability\s*$/ }) });
 
-    // Availability grid — inside the NGB modal popup that appears after clicking Quick Access
+    // Availability grid — <app-data-grid> (div-based .dg-row/.dg-cell, no <table>) inside the NGB modal popup
     this.availabilityHeading = this.page.getByRole('heading', { name: 'Availability' });
-    this.availabilityTable = this.page.locator('.modal.show table, ngb-modal-window table').first();
+    this.availabilityTable = this.page.locator(AVAILABILITY_GRID_ROW_SELECTOR).first();
 
     // Business date header
     this.businessDateHeading = this.page.getByRole('heading', { name: /Business Date:/ });
@@ -339,8 +350,9 @@ export class RecreateAvailabilityPage extends BasePage {
 
   /**
    * Click on Availability in the Quick Access panel to open the availability grid.
-   * The Availability link is a button.list-group-item inside the offcanvas panel.
-   * Clicking it opens an NGB modal popup (ngb-modal-window) containing the table.
+   * The Availability link is a `button.action-btn` (label in `span.btn-label`) under
+   * "Quick Links" in the offcanvas panel. Clicking it opens an NGB modal popup
+   * (ngb-modal-window) containing the `<app-data-grid>` availability grid.
    */
   async clickAvailabilityQuickLink(): Promise<void> {
     logger.info('Clicking Availability in Quick Access panel');
@@ -348,14 +360,11 @@ export class RecreateAvailabilityPage extends BasePage {
     // The button is inside the offcanvas panel — click it directly
     await this.elementActions.click(this.availabilityQuickLink, 'Availability quick link');
 
-    // Wait for the availability modal popup (NGB modal) to appear
-    await this.page.waitForSelector('.modal.show table, ngb-modal-window table', {
-      state: 'visible',
-      timeout: 15000,
-    });
+    // Wait for the availability modal popup (NGB modal) to render its grid rows
+    await this.availabilityTable.waitFor({ state: 'visible', timeout: 15000 });
     await this.page.waitForTimeout(1000);
 
-    logger.info('Availability grid modal loaded with table');
+    logger.info('Availability grid modal loaded with data grid');
   }
 
   // ──────────────────────────────────────────────────────────────
@@ -400,24 +409,16 @@ export class RecreateAvailabilityPage extends BasePage {
   async captureAvailabilityGrid(): Promise<AvailabilityGridData> {
     logger.info('Capturing availability grid data');
 
-    // Wait for the table inside the availability modal to be visible
-    await this.page.waitForSelector('.modal.show table, ngb-modal-window table', {
-      state: 'visible',
-      timeout: 15000,
-    });
+    // Wait for the data grid rows inside the availability modal to be visible
+    await this.availabilityTable.waitFor({ state: 'visible', timeout: 15000 });
 
-    // Extract table data from the modal popup
-    const tableData = await this.page.evaluate(() => {
-      // Prefer the table inside the modal popup (NGB modal)
-      const modalTable = document.querySelector('.modal.show table') || document.querySelector('ngb-modal-window table');
-      const table = modalTable || document.querySelector('table');
-      if (!table) return null;
-
-      const rows = Array.from(table.querySelectorAll('tr'));
+    // Extract grid data from the modal popup
+    const tableData = await this.page.evaluate((rowSelector: string) => {
+      const rows = Array.from(document.querySelectorAll(rowSelector));
       const data: string[][] = [];
 
       for (const row of rows) {
-        const cells = Array.from(row.querySelectorAll('td, th'));
+        const cells = Array.from(row.querySelectorAll('.dg-cell'));
         const rowData = cells.map(cell => cell.textContent?.trim() || '');
         if (rowData.length > 0) {
           data.push(rowData);
@@ -425,24 +426,19 @@ export class RecreateAvailabilityPage extends BasePage {
       }
 
       return data;
-    });
+    }, AVAILABILITY_GRID_ROW_SELECTOR);
 
     if (!tableData || tableData.length === 0) {
-      throw new Error('Could not capture availability grid – table not found in modal popup');
+      throw new Error('Could not capture availability grid – data grid rows not found in modal popup');
     }
 
-    // Parse the data
-    // Row 0 = header (dates)
-    // Rows 1-8 = room types
-    // Row 9 = empty separator
-    // Row 10 = Total Saleable
-    // Row 11 = Total Booked
-    // Row 12 = Occupancy %
-    // Row 13 = Total Available
+    // Parse the data (header dates live in separate .dg-header-cell elements, not in rows)
+    // Rows 0..n-5      = room types (.dg-row-hoverable)
+    // Last four rows   = Total Saleable, Total Booked, Occupancy %, Total Available (.dg-row-pinned)
 
     const roomTypes: RoomAvailability[] = [];
 
-    for (let i = 1; i < tableData.length; i++) {
+    for (let i = 0; i < tableData.length; i++) {
       const row = tableData[i];
       const roomType = row[0];
       if (!roomType) continue;
@@ -872,20 +868,16 @@ export class RecreateAvailabilityPage extends BasePage {
   async getRoomAvailableCount(roomType: string): Promise<number> {
     logger.info(`Getting available count for room type: ${roomType}`);
 
-    const count = await this.page.evaluate((targetRoomType: string) => {
-      const modalTable = document.querySelector('.modal.show table') || document.querySelector('ngb-modal-window table');
-      const table = modalTable || document.querySelector('table');
-      if (!table) return -1;
-
-      const rows = Array.from(table.querySelectorAll('tr'));
+    const count = await this.page.evaluate(({ targetRoomType, rowSelector }) => {
+      const rows = Array.from(document.querySelectorAll(rowSelector));
       for (const row of rows) {
-        const cells = Array.from(row.querySelectorAll('td, th'));
+        const cells = Array.from(row.querySelectorAll('.dg-cell'));
         if (cells.length > 0 && cells[0]?.textContent?.trim() === targetRoomType) {
           return parseFloat(cells[1]?.textContent?.trim() || '0');
         }
       }
       return -1;
-    }, roomType);
+    }, { targetRoomType: roomType, rowSelector: AVAILABILITY_GRID_ROW_SELECTOR });
 
     logger.info(`Available count for ${roomType}: ${count}`);
     return count;

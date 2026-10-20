@@ -10,7 +10,9 @@ test.describe('Marketing - Profiles', () => {
   test.beforeEach(async ({ page, context }) => {
     profilesPage = new ProfilesPage(page, context);
     logger.info(`Starting test: ${test.info().title}`);
-    await page.setViewportSize({ width: 1280, height: 720 });
+    if (process.env.MAXIMIZE_BROWSER !== 'true') {
+      await page.setViewportSize({ width: 1280, height: 720 });
+    }
   });
 
   test.afterEach(async ({ page }) => {

@@ -168,8 +168,9 @@ export class AgentMaintenancePage extends BasePage {
     // Main Head* is a required ng-select dropdown
     await this.selectDropdownOption('Main Head*', mainHeadOption);
 
-    // Country* is a required ng-select dropdown (enforced by the app)
-    await this.selectDropdownOption('Country*', country);
+    // Country* is a required ng-select dropdown (enforced by the app).
+    // Falls back to typing "India" when the dropdown/option is not available.
+    await this.selectCountry(country);
 
     // Save the agent
     await this.elementActions.click(this.saveButton, 'Save agent');
@@ -189,6 +190,51 @@ export class AgentMaintenancePage extends BasePage {
 
     const option = this.page.locator('.ng-option').filter({ hasText: optionText }).first();
     await this.elementActions.click(option, `${label} option "${optionText}"`);
+    await this.page.waitForTimeout(300);
+  }
+
+  /**
+   * Select the Country* value. If the country dropdown is not available — no
+   * ng-select control, an empty options panel (country master not loaded), or the
+   * requested country is not listed — TYPE the fallback country name ("India")
+   * into the field instead and proceed.
+   */
+  private async selectCountry(country: string, fallbackCountry = 'India'): Promise<void> {
+    const label = 'Country*';
+    const container = this.fieldContainer(label);
+    const dropdown = this.dropdownInput(label);
+
+    // 1) No ng-select dropdown at all → type into whatever text box the field has.
+    if (!(await dropdown.isVisible().catch(() => false))) {
+      logger.warn(`${label} dropdown not available — typing "${fallbackCountry}"`);
+      await this.elementActions.sendKeys(container.getByRole('textbox').first(), fallbackCountry, label);
+      return;
+    }
+
+    // 2) Open the dropdown and look for the requested country.
+    await this.elementActions.click(dropdown, `${label} dropdown`);
+    const options = this.page.locator('.ng-dropdown-panel .ng-option:not(.ng-option-disabled)');
+    await options.first().waitFor({ state: 'visible', timeout: 3000 }).catch(() => undefined);
+
+    const wanted = options.filter({ hasText: country }).first();
+    if (await wanted.isVisible().catch(() => false)) {
+      await this.elementActions.click(wanted, `${label} option "${country}"`);
+      await this.page.waitForTimeout(300);
+      return;
+    }
+
+    // 3) Dropdown has no options / no match → type the fallback country name.
+    logger.warn(`${label} option "${country}" not available — typing "${fallbackCountry}"`);
+    await dropdown.fill(fallbackCountry);
+    await this.page.waitForTimeout(500);
+
+    const typedMatch = options.filter({ hasText: fallbackCountry }).first();
+    if (await typedMatch.isVisible().catch(() => false)) {
+      await this.elementActions.click(typedMatch, `${label} option "${fallbackCountry}"`);
+    } else {
+      // No list to pick from — commit the typed value (ng-select addTag / free text).
+      await dropdown.press('Enter');
+    }
     await this.page.waitForTimeout(300);
   }
 

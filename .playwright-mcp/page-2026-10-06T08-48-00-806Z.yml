@@ -1,0 +1,287 @@
+- generic [ref=e1]:
+  - generic [ref=e134]:
+    - generic [ref=e135]:
+      - banner [ref=e136]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - link [ref=e141] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e145]:
+              - textbox [ref=e1505]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=e147]: 󰍉
+          - heading [level=5] [ref=e1506]: Webwish Hotel
+          - generic [ref=e150]:
+            - button [ref=e1507] [cursor=pointer]:
+              - generic [ref=e153]: 󰅒
+            - button [ref=e1508] [cursor=pointer]:
+              - generic [ref=e156]: 
+            - button [ref=e1509] [cursor=pointer]:
+              - generic [ref=e159]: 
+            - button [ref=e1510] [cursor=pointer]:
+              - generic [ref=e1511]: 
+              - generic [ref=e163]: "3"
+            - generic [ref=e164]:
+              - button [ref=e1512] [cursor=pointer]:
+                - generic [ref=e1513]: 
+              - text:  
+            - generic [ref=e167]:
+              - button [ref=e1514] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e1516] [cursor=pointer]
+      - generic [ref=e183]:
+        - text: 
+        - generic [ref=e185]:
+          - region [ref=e1518]:
+            - list [ref=e192]:
+              - listitem [ref=e403]:
+                - link [ref=e1519] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e406]: 
+                - text:    
+          - button [ref=e1520] [cursor=pointer]:
+            - generic [ref=e431]: 
+      - generic [ref=e237]:
+        - generic [ref=e433]:
+          - generic [ref=e436]:
+            - heading [level=3] [ref=e1521]: Agent Maintenance
+            - toolbar [ref=e1522]:
+              - button [ref=e1523] [cursor=pointer]:
+                - generic [ref=e1128]: Sections
+              - button [ref=e1524] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e1132]: 󱎸
+              - button [ref=e1525] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e450]: 󰑐
+              - button [ref=e1526] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e1136]: 󰋚
+          - generic [ref=e1142]:
+            - generic [ref=e1144]:
+              - generic [ref=e1146]:
+                - generic [ref=e1148]:
+                  - heading [level=5] [ref=e1527]: Profile Info
+                  - button [ref=e1528] [cursor=pointer]:
+                    - generic [ref=e1158]: 󰲶
+                - generic [ref=e1163]:
+                  - generic [ref=e1166]:
+                    - generic [ref=e1167]: Id
+                    - heading [level=6] [ref=e1529]: AGT86729
+                  - generic [ref=e1171]:
+                    - generic [ref=e1172]: Name
+                    - heading [level=6] [ref=e1530]: Agent_867294
+                  - generic [ref=e1176]:
+                    - generic [ref=e1177]: Legal Name
+                    - heading [level=6] [ref=e1531]: Agent_867294 Legal
+                  - generic [ref=e1179]: Ar Id
+                  - generic [ref=e1183]: Sales Executive
+                  - generic [ref=e1187]: Market Segment
+                  - generic [ref=e1191]: Industry
+                  - generic [ref=e1195]: Importance Ind
+                  - generic [ref=e1201]:
+                    - generic [ref=e1202]: Main Head
+                    - heading [level=6] [ref=e1532]: OT
+                  - generic [ref=e1204]: Other Reference No
+                  - generic [ref=e1208]: Vat/Fiscal No.
+                  - generic [ref=e1212]: GSTIN Number
+                  - generic [ref=e1216]: Pan Number
+              - generic [ref=e1221]:
+                - heading [level=5] [ref=e1533]: Address
+                - generic [ref=e1231]:
+                  - generic [ref=e1232]:
+                    - generic [ref=e1235]:
+                      - generic [ref=e1236]: Address1
+                      - heading [level=6] [ref=e1534]: 123 Test Street
+                    - generic [ref=e1238]: Address2
+                    - generic [ref=e1242]: Address3
+                    - generic [ref=e1248]:
+                      - generic [ref=e1249]: Country
+                      - heading [level=6] [ref=e1535]: AE
+                    - generic [ref=e1251]: State
+                    - generic [ref=e1255]: City
+                    - generic [ref=e1259]: Zip
+                  - generic [ref=e1263]:
+                    - heading [level=5] [ref=e1536]: Contact Details
+                    - generic [ref=e1269]: Phone No. 1
+                    - generic [ref=e1273]: Phone No. 2
+                    - generic [ref=e1277]: Mobile
+                    - generic [ref=e1281]: Email
+                    - generic [ref=e1285]: Website
+            - generic [ref=e1289]:
+              - generic [ref=e1292]:
+                - generic [ref=e1294]:
+                  - heading [level=5] [ref=e1537]: Defaults
+                  - button [ref=e1538] [cursor=pointer]:
+                    - generic [ref=e1304]: 󰲶
+                - generic [ref=e1309]:
+                  - generic [ref=e1310]: Currency
+                  - generic [ref=e1314]: Domicile Code
+                  - generic [ref=e1318]: Room Type
+                  - generic [ref=e1322]: Market Segment
+                  - generic [ref=e1326]: Guest Class
+                  - generic [ref=e1330]: Business Source
+                  - generic [ref=e1334]: Payment Method
+                  - generic [ref=e1338]: Cancellation Policy
+                  - generic [ref=e1342]: Language Code
+                  - generic [ref=e1348]:
+                    - generic [ref=e1349]: Deposit Due Days
+                    - heading [level=6] [ref=e1539]: "0"
+                  - generic [ref=e1351]: Billing Inst.
+                  - generic [ref=e1355]: Comments
+              - generic [ref=e1361]:
+                - generic [ref=e1363]:
+                  - heading [level=5] [ref=e1540]: Other Details
+                  - button [ref=e1541] [cursor=pointer]:
+                    - generic [ref=e1373]: 󰲶
+                - generic [ref=e1378]:
+                  - generic [ref=e1379]: Conference Business Potential
+                  - generic [ref=e1383]: Conference Requirements
+                  - generic [ref=e1387]: Competition Usage
+                  - generic [ref=e1391]: Company Size
+              - generic [ref=e1397]:
+                - generic [ref=e1399]:
+                  - heading [level=5] [ref=e1542]: Options
+                  - button [ref=e1543] [cursor=pointer]:
+                    - generic [ref=e1408]:
+                      - generic [ref=e1409]: 󰆓
+                      - text: Update
+                - table [ref=e1416]:
+                  - rowgroup [ref=e1417]:
+                    - row [ref=e1544]:
+                      - columnheader [ref=e1545]: Option
+                      - columnheader [ref=e1546]: Description
+                      - columnheader [ref=e1547]: Value
+                  - rowgroup [ref=e1422]:
+                    - row [ref=e1548]:
+                      - cell [ref=e1549]:
+                        - generic [ref=e1425]: ADAG
+                      - cell [ref=e1550]:
+                        - generic [ref=e1428]: Adult age starting from
+                      - cell [ref=e1430]:
+                        - textbox [ref=e1432]
+                    - row [ref=e1551]:
+                      - cell [ref=e1552]:
+                        - generic [ref=e1435]: FXCV
+                      - cell [ref=e1553]:
+                        - generic [ref=e1438]: FX Convert Rate EC/ET/BC/BT/SC/ST
+                      - cell [ref=e1554]:
+                        - generic [ref=e1443]:
+                          - generic [ref=e1444]:
+                            - generic [ref=e1445]: "--select--"
+                            - combobox [ref=e1446]:
+                              - textbox [ref=e1447]
+                          - generic [ref=e1448] [cursor=pointer]
+                    - row [ref=e1555]:
+                      - cell [ref=e1556]:
+                        - generic [ref=e1451]: FXRT
+                      - cell [ref=e1557]:
+                        - generic [ref=e1454]: Fx Conversion Rate (A)rrival/(D)aily/(M)onth Begin
+                      - cell [ref=e1558]:
+                        - generic [ref=e1459]:
+                          - generic [ref=e1460]:
+                            - generic [ref=e1461]: "--select--"
+                            - combobox [ref=e1462]:
+                              - textbox [ref=e1463]
+                          - generic [ref=e1464] [cursor=pointer]
+                    - row [ref=e1559]:
+                      - cell [ref=e1560]:
+                        - generic [ref=e1467]: MAGZ
+                      - cell [ref=e1561]:
+                        - generic [ref=e1470]: Subscribe Magazine
+                      - cell [ref=e1562]:
+                        - generic [ref=e1473]:
+                          - checkbox [ref=e1563] [cursor=pointer]
+                          - generic [ref=e1475] [cursor=pointer]: "No"
+                    - row [ref=e1564]:
+                      - cell [ref=e1565]:
+                        - generic [ref=e1478]: TYPE
+                      - cell [ref=e1566]:
+                        - generic [ref=e1481]: Travel Agent Type
+                      - cell [ref=e1567]:
+                        - generic [ref=e1486]:
+                          - generic [ref=e1487]:
+                            - generic [ref=e1490]:
+                              - generic [ref=e1491]: TA
+                              - generic [ref=e1568]: TravelAgent
+                            - combobox [ref=e1493]:
+                              - textbox [ref=e1494]
+                          - generic [ref=e1495] [cursor=pointer]
+        - contentinfo [ref=e349]:
+          - generic [ref=e351]:
+            - heading [level=6] [ref=e1569]: "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 02/07/2025"
+            - heading [level=6] [ref=e1570]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e357]: 󰅒
+  - dialog [ref=e1572]:
+    - document:
+      - generic [ref=e1575]:
+        - heading "󰧮 Allotment" [level=4] [ref=e1577]:
+          - generic [ref=e1578]: 󰧮
+          - text: Allotment
+        - generic [ref=e1582]:
+          - generic [ref=e1592]:
+            - generic [ref=e1593]:
+              - generic [ref=e1596]:
+                - button "󰐗" [ref=e1598] [cursor=pointer]
+                - button "󰚃" [ref=e1602] [cursor=pointer]
+                - button "󰑐" [active] [ref=e1606] [cursor=pointer]
+              - generic [ref=e1611]:
+                - textbox "Search" [ref=e1612]
+                - generic [ref=e1613]: 
+            - table [ref=e1615]:
+              - rowgroup [ref=e1616]:
+                - row [ref=e1617]:
+                  - columnheader [ref=e1618]:
+                    - checkbox [ref=e1619]
+                  - columnheader "󰍝 Date From 󰍠" [ref=e1620]
+                  - columnheader "Date To" [ref=e1621]
+                  - columnheader "Room Type" [ref=e1622]
+                  - columnheader "Blocked" [ref=e1623]
+                  - columnheader [ref=e1624]
+              - rowgroup [ref=e1625]:
+                - row [ref=e1626]:
+                  - cell [ref=e1627]:
+                    - checkbox [ref=e1628]
+                  - cell "02/07/2025" [ref=e1629]
+                  - cell "06/07/2025" [ref=e1631]
+                  - cell "DELX" [ref=e1633]
+                  - cell "5" [ref=e1635]
+                  - cell "    " [ref=e1637]:
+                    - generic [ref=e1638]:
+                      - generic [ref=e1639]: 
+                      - generic [ref=e1641]: 
+                      - generic [ref=e1643]: 
+                      - generic [ref=e1645]: 
+                      - generic [ref=e1647]: 
+            - generic [ref=e1649]:
+              - generic [ref=e1650]:
+                - status [ref=e1651]: Showing 1 To 1 of 1 entries
+                - generic [ref=e1654]:
+                  - generic [ref=e1655]:
+                    - generic "10" [ref=e1659]
+                    - combobox [ref=e1660]:
+                      - textbox [ref=e1661]
+                  - generic [ref=e1662] [cursor=pointer]
+              - navigation [ref=e1665]:
+                - list [ref=e1666]:
+                  - listitem [ref=e1667]:
+                    - link "First" [disabled]:
+                      - /url: ""
+                      - generic: 
+                  - listitem [ref=e1668]:
+                    - link "Previous" [disabled]:
+                      - /url: ""
+                      - generic: 
+                  - listitem [ref=e1669]:
+                    - link "1 (current)" [ref=e1670] [cursor=pointer]:
+                      - /url: ""
+                      - text: "1"
+                      - generic [ref=e1671]: (current)
+                  - listitem [ref=e1672]:
+                    - link "Next" [disabled]:
+                      - /url: ""
+                      - generic: 
+                  - listitem [ref=e1673]:
+                    - link "Last" [disabled]:
+                      - /url: ""
+                      - generic: 
+          - button "Close" [ref=e1678] [cursor=pointer]
+  - tooltip "Refresh" [ref=e1679]

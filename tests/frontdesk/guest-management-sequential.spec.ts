@@ -19,8 +19,10 @@ test.describe('Frontdesk - Guest Management (Sequential)', () => {
     guestManagement = new GuestManagementPage(page, context);
     logger.info(`\n📋 Starting test: ${test.info().title}`);
 
-    // Set viewport
-    await page.setViewportSize({ width: 1280, height: 720 });
+    // Keep fixed viewport only when maximize mode is disabled
+    if (process.env.MAXIMIZE_BROWSER !== 'true') {
+      await page.setViewportSize({ width: 1280, height: 720 });
+    }
   });
 
   test.afterEach(async ({ page }) => {

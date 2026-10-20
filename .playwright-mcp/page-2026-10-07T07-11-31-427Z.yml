@@ -1,0 +1,109 @@
+- generic [ref=f4e4]:
+  - generic [ref=f4e5]:
+    - banner [ref=f4e6]:
+      - generic [ref=f4e8]:
+        - generic [ref=f4e9]:
+          - link [ref=f4e11] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=f4e15]:
+            - textbox "Search..." [ref=f4e16]: 󰅀
+            - generic [ref=f4e17]: 󰍉
+        - heading "WEBWISHQCMI" [level=5] [ref=f4e19]
+        - generic [ref=f4e20]:
+          - button "󰅒" [ref=f4e22] [cursor=pointer]
+          - button "" [ref=f4e25] [cursor=pointer]
+          - button "" [ref=f4e28] [cursor=pointer]
+          - button " 1" [ref=f4e31] [cursor=pointer]:
+            - generic "Change Shift" [ref=f4e32]: 
+            - generic [ref=f4e33]: "1"
+          - generic [ref=f4e34]:
+            - button "" [ref=f4e35] [cursor=pointer]:
+              - generic "Notifications" [ref=f4e36]: 
+            - text:  
+          - generic [ref=f4e37]:
+            - button [ref=f4e38] [cursor=pointer]:
+              - img "Header Avatar" [ref=f4e40]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button "" [ref=f4e42] [cursor=pointer]
+    - generic [ref=f4e45]:
+      - text: 
+      - region "scrollable content" [ref=f4e52]:
+        - list [ref=f4e54]:
+          - listitem
+          - listitem [ref=f4e55]:
+            - link "" [ref=f4e57] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f4e59]:
+            - link "" [ref=f4e61] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f4e63]:
+            - link "" [ref=f4e65] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f4e67]:
+            - link "󰃢" [ref=f4e69] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f4e71]:
+            - link "" [ref=f4e72] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f4e74]:
+            - link "" [ref=f4e76] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f4e78]:
+            - link "" [ref=f4e80] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f4e82]:
+            - link "" [ref=f4e84] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f4e86]:
+            - link "" [ref=f4e88] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f4e90]:
+            - link "" [ref=f4e92] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem
+          - listitem: 
+          - listitem: 
+          - listitem [ref=f4e94]:
+            - link "" [ref=f4e96] [cursor=pointer]:
+              - /url: javascript:void(0);
+    - generic [ref=f4e99]:
+      - generic [ref=f4e102]:
+        - generic [ref=f4e105]:
+          - heading "Agent Maintenance" [level=3] [ref=f4e108]
+          - toolbar "Grid actions" [ref=f4e112]:
+            - button "New Account" [ref=f4e114] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f4e115]: 󰐕
+            - button "Refresh" [ref=f4e118] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f4e119]: 󰑐
+        - generic [ref=f4e124]:
+          - generic [ref=f4e127]:
+            - textbox "Search" [active] [ref=f4e128]: Agent_987739
+            - generic [ref=f4e129]: 󰍉
+            - button "All 󰅀" [ref=f4e131] [cursor=pointer]:
+              - text: All
+              - generic [ref=f4e132]: 󰅀
+          - generic [ref=f4e134]:
+            - 'button "Total: 16" [disabled]'
+            - generic [ref=f4e136]:
+              - generic [ref=f4e137]:
+                - radio "" [checked]
+                - generic [ref=f4e138] [cursor=pointer]: 
+              - generic [ref=f4e141]:
+                - radio ""
+                - generic [ref=f4e142] [cursor=pointer]: 
+        - generic [ref=f4e156]:
+          - generic [ref=f4e157]: AG
+          - generic [ref=f4e161]:
+            - generic [ref=f4e162]:
+              - heading "Agent_987739" [level=6] [ref=f4e163]
+              - generic [ref=f4e164]: AGT98773
+            - generic [ref=f4e165]: Agent_987739 Legal
+          - generic [ref=f4e168]:
+            - button "Card actions" [ref=f4e169] [cursor=pointer]:
+              - generic [ref=f4e170]: 󰇙
+            - text: 󰛐
+      - contentinfo [ref=f4e172]:
+        - generic [ref=f4e174]:
+          - 'heading "Property Id: WEBMI, User Id: Sachin Kumar, Shift: 1, Business Date: 23/09/2026" [level=6] [ref=f4e176]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=f4e179]
+  - generic: 󰅒

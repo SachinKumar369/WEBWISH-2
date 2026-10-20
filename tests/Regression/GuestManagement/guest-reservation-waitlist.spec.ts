@@ -64,7 +64,8 @@ test.describe.serial('Guest Waitlist Reservation - Regression', () => {
 
   // ── Shared browser: launch once, login once (in test 1), reuse everywhere ──
   test.beforeAll(async ({ browser }) => {
-    sharedContext = await browser.newContext();
+    // viewport: null → page fills the maximized window (new contexts don't inherit the config viewport)
+    sharedContext = await browser.newContext({ viewport: process.env.MAXIMIZE_BROWSER === 'true' ? null : undefined });
     sharedPage = await sharedContext.newPage();
     logger.info('🚀 Shared browser context created — all tests reuse this session');
   });

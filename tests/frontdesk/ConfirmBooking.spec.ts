@@ -17,7 +17,9 @@ test.describe('Frontdesk - Confirm Booking', () => {
     loginPage = new LoginPage(page, context);
 
     logger.info(`Starting test: ${test.info().title}`);
-    await page.setViewportSize({ width: 1280, height: 720 });
+    if (process.env.MAXIMIZE_BROWSER !== 'true') {
+      await page.setViewportSize({ width: 1280, height: 720 });
+    }
 
     const user = await testDataManager.getUserCredentials('all');
     expect(user).toBeDefined();

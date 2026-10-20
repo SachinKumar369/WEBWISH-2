@@ -9,7 +9,8 @@ type AuthFixtures = {
 export const test = base.extend<AuthFixtures>({
   authenticatedPage: async ({ browser }, use) => {
 
-    const context: BrowserContext = await browser.newContext();
+    // viewport: null → page fills the maximized window (new contexts don't inherit the config viewport)
+    const context: BrowserContext = await browser.newContext({ viewport: process.env.MAXIMIZE_BROWSER === 'true' ? null : undefined });
     const page: Page = await context.newPage();
 
     const loginPage = new LoginPage(page, context);

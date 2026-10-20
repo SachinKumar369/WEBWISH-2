@@ -1,0 +1,12 @@
+[ 4257288ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qc2.prologicfirst.in/Webwish_API/api/GroupReservation/ShiftRoomType:0
+[ 4263584ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qc2.prologicfirst.in/Webwish_API/api/GroupReservation/ShiftRoomType:0
+[ 4361261ms] [WARNING] The specified value "2026-09-23 to 2026-09-28" does not conform to the required format, "yyyy-MM-dd". @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 4365569ms] [WARNING] The specified value "2026-09-23 to 2026-09-28" does not conform to the required format, "yyyy-MM-dd". @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 4368531ms] [WARNING] The specified value "2026-09-23 to 2026-09-28" does not conform to the required format, "yyyy-MM-dd". @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 4372440ms] [WARNING] The specified value "2026-09-23 to 2026-09-28" does not conform to the required format, "yyyy-MM-dd". @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 4375722ms] [WARNING] The specified value "2026-09-23 to 2026-09-28" does not conform to the required format, "yyyy-MM-dd". @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 4376939ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qc2.prologicfirst.in/Webwish_API/api/GroupReservation/CreateRoomingList:0
+[ 4499857ms] [WARNING] The specified value "2026-09-23 to 2026-09-28" does not conform to the required format, "yyyy-MM-dd". @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 4502631ms] [WARNING] The specified value "2026-09-23 to 2026-09-28" does not conform to the required format, "yyyy-MM-dd". @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 4505958ms] [WARNING] The specified value "2026-09-23 to 2026-09-28" does not conform to the required format, "yyyy-MM-dd". @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 7339283ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/SystemSetup/FDSK_QWGRP01/RC/200019260918:0

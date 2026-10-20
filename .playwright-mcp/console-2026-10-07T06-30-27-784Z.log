@@ -1,0 +1,100 @@
+[      16ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/Marketing/MKTG_MKT25A/T/2037:0
+[   91586ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/dashboard:0
+[  101112ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0
+[  128956ms] [ERROR] Connecting to 'https://api.ipify.org/?format=json' violates the following Content Security Policy directive: "connect-src 'self' https://qc2.prologicfirst.in". The action has been blocked. @ https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:0
+[  128956ms] [ERROR] Fetch API cannot load https://api.ipify.org/?format=json. Refused to connect because it violates the document's Content Security Policy. @ https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:0
+[  128959ms] [ERROR] Running the JavaScript URL violates the following Content Security Policy directive 'script-src 'self' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked. @ https://qc2webwish.prologicfirst.in/Webwish_APP/select-property:0
+[  163438ms] [ERROR] Running the JavaScript URL violates the following Content Security Policy directive 'script-src 'self' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/dashboard:0
+[  164782ms] [ERROR] Running the JavaScript URL violates the following Content Security Policy directive 'script-src 'self' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/SystemSetup/FDSK_QWGST01:0
+[  502753ms] [WARNING] The specified value "2026-09-23 to 2026-09-27" does not conform to the required format, "yyyy-MM-dd". @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[  527713ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qc2.prologicfirst.in/Webwish_API/api/GuestReservation/CreateReservationTemp:0
+[ 1061597ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qc2.prologicfirst.in/Webwish_API/api/GuestReservation/CreateReservationTemp:0
+[ 1231855ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qc2.prologicfirst.in/Webwish_API/api/GuestReservation/CreateReservationTemp:0
+[ 1541241ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qc2.prologicfirst.in/Webwish_API/api/GuestReservation/CreateReservationTemp:0
+[ 1796540ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/SystemSetup/FDSK_QWGST01:0
+[ 1844251ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'setUserRights')
+    at s.onLoadData (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038590)
+    at s.setUserRights (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038920)
+    at s.ngOnInit (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038224)
+    at T_ (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081864)
+    at hh (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1082021)
+    at Fc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081765)
+    at Oc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081469)
+    at v0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1127548)
+    at re (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128692)
+    at b0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128522) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 1844251ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'setUserRights')
+    at s.onLoadData (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038590)
+    at s.setUserRights (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038920)
+    at s.ngOnInit (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038224)
+    at T_ (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081864)
+    at hh (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1082021)
+    at Fc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081765)
+    at Oc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081469)
+    at v0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1127548)
+    at re (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128692)
+    at b0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128522) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 2164330ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'setUserRights')
+    at s.onLoadData (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038590)
+    at s.setUserRights (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038920)
+    at s.ngOnInit (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038224)
+    at T_ (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081864)
+    at hh (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1082021)
+    at Fc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081765)
+    at Oc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081469)
+    at v0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1127548)
+    at re (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128692)
+    at b0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128522) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 2164331ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'setUserRights')
+    at s.onLoadData (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038590)
+    at s.setUserRights (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038920)
+    at s.ngOnInit (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038224)
+    at T_ (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081864)
+    at hh (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1082021)
+    at Fc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081765)
+    at Oc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081469)
+    at v0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1127548)
+    at re (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128692)
+    at b0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128522) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 2307354ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/Marketing/MKTG_MKT25A/T/2037:0
+[ 2569932ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qc2.prologicfirst.in/Webwish_API/api/Commons/PmsLocking/LockRecord:0
+[ 2579164ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qc2.prologicfirst.in/Webwish_API/api/Commons/PmsLocking/LockRecord:0
+[ 2586192ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/Marketing/MKTG_MKT25A/T/2036:0
+[ 2589208ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qc2.prologicfirst.in/Webwish_API/api/Commons/PmsLocking/LockRecord:0
+[ 2598306ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qc2.prologicfirst.in/Webwish_API/api/Commons/PmsLocking/LockRecord:0
+[ 2627087ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'setUserRights')
+    at s.onLoadData (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038590)
+    at s.setUserRights (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038920)
+    at s.ngOnInit (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038224)
+    at T_ (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081864)
+    at hh (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1082021)
+    at Fc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081765)
+    at Oc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081469)
+    at v0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1127548)
+    at re (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128692)
+    at b0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128522) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 2627087ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'setUserRights')
+    at s.onLoadData (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038590)
+    at s.setUserRights (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038920)
+    at s.ngOnInit (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038224)
+    at T_ (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081864)
+    at hh (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1082021)
+    at Fc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081765)
+    at Oc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081469)
+    at v0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1127548)
+    at re (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128692)
+    at b0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128522) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 2886292ms] [ERROR] Running the JavaScript URL violates the following Content Security Policy directive 'script-src 'self' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/Marketing/MKTG_MKT25A/T/2036:0
+[ 5306003ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ https://qc2.prologicfirst.in/Webwish_API/api/Notifications/Load_Notifications:0
+[ 8610146ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/Marketing/MKTG_MKT25A/T/2036:0
+[ 8613083ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qc2.prologicfirst.in/Webwish_API/api/SysConfig/SecondaryCtrl/GetRightsAndSecondaryControl:0
+[ 8613083ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qc2.prologicfirst.in/Webwish_API/api/SysConfig/UserAccess/LogUserActivity:0
+[ 8613084ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qc2.prologicfirst.in/Webwish_API/api/SysConfig/UserAccess/GetUserAccess:0
+[ 8613087ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qc2.prologicfirst.in/Webwish_API/api/SysConfig/UserAccess/LogUserActivity:0
+[ 8613088ms] [LOG] Activity Log fe @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:0
+[ 8613094ms] [LOG] UserSecurity z6cQJcxmrEbhhFXqdoj64Q%3D%3D @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:0
+[ 8613102ms] [LOG] Time 14:24:00 GMT+0530 (India Standard Time) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:0
+[ 8613135ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qc2.prologicfirst.in/Webwish_API/api/Resource/GetbyPropertyid:0
+[ 8613137ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qc2.prologicfirst.in/Webwish_API/api/Marketing/TaCorp/GetTaCorpMaintainance:0
+[ 8613225ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0
+[ 8616765ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0

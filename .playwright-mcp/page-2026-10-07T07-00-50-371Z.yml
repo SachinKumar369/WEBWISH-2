@@ -1,0 +1,281 @@
+- generic [ref=f3e4]:
+  - generic [ref=f3e5]:
+    - banner [ref=f3e6]:
+      - generic [ref=f3e8]:
+        - generic [ref=f3e9]:
+          - link [ref=f3e11] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=f3e15]:
+            - textbox "Search..." [ref=f3e16]: 󰅀
+            - generic [ref=f3e17]: 󰍉
+        - heading "WEBWISHQCMI" [level=5] [ref=f3e19]
+        - generic [ref=f3e20]:
+          - button "󰅒" [ref=f3e22] [cursor=pointer]
+          - button "" [ref=f3e25] [cursor=pointer]
+          - button "" [ref=f3e28] [cursor=pointer]
+          - button " 1" [ref=f3e31] [cursor=pointer]:
+            - generic "Change Shift" [ref=f3e32]: 
+            - generic [ref=f3e33]: "1"
+          - generic [ref=f3e34]:
+            - button "" [ref=f3e35] [cursor=pointer]:
+              - generic "Notifications" [ref=f3e36]: 
+            - text:  
+          - generic [ref=f3e37]:
+            - button [ref=f3e38] [cursor=pointer]:
+              - img "Header Avatar" [ref=f3e40]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button "" [ref=f3e42] [cursor=pointer]
+    - generic [ref=f3e45]:
+      - text: 
+      - region "scrollable content" [ref=f3e52]:
+        - list [ref=f3e54]:
+          - listitem
+          - listitem [ref=f3e55]:
+            - link "" [ref=f3e57] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e59]:
+            - link "" [ref=f3e61] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e63]:
+            - link "" [ref=f3e65] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e67]:
+            - link "󰃢" [ref=f3e69] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e71]:
+            - link "" [ref=f3e72] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e74]:
+            - link "" [ref=f3e76] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e78]:
+            - link "" [ref=f3e80] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e82]:
+            - link "" [ref=f3e84] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e86]:
+            - link "" [ref=f3e88] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f3e90]:
+            - link "" [ref=f3e92] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem
+          - listitem: 
+          - listitem: 
+          - listitem [ref=f3e94]:
+            - link "" [ref=f3e96] [cursor=pointer]:
+              - /url: javascript:void(0);
+    - generic [ref=f3e99]:
+      - generic [ref=f3e102]:
+        - generic [ref=f3e105]:
+          - heading "Agent Maintenance" [level=3] [ref=f3e108]
+          - toolbar "Grid actions" [ref=f3e112]:
+            - button "New Account" [ref=f3e114] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f3e115]: 󰐕
+            - button "Refresh" [ref=f3e118] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f3e119]: 󰑐
+        - generic [ref=f3e124]:
+          - generic [ref=f3e127]:
+            - textbox "Search" [ref=f3e128]
+            - generic [ref=f3e129]: 󰍉
+            - button "All 󰅀" [ref=f3e131] [cursor=pointer]:
+              - text: All
+              - generic [ref=f3e132]: 󰅀
+          - generic [ref=f3e134]:
+            - 'button "Total: 16" [disabled]'
+            - generic [ref=f3e136]:
+              - generic [ref=f3e137]:
+                - radio "" [checked]
+                - generic [ref=f3e138] [cursor=pointer]: 
+              - generic [ref=f3e141]:
+                - radio ""
+                - generic [ref=f3e142] [cursor=pointer]: 
+        - generic [ref=f3e152]:
+          - generic [ref=f3e154]:
+            - generic [ref=f3e156]:
+              - generic [ref=f3e157]: HK
+              - generic [ref=f3e161]:
+                - generic [ref=f3e162]:
+                  - heading "harshit khan" [level=6] [ref=f3e163]
+                  - generic [ref=f3e164]: ABDULHA
+                - generic [ref=f3e165]: harshit khan
+              - generic [ref=f3e168]:
+                - button "Card actions" [ref=f3e169] [cursor=pointer]:
+                  - generic [ref=f3e170]: 󰇙
+                - text: 󰛐
+            - generic [ref=f3e172]:
+              - generic [ref=f3e173]: AG
+              - generic [ref=f3e177]:
+                - generic [ref=f3e178]:
+                  - heading "agent" [level=6] [ref=f3e179]
+                  - generic [ref=f3e180]: AGEN4
+                - generic [ref=f3e181]: agent
+              - generic [ref=f3e184]:
+                - button "Card actions" [ref=f3e185] [cursor=pointer]:
+                  - generic [ref=f3e186]: 󰇙
+                - text: 󰛐
+            - generic [ref=f3e188]:
+              - generic [ref=f3e189]: AC
+              - generic [ref=f3e193]:
+                - generic [ref=f3e194]:
+                  - heading "abdul chaurasia" [level=6] [ref=f3e195]
+                  - generic [ref=f3e196]: AGENt
+                - generic [ref=f3e197]: this is legal name
+                - generic [ref=f3e199]: chaurasia.abdul@khan.mohd
+              - generic [ref=f3e202]:
+                - button "Card actions" [ref=f3e203] [cursor=pointer]:
+                  - generic [ref=f3e204]: 󰇙
+                - text: 󰛐
+          - generic [ref=f3e206]:
+            - generic [ref=f3e208]:
+              - generic [ref=f3e209]: AG
+              - generic [ref=f3e213]:
+                - generic [ref=f3e214]:
+                  - heading "agentA" [level=6] [ref=f3e215]
+                  - generic [ref=f3e216]: AGENT11
+                - generic [ref=f3e217]: AGENT
+              - generic [ref=f3e220]:
+                - button "Card actions" [ref=f3e221] [cursor=pointer]:
+                  - generic [ref=f3e222]: 󰇙
+                - text: 󰛐
+            - generic [ref=f3e224]:
+              - generic [ref=f3e225]: AG
+              - generic [ref=f3e229]:
+                - generic [ref=f3e230]:
+                  - heading "AGAENT" [level=6] [ref=f3e231]
+                  - generic [ref=f3e232]: AGENT12
+                - generic [ref=f3e233]: AGENT
+              - generic [ref=f3e236]:
+                - button "Card actions" [ref=f3e237] [cursor=pointer]:
+                  - generic [ref=f3e238]: 󰇙
+                - text: 󰛐
+            - generic [ref=f3e240]:
+              - generic [ref=f3e241]: AG
+              - generic [ref=f3e245]:
+                - generic [ref=f3e246]:
+                  - heading "agent" [level=6] [ref=f3e247]
+                  - generic [ref=f3e248]: AGENT4
+                - generic [ref=f3e249]: agent
+              - generic [ref=f3e252]:
+                - button "Card actions" [ref=f3e253] [cursor=pointer]:
+                  - generic [ref=f3e254]: 󰇙
+                - text: 󰛐
+          - generic [ref=f3e256]:
+            - generic [ref=f3e258]:
+              - generic [ref=f3e259]: AA
+              - generic [ref=f3e263]:
+                - generic [ref=f3e264]:
+                  - heading "Automation Agent" [level=6] [ref=f3e265]
+                  - generic [ref=f3e266]: AGT001
+                - generic [ref=f3e267]: Automation Agent Legal
+              - generic [ref=f3e270]:
+                - button "Card actions" [ref=f3e271] [cursor=pointer]:
+                  - generic [ref=f3e272]: 󰇙
+                - text: 󰛐
+            - generic [ref=f3e274]:
+              - generic [ref=f3e275]: AG
+              - generic [ref=f3e279]:
+                - generic [ref=f3e280]:
+                  - heading "Agent_395715" [level=6] [ref=f3e281]
+                  - generic [ref=f3e282]: AGT39571
+                - generic [ref=f3e283]: Agent_395715 Legal
+              - generic [ref=f3e286]:
+                - button "Card actions" [ref=f3e287] [cursor=pointer]:
+                  - generic [ref=f3e288]: 󰇙
+                - text: 󰛐
+            - generic [ref=f3e290]:
+              - generic [ref=f3e291]: AG
+              - generic [ref=f3e295]:
+                - generic [ref=f3e296]:
+                  - heading "Agent_636220" [level=6] [ref=f3e297]
+                  - generic [ref=f3e298]: AGT63622
+                - generic [ref=f3e299]: Agent_636220 Legal
+              - generic [ref=f3e302]:
+                - button "Card actions" [ref=f3e303] [cursor=pointer]:
+                  - generic [ref=f3e304]: 󰇙
+                - text: 󰛐
+          - generic [ref=f3e306]:
+            - generic [ref=f3e308]:
+              - generic [ref=f3e309]: AG
+              - generic [ref=f3e313]:
+                - generic [ref=f3e314]:
+                  - heading "Agent_734967" [level=6] [ref=f3e315]
+                  - generic [ref=f3e316]: AGT73496
+                - generic [ref=f3e317]: Agent_734967 Legal
+              - generic [ref=f3e320]:
+                - button "Card actions" [ref=f3e321] [cursor=pointer]:
+                  - generic [ref=f3e322]: 󰇙
+                - text: 󰛐
+            - generic [ref=f3e324]:
+              - generic [ref=f3e325]: AG
+              - generic [ref=f3e329]:
+                - generic [ref=f3e330]:
+                  - heading "Agent_740420" [level=6] [ref=f3e331]
+                  - generic [ref=f3e332]: AGT74042
+                - generic [ref=f3e333]: Agent_740420 Legal
+              - generic [ref=f3e336]:
+                - button "Card actions" [ref=f3e337] [cursor=pointer]:
+                  - generic [ref=f3e338]: 󰇙
+                - text: 󰛐
+            - generic [ref=f3e340]:
+              - generic [ref=f3e341]: AG
+              - generic [ref=f3e345]:
+                - generic [ref=f3e346]:
+                  - heading "Agent_834867" [level=6] [ref=f3e347]
+                  - generic [ref=f3e348]: AGT83486
+                - generic [ref=f3e349]: Agent_834867 Legal
+              - generic [ref=f3e352]:
+                - button "Card actions" [ref=f3e353] [cursor=pointer]:
+                  - generic [ref=f3e354]: 󰇙
+                - text: 󰛐
+          - generic [ref=f3e356]:
+            - generic [ref=f3e358]:
+              - generic [ref=f3e359]: AG
+              - generic [ref=f3e363]:
+                - generic [ref=f3e364]:
+                  - heading "Agent_987739" [level=6] [ref=f3e365]
+                  - generic [ref=f3e366]: AGT98773
+                - generic [ref=f3e367]: Agent_987739 Legal
+              - generic [ref=f3e370]:
+                - button "Card actions" [ref=f3e371] [cursor=pointer]:
+                  - generic [ref=f3e372]: 󰇙
+                - text: 󰛐
+            - generic [ref=f3e374]:
+              - generic [ref=f3e375]: HK
+              - generic [ref=f3e379]:
+                - generic [ref=f3e380]:
+                  - heading "harshit gaffar khan" [level=6] [ref=f3e381]
+                  - generic [ref=f3e382]: GAFFAr
+                - generic [ref=f3e383]: harshit gaffar khan
+              - generic [ref=f3e386]:
+                - button "Card actions" [ref=f3e387] [cursor=pointer]:
+                  - generic [ref=f3e388]: 󰇙
+                - text: 󰛐
+            - generic [ref=f3e390]:
+              - generic [ref=f3e391]: GK
+              - generic [ref=f3e395]:
+                - generic [ref=f3e396]:
+                  - heading "Gyanesh Kumar" [level=6] [ref=f3e397]
+                  - generic [ref=f3e398]: KRM
+                - generic [ref=f3e399]: criminal charge
+              - generic [ref=f3e402]:
+                - button "Card actions" [ref=f3e403] [cursor=pointer]:
+                  - generic [ref=f3e404]: 󰇙
+                - text: 󰛐
+          - generic [ref=f3e408]:
+            - generic [ref=f3e409]: MA
+            - generic [ref=f3e413]:
+              - generic [ref=f3e414]:
+                - heading "Maximojo" [level=6] [ref=f3e415]
+                - generic [ref=f3e416]: MAXM
+              - generic [ref=f3e417]: Maximojo
+            - generic [ref=f3e420]:
+              - button "Card actions" [ref=f3e421] [cursor=pointer]:
+                - generic [ref=f3e422]: 󰇙
+              - text: 󰛐
+      - contentinfo [ref=f3e424]:
+        - generic [ref=f3e426]:
+          - 'heading "Property Id: WEBMI, User Id: Sachin Kumar, Shift: 1, Business Date: 23/09/2026" [level=6] [ref=f3e428]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=f3e431]
+  - generic: 󰅒

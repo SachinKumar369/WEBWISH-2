@@ -1,0 +1,296 @@
+- generic [ref=e1]:
+  - generic [ref=e134]:
+    - generic [ref=e135]:
+      - banner [ref=e136]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - link [ref=e141] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e145]:
+              - textbox [ref=e505]:
+                - /placeholder: Search...
+                - text: 󰅀
+              - generic [ref=e147]: 󰍉
+          - heading [level=5] [ref=e506]: WEBWISH DUBAI 5.0
+          - generic [ref=e150]:
+            - button [ref=e507] [cursor=pointer]:
+              - generic [ref=e153]: 󰅒
+            - button [ref=e508] [cursor=pointer]:
+              - generic [ref=e156]: 
+            - button [ref=e509] [cursor=pointer]:
+              - generic [ref=e159]: 
+            - button [ref=e510] [cursor=pointer]:
+              - generic [ref=e511]: 
+              - generic [ref=e163]: "3"
+            - generic [ref=e164]:
+              - button [ref=e512] [cursor=pointer]:
+                - generic [ref=e513]: 
+              - text:  
+            - generic [ref=e167]:
+              - button [ref=e514] [cursor=pointer]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e516] [cursor=pointer]
+      - generic [ref=e183]:
+        - text: 
+        - generic [ref=e185]:
+          - region [ref=e518]:
+            - list [ref=e192]:
+              - listitem [ref=e403]:
+                - link [ref=e519] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e406]: 
+                - text:    
+          - button [ref=e520] [cursor=pointer]:
+            - generic [ref=e431]: 
+      - generic [ref=e237]:
+        - generic [ref=e433]:
+          - generic [ref=e436]:
+            - heading [level=3] [ref=e521]: Corporate Maintenance
+            - toolbar [ref=e522]:
+              - button [ref=e523] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e446]: 󰐕
+                - generic [ref=e447]: New Account
+              - button [ref=e524] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e450]: 󰑐
+          - generic [ref=e455]:
+            - generic [ref=e458]:
+              - textbox [ref=e525]:
+                - /placeholder: Search
+              - generic [ref=e460]: 󰍉
+              - button [ref=e526] [cursor=pointer]:
+                - text: All
+                - generic [ref=e463]: 󰅀
+            - generic [ref=e465]:
+              - button [disabled]: "Total: 1"
+              - generic [ref=e467]:
+                - generic [ref=e468]:
+                  - radio [checked]
+                  - generic [ref=e469] [cursor=pointer]: 
+                - generic [ref=e472]:
+                  - radio
+                  - generic [ref=e473] [cursor=pointer]: 
+          - generic [ref=e487]:
+            - generic [ref=e488]: BD
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - heading [level=6] [ref=e527]: BDAS
+                - generic [ref=e495]: CORP
+              - generic [ref=e496]: BIJOY DAS
+              - generic [ref=e498]: bijoy1@prologicfirst.com
+            - generic [ref=e501]:
+              - button [ref=e528] [cursor=pointer]:
+                - generic [ref=e503]: 󰇙
+              - text: 󰛐
+        - contentinfo [ref=e349]:
+          - generic [ref=e351]:
+            - heading [level=6] [ref=e529]: "Property Id: WDUBI, User Id: Sachin Kumar, Shift: 3, Business Date: 06/12/2025"
+            - heading [level=6] [ref=e530]: 2026 © Prologic First India Pvt. Ltd.
+    - generic [ref=e357]: 󰅒
+  - dialog [aria-hidden] [ref=e532]:
+    - document:
+      - generic [ref=e535]:
+        - heading [level=4] [ref=e776]:
+          - generic [ref=e538]: 󰧮
+          - text: Profile Details
+        - generic [ref=e542]:
+          - generic [ref=e543]:
+            - generic [ref=e545]:
+              - generic [ref=e547]:
+                - switch [disabled]
+                - generic [ref=e548]: Active
+              - generic [ref=e549]:
+                - generic [ref=e551]:
+                  - radio [checked] [ref=e777] [cursor=pointer]
+                  - generic [ref=e553] [cursor=pointer]: None
+                - generic [ref=e555]:
+                  - radio [ref=e778] [cursor=pointer]
+                  - generic [ref=e557] [cursor=pointer]: Is Channel
+                - generic [ref=e559]:
+                  - radio [ref=e779] [cursor=pointer]
+                  - generic [ref=e561] [cursor=pointer]: Is Channel Manager
+              - generic [ref=e562]:
+                - generic [ref=e564]:
+                  - radio [checked] [ref=e780] [cursor=pointer]
+                  - generic [ref=e566] [cursor=pointer]: Front Office Related
+                - generic [ref=e568]:
+                  - radio [ref=e781] [cursor=pointer]
+                  - generic [ref=e570] [cursor=pointer]: Others Related
+            - generic [ref=e571]:
+              - generic [ref=e572]:
+                - generic [ref=e573]: Id*
+                - textbox [ref=e576]: CORP2610
+              - generic [ref=e577]:
+                - generic [ref=e578]: Name*
+                - textbox [ref=e581]: Test Corporate Account
+              - generic [ref=e582]:
+                - generic [ref=e583]: Legal Name*
+                - textbox [ref=e586]: Test Corporate Pvt Ltd
+              - generic [ref=e587]:
+                - generic [ref=e588]: Ar Id
+                - generic [ref=e592]:
+                  - generic [ref=e593]:
+                    - generic [ref=e784]:
+                      - generic [ref=e785]: DUBAIAR
+                      - generic [ref=e786]: DUBAI AR ACCOUNT
+                    - combobox [ref=e595]:
+                      - textbox [ref=e596]
+                  - generic [ref=e787] [cursor=pointer]:
+                    - generic [aria-hidden]: ×
+                  - generic [ref=e597] [cursor=pointer]
+              - generic [ref=e598]:
+                - generic [ref=e599]: Sales Executive
+                - generic [ref=e603]:
+                  - generic [ref=e604]:
+                    - generic [ref=e788]: AADI/Aadvik(OT)
+                    - combobox [ref=e606]:
+                      - textbox [ref=e607]
+                  - generic [ref=e792] [cursor=pointer]:
+                    - generic [aria-hidden]: ×
+                  - generic [ref=e608] [cursor=pointer]
+              - generic [ref=e609]:
+                - generic [ref=e610]: Market Segment
+                - generic [ref=e614]:
+                  - generic [ref=e615]:
+                    - generic [ref=e616]: "--select--"
+                    - combobox [ref=e617]:
+                      - textbox [ref=e618]
+                  - generic [ref=e619] [cursor=pointer]
+              - generic [ref=e620]:
+                - generic [ref=e621]: Industry
+                - generic [ref=e625]:
+                  - generic [ref=e626]:
+                    - generic [ref=e627]: "--select--"
+                    - combobox [ref=e628]:
+                      - textbox [ref=e629]
+                  - generic [ref=e630] [cursor=pointer]
+              - generic [ref=e631]:
+                - generic [ref=e632]: Imprtance Ind
+                - generic [ref=e636]:
+                  - generic [ref=e637]:
+                    - generic [ref=e795]:
+                      - generic [ref=e796]: K
+                      - generic [ref=e797]: VERY LOW
+                    - combobox [ref=e639]:
+                      - textbox [ref=e640]
+                  - generic [ref=e798] [cursor=pointer]:
+                    - generic [aria-hidden]: ×
+                  - generic [ref=e641] [cursor=pointer]
+              - generic [ref=e642]:
+                - generic [ref=e643]: Main Head*
+                - generic [ref=e647]:
+                  - generic [ref=e648]:
+                    - generic [ref=e801]:
+                      - generic [ref=e802]: OT
+                      - generic [ref=e803]: Others
+                    - combobox [ref=e650]:
+                      - textbox [ref=e651]
+                  - generic [ref=e804] [cursor=pointer]:
+                    - generic [aria-hidden]: ×
+                  - generic [ref=e652] [cursor=pointer]
+              - generic [ref=e653]:
+                - generic [ref=e654]: Other Reference No
+                - textbox [ref=e657]: REF12345
+              - generic [ref=e658]:
+                - generic [ref=e659]: Special Amenities
+                - generic [ref=e663]:
+                  - generic [ref=e664]:
+                    - generic [ref=e805]:
+                      - generic [aria-hidden] [ref=e806] [cursor=pointer]: ×
+                      - generic [ref=e808]:
+                        - generic [ref=e809]: SC
+                        - generic [ref=e810]: Scanty Baggauge
+                    - combobox [ref=e666]:
+                      - textbox [ref=e667]
+                  - generic [ref=e811] [cursor=pointer]:
+                    - generic [aria-hidden]: ×
+                  - generic [ref=e668] [cursor=pointer]
+              - generic [ref=e669]:
+                - generic [ref=e670]: Vat No
+                - textbox [ref=e812]:
+                  - /placeholder: XX1234567X
+                  - text: 29ABCDE1234F1Z5
+              - generic [ref=e674]:
+                - generic [ref=e675]: Pan No
+                - textbox [ref=e813]:
+                  - /placeholder: XXXXX0000X
+                  - text: ABCDE1234F
+            - generic [ref=e679]:
+              - generic [ref=e680]:
+                - generic [ref=e681]: Address 1*
+                - textbox [ref=e684]: 123 Business Bay
+              - generic [ref=e685]:
+                - generic [ref=e686]: Address 2
+                - textbox [ref=e689]: Marina District
+              - generic [ref=e690]:
+                - generic [ref=e691]: Address 3
+                - textbox [ref=e694]: Dubai
+            - generic [ref=e696]:
+              - generic [ref=e697]:
+                - generic [ref=e698]: Country*
+                - generic [ref=e702]:
+                  - generic [ref=e703]:
+                    - generic [ref=e816]:
+                      - generic [ref=e817]: AD
+                      - generic [ref=e818]: Andorra
+                    - combobox [ref=e705]:
+                      - textbox [ref=e706]
+                  - generic [ref=e819] [cursor=pointer]:
+                    - generic [aria-hidden]: ×
+                  - generic [ref=e707] [cursor=pointer]
+              - generic [ref=e708]:
+                - generic [ref=e709]: State
+                - generic [ref=e713]:
+                  - generic [ref=e714]:
+                    - generic [ref=e822]:
+                      - generic [ref=e823]: "**AD"
+                      - generic [ref=e824]: Undefined
+                    - combobox [ref=e716]:
+                      - textbox [ref=e717]
+                  - generic [ref=e825] [cursor=pointer]:
+                    - generic [aria-hidden]: ×
+                  - generic [ref=e718] [cursor=pointer]
+              - generic [ref=e719]:
+                - generic [ref=e720]: City
+                - generic [ref=e724]:
+                  - generic [ref=e725]:
+                    - generic [ref=e726]: "--select--"
+                    - combobox [ref=e727]:
+                      - textbox [ref=e728]
+                  - generic [ref=e729] [cursor=pointer]
+              - generic [ref=e730]:
+                - generic [ref=e731]: zip
+                - generic [ref=e735]:
+                  - generic [ref=e736]:
+                    - generic [ref=e737]: "--select--"
+                    - combobox [ref=e738]:
+                      - textbox [ref=e739]
+                  - generic [ref=e740] [cursor=pointer]
+            - generic [ref=e741]:
+              - generic [ref=e742]:
+                - generic [ref=e743]: Phone No 1
+                - textbox [ref=e746]: "0412345678"
+              - generic [ref=e747]:
+                - generic [ref=e748]: Phone No 2
+                - textbox [ref=e751]: "0412345679"
+              - generic [ref=e752]:
+                - generic [ref=e753]: Mobile Number
+                - textbox [ref=e756]: "9715012345"
+              - generic [ref=e757]:
+                - generic [ref=e758]: Email Id
+                - generic [ref=e761]:
+                  - textbox [ref=e826]:
+                    - /placeholder: example@gmail.com
+                    - text: test.corporate@example.com
+                  - generic [ref=e763]: 
+              - generic [ref=e764]:
+                - generic [ref=e765]: Website
+                - textbox [ref=e768]: https://www.testcorporate.com
+          - generic [ref=e773]:
+            - button [ref=e827] [cursor=pointer]: Save
+            - button [ref=e828] [cursor=pointer]: Close
+  - dialog [ref=e830]:
+    - generic [ref=e839]:
+      - heading [level=4]
+      - paragraph [ref=e840]: Details created/updated successfully.
+    - text: "!"
+    - button "OK" [active] [ref=e842] [cursor=pointer]

@@ -303,6 +303,9 @@ run_sub2.font.italic = True
 ai_bullets = [
     ("Leveraged GitHub Copilot ", "for AI-assisted test script generation, reducing test authoring time by 40% and accelerating framework development."),
     ("Integrated Playwright MCP (Model Context Protocol) Server ", "to enable AI-driven browser automation and intelligent test scenario generation."),
+    ("Built custom AI agents ", "(GitHub Copilot agents) that autonomously test applications — executing end-to-end scenarios, detecting defects and suggesting fixes with minimal human intervention."),
+    ("Applied hands-on knowledge of MCP servers ", "to connect AI models with real testing tools and browser automation for intelligent, tool-aware workflows."),
+    ("Automated entire websites using natural-language prompts only ", "— no hand-written scripts required — enabling rapid smoke and regression coverage on demand."),
     ("Applied Agentic AI concepts ", "to automate repetitive QA workflows — including test case generation from requirements, automated regression suite creation, and intelligent defect categorization."),
     ("Used AI-assisted code review and refactoring ", "to improve test code quality, reduce technical debt, and ensure adherence to coding standards."),
     ("Developed AI-powered test data generators ", "and intelligent assertion builders that adapt to application changes with minimal manual intervention."),
@@ -435,6 +438,8 @@ add_section_heading(doc, "Professional Development")
 pd_bullets = [
     ("Agentic AI for Test Automation (2026) ", "— Applied Agentic AI concepts to automate repetitive QA workflows, including test case generation from requirements, automated regression suite creation, and intelligent defect categorization using LLM-based tools."),
     ("Playwright MCP Server Integration (2026) ", "— Integrated Model Context Protocol (MCP) Server with Playwright for AI-driven browser automation, enabling intelligent test scenario generation and autonomous test execution."),
+    ("Custom AI Agent Development (2026) ", "— Created own AI agents (GitHub Copilot custom agents) that autonomously test applications, including autonomous end-to-end execution, defect detection and self-healing test fixes."),
+    ("Prompt-Based Web Automation (2026) ", "— Automated complete websites and web applications using natural-language prompts only, with no hand-written scripts, enabling rapid smoke and regression coverage on demand."),
     ("GitHub Copilot for Test Development (2026) ", "— Leveraged AI-assisted code generation to accelerate test script authoring by 40%, including page object creation, assertion building, and test data generation."),
     ("Playwright Test Framework Development (2026) ", "— Designed and built a scalable, production-grade test automation framework using TypeScript, POM pattern, custom fixtures, Allure reporting, Docker, and CI/CD integration."),
     ("Apache JMeter (2023) ", "— Performance and load testing for web applications."),

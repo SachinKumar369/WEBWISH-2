@@ -30,10 +30,12 @@ test.describe(
         context
       }) => {
 
-        await page.setViewportSize({
-          width: 1280,
-          height: 720
-        });
+        if (process.env.MAXIMIZE_BROWSER !== 'true') {
+          await page.setViewportSize({
+            width: 1280,
+            height: 720
+          });
+        }
 
         loginPage =
           new LoginPage(

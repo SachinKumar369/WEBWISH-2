@@ -1,0 +1,209 @@
+- generic [ref=e134]:
+  - generic [ref=e135]:
+    - banner [ref=e136]:
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - link [ref=e141] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=e145]:
+            - textbox "Search..." [ref=e843]: 󰅀
+            - generic [ref=e147]: 󰍉
+        - heading "WEBWISH DUBAI 5.0" [level=5] [ref=e844]
+        - generic [ref=e150]:
+          - button "󰅒" [ref=e845] [cursor=pointer]
+          - button "" [ref=e846] [cursor=pointer]
+          - button "" [ref=e847] [cursor=pointer]
+          - button " 3" [ref=e848] [cursor=pointer]:
+            - generic "Change Shift" [ref=e849]: 
+            - generic [ref=e163]: "3"
+          - generic [ref=e164]:
+            - button "" [ref=e850] [cursor=pointer]:
+              - generic "Notifications" [ref=e851]: 
+            - text:  
+          - generic [ref=e167]:
+            - button [ref=e852] [cursor=pointer]:
+              - img "Header Avatar" [ref=e853]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button [ref=e854] [cursor=pointer]:
+            - img "Header Avatar" [ref=e855]
+    - generic [ref=e183]:
+      - text: 
+      - generic [ref=e185]:
+        - region "scrollable content" [ref=e856]:
+          - list [ref=e192]:
+            - listitem
+            - listitem [ref=e403]:
+              - link "" [ref=e857] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - text:    
+        - button "" [ref=e858] [cursor=pointer]
+    - generic [ref=e237]:
+      - generic [ref=e433]:
+        - generic [ref=e436]:
+          - heading "Corporate Maintenance" [level=3] [ref=e859]
+          - toolbar "Grid actions" [ref=e860]:
+            - button "Sections" [ref=e893] [cursor=pointer]
+            - button "Search" [ref=e897] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e898]: 󱎸
+            - button "Refresh" [ref=e862] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e450]: 󰑐
+            - button "Log" [ref=e901] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e902]: 󰋚
+        - generic [ref=e908]:
+          - generic [ref=e910]:
+            - generic [ref=e912]:
+              - generic [ref=e914]:
+                - heading "Profile Info" [level=5] [ref=e918]
+                - button "󰲶" [ref=e923] [cursor=pointer]
+              - generic [ref=e929]:
+                - generic [ref=e932]:
+                  - generic [ref=e933]: Id
+                  - heading "CORP2610" [level=6] [ref=e934]
+                - generic [ref=e937]:
+                  - generic [ref=e938]: Name
+                  - heading "Test Corporate Account" [level=6] [ref=e939]
+                - generic [ref=e942]:
+                  - generic [ref=e943]: Legal Name
+                  - heading "Test Corporate Pvt Ltd" [level=6] [ref=e944]
+                - generic [ref=e947]:
+                  - generic [ref=e948]: Ar Id
+                  - heading "DUBAIAR" [level=6] [ref=e949]
+                - generic [ref=e952]:
+                  - generic [ref=e953]: Sales Executive
+                  - heading "AADI" [level=6] [ref=e954]
+                - generic [ref=e957]:
+                  - generic [ref=e958]: Market Segment
+                  - heading [level=6]
+                - generic [ref=e961]:
+                  - generic [ref=e962]: Industry
+                  - heading [level=6]
+                - generic [ref=e965]:
+                  - generic [ref=e966]: Importance Ind
+                  - heading "K" [level=6] [ref=e967]
+                - generic [ref=e970]:
+                  - generic [ref=e971]: Main Head
+                  - heading "OT" [level=6] [ref=e972]
+                - generic [ref=e975]:
+                  - generic [ref=e976]: Other Reference No
+                  - heading "REF12345" [level=6] [ref=e977]
+                - generic [ref=e980]:
+                  - generic [ref=e981]: Vat/Fiscal No.
+                  - heading "29ABCDE1234F1Z5" [level=6] [ref=e982]
+                - generic [ref=e985]:
+                  - generic [ref=e986]: Pan Number
+                  - heading "ABCDE1234F" [level=6] [ref=e987]
+            - generic [ref=e989]:
+              - heading "Address" [level=5] [ref=e995]
+              - generic [ref=e999]:
+                - generic [ref=e1000]:
+                  - generic [ref=e1003]:
+                    - generic [ref=e1004]: Address1
+                    - heading "123 Business Bay" [level=6] [ref=e1005]
+                  - generic [ref=e1008]:
+                    - generic [ref=e1009]: Address2
+                    - heading "Marina District" [level=6] [ref=e1010]
+                  - generic [ref=e1013]:
+                    - generic [ref=e1014]: Address3
+                    - heading "Dubai" [level=6] [ref=e1015]
+                  - generic [ref=e1018]:
+                    - generic [ref=e1019]: Country
+                    - heading "AD" [level=6] [ref=e1020]
+                  - generic [ref=e1023]:
+                    - generic [ref=e1024]: State
+                    - heading "**AD" [level=6] [ref=e1025]
+                  - generic [ref=e1028]:
+                    - generic [ref=e1029]: City
+                    - heading [level=6]
+                  - generic [ref=e1032]:
+                    - generic [ref=e1033]: Zip
+                    - heading [level=6]
+                - generic [ref=e1034]:
+                  - heading "Contact Details" [level=5] [ref=e1039]
+                  - generic [ref=e1042]:
+                    - generic [ref=e1043]: Phone No. 1
+                    - heading "0412345678" [level=6] [ref=e1044]
+                  - generic [ref=e1047]:
+                    - generic [ref=e1048]: Phone No. 2
+                    - heading "0412345679" [level=6] [ref=e1049]
+                  - generic [ref=e1052]:
+                    - generic [ref=e1053]: Mobile
+                    - heading "9715012345" [level=6] [ref=e1054]
+                  - generic [ref=e1057]:
+                    - generic [ref=e1058]: Email
+                    - heading "test.corporate@example.com" [level=6] [ref=e1059]
+                  - generic [ref=e1062]:
+                    - generic [ref=e1063]: Website
+                    - heading "https://www.testcorporate.com" [level=6] [ref=e1064]
+          - generic [ref=e1065]:
+            - generic [ref=e1068]:
+              - generic [ref=e1070]:
+                - heading "Defaults" [level=5] [ref=e1074]
+                - button "󰲶" [ref=e1079] [cursor=pointer]
+              - generic [ref=e1085]:
+                - generic [ref=e1088]:
+                  - generic [ref=e1089]: Currency
+                  - heading [level=6]
+                - generic [ref=e1092]:
+                  - generic [ref=e1093]: Domicile Code
+                  - heading [level=6]
+                - generic [ref=e1096]:
+                  - generic [ref=e1097]: Room Type
+                  - heading [level=6]
+                - generic [ref=e1100]:
+                  - generic [ref=e1101]: Market Segment
+                  - heading [level=6]
+                - generic [ref=e1104]:
+                  - generic [ref=e1105]: Guest Class
+                  - heading [level=6]
+                - generic [ref=e1108]:
+                  - generic [ref=e1109]: Business Source
+                  - heading [level=6]
+                - generic [ref=e1112]:
+                  - generic [ref=e1113]: Payment Method
+                  - heading [level=6]
+                - generic [ref=e1116]:
+                  - generic [ref=e1117]: Cancellation Policy
+                  - heading [level=6]
+                - generic [ref=e1120]:
+                  - generic [ref=e1121]: Language Code
+                  - heading [level=6]
+                - generic [ref=e1124]:
+                  - generic [ref=e1125]: Deposit Due Days
+                  - heading "0" [level=6] [ref=e1126]
+                - generic [ref=e1129]:
+                  - generic [ref=e1130]: Billing Inst.
+                  - heading [level=6]
+                - generic [ref=e1133]:
+                  - generic [ref=e1134]: Comments
+                  - heading [level=6]
+            - generic [ref=e1137]:
+              - generic [ref=e1139]:
+                - heading "Other Details" [level=5] [ref=e1143]
+                - button "󰲶" [ref=e1148] [cursor=pointer]
+              - generic [ref=e1154]:
+                - generic [ref=e1157]:
+                  - generic [ref=e1158]: Conference Business Potential
+                  - heading [level=6]
+                - generic [ref=e1161]:
+                  - generic [ref=e1162]: Conference Requirements
+                  - heading [level=6]
+                - generic [ref=e1165]:
+                  - generic [ref=e1166]: Competition Usage
+                  - heading [level=6]
+                - generic [ref=e1169]:
+                  - generic [ref=e1170]: Company Size
+                  - heading [level=6]
+            - generic [ref=e1173]:
+              - heading "Options" [level=5] [ref=e1179]
+              - table [ref=e1187]:
+                - rowgroup [ref=e1188]:
+                  - row [ref=e1189]:
+                    - columnheader "Option" [ref=e1190]
+                    - columnheader "Description" [ref=e1191]
+                    - columnheader "Value" [ref=e1192]
+                - rowgroup
+      - contentinfo [ref=e349]:
+        - generic [ref=e351]:
+          - 'heading "Property Id: WDUBI, User Id: Sachin Kumar, Shift: 3, Business Date: 06/12/2025" [level=6] [ref=e885]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e886]
+  - generic: 󰅒

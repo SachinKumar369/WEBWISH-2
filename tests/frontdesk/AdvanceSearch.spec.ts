@@ -18,8 +18,10 @@ test.describe('Advance Search Tests', () => {
 
     logger.info(`Starting test: ${test.info().title}`);
 
-    // Set viewport
-    await page.setViewportSize({ width: 1280, height: 720 });
+    // Keep fixed viewport only when maximize mode is disabled
+    if (process.env.MAXIMIZE_BROWSER !== 'true') {
+      await page.setViewportSize({ width: 1280, height: 720 });
+    }
 
     // Get credentials and login with property selection
     const user = await testDataManager.getUserCredentials('all');

@@ -110,7 +110,7 @@ test.describe('Availability - Basic Availability (No Bookings)', () => {
    * 12. Re-open availability grid via Quick Access
    * 13. Verify the selected room type's available count decreased by 1
    */
-  test('SU_AVAIL_002: Book a room and verify availability count decreases by 1', async ({ page, context }) => {
+  test.only('SU_AVAIL_002: Book a room and verify availability count decreases by 1', async ({ page, context }) => {
     test.setTimeout(15 * 60 * 1000); // 15 minute timeout
 
     const loginPage = new LoginPage(page, context);

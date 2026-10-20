@@ -1,0 +1,75 @@
+[   11494ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'nativeElement')
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1450998
+    at I.invoke (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:16138)
+    at z.run (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:11491)
+    at Mc.runOutsideAngular (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1112855)
+    at Ee.open (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1450858)
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:1:771739
+    at SD (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1141223)
+    at Le (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1141453)
+    at HTMLInputElement.<anonymous> (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1262872)
+    at I.invokeTask (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:16756) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[   11675ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'nativeElement')
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1450998
+    at I.invoke (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:16138)
+    at z.run (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:11491)
+    at Mc.runOutsideAngular (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1112855)
+    at Ee.open (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1450858)
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:1:771739
+    at SD (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1141223)
+    at Le (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1141453)
+    at HTMLInputElement.<anonymous> (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1262872)
+    at I.invokeTask (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:16756) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[   12167ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'nativeElement')
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1450998
+    at I.invoke (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:16138)
+    at z.run (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:11491)
+    at Mc.runOutsideAngular (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1112855)
+    at Ee.open (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1450858)
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:1:771739
+    at SD (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1141223)
+    at Le (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1141453)
+    at HTMLInputElement.<anonymous> (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1262872)
+    at I.invokeTask (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:16756) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[   12326ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'nativeElement')
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1450998
+    at I.invoke (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:16138)
+    at z.run (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:11491)
+    at Mc.runOutsideAngular (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1112855)
+    at Ee.open (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1450858)
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:1:771739
+    at SD (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1141223)
+    at Le (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1141453)
+    at HTMLInputElement.<anonymous> (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1262872)
+    at I.invokeTask (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:16756) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[   12440ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'nativeElement')
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1450998
+    at I.invoke (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:16138)
+    at z.run (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:11491)
+    at Mc.runOutsideAngular (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1112855)
+    at Ee.open (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1450858)
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:1:771739
+    at SD (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1141223)
+    at Le (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1141453)
+    at HTMLInputElement.<anonymous> (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1262872)
+    at I.invokeTask (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:16756) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[   21787ms] [ERROR] Running the JavaScript URL violates the following Content Security Policy directive 'script-src 'self' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/SystemSetup/FDSK_QWGRP01/RC/200019260918:0
+[   23817ms] [ERROR] Running the JavaScript URL violates the following Content Security Policy directive 'script-src 'self' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/ManagerFunctions/FOMF_QMFN01:0
+[  134533ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qc2.prologicfirst.in/Webwish_API/api/MgrFunctions/Availability/Update_RoomTypeAvailability:0
+[  294435ms] [ERROR] Running the JavaScript URL violates the following Content Security Policy directive 'script-src 'self' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/ManagerFunctions/FOMF_QMFN01:0
+[  297414ms] [ERROR] Running the JavaScript URL violates the following Content Security Policy directive 'script-src 'self' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/SystemSetup/FDSK_QWGST01:0
+[  302659ms] [WARNING] The specified value "2026-09-23 to 2026-09-24" does not conform to the required format, "yyyy-MM-dd". @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[  316676ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'nativeElement')
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1450998
+    at I.invoke (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:16138)
+    at z.run (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:11491)
+    at Mc.runOutsideAngular (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1112855)
+    at Ee.open (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1450858)
+    at https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:1:771739
+    at SD (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1141223)
+    at Le (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1141453)
+    at HTMLInputElement.<anonymous> (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1262872)
+    at I.invokeTask (https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:1:16756) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[  333059ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qc2.prologicfirst.in/Webwish_API/api/MgrFunctions/Availability/Update_RoomTypeAvailability:0
+[  341837ms] [WARNING] The specified value "NaN" cannot be parsed, or is out of range. @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[ 3245442ms] [ERROR] Blocked confirm('Are you sure ?') during beforeunload. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/ManagerFunctions/FOMF_QMFN01:0

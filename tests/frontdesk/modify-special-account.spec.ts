@@ -195,7 +195,8 @@ test.describe.serial('Frontdesk - Modify Special Accounts', () => {
   let specialAccountPage: SpecialAccountPage;
 
   test.beforeAll(async ({ browser }) => {
-    const context = await browser.newContext();
+    // viewport: null → page fills the maximized window (new contexts don't inherit the config viewport)
+    const context = await browser.newContext({ viewport: process.env.MAXIMIZE_BROWSER === 'true' ? null : undefined });
     const page = await context.newPage();
 
     specialAccountPage = new SpecialAccountPage(page, context);

@@ -18,6 +18,8 @@ export class BrowserContextManager {
       logger.info('Creating new browser context');
 
       const context = await browser.newContext({
+        // null → page fills the maximized window (new contexts don't inherit the config viewport)
+        viewport: process.env.MAXIMIZE_BROWSER === 'true' ? null : undefined,
         locale: options?.locale || 'en-US',
         timezoneId: options?.timezone || 'UTC',
         offline: options?.offline || false,

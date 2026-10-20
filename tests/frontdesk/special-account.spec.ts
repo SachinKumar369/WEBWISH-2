@@ -10,7 +10,9 @@ test.describe('Frontdesk - Special Accounts', () => {
   test.beforeEach(async ({ page, context }) => {
     special = new SpecialAccountPage(page, context);
     logger.info(`Starting test: ${test.info().title}`);
-    await page.setViewportSize({ width: 1280, height: 720 });
+    if (process.env.MAXIMIZE_BROWSER !== 'true') {
+      await page.setViewportSize({ width: 1280, height: 720 });
+    }
   });
 
   test.afterEach(async ({ page }) => {

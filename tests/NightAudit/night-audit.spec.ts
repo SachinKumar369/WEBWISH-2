@@ -37,7 +37,9 @@ test.describe('Night Audit Tests', () => {
     nightAuditPage = new NightAuditPage(page, context);
     loginPage = new LoginPage(page, context);
 
-    await page.setViewportSize({ width: 1280, height: 720 });
+    if (process.env.MAXIMIZE_BROWSER !== 'true') {
+      await page.setViewportSize({ width: 1280, height: 720 });
+    }
 
     const user = await testDataManager.getUserCredentials('all');
     expect(user).toBeDefined();

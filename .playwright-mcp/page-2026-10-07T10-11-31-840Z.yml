@@ -1,0 +1,81 @@
+- generic [ref=e134]:
+  - generic [ref=e135]:
+    - banner [ref=e136]:
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - link [ref=e141] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=e145]:
+            - textbox "Search..." [ref=e146]: 󰅀
+            - generic [ref=e147]: 󰍉
+        - heading "WEBWISH DUBAI 5.0" [level=5] [ref=e149]
+        - generic [ref=e150]:
+          - button "󰅒" [ref=e152] [cursor=pointer]
+          - button "" [ref=e155] [cursor=pointer]
+          - button "" [ref=e158] [cursor=pointer]
+          - button " 3" [ref=e161] [cursor=pointer]:
+            - generic "Change Shift" [ref=e162]: 
+            - generic [ref=e163]: "3"
+          - generic [ref=e164]:
+            - button "" [ref=e165] [cursor=pointer]:
+              - generic "Notifications" [ref=e166]: 
+            - text:  
+          - generic [ref=e167]:
+            - button [ref=e168] [cursor=pointer]:
+              - img "Header Avatar" [ref=e170]
+            - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+          - button [ref=e172] [cursor=pointer]:
+            - img "Header Avatar" [ref=e174]
+    - generic [ref=e183]:
+      - text: 
+      - generic [ref=e185]:
+        - region "scrollable content" [ref=e190]:
+          - list [ref=e192]:
+            - listitem
+            - listitem [ref=e403]:
+              - link "" [ref=e432] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - text:    
+        - button "" [ref=e430] [cursor=pointer]
+    - generic [ref=e237]:
+      - generic [ref=e433]:
+        - generic [ref=e436]:
+          - heading "Corporate Maintenance" [level=3] [ref=e439]
+          - toolbar "Grid actions" [ref=e443]:
+            - button "New Account" [ref=e445] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e446]: 󰐕
+            - button "Refresh" [ref=e449] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e450]: 󰑐
+        - generic [ref=e455]:
+          - generic [ref=e458]:
+            - textbox "Search" [ref=e459]
+            - generic [ref=e460]: 󰍉
+            - button "All 󰅀" [ref=e462] [cursor=pointer]:
+              - text: All
+              - generic [ref=e463]: 󰅀
+          - generic [ref=e465]:
+            - 'button "Total: 1" [disabled]'
+            - generic [ref=e467]:
+              - generic [ref=e468]:
+                - radio "" [checked]
+                - generic [ref=e469] [cursor=pointer]: 
+              - generic [ref=e472]:
+                - radio ""
+                - generic [ref=e473] [cursor=pointer]: 
+        - generic [ref=e487]:
+          - generic [ref=e488]: BD
+          - generic [ref=e492]:
+            - generic [ref=e493]:
+              - heading "BDAS" [level=6] [ref=e494]
+              - generic [ref=e495]: CORP
+            - generic [ref=e496]: BIJOY DAS
+            - generic [ref=e498]: bijoy1@prologicfirst.com
+          - generic [ref=e501]:
+            - button "Card actions" [ref=e502] [cursor=pointer]:
+              - generic [ref=e503]: 󰇙
+            - text: 󰛐
+      - contentinfo [ref=e349]:
+        - generic [ref=e351]:
+          - 'heading "Property Id: WDUBI, User Id: Sachin Kumar, Shift: 3, Business Date: 06/12/2025" [level=6] [ref=e353]'
+          - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e356]
+  - generic: 󰅒

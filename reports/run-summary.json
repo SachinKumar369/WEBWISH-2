@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-10-06T05:12:15.187Z",
-  "runStatus": "failed",
-  "totalDurationMs": 67655,
-  "totalTests": 1,
-  "passed": 0,
-  "failed": 1,
+  "timestamp": "2026-10-20T05:44:32.332Z",
+  "runStatus": "passed",
+  "totalDurationMs": 106567,
+  "totalTests": 4,
+  "passed": 4,
+  "failed": 0,
   "skipped": 0,
   "timedOut": 0,
   "interrupted": 0,
   "retriedPassed": 0,
-  "passRate": 0,
+  "passRate": 100,
   "environment": "dev",
   "browser": "mixed",
   "reports": {
@@ -18,40 +18,51 @@
     "junit": "test-results/junit.xml",
     "json": "test-results/test-results.json"
   },
-  "failedTests": [
-    {
-      "title": "AGENT_ALLOT_001: Allocate rooms to an agent via Allotment and check availability",
-      "fullTitle": " > chromium > Availability\\agent-allotment.spec.ts > Availability - Agent Allotment (Allocate Rooms) > AGENT_ALLOT_001: Allocate rooms to an agent via Allotment and check availability",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\Availability\\agent-allotment.spec.ts",
-      "project": "chromium",
-      "status": "failed",
-      "expectedStatus": "passed",
-      "durationMs": 64706,
-      "retry": 0,
-      "error": "Error: BUG: availability for DGT on 02/07/2025 did NOT decrease after allotting 5 rooms (before=117, after=117)\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m117\u001b[39m\nReceived:   \u001b[31m117\u001b[39m",
-      "attachments": [
-        "E:\\Automation Project\\WebWish 2\\test-results\\Availability-agent-allotme-18c27-ment-and-check-availability-chromium\\test-failed-1.png",
-        "E:\\Automation Project\\WebWish 2\\test-results\\Availability-agent-allotme-18c27-ment-and-check-availability-chromium\\video.webm",
-        "E:\\Automation Project\\WebWish 2\\test-results\\Availability-agent-allotme-18c27-ment-and-check-availability-chromium\\error-context.md"
-      ]
-    }
-  ],
+  "failedTests": [],
   "tests": [
     {
-      "title": "AGENT_ALLOT_001: Allocate rooms to an agent via Allotment and check availability",
-      "fullTitle": " > chromium > Availability\\agent-allotment.spec.ts > Availability - Agent Allotment (Allocate Rooms) > AGENT_ALLOT_001: Allocate rooms to an agent via Allotment and check availability",
-      "file": "E:\\Automation Project\\WebWish 2\\tests\\Availability\\agent-allotment.spec.ts",
+      "title": "CXL_RTC_001: Capture availability of every room type before the booking",
+      "fullTitle": " > chromium > Availability\\cancel-after-room-type-change-availability.spec.ts > Availability - Cancel a reservation after its room type was changed > CXL_RTC_001: Capture availability of every room type before the booking",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\Availability\\cancel-after-room-type-change-availability.spec.ts",
       "project": "chromium",
-      "status": "failed",
+      "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 64706,
+      "durationMs": 11966,
       "retry": 0,
-      "error": "Error: BUG: availability for DGT on 02/07/2025 did NOT decrease after allotting 5 rooms (before=117, after=117)\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m117\u001b[39m\nReceived:   \u001b[31m117\u001b[39m",
-      "attachments": [
-        "E:\\Automation Project\\WebWish 2\\test-results\\Availability-agent-allotme-18c27-ment-and-check-availability-chromium\\test-failed-1.png",
-        "E:\\Automation Project\\WebWish 2\\test-results\\Availability-agent-allotme-18c27-ment-and-check-availability-chromium\\video.webm",
-        "E:\\Automation Project\\WebWish 2\\test-results\\Availability-agent-allotme-18c27-ment-and-check-availability-chromium\\error-context.md"
-      ]
+      "attachments": []
+    },
+    {
+      "title": "CXL_RTC_002: Book a room and change its room type before cancelling",
+      "fullTitle": " > chromium > Availability\\cancel-after-room-type-change-availability.spec.ts > Availability - Cancel a reservation after its room type was changed > CXL_RTC_002: Book a room and change its room type before cancelling",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\Availability\\cancel-after-room-type-change-availability.spec.ts",
+      "project": "chromium",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 74193,
+      "retry": 0,
+      "attachments": []
+    },
+    {
+      "title": "CXL_RTC_003: Cancel the reservation after the room type change",
+      "fullTitle": " > chromium > Availability\\cancel-after-room-type-change-availability.spec.ts > Availability - Cancel a reservation after its room type was changed > CXL_RTC_003: Cancel the reservation after the room type change",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\Availability\\cancel-after-room-type-change-availability.spec.ts",
+      "project": "chromium",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 8433,
+      "retry": 0,
+      "attachments": []
+    },
+    {
+      "title": "CXL_RTC_004: Verify every room type is back to the baseline after the cancellation",
+      "fullTitle": " > chromium > Availability\\cancel-after-room-type-change-availability.spec.ts > Availability - Cancel a reservation after its room type was changed > CXL_RTC_004: Verify every room type is back to the baseline after the cancellation",
+      "file": "E:\\Automation Project\\WebWish 2\\tests\\Availability\\cancel-after-room-type-change-availability.spec.ts",
+      "project": "chromium",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 4798,
+      "retry": 0,
+      "attachments": []
     }
   ]
 }

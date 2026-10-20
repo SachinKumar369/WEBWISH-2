@@ -15,6 +15,9 @@ process.env.MAXIMIZE_BROWSER = process.env.MAXIMIZE_BROWSER ?? 'true';
 const runHeaded = process.env.HEADED === 'true';
 const maximizeBrowser = process.env.MAXIMIZE_BROWSER === 'true';
 const launchArgs = maximizeBrowser ? ['--start-maximized'] : [];
+// Headed: viewport null → page fills the maximized window.
+// Headless can't maximize (it would render at ~800×600), so use a full-HD viewport instead.
+const maximizedViewport = runHeaded ? null : { width: 1920, height: 1080 };
 //const configuredRetries = Number(process.env.PLAYWRIGHT_RETRIES ?? (process.env.CI ? 2 : 1));
 //const retries = Number.isFinite(configuredRetries) && configuredRetries >= 0 ? configuredRetries : 1;
 
@@ -22,6 +25,7 @@ const chromiumUse = maximizeBrowser
   ? {
       browserName: 'chromium' as const,
       headless: !runHeaded,
+      //viewport: maximizedViewport,
       viewport: null,
       launchOptions: { args: launchArgs }
     }
@@ -30,11 +34,12 @@ const chromiumUse = maximizeBrowser
       headless: !runHeaded
     };
 
+
 const firefoxUse = maximizeBrowser
   ? {
       browserName: 'firefox' as const,
       headless: !runHeaded,
-      viewport: null,
+      viewport: maximizedViewport,
       launchOptions: { args: launchArgs }
     }
   : {
@@ -46,7 +51,7 @@ const webkitUse = maximizeBrowser
   ? {
       browserName: 'webkit' as const,
       headless: !runHeaded,
-      viewport: null,
+      viewport: maximizedViewport,
       launchOptions: { args: launchArgs }
     }
   : {
@@ -97,7 +102,7 @@ export default defineConfig({
     actionTimeout: 10000,
     navigationTimeout: 100000,
     storageState: './storageState.json',
-    viewport: maximizeBrowser ? null : undefined,
+    viewport: maximizeBrowser ? maximizedViewport : undefined,
     launchOptions: {
       args: launchArgs,
     }

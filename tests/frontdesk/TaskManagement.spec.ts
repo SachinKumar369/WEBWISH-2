@@ -18,7 +18,8 @@ test.describe.serial('Frontdesk - Task Management', () => {
 
   test.beforeAll(async ({ browser }) => {
 
-    context = await browser.newContext();
+    // viewport: null → page fills the maximized window (new contexts don't inherit the config viewport)
+    context = await browser.newContext({ viewport: process.env.MAXIMIZE_BROWSER === 'true' ? null : undefined });
     page = await context.newPage();
 
     loginPage = new LoginPage(page, context);

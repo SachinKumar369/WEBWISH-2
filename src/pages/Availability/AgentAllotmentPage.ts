@@ -146,6 +146,15 @@ export class AgentAllotmentPage extends BasePage {
     logger.info(`Agent opened: ${this.page.url()}`);
   }
 
+  /**
+   * Whether the current page is an agent detail page (has the Sections dropdown).
+   * Used by AGENT_MODIFY_002 to decide whether it can continue directly or must
+   * re-open the agent from the grid (still without logging in again).
+   */
+  async isOnAgentDetailPage(): Promise<boolean> {
+    return await this.elementActions.isElementVisible(this.sectionsButton, 'Sections button');
+  }
+
   // ──────────────────────────────────────────────────────────────
   //  Availability (watch / eye icon → Quick Access → Availability)
   // ──────────────────────────────────────────────────────────────
@@ -393,6 +402,79 @@ export class AgentAllotmentPage extends BasePage {
   async addAllotment(details: AllotmentDetails, snapshot?: AvailabilitySnapshot): Promise<string> {
     await this.openAddAllotmentForm();
     return this.fillAndSaveAllotment(details, snapshot);
+  }
+
+  /**
+   * Click the pencil/edit icon on the first allotment row to open the edit form.
+   */
+  async openEditAllotmentForm(): Promise<void> {
+    logger.info('Opening edit-allotment form (pencil icon)');
+
+    // The pencil/edit icon is `.bx.bx-edit-alt` inside the allotment row's action cell.
+    const editIcon = this.allotmentDialog.locator('.bx.bx-edit-alt').first();
+    await this.elementActions.click(editIcon, 'Allotment row edit (pencil) icon');
+    await this.page.waitForTimeout(800);
+
+    await this.elementActions.waitForElement(this.allotmentFormDialog, 10000, 'Edit allotment form');
+    logger.info('Edit allotment form opened');
+  }
+
+  /**
+   * Edit the Blocked count of an existing allotment.
+   *
+   * Flow (verified on WEBWE):
+   *  1. Click the pencil icon on the allotment row — the edit form opens pre-filled.
+   *  2. Change the Blocked field.
+   *  3. Click "Update" (NOT "Save" — the edit form uses Update/Delete/Close).
+   *  4. Confirm the success dialog.
+   *  5. IMPORTANT: the edit form STAYS OPEN after Update — close it explicitly.
+   *
+   * @param newBlocked - the new blocked-room count (e.g. change 5 → 10).
+   */
+  async editAllotmentBlocked(newBlocked: number): Promise<void> {
+    logger.info(`Editing allotment: setting Blocked to ${newBlocked}`);
+
+    await this.openEditAllotmentForm();
+
+    const form = this.allotmentFormDialog;
+
+    // Blocked — text input next to the "Blocked*" label-control (pre-filled with the old value).
+    const blockedInput = form.locator('div:has(> label-control:has-text("Blocked")) input');
+    await this.elementActions.sendKeys(blockedInput, String(newBlocked), 'Blocked value (edit)');
+
+    // Update — exact match so we don't hit Delete or Close.
+    await this.elementActions.click(form.getByRole('button', { name: 'Update', exact: true }), 'Update allotment');
+
+    await this.confirmSuccessAndClose();
+
+    // The edit form STAYS OPEN after Update — close it explicitly.
+    const closeBtn = form.getByRole('button', { name: 'Close' });
+    if (await closeBtn.isVisible().catch(() => false)) {
+      await this.elementActions.click(closeBtn, 'Edit allotment form Close');
+      await this.page.waitForTimeout(800);
+    }
+
+    logger.info(`Allotment updated: Blocked = ${newBlocked}`);
+  }
+
+  /**
+   * Verify the Blocked value shown in the allotment grid row.
+   * Parses the row cells: [checkbox, DateFrom, DateTo, RoomType, Blocked, actions].
+   */
+  async verifyAllotmentBlocked(expectedBlocked: number): Promise<boolean> {
+    const rows = await this.allotmentDialog.locator('tr').all();
+    for (const row of rows) {
+      const cells = (await row.locator('td').allTextContents()).map((c) => c.trim());
+      // The data row has 6 cells and its second cell is a DD/MM/YYYY date.
+      if (cells.length >= 5 && /^\d{2}\/\d{2}\/\d{4}$/.test(cells[1] ?? '')) {
+        const blocked = cells[4];
+        const visible = blocked === String(expectedBlocked);
+        logger.info(`Allotment row Blocked=${blocked} (expected ${expectedBlocked}) → ${visible}`);
+        return visible;
+      }
+    }
+    logger.warn('No allotment data row found in the grid');
+    return false;
   }
 
   /**

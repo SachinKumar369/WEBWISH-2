@@ -1,0 +1,28 @@
+[    1249ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://qc2webwish.prologicfirst.in/Webwish_APP/login/z6cQJcxmrEbhhFXqdoj64Q%3D%3D:0
+[   50611ms] [ERROR] Connecting to 'https://api.ipify.org/?format=json' violates the following Content Security Policy directive: "connect-src 'self' https://qc2.prologicfirst.in". The action has been blocked. @ https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:0
+[   50612ms] [ERROR] Fetch API cannot load https://api.ipify.org/?format=json. Refused to connect because it violates the document's Content Security Policy. @ https://qc2webwish.prologicfirst.in/Webwish_APP/polyfills.ad4bdea60f64b0c1.js:0
+[   50620ms] [ERROR] Running the JavaScript URL violates the following Content Security Policy directive 'script-src 'self' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked. @ https://qc2webwish.prologicfirst.in/Webwish_APP/select-property:0
+[   65489ms] [ERROR] Running the JavaScript URL violates the following Content Security Policy directive 'script-src 'self' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/dashboard:0
+[   68591ms] [ERROR] Running the JavaScript URL violates the following Content Security Policy directive 'script-src 'self' 'unsafe-eval''. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked. @ https://qc2webwish.prologicfirst.in/Webwish_APP/pms/Marketing/MKTG_MKT25A:0
+[  135460ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'setUserRights')
+    at s.onLoadData (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038590)
+    at s.setUserRights (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038920)
+    at s.ngOnInit (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038224)
+    at T_ (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081864)
+    at hh (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1082021)
+    at Fc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081765)
+    at Oc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081469)
+    at v0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1127548)
+    at re (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128692)
+    at b0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128522) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8
+[  135461ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'setUserRights')
+    at s.onLoadData (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038590)
+    at s.setUserRights (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038920)
+    at s.ngOnInit (https://qc2webwish.prologicfirst.in/Webwish_APP/219.a6fc201f09c24a25.js:1:1038224)
+    at T_ (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081864)
+    at hh (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1082021)
+    at Fc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081765)
+    at Oc (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1081469)
+    at v0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1127548)
+    at re (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128692)
+    at b0 (https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:9:1128522) @ https://qc2webwish.prologicfirst.in/Webwish_APP/main.b2202237422d332b.js:8

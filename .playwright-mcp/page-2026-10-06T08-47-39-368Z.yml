@@ -1,0 +1,270 @@
+- generic [ref=e1]:
+  - generic [ref=e134]:
+    - generic [ref=e135]:
+      - banner [ref=e136]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - link [ref=e141] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e145]:
+              - textbox "Search..." [ref=e146]: 󰅀
+              - generic [ref=e147]: 󰍉
+          - heading "Webwish Hotel" [level=5] [ref=e149]
+          - generic [ref=e150]:
+            - button "󰅒" [ref=e152] [cursor=pointer]
+            - button "" [ref=e155] [cursor=pointer]
+            - button "" [ref=e158] [cursor=pointer]
+            - button " 3" [ref=e161] [cursor=pointer]:
+              - generic "Change Shift" [ref=e162]: 
+              - generic [ref=e163]: "3"
+            - generic [ref=e164]:
+              - button "" [ref=e165] [cursor=pointer]:
+                - generic "Notifications" [ref=e166]: 
+              - text:  
+            - generic [ref=e167]:
+              - button [ref=e168] [cursor=pointer]:
+                - img "Header Avatar" [ref=e170]
+              - text: 󰀉  󰀉 󰻨 󰀋 󰀋 󰍃
+            - button [ref=e172] [cursor=pointer]:
+              - img "Header Avatar" [ref=e174]
+      - generic [ref=e183]:
+        - text: 
+        - generic [ref=e185]:
+          - region "scrollable content" [ref=e190]:
+            - list [ref=e192]:
+              - listitem
+              - listitem [ref=e403]:
+                - link "" [ref=e432] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                - text:    
+          - button "" [ref=e430] [cursor=pointer]
+      - generic [ref=e237]:
+        - generic [ref=e433]:
+          - generic [ref=e436]:
+            - heading "Agent Maintenance" [level=3] [ref=e439]
+            - toolbar "Grid actions" [ref=e443]:
+              - button "Sections" [expanded] [active] [ref=e1127] [cursor=pointer]
+              - button "Search" [ref=e1131] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e1132]: 󱎸
+              - button "Refresh" [ref=e449] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e450]: 󰑐
+              - button "Log" [ref=e1135] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e1136]: 󰋚
+          - generic [ref=e1142]:
+            - generic [ref=e1144]:
+              - generic [ref=e1146]:
+                - generic [ref=e1148]:
+                  - heading "Profile Info" [level=5] [ref=e1152]
+                  - button "󰲶" [ref=e1157] [cursor=pointer]
+                - generic [ref=e1163]:
+                  - generic [ref=e1166]:
+                    - generic [ref=e1167]: Id
+                    - heading "AGT86729" [level=6] [ref=e1168]
+                  - generic [ref=e1171]:
+                    - generic [ref=e1172]: Name
+                    - heading "Agent_867294" [level=6] [ref=e1173]
+                  - generic [ref=e1176]:
+                    - generic [ref=e1177]: Legal Name
+                    - heading "Agent_867294 Legal" [level=6] [ref=e1178]
+                  - generic [ref=e1181]:
+                    - generic [ref=e1182]: Ar Id
+                    - heading [level=6]
+                  - generic [ref=e1185]:
+                    - generic [ref=e1186]: Sales Executive
+                    - heading [level=6]
+                  - generic [ref=e1189]:
+                    - generic [ref=e1190]: Market Segment
+                    - heading [level=6]
+                  - generic [ref=e1193]:
+                    - generic [ref=e1194]: Industry
+                    - heading [level=6]
+                  - generic [ref=e1197]:
+                    - generic [ref=e1198]: Importance Ind
+                    - heading [level=6]
+                  - generic [ref=e1201]:
+                    - generic [ref=e1202]: Main Head
+                    - heading "OT" [level=6] [ref=e1203]
+                  - generic [ref=e1206]:
+                    - generic [ref=e1207]: Other Reference No
+                    - heading [level=6]
+                  - generic [ref=e1210]:
+                    - generic [ref=e1211]: Vat/Fiscal No.
+                    - heading [level=6]
+                  - generic [ref=e1214]:
+                    - generic [ref=e1215]: GSTIN Number
+                    - heading [level=6]
+                  - generic [ref=e1218]:
+                    - generic [ref=e1219]: Pan Number
+                    - heading [level=6]
+              - generic [ref=e1221]:
+                - heading "Address" [level=5] [ref=e1227]
+                - generic [ref=e1231]:
+                  - generic [ref=e1232]:
+                    - generic [ref=e1235]:
+                      - generic [ref=e1236]: Address1
+                      - heading "123 Test Street" [level=6] [ref=e1237]
+                    - generic [ref=e1240]:
+                      - generic [ref=e1241]: Address2
+                      - heading [level=6]
+                    - generic [ref=e1244]:
+                      - generic [ref=e1245]: Address3
+                      - heading [level=6]
+                    - generic [ref=e1248]:
+                      - generic [ref=e1249]: Country
+                      - heading "AE" [level=6] [ref=e1250]
+                    - generic [ref=e1253]:
+                      - generic [ref=e1254]: State
+                      - heading [level=6]
+                    - generic [ref=e1257]:
+                      - generic [ref=e1258]: City
+                      - heading [level=6]
+                    - generic [ref=e1261]:
+                      - generic [ref=e1262]: Zip
+                      - heading [level=6]
+                  - generic [ref=e1263]:
+                    - heading "Contact Details" [level=5] [ref=e1268]
+                    - generic [ref=e1271]:
+                      - generic [ref=e1272]: Phone No. 1
+                      - heading [level=6]
+                    - generic [ref=e1275]:
+                      - generic [ref=e1276]: Phone No. 2
+                      - heading [level=6]
+                    - generic [ref=e1279]:
+                      - generic [ref=e1280]: Mobile
+                      - heading [level=6]
+                    - generic [ref=e1283]:
+                      - generic [ref=e1284]: Email
+                      - heading [level=6]
+                    - generic [ref=e1287]:
+                      - generic [ref=e1288]: Website
+                      - heading [level=6]
+            - generic [ref=e1289]:
+              - generic [ref=e1292]:
+                - generic [ref=e1294]:
+                  - heading "Defaults" [level=5] [ref=e1298]
+                  - button "󰲶" [ref=e1303] [cursor=pointer]
+                - generic [ref=e1309]:
+                  - generic [ref=e1312]:
+                    - generic [ref=e1313]: Currency
+                    - heading [level=6]
+                  - generic [ref=e1316]:
+                    - generic [ref=e1317]: Domicile Code
+                    - heading [level=6]
+                  - generic [ref=e1320]:
+                    - generic [ref=e1321]: Room Type
+                    - heading [level=6]
+                  - generic [ref=e1324]:
+                    - generic [ref=e1325]: Market Segment
+                    - heading [level=6]
+                  - generic [ref=e1328]:
+                    - generic [ref=e1329]: Guest Class
+                    - heading [level=6]
+                  - generic [ref=e1332]:
+                    - generic [ref=e1333]: Business Source
+                    - heading [level=6]
+                  - generic [ref=e1336]:
+                    - generic [ref=e1337]: Payment Method
+                    - heading [level=6]
+                  - generic [ref=e1340]:
+                    - generic [ref=e1341]: Cancellation Policy
+                    - heading [level=6]
+                  - generic [ref=e1344]:
+                    - generic [ref=e1345]: Language Code
+                    - heading [level=6]
+                  - generic [ref=e1348]:
+                    - generic [ref=e1349]: Deposit Due Days
+                    - heading "0" [level=6] [ref=e1350]
+                  - generic [ref=e1353]:
+                    - generic [ref=e1354]: Billing Inst.
+                    - heading [level=6]
+                  - generic [ref=e1357]:
+                    - generic [ref=e1358]: Comments
+                    - heading [level=6]
+              - generic [ref=e1361]:
+                - generic [ref=e1363]:
+                  - heading "Other Details" [level=5] [ref=e1367]
+                  - button "󰲶" [ref=e1372] [cursor=pointer]
+                - generic [ref=e1378]:
+                  - generic [ref=e1381]:
+                    - generic [ref=e1382]: Conference Business Potential
+                    - heading [level=6]
+                  - generic [ref=e1385]:
+                    - generic [ref=e1386]: Conference Requirements
+                    - heading [level=6]
+                  - generic [ref=e1389]:
+                    - generic [ref=e1390]: Competition Usage
+                    - heading [level=6]
+                  - generic [ref=e1393]:
+                    - generic [ref=e1394]: Company Size
+                    - heading [level=6]
+              - generic [ref=e1397]:
+                - generic [ref=e1399]:
+                  - heading "Options" [level=5] [ref=e1403]
+                  - button "󰆓 Update" [ref=e1407] [cursor=pointer]:
+                    - generic [ref=e1408]:
+                      - generic [ref=e1409]: 󰆓
+                      - text: Update
+                - table [ref=e1416]:
+                  - rowgroup [ref=e1417]:
+                    - row [ref=e1418]:
+                      - columnheader "Option" [ref=e1419]
+                      - columnheader "Description" [ref=e1420]
+                      - columnheader "Value" [ref=e1421]
+                  - rowgroup [ref=e1422]:
+                    - row [ref=e1423]:
+                      - cell "ADAG" [ref=e1424]
+                      - cell "Adult age starting from" [ref=e1427]
+                      - cell [ref=e1430]:
+                        - textbox [ref=e1432]
+                    - row [ref=e1433]:
+                      - cell "FXCV" [ref=e1434]
+                      - cell "FX Convert Rate EC/ET/BC/BT/SC/ST" [ref=e1437]
+                      - cell "--select--" [ref=e1440]:
+                        - generic [ref=e1443]:
+                          - generic [ref=e1444]:
+                            - generic [ref=e1445]: "--select--"
+                            - combobox [ref=e1446]:
+                              - textbox [ref=e1447]
+                          - generic [ref=e1448] [cursor=pointer]
+                    - row [ref=e1449]:
+                      - cell "FXRT" [ref=e1450]
+                      - cell "Fx Conversion Rate (A)rrival/(D)aily/(M)onth Begin" [ref=e1453]
+                      - cell "--select--" [ref=e1456]:
+                        - generic [ref=e1459]:
+                          - generic [ref=e1460]:
+                            - generic [ref=e1461]: "--select--"
+                            - combobox [ref=e1462]:
+                              - textbox [ref=e1463]
+                          - generic [ref=e1464] [cursor=pointer]
+                    - row [ref=e1465]:
+                      - cell "MAGZ" [ref=e1466]
+                      - cell "Subscribe Magazine" [ref=e1469]
+                      - cell "No" [ref=e1472]:
+                        - generic [ref=e1473]:
+                          - checkbox "No" [ref=e1474] [cursor=pointer]
+                          - generic [ref=e1475] [cursor=pointer]: "No"
+                    - row [ref=e1476]:
+                      - cell "TYPE" [ref=e1477]
+                      - cell "Travel Agent Type" [ref=e1480]
+                      - cell "TA TravelAgent" [ref=e1483]:
+                        - generic [ref=e1486]:
+                          - generic [ref=e1487]:
+                            - generic [ref=e1490]:
+                              - generic [ref=e1491]: TA
+                              - generic "TravelAgent" [ref=e1492]
+                            - combobox [ref=e1493]:
+                              - textbox [ref=e1494]
+                          - generic [ref=e1495] [cursor=pointer]
+        - contentinfo [ref=e349]:
+          - generic [ref=e351]:
+            - 'heading "Property Id: WEBWE, User Id: Sachin Kumar, Shift: 3, Business Date: 02/07/2025" [level=6] [ref=e353]'
+            - heading "2026 © Prologic First India Pvt. Ltd." [level=6] [ref=e356]
+    - generic: 󰅒
+  - menu "Sections" [ref=e1497]:
+    - menuitem "Allotment" [ref=e1498] [cursor=pointer]
+    - menuitem "Reservation Details" [ref=e1499] [cursor=pointer]
+    - menuitem "Contact Details" [ref=e1500] [cursor=pointer]
+    - menuitem "Contracts" [ref=e1501] [cursor=pointer]
+    - menuitem "Call Logs" [ref=e1502] [cursor=pointer]
+    - menuitem "Language Setup" [ref=e1503] [cursor=pointer]
+    - menuitem "Discount Mask" [ref=e1504] [cursor=pointer]
